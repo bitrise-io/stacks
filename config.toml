@@ -1,0 +1,21 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Bitrise Stacks'
+theme = 'archie'
+
+[params]
+	customcss = ["css/bitrise.css"]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	mathjax = false # enable MathJax support
+	katex = false # enable KaTeX support
+
+[taxonomies]
+	tag = "tags"
+	categories = "categories"
+
+	platform = "platform"
+	architecture = "architecture"
+	xcode = "xcode_version"
+

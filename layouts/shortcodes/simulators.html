@@ -1,0 +1,15 @@
+{{ $jsonPath := .Get "filepath" }}
+{{ $json := getJSON $jsonPath }}
+
+<h3>Devices and runtimes</h3>
+{{ range $deviceType, $devices := $json.devices }}
+    <details>
+        {{ $runtime := index (where $json.runtimes "identifier" $deviceType) 0 }}
+        <summary>{{ $runtime.name }}</summary>
+        <ul>
+        {{ range $devices }}
+            <li>{{ .name }}</li>
+        {{ end }}
+        </ul>
+    </details>
+{{ end }}
