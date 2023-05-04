@@ -1,0 +1,19 @@
+{{ $toolName := .Get "tool" }}
+
+<!-- Iterate over data files and read version_managers.json from each dorectory -->
+{{ range $dir := (readDir "data") }}
+    <h3>{{ $dir.Name }}</h3>
+    {{ $jsonPath := printf "data/%s/%s" $dir.Name "version_managers.json" }}
+    {{ $json := getJSON $jsonPath }}
+    {{ $tool := index $json $toolName }}
+    <p>Installed versions:</p>
+    <ul>
+    {{ range $version := $tool.installed_versions }}
+        {{ if $version.is_default }}
+            <li><strong>{{ $version.version }} (DEFAULT)</strong></li>
+        {{ else }}
+            <li>{{ $version.version }}</li>
+        {{ end }}
+    {{ end }}
+    </ul>
+{{ end }}

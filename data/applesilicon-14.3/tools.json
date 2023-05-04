@@ -1,0 +1,196 @@
+{
+    "tools": [
+        {
+            "name": "git-lfs",
+            "path": "/usr/bin/git-lfs version",
+            "version": "3.1.4",
+            "raw": "git-lfs/3.1.4 (GitHub; linux arm64; go 1.18.1)",
+            "category": "tools"
+        },
+        {
+            "name": "ansible",
+            "path": "/usr/bin/ansible --version",
+            "version": "3.10",
+            "raw": "/usr/lib/python3.10/site-packages/paramiko/transport.py:236: CryptographyDeprecationWarning: Blowfish has been deprecated\n  \"class\": algorithms.Blowfish,\nansible [core 2.12.5]\n  config file = /etc/ansible/ansible.cfg\n  configured module search path = ['/home/tomash/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']\n  ansible python module location = /usr/lib/python3.10/site-packages/ansible\n  ansible collection location = /home/tomash/.ansible/collections:/usr/share/ansible/collections\n  executable location = /usr/bin/ansible\n  python version = 3.10.4 (main, Mar 27 2022, 17:48:11) [GCC 11.2.0]\n  jinja version = 3.0.3\n  libyaml = True",
+            "category": "tools"
+        },
+        {
+            "name": "convert",
+            "path": "/usr/bin/convert --version",
+            "version": "7.1.0",
+            "raw": "Version: ImageMagick 7.1.0-33 Q16-HDRI aarch64 20040 https://imagemagick.org\nCopyright: (C) 1999 ImageMagick Studio LLC\nLicense: https://imagemagick.org/script/license.php\nFeatures: Cipher DPC HDRI Modules OpenCL OpenMP(4.5) \nDelegates (built-in): bzlib cairo djvu fontconfig freetype heic jbig jng jp2 jpeg jxl lcms lqr ltdl lzma openexr pangocairo png raqm raw rsvg tiff webp wmf x xml zip zlib\nCompiler: gcc (11.2)",
+            "category": "tools"
+        },
+        {
+            "name": "go",
+            "path": "/usr/bin/go version",
+            "version": "1.18.1",
+            "raw": "go version go1.18.1 linux/arm64",
+            "category": "tools"
+        },
+        {
+            "name": "tree",
+            "path": "/usr/bin/tree --version",
+            "version": "2.0.2",
+            "raw": "tree v2.0.2 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro",
+            "category": "tools"
+        },
+        {
+            "name": "wget",
+            "path": "/usr/bin/wget --version",
+            "version": "1.21.3",
+            "raw": "GNU Wget 1.21.3 built on linux-gnu.\n\n-cares +digest -gpgme +https +ipv6 +iri +large-file -metalink +nls \n+ntlm +opie +psl +ssl/gnutls \n\nWgetrc: \n    /etc/wgetrc (system)\nLocale: \n    /usr/share/locale \nCompile: \n    gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" \n    -DLOCALEDIR=\"/usr/share/locale\" -I. -I../lib -I../lib \n    -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG -march=armv8-a \n    -O2 -pipe -fstack-protector-strong -fno-plt -fexceptions \n    -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security \n    -fstack-clash-protection \nLink: \n    gcc -I/usr/include/p11-kit-1 -DHAVE_LIBGNUTLS -DNDEBUG \n    -march=armv8-a -O2 -pipe -fstack-protector-strong -fno-plt \n    -fexceptions -Wp,-D_FORTIFY_SOURCE=2 -Wformat \n    -Werror=format-security -fstack-clash-protection \n    -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -lpcre2-8 -luuid \n    -lidn2 -lnettle -lgnutls -lz -lpsl ../lib/libgnu.a \n    /usr/lib/libunistring.so \n\nCopyright (C) 2015 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later\n\u003chttp://www.gnu.org/licenses/gpl.html\u003e.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nOriginally written by Hrvoje Niksic \u003chniksic@xemacs.org\u003e.\nPlease send bug reports and questions to \u003cbug-wget@gnu.org\u003e.",
+            "category": "tools"
+        },
+        {
+            "name": "unzip",
+            "path": "/usr/bin/unzip -v",
+            "version": "6.00",
+            "raw": "UnZip 6.00 of 20 April 2009, by Info-ZIP.  Maintained by C. Spieler.  Send\nbug reports using http://www.info-zip.org/zip-bug.html; see README for details.\n\nLatest sources and executables are at ftp://ftp.info-zip.org/pub/infozip/ ;\nsee ftp://ftp.info-zip.org/pub/infozip/UnZip.html for other sites.\n\nCompiled with gcc 11.2.0 for Unix (Linux ELF) on Feb 16 2022.\n\nUnZip special compilation options:\n        ACORN_FTYPE_NFS\n        COPYRIGHT_CLEAN (PKZIP 0.9x unreducing method not supported)\n        SET_DIR_ATTRIB\n        SYMLINKS (symbolic links supported, if RTL and file system permit)\n        TIMESTAMP\n        UNIXBACKUP\n        USE_EF_UT_TIME\n        USE_UNSHRINK (PKZIP/Zip 1.x unshrinking method supported)\n        USE_DEFLATE64 (PKZIP 4.x Deflate64(tm) supported)\n        UNICODE_SUPPORT [wide-chars, char coding: UTF-8] (handle UTF-8 paths)\n        LARGE_FILE_SUPPORT (large files over 2 GiB supported)\n        ZIP64_SUPPORT (archives using Zip64 for large files supported)\n        USE_BZIP2 (PKZIP 4.6+, using bzip2 lib version 1.0.8, 13-Jul-2019)\n        VMS_TEXT_CONV\n        WILD_STOP_AT_DIR\n        [decryption, version 2.11 of 05 Jan 2007]\n\nUnZip and ZipInfo environment options:\n           UNZIP:  [none]\n        UNZIPOPT:  [none]\n         ZIPINFO:  [none]\n      ZIPINFOOPT:  [none]",
+            "category": "tools"
+        },
+        {
+            "name": "tar",
+            "path": "/usr/bin/tar --version",
+            "version": "1.34",
+            "raw": "tar (GNU tar) 1.34\nCopyright (C) 2021 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later \u003chttps://gnu.org/licenses/gpl.html\u003e.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by John Gilmore and Jay Fenlason.",
+            "category": "tools"
+        },
+        {
+            "name": "openconnect",
+            "path": "/usr/bin/openconnect --version",
+            "version": "9.01",
+            "raw": "OpenConnect version v9.01\nUsing GnuTLS 3.7.4. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /etc/vpnc/vpnc-script",
+            "category": "tools"
+        },
+        {
+            "name": "python",
+            "path": "/usr/local/bin/python --version",
+            "version": "2.7.18",
+            "raw": "Python 2.7.18",
+            "category": "tools"
+        },
+        {
+            "name": "git",
+            "path": "/usr/bin/git --version",
+            "version": "2.36.1",
+            "raw": "git version 2.36.1",
+            "category": "tools"
+        },
+        {
+            "name": "java",
+            "path": "/usr/bin/java --version",
+            "version": "17.0.3",
+            "raw": "openjdk 17.0.3 2022-04-19\nOpenJDK Runtime Environment (build 17.0.3+7)\nOpenJDK 64-Bit Server VM (build 17.0.3+7, mixed mode)",
+            "category": "tools"
+        },
+        {
+            "name": "curl",
+            "path": "/usr/bin/curl --version",
+            "version": "7.83.1",
+            "raw": "curl 7.83.1 (aarch64-unknown-linux-gnu) libcurl/7.83.1 OpenSSL/1.1.1o zlib/1.2.12 brotli/1.0.9 zstd/1.5.2 libidn2/2.3.2 libpsl/0.21.1 (+libidn2/2.3.0) libssh2/1.10.0 nghttp2/1.47.0\nRelease-Date: 2022-05-11\nProtocols: dict file ftp ftps gopher gophers http https imap imaps mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp \nFeatures: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM NTLM_WB PSL SPNEGO SSL TLS-SRP UnixSockets zstd",
+            "category": "tools"
+        },
+        {
+            "name": "jq",
+            "path": "/usr/bin/jq --version",
+            "version": "1.6",
+            "raw": "jq-1.6",
+            "category": "tools"
+        }
+    ],
+    "errors": [
+        {
+            "name": "yarn",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "screen",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "xclogparser",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "openvpn",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "rsync",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "watchman",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "carthage",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "ps2ascii",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "aws",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "cmake",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "danger-swift",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "node",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "npm",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "fvm",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "hg",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "gtimeout",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "applesimutils",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "jenv",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "flutter",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "brew",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "flow",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "firebase",
+            "error": "Tool not installed, or not in $PATH"
+        },
+        {
+            "name": "xcbeautify",
+            "error": "Tool not installed, or not in $PATH"
+        }
+    ]
+}
