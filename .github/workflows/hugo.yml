@@ -33,13 +33,13 @@ jobs:
     env:
       HUGO_VERSION: 0.111.3
     steps:
-      - name: Install Hugo CLI
-        run: |
-          go install -tags extended github.com/gohugoio/hugo@v$HUGO_VERSION
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.111.3'
+          extended: true
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
