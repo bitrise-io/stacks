@@ -35,7 +35,7 @@ jobs:
     steps:
       - name: Install Hugo CLI
         run: |
-          go install -tags extended github.com/gohugoio/hugo@${{ HUGO_VERSION }}
+          go install -tags extended github.com/gohugoio/hugo@$HUGO_VERSION
       - name: Checkout
         uses: actions/checkout@v3
         with:
