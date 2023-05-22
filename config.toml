@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Bitrise Stacks'
 theme = 'archie'
 
+sectionPagesMenu = "main"
+
 [params]
 	customcss = ["css/bitrise.css"]
 	mode="dark" # color-mode → light,dark,toggle or auto
