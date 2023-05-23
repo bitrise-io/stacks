@@ -1,0 +1,15 @@
+
+
+body {
+    --color-link: #760FC3;
+    --color-visited-link: #760FC3;
+}
+
+// TODO: fix dark theme
+@media (prefers-color-scheme: dark) {
+    body {
+        --color-link: #760FC3;
+        --color-visited-link: #760FC3;
+    }
+}
+
