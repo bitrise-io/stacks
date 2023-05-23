@@ -1,7 +1,6 @@
 {{ $jsonPath := .Get "filepath" }}
 {{ $json := getJSON $jsonPath }}
 
-<h3>OS</h3>
 <p>{{ $json.os_name }} {{ $json.os_version }}</p>
 <p>Build: {{ $json.os_build }}</p>
 <p>Architecture: {{ $json.os_arch }}</p>

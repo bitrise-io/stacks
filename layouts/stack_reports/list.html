@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ range sort .Paginator.Pages }}
+  <article class="markdown book-post">
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+    </h2>
+    {{ partial "stack_reports/post-meta" . }}
+  </article>
+  {{ end }}
+
+  {{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}

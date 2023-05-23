@@ -1,7 +1,6 @@
 {{ $jsonPath := .Get "filepath" }}
 {{ $json := getJSON $jsonPath }}
 
-<h3>Installed tools</h3>
 {{ range $tool := $json.tools }}
     <details>
         <summary>{{ $tool.name }} - {{ $tool.version }}</summary>
