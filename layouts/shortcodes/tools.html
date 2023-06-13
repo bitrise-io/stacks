@@ -1,13 +1,14 @@
 {{ $jsonPath := .Get "filepath" }}
 {{ $json := getJSON $jsonPath }}
 
-{{ range $tool := $json.tools }}
+{{ $category := index $json 0 }}
+{{ range $tool := $category.output.commands }}
     <details>
         <summary>{{ $tool.name }} - {{ $tool.version }}</summary>
         <pre>
-            {{- $tool.path }}
-            <br />
-            {{- $tool.raw }}
+$ {{ $tool.path }}
+<br />
+{{ $tool.raw }}
         </pre>
     </details>
 {{ end }}

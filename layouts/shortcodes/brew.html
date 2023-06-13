@@ -1,16 +1,10 @@
-{{ $leaves := readFile (.Get "leaves") }}
-{{ $tree := readFile (.Get "tree") }}
+{{ $file := readFile (.Get "filepath") }}
 
-<h3>Main packages</h3>
-
-<ul>
-{{ range split $leaves "\n" }}
-<li>{{ . }}</li>
-{{ end }}
-</ul>
-
-<h3>Package tree</h3>
 <details>
-    <summary>Click to expand</summary>
-    <pre>{{ $tree }}</pre>
+    <summary>All packages</summary>
+    <ul>
+    {{ range split $file "\n" }}
+    <li>{{ . }}</li>
+    {{ end }}
+    </ul>
 </details>

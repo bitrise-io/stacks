@@ -5,6 +5,11 @@ body {
     --color-visited-link: #760FC3;
 }
 
+.markdown pre {
+    font-size: 0.7rem;
+    line-height: 1.2;
+}
+
 // TODO: fix dark theme
 @media (prefers-color-scheme: dark) {
     body {

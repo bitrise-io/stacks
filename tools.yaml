@@ -46,7 +46,7 @@
       command: dart
       args: pub global list
       os: macos
-      parser: key-value-list
+      parser: none
     - name: Git
       command: git
     - name: Git LFS
@@ -56,33 +56,16 @@
       command: hg
       args: version
     - name: jq
-    - name: Carthage # TODO: move to Apple category?
-      command: carthage
-      args: "version"
-      os: macos
     - name: Firebase
       command: firebase
-    - name: applesimutils # TODO: move to Apple category?
-      args: -v
-      os: macos
-    - name: "xcbeautify"
-      os: "macos"
-    - name: "xclogparser"
-      args: "version"
-      os: "macos"
     - name: OpenConnect
       command: openconnect
     - name: AWS CLI
       command: aws
     - name: CMake
       command: cmake
-    - name: danger-swift
-      os: macos
     - name: OpenVPN
       command: openvpn
-    - name: Tuist
-      command: tuist
-      args: version
     - name: GCC
       command: gcc
       os: linux
@@ -104,23 +87,12 @@
     - name: Bitrise envman
       command: envman
 
-- category: brew
-  commands:
-    - name: Homebrew package list
-      command: brew
-      args: list --versions
-      parser: key-value-list
-      os: macos
-
 - category: ruby
   commands:
     - name: Ruby
       command: ruby
     - name: rbenv
       os: macos
-    - name: Cocoapods # TODO: move to Apple category?
-      command: pod
-    - name: "xcpretty"
     - name: All Ruby gems
       command: gem
       args: list
@@ -131,6 +103,7 @@
     - name: Global NPM packages
       command: npm
       args: list -g --depth=0
+      parser: key-value-list
 
 - category: apple
   commands:
@@ -144,12 +117,32 @@
       args: --print-path
       os: macos
       parser: none
-    - name: Installed SDKs
-      command: xcodebuild
-      args: -showsdks
+    - name: swift-format
       os: macos
-      parser: none
-- category: system
+    - name: Tuist
+      command: tuist
+      args: version
+    - name: Cocoapods
+      command: pod
+      os: macos
+    - name: Carthage
+      command: carthage
+      args: "version"
+      os: macos
+    - name: "xcpretty"
+      os: macos
+    - name: applesimutils
+      args: -v
+      os: macos
+    - name: danger-swift
+      os: macos
+    - name: "xcbeautify"
+      os: "macos"
+    - name: "xclogparser"
+      args: "version"
+      os: "macos"
+
+- category: os
   commands:
     - name: macOS system overview
       command: system_profiler

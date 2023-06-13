@@ -1,0 +1,31 @@
+[
+  {
+    "category": "bitrise",
+    "output": {
+      "commands": [
+        {
+          "name": "Bitrise CLI",
+          "path": "/usr/local/bin/bitrise --version",
+          "version": "2.2.5",
+          "raw": "2.2.5",
+          "category": "bitrise"
+        },
+        {
+          "name": "Bitrise stepman",
+          "path": "/Users/vagrant/.bitrise/tools/stepman --version",
+          "version": "0.16.0",
+          "raw": "0.16.0",
+          "category": "bitrise"
+        },
+        {
+          "name": "Bitrise envman",
+          "path": "/Users/vagrant/.bitrise/tools/envman --version",
+          "version": "2.4.0",
+          "raw": "2.4.0",
+          "category": "bitrise"
+        }
+      ],
+      "errors": null
+    }
+  }
+]

@@ -5,6 +5,14 @@ theme = 'hugo-book'
 
 sectionPagesMenu = "main"
 
+[taxonomies]
+# Syntax: singular = "plural"
+tag = "tags"
+category = "categories"
+platform = "platforms"
+architecture = "architectures"
+xcode_version = "xcode_versions"
+
 [params]
 # Book theme params
 
@@ -71,11 +79,3 @@ BookPortableLinks = true
 # /!\ This is an experimental feature, might be removed or changed at any time
 # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
 BookServiceWorker = false
-
-[taxonomies]
-tag = "tags"
-categories = "categories"
-
-platform = "platform"
-architecture = "architecture"
-xcode = "xcode_version"

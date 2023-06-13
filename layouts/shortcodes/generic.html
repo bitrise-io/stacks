@@ -1,0 +1,11 @@
+{{ $jsonPath := .Get "filepath" }}
+{{ $printRaw := .Get "raw" }}
+{{ $json := getJSON $jsonPath }}
+
+{{ $category := index $json 0 }}
+{{ range $command := $category.output.commands }}
+<p>{{ $command.name }} - {{ $command.version }}</p>
+{{ if $printRaw }}
+<pre>{{ $command.raw }}</pre>
+{{ end }}
+{{ end }}
