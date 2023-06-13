@@ -11,13 +11,13 @@
       args: version
     - name: Go versions
       command: asdf list golang  # need to load the asdf shell for this to work
-      parser: none
+      parser: noversion
       os: macos
     - name: Node.js
       command: node
     - name: Node.js versions
       command: asdf list nodejs  # need to load the asdf shell for this to work
-      parser: none
+      parser: noversion
       os: macos
     - name: NPM
       command: npm
@@ -30,7 +30,7 @@
     - name: Java versions
       command: jenv
       args: versions
-      parser: none
+      parser: noversion
       os: macos
     - name: Kotlin
       command: kotlin
@@ -46,7 +46,7 @@
       command: dart
       args: pub global list
       os: macos
-      parser: none
+      parser: noversion
     - name: Git
       command: git
     - name: Git LFS
@@ -96,14 +96,14 @@
     - name: All Ruby gems
       command: gem
       args: list
-      parser: key-value-list
+      parser: noversion
 
 - category: npm
   commands:
     - name: Global NPM packages
       command: npm
       args: list -g --depth=0
-      parser: key-value-list
+      parser: noversion
 
 - category: apple
   commands:
@@ -111,12 +111,12 @@
       command: xcrun
       args: swift --version
       os: macos
-      parser: none # output contains multiple version numbers
+      parser: noversion # output contains multiple version numbers
     - name: Active Xcode command line tools
       command: xcode-select
       args: --print-path
       os: macos
-      parser: none
+      parser: noversion
     - name: swift-format
       os: macos
     - name: Tuist
@@ -167,12 +167,12 @@
       command: df
       args: -kh /
       os: linux
-      parser: none
+      parser: noversion
     - name: Disk Space - /bitrise
       command: df
       args: -kh /bitrise/src
       os: linux
-      parser: none
+      parser: noversion
 - category: java  # TODO: fill out
   commands:
     - name: "java"
