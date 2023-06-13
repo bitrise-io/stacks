@@ -148,21 +148,26 @@
       command: system_profiler
       args: SPSoftwareDataType
       os: macos
+      parser: noversion
     - name: Disk space
       command: df
       args: -h /
       os: macos
+      parser: noversion
     - name: Linux info
       command: uname
       args: -a
       os: linux
+      parser: noversion
     - name: Linux release
       command: uname
       args: -r
       os: linux
+      parser: noversion
     - name: lsb_release
       args: --all
       os: linux
+      parser: noversion
     - name: Disk Space - /
       command: df
       args: -kh /

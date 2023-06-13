@@ -18,14 +18,68 @@
           "category": "apple"
         },
         {
-          "name": "Installed SDKs",
-          "path": "/usr/bin/xcodebuild -showsdks",
-          "version": "DriverKit SDKs:\n\tDriverKit 22.4                \t-sdk driverkit22.4\n\niOS SDKs:\n\tiOS 16.4                      \t-sdk iphoneos16.4\n\niOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting iOS 16.4\t-sdk assetruntime.host.macosx.target.iphoneos16.4\n\niOS Simulator SDKs:\n\tSimulator - iOS 16.4          \t-sdk iphonesimulator16.4\n\nmacOS SDKs:\n\tmacOS 13.3                    \t-sdk macosx13.3\n\tmacOS 13.3                    \t-sdk macosx13.3\n\ntvOS SDKs:\n\ttvOS 16.4                     \t-sdk appletvos16.4\n\ntvOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting tvOS 16.4\t-sdk assetruntime.host.macosx.target.appletvos16.4\n\ntvOS Simulator SDKs:\n\tSimulator - tvOS 16.4         \t-sdk appletvsimulator16.4\n\nwatchOS SDKs:\n\twatchOS 9.4                   \t-sdk watchos9.4\n\nwatchOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting watchOS 9.4\t-sdk assetruntime.host.macosx.target.watchos9.4\n\nwatchOS Simulator SDKs:\n\tSimulator - watchOS 9.4       \t-sdk watchsimulator9.4",
-          "raw": "DriverKit SDKs:\n\tDriverKit 22.4                \t-sdk driverkit22.4\n\niOS SDKs:\n\tiOS 16.4                      \t-sdk iphoneos16.4\n\niOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting iOS 16.4\t-sdk assetruntime.host.macosx.target.iphoneos16.4\n\niOS Simulator SDKs:\n\tSimulator - iOS 16.4          \t-sdk iphonesimulator16.4\n\nmacOS SDKs:\n\tmacOS 13.3                    \t-sdk macosx13.3\n\tmacOS 13.3                    \t-sdk macosx13.3\n\ntvOS SDKs:\n\ttvOS 16.4                     \t-sdk appletvos16.4\n\ntvOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting tvOS 16.4\t-sdk assetruntime.host.macosx.target.appletvos16.4\n\ntvOS Simulator SDKs:\n\tSimulator - tvOS 16.4         \t-sdk appletvsimulator16.4\n\nwatchOS SDKs:\n\twatchOS 9.4                   \t-sdk watchos9.4\n\nwatchOS Additional SDKs:\n\tAsset Runtime SDK for macOS hosts targeting watchOS 9.4\t-sdk assetruntime.host.macosx.target.watchos9.4\n\nwatchOS Simulator SDKs:\n\tSimulator - watchOS 9.4       \t-sdk watchsimulator9.4",
+          "name": "Tuist",
+          "path": "/usr/local/bin/tuist version",
+          "version": "3.12.0",
+          "raw": "3.12.0",
+          "category": "apple"
+        },
+        {
+          "name": "Cocoapods",
+          "path": "/Users/vagrant/.rbenv/shims/pod --version",
+          "version": "1.12.1",
+          "raw": "1.12.1",
+          "category": "apple"
+        },
+        {
+          "name": "Carthage",
+          "path": "/opt/homebrew/bin/carthage version",
+          "version": "0.39.0",
+          "raw": "0.39.0",
+          "category": "apple"
+        },
+        {
+          "name": "xcpretty",
+          "path": "/Users/vagrant/.rbenv/shims/xcpretty --version",
+          "version": "0.3.0",
+          "raw": "0.3.0",
+          "category": "apple"
+        },
+        {
+          "name": "applesimutils",
+          "path": "/opt/homebrew/bin/applesimutils -v",
+          "version": "0.9.9",
+          "raw": "applesimutils version 0.9.9",
+          "category": "apple"
+        },
+        {
+          "name": "danger-swift",
+          "path": "/opt/homebrew/bin/danger-swift --version",
+          "version": "3.16.0",
+          "raw": "3.16.0\n\u001b[0;0m",
+          "category": "apple"
+        },
+        {
+          "name": "xcbeautify",
+          "path": "/opt/homebrew/bin/xcbeautify --version",
+          "version": "0.20.0",
+          "raw": "0.20.0",
+          "category": "apple"
+        },
+        {
+          "name": "xclogparser",
+          "path": "/opt/homebrew/bin/xclogparser version",
+          "version": "0.2.36",
+          "raw": "XCLogParser 0.2.36",
           "category": "apple"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "swift-format",
+          "error": "Tool not installed, or not in $PATH"
+        }
+      ]
     }
   }
 ]
