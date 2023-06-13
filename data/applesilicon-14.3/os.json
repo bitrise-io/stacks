@@ -6,15 +6,15 @@
         {
           "name": "macOS system overview",
           "path": "/usr/sbin/system_profiler SPSoftwareDataType",
-          "version": "13.4",
-          "raw": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.4 (22F66)\n      Kernel Version: Darwin 22.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-ventura-edge-g2-m1.8core-a751886d-c9a4-44a8-981b-5f25c36b1ca6\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 45 seconds",
+          "version": "",
+          "raw": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.4 (22F66)\n      Kernel Version: Darwin 22.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-ventura-edge-g2-m1.8core-c6753fd8-0a0e-456a-abf1-0ca5addf9016\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 27 minutes, 35 seconds",
           "category": "os"
         },
         {
           "name": "Disk space",
           "path": "/bin/df -h /",
-          "version": "8.4",
-          "raw": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk3s1s1  295Gi  8.4Gi  169Gi     5%  355384 1767239560    0%   /",
+          "version": "",
+          "raw": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk3s1s1  295Gi  8.4Gi  180Gi     5%  355384 1888353200    0%   /",
           "category": "os"
         }
       ],

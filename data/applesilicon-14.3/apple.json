@@ -6,14 +6,14 @@
         {
           "name": "Swift (Xcode bundled)",
           "path": "/usr/bin/xcrun swift --version",
-          "version": "swift-driver version: 1.75.2 Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)\nTarget: arm64-apple-macosx13.0",
+          "version": "",
           "raw": "swift-driver version: 1.75.2 Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)\nTarget: arm64-apple-macosx13.0",
           "category": "apple"
         },
         {
           "name": "Active Xcode command line tools",
           "path": "/usr/bin/xcode-select --print-path",
-          "version": "/Applications/Xcode-14.3.1.app/Contents/Developer",
+          "version": "",
           "raw": "/Applications/Xcode-14.3.1.app/Contents/Developer",
           "category": "apple"
         },
