@@ -1,0 +1,294 @@
+---
+# Categories schema # - name:        # required string
+#   command:     # optional string             default: name
+#   args:        # required string             default: --version (single space to override if no args)
+#   parser:      # optional parser             default: semver, none for no parsing
+#   os:          # optional macos|linux|all   default: all
+- category: tools
+  commands:
+    - name: Go
+      command: go
+      args: version
+    - name: Go versions
+      command: asdf list golang  # need to load the asdf shell for this to work
+      parser: none
+      os: macos
+    - name: Node.js
+      command: node
+    - name: Node.js versions
+      command: asdf list nodejs  # need to load the asdf shell for this to work
+      parser: none
+      os: macos
+    - name: NPM
+      command: npm
+    - name: Yarn
+      command: yarn
+    - name: Python
+      command: python
+    - name: Java  # is this needed here?
+      command: java
+    - name: Java versions
+      command: jenv
+      args: versions
+      parser: none
+      os: macos
+    - name: Kotlin
+      command: kotlin
+      args: -version
+    - name: Flutter
+      command: flutter
+      os: macos
+    - name: "fvm"  # needs running twice
+    - name: "fvm"
+      args: "list"
+      os: "macos"
+    - name: Dart global packages
+      command: dart
+      args: pub global list
+      os: macos
+      parser: key-value-list
+    - name: Git
+      command: git
+    - name: Git LFS
+      command: git-lfs
+      args: version
+    - name: Mercurial
+      command: hg
+      args: version
+    - name: jq
+    - name: Carthage # TODO: move to Apple category?
+      command: carthage
+      args: "version"
+      os: macos
+    - name: Firebase
+      command: firebase
+    - name: applesimutils # TODO: move to Apple category?
+      args: -v
+      os: macos
+    - name: "xcbeautify"
+      os: "macos"
+    - name: "xclogparser"
+      args: "version"
+      os: "macos"
+    - name: OpenConnect
+      command: openconnect
+    - name: AWS CLI
+      command: aws
+    - name: CMake
+      command: cmake
+    - name: danger-swift
+      os: macos
+    - name: OpenVPN
+      command: openvpn
+    - name: Tuist
+      command: tuist
+      args: version
+    - name: GCC
+      command: gcc
+      os: linux
+    - name: Clang
+      command: clang
+      os: linux
+    - name: "ImageMagick Convert"
+      command: convert
+      os: linux
+    - name: ShellCheck
+      os: linux
+
+- category: bitrise
+  commands:
+    - name: Bitrise CLI
+      command: bitrise
+    - name: Bitrise stepman
+      command: stepman
+    - name: Bitrise envman
+      command: envman
+
+- category: brew
+  commands:
+    - name: Homebrew package list
+      command: brew
+      args: list --versions
+      parser: key-value-list
+      os: macos
+
+- category: ruby
+  commands:
+    - name: Ruby
+      command: ruby
+    - name: rbenv
+      os: macos
+    - name: Cocoapods # TODO: move to Apple category?
+      command: pod
+    - name: "xcpretty"
+    - name: All Ruby gems
+      command: gem
+      args: list
+      parser: key-value-list
+
+- category: npm
+  commands:
+    - name: Global NPM packages
+      command: npm
+      args: list -g --depth=0
+
+- category: apple
+  commands:
+    - name: Swift (Xcode bundled)
+      command: xcrun
+      args: swift --version
+      os: macos
+      parser: none # output contains multiple version numbers
+    - name: Active Xcode command line tools
+      command: xcode-select
+      args: --print-path
+      os: macos
+      parser: none
+    - name: Installed SDKs
+      command: xcodebuild
+      args: -showsdks
+      os: macos
+      parser: none
+- category: system
+  commands:
+    - name: macOS system overview
+      command: system_profiler
+      args: SPSoftwareDataType
+      os: macos
+    - name: Disk space
+      command: df
+      args: -h /
+      os: macos
+    - name: Linux info
+      command: uname
+      args: -a
+      os: linux
+    - name: Linux release
+      command: uname
+      args: -r
+      os: linux
+    - name: lsb_release
+      args: --all
+      os: linux
+    - name: Disk Space - /
+      command: df
+      args: -kh /
+      os: linux
+      parser: none
+    - name: Disk Space - /bitrise
+      command: df
+      args: -kh /bitrise/src
+      os: linux
+      parser: none
+- category: java  # TODO: fill out
+  commands:
+    - name: "java"
+      args: "-version"
+      os: "linux"
+    - name: "javac"
+      args: "-version"
+      os: "linux"
+    - name: "Installed Javas"
+      command: "update-alternatives"
+      args: "--list java"
+    - name: "Installed JavaCs"
+      command: "update-alternatives"
+      args: "--list javac"
+- category: "android"
+  commands:
+    - name: "gradle"
+      os: "linux"
+    - name: "mvn"
+      os: "linux"
+    - name: "javac"
+      args: "-version"
+      os: "linux"
+    - name: "Android Home Content"
+      command: "ls"
+      args: "-1 ${ANDROID_HOME}"
+      os: "linux"
+    - name: "Android Home Content"
+      command: "ls"
+      args: "-1 ${ANDROID_HOME}"
+      os: "linux"
+    - name: "NDK Version"
+      command: "cat"
+      args: "${ANDROID_NDK_HOME}/source.properties"
+      os: "linux"
+    - name: "platform-tools content"
+      command: "ls"
+      args: "-1 ${ANDROID_HOME}/platform-tools"
+      os: "linux"
+    - name: "emulator content"
+      command: "ls"
+      args: "-1 ${ANDROID_HOME}/emulator"
+      os: "linux"
+    - name: "build-tools content"
+      command: "ls"
+      args: "-1 ${ANDROID_HOME}/build-tools"
+      os: "linux"
+    - name: "extras content"
+      command: "tree"
+      args: "-L2 ${ANDROID_HOME}/extras"
+      os: "linux"
+    - name: "platforms content"
+      command: ls
+      args: "-1 ${ANDROID_HOME}/platforms"
+      os: "linux"
+    - name: "system-images content"
+      command: "tree"
+      args: L3 ${ANDROID_HOME}/system-images
+      os: "linux"
+    - name: "aapt2"
+      command: "/opt/apktools/aapt2"
+      args: "version"
+      os: "linux"
+    - name: "bundletool"
+      command: "java"
+      args: "-jar /opt/apktools/bundletool.jar version"
+      os: "linux"
+    - name: "adb path"
+      command: "which"
+      args: "adb"
+      os: "linux"
+    - name: "adb"
+      args: "version"
+      os: "linux"
+    - name: "Command Line Tools"
+      command: "grep"
+      args: "^Pkg.Revision \"${ANDROID_HOME}\"/cmdline-tools/*/source.properties"
+      os: "linux"
+    - name: "Platform Tools version"
+      command: "grep"
+      args: "^Pkg.Revision \"${ANDROID_HOME}\"/platform-tools/source.properties"
+      os: "linux"
+    - name: "Emulator version"
+      command: "grep"
+      args: "^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+      os: "linux"
+
+- category: "gcloud"
+  commands:
+    - name: "gcloud"
+      args: "version"
+      os: "linux"
+    - name: "gcloud info"
+      command: "gcloud"
+      args: "info --run-diagnostics"
+      os: "linux"
+- category: "docker"
+  commands:
+    - name: "docker"
+      os: "linux"
+    - name: "docker-compose"
+      os: "linux"
+    - name: "docker info"
+      command: "docker"
+      args: "info"
+      os: "linux"
+    - name: "docker images"
+      command: "docker"
+      args: "images --format '{{.Repository}} - {{.Size}}'"
+      # args: "images --format '{{ json . }}'"
+      os: "linux"
+      parser: file
