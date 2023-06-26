@@ -2,29 +2,31 @@
 # Categories schema # - name:        # required string
 #   command:     # optional string             default: name
 #   args:        # required string             default: --version (single space to override if no args)
-#   parser:      # optional parser             default: semver, none for no parsing
+#   parser:      # optional parser             default: semver, none for no parsing, noversion for empty string
 #   os:          # optional macos|linux|all   default: all
+- category: languages
+  commands:
+    - name: Ruby versions
+      command: asdf list ruby
+      parser: noversion
+      os: macos
+    - name: Go versions
+      command: asdf list golang
+      parser: noversion
+      os: macos
+    - name: Node.js versions
+      command: asdf list nodejs
+      parser: noversion
+      os: macos
+    - name: Python
+      command: python
 - category: tools
   commands:
-    - name: Go
-      command: go
-      args: version
-    - name: Go versions
-      command: asdf list golang  # need to load the asdf shell for this to work
-      parser: noversion
-      os: macos
-    - name: Node.js
-      command: node
-    - name: Node.js versions
-      command: asdf list nodejs  # need to load the asdf shell for this to work
-      parser: noversion
-      os: macos
     - name: NPM
       command: npm
     - name: Yarn
       command: yarn
-    - name: Python
-      command: python
+    
     - name: Java  # is this needed here?
       command: java
     - name: Java versions
