@@ -7,15 +7,18 @@
 - category: languages
   commands:
     - name: Ruby versions
-      command: asdf list ruby
+      command: asdf
+      args: list ruby
       parser: noversion
       os: macos
     - name: Go versions
-      command: asdf list golang
+      command: asdf
+      args: list golang
       parser: noversion
       os: macos
     - name: Node.js versions
-      command: asdf list nodejs
+      command: asdf
+      args: list nodejs
       parser: noversion
       os: macos
     - name: Python
@@ -26,7 +29,7 @@
       command: npm
     - name: Yarn
       command: yarn
-    
+  
     - name: Java  # is this needed here?
       command: java
     - name: Java versions
