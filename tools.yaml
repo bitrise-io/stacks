@@ -21,32 +21,25 @@
       args: list nodejs
       parser: noversion
       os: macos
+    - name: Java versions
+      command: jenv
+      args: versions
+      parser: noversion
+      os: macos
+    - name: fvm
+      args: list
+      os: macos
     - name: Python
       command: python
+    - name: Kotlin
+      command: kotlin
+      args: -version
 - category: tools
   commands:
     - name: NPM
       command: npm
     - name: Yarn
       command: yarn
-  
-    - name: Java  # is this needed here?
-      command: java
-    - name: Java versions
-      command: jenv
-      args: versions
-      parser: noversion
-      os: macos
-    - name: Kotlin
-      command: kotlin
-      args: -version
-    - name: Flutter
-      command: flutter
-      os: macos
-    - name: "fvm"  # needs running twice
-    - name: "fvm"
-      args: "list"
-      os: "macos"
     - name: Dart global packages
       command: dart
       args: pub global list
