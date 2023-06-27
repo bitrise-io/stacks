@@ -37,30 +37,36 @@
 
 - category: tools
   commands:
-    - name: NPM
-      command: npm
-    - name: Yarn
-      command: yarn
-    - name: Dart global packages
-      command: dart
-      args: pub global list
-      os: macos
-      parser: noversion
     - name: Git
       command: git
     - name: Git LFS
       command: git-lfs
       args: version
+    - name: GitHub CLI
+      command: gh
+      args: --version
+    - name: NPM
+      command: npm
+    - name: Yarn
+      command: yarn
+    - name: jq
+    - name: bazelisk
+      command: bazelisk
+      args: version
+    - name: AWS CLI
+      command: aws
+    - name: Dart global packages
+      command: dart
+      args: pub global list
+      os: macos
+      parser: noversion
     - name: Mercurial
       command: hg
       args: version
-    - name: jq
     - name: Firebase
       command: firebase
     - name: OpenConnect
       command: openconnect
-    - name: AWS CLI
-      command: aws
     - name: CMake
       command: cmake
     - name: OpenVPN
@@ -110,12 +116,21 @@
     - name: Tuist
       command: tuist
       args: version
+      os: macos
+    - name: Mint
+      command: mint
+      args: version
+      os: macos
     - name: Cocoapods
       command: pod
       os: macos
     - name: Carthage
       command: carthage
       args: "version"
+      os: macos
+    - name: SwiftLint
+      command: swiftlint
+      args: version
       os: macos
     - name: "xcpretty"
       os: macos
@@ -145,6 +160,7 @@
       command: mvn
     - name: Ant
       command: ant
+      args: -version
 
 - category: os
   commands:
