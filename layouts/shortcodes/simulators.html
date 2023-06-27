@@ -4,7 +4,12 @@
 {{ range $deviceType, $devices := $json.devices }}
     <details>
         {{ $runtime := index (where $json.runtimes "identifier" $deviceType) 0 }}
-        <summary>{{ $runtime.name }}</summary>
+        {{ $isBuiltIn := strings.HasPrefix $runtime.bundlePath "/Applications" }}
+        {{ if $isBuiltIn }}
+            <summary><strong>{{ $runtime.name }} (built-in)</strong></summary>
+        {{ else }}
+            <summary>{{ $runtime.name }}</summary>
+        {{ end }}
         <ul>
         {{ range $devices }}
             <li>{{ .name }}</li>

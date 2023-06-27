@@ -1,5 +1,6 @@
 ---
 title: Ruby 2.x deprecation
+platform: [macOS, linux]
 ---
 
 On Monday, June 26, 2023, Bitrise will remove all end-of-life Ruby versions from all Bitrise stacks. As a result, all apps using Ruby versions below 3.0 need to migrate to a newer version of Ruby.

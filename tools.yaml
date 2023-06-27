@@ -27,6 +27,7 @@
       parser: noversion
       os: macos
     - name: Flutter versions
+      command: fvm
       args: list
       os: macos
     - name: Python

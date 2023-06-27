@@ -1,0 +1,38 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "2.6.9\n  2.7.2\n  2.7.5\n *2.7.6\n  3.0.0\n  3.0.3\n  3.1.0\n  3.1.3\n  3.1.4\n  3.2.1",
+          "executed_command": "asdf list ruby"
+        },
+        {
+          "name": "Go versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "*1.18.10\n  1.20.2",
+          "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "12.22.9\n *16.19.1\n  19.8.1",
+          "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Python",
+          "category": "languages",
+          "version": "2.7.18",
+          "raw_output": "Python 2.7.18",
+          "executed_command": "python --version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]

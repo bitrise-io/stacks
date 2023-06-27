@@ -2,13 +2,13 @@
 {{ $json := getJSON $jsonPath }}
 
 {{ $category := index $json 0 }}
-{{ range $tool := $category.output.commands }}
+{{ range $tool := $category.output.items }}
     <details>
         <summary>{{ $tool.name }} - {{ $tool.version }}</summary>
         <pre>
-$ {{ $tool.path }}
+$ {{ $tool.executed_command }}
 <br />
-{{ $tool.raw }}
+{{ $tool.raw_output }}
         </pre>
     </details>
 {{ end }}

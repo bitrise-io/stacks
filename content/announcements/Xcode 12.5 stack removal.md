@@ -1,5 +1,6 @@
 ---
 title: Xcode 12.5 stack removal
+tags: [deprecation, xcode]
 ---
 
 We wanted to let you know that in the next four weeks, we'll be removing the Xcode 12.5 stack. This means that all apps using this stack will need to migrate over to a Xcode 13.0 or newer stack, before June 9th.

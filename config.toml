@@ -8,10 +8,8 @@ sectionPagesMenu = "main"
 [taxonomies]
 # Syntax: singular = "plural"
 tag = "tags"
-category = "categories"
-platform = "platforms"
-architecture = "architectures"
-xcode_version = "xcode_versions"
+platform = "platform"
+xcode = "xcode"
 
 [params]
 # Book theme params

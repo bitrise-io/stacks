@@ -1,0 +1,57 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "2.6.9\n  2.7.2\n  2.7.5\n *2.7.6\n  3.0.0\n  3.0.3\n  3.1.0\n  3.1.3\n  3.1.4\n  3.2.1",
+          "executed_command": "asdf list ruby"
+        },
+        {
+          "name": "Go versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "*1.18.10\n  1.20.2",
+          "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "12.22.9\n *16.19.1\n  19.8.1",
+          "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "system\n  1.8\n  1.8.0.352\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.17\n  17.0\n  17.0.5\n  8.0\n  temurin64-1.8.0.352\n  temurin64-11.0.17\n  temurin64-17.0.5",
+          "executed_command": "jenv versions"
+        },
+        {
+          "name": "Python",
+          "category": "languages",
+          "version": "2.7.18",
+          "raw_output": "Python 2.7.18",
+          "executed_command": "python --version"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "1.8.21",
+          "raw_output": "Kotlin version 1.8.21-release-380 (JRE 11.0.17+8)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Flutter versions",
+          "error": "exit status 1: Error! Executable name Flutter not recognized!\n"
+        }
+      ]
+    }
+  }
+]

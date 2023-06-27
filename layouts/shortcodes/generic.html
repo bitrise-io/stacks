@@ -2,21 +2,21 @@
 {{ $json := getJSON $jsonPath }}
 
 {{ $category := index $json 0 }}
-{{ range $command := $category.output.commands }}
+{{ range $item := $category.output.items }}
 
 <details>
 <summary>
-{{ if $command.version }}
-{{ $command.name }} - {{ $command.version }}
+{{ if $item.version }}
+{{ $item.name }} - {{ $item.version }}
 {{ else }}
-{{ $command.name }}
+{{ $item.name }}
 {{ end }}
 </summary>
 
 <pre>
-$ {{ $command.path }}
+$ {{ $item.executed_command }}
 <br />
-{{ $command.raw }}
+{{ $item.raw_output }}
 </pre>
 
 </details>

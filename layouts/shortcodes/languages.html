@@ -1,0 +1,25 @@
+{{ $jsonPath := .Get "filepath" }}
+{{ $json := getJSON $jsonPath }}
+
+{{ $category := index $json 0 }}
+{{ range $item := $category.output.items }}
+    <p>{{ $item.name }}</p>
+    <!-- Parse and clean up ASDF's plain text output -->
+    <!-- The output is a list of version lines, with `*` marking the default version -->
+    {{ $versions := split $item.raw_output "\n" }}
+    <ul>
+    {{ range $version := $versions }}
+        {{ $version = trim $version " " }}
+        <!-- Work around junk lines printed by FVM -->
+        {{ if or (strings.HasPrefix $version "Cache Directory") (eq $version "") }}
+            {{ continue }}
+        {{ end }}
+        {{ if strings.HasPrefix $version "*" }}
+            {{ $version = strings.TrimPrefix "*" $version }}
+            <li><strong>{{ $version }} (default)</strong></li>
+        {{ else }}
+            <li>{{ $version }}</li>
+        {{ end }}
+    {{ end }}
+    </ul>
+{{ end }}
