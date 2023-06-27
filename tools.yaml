@@ -26,7 +26,7 @@
       args: versions
       parser: noversion
       os: macos
-    - name: fvm
+    - name: Flutter versions
       args: list
       os: macos
     - name: Python
@@ -34,6 +34,7 @@
     - name: Kotlin
       command: kotlin
       args: -version
+
 - category: tools
   commands:
     - name: NPM
@@ -85,17 +86,6 @@
     - name: Bitrise envman
       command: envman
 
-- category: ruby
-  commands:
-    - name: Ruby
-      command: ruby
-    - name: rbenv
-      os: macos
-    - name: All Ruby gems
-      command: gem
-      args: list
-      parser: noversion
-
 - category: npm
   commands:
     - name: Global NPM packages
@@ -140,6 +130,22 @@
       args: "version"
       os: "macos"
 
+- category: android
+  commands:
+    - name: Android SDK components
+      command: sdkmanager
+      args: --list_installed
+      parser: noversion
+    - name: Emulator version
+      command: grep
+      args: "^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+    - name: Gradle
+      command: gradle
+    - name: Maven
+      command: mvn
+    - name: Ant
+      command: ant
+
 - category: os
   commands:
     - name: macOS system overview
@@ -176,92 +182,6 @@
       args: -kh /bitrise/src
       os: linux
       parser: noversion
-- category: java  # TODO: fill out
-  commands:
-    - name: "java"
-      args: "-version"
-      os: "linux"
-    - name: "javac"
-      args: "-version"
-      os: "linux"
-    - name: "Installed Javas"
-      command: "update-alternatives"
-      args: "--list java"
-    - name: "Installed JavaCs"
-      command: "update-alternatives"
-      args: "--list javac"
-- category: "android"
-  commands:
-    - name: "gradle"
-      os: "linux"
-    - name: "mvn"
-      os: "linux"
-    - name: "javac"
-      args: "-version"
-      os: "linux"
-    - name: "Android Home Content"
-      command: "ls"
-      args: "-1 ${ANDROID_HOME}"
-      os: "linux"
-    - name: "Android Home Content"
-      command: "ls"
-      args: "-1 ${ANDROID_HOME}"
-      os: "linux"
-    - name: "NDK Version"
-      command: "cat"
-      args: "${ANDROID_NDK_HOME}/source.properties"
-      os: "linux"
-    - name: "platform-tools content"
-      command: "ls"
-      args: "-1 ${ANDROID_HOME}/platform-tools"
-      os: "linux"
-    - name: "emulator content"
-      command: "ls"
-      args: "-1 ${ANDROID_HOME}/emulator"
-      os: "linux"
-    - name: "build-tools content"
-      command: "ls"
-      args: "-1 ${ANDROID_HOME}/build-tools"
-      os: "linux"
-    - name: "extras content"
-      command: "tree"
-      args: "-L2 ${ANDROID_HOME}/extras"
-      os: "linux"
-    - name: "platforms content"
-      command: ls
-      args: "-1 ${ANDROID_HOME}/platforms"
-      os: "linux"
-    - name: "system-images content"
-      command: "tree"
-      args: L3 ${ANDROID_HOME}/system-images
-      os: "linux"
-    - name: "aapt2"
-      command: "/opt/apktools/aapt2"
-      args: "version"
-      os: "linux"
-    - name: "bundletool"
-      command: "java"
-      args: "-jar /opt/apktools/bundletool.jar version"
-      os: "linux"
-    - name: "adb path"
-      command: "which"
-      args: "adb"
-      os: "linux"
-    - name: "adb"
-      args: "version"
-      os: "linux"
-    - name: "Command Line Tools"
-      command: "grep"
-      args: "^Pkg.Revision \"${ANDROID_HOME}\"/cmdline-tools/*/source.properties"
-      os: "linux"
-    - name: "Platform Tools version"
-      command: "grep"
-      args: "^Pkg.Revision \"${ANDROID_HOME}\"/platform-tools/source.properties"
-      os: "linux"
-    - name: "Emulator version"
-      command: "grep"
-      args: "^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
-      os: "linux"
 
 - category: "gcloud"
   commands:
