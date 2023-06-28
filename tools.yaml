@@ -215,6 +215,7 @@
       parser: noversion
     - name: Linux release
       os: linux
+      command: lsb_release
       args: --all
       parser: noversion
     - name: Disk space
