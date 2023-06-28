@@ -218,6 +218,10 @@
       command: lsb_release
       args: --all
       parser: noversion
+    - name: APT repositories
+      os: linux
+      command: "grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/*"
+      parser: noversion
     - name: Disk space
       os: linux
       command: df
