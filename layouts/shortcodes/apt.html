@@ -1,0 +1,14 @@
+{{ $file := readFile (.Get "filepath") }}
+
+<details>
+    <summary>All packages</summary>
+    <ul>
+    {{ range $item := split $file "\n" }}
+    {{ if or (eq $item "") (eq $item "Listing...") }}
+        {{ continue }}
+    {{ end }}
+    {{ $item = strings.TrimSuffix "[installed,local]" $item }}
+    <li>{{ $item }}</li>
+    {{ end }}
+    </ul>
+</details>

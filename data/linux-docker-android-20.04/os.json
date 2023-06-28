@@ -1,0 +1,31 @@
+[
+  {
+    "category": "os",
+    "output": {
+      "items": [
+        {
+          "name": "Linux release",
+          "category": "os",
+          "version": "",
+          "raw_output": "No LSB modules are available.\nDistributor ID:\tUbuntu\nDescription:\tUbuntu 20.04.6 LTS\nRelease:\t20.04\nCodename:\tfocal",
+          "executed_command": "lsb_release --all"
+        },
+        {
+          "name": "APT repositories",
+          "category": "os",
+          "version": "",
+          "raw_output": "grep (GNU grep) 3.4\nCopyright (C) 2020 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later \u003chttps://gnu.org/licenses/gpl.html\u003e.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n\nWritten by Mike Haertel and others; see\n\u003chttps://git.sv.gnu.org/cgit/grep.git/tree/AUTHORS\u003e.",
+          "executed_command": "grep ^ /etc/apt/sources.list /etc/apt/sources.list.d/* --version"
+        },
+        {
+          "name": "Disk space",
+          "category": "os",
+          "version": "",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       194G   60G  135G  31% /bitrise",
+          "executed_command": "df -kh /bitrise/src"
+        }
+      ],
+      "errors": null
+    }
+  }
+]

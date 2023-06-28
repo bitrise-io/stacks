@@ -27,7 +27,7 @@ Available runtimes and devices:
 
 ### Generic tools
 
-{{< tools filepath="data/osx-xcode-14.3.x/tools.json" >}}
+{{< generic filepath="data/osx-xcode-14.3.x/tools.json" >}}
 
 ### Global NPM packages
 

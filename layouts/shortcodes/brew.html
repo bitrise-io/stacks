@@ -4,6 +4,9 @@
     <summary>All packages</summary>
     <ul>
     {{ range split $file "\n" }}
+    {{ if eq . "" }}
+        {{ continue }}
+    {{ end }}
     <li>{{ . }}</li>
     {{ end }}
     </ul>
