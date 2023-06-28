@@ -1,35 +1,49 @@
 ---
-# Categories schema # - name:        # required string
+# Categories schema
+# - name:        # required string
 #   command:     # optional string             default: name
 #   args:        # required string             default: --version (single space to override if no args)
 #   parser:      # optional parser             default: semver, none for no parsing, noversion for empty string
 #   os:          # optional macos|linux|all   default: all
+
 - category: languages
   commands:
     - name: Ruby versions
       command: asdf
       args: list ruby
       parser: noversion
-      os: macos
     - name: Go versions
+      os: macos
       command: asdf
       args: list golang
       parser: noversion
-      os: macos
+    - name: Go
+      os: linux
+      command: go
+      args: version
     - name: Node.js versions
+      os: macos
       command: asdf
       args: list nodejs
       parser: noversion
-      os: macos
+    - name: Node.js
+      os: linux
+      command: node
+      args: --version
     - name: Java versions
+      os: macos
       command: jenv
       args: versions
       parser: noversion
-      os: macos
+    - name: Java installs
+      os: linux
+      command: update-alternatives
+      args: --list java
+      parser: noversion
     - name: Flutter versions
+      os: macos
       command: fvm
       args: list
-      os: macos
     - name: Python
       command: python
     - name: Kotlin
@@ -44,6 +58,7 @@
       command: git-lfs
       args: version
     - name: GitHub CLI
+      os: macos
       command: gh
       args: --version
     - name: NPM
@@ -52,10 +67,15 @@
       command: yarn
     - name: jq
     - name: bazelisk
+      os: macos
       command: bazelisk
       args: version
     - name: AWS CLI
       command: aws
+    - name: Google Cloud CLI
+      os: linux
+      command: gcloud
+      args: version
     - name: Dart global packages
       command: dart
       args: pub global list
@@ -71,7 +91,11 @@
     - name: CMake
       command: cmake
     - name: OpenVPN
+      os: macos
       command: openvpn
+    - name: OpenConnect
+      os: linux
+      command: openconnect
     - name: GCC
       command: gcc
       os: linux
@@ -83,6 +107,19 @@
       os: linux
     - name: ShellCheck
       os: linux
+      command: shellcheck
+      args: --version
+    - name: Docker
+      os: linux
+      command: docker
+    - name: Docker Compose
+      os: linux
+      command: docker-compose
+    - name: Pre-cached Docker images
+      os: linux
+      command: docker
+      args: images --format '{{ .Repository }} - {{ .Size }}'
+      parser: noversion
 
 - category: bitrise
   commands:
@@ -162,66 +199,26 @@
     - name: Ant
       command: ant
       args: -version
+      os: macos
 
 - category: os
   commands:
     - name: macOS system overview
+      os: macos
       command: system_profiler
       args: SPSoftwareDataType
-      os: macos
       parser: noversion
     - name: Disk space
+      os: macos
       command: df
       args: -h /
-      os: macos
-      parser: noversion
-    - name: Linux info
-      command: uname
-      args: -a
-      os: linux
       parser: noversion
     - name: Linux release
-      command: uname
-      args: -r
       os: linux
-      parser: noversion
-    - name: lsb_release
       args: --all
-      os: linux
       parser: noversion
-    - name: Disk Space - /
-      command: df
-      args: -kh /
+    - name: Disk space
       os: linux
-      parser: noversion
-    - name: Disk Space - /bitrise
       command: df
       args: -kh /bitrise/src
-      os: linux
       parser: noversion
-
-- category: "gcloud"
-  commands:
-    - name: "gcloud"
-      args: "version"
-      os: "linux"
-    - name: "gcloud info"
-      command: "gcloud"
-      args: "info --run-diagnostics"
-      os: "linux"
-- category: "docker"
-  commands:
-    - name: "docker"
-      os: "linux"
-    - name: "docker-compose"
-      os: "linux"
-    - name: "docker info"
-      command: "docker"
-      args: "info"
-      os: "linux"
-    - name: "docker images"
-      command: "docker"
-      args: "images --format '{{.Repository}} - {{.Size}}'"
-      # args: "images --format '{{ json . }}'"
-      os: "linux"
-      parser: file
