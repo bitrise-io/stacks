@@ -1,15 +1,17 @@
 {{ $jsonPath := .Get "filepath" }}
 {{ $json := getJSON $jsonPath }}
 
-{{ range $deviceType, $devices := $json.devices }}
+{{ range $runtime := $json.runtimes }}
     <details>
-        {{ $runtime := index (where $json.runtimes "identifier" $deviceType) 0 }}
+        {{ $devices := index $json.devices $runtime.identifier }}
         {{ $isBuiltIn := strings.HasPrefix $runtime.bundlePath "/Applications" }}
         {{ if $isBuiltIn }}
             <summary><strong>{{ $runtime.name }} (built-in)</strong></summary>
         {{ else }}
             <summary>{{ $runtime.name }}</summary>
         {{ end }}
+        <p>Build version: <code>{{ $runtime.buildversion }}</code></p>
+        <p>Devices:</p>
         <ul>
         {{ range $devices }}
             <li>{{ .name }}</li>
