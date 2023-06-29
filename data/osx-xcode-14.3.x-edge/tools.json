@@ -1,0 +1,108 @@
+[
+  {
+    "category": "tools",
+    "output": {
+      "items": [
+        {
+          "name": "Git",
+          "category": "tools",
+          "version": "2.39.2",
+          "raw_output": "git version 2.39.2 (Apple Git-143)",
+          "executed_command": "git --version"
+        },
+        {
+          "name": "Git LFS",
+          "category": "tools",
+          "version": "3.3.0",
+          "raw_output": "git-lfs/3.3.0 (GitHub; darwin arm64; go 1.19.3)",
+          "executed_command": "git-lfs version"
+        },
+        {
+          "name": "GitHub CLI",
+          "category": "tools",
+          "version": "2.31.0",
+          "raw_output": "gh version 2.31.0 (2023-06-20)\nhttps://github.com/cli/cli/releases/tag/v2.31.0",
+          "executed_command": "gh --version"
+        },
+        {
+          "name": "NPM",
+          "category": "tools",
+          "version": "9.6.6",
+          "raw_output": "9.6.6",
+          "executed_command": "npm --version"
+        },
+        {
+          "name": "Yarn",
+          "category": "tools",
+          "version": "1.22.19",
+          "raw_output": "1.22.19",
+          "executed_command": "yarn --version"
+        },
+        {
+          "name": "jq",
+          "category": "tools",
+          "version": "1.6",
+          "raw_output": "jq-1.6",
+          "executed_command": "jq --version"
+        },
+        {
+          "name": "bazelisk",
+          "category": "tools",
+          "version": "6.2.1",
+          "raw_output": "2023/06/29 09:39:24 Downloading https://releases.bazel.build/6.2.1/release/bazel-6.2.1-darwin-arm64...\n2023/06/29 09:39:24 Skipping basic authentication for releases.bazel.build because no credentials found in /Users/vagrant/.netrc\nBazelisk version: development\nWARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).\nExtracting Bazel installation...\nBuild label: 6.2.1\nBuild target: bazel-out/darwin_arm64-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar\nBuild time: Fri Jun 2 17:00:10 2023 (1685725210)\nBuild timestamp: 1685725210\nBuild timestamp as int: 1685725210",
+          "executed_command": "bazelisk version"
+        },
+        {
+          "name": "AWS CLI",
+          "category": "tools",
+          "version": "2.12.1",
+          "raw_output": "aws-cli/2.12.1 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
+          "executed_command": "aws --version"
+        },
+        {
+          "name": "Dart global packages",
+          "category": "tools",
+          "version": "",
+          "raw_output": "junitreport 2.0.2",
+          "executed_command": "dart pub global list"
+        },
+        {
+          "name": "Mercurial",
+          "category": "tools",
+          "version": "6.4",
+          "raw_output": "Mercurial Distributed SCM (version 6.4)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2023 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "executed_command": "hg version"
+        },
+        {
+          "name": "Firebase",
+          "category": "tools",
+          "version": "12.3.0",
+          "raw_output": "12.3.0",
+          "executed_command": "firebase --version"
+        },
+        {
+          "name": "OpenConnect",
+          "category": "tools",
+          "version": "9.12",
+          "raw_output": "OpenConnect version v9.12\nUsing GnuTLS 3.8.0. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "executed_command": "openconnect --version"
+        },
+        {
+          "name": "CMake",
+          "category": "tools",
+          "version": "3.26.4",
+          "raw_output": "cmake version 3.26.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "executed_command": "cmake --version"
+        },
+        {
+          "name": "OpenVPN",
+          "category": "tools",
+          "version": "2.6.5",
+          "raw_output": "OpenVPN 2.6.5 aarch64-apple-darwin22.4.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.1.1 30 May 2023, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2023 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
+          "executed_command": "openvpn --version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
