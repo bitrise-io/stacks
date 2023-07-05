@@ -1,19 +1,25 @@
 {{ $toolName := .Get "tool" }}
 
-<!-- Iterate over data files and read version_managers.json from each dorectory -->
+<!-- Iterate over data files and read languages.json from each dorectory -->
 {{ range $dir := (readDir "data") }}
     <h3>{{ $dir.Name }}</h3>
-    {{ $jsonPath := printf "data/%s/%s" $dir.Name "version_managers.json" }}
+    {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
     {{ $json := getJSON $jsonPath }}
-    {{ $tool := index $json $toolName }}
-    <p>Installed versions:</p>
-    <ul>
-    {{ range $version := $tool.installed_versions }}
-        {{ if $version.is_default }}
-            <li><strong>{{ $version.version }} (DEFAULT)</strong></li>
-        {{ else }}
-            <li>{{ $version.version }}</li>
+    {{ $tool := index (where (index $json 0).output.items "name" $toolName) 0 }}
+    {{ if $tool }}
+        <ul>
+        <!-- Parse and clean up ASDF's plain text output -->
+        <!-- The output is a list of version lines, with `*` marking the default version -->
+        {{ $versions := split $tool.raw_output "\n" }}
+        {{ range $version := $versions }}
+            {{ $version = trim $version " " }}
+            {{ if strings.HasPrefix $version "*" }}
+                {{ $version = strings.TrimPrefix "*" $version }}
+                <li><strong>{{ $version }} (default)</strong></li>
+            {{ else }}
+                <li>{{ $version }}</li>
+            {{ end }}
         {{ end }}
+        </ul>
     {{ end }}
-    </ul>
 {{ end }}

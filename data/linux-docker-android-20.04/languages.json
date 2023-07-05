@@ -11,7 +11,7 @@
           "executed_command": "asdf list ruby"
         },
         {
-          "name": "Go",
+          "name": "Go versions",
           "category": "languages",
           "version": "1.18.5",
           "raw_output": "go version go1.18.5 linux/amd64",
@@ -25,7 +25,7 @@
           "executed_command": "node --version"
         },
         {
-          "name": "Java installs",
+          "name": "Java versions",
           "category": "languages",
           "version": "",
           "raw_output": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java\n/usr/lib/jvm/java-17-openjdk-amd64/bin/java\n/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java",

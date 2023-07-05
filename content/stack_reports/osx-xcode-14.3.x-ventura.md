@@ -7,40 +7,40 @@ xcode: 14.3
 
 ## Languages and runtimes
 
-{{< languages filepath="data/osx-xcode-14.3.x/languages.json" >}}
+{{< languages filepath="data/osx-xcode-14.3.x-ventura/languages.json" >}}
 
 ## Simulators
 
 Available runtimes and devices:
 
-{{< simulators filepath="data/osx-xcode-14.3.x/simctl.json" >}}
+{{< simulators filepath="data/osx-xcode-14.3.x-ventura/simctl.json" >}}
 
 ## CLI tools
 
 ### Apple development
 
-{{< generic filepath="data/osx-xcode-14.3.x/apple.json">}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/apple.json">}}
 
 ### Android development
 
-{{< generic filepath="data/osx-xcode-14.3.x/android.json">}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/android.json">}}
 
 ### Generic tools
 
-{{< generic filepath="data/osx-xcode-14.3.x/tools.json" >}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/tools.json" >}}
 
 ### Global NPM packages
 
-{{< generic filepath="data/osx-xcode-14.3.x/npm.json">}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/npm.json">}}
 
 ### Bitrise-specific
 
-{{< generic filepath="data/osx-xcode-14.3.x/bitrise.json" >}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/bitrise.json" >}}
 
 ### Homebrew
 
-{{< brew filepath="data/osx-xcode-14.3.x/brew.txt">}}
+{{< brew filepath="data/osx-xcode-14.3.x-ventura/brew.txt">}}
 
 ## OS
 
-{{< generic filepath="data/osx-xcode-14.3.x/os.json" >}}
+{{< generic filepath="data/osx-xcode-14.3.x-ventura/os.json" >}}
