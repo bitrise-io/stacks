@@ -3,6 +3,7 @@
 body {
     --color-link: #760FC3;
     --color-visited-link: #760FC3;
+    --body-font-color: #351c48;
 }
 
 .markdown pre {
@@ -18,3 +19,8 @@ body {
     }
 }
 
+// Align page title to logo
+h2.book-brand span {
+    position: relative;
+    top: 2px;
+}
