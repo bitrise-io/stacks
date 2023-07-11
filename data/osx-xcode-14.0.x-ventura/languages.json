@@ -4,10 +4,17 @@
     "output": {
       "items": [
         {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "2.6.9\n  2.7.2\n  2.7.5\n  2.7.6\n  3.0.0\n  3.0.3\n  3.1.0\n  3.1.3\n  3.1.4\n  3.2.1\n *3.2.2",
+          "executed_command": "asdf list ruby"
+        },
+        {
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "*1.18.10\n  1.20.2",
+          "raw_output": "1.18.10\n *1.20.2",
           "executed_command": "asdf list golang"
         },
         {
@@ -21,14 +28,14 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "system\n  1.8\n  1.8.0.362\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.17\n  17.0\n  17.0.6\n  8.0\n  temurin64-1.8.0.362\n  temurin64-11.0.17\n  temurin64-17.0.6",
+          "raw_output": "system\n  1.8\n  1.8.0.352\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.17\n  17.0\n  17.0.5\n  8.0\n  temurin64-1.8.0.352\n  temurin64-11.0.17\n  temurin64-17.0.5",
           "executed_command": "jenv versions"
         },
         {
           "name": "Flutter versions",
           "category": "languages",
-          "version": "3.7.6",
-          "raw_output": "Cache Directory:  /Users/vagrant/fvm/versions\n\n3.7.6\n3.0.0\n2.10.3 (global)\n1.22.6",
+          "version": "3.7.12",
+          "raw_output": "Cache Directory:  /Users/vagrant/fvm/versions\n\n3.7.12 (global)\n3.7.6\n3.0.0\n2.10.3\n1.22.6",
           "executed_command": "fvm list"
         },
         {
@@ -46,12 +53,7 @@
           "executed_command": "kotlin -version"
         }
       ],
-      "errors": [
-        {
-          "name": "Ruby versions",
-          "error": "exit status 1: No such plugin: ruby\n"
-        }
-      ]
+      "errors": null
     }
   }
 ]
