@@ -27,8 +27,8 @@
         {
           "name": "Tuist",
           "category": "apple",
-          "version": "3.12.0",
-          "raw_output": "3.12.0",
+          "version": "3.20.0",
+          "raw_output": "3.20.0",
           "executed_command": "tuist version"
         },
         {
