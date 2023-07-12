@@ -14,7 +14,7 @@
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "Notice: Behaving like ASDF_GOLANG_MOD_VERSION_ENABLED=true\n        In the future this will have to be set to continue\n        reading from the go.mod and go.work files\n  1.19.9\n *1.20.4",
+          "raw_output": "1.19.9\n *1.20.4",
           "executed_command": "asdf list golang"
         },
         {
