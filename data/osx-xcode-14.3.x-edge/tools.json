@@ -49,7 +49,7 @@
           "name": "bazelisk",
           "category": "tools",
           "version": "6.2.1",
-          "raw_output": "2023/06/29 09:39:24 Downloading https://releases.bazel.build/6.2.1/release/bazel-6.2.1-darwin-arm64...\n2023/06/29 09:39:24 Skipping basic authentication for releases.bazel.build because no credentials found in /Users/vagrant/.netrc\nBazelisk version: development\nWARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).\nExtracting Bazel installation...\nBuild label: 6.2.1\nBuild target: bazel-out/darwin_arm64-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar\nBuild time: Fri Jun 2 17:00:10 2023 (1685725210)\nBuild timestamp: 1685725210\nBuild timestamp as int: 1685725210",
+          "raw_output": "2023/07/12 07:43:04 Downloading https://releases.bazel.build/6.2.1/release/bazel-6.2.1-darwin-arm64...\n2023/07/12 07:43:04 Skipping basic authentication for releases.bazel.build because no credentials found in /Users/vagrant/.netrc\nBazelisk version: development\nWARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).\nExtracting Bazel installation...\nBuild label: 6.2.1\nBuild target: bazel-out/darwin_arm64-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar\nBuild time: Fri Jun 2 17:00:10 2023 (1685725210)\nBuild timestamp: 1685725210\nBuild timestamp as int: 1685725210",
           "executed_command": "bazelisk version"
         },
         {

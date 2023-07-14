@@ -1507,10 +1507,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5268h\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime",
-      "buildversion" : "21A5268h",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5277g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime",
+      "buildversion" : "21A5277g",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5268h\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5277g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-0",
       "version" : "17.0",
       "isInternal" : false,
@@ -1808,10 +1808,65 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5293g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime",
-      "buildversion" : "21J5293g",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_20L494\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 16.4.simruntime",
+      "buildversion" : "20L494",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5293g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_20L494\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 16.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-16-4",
+      "version" : "16.4",
+      "isInternal" : false,
+      "isAvailable" : true,
+      "name" : "tvOS 16.4",
+      "supportedDeviceTypes" : [
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV.simdevicetype",
+          "name" : "Apple TV",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K.simdevicetype",
+          "name" : "Apple TV 4K",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-4K",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K (at 1080p).simdevicetype",
+          "name" : "Apple TV 4K (at 1080p)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-1080p",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K (2nd generation).simdevicetype",
+          "name" : "Apple TV 4K (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-2nd-generation-4K",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K (2nd generation) (at 1080p).simdevicetype",
+          "name" : "Apple TV 4K (2nd generation) (at 1080p)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-2nd-generation-1080p",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K (3rd generation).simdevicetype",
+          "name" : "Apple TV 4K (3rd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-3rd-generation-4K",
+          "productFamily" : "Apple TV"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/AppleTVOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple TV 4K (3rd generation) (at 1080p).simdevicetype",
+          "name" : "Apple TV 4K (3rd generation) (at 1080p)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-3rd-generation-1080p",
+          "productFamily" : "Apple TV"
+        }
+      ]
+    },
+    {
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5303f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime",
+      "buildversion" : "21J5303f",
+      "platform" : "tvOS",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5303f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-0",
       "version" : "17.0",
       "isInternal" : false,
@@ -1863,10 +1918,113 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5295g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime",
-      "buildversion" : "21R5295g",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_20T253\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 9.4.simruntime",
+      "buildversion" : "20T253",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5295g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_20T253\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 9.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-9-4",
+      "version" : "9.4",
+      "isInternal" : false,
+      "isAvailable" : true,
+      "name" : "watchOS 9.4",
+      "supportedDeviceTypes" : [
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 4 (40mm).simdevicetype",
+          "name" : "Apple Watch Series 4 (40mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-4-40mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 4 (44mm).simdevicetype",
+          "name" : "Apple Watch Series 4 (44mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-4-44mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 5 (40mm).simdevicetype",
+          "name" : "Apple Watch Series 5 (40mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-40mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 5 (44mm).simdevicetype",
+          "name" : "Apple Watch Series 5 (44mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-44mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE (40mm).simdevicetype",
+          "name" : "Apple Watch SE (40mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE (44mm).simdevicetype",
+          "name" : "Apple Watch SE (44mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 6 (40mm).simdevicetype",
+          "name" : "Apple Watch Series 6 (40mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-40mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 6 (44mm).simdevicetype",
+          "name" : "Apple Watch Series 6 (44mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-44mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 7 (41mm).simdevicetype",
+          "name" : "Apple Watch Series 7 (41mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-41mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 7 (45mm).simdevicetype",
+          "name" : "Apple Watch Series 7 (45mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-45mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE (40mm) (2nd generation).simdevicetype",
+          "name" : "Apple Watch SE (40mm) (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE (44mm) (2nd generation).simdevicetype",
+          "name" : "Apple Watch SE (44mm) (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 8 (41mm).simdevicetype",
+          "name" : "Apple Watch Series 8 (41mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-41mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 8 (45mm).simdevicetype",
+          "name" : "Apple Watch Series 8 (45mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-45mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-14.3.1.app\/Contents\/Developer\/Platforms\/WatchOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Ultra (49mm).simdevicetype",
+          "name" : "Apple Watch Ultra (49mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
+          "productFamily" : "Apple Watch"
+        }
+      ]
+    },
+    {
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5305e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime",
+      "buildversion" : "21R5305e",
+      "platform" : "watchOS",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5305e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-0",
       "version" : "10.0",
       "isInternal" : false,
@@ -1969,122 +2127,111 @@
   "devices" : {
     "com.apple.CoreSimulator.SimRuntime.watchOS-9-4" : [
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/167A63EB-A0B8-4E85-A54E-0E8CF6974C61\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/167A63EB-A0B8-4E85-A54E-0E8CF6974C61",
         "udid" : "167A63EB-A0B8-4E85-A54E-0E8CF6974C61",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-40mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 5 (40mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/167F8ECB-0140-4942-B219-52FB70570770\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/167F8ECB-0140-4942-B219-52FB70570770",
         "udid" : "167F8ECB-0140-4942-B219-52FB70570770",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-5-44mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 5 (44mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F696D432-0A98-4335-9B80-B37B0845B936\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F696D432-0A98-4335-9B80-B37B0845B936",
         "udid" : "F696D432-0A98-4335-9B80-B37B0845B936",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-40mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 6 (40mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F5EF3C1F-B913-43C0-AE41-16988E34FDF4\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F5EF3C1F-B913-43C0-AE41-16988E34FDF4",
         "udid" : "F5EF3C1F-B913-43C0-AE41-16988E34FDF4",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-6-44mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 6 (44mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/34951E68-825F-4923-A1D3-60558F5B820F\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/34951E68-825F-4923-A1D3-60558F5B820F",
         "udid" : "34951E68-825F-4923-A1D3-60558F5B820F",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-41mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 7 (41mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CAEA0234-65E3-47EC-BB1F-21A138F48489\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CAEA0234-65E3-47EC-BB1F-21A138F48489",
         "udid" : "CAEA0234-65E3-47EC-BB1F-21A138F48489",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-7-45mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 7 (45mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C85ACDED-E63B-4C7E-ADD1-EAD831489444\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C85ACDED-E63B-4C7E-ADD1-EAD831489444",
         "udid" : "C85ACDED-E63B-4C7E-ADD1-EAD831489444",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
         "state" : "Shutdown",
         "name" : "Apple Watch SE (40mm) (2nd generation)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/61B5FC1F-5D82-45F0-9B35-1C052AFFB036\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/61B5FC1F-5D82-45F0-9B35-1C052AFFB036",
         "udid" : "61B5FC1F-5D82-45F0-9B35-1C052AFFB036",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
         "state" : "Shutdown",
         "name" : "Apple Watch SE (44mm) (2nd generation)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4AA6FBFD-333B-4F1E-AC3F-824EF57EAD42\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4AA6FBFD-333B-4F1E-AC3F-824EF57EAD42",
         "udid" : "4AA6FBFD-333B-4F1E-AC3F-824EF57EAD42",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-41mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 8 (41mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/06156580-DAA5-48F3-BA0C-BB0ABA0B5A3B\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/06156580-DAA5-48F3-BA0C-BB0ABA0B5A3B",
         "udid" : "06156580-DAA5-48F3-BA0C-BB0ABA0B5A3B",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-8-45mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 8 (45mm)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EA0B06A6-B1E3-429A-BD03-C25C98E7319A\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EA0B06A6-B1E3-429A-BD03-C25C98E7319A",
         "udid" : "EA0B06A6-B1E3-429A-BD03-C25C98E7319A",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Ultra (49mm)"
@@ -2204,34 +2351,31 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.tvOS-16-4" : [
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1A3E26CB-429F-4AAD-8CC5-EACF84371BA0\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1A3E26CB-429F-4AAD-8CC5-EACF84371BA0",
         "udid" : "1A3E26CB-429F-4AAD-8CC5-EACF84371BA0",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p",
         "state" : "Shutdown",
         "name" : "Apple TV"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C933B779-5338-472F-BF2F-CB3B3A0DD6E4\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C933B779-5338-472F-BF2F-CB3B3A0DD6E4",
         "udid" : "C933B779-5338-472F-BF2F-CB3B3A0DD6E4",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-3rd-generation-4K",
         "state" : "Shutdown",
         "name" : "Apple TV 4K (3rd generation)"
       },
       {
-        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6A8D9600-16A5-4C39-919D-60310F130F9E\/data",
         "dataPathSize" : 0,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6A8D9600-16A5-4C39-919D-60310F130F9E",
         "udid" : "6A8D9600-16A5-4C39-919D-60310F130F9E",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-3rd-generation-1080p",
         "state" : "Shutdown",
         "name" : "Apple TV 4K (3rd generation) (at 1080p)"
@@ -2251,11 +2395,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
       {
+        "lastBootedAt" : "2023-07-12T07:04:16Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B\/data",
-        "dataPathSize" : 13316096,
+        "dataPathSize" : 456028160,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "udid" : "EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "isAvailable" : true,
+        "logPathSize" : 45056,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -2383,11 +2529,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-17-0" : [
       {
+        "lastBootedAt" : "2023-07-12T07:05:36Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/216F1ECE-9545-4CDD-A706-199C432EA348\/data",
-        "dataPathSize" : 13254656,
+        "dataPathSize" : 454311936,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/216F1ECE-9545-4CDD-A706-199C432EA348",
         "udid" : "216F1ECE-9545-4CDD-A706-199C432EA348",
         "isAvailable" : true,
+        "logPathSize" : 49152,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -2537,6 +2685,19 @@
     ]
   },
   "pairs" : {
+    "F7B376CD-4074-4255-9EBB-928AFEFBDA72" : {
+      "watch" : {
+        "name" : "Apple Watch Series 8 (41mm)",
+        "udid" : "E4D0035F-063C-41C5-99D0-9BD0931B3388",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Plus",
+        "udid" : "CF08785D-448A-4867-8D45-446CAA3F3525",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "97AB6D6F-32C4-4CDC-93C3-0BC05D4B9139" : {
       "watch" : {
         "name" : "Apple Watch Series 8 (41mm)",
@@ -2548,30 +2709,17 @@
         "udid" : "83435156-A853-4581-818E-F66A05E8EC0D",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
-    },
-    "36454668-1E27-407B-95BB-69111B1C0919" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra (49mm)",
-        "udid" : "E93F336F-E4EE-4B88-88BF-2F9593C2B26F",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14 Pro Max",
-        "udid" : "DB5490F3-4608-4CA6-9EAC-338937771B4B",
-        "state" : "Shutdown"
-      },
       "state" : "(active, disconnected)"
     },
-    "F7B376CD-4074-4255-9EBB-928AFEFBDA72" : {
+    "5C23D64D-F4D9-4A09-ADAE-FCA98EA5FD92" : {
       "watch" : {
-        "name" : "Apple Watch Series 8 (41mm)",
-        "udid" : "E4D0035F-063C-41C5-99D0-9BD0931B3388",
+        "name" : "Apple Watch Series 7 (45mm)",
+        "udid" : "972D3492-D181-43F5-A3FA-692BCBC684FB",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone 14 Plus",
-        "udid" : "CF08785D-448A-4867-8D45-446CAA3F3525",
+        "name" : "iPhone 14",
+        "udid" : "3306050B-8C65-4E75-8D04-9FCFFEA917F3",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -2587,7 +2735,20 @@
         "udid" : "DEDAFECA-3B1E-4CF3-A7C5-BFAB86BB1F99",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
+      "state" : "(active, disconnected)"
+    },
+    "1DBF6463-B212-4811-A40F-81494666DE63" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra (49mm)",
+        "udid" : "EA0B06A6-B1E3-429A-BD03-C25C98E7319A",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Pro Max",
+        "udid" : "74F5FD37-84D4-4B66-8CBE-329E6BF46A87",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
     },
     "C10177F9-8F80-4ED7-9910-492A92CD0E68" : {
       "watch" : {
@@ -2613,33 +2774,20 @@
         "udid" : "1EE90A3C-0D1B-4198-8766-A43D108852F2",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
-    },
-    "5C23D64D-F4D9-4A09-ADAE-FCA98EA5FD92" : {
-      "watch" : {
-        "name" : "Apple Watch Series 7 (45mm)",
-        "udid" : "972D3492-D181-43F5-A3FA-692BCBC684FB",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14",
-        "udid" : "3306050B-8C65-4E75-8D04-9FCFFEA917F3",
-        "state" : "Shutdown"
-      },
       "state" : "(active, disconnected)"
     },
-    "1DBF6463-B212-4811-A40F-81494666DE63" : {
+    "36454668-1E27-407B-95BB-69111B1C0919" : {
       "watch" : {
         "name" : "Apple Watch Ultra (49mm)",
-        "udid" : "EA0B06A6-B1E3-429A-BD03-C25C98E7319A",
+        "udid" : "E93F336F-E4EE-4B88-88BF-2F9593C2B26F",
         "state" : "Shutdown"
       },
       "phone" : {
         "name" : "iPhone 14 Pro Max",
-        "udid" : "74F5FD37-84D4-4B66-8CBE-329E6BF46A87",
+        "udid" : "DB5490F3-4608-4CA6-9EAC-338937771B4B",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
+      "state" : "(active, disconnected)"
     }
   }
 }
