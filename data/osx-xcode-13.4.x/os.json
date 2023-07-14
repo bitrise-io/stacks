@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 12.6.3 (21G419)\n      Kernel Version: Darwin 21.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-monterey13-g2-m1-max.5core-ad29d224-67dc-48a9-925d-df56694c7dab\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 12.6.3 (21G419)\n      Kernel Version: Darwin 21.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-monterey13-g2-m1-max.5core-89117a1d-54d1-4441-b3cf-17a809a0e2f8\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk2s1s1  380Gi   14Gi  106Gi    12%  502144 1107356760    0%   /",
+          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk2s1s1  380Gi   14Gi  106Gi    12%  502144 1107325120    0%   /",
           "executed_command": "df -h /"
         }
       ],

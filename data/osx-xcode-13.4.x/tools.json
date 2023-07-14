@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "14.461",
-          "raw_output": "2023-07-14 11:16:14.461 xcodebuild[4807:15355] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\n2023-07-14 11:16:14.462 xcodebuild[4807:15355] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\ngit version 2.32.1 (Apple Git-133)",
+          "version": "11.897",
+          "raw_output": "2023-07-14 11:18:11.897 xcodebuild[4805:15377] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\n2023-07-14 11:18:11.897 xcodebuild[4805:15377] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\ngit version 2.32.1 (Apple Git-133)",
           "executed_command": "git --version"
         },
         {
@@ -49,7 +49,7 @@
           "name": "bazelisk",
           "category": "tools",
           "version": "6.2.1",
-          "raw_output": "2023/07/14 11:16:16 Downloading https://releases.bazel.build/6.2.1/release/bazel-6.2.1-darwin-arm64...\n2023/07/14 11:16:16 Skipping basic authentication for releases.bazel.build because no credentials found in /Users/vagrant/.netrc\nBazelisk version: development\nWARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).\nExtracting Bazel installation...\nBuild label: 6.2.1\nBuild target: bazel-out/darwin_arm64-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar\nBuild time: Fri Jun 2 17:00:10 2023 (1685725210)\nBuild timestamp: 1685725210\nBuild timestamp as int: 1685725210",
+          "raw_output": "2023/07/14 11:18:13 Downloading https://releases.bazel.build/6.2.1/release/bazel-6.2.1-darwin-arm64...\n2023/07/14 11:18:13 Skipping basic authentication for releases.bazel.build because no credentials found in /Users/vagrant/.netrc\nBazelisk version: development\nWARNING: Invoking Bazel in batch mode since it is not invoked from within a workspace (below a directory having a WORKSPACE file).\nExtracting Bazel installation...\nBuild label: 6.2.1\nBuild target: bazel-out/darwin_arm64-opt/bin/src/main/java/com/google/devtools/build/lib/bazel/BazelServer_deploy.jar\nBuild time: Fri Jun 2 17:00:10 2023 (1685725210)\nBuild timestamp: 1685725210\nBuild timestamp as int: 1685725210",
           "executed_command": "bazelisk version"
         },
         {
