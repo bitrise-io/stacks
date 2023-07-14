@@ -1,0 +1,99 @@
+[
+  {
+    "category": "apple",
+    "output": {
+      "items": [
+        {
+          "name": "Swift (Xcode bundled)",
+          "category": "apple",
+          "version": "",
+          "raw_output": "2023-07-14 11:16:27.444 xcodebuild[5719:17370] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\n2023-07-14 11:16:27.444 xcodebuild[5719:17370] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\n2023-07-14 11:16:27.749 xcodebuild[5720:17378] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\n2023-07-14 11:16:27.749 xcodebuild[5720:17378] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore\nswift-driver version: 1.45.2 Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)\nTarget: arm64-apple-macosx12.0",
+          "executed_command": "xcrun swift --version"
+        },
+        {
+          "name": "Active Xcode command line tools",
+          "category": "apple",
+          "version": "",
+          "raw_output": "/Applications/Xcode-13.4.1.app/Contents/Developer",
+          "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "Tuist",
+          "category": "apple",
+          "version": "3.12.0",
+          "raw_output": "3.12.0",
+          "executed_command": "tuist version"
+        },
+        {
+          "name": "Mint",
+          "category": "apple",
+          "version": "0.17.5",
+          "raw_output": "Version: 0.17.5",
+          "executed_command": "mint version"
+        },
+        {
+          "name": "Cocoapods",
+          "category": "apple",
+          "version": "1.12.1",
+          "raw_output": "1.12.1",
+          "executed_command": "pod --version"
+        },
+        {
+          "name": "Carthage",
+          "category": "apple",
+          "version": "0.39.0",
+          "raw_output": "0.39.0",
+          "executed_command": "carthage version"
+        },
+        {
+          "name": "SwiftLint",
+          "category": "apple",
+          "version": "0.51.0",
+          "raw_output": "0.51.0",
+          "executed_command": "swiftlint version"
+        },
+        {
+          "name": "xcpretty",
+          "category": "apple",
+          "version": "0.3.0",
+          "raw_output": "0.3.0",
+          "executed_command": "xcpretty --version"
+        },
+        {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.9",
+          "raw_output": "applesimutils version 0.9.9",
+          "executed_command": "applesimutils -v"
+        },
+        {
+          "name": "danger-swift",
+          "category": "apple",
+          "version": "3.16.0",
+          "raw_output": "3.16.0\n\u001b[0;0m",
+          "executed_command": "danger-swift --version"
+        },
+        {
+          "name": "xcbeautify",
+          "category": "apple",
+          "version": "0.20.0",
+          "raw_output": "0.20.0",
+          "executed_command": "xcbeautify --version"
+        },
+        {
+          "name": "xclogparser",
+          "category": "apple",
+          "version": "0.2.36",
+          "raw_output": "XCLogParser 0.2.36",
+          "executed_command": "xclogparser version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "swift-format",
+          "error": "exit status 127: zsh:1: command not found: swift-format\n"
+        }
+      ]
+    }
+  }
+]
