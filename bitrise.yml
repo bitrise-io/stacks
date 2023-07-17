@@ -1,0 +1,31 @@
+---
+format_version: '11'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: other
+
+trigger_map:
+- push_branch: "*"
+  workflow: primary
+- pull_request_source_branch: "*"
+  workflow: primary
+
+workflows:
+  primary:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@8: {}
+    - script@1:
+        inputs:
+        - content: |
+            set -ex
+
+            go install -tags extended github.com/gohugoio/hugo@v0.111.3
+
+            hugo
+        title: Build site
+    - deploy-to-bitrise-io@2: {}
+meta:
+  bitrise.io:
+    stack: linux-docker-android-20.04
+    machine_type_id: elite
