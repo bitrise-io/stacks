@@ -3,7 +3,14 @@ languageCode = 'en-us'
 title = 'Bitrise Stacks'
 theme = 'hugo-book'
 
-sectionPagesMenu = "test"
+sectionPagesMenu = "menu"
+
+enableGitInfo = true # Required for RSS timestamps
+rssLimit = 100
+
+[frontmatter]
+# Infer date from git history so that RSS entries automatically get a <pubDate>
+date = [":git", ":default"]
 
 [taxonomies]
 # Syntax: singular = "plural"
