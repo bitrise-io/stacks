@@ -1,0 +1,6 @@
+{{ $file := readFile (.Get "filepath") }}
+
+<details>
+    <summary>Android SDK packages</summary>
+    <pre>{{ $file }}</pre>
+</details>

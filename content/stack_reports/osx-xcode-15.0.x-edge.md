@@ -24,6 +24,7 @@ Available runtimes and devices:
 ### Android development
 
 {{< generic filepath="data/osx-xcode-15.0.x-edge/android.json">}}
+{{< android-sdk filepath="data/osx-xcode-15.0.x-edge/android-sdk.txt" >}}
 
 ### Generic tools
 
