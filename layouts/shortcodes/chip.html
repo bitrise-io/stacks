@@ -1,0 +1,10 @@
+{{ $text := .Get "text" }}
+{{ $colorTag := "" }}
+{{ if eq $text "edge" }}
+    {{ $colorTag = "blue" }}
+{{ else if eq $text "stable"}}
+    {{ $colorTag = "green" }}
+{{ else }}
+    {{ $colorTag = "neutral" }}
+{{ end }}
+<span class="bitrise-stack-chip {{ $colorTag }}">{{ $text }}</span>
