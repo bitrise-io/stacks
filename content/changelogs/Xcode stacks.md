@@ -1,0 +1,41 @@
+---
+title: Xcode stacks changelog
+---
+
+Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/macos).
+
+When a specific Xcode version is not mentioned, all actively updated Xcode stacks are affected.
+
+## Updates
+
+### Stack update `v2023-07-12`
+
+- {{< chip text="edge" >}} [Xcode 15 Beta 4](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 3.
+- {{< chip text="edge" >}} {{< chip text="stable" >}} Some iOS simulator devices are pre-warmed for better performance. For each iOS runtime, the device `Bitrise iOS default` is already booted once (then shut down) so that the next boot during testing is faster and uses less CPU.
+- {{< chip text="stable" >}} [Tuist](https://tuist.io) has been updated to version 3.19.
+
+### Stack update `v2023-07-06`
+
+This update is for {{< chip text="edge" >}} stacks {{< chip text="Xcode 14.3" >}} and {{< chip text="Xcode 15" >}} only.
+
+- [Xcode 15 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 2.
+- Tuist has been updated to [version 3.20](https://github.com/tuist/tuist/releases/tag/3.20.0)
+- The following simulator runtimes are now installed:
+  - iOS 16.4
+  - tvOS 16.4
+  - watchOS 9.4
+
+### Stack update `v2023-07-03`
+
+- {{< chip text="stable" >}} {{< chip text="Xcode 14.0-14.3" >}} Default Ruby version has changed from 2.7.6 to 3.2.2 according to the [deprecation plan](https://discuss.bitrise.io/t/ruby-2-7-x-deprecation/22544).
+
+### Stack update `v2023-06-22`
+
+- {{< chip text="stable" >}} {{< chip text="edge" >}} Ruby versions are now managed via [asdf](https://asdf-vm.com/). During the transition period, both `rbenv` and `asdf` are installed and can be used, but we recommend migrating to `asdf`, which also manages Node.js and Go versions on the stacks.
+- {{< chip text="edge" >}} Default Ruby version has changed from 2.7.6 to 3.2.2 according to the [deprecation plan](https://discuss.bitrise.io/t/ruby-2-7-x-deprecation/22544).
+- {{< chip text="stable" >}} {{< chip text="edge" >}} Each installed iOS simulator runtime now has a device named `Bitrise iOS default`. This name is constant across all runtime versions, but the real device type changes based on the iOS version. You can use this device name in test steps and destination specifiers and be sure that it’s going to be available across all Xcode and runtime versions.
+- {{< chip text="stable" >}} {{< chip text="edge" >}} The `cmake;3.10.2.4988404` Android SDK package is now preinstalled
+- {{< chip text="stable" >}} {{< chip text="edge" >}} [OpenUPM CLI](https://openupm.com/) is now preinstalled
+- {{< chip text="edge" >}} [swift-format](https://github.com/apple/swift-format) is now preinstalled
+
+

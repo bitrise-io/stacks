@@ -11,6 +11,10 @@ body {
     line-height: 1.2;
 }
 
+.markdown li {
+    margin-bottom: 7px;
+}
+
 // TODO: fix dark theme
 @media (prefers-color-scheme: dark) {
     body {
@@ -23,4 +27,27 @@ body {
 h2.book-brand span {
     position: relative;
     top: 2px;
+}
+
+.bitrise-stack-chip {
+    text-transform: uppercase;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 3px 7px;
+    font-weight: bold;
+}
+
+.bitrise-stack-chip.green {
+    color: #167231;
+    background: #EEF9F1;
+}
+
+.bitrise-stack-chip.blue {
+    color: #1066AC;
+    background: #ECF8FD;
+}
+
+.bitrise-stack-chip.neutral {
+    color: #6B6071;
+    background: #F6F4F6;
 }
