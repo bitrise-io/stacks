@@ -3,6 +3,7 @@ title: Xcode 14.3 with edge updates
 summary: macOS stack for building with Xcode 14.3, with more frequent tool updates than the normal Xcode 14.3 stack
 platform: macOS
 xcode: 14.3
+weight: 3
 ---
 
 ## Languages and runtimes

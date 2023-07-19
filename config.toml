@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Bitrise Stacks'
 theme = 'hugo-book'
 
-sectionPagesMenu = "menu"
+sectionPagesMenu = "main"
 
 enableGitInfo = true # Required for RSS timestamps
 rssLimit = 100
@@ -17,6 +17,17 @@ date = [":git", ":default"]
 tag = "tags"
 platform = "platform"
 xcode = "xcode"
+
+[menu]
+
+[[menu.after]]
+  name = "Blog"
+  url = "https://bitrise.io/blog/"
+  weight = 20
+[[menu.after]]
+  name = "Docs"
+  url = "https://devcenter.bitrise.io/"
+  weight = 21
 
 [params]
 # Book theme params
@@ -33,11 +44,6 @@ BookToC = true
 # (Optional, default none) Set the path to a logo for the book. If the logo is
 # /static/logo.png then the path would be 'logo.png'
 BookLogo = 'bitrise-logo.svg'
-
-# (Optional, default none) Set leaf bundle to render as side menu
-# When not specified file structure and weights will be used
-# Deprecated, to be removed in June 2022
-#   BookMenuBundle = '/menu'
 
 # (Optional, default docs) Specify section of content to render as menu
 # You can also set value to "*" to render all sections to menu

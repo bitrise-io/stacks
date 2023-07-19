@@ -1,5 +1,6 @@
 ---
 title: Overview of Node.js versions
+summary: An overview of the preinstalled Node.js versions across all Bitrise stacks.
 ---
 
 This is an overview of the preinstalled Node.js versions across all Bitrise stacks.

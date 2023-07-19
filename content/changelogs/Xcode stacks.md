@@ -1,5 +1,6 @@
 ---
 title: Xcode stacks changelog
+summary: Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/macos).
 ---
 
 Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/macos).
