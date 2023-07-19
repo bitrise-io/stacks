@@ -40,6 +40,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: recursive # Checkout theme submodule
+          fetch-depth: 0 # Fetch full history for correct modification dates
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
