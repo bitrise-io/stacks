@@ -3,6 +3,7 @@ title: Xcode 15.0 with edge updates
 summary: macOS stack for building with Xcode 15.0, with more frequent tool updates
 platform: macOS
 xcode: 15.0
+flavor: edge
 weight: 5
 ---
 

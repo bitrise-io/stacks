@@ -3,6 +3,7 @@ title: Xcode 14.3
 summary: macOS stack for building with Xcode 14.3
 platform: macOS
 xcode: 14.3
+flavor: stable
 weight: 4
 ---
 

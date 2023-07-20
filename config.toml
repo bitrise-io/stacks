@@ -17,6 +17,7 @@ date = [":git", ":default"]
 tag = "tags"
 platform = "platform"
 xcode = "xcode"
+flavor = "flavor"
 
 [menu]
 
