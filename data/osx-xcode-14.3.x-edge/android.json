@@ -13,15 +13,15 @@
         {
           "name": "Gradle",
           "category": "android",
-          "version": "8.1.1",
-          "raw_output": "Welcome to Gradle 8.1.1!\n\nHere are the highlights of this release:\n - Stable configuration cache\n - Experimental Kotlin DSL assignment syntax\n - Building with Java 20\n\nFor more details see https://docs.gradle.org/8.1.1/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.1.1\n------------------------------------------------------------\n\nBuild time:   2023-04-21 12:31:26 UTC\nRevision:     1cf537a851c635c364a4214885f8b9798051175b\n\nKotlin:       1.8.10\nGroovy:       3.0.15\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          11.0.17 (Eclipse Adoptium 11.0.17+8)\nOS:           Mac OS X 13.4 aarch64",
+          "version": "8.2.1",
+          "raw_output": "Welcome to Gradle 8.2.1!\n\nHere are the highlights of this release:\n - Kotlin DSL: new reference documentation, assignment syntax by default\n - Kotlin DSL is now the default with Gradle init\n - Improved suggestions to resolve errors in console output\n - Reduced sync memory consumption\n\nFor more details see https://docs.gradle.org/8.2.1/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.2.1\n------------------------------------------------------------\n\nBuild time:   2023-07-10 12:12:35 UTC\nRevision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa\n\nKotlin:       1.8.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.17 (Eclipse Adoptium 11.0.17+8)\nOS:           Mac OS X 13.4 aarch64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
-          "version": "3.9.2",
-          "raw_output": "Apache Maven 3.9.2 (c9616018c7a021c1c39be70fb2843d6f5f9b8a1c)\nMaven home: /opt/homebrew/Cellar/maven/3.9.2/libexec\nJava version: 11.0.17, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.4\", arch: \"aarch64\", family: \"mac\"",
+          "version": "3.9.3",
+          "raw_output": "Apache Maven 3.9.3 (21122926829f1ead511c958d89bd2f672198ae9f)\nMaven home: /opt/homebrew/Cellar/maven/3.9.3/libexec\nJava version: 11.0.17, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.4\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
