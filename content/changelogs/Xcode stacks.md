@@ -9,6 +9,17 @@ When a specific Xcode version is not mentioned, all actively updated Xcode stack
 
 ## Updates
 
+### Stack update `v2023-07-18`
+
+- {{< chip text="edge" >}} {{< chip text="stable" >}}Tool version aliases: tools managed via ASDF got special alias versions for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be selected like the regular versions. Examples:
+  - `asdf global ruby 3.2`
+  - `asdf global nodejs 19`
+  - `asdf global golang 1.20`
+- {{< chip text="edge" >}} Default tool versions are now set to `major.minor` aliases and the exact patch version might change in the future:
+  - Ruby: `3.2`
+  - Golang: `1.20`
+  - Node.js: `20.4`
+
 ### Stack update `v2023-07-12`
 
 - {{< chip text="edge" >}} [Xcode 15 Beta 4](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 3.
