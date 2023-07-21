@@ -7,22 +7,43 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "2.6.9\n  2.7.2\n  2.7.5\n  2.7.6\n  3.0.0\n  3.0.3\n  3.1.0\n  3.1.3\n  3.1.4\n  3.2.1\n *3.2.2",
+          "raw_output": "2.6.9\n  2.6\n  2.7.2\n  2.7.5\n  2.7.6\n  2.7\n  2\n  3.0.0\n  3.0.3\n  3.0\n  3.1.0\n  3.1.3\n  3.1.4\n  3.1\n  3.2.1\n  3.2.2\n *3.2\n  3",
           "executed_command": "asdf list ruby"
+        },
+        {
+          "name": "Ruby version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "2 =\u003e 2.7.6\n2.6 =\u003e 2.6.9\n2.7 =\u003e 2.7.6\n3 =\u003e 3.2.2\n3.0 =\u003e 3.0.3\n3.1 =\u003e 3.1.4\n3.2 =\u003e 3.2.2",
+          "executed_command": "asdf alias ruby --list"
         },
         {
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1.19.9\n *1.20.4",
+          "raw_output": "1.19.10\n  1.19\n *1.20.5\n  1.20\n  1",
           "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Go version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1 =\u003e 1.20.5\n1.19 =\u003e 1.19.10\n1.20 =\u003e 1.20.5",
+          "executed_command": "asdf alias golang --list"
         },
         {
           "name": "Node.js versions",
           "category": "languages",
           "version": "",
-          "raw_output": "18.16.0\n *20.2.0",
+          "raw_output": "18.16.1\n  18.16\n  18\n  20.4.0\n *20.4\n  20",
           "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Node.js version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "18 =\u003e 18.16.1\n18.16 =\u003e 18.16.1\n20 =\u003e 20.4.0\n20.4 =\u003e 20.4.0\nlts =\u003e 18.16.0",
+          "executed_command": "asdf alias nodejs --list"
         },
         {
           "name": "Java versions",
@@ -48,8 +69,8 @@
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "1.8.22",
-          "raw_output": "Kotlin version 1.8.22-release-407 (JRE 11.0.17+8)",
+          "version": "1.9.0",
+          "raw_output": "Kotlin version 1.9.0-release-358 (JRE 11.0.17+8)",
           "executed_command": "kotlin -version"
         }
       ],
