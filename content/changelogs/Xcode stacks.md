@@ -7,6 +7,10 @@ Bitrise stacks are updated continuously according to the [stack update policy](h
 
 When a specific Xcode version is not mentioned, all actively updated Xcode stacks are affected.
 
+{{< hint info >}}
+Learn more [how to get notified of updates](../tips/Get%20notified.md).
+{{< /hint >}}
+
 ## Updates
 
 ### Stack update `v2023-07-18`
