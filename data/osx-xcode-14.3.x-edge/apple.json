@@ -55,8 +55,8 @@
         {
           "name": "SwiftLint",
           "category": "apple",
-          "version": "0.52.2",
-          "raw_output": "0.52.2",
+          "version": "0.52.4",
+          "raw_output": "0.52.4",
           "executed_command": "swiftlint version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "0.20.0",
-          "raw_output": "0.20.0",
+          "version": "0.21.0",
+          "raw_output": "0.21.0",
           "executed_command": "xcbeautify --version"
         },
         {
