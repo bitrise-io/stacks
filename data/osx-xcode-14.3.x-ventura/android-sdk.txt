@@ -11,3 +11,4 @@
   patcher;v4                                                                        | 1            | SDK Patch Applier v4               | patcher/v4                                                                       
   platform-tools                                                                    | 33.0.3       | Android SDK Platform-Tools         | platform-tools                                                                   
   platforms;android-32                                                              | 1            | Android SDK Platform 32            | platforms/android-32                                                             
+
