@@ -1507,10 +1507,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5277g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime",
-      "buildversion" : "21A5277g",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5291g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime",
+      "buildversion" : "21A5291g",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5277g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21A5291g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-0",
       "version" : "17.0",
       "isInternal" : false,
@@ -1863,10 +1863,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5303f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime",
-      "buildversion" : "21J5303f",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5318f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime",
+      "buildversion" : "21J5318f",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5303f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21J5318f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-0",
       "version" : "17.0",
       "isInternal" : false,
@@ -2021,10 +2021,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5305e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime",
-      "buildversion" : "21R5305e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5320g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime",
+      "buildversion" : "21R5320g",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5305e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21R5320g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-0",
       "version" : "10.0",
       "isInternal" : false,
@@ -2395,13 +2395,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
       {
-        "lastBootedAt" : "2023-07-18T16:37:36Z",
+        "lastBootedAt" : "2023-07-26T06:49:46Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B\/data",
-        "dataPathSize" : 471056384,
+        "dataPathSize" : 500584448,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "udid" : "EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "isAvailable" : true,
-        "logPathSize" : 53248,
+        "logPathSize" : 57344,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -2529,13 +2529,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-17-0" : [
       {
-        "lastBootedAt" : "2023-07-18T16:38:52Z",
+        "lastBootedAt" : "2023-07-26T06:51:09Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/216F1ECE-9545-4CDD-A706-199C432EA348\/data",
-        "dataPathSize" : 521658368,
+        "dataPathSize" : 636956672,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/216F1ECE-9545-4CDD-A706-199C432EA348",
         "udid" : "216F1ECE-9545-4CDD-A706-199C432EA348",
         "isAvailable" : true,
-        "logPathSize" : 61440,
+        "logPathSize" : 69632,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
