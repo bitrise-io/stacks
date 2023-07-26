@@ -13,6 +13,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-07-26`
+
+This update is for {{< chip text="edge" >}} stacks {{< chip text="Xcode 14.3" >}} and {{< chip text="Xcode 15" >}} only.
+
+- [Xcode 15 Beta 5](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 4.
+- Preinstalled Ruby gems such as `cocoapods` and `fastlane` are now installed for all available Ruby versions.
+
 ### Stack update `v2023-07-18`
 
 - {{< chip text="edge" >}} {{< chip text="stable" >}}Tool version aliases: tools managed via ASDF got special alias versions for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be selected like the regular versions. Examples:
