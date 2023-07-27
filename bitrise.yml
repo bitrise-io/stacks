@@ -16,6 +16,7 @@ workflows:
         run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@8: {}
     - script@1:
+        title: Build site
         inputs:
         - content: |
             set -ex
@@ -23,8 +24,13 @@ workflows:
             go install -tags extended github.com/gohugoio/hugo@v0.111.3
 
             hugo
-        title: Build site
     - deploy-to-bitrise-io@2: {}
+  broken-link-check:
+    steps:
+    - script@1:
+        title: Run linkinator
+        inputs:
+        - content: npx linkinator https://bitrise-io.github.io/stacks/
 meta:
   bitrise.io:
     stack: linux-docker-android-20.04
