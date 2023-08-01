@@ -4,6 +4,13 @@
     "output": {
       "items": [
         {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 14.1\nBuild version 14B47b",
+          "executed_command": "xcodebuild -version"
+        },
+        {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
