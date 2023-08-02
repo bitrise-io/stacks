@@ -13,7 +13,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2023-08-01`
+### Stack update `v2023-07-31`
 
 This update is for {{< chip text="stable" >}} stacks.
 
