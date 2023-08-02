@@ -13,6 +13,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-01`
+
+This update is for {{< chip text="stable" >}} stacks.
+
+- Brew cache update & security fixes.
+
 ### Stack update `v2023-07-26`
 
 This update is for {{< chip text="edge" >}} stacks {{< chip text="Xcode 14.3" >}} and {{< chip text="Xcode 15" >}} only.
