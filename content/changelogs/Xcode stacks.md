@@ -17,6 +17,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 This update is for {{< chip text="edge" >}} stacks.
 
 - Brew cache update & security fixes.
+- Ruby version 3.1.0 has been removed as it's been broken for a while. Version 3.1.0 cannot be reliably installed on macOS because of [this bug](https://bugs.ruby-lang.org/issues/18912); the first fixed version of the 3.1 series is 3.1.3. This version is available preinstalled.
 
 ### Stack update `v2023-07-31`
 
