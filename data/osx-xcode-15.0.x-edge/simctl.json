@@ -2070,13 +2070,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
       {
-        "lastBootedAt" : "2023-07-26T06:49:46Z",
+        "lastBootedAt" : "2023-08-02T07:07:34Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B\/data",
-        "dataPathSize" : 500584448,
+        "dataPathSize" : 517074944,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "udid" : "EC831ACF-96E8-497D-99A1-E2C1CD8E282B",
         "isAvailable" : true,
-        "logPathSize" : 57344,
+        "logPathSize" : 61440,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -2204,13 +2204,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-17-0" : [
       {
-        "lastBootedAt" : "2023-07-26T06:51:09Z",
+        "lastBootedAt" : "2023-08-02T07:08:53Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/216F1ECE-9545-4CDD-A706-199C432EA348\/data",
-        "dataPathSize" : 636956672,
+        "dataPathSize" : 669396992,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/216F1ECE-9545-4CDD-A706-199C432EA348",
         "udid" : "216F1ECE-9545-4CDD-A706-199C432EA348",
         "isAvailable" : true,
-        "logPathSize" : 69632,
+        "logPathSize" : 73728,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
