@@ -11,6 +11,18 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-07`
+
+- [ASDF](https://asdf-vm.com/) version aliases: tools managed via ASDF got special alias versions for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be selected like the regular versions. Examples:
+
+  * `asdf global ruby 3.2`
+  * `asdf global python 3.11`
+
+- Android command-line tools package upgraded to 9.0
+- Gradle (system-wide) updated to 8.2.1
+- Kotlin (system-wide) updated to 1.9.0
+
+
 ### Stack update `v2023-06-28`
 
 - The default Ruby version has changed from 2.7.6 to 3.2.2. See [the previous deprecation notice](https://discuss.bitrise.io/t/ruby-2-7-x-deprecation/22544) for more details. Reverting back to the previous default version can be done (for a limited time) by activating the system-wide Ruby version with `asdf global ruby system`.
