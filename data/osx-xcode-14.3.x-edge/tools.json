@@ -13,8 +13,8 @@
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.3.0",
-          "raw_output": "git-lfs/3.3.0 (GitHub; darwin arm64; go 1.19.3)",
+          "version": "3.4.0",
+          "raw_output": "git-lfs/3.4.0 (GitHub; darwin arm64; go 1.20.6)",
           "executed_command": "git-lfs version"
         },
         {
@@ -48,8 +48,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.13.3",
-          "raw_output": "aws-cli/2.13.3 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
+          "version": "2.13.5",
+          "raw_output": "aws-cli/2.13.5 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.27.0",
-          "raw_output": "cmake version 3.27.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.27.1",
+          "raw_output": "cmake version 3.27.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
