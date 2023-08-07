@@ -30,7 +30,7 @@ workflows:
     - script@1:
         title: Run linkinator
         inputs:
-        - content: npx linkinator https://bitrise-io.github.io/stacks/
+        - content: npx linkinator https://stacks.bitrise.io
 meta:
   bitrise.io:
     stack: linux-docker-android-20.04
