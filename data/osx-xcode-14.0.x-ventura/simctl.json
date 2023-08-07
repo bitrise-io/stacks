@@ -4098,13 +4098,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-15-4" : [
       {
-        "lastBootedAt" : "2023-07-31T13:13:39Z",
+        "lastBootedAt" : "2023-08-07T11:02:40Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9E18AD30-C02E-434D-BFE8-C356E82B7430\/data",
-        "dataPathSize" : 1118027776,
+        "dataPathSize" : 1119125504,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9E18AD30-C02E-434D-BFE8-C356E82B7430",
         "udid" : "9E18AD30-C02E-434D-BFE8-C356E82B7430",
         "isAvailable" : true,
-        "logPathSize" : 327680,
+        "logPathSize" : 331776,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -4252,13 +4252,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-0" : [
       {
-        "lastBootedAt" : "2023-07-31T13:16:03Z",
+        "lastBootedAt" : "2023-08-07T11:05:05Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/3908D5D0-5E53-4647-B8F4-1DE7CF4B7A22\/data",
-        "dataPathSize" : 956989440,
+        "dataPathSize" : 980873216,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/3908D5D0-5E53-4647-B8F4-1DE7CF4B7A22",
         "udid" : "3908D5D0-5E53-4647-B8F4-1DE7CF4B7A22",
         "isAvailable" : true,
-        "logPathSize" : 49152,
+        "logPathSize" : 57344,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -4386,13 +4386,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-15-5" : [
       {
-        "lastBootedAt" : "2023-07-31T13:14:51Z",
+        "lastBootedAt" : "2023-08-07T11:03:52Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6E657944-7FCF-4CD8-AC9D-9AF73A7DEA2B\/data",
-        "dataPathSize" : 919056384,
+        "dataPathSize" : 1109757952,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6E657944-7FCF-4CD8-AC9D-9AF73A7DEA2B",
         "udid" : "6E657944-7FCF-4CD8-AC9D-9AF73A7DEA2B",
         "isAvailable" : true,
-        "logPathSize" : 327680,
+        "logPathSize" : 331776,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -4572,13 +4572,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-1" : [
       {
-        "lastBootedAt" : "2023-07-31T13:17:22Z",
+        "lastBootedAt" : "2023-08-07T11:06:26Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/30CF4AE4-9032-4A55-9ED4-F54A24AE02E8\/data",
-        "dataPathSize" : 1303982080,
+        "dataPathSize" : 1734443008,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/30CF4AE4-9032-4A55-9ED4-F54A24AE02E8",
         "udid" : "30CF4AE4-9032-4A55-9ED4-F54A24AE02E8",
         "isAvailable" : true,
-        "logPathSize" : 49152,
+        "logPathSize" : 57344,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -4900,14 +4900,14 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-2" : [
       {
-        "lastBootedAt" : "2023-07-31T13:18:46Z",
+        "lastBootedAt" : "2023-08-07T11:07:44Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5B159679-F2A1-4D13-BE62-845AE6B8B011\/data",
-        "dataPathSize" : 2097164288,
+        "dataPathSize" : 2529873920,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5B159679-F2A1-4D13-BE62-845AE6B8B011",
         "udid" : "5B159679-F2A1-4D13-BE62-845AE6B8B011",
         "isAvailable" : false,
         "availabilityError" : "runtime profile not found",
-        "logPathSize" : 49152,
+        "logPathSize" : 57344,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -5233,13 +5233,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-13-7" : [
       {
-        "lastBootedAt" : "2023-07-31T13:08:44Z",
+        "lastBootedAt" : "2023-08-07T10:57:41Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/68749ECC-5F2F-4ED3-8AC2-04D35669BF1C\/data",
-        "dataPathSize" : 228610048,
+        "dataPathSize" : 236449792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/68749ECC-5F2F-4ED3-8AC2-04D35669BF1C",
         "udid" : "68749ECC-5F2F-4ED3-8AC2-04D35669BF1C",
         "isAvailable" : true,
-        "logPathSize" : 2433024,
+        "logPathSize" : 2965504,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -5409,13 +5409,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-15-0" : [
       {
-        "lastBootedAt" : "2023-07-31T13:11:14Z",
+        "lastBootedAt" : "2023-08-07T11:00:16Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B3784909-686C-4C7E-A369-B930CCAE78D2\/data",
-        "dataPathSize" : 915251200,
+        "dataPathSize" : 924033024,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B3784909-686C-4C7E-A369-B930CCAE78D2",
         "udid" : "B3784909-686C-4C7E-A369-B930CCAE78D2",
         "isAvailable" : true,
-        "logPathSize" : 319488,
+        "logPathSize" : 323584,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -5563,13 +5563,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-14-5" : [
       {
-        "lastBootedAt" : "2023-07-31T13:10:01Z",
+        "lastBootedAt" : "2023-08-07T10:59:00Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D5C9901A-B6BE-47D7-8FEB-5ECDB457E8D7\/data",
-        "dataPathSize" : 306778112,
+        "dataPathSize" : 314572800,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D5C9901A-B6BE-47D7-8FEB-5ECDB457E8D7",
         "udid" : "D5C9901A-B6BE-47D7-8FEB-5ECDB457E8D7",
         "isAvailable" : true,
-        "logPathSize" : 3158016,
+        "logPathSize" : 3874816,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -5819,13 +5819,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-15-2" : [
       {
-        "lastBootedAt" : "2023-07-31T13:12:27Z",
+        "lastBootedAt" : "2023-08-07T11:01:28Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/83A7566B-2B5F-4E53-BE2E-0C39596413F4\/data",
-        "dataPathSize" : 906797056,
+        "dataPathSize" : 917803008,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/83A7566B-2B5F-4E53-BE2E-0C39596413F4",
         "udid" : "83A7566B-2B5F-4E53-BE2E-0C39596413F4",
         "isAvailable" : true,
-        "logPathSize" : 319488,
+        "logPathSize" : 323584,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
@@ -6018,7 +6018,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "111CB674-D0C2-42DD-AC0E-780726DE8389" : {
+    "49E97144-B3E0-4F45-BCA7-4A7E929A8C55" : {
       "watch" : {
         "name" : "Apple Watch Ultra (49mm)",
         "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
@@ -6031,7 +6031,20 @@
       },
       "state" : "(active, disconnected)"
     },
-    "6B303FF3-3614-4B4D-9601-EA1FD9BDD7BE" : {
+    "E2698F5F-895A-42BC-ADB8-66C9FC7D8185" : {
+      "watch" : {
+        "name" : "Apple Watch Series 8 (41mm)",
+        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Plus",
+        "udid" : "CD2885ED-CA16-4CE8-806B-790216083E6E",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "4EB7EC8C-DC99-4829-A370-52A8CBE92869" : {
       "watch" : {
         "name" : "Apple Watch Series 7 (45mm)",
         "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
@@ -6070,7 +6083,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "A7D54E40-C919-4E8E-A04A-02ECB2F54E0B" : {
+    "9D5FA0F1-AB05-43BD-B841-221E72E79BDA" : {
       "watch" : {
         "name" : "Apple Watch Series 8 (45mm)",
         "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
@@ -6092,19 +6105,6 @@
       "phone" : {
         "name" : "iPhone 14 Pro Max",
         "udid" : "77A43D26-64C7-4A7B-81F6-35E1485A7E19",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "0813D023-D6DD-4898-9204-A98305AE164A" : {
-      "watch" : {
-        "name" : "Apple Watch Series 8 (41mm)",
-        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14 Plus",
-        "udid" : "CD2885ED-CA16-4CE8-806B-790216083E6E",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
