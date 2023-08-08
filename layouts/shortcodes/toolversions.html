@@ -2,7 +2,7 @@
 
 <!-- Iterate over data files and read languages.json from each dorectory -->
 {{ range $dir := (readDir "data") }}
-    <h3>{{ $dir.Name }}</h3>
+    <h3><code>{{ $dir.Name }}</code></h3>
     {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
     {{ $json := getJSON $jsonPath }}
     {{ $tool := index (where (index $json 0).output.items "name" $toolName) 0 }}
