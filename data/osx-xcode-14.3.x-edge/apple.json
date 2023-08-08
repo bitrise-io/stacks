@@ -4,6 +4,13 @@
     "output": {
       "items": [
         {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 14.3.1\nBuild version 14E300c",
+          "executed_command": "xcodebuild -version"
+        },
+        {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
@@ -83,8 +90,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "0.21.0",
-          "raw_output": "0.21.0",
+          "version": "1.0.0",
+          "raw_output": "1.0.0",
           "executed_command": "xcbeautify --version"
         },
         {
