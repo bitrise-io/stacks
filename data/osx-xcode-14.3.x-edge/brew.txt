@@ -7,7 +7,7 @@ argon2 20190702_1
 aria2 1.36.0_1
 aspell 0.60.8
 autoconf 2.71
-awscli 2.13.3
+awscli 2.13.5
 bazelisk 1.17.0
 boost 1.82.0_1
 brotli 1.0.9
@@ -15,7 +15,7 @@ ca-certificates 2023-05-30
 cairo 1.16.0_5
 carthage 0.39.0
 cffi 1.15.1
-cmake 3.27.0
+cmake 3.27.1
 coreutils 9.3
 curl 8.1.2_1
 danger-js 64
@@ -41,7 +41,7 @@ gh 2.32.1
 ghostscript 10.01.2
 giflib 5.2.1
 git 2.41.0_2
-git-lfs 3.3.0
+git-lfs 3.4.0
 glib 2.76.4
 glog 0.6.0
 gmp 6.2.1_1
@@ -50,11 +50,11 @@ gnutls 3.8.0
 gradle 8.2.1
 graphite2 1.3.14
 groovy 4.0.13
-harfbuzz 8.0.1
+harfbuzz 8.1.0
 highway 1.0.5
 hub 2.14.2
 icu4c 73.2
-imagemagick 7.1.1-14
+imagemagick 7.1.1-15
 imath 3.1.9
 jasper 4.0.0
 jbig2dec 0.19
@@ -120,7 +120,7 @@ openssl@1.1 1.1.1u
 openssl@3 3.1.1_1
 openvpn 2.6.5
 p11-kit 0.25.0
-parallel 20230622
+parallel 20230722
 pcre2 10.42
 php 8.2.8
 pinentry 1.2.1
@@ -139,7 +139,7 @@ screen 4.9.0_1
 shared-mime-info 2.2
 six 1.16.0_3
 snappy 1.1.10
-sonar-scanner 4.8.0.2856
+sonar-scanner 5.0.0.2966
 sqlite 3.42.0
 stoken 0.92_1
 swift-format 508.0.1
@@ -154,7 +154,7 @@ watchman 2023.07.24.00
 webp 1.3.1
 wget 1.21.4
 x265 3.5
-xcbeautify 0.21.0
+xcbeautify 1.0.0
 xclogparser 0.2.36
 xcodes 1.3.0
 xorgproto 2023.2
