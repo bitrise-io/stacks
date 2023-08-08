@@ -1,25 +1,41 @@
 {{ $toolName := .Get "tool" }}
 
-<!-- Iterate over data files and read languages.json from each dorectory -->
-{{ range $dir := (readDir "data") }}
-    <h3><code>{{ $dir.Name }}</code></h3>
-    {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
-    {{ $json := getJSON $jsonPath }}
-    {{ $tool := index (where (index $json 0).output.items "name" $toolName) 0 }}
-    {{ if $tool }}
-        <ul>
-        <!-- Parse and clean up ASDF's plain text output -->
-        <!-- The output is a list of version lines, with `*` marking the default version -->
-        {{ $versions := split $tool.raw_output "\n" }}
-        {{ range $version := $versions }}
-            {{ $version = trim $version " " }}
-            {{ if strings.HasPrefix $version "*" }}
-                {{ $version = strings.TrimPrefix "*" $version }}
-                <li><strong>{{ $version }} (default)</strong></li>
-            {{ else }}
-                <li>{{ $version }}</li>
+<table>
+    <tr>
+        <th>Stack ID</th>
+        <th>Default version</th>
+        <th>All installed versions</th>
+    </tr>
+    <!-- Iterate over data files and read languages.json from each dorectory -->
+    {{ range $dir := (readDir "data") }}
+        <tr>
+            {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
+            {{ $json := getJSON $jsonPath }}
+            {{ $tool := index (where (index $json 0).output.items "name" $toolName) 0 }}
+            {{ if $tool }}
+                <td><code>{{ $dir.Name }}</code></td>
+                {{ $rawVersions := split $tool.raw_output "\n" }}
+                {{ $defaultVersion := "" }}
+                {{ $versions := slice }}
+                {{ range $version := $rawVersions }}
+                    <!-- Parse and clean up ASDF's plain text output -->
+                    <!-- The output is a list of version lines, with `*` marking the default version -->
+                    {{ $version = trim $version " " }}
+                    {{ if strings.HasPrefix $version "*" }}
+                        {{ $version = strings.TrimPrefix "*" $version }}
+                        {{ $defaultVersion = $version }}
+                    {{ end }}
+                    {{ $versions = $versions | append $version }}
+                {{ end }}
+                <td>{{ $defaultVersion }}</td>
+                <td>
+                    <ul>
+                        {{ range $version := $versions }}
+                            <li>{{ $version }}</li>
+                        {{ end }}
+                    </ul>
+                </td>
             {{ end }}
-        {{ end }}
-        </ul>
+        </tr>
     {{ end }}
-{{ end }}
+</table>
