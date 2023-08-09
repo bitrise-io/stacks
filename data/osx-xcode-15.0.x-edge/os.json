@@ -7,15 +7,22 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.4 (22F66)\n      Kernel Version: Darwin 22.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-ventura-edge-g2-m1-max.5core-ad1c70f6-3591-4823-9c00-671906961ad8\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 54 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.4 (22F66)\n      Kernel Version: Darwin 22.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-ventura-edge-g2-m1-max.5core-88463578-c361-41dc-a21e-5a378d425c42\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 54 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk3s1s1  295Gi  8.4Gi  167Gi     5%  355384 1752465680    0%   /",
+          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk3s1s1  295Gi  8.4Gi  151Gi     6%  355384 1585700240    0%   /",
           "executed_command": "df -h /"
+        },
+        {
+          "name": "OpenSSH",
+          "category": "os",
+          "version": "",
+          "raw_output": "OpenSSH_9.0p1, LibreSSL 3.3.6",
+          "executed_command": "ssh -V"
         }
       ],
       "errors": null
