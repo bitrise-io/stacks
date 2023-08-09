@@ -13,6 +13,11 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-07`, `v2023-08-08`
+
+- {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} Xcode 15 Beta 6 is available, replacing Beta 5
+- {{< chip text="stable" >}} {{< chip text="edge" >}} Deprecated Ruby 2.x versions have been removed according to the [deprecation timeline](https://discuss.bitrise.io/t/ruby-2-7-x-deprecation/22544)
+
 ### Stack update `v2023-08-02`
 This update is for {{< chip text="edge" >}} stacks.
 
