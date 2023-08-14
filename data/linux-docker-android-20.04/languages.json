@@ -7,21 +7,28 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3.2.1",
+          "raw_output": "3\n  3.2\n *3.2.1",
           "executed_command": "asdf list ruby"
         },
         {
-          "name": "Go versions",
+          "name": "Ruby version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.2.1\n3.2 =\u003e 3.2.1",
+          "executed_command": "asdf alias ruby --list"
+        },
+        {
+          "name": "Go",
           "category": "languages",
           "version": "1.18.5",
           "raw_output": "go version go1.18.5 linux/amd64",
           "executed_command": "go version"
         },
         {
-          "name": "Node.js",
+          "name": "Node.js versions",
           "category": "languages",
-          "version": "16.20.0",
-          "raw_output": "v16.20.0",
+          "version": "16.20.2",
+          "raw_output": "v16.20.2",
           "executed_command": "node --version"
         },
         {
@@ -32,17 +39,24 @@
           "executed_command": "update-alternatives --list java"
         },
         {
-          "name": "Python",
+          "name": "Python versions",
           "category": "languages",
-          "version": "2.7.18",
-          "raw_output": "Python 2.7.18",
-          "executed_command": "python --version"
+          "version": "",
+          "raw_output": "3\n  3.11\n  3.11.4",
+          "executed_command": "asdf list python"
+        },
+        {
+          "name": "Python version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.11.4\n3.11 =\u003e 3.11.4",
+          "executed_command": "asdf alias python --list"
         },
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "1.7.21",
-          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 11.0.19+7-post-Ubuntu-0ubuntu120.04.1)",
+          "version": "1.9.0",
+          "raw_output": "Kotlin version 1.9.0-release-358 (JRE 11.0.20+8-post-Ubuntu-1ubuntu120.04)",
           "executed_command": "kotlin -version"
         }
       ],
