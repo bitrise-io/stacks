@@ -11,6 +11,11 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-11`
+
+- Android emulator has been upgraded to 32.1.14
+- Removed system-wide Ruby 2 install according to the [deprecation timeline](https://discuss.bitrise.io/t/ruby-2-7-x-deprecation/22544)
+
 ### Stack update `v2023-08-07`
 
 - [ASDF](https://asdf-vm.com/) version aliases: tools managed via ASDF got special alias versions for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be selected like the regular versions. Examples:

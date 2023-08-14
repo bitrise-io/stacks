@@ -15,6 +15,7 @@ weight: 6
 ### Android development
 
 {{< generic filepath="data/linux-docker-android-20.04/android.json">}}
+{{< android-sdk filepath="data/linux-docker-android-20.04/android-sdk.txt">}}
 
 ### Generic tools
 
