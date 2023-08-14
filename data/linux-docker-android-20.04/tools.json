@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.29.19",
-          "raw_output": "aws-cli/1.29.19 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.31.19",
+          "version": "1.29.24",
+          "raw_output": "aws-cli/1.29.24 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.31.24",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "441.0.0",
-          "raw_output": "Google Cloud SDK 441.0.0\nalpha 2023.07.28\nbeta 2023.07.28\nbq 2.0.95\nbundled-python3-unix 3.9.16\ncore 2023.07.28\ngcloud-crc32c 1.0.0\ngsutil 5.25",
+          "version": "442.0.0",
+          "raw_output": "Google Cloud SDK 442.0.0\nalpha 2023.08.04\nbeta 2023.08.04\nbq 2.0.96\nbundled-python3-unix 3.9.16\ncore 2023.08.04\ngcloud-crc32c 1.0.0\ngsutil 5.25",
           "executed_command": "gcloud version"
         },
         {
@@ -133,7 +133,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/android-ndk-20.04 - 47.9GB\nquay.io/bitriseio/android-ndk-20.04 - 47.9GB\nbitriseio/android-20.04 - 45.6GB\nquay.io/bitriseio/android-20.04 - 45.6GB\nquay.io/bitriseio/bitrise-base-20.04 - 3.8GB\nbitriseio/bitrise-base-20.04 - 3.8GB\nbitrisedev/build-env - 5.2GB",
+          "raw_output": "bitriseio/android-ndk-20.04 - 47.1GB\nquay.io/bitriseio/android-ndk-20.04 - 47.1GB\nbitriseio/android-20.04 - 44.7GB\nquay.io/bitriseio/android-20.04 - 44.7GB\nbitriseio/bitrise-base-20.04 - 3.68GB\nquay.io/bitriseio/bitrise-base-20.04 - 3.68GB\nbitrisedev/build-env - 5.2GB",
           "executed_command": "docker images --format '{{ .Repository }} - {{ .Size }}'"
         }
       ],
