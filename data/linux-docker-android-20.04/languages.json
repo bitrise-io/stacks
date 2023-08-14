@@ -7,21 +7,21 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3.2.1",
+          "raw_output": "3\n  3.2\n *3.2.1",
           "executed_command": "asdf list ruby"
         },
         {
-          "name": "Go versions",
+          "name": "Go",
           "category": "languages",
           "version": "1.18.5",
           "raw_output": "go version go1.18.5 linux/amd64",
           "executed_command": "go version"
         },
         {
-          "name": "Node.js",
+          "name": "Node.js versions",
           "category": "languages",
-          "version": "16.20.0",
-          "raw_output": "v16.20.0",
+          "version": "16.20.1",
+          "raw_output": "v16.20.1",
           "executed_command": "node --version"
         },
         {
@@ -41,8 +41,8 @@
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "1.7.21",
-          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 11.0.19+7-post-Ubuntu-0ubuntu120.04.1)",
+          "version": "1.9.0",
+          "raw_output": "Kotlin version 1.9.0-release-358 (JRE 11.0.20+8-post-Ubuntu-1ubuntu120.04)",
           "executed_command": "kotlin -version"
         }
       ],
