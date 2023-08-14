@@ -133,7 +133,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/android-ndk-20.04 - 47.9GB\nquay.io/bitriseio/android-ndk-20.04 - 47.9GB\nbitriseio/android-20.04 - 45.6GB\nquay.io/bitriseio/android-20.04 - 45.6GB\nbitriseio/bitrise-base-20.04 - 3.8GB\nquay.io/bitriseio/bitrise-base-20.04 - 3.8GB\nbitrisedev/build-env - 5.2GB",
+          "raw_output": "quay.io/bitriseio/android-ndk-20.04 - 47.9GB\nbitriseio/android-ndk-20.04 - 47.9GB\nbitriseio/android-20.04 - 45.6GB\nquay.io/bitriseio/android-20.04 - 45.6GB\nbitriseio/bitrise-base-20.04 - 3.8GB\nquay.io/bitriseio/bitrise-base-20.04 - 3.8GB\nbitrisedev/build-env - 5.2GB",
           "executed_command": "docker images --format '{{ .Repository }} - {{ .Size }}'"
         }
       ],
