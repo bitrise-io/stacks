@@ -48,8 +48,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.13.7",
-          "raw_output": "aws-cli/2.13.7 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
+          "version": "2.13.9",
+          "raw_output": "aws-cli/2.13.9 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.27.1",
-          "raw_output": "cmake version 3.27.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.27.2",
+          "raw_output": "cmake version 3.27.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
