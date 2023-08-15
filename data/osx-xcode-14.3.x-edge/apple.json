@@ -83,8 +83,8 @@
         {
           "name": "danger-swift",
           "category": "apple",
-          "version": "3.16.0",
-          "raw_output": "3.16.0\n\u001b[0;0m",
+          "version": "3.17.1",
+          "raw_output": "3.17.1\n\u001b[0;0m",
           "executed_command": "danger-swift --version"
         },
         {
