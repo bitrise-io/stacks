@@ -35,14 +35,14 @@
           "name": "Node.js versions",
           "category": "languages",
           "version": "",
-          "raw_output": "12.22.9\n  12.22\n  12\n *16.19.1\n  16.19\n  16\n  19.8.1\n  19.8\n  19",
+          "raw_output": "12.22.9\n  12.22\n  12\n *16.19.1\n  16.19\n  16\n  18.17.1\n  18.17\n  18\n  19.8.1\n  19.8\n  19",
           "executed_command": "asdf list nodejs"
         },
         {
           "name": "Node.js version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "12 =\u003e 12.22.9\n12.22 =\u003e 12.22.9\n16 =\u003e 16.19.1\n16.19 =\u003e 16.19.1\n19 =\u003e 19.8.1\n19.8 =\u003e 19.8.1",
+          "raw_output": "12 =\u003e 12.22.9\n12.22 =\u003e 12.22.9\n16 =\u003e 16.19.1\n16.19 =\u003e 16.19.1\n18 =\u003e 18.17.1\n18.17 =\u003e 18.17.1\n19 =\u003e 19.8.1\n19.8 =\u003e 19.8.1",
           "executed_command": "asdf alias nodejs --list"
         },
         {
