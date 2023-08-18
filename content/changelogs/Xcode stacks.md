@@ -13,6 +13,11 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-16`
+
+- {{< chip text="stable" >}} Brew cache updates
+- {{< chip text="stable" >}} Node v18 has been preinstalled along the existing versions. Reminder: Node [v16 is approaching End of Life](https://nodejs.org/en/blog/announcements/nodejs16-eol)
+
 ### Stack update `v2023-08-07`, `v2023-08-08`
 
 - {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} Xcode 15 Beta 6 is available, replacing Beta 5
