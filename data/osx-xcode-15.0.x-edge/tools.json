@@ -48,8 +48,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.13.9",
-          "raw_output": "aws-cli/2.13.9 Python/3.11.4 Darwin/22.5.0 source/arm64 prompt/off",
+          "version": "2.13.10",
+          "raw_output": "aws-cli/2.13.10 Python/3.11.4 Darwin/22.6.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
@@ -69,22 +69,22 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "12.3.0",
-          "raw_output": "12.3.0",
+          "version": "12.4.8",
+          "raw_output": "12.4.8",
           "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
           "version": "9.12",
-          "raw_output": "OpenConnect version v9.12\nUsing GnuTLS 3.8.0. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "raw_output": "OpenConnect version v9.12\nUsing GnuTLS 3.8.1. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
           "executed_command": "openconnect --version"
         },
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.27.2",
-          "raw_output": "cmake version 3.27.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.27.3",
+          "raw_output": "cmake version 3.27.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
