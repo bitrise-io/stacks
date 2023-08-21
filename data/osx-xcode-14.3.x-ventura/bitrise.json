@@ -23,6 +23,13 @@
           "version": "2.4.2",
           "raw_output": "2.4.2",
           "executed_command": "envman --version"
+        },
+        {
+          "name": "Bitrise Stack ID",
+          "category": "bitrise",
+          "version": "v2023-08-16",
+          "raw_output": "v2023-08-16",
+          "executed_command": "printenv BITRISE_OSX_STACK_REV_ID || echo 'undefinied'"
         }
       ],
       "errors": null
