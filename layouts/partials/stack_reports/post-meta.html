@@ -3,7 +3,7 @@
 {{ end }}
 
 <p>Stack ID: <code>{{ .Page.File.BaseFileName }}</code></p>
-{{ $stack_rev_id }}
+{{< revision >}}
 
 <a href="https://github.com/bitrise-io/stacks/commits/main/data/{{ .Page.File.BaseFileName }}" class="book-btn" target="_blank">Update history</a>
 
