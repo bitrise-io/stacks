@@ -6,22 +6,22 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "31.3.14",
-          "raw_output": "Pkg.Revision=31.3.14",
+          "version": "32.1.14",
+          "raw_output": "Pkg.Revision=32.1.14",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Gradle",
           "category": "android",
           "version": "8.2.1",
-          "raw_output": "Welcome to Gradle 8.2.1!\n\nHere are the highlights of this release:\n - Kotlin DSL: new reference documentation, assignment syntax by default\n - Kotlin DSL is now the default with Gradle init\n - Improved suggestions to resolve errors in console output\n - Reduced sync memory consumption\n\nFor more details see https://docs.gradle.org/8.2.1/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.2.1\n------------------------------------------------------------\n\nBuild time:   2023-07-10 12:12:35 UTC\nRevision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa\n\nKotlin:       1.8.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.17 (Eclipse Adoptium 11.0.17+8)\nOS:           Mac OS X 13.4 aarch64",
+          "raw_output": "Welcome to Gradle 8.2.1!\n\nHere are the highlights of this release:\n - Kotlin DSL: new reference documentation, assignment syntax by default\n - Kotlin DSL is now the default with Gradle init\n - Improved suggestions to resolve errors in console output\n - Reduced sync memory consumption\n\nFor more details see https://docs.gradle.org/8.2.1/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.2.1\n------------------------------------------------------------\n\nBuild time:   2023-07-10 12:12:35 UTC\nRevision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa\n\nKotlin:       1.8.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.20 (Eclipse Adoptium 11.0.20+8)\nOS:           Mac OS X 13.5 aarch64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
           "version": "3.9.4",
-          "raw_output": "Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)\nMaven home: /opt/homebrew/Cellar/maven/3.9.4/libexec\nJava version: 11.0.17, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.4\", arch: \"aarch64\", family: \"mac\"",
+          "raw_output": "Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)\nMaven home: /opt/homebrew/Cellar/maven/3.9.4/libexec\nJava version: 11.0.20, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.5\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
