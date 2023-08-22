@@ -4,7 +4,7 @@
 
 <p>Stack ID: <code>{{ .Page.File.BaseFileName }}</code></p>
 {{ $stack_rev_file := printf "data/%s/stack_rev_id.txt" .Page.File.BaseFileName }}
-{{ $stack_rev_id := readFile "$stack_rev_file" }}
+{{ $stack_rev_id := readFile $stack_rev_file }}
 <code>{{ $stack_rev_file }}</code>
 <p>Current stack revision: <code>{{ $stack_rev_id }}</code></p>
 
