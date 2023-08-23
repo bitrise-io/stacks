@@ -13,6 +13,15 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-17` (released on 2023-08-23)
+
+This update is for {{< chip text="edge" >}} stacks.
+
+- {{< chip text="Xcode 15" >}} - [Xcode 15 Beta 7](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 6.
+- macOS has been upgraded from 13.4 to 13.5
+- Ruby 3.1.3 has been temporarily removed because of build failures. Ruby 3.1.4 is still installed, we recommend using that version or the version alias `3.1`.
+- Android SDK packages `platform-33` and `platform-34` are now preinstalled
+
 ### Stack update `v2023-08-16`
 
 - {{< chip text="stable" >}} Brew cache updates
