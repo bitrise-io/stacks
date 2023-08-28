@@ -37,8 +37,8 @@ Installed packages:
   platforms;android-30                                                              | 3            | Android SDK Platform 30                        | platforms/android-30                                                             
   platforms;android-31                                                              | 1            | Android SDK Platform 31                        | platforms/android-31                                                             
   platforms;android-32                                                              | 1            | Android SDK Platform 32                        | platforms/android-32                                                             
-  platforms;android-33                                                              | 2            | Android SDK Platform 33                        | platforms/android-33                                                             
-  system-images;android-26;google_apis;x86                                          | 16           | Google APIs Intel x86 Atom System Image        | system-images/android-26/google_apis/x86                                         
+  platforms;android-33                                                              | 3            | Android SDK Platform 33                        | platforms/android-33                                                             
+  platforms;android-34                                                              | 2            | Android SDK Platform 34                        | platforms/android-34                                                             
   system-images;android-28;google_apis;x86_64                                       | 11           | Google APIs Intel x86_64 Atom System Image     | system-images/android-28/google_apis/x86_64                                      
   system-images;android-29;google_apis;x86                                          | 12           | Google APIs Intel x86 Atom System Image        | system-images/android-29/google_apis/x86                                         
   system-images;android-30;google_apis;x86                                          | 10           | Google APIs Intel x86 Atom System Image        | system-images/android-30/google_apis/x86                                         
@@ -46,4 +46,5 @@ Installed packages:
   system-images;android-31;google_atd;x86_64                                        | 2            | Google APIs ATD Intel x86_64 Atom System Image | system-images/android-31/google_atd/x86_64                                       
   system-images;android-32;google_apis;x86_64                                       | 7            | Google APIs Intel x86_64 Atom System Image     | system-images/android-32/google_apis/x86_64                                      
   system-images;android-33;google_apis;x86_64                                       | 13           | Google APIs Intel x86_64 Atom System Image     | system-images/android-33/google_apis/x86_64                                      
+  system-images;android-34;google_apis;x86_64                                       | 8            | Google APIs Intel x86_64 Atom System Image     | system-images/android-34/google_apis/x86_64                                      
 
