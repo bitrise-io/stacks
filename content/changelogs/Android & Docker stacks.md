@@ -11,6 +11,10 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-28`
+
+- Android SDK packages for Android 14 (`platforms;android-34` and `system-images;android-34;google_apis;x86_64`) and preinstalled. The `system-images;android-26` package is no longer preinstalled.
+
 ### Stack update `v2023-08-11`
 
 - Android emulator has been upgraded to 32.1.14

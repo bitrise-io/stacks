@@ -13,6 +13,10 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-08-28`
+
+- Fix corrupted or missing files from simulator runtimes
+
 ### Stack update `v2023-08-17` (released on 2023-08-23)
 
 This update is for {{< chip text="edge" >}} stacks only.
