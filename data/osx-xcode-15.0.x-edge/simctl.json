@@ -1486,13 +1486,13 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-17-0" : [
       {
-        "lastBootedAt" : "2023-08-23T07:36:22Z",
+        "lastBootedAt" : "2023-08-17T13:35:59Z",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6A0A85DA-93C0-4277-BE98-C308808E0EAD\/data",
-        "dataPathSize" : 923103232,
+        "dataPathSize" : 383266816,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6A0A85DA-93C0-4277-BE98-C308808E0EAD",
         "udid" : "6A0A85DA-93C0-4277-BE98-C308808E0EAD",
         "isAvailable" : true,
-        "logPathSize" : 53248,
+        "logPathSize" : 45056,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
