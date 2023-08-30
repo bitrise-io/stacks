@@ -7,7 +7,7 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.0\nBuild version 15A5229h",
+          "raw_output": "Xcode 15.0\nBuild version 15A5229m",
           "executed_command": "xcodebuild -version"
         },
         {
