@@ -1,6 +1,6 @@
 ---
 title: Xcode stacks changelog
-summary: Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/macos).
+summary: Bitrise stacks are updated continuously according to the stack update policy. This page is updated every time a new update is released to one of the macOS-based Xcode stacks.
 ---
 
 Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/macos).
@@ -12,6 +12,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 {{< /hint >}}
 
 ## Updates
+
+### Stack update `v2023-08-30`
+
+This update is for {{< chip text="edge" >}} stacks only.
+
+- {{< chip text="Xcode 15" >}} - [Xcode 15 Beta 8](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 7.
+- The default Node.js version has changed to 18 (from 20) as [this is the current LTS version](https://endoflife.date/nodejs). Node 20 remains installed as the most up-to-date version, but Node 18 is going to be the default version when Xcode 15 becomes stable.
 
 ### Stack update `v2023-08-28`
 
