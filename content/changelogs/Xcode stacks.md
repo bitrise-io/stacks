@@ -25,10 +25,11 @@ This update is for {{< chip text="edge" >}} {{< chip text="stable" >}} stacks
 - brew updates.
 - Fix brew cask related issues.
 
-{{< chip text="edge" >}} {{< chip text="Xcode 14.2" >}}:
+{{< chip text="edge" >}} {{< chip text="Xcode 14.3" >}}:
 
 - brew updates.
 - Fix brew cask related issues.
+- The default Node.js version has changed to 18 (from 20) as [this is the current LTS version](https://endoflife.date/nodejs). Node 20 remains installed as the most up-to-date version, but Node 18 is going to be the default version when Xcode 15 becomes stable.
 
 ### Stack update `v2023-08-28`
 
