@@ -13,16 +13,17 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2023-08-30`
+### Stack update `v2023-08-30` (released on 2023-09-01)
 
-This update is for {{< chip text="edge" >}} stacks only.
+- {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} - [Xcode 15 Beta 8](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 7.
+- {{< chip text="edge" >}} {{< chip text="Xcode 14" >}} {{< chip text="Xcode 15" >}} The default Node.js version has changed to 18 (from 20) as [this is the current LTS version](https://endoflife.date/nodejs). Node 20 remains installed as the most up-to-date version, but Node 18 is going to be the default version when Xcode 15 becomes stable.
+- {{< chip text="edge" >}} {{< chip text="stable" >}} Fix brew cask related issues.
 
-- {{< chip text="Xcode 15" >}} - [Xcode 15 Beta 8](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 7.
-- The default Node.js version has changed to 18 (from 20) as [this is the current LTS version](https://endoflife.date/nodejs). Node 20 remains installed as the most up-to-date version, but Node 18 is going to be the default version when Xcode 15 becomes stable.
 
 ### Stack update `v2023-08-28`
 
-- Fix corrupted or missing files from simulator runtimes
+- {{< chip text="stable" >}} Fix corrupted or missing files from simulator runtimes
+- {{< chip text="stable" >}} {{< chip text="14.3" >}} Fix brew cask related issues.
 
 ### Stack update `v2023-08-17` (released on 2023-08-23)
 
