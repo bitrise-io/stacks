@@ -16,7 +16,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2023-09-05` (released on 2023-09-06)
 
 - {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} Added simulator versions: iOS 15.5, iOS 16.4, watchOS 9.4 and visionOS 1.0
-- {{< chip text="edge" >}} {{< chip text="Xcode 14" >}} {{< chip text="Xcode 15" >}}  Brew pckage updates.
+- {{< chip text="edge" >}} {{< chip text="Xcode 14" >}} {{< chip text="Xcode 15" >}}  GO 1.21 pre-installed and set as default.
 
 ### Stack update `v2023-08-30` (released on 2023-09-01)
 
