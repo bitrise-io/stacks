@@ -6,29 +6,29 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "31.3.14",
-          "raw_output": "Pkg.Revision=31.3.14",
+          "version": "32.1.15",
+          "raw_output": "Pkg.Revision=32.1.15",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Gradle",
           "category": "android",
-          "version": "8.1.1",
-          "raw_output": "Welcome to Gradle 8.1.1!\n\nHere are the highlights of this release:\n - Stable configuration cache\n - Experimental Kotlin DSL assignment syntax\n - Building with Java 20\n\nFor more details see https://docs.gradle.org/8.1.1/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.1.1\n------------------------------------------------------------\n\nBuild time:   2023-04-21 12:31:26 UTC\nRevision:     1cf537a851c635c364a4214885f8b9798051175b\n\nKotlin:       1.8.10\nGroovy:       3.0.15\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          11.0.17 (Eclipse Adoptium 11.0.17+8)\nOS:           Mac OS X 13.2 aarch64",
+          "version": "8.3",
+          "raw_output": "Welcome to Gradle 8.3!\n\nHere are the highlights of this release:\n - Faster Java compilation\n - Reduced memory usage\n - Support for running on Java 20\n\nFor more details see https://docs.gradle.org/8.3/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.3\n------------------------------------------------------------\n\nBuild time:   2023-08-17 07:06:47 UTC\nRevision:     8afbf24b469158b714b36e84c6f4d4976c86fcd5\n\nKotlin:       1.9.0\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.20.1 (Eclipse Adoptium 11.0.20.1+1)\nOS:           Mac OS X 13.5 aarch64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
-          "version": "3.9.1",
-          "raw_output": "Apache Maven 3.9.1 (2e178502fcdbffc201671fb2537d0cb4b4cc58f8)\nMaven home: /opt/homebrew/Cellar/maven/3.9.1/libexec\nJava version: 11.0.17, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.2\", arch: \"aarch64\", family: \"mac\"",
+          "version": "3.9.4",
+          "raw_output": "Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)\nMaven home: /opt/homebrew/Cellar/maven/3.9.4/libexec\nJava version: 11.0.20.1, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.5\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
           "name": "Ant",
           "category": "android",
-          "version": "1.10.13",
-          "raw_output": "Apache Ant(TM) version 1.10.13 compiled on January 4 2023",
+          "version": "1.10.14",
+          "raw_output": "Apache Ant(TM) version 1.10.14 compiled on August 16 2023",
           "executed_command": "ant -version"
         }
       ],
