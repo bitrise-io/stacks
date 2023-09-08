@@ -21,7 +21,7 @@
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1.18.10\n  1.18\n *1.20.2\n  1.20\n  1",
+          "raw_output": "*1.18.10\n  1.18\n  1.20.2\n  1.20\n  1",
           "executed_command": "asdf list golang"
         },
         {
@@ -49,14 +49,14 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "system\n  1.8\n  1.8.0.352\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.17\n  17.0\n  17.0.5\n  8.0\n  temurin64-1.8.0.352\n  temurin64-11.0.17\n  temurin64-17.0.5",
+          "raw_output": "system\n  1.8\n  1.8.0.382\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.20.1\n  17.0\n  17.0.8.1\n  8.0\n  temurin64-1.8.0.382\n  temurin64-11.0.20.1\n  temurin64-17.0.8.1",
           "executed_command": "jenv versions"
         },
         {
           "name": "Flutter versions",
           "category": "languages",
           "version": "3.7.12",
-          "raw_output": "Cache Directory:  /Users/vagrant/fvm/versions\n\n3.7.12 (global)\n3.7.6\n3.0.0\n2.10.3\n1.22.6",
+          "raw_output": "Cache Directory:  /Users/vagrant/fvm/versions\n\n3.7.12 (global)",
           "executed_command": "fvm list"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "1.8.21",
-          "raw_output": "Kotlin version 1.8.21-release-380 (JRE 11.0.17+8)",
+          "version": "1.9.10",
+          "raw_output": "Kotlin version 1.9.10-release-459 (JRE 11.0.20.1+1)",
           "executed_command": "kotlin -version"
         }
       ],
