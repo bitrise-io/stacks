@@ -17,6 +17,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 This stack update is for {{< chip text="stable" >}} {{< chip text="14.3" >}} only.
 
+- macOS has been upgraded from 13.2 to 13.5
 - The default Go version had been incorrectly reported as `1.20` in the stack report. This is now fixed, the report displays the correct default Go version, which is `1.18`. Note: this is [soon going to change to Go 1.21](https://bitrise.io/blog/post/xcode-15-is-coming-with-major-stack-updates)
 - Resolved some iOS simulator performance problems
 - Android SDK packages `platform-33` and `platform-34` are now preinstalled
