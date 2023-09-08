@@ -13,10 +13,19 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-09-07`
+
+This stack update is for {{< chip text="stable" >}} {{< chip text="14.3" >}} only.
+
+- The default Go version had been incorrectly reported as `1.20` in the stack report. This is now fixed, the report displays the correct default Go version, which is `1.18`. Note: this is [soon going to change to Go 1.21](https://bitrise.io/blog/post/xcode-15-is-coming-with-major-stack-updates)
+- Resolved some iOS simulator performance problems
+- Android SDK packages `platform-33` and `platform-34` are now preinstalled
+- Brew packages have been upgraded
+
 ### Stack update `v2023-09-05` (released on 2023-09-06)
 
 - {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} Added simulator versions: iOS 15.5, iOS 16.4, watchOS 9.4 and visionOS 1.0
-- {{< chip text="edge" >}} {{< chip text="Xcode 14" >}} {{< chip text="Xcode 15" >}}  GO 1.21 pre-installed and set as default.
+- {{< chip text="edge" >}} {{< chip text="Xcode 14" >}} {{< chip text="Xcode 15" >}} Go 1.21 pre-installed and set as default.
 
 ### Stack update `v2023-08-30` (released on 2023-09-01)
 
