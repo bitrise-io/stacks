@@ -17,7 +17,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 This stack update is for {{< chip text="stable" >}} {{< chip text="14.0" >}} {{< chip text="14.1" >}} {{< chip text="14.2" >}} only.
 
-- Brew packages have been upgraded
+- Brew mirror have been updated
 
 ### Stack update `v2023-09-07`
 
