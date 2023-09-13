@@ -13,7 +13,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2023-09-13` (released on 2023-09-13)
+### Stack update `v2023-09-13`
 
 - {{< chip text="edge" >}} {{< chip text="Xcode 15" >}} - [Xcode 15 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 8.
 
