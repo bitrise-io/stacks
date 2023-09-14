@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 14.3, with more frequent tool updat
 platform: macOS
 xcode: 14.3
 flavor: edge
-weight: 3
+weight: 4
 ---
 
 ## Languages and runtimes

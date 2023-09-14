@@ -1,5 +1,5 @@
 ---
-title: Stack Changelog
+title: Stack Changelogs
 weight: 2
 ---
-Stack Changelog
+Stack Changelogs

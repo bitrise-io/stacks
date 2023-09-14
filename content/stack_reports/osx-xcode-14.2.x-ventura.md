@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 14.2
 platform: macOS
 xcode: 14.2
 flavor: stable
-weight: 2
+weight: 3
 ---
 
 ## Languages and runtimes
