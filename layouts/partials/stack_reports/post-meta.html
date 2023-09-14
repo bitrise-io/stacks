@@ -7,8 +7,10 @@
 {{ $stack_rev_id := readFile $stack_rev_file }}
 <p>Current stack revision: <code>{{ $stack_rev_id }}</code></p>
 
+<a href='{{ ref . (print "/changelogs/" .Page.File.BaseFileName ".md") }}' class="book-btn">Changelog</a>
+
 <a href="https://github.com/bitrise-io/stacks/commits/main/data/{{ .Page.File.BaseFileName }}" class="book-btn" target="_blank">Update history</a>
 
-<a href='{{ ref . "/tips/Get notified" }}' class="book-btn" target="_blank">Get notified</a>
+<a href='{{ ref . "/tips/Get notified" }}' class="book-btn">Get notified</a>
 
 <p>This Bitrise stack contains the following software:</p>

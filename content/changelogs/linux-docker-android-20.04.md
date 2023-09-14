@@ -1,6 +1,6 @@
 ---
 title: Android & Docker stacks changelog
-summary: This page is updated every time a new update is released to one of the [macOS-based Xcode stacks](/platform/linux).
+summary: Changelog of stack updates
 ---
 
 Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [Linux-based stacks](/platform/linux).
