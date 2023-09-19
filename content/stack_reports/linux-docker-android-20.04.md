@@ -3,7 +3,7 @@ title: Ubuntu 20.04
 summary: Docker with pre-installed Android tooling, based on Ubuntu 20.04.
 platform: Linux
 architecture: x86_64
-weight: 6
+weight: 7
 ---
 
 ## Languages and runtimes
