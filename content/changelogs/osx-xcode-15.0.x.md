@@ -1,5 +1,5 @@
 ---
-title: Xcode 15.0 with edge updates changelog
+title: Xcode 15.0 changelog
 summary: Changelog of stack updates
 ---
 
