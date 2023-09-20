@@ -27,15 +27,15 @@
         {
           "name": "swift-format",
           "category": "apple",
-          "version": "508.0.1",
-          "raw_output": "508.0.1",
+          "version": "509.0.0",
+          "raw_output": "509.0.0",
           "executed_command": "swift-format --version"
         },
         {
           "name": "Tuist",
           "category": "apple",
-          "version": "3.20.0",
-          "raw_output": "3.20.0",
+          "version": "3.19.0",
+          "raw_output": "3.19.0",
           "executed_command": "tuist version"
         },
         {
@@ -56,7 +56,7 @@
           "name": "Carthage",
           "category": "apple",
           "version": "0.39.1",
-          "raw_output": "Please update to the latest Carthage version: 0.39.1. You currently are on 0.39.0\n0.39.0",
+          "raw_output": "0.39.1",
           "executed_command": "carthage version"
         },
         {
