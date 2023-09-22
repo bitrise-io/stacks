@@ -5207,7 +5207,7 @@
         "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
-        "state" : "Creating",
+        "state" : "Shutdown",
         "name" : "Apple Watch Ultra (49mm)"
       }
     ],
@@ -6154,20 +6154,33 @@
       },
       "state" : "(active, disconnected)"
     },
-    "4B4B4957-19FB-47C5-8E37-DD280B2B75A4" : {
+    "E4253C10-6A36-45BC-95D7-C80BDD07ABF7" : {
       "watch" : {
-        "name" : "Apple Watch Series 8 (41mm)",
-        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
+        "name" : "Apple Watch Ultra (49mm)",
+        "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone 14 Plus",
-        "udid" : "9D8A48FF-ACA5-4885-9D1A-005D406D97A6",
+        "name" : "iPhone 14 Pro Max",
+        "udid" : "194CDF6A-A7D0-485A-BCF2-AFCC6017B2F5",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
     },
-    "F8004EFD-4685-41F2-A43B-BE59178ABF8B" : {
+    "9EB1D98D-47D3-4A64-B385-DEE94AA76F57" : {
+      "watch" : {
+        "name" : "Apple Watch Series 8 (45mm)",
+        "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Pro",
+        "udid" : "EDD3B3B6-F2FE-4B53-A09A-27DF4FBB60AC",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "F8F9E57F-A277-4CAA-B94F-0FDDC079B8A9" : {
       "watch" : {
         "name" : "Apple Watch Series 7 (45mm)",
         "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
@@ -6206,15 +6219,15 @@
       },
       "state" : "(active, disconnected)"
     },
-    "5C9B996F-E88F-4214-92F5-34589020BE8F" : {
+    "F1BCCB73-DC69-4B29-9145-879C5FA82FAE" : {
       "watch" : {
-        "name" : "Apple Watch Ultra (49mm)",
-        "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
-        "state" : "Creating"
+        "name" : "Apple Watch Series 8 (41mm)",
+        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
+        "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone 14 Pro Max",
-        "udid" : "194CDF6A-A7D0-485A-BCF2-AFCC6017B2F5",
+        "name" : "iPhone 14 Plus",
+        "udid" : "9D8A48FF-ACA5-4885-9D1A-005D406D97A6",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6228,19 +6241,6 @@
       "phone" : {
         "name" : "iPhone 14 Pro Max",
         "udid" : "77A43D26-64C7-4A7B-81F6-35E1485A7E19",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "F2F039FE-0721-4914-A2C4-2BCD4EDD6E73" : {
-      "watch" : {
-        "name" : "Apple Watch Series 8 (45mm)",
-        "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14 Pro",
-        "udid" : "EDD3B3B6-F2FE-4B53-A09A-27DF4FBB60AC",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
