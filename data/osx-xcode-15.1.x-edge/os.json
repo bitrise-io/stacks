@@ -1,0 +1,31 @@
+[
+  {
+    "category": "os",
+    "output": {
+      "items": [
+        {
+          "name": "macOS system overview",
+          "category": "os",
+          "version": "",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.5.2 (22G91)\n      Kernel Version: Darwin 22.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-ventura-15-edge-g2-m1-max.5core-18c62ba7-d3ea-4a7d-8a09-6b5c5204c47b\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 42 seconds",
+          "executed_command": "system_profiler SPSoftwareDataType"
+        },
+        {
+          "name": "Disk space",
+          "category": "os",
+          "version": "",
+          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk2s1s1  245Gi  8.5Gi  102Gi     8%  356050 1072090880    0%   /",
+          "executed_command": "df -h /"
+        },
+        {
+          "name": "OpenSSH",
+          "category": "os",
+          "version": "",
+          "raw_output": "OpenSSH_9.0p1, LibreSSL 3.3.6",
+          "executed_command": "ssh -V"
+        }
+      ],
+      "errors": null
+    }
+  }
+]

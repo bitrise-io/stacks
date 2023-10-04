@@ -7,21 +7,21 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.0\nBuild version 15A240d",
+          "raw_output": "Xcode 15.1\nBuild version 15C5028h",
           "executed_command": "xcodebuild -version"
         },
         {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "swift-driver version: 1.87.1 Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)\nTarget: arm64-apple-macosx13.0",
+          "raw_output": "swift-driver version: 1.87.2 Apple Swift version 5.9 (swiftlang-5.9.2.1.6 clang-1500.1.0.1.1)\nTarget: arm64-apple-macosx13.0",
           "executed_command": "xcrun swift --version"
         },
         {
           "name": "Active Xcode command line tools",
           "category": "apple",
           "version": "",
-          "raw_output": "/Applications/Xcode-15.0.0.app/Contents/Developer",
+          "raw_output": "/Applications/Xcode-15.1.0.app/Contents/Developer",
           "executed_command": "xcode-select --print-path"
         },
         {
