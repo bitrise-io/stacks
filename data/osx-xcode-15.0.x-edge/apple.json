@@ -27,8 +27,8 @@
         {
           "name": "swift-format",
           "category": "apple",
-          "version": "508.0.1",
-          "raw_output": "508.0.1",
+          "version": "509.0.0",
+          "raw_output": "509.0.0",
           "executed_command": "swift-format --version"
         },
         {
@@ -48,22 +48,22 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.12.1",
-          "raw_output": "1.12.1",
+          "version": "1.13.0",
+          "raw_output": "1.13.0",
           "executed_command": "pod --version"
         },
         {
           "name": "Carthage",
           "category": "apple",
-          "version": "0.39.0",
-          "raw_output": "0.39.0",
+          "version": "0.39.1",
+          "raw_output": "0.39.1",
           "executed_command": "carthage version"
         },
         {
           "name": "SwiftLint",
           "category": "apple",
-          "version": "0.52.4",
-          "raw_output": "0.52.4",
+          "version": "0.53.0",
+          "raw_output": "0.53.0",
           "executed_command": "swiftlint version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "applesimutils",
           "category": "apple",
-          "version": "0.9.9",
-          "raw_output": "applesimutils version 0.9.9",
+          "version": "0.9.10",
+          "raw_output": "applesimutils version 0.9.10",
           "executed_command": "applesimutils -v"
         },
         {
