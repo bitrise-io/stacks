@@ -13,6 +13,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-04`
+
+**Known issue**: Because [Xcode 15.1 Beta 1]({{% ref "/stack_reports/osx-xcode-15.1.x-edge.md" %}}) is installed side-by-side on the same VM and because its matching iOS simulator runtime is `iOS 17.0.1`, it could cause conflicts with the simulator of Xcode 15.0 (`iOS 17.0`). Workaround: Xcode test destinations should specify `OS=17.0` instead of `OS=latest`.
+
+- `swift-format` updated to version 509
+- Go 1.20.7 updated to 1.20.8, 1.21.0 updated to 1.21.1
+- Node.js 20.5.1 updated to 20.6.1
+
+
 ### Stack update `v2023-09-13`
 
 - [Xcode 15 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes) is available, replacing Beta 8.
