@@ -3007,33 +3007,7 @@
     ]
   },
   "pairs" : {
-    "4F3635C8-1FC7-495A-A209-591F6F9BF7CC" : {
-      "watch" : {
-        "name" : "Apple Watch Series 9 (45mm)",
-        "udid" : "A515C949-832E-48F4-B9D7-F18E38BDE0EE",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 15 Pro",
-        "udid" : "09C70039-69DC-4EA4-A8EB-61C882099DB4",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "3D9EEE69-268D-4B9A-AA82-DF95B65265BB" : {
-      "watch" : {
-        "name" : "Apple Watch Series 7 (45mm)",
-        "udid" : "C5C62CA7-161C-4C13-A122-03394178E6D6",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 15",
-        "udid" : "7AECA35A-8E61-4107-A030-4EE3E23BD3F4",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "2530702C-3D24-4DB8-82A0-34AB8FFFC19A" : {
+    "E7D2DA6D-6046-4CFC-9535-2FCADD913A13" : {
       "watch" : {
         "name" : "Apple Watch Series 9 (41mm)",
         "udid" : "26B03514-A9B3-4956-8CB4-A7DC5E265120",
@@ -3046,7 +3020,33 @@
       },
       "state" : "(active, disconnected)"
     },
-    "2BFAE9E4-EC39-49DA-BA57-E757437201FC" : {
+    "C8BB9197-61BE-4614-9657-B8723D4C10BA" : {
+      "watch" : {
+        "name" : "Apple Watch Series 7 (45mm)",
+        "udid" : "C5C62CA7-161C-4C13-A122-03394178E6D6",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 15",
+        "udid" : "7AECA35A-8E61-4107-A030-4EE3E23BD3F4",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "820E9060-D063-40F1-A067-764CB0BFCDBB" : {
+      "watch" : {
+        "name" : "Apple Watch Series 9 (45mm)",
+        "udid" : "A515C949-832E-48F4-B9D7-F18E38BDE0EE",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 15 Pro",
+        "udid" : "09C70039-69DC-4EA4-A8EB-61C882099DB4",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "3E6198EB-C1BD-4F00-976F-CFEA2662E481" : {
       "watch" : {
         "name" : "Apple Watch Ultra 2 (49mm)",
         "udid" : "8E0B82CC-627E-46C5-A2FC-F8566D46240B",
