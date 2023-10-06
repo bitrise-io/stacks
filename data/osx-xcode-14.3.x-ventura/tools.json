@@ -27,8 +27,8 @@
         {
           "name": "NPM",
           "category": "tools",
-          "version": "8.19.3",
-          "raw_output": "8.19.3",
+          "version": "9.6.7",
+          "raw_output": "9.6.7",
           "executed_command": "npm --version"
         },
         {
