@@ -13,6 +13,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-12`
+
+- [Xcode 15.0.1 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_0_1-release-notes), is available replacing 15.0 GA
+-  The brew provided cURL has been updated to version 8.4.0, more details: [cURL CVE-2023-38545](https://stacks.bitrise.io/announcements/curl-cve-2023-38545/)
+
 ### Stack update `v2023-10-04`
 
 **Known issue**: Because [Xcode 15.1 Beta 1]({{% ref "/stack_reports/osx-xcode-15.1.x-edge.md" %}}) is installed side-by-side on the same VM and because its matching iOS simulator runtime is `iOS 17.0.1`, it could cause conflicts with the simulator of Xcode 15.0 (`iOS 17.0`). Workaround: Xcode test destinations should specify `OS=17.0` instead of `OS=latest`.
