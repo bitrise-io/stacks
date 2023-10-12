@@ -16,7 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2023-10-12`
 
 - [Xcode 15.0.1 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_0_1-release-notes), is available replacing 15.0 GA
--  The brew provided cURL has been updated to version 8.4.0, more details: [cURL CVE-2023-38545 ](https://stacks.bitrise.io/announcements/curl-cve-2023-38545/)
+-  The brew provided cURL has been updated to version 8.4.0, more details: [cURL CVE-2023-38545](https://stacks.bitrise.io/announcements/curl-cve-2023-38545/)
 
 ### Stack update `v2023-10-04`
 
