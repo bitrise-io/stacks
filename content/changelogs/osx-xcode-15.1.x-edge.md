@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-12`
+
+-  The brew provided cURL has been updated to version 8.4.0, more details: [cURL CVE-2023-38545](https://stacks.bitrise.io/announcements/curl-cve-2023-38545/)
+
 ### Stack update `v2023-10-04`
 
 - Initial release of the stack
