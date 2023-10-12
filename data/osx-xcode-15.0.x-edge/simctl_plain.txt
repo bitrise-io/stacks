@@ -91,7 +91,6 @@ Apple Watch Ultra 2 (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ul
 == Runtimes ==
 iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
-iOS 17.0 (17.0 - 21A328) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
@@ -131,8 +130,14 @@ visionOS 1.0 (1.0 - 21N5259j) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 -- iOS 17.0 --
     Bitrise iOS default (137A7E84-791F-46F9-8CA1-A0BDDCC59F37) (Shutdown) 
     Bitrise iOS default (37E40472-5E3A-4547-A886-9BD6D0451557) (Shutdown) 
+    Bitrise iOS default (13851F31-3B83-4203-8F4D-256841E728E8) (Shutdown) 
+    Bitrise iOS default (0768235F-CA1A-42A5-A190-F7207D643328) (Shutdown) 
+    Bitrise iOS default (9446748A-A269-4CC8-89E9-B7260BF27537) (Shutdown) 
+    iPhone 11 (2E179E21-8FFC-43CF-BE0F-D5ECDE04C36B) (Shutdown) 
     iPhone 11 (21244A37-8F69-4BD8-8D77-421BD08561DF) (Shutdown) 
     iPhone 11 (2376E2D1-6CA4-4D32-9E67-446219F93AA2) (Shutdown) 
+    iPhone 11 (B3E8C956-7BD9-4924-AF1F-B1F72D5CF1ED) (Shutdown) 
+    iPhone 11 (0DE052DA-C9B6-450D-BFF2-3670BB15E2C0) (Shutdown) 
     iPhone SE (3rd generation) (A7E9E0F7-18C3-4302-9396-5FD327DFD905) (Shutdown) 
     iPhone 15 (7AECA35A-8E61-4107-A030-4EE3E23BD3F4) (Shutdown) 
     iPhone 15 Plus (60520C4C-2DB7-4FF5-AA45-5E9E9E96B22E) (Shutdown) 
@@ -143,7 +148,6 @@ visionOS 1.0 (1.0 - 21N5259j) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
     iPad mini (6th generation) (0C893F0C-EA3F-43EB-9D9D-B0ACF16D7ABC) (Shutdown) 
     iPad Pro (11-inch) (4th generation) (AFB45044-D9E7-425F-BE0B-B8830526E1B1) (Shutdown) 
     iPad Pro (12.9-inch) (6th generation) (EFCE4968-80F4-49E2-BD85-40F85CF18A83) (Shutdown) 
--- iOS 17.0 --
 -- tvOS 17.0 --
     Apple TV (73765F02-CB50-4576-AB12-3221CEE5960D) (Shutdown) 
     Apple TV 4K (3rd generation) (77E09064-49E5-4515-B051-CBB27891A2ED) (Shutdown) 
@@ -175,15 +179,3 @@ visionOS 1.0 (1.0 - 21N5259j) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 -- visionOS 1.0 --
     Apple Vision Pro (9E39DCBD-16D8-43D3-A97C-40C58B664988) (Shutdown) (unavailable, device type profile not found)
 == Device Pairs ==
-3D9EEE69-268D-4B9A-AA82-DF95B65265BB (active, disconnected)
-    Watch: Apple Watch Series 7 (45mm) (C5C62CA7-161C-4C13-A122-03394178E6D6) (Shutdown)
-    Phone: iPhone 15 (7AECA35A-8E61-4107-A030-4EE3E23BD3F4) (Shutdown)
-2530702C-3D24-4DB8-82A0-34AB8FFFC19A (active, disconnected)
-    Watch: Apple Watch Series 9 (41mm) (26B03514-A9B3-4956-8CB4-A7DC5E265120) (Shutdown)
-    Phone: iPhone 15 Plus (60520C4C-2DB7-4FF5-AA45-5E9E9E96B22E) (Shutdown)
-4F3635C8-1FC7-495A-A209-591F6F9BF7CC (active, disconnected)
-    Watch: Apple Watch Series 9 (45mm) (A515C949-832E-48F4-B9D7-F18E38BDE0EE) (Shutdown)
-    Phone: iPhone 15 Pro (09C70039-69DC-4EA4-A8EB-61C882099DB4) (Shutdown)
-2BFAE9E4-EC39-49DA-BA57-E757437201FC (active, disconnected)
-    Watch: Apple Watch Ultra 2 (49mm) (8E0B82CC-627E-46C5-A2FC-F8566D46240B) (Shutdown)
-    Phone: iPhone 15 Pro Max (02F3BF37-F96F-4754-809E-B69D94D32FA9) (Shutdown)
