@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-11` (released 2023-10-17)
+
+- Brew package upgrades, including cURL version 8.4.0 ([more info]({{% ref "/announcements/curl-CVE-2023-38545.md" %}}))
+
 ### Stack update `v2023-09-20`
 
 - Removed Ruby 3.1.3 as [previously announced]({{% ref "/announcements/2023 September.md" %}}). Version 3.1.4 is still installed and we'll keep the latest 3.1.x version installed.
