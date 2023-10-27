@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-27`
+
+- Brew package and cache update
+
 ### Stack update `v2023-10-12`
 
 - [Xcode 15.0.1 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_0_1-release-notes), is available replacing 15.0 GA
