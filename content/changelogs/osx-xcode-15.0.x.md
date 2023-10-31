@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-26` (released on 2023-10-31)
+
+- Brew dependency mirror update
+
 ### Stack update `v2023-10-19` (released 2023-10-20)
 - [Xcode 15.0.1](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_0_1-release-notes), is available replacing 15.0 GA
 
