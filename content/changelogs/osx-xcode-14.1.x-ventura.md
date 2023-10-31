@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-10-26` (released on 2023-10-31)
+
+- Brew dependency mirror update
+
 ### Stack update `v2023-10-11` (released 2023-10-17)
 
 [As previously announced]({{% ref "/announcements/2023 September.md" %}}), this update removes some end-of-life and unsupported tool version:
