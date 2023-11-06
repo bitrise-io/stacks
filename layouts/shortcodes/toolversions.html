@@ -4,7 +4,7 @@
     <tr>
         <th>Stack ID</th>
         <th>Default version</th>
-        <th>All installed versions</th>
+        <th>Installed versions + aliases</th>
     </tr>
     <!-- Iterate over data files and read languages.json from each dorectory -->
     {{ range $dir := (readDir "data") }}
