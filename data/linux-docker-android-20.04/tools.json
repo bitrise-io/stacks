@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.29.35",
-          "raw_output": "aws-cli/1.29.35 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.31.35",
+          "version": "1.29.78",
+          "raw_output": "aws-cli/1.29.78 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.31.78",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "444.0.0",
-          "raw_output": "Google Cloud SDK 444.0.0\nalpha 2023.08.22\nbeta 2023.08.22\nbq 2.0.97\nbundled-python3-unix 3.9.16\ncore 2023.08.22\ngcloud-crc32c 1.0.0\ngsutil 5.25",
+          "version": "453.0.0",
+          "raw_output": "Google Cloud SDK 453.0.0\nalpha 2023.10.27\nbeta 2023.10.27\nbq 2.0.98\nbundled-python3-unix 3.9.17\ncore 2023.10.27\ngcloud-crc32c 1.0.0\ngsutil 5.27",
           "executed_command": "gcloud version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "12.5.2",
-          "raw_output": "12.5.2",
+          "version": "12.8.0",
+          "raw_output": "12.8.0",
           "executed_command": "firebase --version"
         },
         {
@@ -118,8 +118,8 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "24.0.5",
-          "raw_output": "Docker version 24.0.5, build ced0996",
+          "version": "24.0.7",
+          "raw_output": "Docker version 24.0.7, build afdd53b",
           "executed_command": "docker --version"
         },
         {
@@ -133,7 +133,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/android-ndk-20.04 - 48.3GB\nquay.io/bitriseio/android-ndk-20.04 - 48.3GB\nbitriseio/android-20.04 - 45.9GB\nquay.io/bitriseio/android-20.04 - 45.9GB\nbitriseio/bitrise-base-20.04 - 3.68GB\nquay.io/bitriseio/bitrise-base-20.04 - 3.68GB\nbitrisedev/build-env - 5.2GB",
+          "raw_output": "bitriseio/android-ndk-20.04 - 48.8GB\nquay.io/bitriseio/android-ndk-20.04 - 48.8GB\nbitriseio/android-20.04 - 46.4GB\nquay.io/bitriseio/android-20.04 - 46.4GB\nquay.io/bitriseio/bitrise-base-20.04 - 4.12GB\nbitriseio/bitrise-base-20.04 - 4.12GB\nbitrisedev/build-env - 5.2GB",
           "executed_command": "docker images --format '{{ .Repository }} - {{ .Size }}'"
         }
       ],
