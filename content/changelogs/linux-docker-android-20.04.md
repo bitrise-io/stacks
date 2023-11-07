@@ -11,6 +11,15 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-11-06`
+
+- Multiple Node.js versions are now preinstalled via [ASDF]({{% ref "/tips/Tool versions.md" %}}):
+  - Node 16 (default, just like before)
+  - Node 18 (LTS with security support)
+  - Node 20 (active LTS)
+  - Node 21 (latest)
+- Note: version files like `.node-version` and `.npmrc` are not automatically applied to avoid a breaking change. The only version file that has an effect on the selected version is `.tool-versions`.
+
 ### Stack update `v2023-08-28`
 
 - Android SDK packages for Android 14 (`platforms;android-34` and `system-images;android-34;google_apis;x86_64`) and preinstalled. The `system-images;android-26` package is no longer preinstalled.
