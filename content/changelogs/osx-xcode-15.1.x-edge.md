@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-11-06` (released on 2023-11-09)
+
+- Brew package upgrades
+
 ### Stack update `v2023-10-27`
 
 -  [Xcode 15.1 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 1
