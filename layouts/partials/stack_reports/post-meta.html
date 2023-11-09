@@ -1,7 +1,3 @@
-{{ with .Date }}
-  <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
-{{ end }}
-
 <p>Stack ID: <code>{{ .Page.File.BaseFileName }}</code></p>
 {{ $stack_rev_file := printf "data/%s/stack_rev_id.txt" .Page.File.BaseFileName }}
 {{ $stack_rev_id := readFile $stack_rev_file }}
