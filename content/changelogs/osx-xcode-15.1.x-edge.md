@@ -13,6 +13,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-11-15`
+
+- [Xcode 15.1 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 2
+- The default Node.js version is now Node 20, the active LTS release
+- Node 18 is no longer installed
+- Node 21, the latest version is now preinstalled
+- Ruby 3.0.0 and 3.0.3 have been replaced with 3.0.6, the latest 3.0.x Ruby
+- Brew package upgrades
+
 ### Stack update `v2023-11-06` (released on 2023-11-09)
 
 - Brew package upgrades
