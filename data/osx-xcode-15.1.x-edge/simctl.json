@@ -1878,10 +1878,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5029e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
-      "buildversion" : "21C5029e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
+      "buildversion" : "21C5046b",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5029e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2222,10 +2222,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5330e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
-      "buildversion" : "21K5330e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
+      "buildversion" : "21K5348e",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5330e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2501,10 +2501,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5331e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
-      "buildversion" : "21S5331e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
+      "buildversion" : "21S5349d",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5331e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-2",
       "version" : "10.2",
       "isInternal" : false,
@@ -2622,10 +2622,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5259j\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime",
-      "buildversion" : "21N5259j",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5300a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime",
+      "buildversion" : "21N5300a",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5259j\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5300a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-1-0",
       "version" : "1.0",
       "isInternal" : false,
