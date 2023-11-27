@@ -16,6 +16,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2023-11-24` (released on 2023-11-27)
 
 - Fixed duplicate iOS simulator devices for iOS 17.0
+- Node 18 and 20 have been upgraded to the latest minor.patch versions
+- Node 21 is now preinstalled
 - Brew dependency mirror update
 
 ### Stack update `v2023-11-06` (released on 2023-11-09)
