@@ -13,6 +13,18 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-11-15`
+
+- The default Node.js version is now Node 20, the active LTS release
+- Node 18 is no longer installed
+- Node 21, the latest version is now preinstalled
+- Ruby 3.0.0 and 3.0.3 have been replaced with 3.0.6, the latest 3.0.x Ruby
+- Brew package upgrades
+
+### Stack update `v2023-11-06` (released on 2023-11-09)
+
+- Brew package upgrades
+
 ### Stack update `v2023-10-27`
 
 - Brew package and cache update

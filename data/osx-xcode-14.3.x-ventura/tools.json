@@ -25,20 +25,6 @@
           "executed_command": "gh --version"
         },
         {
-          "name": "NPM",
-          "category": "tools",
-          "version": "9.6.7",
-          "raw_output": "9.6.7",
-          "executed_command": "npm --version"
-        },
-        {
-          "name": "Yarn",
-          "category": "tools",
-          "version": "1.22.19",
-          "raw_output": "1.22.19",
-          "executed_command": "yarn --version"
-        },
-        {
           "name": "jq",
           "category": "tools",
           "version": "1.7",
