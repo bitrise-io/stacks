@@ -2699,30 +2699,10 @@
         "name" : "Bitrise iOS default"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/A513C994-AE6E-4B9E-AD8F-CC4E48F77AF8\/data",
-        "dataPathSize" : 13258752,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/A513C994-AE6E-4B9E-AD8F-CC4E48F77AF8",
-        "udid" : "A513C994-AE6E-4B9E-AD8F-CC4E48F77AF8",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4FE51A31-1A31-4618-B8A2-A387E679D4A4\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4FE51A31-1A31-4618-B8A2-A387E679D4A4",
         "udid" : "4FE51A31-1A31-4618-B8A2-A387E679D4A4",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "iPhone 11"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6E15C933-F174-45FA-81F0-1B8559A5727E\/data",
-        "dataPathSize" : 13258752,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6E15C933-F174-45FA-81F0-1B8559A5727E",
-        "udid" : "6E15C933-F174-45FA-81F0-1B8559A5727E",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",

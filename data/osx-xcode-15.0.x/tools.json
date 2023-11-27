@@ -25,13 +25,6 @@
           "executed_command": "gh --version"
         },
         {
-          "name": "Yarn",
-          "category": "tools",
-          "version": "1.22.19",
-          "raw_output": "1.22.19",
-          "executed_command": "yarn --version"
-        },
-        {
           "name": "jq",
           "category": "tools",
           "version": "1.7",
