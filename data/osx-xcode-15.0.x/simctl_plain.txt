@@ -128,9 +128,7 @@ watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
     iPad Pro (12.9-inch) (6th generation) (A0DCE94F-9674-40DF-B6CF-FA1C3DDE877E) (Shutdown) 
 -- iOS 17.0 --
     Bitrise iOS default (EB15C9CE-6A43-46E1-95C4-AE1885B8E411) (Shutdown) 
-    Bitrise iOS default (A513C994-AE6E-4B9E-AD8F-CC4E48F77AF8) (Shutdown) 
     iPhone 11 (4FE51A31-1A31-4618-B8A2-A387E679D4A4) (Shutdown) 
-    iPhone 11 (6E15C933-F174-45FA-81F0-1B8559A5727E) (Shutdown) 
     iPhone SE (3rd generation) (0EAE1011-A78C-4D0F-97F4-EA1A00F7123E) (Shutdown) 
     iPhone 15 (1A1B136F-8300-4783-9C26-595F9AB4C583) (Shutdown) 
     iPhone 15 Plus (120202B1-5D44-414B-8600-EAF3152802A7) (Shutdown) 
