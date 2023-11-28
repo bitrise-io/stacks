@@ -1,6 +1,7 @@
 ---
 title: Overview of Java versions
 summary: An overview of the preinstalled Java versions across all Bitrise stacks.
+type: basic_page
 ---
 
 {{< hint info >}}

@@ -1,5 +1,6 @@
 ---
 title: Defining tool versions for reliable builds
+type: basic_page
 ---
 
 Multiple versions are installed of tools like Ruby, Node.js and Go on the stacks side-by-side. Since most projects depend on a specific version (implicitly or explicitly), it's a good idea to declare the required version in workflows instead of relying on the default version available in `$PATH`.

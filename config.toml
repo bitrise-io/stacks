@@ -1,7 +1,7 @@
 baseURL = 'https://stacks.bitrise.io/'
 languageCode = 'en-us'
 title = 'Bitrise Stacks'
-theme = 'hugo-book'
+theme = ['bitrise', 'hugo-book'] # Override `hugo-book` elements in `bitrise` theme
 
 sectionPagesMenu = "main"
 
@@ -31,6 +31,9 @@ flavor = "flavor"
   weight = 21
 
 [params]
+aws_url = ""
+
+
 # Book theme params
 
 # (Optional, default light) Sets color theme: light, dark or auto.

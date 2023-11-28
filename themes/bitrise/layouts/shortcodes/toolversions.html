@@ -8,6 +8,9 @@
     </tr>
     <!-- Iterate over data files and read languages.json from each dorectory -->
     {{ range $dir := (readDir "data") }}
+        {{ if hasPrefix $dir.Name "aws" }}
+            {{ continue }}
+        {{ end }}
         <tr>
             {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
             {{ $json := getJSON $jsonPath }}
