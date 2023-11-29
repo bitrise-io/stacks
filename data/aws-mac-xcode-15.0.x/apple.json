@@ -7,22 +7,29 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 14.0.1\nBuild version 14A400",
+          "raw_output": "Xcode 15.0.1\nBuild version 15A507",
           "executed_command": "xcodebuild -version"
         },
         {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "swift-driver version: 1.62.8 Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)\nTarget: arm64-apple-macosx13.0",
+          "raw_output": "swift-driver version: 1.87.1 Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)\nTarget: arm64-apple-macosx13.0",
           "executed_command": "xcrun swift --version"
         },
         {
           "name": "Active Xcode command line tools",
           "category": "apple",
           "version": "",
-          "raw_output": "/Applications/Xcode-14.0.1.app/Contents/Developer",
+          "raw_output": "/Applications/Xcode-15.0.1.app/Contents/Developer",
           "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "swift-format",
+          "category": "apple",
+          "version": "509.0.0",
+          "raw_output": "509.0.0",
+          "executed_command": "swift-format --version"
         },
         {
           "name": "Tuist",
@@ -41,22 +48,22 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.12.1",
-          "raw_output": "1.12.1",
+          "version": "1.14.2",
+          "raw_output": "1.14.2",
           "executed_command": "pod --version"
         },
         {
           "name": "Carthage",
           "category": "apple",
           "version": "0.39.1",
-          "raw_output": "Please update to the latest Carthage version: 0.39.1. You currently are on 0.39.0\n0.39.0",
+          "raw_output": "0.39.1",
           "executed_command": "carthage version"
         },
         {
           "name": "SwiftLint",
           "category": "apple",
-          "version": "0.51.0",
-          "raw_output": "0.51.0",
+          "version": "0.53.0",
+          "raw_output": "0.53.0",
           "executed_command": "swiftlint version"
         },
         {
@@ -69,22 +76,22 @@
         {
           "name": "applesimutils",
           "category": "apple",
-          "version": "0.9.9",
-          "raw_output": "applesimutils version 0.9.9",
+          "version": "0.9.10",
+          "raw_output": "applesimutils version 0.9.10",
           "executed_command": "applesimutils -v"
         },
         {
           "name": "danger-swift",
           "category": "apple",
-          "version": "3.16.0",
-          "raw_output": "3.16.0\n\u001b[0;0m",
+          "version": "3.17.1",
+          "raw_output": "3.17.1\n\u001b[0;0m",
           "executed_command": "danger-swift --version"
         },
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "0.20.0",
-          "raw_output": "0.20.0",
+          "version": "1.0.0",
+          "raw_output": "1.0.0",
           "executed_command": "xcbeautify --version"
         },
         {
@@ -95,12 +102,7 @@
           "executed_command": "xclogparser version"
         }
       ],
-      "errors": [
-        {
-          "name": "swift-format",
-          "error": "exit status 127: zsh:1: command not found: swift-format\n"
-        }
-      ]
+      "errors": null
     }
   }
 ]
