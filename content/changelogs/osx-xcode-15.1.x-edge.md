@@ -13,6 +13,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-11-24` (released on 2023-11-29)
+
+- Fixed duplicate iOS simulator devices for iOS 17.0
+- Brew dependency mirror update
+
 ### Stack update `v2023-11-15`
 
 - [Xcode 15.1 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 2
