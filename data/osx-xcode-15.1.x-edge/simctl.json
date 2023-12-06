@@ -978,17 +978,6 @@
       "minRuntimeVersionString" : "10.0.0",
       "minRuntimeVersion" : 655360,
       "name" : "Apple Watch Ultra 2 (49mm)"
-    },
-    {
-      "productFamily" : "Apple Vision",
-      "bundlePath" : "\/Applications\/Xcode-15.1.0.app\/Contents\/Developer\/Platforms\/XROS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Vision Pro.simdevicetype",
-      "maxRuntimeVersion" : 4294967295,
-      "maxRuntimeVersionString" : "65535.255.255",
-      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
-      "modelIdentifier" : "RealityDevice14,1",
-      "minRuntimeVersionString" : "1.0.0",
-      "minRuntimeVersion" : 65536,
-      "name" : "Apple Vision Pro"
     }
   ],
   "runtimes" : [
@@ -1878,10 +1867,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
-      "buildversion" : "21C5046b",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C62\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
+      "buildversion" : "21C62",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C62\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2222,10 +2211,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
-      "buildversion" : "21K5348e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
+      "buildversion" : "21K364",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2501,10 +2490,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
-      "buildversion" : "21S5349d",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
+      "buildversion" : "21S364",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-2",
       "version" : "10.2",
       "isInternal" : false,
@@ -2632,12 +2621,7 @@
       "isAvailable" : true,
       "name" : "visionOS 1.0",
       "supportedDeviceTypes" : [
-        {
-          "bundlePath" : "\/Applications\/Xcode-15.1.0.app\/Contents\/Developer\/Platforms\/XROS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Vision Pro.simdevicetype",
-          "name" : "Apple Vision Pro",
-          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
-          "productFamily" : "Apple Vision"
-        }
+
       ]
     }
   ],
@@ -3134,12 +3118,12 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.xrOS-1-0" : [
       {
+        "availabilityError" : "device type profile not found",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9E39DCBD-16D8-43D3-A97C-40C58B664988\/data",
         "dataPathSize" : 4096,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9E39DCBD-16D8-43D3-A97C-40C58B664988",
         "udid" : "9E39DCBD-16D8-43D3-A97C-40C58B664988",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "isAvailable" : false,
         "state" : "Shutdown",
         "name" : "Apple Vision Pro"
       }
