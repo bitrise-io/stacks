@@ -88,17 +88,16 @@ Apple Watch Ultra (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultr
 Apple Watch Series 9 (41mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-41mm)
 Apple Watch Series 9 (45mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm)
 Apple Watch Ultra 2 (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm)
-Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
 iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
-iOS 17.2 (17.2 - 21C5046b) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
+iOS 17.2 (17.2 - 21C62) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
-tvOS 17.2 (17.2 - 21K5348e) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
+tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
-watchOS 10.2 (10.2 - 21S5349d) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
+watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
 visionOS 1.0 (1.0 - 21N5300a) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 == Devices ==
 -- iOS 15.5 --
@@ -202,7 +201,7 @@ visionOS 1.0 (1.0 - 21N5300a) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
     Apple Watch Series 9 (45mm) (CC6BC081-B1F4-4609-9AA7-E8DE7169D02C) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (8A938D50-238F-4DD2-9A6E-8AAA34AD7E53) (Shutdown) 
 -- visionOS 1.0 --
-    Apple Vision Pro (9E39DCBD-16D8-43D3-A97C-40C58B664988) (Shutdown) 
+    Apple Vision Pro (9E39DCBD-16D8-43D3-A97C-40C58B664988) (Shutdown) (unavailable, device type profile not found)
 == Device Pairs ==
 15B5BE05-641E-41EB-BE6F-2B6C3AE25351 (active, disconnected)
     Watch: Apple Watch Series 7 (45mm) (9566A3FD-FDBF-400E-8F04-4CFCD01FE326) (Shutdown)
