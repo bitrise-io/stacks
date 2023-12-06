@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-12-06` (released on 2023-12-06)
+
+- Brew package updates
+
 ### Stack update `v2023-11-24` (released on 2023-11-29)
 
 - Fixed duplicate iOS simulator devices for iOS 17.0
