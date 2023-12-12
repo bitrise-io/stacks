@@ -13,7 +13,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2023-12-12` (released on 2023-12-12)
+### Stack update `v2023-12-12`
 - Brew dependency mirror update
 
 ### Stack update `v2023-11-24` (released on 2023-11-27)
