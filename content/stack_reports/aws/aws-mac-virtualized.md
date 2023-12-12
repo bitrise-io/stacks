@@ -9,4 +9,4 @@ This AMI contains the following VM images:
 
 {{< vm_images >}}
 
-To see what software is included in each image, select the relevant Xcode version's stack report from the sidebar.
+To see what software is included in each image, select the relevant Xcode version's stack report in the sidebar.
