@@ -92,9 +92,12 @@ Apple Watch Ultra 2 (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ul
 iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
+iOS 17.2 (17.2 - 21C62) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
+tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
+watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
 == Devices ==
 -- iOS 15.5 --
     Bitrise iOS default (1FA65FA6-CD7B-4CE2-9AF7-EDC5BFED9033) (Shutdown) 
@@ -139,10 +142,27 @@ watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
     iPad mini (6th generation) (DAADC1D3-B9DB-4744-A635-DDF4CE5EA9CF) (Shutdown) 
     iPad Pro (11-inch) (4th generation) (D9D1F8E0-A22D-4EC2-A5DD-03469036E3C3) (Shutdown) 
     iPad Pro (12.9-inch) (6th generation) (7642C1FA-44DD-45B2-8CB6-3995EA30B60C) (Shutdown) 
+-- iOS 17.2 --
+    Bitrise iOS default (D4D7EFAA-D489-4FD3-A636-272326A0ADE9) (Shutdown) 
+    iPhone 11 (FCF17C25-1BDE-49B1-ADB1-05192FFE3981) (Shutdown) 
+    iPhone SE (3rd generation) (3D5A1442-3941-45E7-8EFF-E0B95154E227) (Shutdown) 
+    iPhone 15 (038B36A4-F20D-4BC2-8A3B-2414ECAC8D27) (Shutdown) 
+    iPhone 15 Plus (205DF787-0F95-4B05-9881-1497400BD3C6) (Shutdown) 
+    iPhone 15 Pro (8A007AF2-2839-405B-9FDD-2B73CC2C00F0) (Shutdown) 
+    iPhone 15 Pro Max (89472A72-0D48-4573-85E9-C17DD467792F) (Shutdown) 
+    iPad Air (5th generation) (3E03080C-F3E1-46EA-B992-0120F0C8827E) (Shutdown) 
+    iPad (10th generation) (E84498E2-4FDC-4D01-9469-7E62ADF62BF2) (Shutdown) 
+    iPad mini (6th generation) (0B223C0C-2D5F-46A3-9543-5558DEFE8FD9) (Shutdown) 
+    iPad Pro (11-inch) (4th generation) (53D4C6CE-375B-48DD-AD8E-1EB2BBF14F31) (Shutdown) 
+    iPad Pro (12.9-inch) (6th generation) (A516C793-66D4-4FC1-9CDB-FE85E88CC9AD) (Shutdown) 
 -- tvOS 17.0 --
     Apple TV (D25E4FB4-3CF7-4CD3-9D7A-043F34DAB4B1) (Shutdown) 
     Apple TV 4K (3rd generation) (3FE15510-2761-4F51-9547-8C85261527EE) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (F11BE32F-FC39-43D9-BE1F-633B402D32E7) (Shutdown) 
+-- tvOS 17.2 --
+    Apple TV (09E782A6-ED90-4578-BBBF-0646C0F8407E) (Shutdown) 
+    Apple TV 4K (3rd generation) (37EA85AF-2C26-483B-896D-B9121BC5DAA3) (Shutdown) 
+    Apple TV 4K (3rd generation) (at 1080p) (6909A97B-6D46-4E3B-941D-C55BD28A9FC7) (Shutdown) 
 -- watchOS 9.4 --
     Apple Watch Series 5 (40mm) (B29FBFB7-99E9-413C-B66C-AC577A82F5EA) (Shutdown) 
     Apple Watch Series 5 (44mm) (B39CB1AD-2C6A-4C1B-9559-3E2ABBCE029E) (Shutdown) 
@@ -167,6 +187,18 @@ watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
     Apple Watch Series 9 (41mm) (179C9521-7813-423B-A05D-252EECC3CDAA) (Shutdown) 
     Apple Watch Series 9 (45mm) (D66C40D9-7D9F-431B-91C4-DFC5F4456AFA) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (2C6257C5-2BBD-4177-9CDD-5DCFAA7B2977) (Shutdown) 
+-- watchOS 10.2 --
+    Apple Watch Series 5 (40mm) (368C6200-80AB-45FC-8DE5-97B66D5765DF) (Shutdown) 
+    Apple Watch Series 5 (44mm) (80585ACB-9688-481D-A74C-975D9C740A49) (Shutdown) 
+    Apple Watch Series 6 (40mm) (43A606AC-F4F1-40DD-88DD-40FEF5FFB96B) (Shutdown) 
+    Apple Watch Series 6 (44mm) (0744D0F2-A76B-4781-9D7F-CFF3CD98494F) (Shutdown) 
+    Apple Watch Series 7 (41mm) (A0293643-143D-448D-AF48-F9088201B395) (Shutdown) 
+    Apple Watch Series 7 (45mm) (57698805-A43B-4E3C-8222-D2BCD7C774BD) (Shutdown) 
+    Apple Watch SE (40mm) (2nd generation) (5C712AA3-0A67-4E60-967A-228001446172) (Shutdown) 
+    Apple Watch SE (44mm) (2nd generation) (9A741884-DC69-4640-9E46-66E2431F3CFB) (Shutdown) 
+    Apple Watch Series 9 (41mm) (E212054C-99FD-485E-AD19-44CEE6C04CDC) (Shutdown) 
+    Apple Watch Series 9 (45mm) (DB28ED7B-A7C5-4E5F-87BE-4D57024A1907) (Shutdown) 
+    Apple Watch Ultra 2 (49mm) (BB9D689F-6611-4078-914E-5F8235D646DC) (Shutdown) 
 == Device Pairs ==
 A41532B3-1315-48DB-8094-71F2B73D14A9 (active, disconnected)
     Watch: Apple Watch Series 7 (45mm) (BE2C3A95-9D90-4DD1-B0DC-378D3CF7FE11) (Shutdown)
@@ -180,3 +212,15 @@ F1757F54-4B3A-40F7-B6D8-789A0CC9267F (active, disconnected)
 66343E68-C632-43E1-A051-14ED4CBFA3DE (active, disconnected)
     Watch: Apple Watch Ultra 2 (49mm) (2C6257C5-2BBD-4177-9CDD-5DCFAA7B2977) (Shutdown)
     Phone: iPhone 15 Pro Max (8D9EE4F4-97FD-495B-8AC5-F2D2566D5F39) (Shutdown)
+98547560-E449-4082-BBD4-31A5857E5D81 (active, disconnected)
+    Watch: Apple Watch Series 7 (45mm) (57698805-A43B-4E3C-8222-D2BCD7C774BD) (Shutdown)
+    Phone: iPhone 15 (038B36A4-F20D-4BC2-8A3B-2414ECAC8D27) (Shutdown)
+3D1F4BE2-F265-4FB6-8FB2-E1B59B511DB4 (active, disconnected)
+    Watch: Apple Watch Series 9 (41mm) (E212054C-99FD-485E-AD19-44CEE6C04CDC) (Shutdown)
+    Phone: iPhone 15 Plus (205DF787-0F95-4B05-9881-1497400BD3C6) (Shutdown)
+C5C3CC4A-D3F6-4A57-AFF2-6EBA00072D91 (active, disconnected)
+    Watch: Apple Watch Series 9 (45mm) (DB28ED7B-A7C5-4E5F-87BE-4D57024A1907) (Shutdown)
+    Phone: iPhone 15 Pro (8A007AF2-2839-405B-9FDD-2B73CC2C00F0) (Shutdown)
+9201159A-B4A3-471D-A691-6140A37ED3FD (active, disconnected)
+    Watch: Apple Watch Ultra 2 (49mm) (BB9D689F-6611-4078-914E-5F8235D646DC) (Shutdown)
+    Phone: iPhone 15 Pro Max (89472A72-0D48-4573-85E9-C17DD467792F) (Shutdown)
