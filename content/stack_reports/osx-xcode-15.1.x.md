@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 15.1
 platform: macOS
 xcode: 15.1
 flavor: stable
-weight: 6
+weight: 7
 ---
 
 ## Languages and runtimes
