@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.39.2",
-          "raw_output": "gh version 2.39.2 (2023-11-27)\nhttps://github.com/cli/cli/releases/tag/v2.39.2",
+          "version": "2.40.0",
+          "raw_output": "gh version 2.40.0 (2023-12-07)\nhttps://github.com/cli/cli/releases/tag/v2.40.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.14.5",
-          "raw_output": "aws-cli/2.14.5 Python/3.11.6 Darwin/22.6.0 source/arm64 prompt/off",
+          "version": "2.15.0",
+          "raw_output": "aws-cli/2.15.0 Python/3.11.6 Darwin/22.6.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
@@ -48,8 +48,8 @@
         {
           "name": "Mercurial",
           "category": "tools",
-          "version": "6.6",
-          "raw_output": "Mercurial Distributed SCM (version 6.6)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2023 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "version": "6.6.1",
+          "raw_output": "Mercurial Distributed SCM (version 6.6.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2023 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
           "executed_command": "hg version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.27.9",
-          "raw_output": "cmake version 3.27.9\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.28.0",
+          "raw_output": "cmake version 3.28.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
