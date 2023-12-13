@@ -98,7 +98,7 @@ tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
 watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
-visionOS 1.0 (1.0 - 21N5300a) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
+visionOS 1.0 (1.0 - 21N305) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 == Devices ==
 -- iOS 15.5 --
     Bitrise iOS default (C4C65BA3-B2E8-431A-98A6-5DE28BE09742) (Shutdown) 
