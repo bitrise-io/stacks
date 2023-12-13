@@ -13,6 +13,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-12-12`
+- Brew dependency mirror update
+
+Heads up: Xcode 15.1 is now installed on the same VM with its matching simulator runtimes (such as `iOS 17.2`). Using `OS=latest` in the destination specifier might match `iOS 17.2` instead of Xcode 15.0's matching runtime (`iOS 17.0.1`)
+
 ### Stack update `v2023-11-24` (released on 2023-11-27)
 
 - Fixed duplicate iOS simulator devices for iOS 17.0
