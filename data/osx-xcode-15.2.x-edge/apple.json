@@ -1,0 +1,108 @@
+[
+  {
+    "category": "apple",
+    "output": {
+      "items": [
+        {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 15.2\nBuild version 15C5500c",
+          "executed_command": "xcodebuild -version"
+        },
+        {
+          "name": "Swift (Xcode bundled)",
+          "category": "apple",
+          "version": "",
+          "raw_output": "swift-driver version: 1.87.3 Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)\nTarget: arm64-apple-macosx13.0",
+          "executed_command": "xcrun swift --version"
+        },
+        {
+          "name": "Active Xcode command line tools",
+          "category": "apple",
+          "version": "",
+          "raw_output": "/Applications/Xcode-15.2.0.app/Contents/Developer",
+          "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "swift-format",
+          "category": "apple",
+          "version": "509.0.0",
+          "raw_output": "509.0.0",
+          "executed_command": "swift-format --version"
+        },
+        {
+          "name": "Tuist",
+          "category": "apple",
+          "version": "3.20.0",
+          "raw_output": "3.20.0",
+          "executed_command": "tuist version"
+        },
+        {
+          "name": "Mint",
+          "category": "apple",
+          "version": "0.17.5",
+          "raw_output": "Version: 0.17.5",
+          "executed_command": "mint version"
+        },
+        {
+          "name": "Cocoapods",
+          "category": "apple",
+          "version": "1.13.0",
+          "raw_output": "1.13.0",
+          "executed_command": "pod --version"
+        },
+        {
+          "name": "Carthage",
+          "category": "apple",
+          "version": "0.39.1",
+          "raw_output": "0.39.1",
+          "executed_command": "carthage version"
+        },
+        {
+          "name": "SwiftLint",
+          "category": "apple",
+          "version": "0.53.0",
+          "raw_output": "0.53.0",
+          "executed_command": "swiftlint version"
+        },
+        {
+          "name": "xcpretty",
+          "category": "apple",
+          "version": "0.3.0",
+          "raw_output": "0.3.0",
+          "executed_command": "xcpretty --version"
+        },
+        {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.10",
+          "raw_output": "applesimutils version 0.9.10",
+          "executed_command": "applesimutils -v"
+        },
+        {
+          "name": "danger-swift",
+          "category": "apple",
+          "version": "3.18.0",
+          "raw_output": "3.18.0\n\u001b[0;0m",
+          "executed_command": "danger-swift --version"
+        },
+        {
+          "name": "xcbeautify",
+          "category": "apple",
+          "version": "1.1.1",
+          "raw_output": "1.1.1",
+          "executed_command": "xcbeautify --version"
+        },
+        {
+          "name": "xclogparser",
+          "category": "apple",
+          "version": "0.2.37",
+          "raw_output": "XCLogParser 0.2.37",
+          "executed_command": "xclogparser version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
