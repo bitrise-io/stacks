@@ -1867,10 +1867,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
-      "buildversion" : "21C5046b",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C62\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime",
+      "buildversion" : "21C62",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C5046b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21C62\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2211,10 +2211,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
-      "buildversion" : "21K5348e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime",
+      "buildversion" : "21K364",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K5348e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21K364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-2",
       "version" : "17.2",
       "isInternal" : false,
@@ -2490,10 +2490,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
-      "buildversion" : "21S5349d",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime",
+      "buildversion" : "21S364",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S5349d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21S364\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-2",
       "version" : "10.2",
       "isInternal" : false,
@@ -2611,10 +2611,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5300a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime",
-      "buildversion" : "21N5300a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N305\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime",
+      "buildversion" : "21N305",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N5300a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N305\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-1-0",
       "version" : "1.0",
       "isInternal" : false,
@@ -3424,90 +3424,10 @@
         "name" : "Bitrise iOS default"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/137A7E84-791F-46F9-8CA1-A0BDDCC59F37\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/137A7E84-791F-46F9-8CA1-A0BDDCC59F37",
-        "udid" : "137A7E84-791F-46F9-8CA1-A0BDDCC59F37",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/0768235F-CA1A-42A5-A190-F7207D643328\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/0768235F-CA1A-42A5-A190-F7207D643328",
-        "udid" : "0768235F-CA1A-42A5-A190-F7207D643328",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/13851F31-3B83-4203-8F4D-256841E728E8\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/13851F31-3B83-4203-8F4D-256841E728E8",
-        "udid" : "13851F31-3B83-4203-8F4D-256841E728E8",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9446748A-A269-4CC8-89E9-B7260BF27537\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9446748A-A269-4CC8-89E9-B7260BF27537",
-        "udid" : "9446748A-A269-4CC8-89E9-B7260BF27537",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B3E8C956-7BD9-4924-AF1F-B1F72D5CF1ED\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B3E8C956-7BD9-4924-AF1F-B1F72D5CF1ED",
         "udid" : "B3E8C956-7BD9-4924-AF1F-B1F72D5CF1ED",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "iPhone 11"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2376E2D1-6CA4-4D32-9E67-446219F93AA2\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2376E2D1-6CA4-4D32-9E67-446219F93AA2",
-        "udid" : "2376E2D1-6CA4-4D32-9E67-446219F93AA2",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "iPhone 11"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2E179E21-8FFC-43CF-BE0F-D5ECDE04C36B\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2E179E21-8FFC-43CF-BE0F-D5ECDE04C36B",
-        "udid" : "2E179E21-8FFC-43CF-BE0F-D5ECDE04C36B",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "iPhone 11"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/21244A37-8F69-4BD8-8D77-421BD08561DF\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/21244A37-8F69-4BD8-8D77-421BD08561DF",
-        "udid" : "21244A37-8F69-4BD8-8D77-421BD08561DF",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "iPhone 11"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/0DE052DA-C9B6-450D-BFF2-3670BB15E2C0\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/0DE052DA-C9B6-450D-BFF2-3670BB15E2C0",
-        "udid" : "0DE052DA-C9B6-450D-BFF2-3670BB15E2C0",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",

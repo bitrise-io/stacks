@@ -7,7 +7,7 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.1\nBuild version 15C65",
+          "raw_output": "Xcode 15.2\nBuild version 15C5500c",
           "executed_command": "xcodebuild -version"
         },
         {
@@ -21,7 +21,7 @@
           "name": "Active Xcode command line tools",
           "category": "apple",
           "version": "",
-          "raw_output": "/Applications/Xcode-15.1.0.app/Contents/Developer",
+          "raw_output": "/Applications/Xcode-15.2.0.app/Contents/Developer",
           "executed_command": "xcode-select --print-path"
         },
         {

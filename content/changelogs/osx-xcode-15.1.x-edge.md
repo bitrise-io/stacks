@@ -14,6 +14,17 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2023-12-06` (released on 2023-12-06)
+
+- - [Xcode 15.1 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 3
+- visionOS is unavailable as it's no longer part of Xcode 15.1 RC 1
+- Brew package updates
+
+### Stack update `v2023-11-24` (released on 2023-11-29)
+
+- Fixed duplicate iOS simulator devices for iOS 17.0
+- Brew package updates
+
 ### Stack update `v2023-11-15`
 
 - [Xcode 15.1 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 2
