@@ -6,15 +6,15 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.42.0",
-          "raw_output": "git version 2.42.0",
+          "version": "2.43.0",
+          "raw_output": "git version 2.43.0",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.4.0",
-          "raw_output": "git-lfs/3.4.0 (GitHub; linux amd64; go 1.20.6)",
+          "version": "3.4.1",
+          "raw_output": "git-lfs/3.4.1 (GitHub; linux amd64; go 1.21.1)",
           "executed_command": "git-lfs version"
         },
         {
@@ -27,8 +27,8 @@
         {
           "name": "Yarn",
           "category": "tools",
-          "version": "1.22.19",
-          "raw_output": "1.22.19",
+          "version": "1.22.21",
+          "raw_output": "1.22.21",
           "executed_command": "yarn --version"
         },
         {
@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.29.78",
-          "raw_output": "aws-cli/1.29.78 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.31.78",
+          "version": "1.32.0",
+          "raw_output": "aws-cli/1.32.0 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.34.0",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "453.0.0",
-          "raw_output": "Google Cloud SDK 453.0.0\nalpha 2023.10.27\nbeta 2023.10.27\nbq 2.0.98\nbundled-python3-unix 3.9.17\ncore 2023.10.27\ngcloud-crc32c 1.0.0\ngsutil 5.27",
+          "version": "457.0.0",
+          "raw_output": "Google Cloud SDK 457.0.0\nalpha 2023.12.08\nbeta 2023.12.08\nbq 2.0.100\nbundled-python3-unix 3.11.6\ncore 2023.12.08\ngcloud-crc32c 1.0.0\ngsutil 5.27",
           "executed_command": "gcloud version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "12.8.0",
-          "raw_output": "12.8.0",
+          "version": "12.9.1",
+          "raw_output": "12.9.1",
           "executed_command": "firebase --version"
         },
         {
@@ -133,8 +133,8 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/android-ndk-20.04 - 48.8GB\nquay.io/bitriseio/android-ndk-20.04 - 48.8GB\nbitriseio/android-20.04 - 46.4GB\nquay.io/bitriseio/android-20.04 - 46.4GB\nquay.io/bitriseio/bitrise-base-20.04 - 4.12GB\nbitriseio/bitrise-base-20.04 - 4.12GB\nbitrisedev/build-env - 5.2GB",
-          "executed_command": "docker images --format '{{ .Repository }} - {{ .Size }}'"
+          "raw_output": "bitriseio/android-ndk-20.04:latest - 48.5GB\nbitriseio/android-ndk-20.04:pinned - 48.5GB\nbitriseio/android-20.04:latest - 46.1GB\nbitriseio/android-20.04:pinned - 46.1GB\nbitriseio/bitrise-base-20.04:latest - 3.87GB\nbitriseio/bitrise-base-20.04:pinned - 3.87GB\nbitriseio/ubuntu-22-base:latest - 6.49GB\nbitriseio/ubuntu-22-base:pinned - 6.49GB",
+          "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],
       "errors": null
