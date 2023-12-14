@@ -1,5 +1,6 @@
 ---
 title: About announcements
+type: basic_page
 tags: []
 ---
 

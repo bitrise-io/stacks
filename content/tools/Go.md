@@ -1,6 +1,7 @@
 ---
 title: Overview of Go versions
 summary: An overview of the preinstalled Go versions across all Bitrise stacks.
+type: basic_page
 ---
 
 {{< hint info >}}

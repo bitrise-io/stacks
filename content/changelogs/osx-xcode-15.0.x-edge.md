@@ -1,6 +1,7 @@
 ---
 title: Xcode 15.0 with edge updates changelog
 summary: Changelog of stack updates
+type: basic_page
 ---
 
 Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html).

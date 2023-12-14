@@ -1,6 +1,7 @@
 ---
 title: Get notified of updates
 summary: Subscribe to RSS feeds to get notifications of important changes and stack updates.
+type: basic_page
 ---
 
 Subscribe to RSS feeds to get notifications of important changes and stack updates.
