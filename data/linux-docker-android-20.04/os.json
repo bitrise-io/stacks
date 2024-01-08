@@ -21,14 +21,14 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       194G   62G  133G  32% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       194G   78G  116G  41% /bitrise",
           "executed_command": "df -kh /bitrise/src"
         },
         {
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_8.2p1 Ubuntu-4ubuntu0.9, OpenSSL 1.1.1f  31 Mar 2020",
+          "raw_output": "OpenSSH_8.2p1 Ubuntu-4ubuntu0.11, OpenSSL 1.1.1f  31 Mar 2020",
           "executed_command": "ssh -V"
         }
       ],
