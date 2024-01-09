@@ -2609,6 +2609,20 @@
           "productFamily" : "Apple Watch"
         }
       ]
+    },
+    {
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N305\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime",
+      "buildversion" : "21N305",
+      "platform" : "xrOS",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_21N305\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 1.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-1-0",
+      "version" : "1.0",
+      "isInternal" : false,
+      "isAvailable" : true,
+      "name" : "visionOS 1.0",
+      "supportedDeviceTypes" : [
+
+      ]
     }
   ],
   "devices" : {
@@ -3100,6 +3114,18 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Ultra 2 (49mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.xrOS-1-0" : [
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/917014A8-1D68-496C-AAFE-8B2E82D4A516\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/917014A8-1D68-496C-AAFE-8B2E82D4A516",
+        "udid" : "917014A8-1D68-496C-AAFE-8B2E82D4A516",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "Apple Vision Pro"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-16-4" : [
