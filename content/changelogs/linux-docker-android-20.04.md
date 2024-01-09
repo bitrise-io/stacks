@@ -12,6 +12,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2023-01-08`
+
+- Android emulator has been upgraded to `33.1.24`
+- Go has been upgraded to `1.21`
+- Node.js minor version updates: `20.9` to `20.10`, `21.1` to `21.2`
+- Other minor CLI tool upgrades 
+
 ### Stack update `v2023-11-06`
 
 - Multiple Node.js versions are now preinstalled via [ASDF]({{% ref "/tips/Tool versions.md" %}}):
