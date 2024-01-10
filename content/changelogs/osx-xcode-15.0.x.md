@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-01-03` (released on 2024-01-10)
+
+- Brew dependency mirror update
+
 ### Stack update `v2023-12-12`
 - Brew dependency mirror update
 

@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-01-03` (released on 2024-01-10)
+
+- Brew dependency mirror update
+
 ### Stack update `v2023-12-06` (released on 2023-12-06)
 
 - - [Xcode 15.1 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_1-release-notes) is available, replacing Beta 3
