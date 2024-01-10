@@ -7,7 +7,7 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.2\nBuild version 15C5500c",
+          "raw_output": "Xcode 15.2\nBuild version 15C500b",
           "executed_command": "xcodebuild -version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "Tuist",
           "category": "apple",
-          "version": "3.20.0",
-          "raw_output": "3.20.0",
+          "version": "3.19.0",
+          "raw_output": "3.19.0",
           "executed_command": "tuist version"
         },
         {
@@ -48,8 +48,8 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.13.0",
-          "raw_output": "1.13.0",
+          "version": "1.12.1",
+          "raw_output": "1.12.1",
           "executed_command": "pod --version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "SwiftLint",
           "category": "apple",
-          "version": "0.53.0",
-          "raw_output": "0.53.0",
+          "version": "0.52.4",
+          "raw_output": "0.52.4",
           "executed_command": "swiftlint version"
         },
         {
@@ -76,29 +76,29 @@
         {
           "name": "applesimutils",
           "category": "apple",
-          "version": "0.9.10",
-          "raw_output": "applesimutils version 0.9.10",
+          "version": "0.9.9",
+          "raw_output": "applesimutils version 0.9.9",
           "executed_command": "applesimutils -v"
         },
         {
           "name": "danger-swift",
           "category": "apple",
-          "version": "3.18.0",
-          "raw_output": "3.18.0\n\u001b[0;0m",
+          "version": "3.17.1",
+          "raw_output": "3.17.1\n\u001b[0;0m",
           "executed_command": "danger-swift --version"
         },
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "1.3.0",
-          "raw_output": "1.3.0",
+          "version": "1.0.0",
+          "raw_output": "1.0.0",
           "executed_command": "xcbeautify --version"
         },
         {
           "name": "xclogparser",
           "category": "apple",
-          "version": "0.2.37",
-          "raw_output": "XCLogParser 0.2.37",
+          "version": "0.2.36",
+          "raw_output": "XCLogParser 0.2.36",
           "executed_command": "xclogparser version"
         }
       ],
