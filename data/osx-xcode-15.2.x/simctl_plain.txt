@@ -88,6 +88,7 @@ Apple Watch Ultra (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultr
 Apple Watch Series 9 (41mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-41mm)
 Apple Watch Series 9 (45mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm)
 Apple Watch Ultra 2 (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm)
+Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
 iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
@@ -201,7 +202,7 @@ visionOS 1.0 (1.0 - 21N305) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
     Apple Watch Series 9 (45mm) (DB28ED7B-A7C5-4E5F-87BE-4D57024A1907) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (BB9D689F-6611-4078-914E-5F8235D646DC) (Shutdown) 
 -- visionOS 1.0 --
-    Apple Vision Pro (917014A8-1D68-496C-AAFE-8B2E82D4A516) (Shutdown) (unavailable, device type profile not found)
+    Apple Vision Pro (917014A8-1D68-496C-AAFE-8B2E82D4A516) (Shutdown) 
 == Device Pairs ==
 A41532B3-1315-48DB-8094-71F2B73D14A9 (active, disconnected)
     Watch: Apple Watch Series 7 (45mm) (BE2C3A95-9D90-4DD1-B0DC-378D3CF7FE11) (Shutdown)
