@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 15.0, with more frequent tool updat
 platform: macOS
 xcode: 15.0
 flavor: edge
-weight: 8
+weight: 9
 ---
 
 ## Languages and runtimes
