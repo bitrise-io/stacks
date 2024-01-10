@@ -98,6 +98,7 @@ tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
 watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
+visionOS 1.0 (1.0 - 21N305) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 == Devices ==
 -- iOS 15.5 --
     Bitrise iOS default (1FA65FA6-CD7B-4CE2-9AF7-EDC5BFED9033) (Shutdown) 
@@ -199,6 +200,8 @@ watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
     Apple Watch Series 9 (41mm) (E212054C-99FD-485E-AD19-44CEE6C04CDC) (Shutdown) 
     Apple Watch Series 9 (45mm) (DB28ED7B-A7C5-4E5F-87BE-4D57024A1907) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (BB9D689F-6611-4078-914E-5F8235D646DC) (Shutdown) 
+-- visionOS 1.0 --
+    Apple Vision Pro (917014A8-1D68-496C-AAFE-8B2E82D4A516) (Shutdown) (unavailable, device type profile not found)
 == Device Pairs ==
 A41532B3-1315-48DB-8094-71F2B73D14A9 (active, disconnected)
     Watch: Apple Watch Series 7 (45mm) (BE2C3A95-9D90-4DD1-B0DC-378D3CF7FE11) (Shutdown)
