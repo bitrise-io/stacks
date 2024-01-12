@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.5.2 (22G91)\n      Kernel Version: Darwin 22.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      User Name: ec2-user (ec2-user)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Enabled\n      Time since boot: 15 minutes, 13 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 13.5.2 (22G91)\n      Kernel Version: Darwin 22.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      User Name: ec2-user (ec2-user)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Enabled\n      Time since boot: 23 hours, 59 minutes",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk5s2s1  225Gi  8.5Gi   96Gi     9%  356050 1007226400    0%   /",
+          "raw_output": "Filesystem       Size   Used  Avail Capacity iused      ifree %iused  Mounted on\n/dev/disk5s2s1  340Gi  8.5Gi  115Gi     7%  356050 1206330440    0%   /",
           "executed_command": "df -h /"
         },
         {
