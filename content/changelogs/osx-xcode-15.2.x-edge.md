@@ -13,6 +13,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-01-15` (released on 2024-01-16)
+
+- Brew dependency mirror update
+- [Xcode 15.2 GA](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_2-release-notes)
+-  Edge stacks will soon be transitioned to MacOS Sonoma
+
 ### Stack update `v2023-12-13`
 
 - Initial release of the stack
