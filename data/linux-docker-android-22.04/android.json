@@ -1,0 +1,26 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "33.1.24",
+          "raw_output": "Pkg.Revision=33.1.24",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Gradle",
+          "error": "exit status 127: /bin/bash: line 1: gradle: command not found\n"
+        },
+        {
+          "name": "Maven",
+          "error": "exit status 127: /bin/bash: line 1: mvn: command not found\n"
+        }
+      ]
+    }
+  }
+]

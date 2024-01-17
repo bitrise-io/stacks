@@ -1,0 +1,129 @@
+[
+  {
+    "category": "tools",
+    "output": {
+      "items": [
+        {
+          "name": "Git",
+          "category": "tools",
+          "version": "2.43.0",
+          "raw_output": "git version 2.43.0",
+          "executed_command": "git --version"
+        },
+        {
+          "name": "Git LFS",
+          "category": "tools",
+          "version": "3.4.1",
+          "raw_output": "git-lfs/3.4.1 (GitHub; linux amd64; go 1.21.1)",
+          "executed_command": "git-lfs version"
+        },
+        {
+          "name": "NPM",
+          "category": "tools",
+          "version": "9.6.7",
+          "raw_output": "9.6.7",
+          "executed_command": "npm --version"
+        },
+        {
+          "name": "Yarn",
+          "category": "tools",
+          "version": "1.22.21",
+          "raw_output": "1.22.21",
+          "executed_command": "yarn --version"
+        },
+        {
+          "name": "jq",
+          "category": "tools",
+          "version": "1.6",
+          "raw_output": "jq-1.6",
+          "executed_command": "jq --version"
+        },
+        {
+          "name": "AWS CLI",
+          "category": "tools",
+          "version": "2.15.10",
+          "raw_output": "aws-cli/2.15.10 Python/3.11.6 Linux/5.13.0-1015-gcp exe/x86_64.ubuntu.22 prompt/off",
+          "executed_command": "aws --version"
+        },
+        {
+          "name": "Google Cloud CLI",
+          "category": "tools",
+          "version": "455.0.0",
+          "raw_output": "Google Cloud SDK 455.0.0\nbq 2.0.98\nbundled-python3-unix 3.11.6\ncore 2023.11.10\ngcloud-crc32c 1.0.0\ngsutil 5.27",
+          "executed_command": "gcloud version"
+        },
+        {
+          "name": "Mercurial",
+          "category": "tools",
+          "version": "6.1.1",
+          "raw_output": "Mercurial Distributed SCM (version 6.1.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2022 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "executed_command": "hg version"
+        },
+        {
+          "name": "Firebase",
+          "category": "tools",
+          "version": "13.0.3",
+          "raw_output": "13.0.3",
+          "executed_command": "firebase --version"
+        },
+        {
+          "name": "OpenConnect",
+          "category": "tools",
+          "version": "8.20",
+          "raw_output": "OpenConnect version v8.20-1\nUsing GnuTLS 3.7.3. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /usr/share/vpnc-scripts/vpnc-script",
+          "executed_command": "openconnect --version"
+        },
+        {
+          "name": "OpenConnect",
+          "category": "tools",
+          "version": "8.20",
+          "raw_output": "OpenConnect version v8.20-1\nUsing GnuTLS 3.7.3. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /usr/share/vpnc-scripts/vpnc-script",
+          "executed_command": "openconnect --version"
+        },
+        {
+          "name": "ShellCheck",
+          "category": "tools",
+          "version": "0.8.0",
+          "raw_output": "ShellCheck - shell script analysis tool\nversion: 0.8.0\nlicense: GNU General Public License, version 3\nwebsite: https://www.shellcheck.net",
+          "executed_command": "shellcheck --version"
+        },
+        {
+          "name": "Docker",
+          "category": "tools",
+          "version": "24.0.7",
+          "raw_output": "Docker version 24.0.7, build afdd53b",
+          "executed_command": "docker --version"
+        },
+        {
+          "name": "Pre-cached Docker images",
+          "category": "tools",
+          "version": "",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 23.8GB\nbitriseio/ubuntu-22-android:pinned - 23.8GB\nbitriseio/ubuntu-22-base:latest - 6.35GB\nbitriseio/ubuntu-22-base:pinned - 6.35GB\nbitriseio/android-ndk-20.04:latest - 48.5GB\nbitriseio/android-ndk-20.04:pinned - 48.5GB\nbitriseio/android-20.04:latest - 46.1GB\nbitriseio/android-20.04:pinned - 46.1GB\nbitriseio/bitrise-base-20.04:latest - 3.86GB\nbitriseio/bitrise-base-20.04:pinned - 3.86GB",
+          "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
+        }
+      ],
+      "errors": [
+        {
+          "name": "CMake",
+          "error": "exit status 127: /bin/bash: line 1: cmake: command not found\n"
+        },
+        {
+          "name": "GCC",
+          "error": "exit status 127: /bin/bash: line 1: gcc: command not found\n"
+        },
+        {
+          "name": "Clang",
+          "error": "exit status 127: /bin/bash: line 1: clang: command not found\n"
+        },
+        {
+          "name": "ImageMagick Convert",
+          "error": "exit status 127: /bin/bash: line 1: convert: command not found\n"
+        },
+        {
+          "name": "Docker Compose",
+          "error": "exit status 127: /bin/bash: line 1: docker-compose: command not found\n"
+        }
+      ]
+    }
+  }
+]
