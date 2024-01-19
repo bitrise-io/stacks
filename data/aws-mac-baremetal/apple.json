@@ -48,8 +48,8 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.14.2",
-          "raw_output": "1.14.2",
+          "version": "1.12.1",
+          "raw_output": "1.12.1",
           "executed_command": "pod --version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "SwiftLint",
           "category": "apple",
-          "version": "0.53.0",
-          "raw_output": "0.53.0",
+          "version": "0.52.4",
+          "raw_output": "0.52.4",
           "executed_command": "swiftlint version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "applesimutils",
           "category": "apple",
-          "version": "0.9.10",
-          "raw_output": "applesimutils version 0.9.10",
+          "version": "0.9.9",
+          "raw_output": "applesimutils version 0.9.9",
           "executed_command": "applesimutils -v"
         },
         {
