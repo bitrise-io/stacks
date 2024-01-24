@@ -1,0 +1,80 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3\n  3.1\n  3.1.4\n  3.2\n  3.2.3\n *3.3\n  3.3.0",
+          "executed_command": "asdf list ruby"
+        },
+        {
+          "name": "Ruby version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.3.0\n3.1 =\u003e 3.1.4\n3.2 =\u003e 3.2.3\n3.3 =\u003e 3.3.0",
+          "executed_command": "asdf alias ruby --list"
+        },
+        {
+          "name": "Go versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1\n  1.20\n  1.20.13\n *1.21\n  1.21.6",
+          "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Go version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1 =\u003e 1.21.6\n1.20 =\u003e 1.20.13\n1.21 =\u003e 1.21.6",
+          "executed_command": "asdf alias golang --list"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "18.19",
+          "raw_output": "*18\n  18.19\n  18.19.0\n  20\n  20.11\n  20.11.0\n  21\n  21.6\n  21.6.0\n  lts",
+          "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Node.js version aliases",
+          "category": "languages",
+          "version": "18.19.0",
+          "raw_output": "18 =\u003e 18.19.0\n18.19 =\u003e 18.19.0\n20 =\u003e 20.11.0\n20.11 =\u003e 20.11.0\n21 =\u003e 21.6.0\n21.6 =\u003e 21.6.0\nlts =\u003e 20",
+          "executed_command": "asdf alias nodejs --list"
+        },
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java\n/usr/lib/jvm/java-17-openjdk-amd64/bin/java\n/usr/lib/jvm/java-21-openjdk-amd64/bin/java\n/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java",
+          "executed_command": "update-alternatives --list java"
+        },
+        {
+          "name": "Python versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3\n  3.12\n  3.12.1",
+          "executed_command": "asdf list python"
+        },
+        {
+          "name": "Python version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.12.1\n3.12 =\u003e 3.12.1",
+          "executed_command": "asdf alias python --list"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "2.0.0",
+          "raw_output": "Kotlin version 2.0.0-Beta3-release-17 (JRE 17.0.9+9-Ubuntu-122.04)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
