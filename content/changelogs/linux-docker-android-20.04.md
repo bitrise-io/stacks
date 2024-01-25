@@ -12,7 +12,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2023-01-08`
+### Stack update `v2024-01-08`
 
 - Android emulator has been upgraded to `33.1.24`
 - Go has been upgraded to `1.21`

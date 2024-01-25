@@ -16,3 +16,5 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 Initial release of this new stack based on Ubuntu 22.
 
+A summary of changes compared to the Ubuntu 20.04 is [available here]({{% ref "/announcements/Ubuntu 22.md" %}}).
+
