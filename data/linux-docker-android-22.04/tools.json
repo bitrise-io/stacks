@@ -20,8 +20,8 @@
         {
           "name": "NPM",
           "category": "tools",
-          "version": "10.2.3",
-          "raw_output": "10.2.3",
+          "version": "10.2.4",
+          "raw_output": "10.2.4",
           "executed_command": "npm --version"
         },
         {
@@ -83,15 +83,15 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "25.0.0",
-          "raw_output": "Docker version 25.0.0, build e758fe5",
+          "version": "25.0.1",
+          "raw_output": "Docker version 25.0.1, build 29cf629",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "2.24.1",
-          "raw_output": "Docker Compose version v2.24.1",
+          "version": "2.24.2",
+          "raw_output": "Docker Compose version v2.24.2",
           "executed_command": "docker compose version"
         },
         {

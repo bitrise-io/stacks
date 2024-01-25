@@ -35,7 +35,7 @@
           "name": "Node.js versions",
           "category": "languages",
           "version": "18.19",
-          "raw_output": "*18\n  18.19\n  18.19.0\n  20\n  20.11\n  20.11.0\n  21\n  21.6\n  21.6.0\n  lts",
+          "raw_output": "18\n  18.19\n  18.19.0\n *20\n  20.11\n  20.11.0\n  21\n  21.6\n  21.6.0\n  lts",
           "executed_command": "asdf list nodejs"
         },
         {
