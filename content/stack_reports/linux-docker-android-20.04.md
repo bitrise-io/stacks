@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 20.04
+title: Ubuntu 20.04 for Android & Docker
 summary: Docker with pre-installed Android tooling, based on Ubuntu 20.04.
 platform: Linux
 architecture: x86_64

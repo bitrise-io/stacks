@@ -1,5 +1,5 @@
 ---
-title: Android & Docker stacks changelog
+title: Ubuntu 20.04 for Android & Docker
 summary: Changelog of stack updates
 type: basic_page
 ---
