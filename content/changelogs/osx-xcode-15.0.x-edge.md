@@ -14,10 +14,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-02-07`
+
+- This stack is now based on macOS Sonoma 14.1.2
+- Brew packages updates
+
 ### Stack update `v2024-01-15` (released on 2024-01-16)
 
 - Brew dependency mirror update
--  Edge stacks will soon be transitioned to MacOS Sonoma
+- Edge stacks will soon be transitioned to MacOS Sonoma
 
 ### Stack update `v2024-01-03` (released on 2024-01-10)
 
