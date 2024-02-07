@@ -1,0 +1,31 @@
+[
+  {
+    "category": "os",
+    "output": {
+      "items": [
+        {
+          "name": "macOS system overview",
+          "category": "os",
+          "version": "",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.1.2 (23B92)\n      Kernel Version: Darwin 23.1.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sonoma-15-edge-g2-m1-max.5core-9d849176-d394-4010-9d09-5d2a314ca04a\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 44 seconds",
+          "executed_command": "system_profiler SPSoftwareDataType"
+        },
+        {
+          "name": "Disk space",
+          "category": "os",
+          "version": "",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1   272Gi   9.2Gi    99Gi     9%    390k  1.0G    0%   /",
+          "executed_command": "df -h /"
+        },
+        {
+          "name": "OpenSSH",
+          "category": "os",
+          "version": "",
+          "raw_output": "OpenSSH_9.4p1, LibreSSL 3.3.6",
+          "executed_command": "ssh -V"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
