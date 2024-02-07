@@ -13,8 +13,8 @@
         {
           "name": "Gradle",
           "category": "android",
-          "version": "8.5",
-          "raw_output": "Welcome to Gradle 8.5!\n\nHere are the highlights of this release:\n - Support for running on Java 21\n - Faster first use with Kotlin DSL\n - Improved error and warning messages\n\nFor more details see https://docs.gradle.org/8.5/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.5\n------------------------------------------------------------\n\nBuild time:   2023-11-29 14:08:57 UTC\nRevision:     28aca86a7180baa17117e0e5ba01d8ea9feca598\n\nKotlin:       1.9.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.21 (Eclipse Adoptium 11.0.21+9)\nOS:           Mac OS X 14.1.2 aarch64",
+          "version": "8.6",
+          "raw_output": "Welcome to Gradle 8.6!\n\nHere are the highlights of this release:\n - Configurable encryption key for configuration cache\n - Build init improvements\n - Build authoring improvements\n\nFor more details see https://docs.gradle.org/8.6/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.6\n------------------------------------------------------------\n\nBuild time:   2024-02-02 16:47:16 UTC\nRevision:     d55c486870a0dc6f6278f53d21381396d0741c6e\n\nKotlin:       1.9.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.21 (Eclipse Adoptium 11.0.21+9)\nOS:           Mac OS X 14.1.2 aarch64",
           "executed_command": "gradle --version"
         },
         {
