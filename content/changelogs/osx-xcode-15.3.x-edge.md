@@ -13,6 +13,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-02-07`
+
+- This stack is now based on macOS Sonoma 14.1.2
+- - [Xcode 15.3 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes) is preinstalled, replacing Beta 1.
+- Brew packages updates
+
 ### Stack update `v2024-01-26`
 
 - Initial release of the stack
