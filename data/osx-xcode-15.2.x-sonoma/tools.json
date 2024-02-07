@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.15.16",
-          "raw_output": "aws-cli/2.15.16 Python/3.11.7 Darwin/23.1.0 source/arm64 prompt/off",
+          "version": "2.15.17",
+          "raw_output": "aws-cli/2.15.17 Python/3.11.7 Darwin/23.1.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
