@@ -14,7 +14,7 @@
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "swift-driver version: 1.87.3 Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)\nTarget: arm64-apple-macosx13.0",
+          "raw_output": "swift-driver version: 1.87.3 Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)\nTarget: arm64-apple-macosx14.0",
           "executed_command": "xcrun swift --version"
         },
         {
@@ -48,8 +48,8 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.13.0",
-          "raw_output": "1.13.0",
+          "version": "1.15.2",
+          "raw_output": "1.15.2",
           "executed_command": "pod --version"
         },
         {
@@ -90,8 +90,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "1.3.1",
-          "raw_output": "1.3.1",
+          "version": "1.4.0",
+          "raw_output": "1.4.0",
           "executed_command": "xcbeautify --version"
         },
         {
