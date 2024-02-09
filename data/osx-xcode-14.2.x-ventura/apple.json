@@ -48,8 +48,8 @@
         {
           "name": "Carthage",
           "category": "apple",
-          "version": "0.39.1",
-          "raw_output": "Please update to the latest Carthage version: 0.39.1. You currently are on 0.39.0\n0.39.0",
+          "version": "0.39.0",
+          "raw_output": "0.39.0",
           "executed_command": "carthage version"
         },
         {
