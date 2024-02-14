@@ -94,16 +94,16 @@ iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
 iOS 17.2 (17.2 - 21C62) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
-iOS 17.4 (17.4 - 21E5195d) - com.apple.CoreSimulator.SimRuntime.iOS-17-4
+iOS 17.4 (17.4 - 21E5200d) - com.apple.CoreSimulator.SimRuntime.iOS-17-4
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
 tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
-tvOS 17.4 (17.4 - 21L5206e) - com.apple.CoreSimulator.SimRuntime.tvOS-17-4
+tvOS 17.4 (17.4 - 21L5212d) - com.apple.CoreSimulator.SimRuntime.tvOS-17-4
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
 watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
-watchOS 10.4 (10.4 - 21T5196c) - com.apple.CoreSimulator.SimRuntime.watchOS-10-4
+watchOS 10.4 (10.4 - 21T5202d) - com.apple.CoreSimulator.SimRuntime.watchOS-10-4
 visionOS 1.0 (1.0 - 21N305) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
-visionOS 1.1 (1.1 - 21O5181e) - com.apple.CoreSimulator.SimRuntime.xrOS-1-1
+visionOS 1.1 (1.1 - 21O5188c) - com.apple.CoreSimulator.SimRuntime.xrOS-1-1
 == Devices ==
 -- iOS 15.5 --
     Bitrise iOS default (BCE66572-CDB6-4CBC-B1E3-EB90FE92CF6F) (Shutdown) 
