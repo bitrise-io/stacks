@@ -7,7 +7,7 @@ argon2 20190702_1
 aria2 1.37.0
 aspell 0.60.8.1_1
 autoconf 2.72
-awscli 2.15.17
+awscli 2.15.19
 bazelisk 1.19.0
 boost 1.84.0
 brotli 1.1.0
@@ -15,7 +15,7 @@ ca-certificates 2023-12-12
 cairo 1.18.0
 carthage 0.39.1
 cffi 1.16.0_1
-cmake 3.28.2
+cmake 3.28.3
 coreutils 9.4
 curl 8.5.0
 danger-js 64
@@ -39,7 +39,7 @@ gflags 2.2.2
 gh 2.43.1
 ghostscript 10.02.1
 giflib 5.2.1
-git 2.43.0
+git 2.43.1
 git-lfs 3.4.1
 glib 2.78.4
 glog 0.6.0
@@ -53,8 +53,8 @@ harfbuzz 8.3.0
 highway 1.0.7
 hub 2.14.2
 icu4c 73.2
-imagemagick 7.1.1-27
-imath 3.1.9
+imagemagick 7.1.1-28
+imath 3.1.10
 jasper 4.1.2
 jbig2dec 0.20
 jenv 0.5.6
@@ -64,7 +64,7 @@ jq 1.7.1
 kotlin 1.9.22
 krb5 1.21.2
 libassuan 2.5.6
-libavif 1.0.3
+libavif 1.0.4
 libde265 1.0.15
 libevent 2.1.12_1
 libgcrypt 1.10.3
@@ -101,19 +101,19 @@ lz4 1.9.4
 lzo 2.10
 m4 1.4.19
 maven 3.9.6
-mercurial 6.6.2
+mercurial 6.6.3
 mint 0.17.5
 mpdecimal 4.0.0
 nettle 3.9.1
 npth 1.6
 oniguruma 6.9.9
 openconnect 9.12
-openexr 3.2.1
+openexr 3.2.2
 openjdk 21.0.2
 openjpeg 2.5.0_1
 openldap 2.6.6
 openssl@3 3.2.1
-openvpn 2.6.8
+openvpn 2.6.9
 p11-kit 0.25.3
 parallel 20240122
 pcre2 10.42
@@ -127,7 +127,7 @@ pyenv 2.3.33
 python-pathspec 0.12.1
 python-setuptools 69.0.3
 python@3.11 3.11.7_1
-python@3.12 3.12.1_1
+python@3.12 3.12.2
 pyyaml 6.0.1_1
 rbenv 1.2.0
 readline 8.2.7
@@ -163,4 +163,5 @@ zeromq 4.3.5_1
 zstd 1.5.5
 temurin11 11.0.21,9
 temurin17 17.0.9,9
+temurin21 21.0.2,13
 temurin8 8,392,08

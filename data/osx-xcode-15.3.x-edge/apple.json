@@ -7,14 +7,14 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.3\nBuild version 15E5188j",
+          "raw_output": "Xcode 15.3\nBuild version 15E5194e",
           "executed_command": "xcodebuild -version"
         },
         {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "2024-02-07 15:01:25.827 xcodebuild[6762:21781] Requested but did not find extension point with identifier Xcode.DVTDeviceFoundation.Aspect for extension Xcode.IDEiOSSupportCore.Aspect.NBDD of plug-in com.apple.dt.IDE.IDEiOSSupportCore\n2024-02-07 15:01:26.221 xcodebuild[6763:21788] Requested but did not find extension point with identifier Xcode.DVTDeviceFoundation.Aspect for extension Xcode.IDEiOSSupportCore.Aspect.NBDD of plug-in com.apple.dt.IDE.IDEiOSSupportCore\nswift-driver version: 1.90.10.1 Apple Swift version 5.10 (swiftlang-5.10.0.12.7 clang-1500.3.9.3)\nTarget: arm64-apple-macosx14.0",
+          "raw_output": "swift-driver version: 1.90.11.1 Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)\nTarget: arm64-apple-macosx14.0",
           "executed_command": "xcrun swift --version"
         },
         {
