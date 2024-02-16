@@ -48,8 +48,8 @@
         {
           "name": "Cocoapods",
           "category": "apple",
-          "version": "1.12.1",
-          "raw_output": "1.12.1",
+          "version": "1.15.2",
+          "raw_output": "1.15.2",
           "executed_command": "pod --version"
         },
         {
