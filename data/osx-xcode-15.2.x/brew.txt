@@ -161,4 +161,5 @@ zeromq 4.3.4
 zstd 1.5.5
 temurin11 11.0.20.1,1
 temurin17 17.0.8.1,1
+temurin21 21.0.2,13
 temurin8 8,382,05
