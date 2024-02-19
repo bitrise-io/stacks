@@ -39,6 +39,11 @@ asdf local nodejs 18.16
 Not every possible tool version is preinstalled on the stacks, but there are special alias versions defined for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be used like full version numbers.
 For example, declaring Ruby `3.2` selects one preinstalled Ruby version, the latest available patch version of `3.2.x`.
 
+{{< hint warning >}}
+Because patch versions are sometimes upgraded (replaced in-place) on Bitrise stacks for critical bugfixes, we recommend declaring one of the alias versions (`major` or `major.minor`) in your project.
+The implementation of version aliases is based on the [ASDF alias plugin](https://github.com/andrewthauer/asdf-alias), which you can set up in the local environment too.
+{{< /hint >}}
+
 ### Debugging version selection issues
 To see what are the currently selected tool versions and why, run `asdf current` in a script step:
 
