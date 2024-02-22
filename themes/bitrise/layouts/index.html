@@ -15,9 +15,11 @@
         <section class="list-item">
             <h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
             <ul>
-
             {{ range .Pages }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</li>
+              {{ if .Params.params.archived }}
+                {{ continue }}
+              {{ end }}
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</li>
             {{ end }}
             </ul>
         </section>
