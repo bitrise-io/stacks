@@ -1,6 +1,9 @@
 ---
 title: Upcoming stack changes for Xcode 14 and 15
 type: basic_page
+params:
+  archived: true
+bookHidden: true
 ---
 
 According to our [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) release of Xcode 15 GA means we'll be transitioning our current Edge stacks to the matching Stable stacks. This could present breaking changes for some workflows.
