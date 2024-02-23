@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-02-21` (released on 2024-02-23)
+
+- Brew package updates
+
 ### Stack update `v2024-02-14`
 
 - - [Xcode 15.3 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes) is preinstalled, replacing Beta 2.

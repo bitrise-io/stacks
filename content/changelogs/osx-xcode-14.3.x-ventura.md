@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-02-21` (released on 2024-02-23)
+
+- Brew dependency mirror update
+
 ### Stack update `v2024-02-13` (released on 2024-02-16)
 
 - JDK 21 is now preinstalled
