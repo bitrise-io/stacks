@@ -1,0 +1,24 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java\n/usr/lib/jvm/java-17-openjdk-amd64/bin/java\n/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java",
+          "executed_command": "update-alternatives --list java"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "1.7.21",
+          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 17.0.10+7-Ubuntu-120.04.1)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
