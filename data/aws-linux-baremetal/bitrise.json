@@ -1,0 +1,17 @@
+[
+  {
+    "category": "bitrise",
+    "output": {
+      "items": [
+        {
+          "name": "Bitrise CLI",
+          "category": "bitrise",
+          "version": "2.10.0",
+          "raw_output": "2.10.0",
+          "executed_command": "bitrise --version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
