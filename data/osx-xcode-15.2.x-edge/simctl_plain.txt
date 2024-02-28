@@ -94,7 +94,7 @@ iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
 iOS 17.2 (17.2 - 21C62) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
-iOS 17.4 (17.4 - 21E5200d) - com.apple.CoreSimulator.SimRuntime.iOS-17-4
+iOS 17.4 (17.4 - 21E213) - com.apple.CoreSimulator.SimRuntime.iOS-17-4
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
 tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 tvOS 17.4 (17.4 - 21L5212d) - com.apple.CoreSimulator.SimRuntime.tvOS-17-4
