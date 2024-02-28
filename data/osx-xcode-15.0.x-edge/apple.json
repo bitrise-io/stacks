@@ -90,8 +90,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "1.4.0",
-          "raw_output": "1.4.0",
+          "version": "1.6.0",
+          "raw_output": "1.6.0",
           "executed_command": "xcbeautify --version"
         },
         {
