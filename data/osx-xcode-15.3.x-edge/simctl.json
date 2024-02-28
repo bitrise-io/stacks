@@ -2167,10 +2167,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21E5200d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.4.simruntime",
-      "buildversion" : "21E5200d",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21E213\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.4.simruntime",
+      "buildversion" : "21E213",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21E5200d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21E213\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-4",
       "version" : "17.4",
       "isInternal" : false,
