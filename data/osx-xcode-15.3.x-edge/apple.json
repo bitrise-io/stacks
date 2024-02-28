@@ -7,7 +7,7 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 15.3\nBuild version 15E5194e",
+          "raw_output": "Xcode 15.3\nBuild version 15E5202a",
           "executed_command": "xcodebuild -version"
         },
         {
@@ -90,8 +90,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "1.4.0",
-          "raw_output": "1.4.0",
+          "version": "1.6.0",
+          "raw_output": "1.6.0",
           "executed_command": "xcbeautify --version"
         },
         {
