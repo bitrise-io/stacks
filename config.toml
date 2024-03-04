@@ -9,8 +9,11 @@ enableGitInfo = true # Required for RSS timestamps
 rssLimit = 100
 
 [frontmatter]
-# Infer date from git history so that RSS entries automatically get a <pubDate>
-date = [":git", ":default"]
+# Most pages are periodically updated (stack reports, changelogs), so we want RSS feeds to reflect that.
+# Using the git modification date achieves this at deploy time.
+# Still, there are some edits where we don't want to trigger an RSS update, the explicit `date` frontmatter
+# field should be used in those cases. This is why it has a higher priority than `:git`.
+date = ["date", ":git", ":default"]
 
 [taxonomies]
 # Syntax: singular = "plural"
