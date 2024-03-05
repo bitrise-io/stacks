@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-03-05`
+
+- Brew packages updates
+
 ### Stack update `v2024-02-28`
 
 - Brew packages updates
