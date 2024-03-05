@@ -13,6 +13,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-03-05`
+
+- [Xcode 15.3 Release Candidate 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes) is preinstalled, replacing Release Candidate.
+- Brew packages updates
+
 ### Stack update `v2024-02-28`
 
 - [Xcode 15.3 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_3-release-notes) is preinstalled, replacing Beta 3.
