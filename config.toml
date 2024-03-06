@@ -22,6 +22,10 @@ platform = "platform"
 xcode = "xcode"
 flavor = "flavor"
 
+[outputs]
+page = ["html", "rss", "json"]
+
+
 [menu]
 
 [[menu.after]]
