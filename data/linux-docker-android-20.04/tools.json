@@ -6,29 +6,29 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.43.0",
-          "raw_output": "git version 2.43.0",
+          "version": "2.38.1",
+          "raw_output": "git version 2.38.1",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.4.1",
-          "raw_output": "git-lfs/3.4.1 (GitHub; linux amd64; go 1.21.1)",
+          "version": "3.3.0",
+          "raw_output": "git-lfs/3.3.0 (GitHub; linux amd64; go 1.19.3)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "NPM",
           "category": "tools",
-          "version": "9.8.1",
-          "raw_output": "9.8.1",
+          "version": "9.1.3",
+          "raw_output": "9.1.3",
           "executed_command": "npm --version"
         },
         {
           "name": "Yarn",
           "category": "tools",
-          "version": "1.22.21",
-          "raw_output": "1.22.21",
+          "version": "1.22.19",
+          "raw_output": "1.22.19",
           "executed_command": "yarn --version"
         },
         {
@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.32.32",
-          "raw_output": "aws-cli/1.32.32 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.34.32",
+          "version": "1.27.24",
+          "raw_output": "aws-cli/1.27.24 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.29.24",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "462.0.1",
-          "raw_output": "Google Cloud SDK 462.0.1\nalpha 2024.02.01\nbeta 2024.02.01\nbq 2.0.101\nbundled-python3-unix 3.11.7\ncore 2024.02.01\ngcloud-crc32c 1.0.0\ngsutil 5.27",
+          "version": "411.0.0",
+          "raw_output": "Google Cloud SDK 411.0.0\nalpha 2022.12.05\nbeta 2022.12.05\nbq 2.0.83\nbundled-python3-unix 3.9.12\ncore 2022.12.05\ngcloud-crc32c 1.0.0\ngsutil 5.17",
           "executed_command": "gcloud version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "12.9.1",
-          "raw_output": "12.9.1",
+          "version": "11.16.1",
+          "raw_output": "11.16.1",
           "executed_command": "firebase --version"
         },
         {
@@ -74,17 +74,10 @@
           "executed_command": "openconnect --version"
         },
         {
-          "name": "CMake",
-          "category": "tools",
-          "version": "3.16.3",
-          "raw_output": "cmake version 3.16.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
-          "executed_command": "cmake --version"
-        },
-        {
           "name": "GCC",
           "category": "tools",
           "version": "9.4.0",
-          "raw_output": "gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "raw_output": "gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
           "executed_command": "gcc --version"
         },
         {
@@ -111,8 +104,8 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "25.0.2",
-          "raw_output": "Docker version 25.0.2, build 29cf629",
+          "version": "20.10.21",
+          "raw_output": "Docker version 20.10.21, build baeda1f",
           "executed_command": "docker --version"
         },
         {
@@ -126,11 +119,16 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 24.2GB\nbitriseio/ubuntu-22-android:pinned - 24.2GB\nbitriseio/ubuntu-22-base:latest - 6.74GB\nbitriseio/ubuntu-22-base:pinned - 6.74GB\nbitriseio/android-ndk-20.04:latest - 48.6GB\nbitriseio/android-ndk-20.04:pinned - 48.6GB\nbitriseio/android-20.04:latest - 46.2GB\nbitriseio/android-20.04:pinned - 46.2GB\nbitriseio/bitrise-base-20.04:latest - 3.87GB\nbitriseio/bitrise-base-20.04:pinned - 3.87GB",
+          "raw_output": "bitriseio/android-ndk-20.04:pinned - 44.7GB\nquay.io/bitriseio/android-ndk-20.04:latest - 44.7GB\nbitriseio/android-20.04:pinned - 42.3GB\nquay.io/bitriseio/android-20.04:latest - 42.3GB\nbitriseio/bitrise-base-20.04:pinned - 3.14GB\nquay.io/bitriseio/bitrise-base-20.04:latest - 3.14GB\nbitrisedev/build-env:latest - 5.2GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "CMake",
+          "error": "exit status 127: /bin/bash: cmake: command not found\n"
+        }
+      ]
     }
   }
 ]

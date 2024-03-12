@@ -6,22 +6,22 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "33.1.24",
-          "raw_output": "Pkg.Revision=33.1.24",
+          "version": "31.3.13",
+          "raw_output": "Pkg.Revision=31.3.13",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Gradle",
           "category": "android",
-          "version": "8.2.1",
-          "raw_output": "------------------------------------------------------------\nGradle 8.2.1\n------------------------------------------------------------\n\nBuild time:   2023-07-10 12:12:35 UTC\nRevision:     a38ec64d3c4612da9083cc506a1ccb212afeecaa\n\nKotlin:       1.8.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.21 (Ubuntu 11.0.21+9-post-Ubuntu-0ubuntu120.04)\nOS:           Linux 5.13.0-1015-gcp amd64",
+          "version": "7.5",
+          "raw_output": "------------------------------------------------------------\nGradle 7.5\n------------------------------------------------------------\n\nBuild time:   2022-07-14 12:48:15 UTC\nRevision:     c7db7b958189ad2b0c1472b6fe663e6d654a5103\n\nKotlin:       1.6.21\nGroovy:       3.0.10\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          11.0.17 (Ubuntu 11.0.17+8-post-Ubuntu-1ubuntu220.04)\nOS:           Linux 5.13.0-1015-gcp amd64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
           "version": "3.6.3",
-          "raw_output": "\u001b[1mApache Maven 3.6.3\u001b[m\nMaven home: /usr/share/maven\nJava version: 11.0.21, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"linux\", version: \"5.13.0-1015-gcp\", arch: \"amd64\", family: \"unix\"",
+          "raw_output": "\u001b[1mApache Maven 3.6.3\u001b[m\nMaven home: /usr/share/maven\nJava version: 11.0.17, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"linux\", version: \"5.13.0-1015-gcp\", arch: \"amd64\", family: \"unix\"",
           "executed_command": "mvn --version"
         }
       ],
