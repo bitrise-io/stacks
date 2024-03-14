@@ -1,0 +1,40 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Go",
+          "category": "languages",
+          "version": "1.21.5",
+          "raw_output": "go version go1.21.5 linux/amd64",
+          "executed_command": "go version"
+        },
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java\n/usr/lib/jvm/java-17-openjdk-amd64/bin/java\n/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java",
+          "executed_command": "update-alternatives --list java"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "1.7.21",
+          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 17.0.10+7-Ubuntu-120.04.1)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Node.js versions",
+          "error": "exit status 1: node:internal/modules/cjs/loader:1031\n  throw err;\n  ^\n\nError: Cannot find module '/bitrise/src/version'\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:873:27)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:22:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n"
+        },
+        {
+          "name": "Python versions",
+          "error": "exit status 2: /home/ubuntu/.asdf/installs/python/3.11/bin/python: can't open file '/bitrise/src/version': [Errno 2] No such file or directory\n"
+        }
+      ]
+    }
+  }
+]
