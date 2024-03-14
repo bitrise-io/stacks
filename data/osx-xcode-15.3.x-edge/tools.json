@@ -13,8 +13,8 @@
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.4.1",
-          "raw_output": "git-lfs/3.4.1 (GitHub; darwin arm64; go 1.21.5)",
+          "version": "3.5.1",
+          "raw_output": "git-lfs/3.5.1 (GitHub; darwin arm64; go 1.22.1)",
           "executed_command": "git-lfs version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.15.25",
-          "raw_output": "aws-cli/2.15.25 Python/3.11.8 Darwin/23.1.0 source/arm64 prompt/off",
+          "version": "2.15.28",
+          "raw_output": "aws-cli/2.15.28 Python/3.11.8 Darwin/23.1.0 source/arm64 prompt/off",
           "executed_command": "aws --version"
         },
         {
