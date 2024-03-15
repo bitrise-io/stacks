@@ -27,8 +27,8 @@
         {
           "name": "Yarn",
           "category": "tools",
-          "version": "1.22.21",
-          "raw_output": "1.22.21",
+          "version": "1.22.22",
+          "raw_output": "1.22.22",
           "executed_command": "yarn --version"
         },
         {
