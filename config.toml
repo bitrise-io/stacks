@@ -16,7 +16,6 @@ rssLimit = 100
 date = ["date", ":git", ":default"]
 
 [taxonomies]
-# Syntax: singular = "plural"
 tag = "tags"
 platform = "platform"
 xcode = "xcode"
@@ -24,7 +23,7 @@ flavor = "flavor"
 
 [outputs]
 page = ["html", "rss", "json"]
-
+section = ["html", "rss", "json"]
 
 [menu]
 

@@ -21,3 +21,7 @@ go install -tags extended github.com/gohugoio/hugo@latest
 hugo serve
 
 ```
+
+### JSON API
+
+Next to the static HTML output, there is also a JSON output format for some content types. These JSON "endpoints" are based on [Hugo output templates](https://gohugo.io/templates/output-formats/#customizing-output-formats) and are defined in [themes/bitrise/layouts](/themes/bitrise/layouts) in the `single.json.json` and `list.json.json` files.
