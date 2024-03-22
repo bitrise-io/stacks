@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-03-18`
+
+- Android emulator upgrade: `33.1.24` -> `34.1.19`
+- Ruby `3.3.0` is now preinstalled
+- Node.js minor and patch version upgrades (Node 18, 20, 21)
+
 ### Stack update `v2024-01-08`
 
 - Android emulator has been upgraded to `33.1.24`
