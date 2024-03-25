@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-03-18`
+
+- Android emulator upgrade: `33.1.24` -> `34.1.19`
+- Go `1.22` is now preinstalled, `1.20` is no longer installed
+- Node.js minor and patch version upgrades (Node 18, 20, 21)
+
 ### Stack update `v2024-02-05` (released 2024-02-08)
 
 - The `build-essential` meta-package (containing `gcc`, `libc-dev`, `make` and other packages) is now instaled. This fixes Ruby gem installs that depend on native code compilation.
