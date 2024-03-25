@@ -22,7 +22,7 @@ workflows:
             set -ex
 
             HUGO_DEB_URL=https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb
-            wget -O - $HUGO_DEB_URL | dpkg -i -
+            wget -O - $HUGO_DEB_URL | sudo dpkg -i -
 
             hugo
     - deploy-to-bitrise-io@2: {}
