@@ -21,7 +21,7 @@ workflows:
         - content: |
             set -ex
 
-            go install github.com/gohugoio/hugo@v0.124.1
+            go install -tags extended github.com/gohugoio/hugo@v0.124.1
             asdf reshim golang
             hugo
     - deploy-to-bitrise-io@2: {}
