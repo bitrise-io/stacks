@@ -21,7 +21,10 @@ workflows:
         - content: |
             set -ex
 
-            go install -tags extended github.com/gohugoio/hugo@v0.111.3
+            HUGO_DEB_URL=https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb
+            TEMP_DEB=$(mktemp)
+            wget -O "$TEMP_DEB" "$HUGO_DEB_URL"
+            sudo dpkg -i "$TEMP_DEB"
 
             hugo
     - deploy-to-bitrise-io@2: {}
@@ -33,5 +36,5 @@ workflows:
         - content: npx linkinator https://stacks.bitrise.io
 meta:
   bitrise.io:
-    stack: linux-docker-android-20.04
-    machine_type_id: elite
+    stack: linux-docker-android-22.04
+    machine_type_id: standard

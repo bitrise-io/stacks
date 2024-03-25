@@ -1,0 +1,10 @@
+{{ $stackID := .File.BaseFileName }}
+{
+    "stack_name": "{{ .Title }}",
+    "stack_id": "{{ $stackID }}",
+    "stack_flavor": "{{ .Params.flavor }}",
+    "platform": "{{ .Params.platform }}",
+    "summary": "{{ .Summary }}",
+    "updated_at": "{{ .Date }}",
+    "content_html": {{ .Content | jsonify }}
+}
