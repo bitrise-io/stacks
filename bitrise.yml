@@ -21,8 +21,9 @@ workflows:
         - content: |
             set -ex
 
-            go install -tags extended github.com/gohugoio/hugo@v0.124.1
-            asdf reshim golang
+            HUGO_DEB_URL=https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb
+            wget -O - $HUGO_DEB_URL | dpkg -i -
+
             hugo
     - deploy-to-bitrise-io@2: {}
   broken-link-check:
@@ -34,4 +35,4 @@ workflows:
 meta:
   bitrise.io:
     stack: linux-docker-android-22.04
-    machine_type_id: elite-xl
+    machine_type_id: standard
