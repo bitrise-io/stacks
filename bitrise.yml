@@ -22,7 +22,7 @@ workflows:
             set -ex
 
             go install -tags extended github.com/gohugoio/hugo@v0.124.1
-
+            asdf reshim golang
             hugo
     - deploy-to-bitrise-io@2: {}
   broken-link-check:
