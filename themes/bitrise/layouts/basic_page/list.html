@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ range sort .Paginator.Pages }}
-  {{ if .Params.params.archived }}
+  {{ if .Params.archived }}
     {{ continue }}
   {{ end }}
   <article class="markdown book-post">

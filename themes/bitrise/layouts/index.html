@@ -16,7 +16,7 @@
             <h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
             <ul>
             {{ range .Pages }}
-              {{ if .Params.params.archived }}
+              {{ if .Params.archived }}
                 {{ continue }}
               {{ end }}
               <li><a href="{{ .RelPermalink }}">{{ .Title }}</li>
