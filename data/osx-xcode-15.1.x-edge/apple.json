@@ -27,8 +27,8 @@
         {
           "name": "swift-format",
           "category": "apple",
-          "version": "509.0.0",
-          "raw_output": "509.0.0",
+          "version": "510.1.0",
+          "raw_output": "510.1.0",
           "executed_command": "swift-format --version"
         },
         {
@@ -90,8 +90,8 @@
         {
           "name": "xcbeautify",
           "category": "apple",
-          "version": "2.0.0",
-          "raw_output": "2.0.0",
+          "version": "2.0.1",
+          "raw_output": "2.0.1",
           "executed_command": "xcbeautify --version"
         },
         {
