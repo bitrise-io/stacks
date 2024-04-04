@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-04-03` (released on 2024-04-04)
+
+- Brew package upgrades. This also fixes [a recent Homebrew crash](https://github.com/Homebrew/homebrew-bundle/pull/1334) when running `brew bundle` or `brew services`.
+- The on-disk [Cocoapods specs repo](https://github.com/CocoaPods/Specs.git) is no longer updated in every stack update. Since [Cocoapods 1.8](https://blog.cocoapods.org/CocoaPods-1.8.0-beta/), the new CDN mechanism is enabled by default for new projects. If a project `Podfile` still references `https://github.com/CocoaPods/Specs.git`, you should update it according to [the guide here](https://blog.cocoapods.org/CocoaPods-1.8.0-beta/) to avoid dependency install errors.
+
 ### Stack update `v2024-03-26` (released on v2024-03-27)
 
 - Homebrew package installs now use the [new JSON API introduced in Homebrew 4.0](https://brew.sh/2023/02/16/homebrew-4.0.0/). This should not make any difference in practice, but you can still revert to the old behavior by setting the `HOMEBREW_NO_INSTALL_FROM_API=1` env var.
