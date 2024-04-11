@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-04-09` (released on 2024-04-11)
+
+- Homebrew package updates
+
 ### Stack update `v2024-04-03` (released on 2024-04-04)
 
 - Brew package upgrades. This also fixes [a recent Homebrew crash](https://github.com/Homebrew/homebrew-bundle/pull/1334) when running `brew bundle` or `brew services`.
