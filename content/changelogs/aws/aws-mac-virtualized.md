@@ -12,6 +12,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024W14-1`
+
+- Brew package updates
+- Xcode 15.3 added
+
 ### Stack update `v2024W03`
 
 - Brew package updates
