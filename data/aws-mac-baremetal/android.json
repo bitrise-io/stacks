@@ -6,22 +6,22 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "33.1.24",
-          "raw_output": "Pkg.Revision=33.1.24",
+          "version": "35.1.4",
+          "raw_output": "Pkg.Revision=35.1.4",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Gradle",
           "category": "android",
-          "version": "8.5",
-          "raw_output": "------------------------------------------------------------\nGradle 8.5\n------------------------------------------------------------\n\nBuild time:   2023-11-29 14:08:57 UTC\nRevision:     28aca86a7180baa17117e0e5ba01d8ea9feca598\n\nKotlin:       1.9.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.21 (Eclipse Adoptium 11.0.21+9)\nOS:           Mac OS X 13.5.2 aarch64",
+          "version": "8.7",
+          "raw_output": "Welcome to Gradle 8.7!\n\nHere are the highlights of this release:\n - Compiling and testing with Java 22\n - Cacheable Groovy script compilation\n - New methods in lazy collection properties\n\nFor more details see https://docs.gradle.org/8.7/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.7\n------------------------------------------------------------\n\nBuild time:   2024-03-22 15:52:46 UTC\nRevision:     650af14d7653aa949fce5e886e685efc9cf97c10\n\nKotlin:       1.9.22\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.22 (Eclipse Adoptium 11.0.22+7)\nOS:           Mac OS X 14.3 aarch64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
           "version": "3.9.6",
-          "raw_output": "Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)\nMaven home: /opt/homebrew/Cellar/maven/3.9.6/libexec\nJava version: 11.0.21, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"13.5.2\", arch: \"aarch64\", family: \"mac\"",
+          "raw_output": "Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)\nMaven home: /opt/homebrew/Cellar/maven/3.9.6/libexec\nJava version: 11.0.22, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.3\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
