@@ -15,6 +15,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2.54.0-sonoma15`
 
 - Xcode 15.3.0 added
+- MacOS version updated to Sonoma.
 - Upgrade preinstalled tools (Node.js, Go, Ruby)
 - Upgrade Homebrew packages
 
