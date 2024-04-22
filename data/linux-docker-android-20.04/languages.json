@@ -42,14 +42,14 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java\n/usr/lib/jvm/java-17-openjdk-amd64/bin/java\n/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java",
-          "executed_command": "update-alternatives --list java"
+          "raw_output": "*java-11-openjdk\n java-17-openjdk\n java-8-openjdk",
+          "executed_command": "update-alternatives --query java | sed -n '/Alternative:/p' | grep -Eo 'java-[0-9]+-openjdk' | awk -v current=\"$(update-alternatives --query java | awk '/Value:/{print $2}' | grep -Eo 'java-[0-9]+-openjdk')\" 'BEGIN{OFS=\"  \"} {if ($0 == current) {print \"*\" $0} else {print \" \" $0}}'"
         },
         {
           "name": "Python versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n *3.11\n  3.11.8",
+          "raw_output": "3\n  3.11\n  3.11.8",
           "executed_command": "asdf list python"
         },
         {
