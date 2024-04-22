@@ -7,7 +7,7 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.1.2 (23B92)\n      Kernel Version: Darwin 23.1.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sonoma-15-edge-g2-m1-max.5core-a70bed5a-932c-4090-b62d-2f027318f11d\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 2 minutes, 4 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.1.2 (23B92)\n      Kernel Version: Darwin 23.1.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sonoma-15-edge-g2-m1-max.5core-25424879-1694-444d-9733-0e1a94ba5aba\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 54 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
