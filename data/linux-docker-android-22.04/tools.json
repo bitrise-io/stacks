@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.15.30",
-          "raw_output": "aws-cli/2.15.30 Python/3.11.8 Linux/5.13.0-1015-gcp exe/x86_64.ubuntu.22 prompt/off",
+          "version": "2.15.40",
+          "raw_output": "aws-cli/2.15.40 Python/3.11.8 Linux/5.13.0-1015-gcp exe/x86_64.ubuntu.22 prompt/off",
           "executed_command": "aws --version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.5.1",
-          "raw_output": "13.5.1",
+          "version": "13.7.3",
+          "raw_output": "13.7.3",
           "executed_command": "firebase --version"
         },
         {
@@ -83,22 +83,22 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "25.0.4",
-          "raw_output": "Docker version 25.0.4, build 1a576c5",
+          "version": "26.0.2",
+          "raw_output": "Docker version 26.0.2, build 3c863ff",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "2.24.7",
-          "raw_output": "Docker Compose version v2.24.7",
+          "version": "2.26.1",
+          "raw_output": "Docker Compose version v2.26.1",
           "executed_command": "docker compose version"
         },
         {
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/android-ndk-20.04:latest - 48.7GB\nbitriseio/android-ndk-20.04:pinned - 48.7GB\nbitriseio/android-20.04:latest - 46.3GB\nbitriseio/android-20.04:pinned - 46.3GB\nbitriseio/ubuntu-22-android:latest - 24.2GB\nbitriseio/ubuntu-22-android:pinned - 24.2GB\nbitriseio/ubuntu-22-base:latest - 6.74GB\nbitriseio/ubuntu-22-base:pinned - 6.74GB\nbitriseio/bitrise-base-20.04:latest - 3.95GB\nbitriseio/bitrise-base-20.04:pinned - 3.95GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 32.7GB\nbitriseio/ubuntu-22-android:pinned - 32.7GB\nbitriseio/ubuntu-22-base:latest - 6.51GB\nbitriseio/ubuntu-22-base:pinned - 6.51GB\nbitriseio/android-ndk-20.04:latest - 48.7GB\nbitriseio/android-ndk-20.04:pinned - 48.7GB\nbitriseio/android-20.04:latest - 46.3GB\nbitriseio/android-20.04:pinned - 46.3GB\nbitriseio/bitrise-base-20.04:latest - 3.95GB\nbitriseio/bitrise-base-20.04:pinned - 3.95GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],
