@@ -12,6 +12,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-04-22`
+
+- Android emulator upgrade: `34.1.19` -> `34.1.20`
+- Fixed building OpenSSL-related dependencies (e.g. Ruby gems) from source by preinstalling the `libssl-dev` package
+- Added an [Automated Test Device](https://developer.android.com/studio/test/gradle-managed-devices#gmd-atd) emulator system image (`system-images;android-34;aosp_atd;x86_64`)
+- The Docker daemon is now configured to use `mirror.gcr.io` as a registry mirror ([more info](https://cloud.google.com/artifact-registry/docs/pull-cached-dockerhub-images))
+
 ### Stack update `v2024-03-18`
 
 - Android emulator upgrade: `33.1.24` -> `34.1.19`
