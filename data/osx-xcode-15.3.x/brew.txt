@@ -153,6 +153,7 @@ yamllint 1.35.1
 yarn 1.22.21
 zeromq 4.3.5_1
 zstd 1.5.5
+google-cloud-sdk 472.0.0
 temurin11 11.0.22,7.1
 temurin17 17.0.10,7
 temurin21 21.0.2,13
