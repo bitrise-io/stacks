@@ -13,15 +13,15 @@
         {
           "name": "Bitrise stepman",
           "category": "bitrise",
-          "version": "0.16.1",
-          "raw_output": "0.16.1",
+          "version": "0.16.3",
+          "raw_output": "0.16.3",
           "executed_command": "stepman --version"
         },
         {
           "name": "Bitrise envman",
           "category": "bitrise",
-          "version": "2.4.2",
-          "raw_output": "2.4.2",
+          "version": "2.4.3",
+          "raw_output": "2.4.3",
           "executed_command": "envman --version"
         }
       ],
