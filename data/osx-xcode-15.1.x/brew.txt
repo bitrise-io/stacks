@@ -160,7 +160,11 @@ yarn 1.22.19
 zeromq 4.3.4
 zstd 1.5.5
 google-cloud-sdk 472.0.0
-temurin@11 11.0.20.1,1
-temurin@17 17.0.8.1,1
-temurin@21 21.0.2,13
-temurin@8 8,382,05
+temurin11 11.0.20.1,1
+temurin17 17.0.8.1,1
+temurin21 21.0.2,13
+temurin8 8,382,05
+temurin@11 11.0.23,9
+temurin@17 17.0.11,9
+temurin@21 21.0.3,9
+temurin@8 8,412,08
