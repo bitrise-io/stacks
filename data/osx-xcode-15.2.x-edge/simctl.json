@@ -2456,10 +2456,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21F5058d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.5.simruntime",
-      "buildversion" : "21F5058d",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21F79\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.5.simruntime",
+      "buildversion" : "21F79",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21F5058d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21F79\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-5",
       "version" : "17.5",
       "isInternal" : false,
@@ -2910,10 +2910,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21L5553e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.5.simruntime",
-      "buildversion" : "21L5553e",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21L569\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.5.simruntime",
+      "buildversion" : "21L569",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21L5553e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_21L569\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 17.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-17-5",
       "version" : "17.5",
       "isInternal" : false,
@@ -3431,10 +3431,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21T5555c\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.5.simruntime",
-      "buildversion" : "21T5555c",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21T575\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.5.simruntime",
+      "buildversion" : "21T575",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21T5555c\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_21T575\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 10.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-10-5",
       "version" : "10.5",
       "isInternal" : false,
@@ -4858,6 +4858,46 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-6th-generation-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro (12.9-inch) (6th generation)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/42EEB83D-9158-4ABC-9DBA-BFCFDD3D5AEB\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/42EEB83D-9158-4ABC-9DBA-BFCFDD3D5AEB",
+        "udid" : "42EEB83D-9158-4ABC-9DBA-BFCFDD3D5AEB",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M2)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/A89A13CC-05BC-456C-AA71-397FE9F832F0\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/A89A13CC-05BC-456C-AA71-397FE9F832F0",
+        "udid" : "A89A13CC-05BC-456C-AA71-397FE9F832F0",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E94C7576-8DB7-4859-9C4E-F3C60C95C67B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E94C7576-8DB7-4859-9C4E-F3C60C95C67B",
+        "udid" : "E94C7576-8DB7-4859-9C4E-F3C60C95C67B",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CCAA63C1-64D3-432B-8824-7EE38CF1D52F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CCAA63C1-64D3-432B-8824-7EE38CF1D52F",
+        "udid" : "CCAA63C1-64D3-432B-8824-7EE38CF1D52F",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.watchOS-10-4" : [
@@ -5092,6 +5132,46 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-6th-generation-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro (12.9-inch) (6th generation)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/44BEEBB6-E5B0-4555-8595-F5817E1C1FF6\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/44BEEBB6-E5B0-4555-8595-F5817E1C1FF6",
+        "udid" : "44BEEBB6-E5B0-4555-8595-F5817E1C1FF6",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M2)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/71D79D84-7EB2-4A6F-BEA7-AA40FC6CE0D6\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/71D79D84-7EB2-4A6F-BEA7-AA40FC6CE0D6",
+        "udid" : "71D79D84-7EB2-4A6F-BEA7-AA40FC6CE0D6",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CF03B4F1-CD80-492B-A2CF-8CF375BB907C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CF03B4F1-CD80-492B-A2CF-8CF375BB907C",
+        "udid" : "CF03B4F1-CD80-492B-A2CF-8CF375BB907C",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/094E0CBD-D4B4-4995-AF85-9F9CE71B123F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/094E0CBD-D4B4-4995-AF85-9F9CE71B123F",
+        "udid" : "094E0CBD-D4B4-4995-AF85-9F9CE71B123F",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.xrOS-1-1" : [
