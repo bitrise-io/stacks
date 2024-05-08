@@ -14,14 +14,14 @@
           "name": "Gradle",
           "category": "android",
           "version": "8.6",
-          "raw_output": "Welcome to Gradle 8.6!\n\nHere are the highlights of this release:\n - Configurable encryption key for configuration cache\n - Build init improvements\n - Build authoring improvements\n\nFor more details see https://docs.gradle.org/8.6/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.6\n------------------------------------------------------------\n\nBuild time:   2024-02-02 16:47:16 UTC\nRevision:     d55c486870a0dc6f6278f53d21381396d0741c6e\n\nKotlin:       1.9.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.22 (Eclipse Adoptium 11.0.22+7)\nOS:           Mac OS X 14.1.2 aarch64",
+          "raw_output": "Welcome to Gradle 8.6!\n\nHere are the highlights of this release:\n - Configurable encryption key for configuration cache\n - Build init improvements\n - Build authoring improvements\n\nFor more details see https://docs.gradle.org/8.6/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.6\n------------------------------------------------------------\n\nBuild time:   2024-02-02 16:47:16 UTC\nRevision:     d55c486870a0dc6f6278f53d21381396d0741c6e\n\nKotlin:       1.9.20\nGroovy:       3.0.17\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.23 (Eclipse Adoptium 11.0.23+9)\nOS:           Mac OS X 14.1.2 aarch64",
           "executed_command": "gradle --version"
         },
         {
           "name": "Maven",
           "category": "android",
           "version": "3.9.6",
-          "raw_output": "Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)\nMaven home: /opt/homebrew/Cellar/maven/3.9.6/libexec\nJava version: 11.0.22, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.1.2\", arch: \"aarch64\", family: \"mac\"",
+          "raw_output": "Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)\nMaven home: /opt/homebrew/Cellar/maven/3.9.6/libexec\nJava version: 11.0.23, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.1.2\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
