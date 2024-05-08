@@ -94,16 +94,16 @@ iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.0 (17.0.1 - 21A342) - com.apple.CoreSimulator.SimRuntime.iOS-17-0
 iOS 17.2 (17.2 - 21C62) - com.apple.CoreSimulator.SimRuntime.iOS-17-2
 iOS 17.4 (17.4 - 21E213) - com.apple.CoreSimulator.SimRuntime.iOS-17-4
-iOS 17.5 (17.5 - 21F5058d) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
+iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 tvOS 17.0 (17.0 - 21J353) - com.apple.CoreSimulator.SimRuntime.tvOS-17-0
 tvOS 17.2 (17.2 - 21K364) - com.apple.CoreSimulator.SimRuntime.tvOS-17-2
 tvOS 17.4 (17.4 - 21L224) - com.apple.CoreSimulator.SimRuntime.tvOS-17-4
-tvOS 17.5 (17.5 - 21L5553e) - com.apple.CoreSimulator.SimRuntime.tvOS-17-5
+tvOS 17.5 (17.5 - 21L569) - com.apple.CoreSimulator.SimRuntime.tvOS-17-5
 watchOS 9.4 (9.4 - 20T253) - com.apple.CoreSimulator.SimRuntime.watchOS-9-4
 watchOS 10.0 (10.0 - 21R355) - com.apple.CoreSimulator.SimRuntime.watchOS-10-0
 watchOS 10.2 (10.2 - 21S364) - com.apple.CoreSimulator.SimRuntime.watchOS-10-2
 watchOS 10.4 (10.4 - 21T214) - com.apple.CoreSimulator.SimRuntime.watchOS-10-4
-watchOS 10.5 (10.5 - 21T5555c) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
+watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 visionOS 1.0 (1.0 - 21N305) - com.apple.CoreSimulator.SimRuntime.xrOS-1-0
 visionOS 1.1 (1.1 - 21O209) - com.apple.CoreSimulator.SimRuntime.xrOS-1-1
 visionOS 1.2 (1.2 - 21O5565d) - com.apple.CoreSimulator.SimRuntime.xrOS-1-2
@@ -177,6 +177,10 @@ visionOS 1.2 (1.2 - 21O5565d) - com.apple.CoreSimulator.SimRuntime.xrOS-1-2
     iPad mini (6th generation) (011A88E0-5B28-401D-A15C-518597916B2C) (Shutdown) 
     iPad Pro (11-inch) (4th generation) (7B8C60D1-DA57-40B9-BDDC-262B78F03367) (Shutdown) 
     iPad Pro (12.9-inch) (6th generation) (F07BB397-8055-4C18-B9B0-9955D2400510) (Shutdown) 
+    iPad Air 11-inch (M2) (42EEB83D-9158-4ABC-9DBA-BFCFDD3D5AEB) (Shutdown) (unavailable, device type profile not found)
+    iPad Air 13-inch (M2) (A89A13CC-05BC-456C-AA71-397FE9F832F0) (Shutdown) (unavailable, device type profile not found)
+    iPad Pro 11-inch (M4) (E94C7576-8DB7-4859-9C4E-F3C60C95C67B) (Shutdown) (unavailable, device type profile not found)
+    iPad Pro 13-inch (M4) (CCAA63C1-64D3-432B-8824-7EE38CF1D52F) (Shutdown) (unavailable, device type profile not found)
 -- iOS 17.5 --
     Bitrise iOS default (54D1AA95-8680-472A-A53A-5C37EC94DB22) (Shutdown) 
     iPhone 11 (2164172B-9164-4DEC-A864-CD00028F6256) (Shutdown) 
@@ -190,6 +194,10 @@ visionOS 1.2 (1.2 - 21O5565d) - com.apple.CoreSimulator.SimRuntime.xrOS-1-2
     iPad mini (6th generation) (A00024BD-D98B-48D4-BC86-A7EB2C85F7EE) (Shutdown) 
     iPad Pro (11-inch) (4th generation) (BFA5C885-A84A-4615-921E-C653C5A07E41) (Shutdown) 
     iPad Pro (12.9-inch) (6th generation) (56A0A1F6-482C-43ED-B7FF-8F0803F2379D) (Shutdown) 
+    iPad Air 11-inch (M2) (44BEEBB6-E5B0-4555-8595-F5817E1C1FF6) (Shutdown) (unavailable, device type profile not found)
+    iPad Air 13-inch (M2) (71D79D84-7EB2-4A6F-BEA7-AA40FC6CE0D6) (Shutdown) (unavailable, device type profile not found)
+    iPad Pro 11-inch (M4) (CF03B4F1-CD80-492B-A2CF-8CF375BB907C) (Shutdown) (unavailable, device type profile not found)
+    iPad Pro 13-inch (M4) (094E0CBD-D4B4-4995-AF85-9F9CE71B123F) (Shutdown) (unavailable, device type profile not found)
 -- tvOS 17.0 --
     Apple TV (E64AB4F2-B03A-4882-B8B2-04DA0CD51268) (Shutdown) 
     Apple TV 4K (3rd generation) (7685C558-FF6E-4587-A2FA-69D38D642A4C) (Shutdown) 
