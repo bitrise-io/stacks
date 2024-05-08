@@ -13,6 +13,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-05-08`
+
+- [Xcode 15.4 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_4-release-notes) is preinstalled, replacing 15.4 Beta.
+- Homebrew package upgrades
+
 ### Stack update `v2024-04-17`
 
 - Initial release of the stack with [Xcode 15.4 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_4-release-notes).
