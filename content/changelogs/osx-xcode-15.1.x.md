@@ -16,6 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2024-05-07` (released on 2024-05-08)
 
 - Homebrew package installs now use the [new JSON API introduced in Homebrew 4.0](https://brew.sh/2023/02/16/homebrew-4.0.0/). This should not make any difference in practice, but you can still revert to the old behavior by setting the `HOMEBREW_NO_INSTALL_FROM_API=1` env var.
+- Related: the `brew-install` step has a [new major version](https://github.com/bitrise-steplib/steps-brew-install/releases/tag/1.0.0) that speeds up installs and make them more reproducible.
 
 ### Stack update `v2024-04-29` (released on 2024-05-01)
 
