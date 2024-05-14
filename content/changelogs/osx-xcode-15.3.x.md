@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-05-14`
+
+No user-facing changes, this release is only caused by the new [Xcode 15.4 stack]({{ ref "/changelogs/osx-xcode-15.4.x.md" %}}).
+
 ### Stack update `v2024-05-07` (released on 2024-05-08)
 
 - Homebrew package installs now use the [new JSON API introduced in Homebrew 4.0](https://brew.sh/2023/02/16/homebrew-4.0.0/). This should not make any difference in practice, but you can still revert to the old behavior by setting the `HOMEBREW_NO_INSTALL_FROM_API=1` env var.
