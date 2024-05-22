@@ -13,6 +13,20 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-05-21`
+
+- Homebrew package upgrades
+- Ruby `3.0.6` has been removed as it reached [end-of-life](https://endoflife.date/ruby)
+- Node.js 22 is now pre-installed (`22.1.0` at the moment)
+- Tool upgrades
+    - Ruby `3.1.4` → `3.1.5`
+    - Ruby `3.2.3` → `3.2.4`
+    - Ruby `3.3.0` → `3.3.1`
+    - Go `1.21.8` → `1.21.10`
+    - Go `1.22.1` → `1.22.3`
+    - Node.js `20.11.1` → `20.13.1`
+    - Node.js `21.6.2` → `21.7.3`
+
 ### Stack update `v2024-05-08`
 
 - [Xcode 15.4 Release Candidate](https://developer.apple.com/documentation/xcode-release-notes/xcode-15_4-release-notes) is preinstalled, replacing 15.4 Beta.
