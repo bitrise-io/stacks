@@ -20,7 +20,6 @@ coreutils 9.4
 curl 8.4.0
 danger-js 64
 danger-swift 3.17.1
-dart 3.1.0
 docutils 0.20.1
 double-conversion 3.3.0
 edencommon 2023.09.04.00
