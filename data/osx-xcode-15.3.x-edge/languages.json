@@ -42,7 +42,7 @@
           "name": "Node.js version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "20 =\u003e 20.13.1\n20.13 =\u003e 20.13.1\n21 =\u003e 21.7.3\n21.7 =\u003e 21.7.3\n22 =\u003e 22.1.0\n22.1 =\u003e 22.1.0\nlts =\u003e 20.9.0",
+          "raw_output": "20 =\u003e 20.13.1\n20.13 =\u003e 20.13.1\n21 =\u003e 21.7.3\n21.7 =\u003e 21.7.3\n22 =\u003e 22.1.0\n22.1 =\u003e 22.1.0\nlts =\u003e 20.13.0",
           "executed_command": "asdf alias nodejs --list"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "1.9.24",
-          "raw_output": "Kotlin version 1.9.24-release-822 (JRE 11.0.23+9)",
+          "version": "2.0.0",
+          "raw_output": "Kotlin version 2.0.0-release-341 (JRE 11.0.23+9)",
           "executed_command": "kotlin -version"
         }
       ],
