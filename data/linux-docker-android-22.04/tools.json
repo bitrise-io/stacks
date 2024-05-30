@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.43.2",
-          "raw_output": "git version 2.43.2",
+          "version": "2.45.1",
+          "raw_output": "git version 2.45.1",
           "executed_command": "git --version"
         },
         {
@@ -20,15 +20,15 @@
         {
           "name": "NPM",
           "category": "tools",
-          "version": "10.2.4",
-          "raw_output": "10.2.4",
+          "version": "10.5.2",
+          "raw_output": "10.5.2",
           "executed_command": "npm --version"
         },
         {
           "name": "Yarn",
           "category": "tools",
           "version": "1.22.22",
-          "raw_output": "1.22.22",
+          "raw_output": "! Corepack is about to download https://registry.yarnpkg.com/yarn/-/yarn-1.22.22.tgz\n1.22.22",
           "executed_command": "yarn --version"
         },
         {
@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.15.40",
-          "raw_output": "aws-cli/2.15.40 Python/3.11.8 Linux/5.13.0-1015-gcp exe/x86_64.ubuntu.22 prompt/off",
+          "version": "2.15.59",
+          "raw_output": "aws-cli/2.15.59 Python/3.11.8 Linux/5.13.0-1015-gcp exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.7.3",
-          "raw_output": "13.7.3",
+          "version": "13.10.2",
+          "raw_output": "13.10.2",
           "executed_command": "firebase --version"
         },
         {
@@ -83,22 +83,22 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "26.0.2",
-          "raw_output": "Docker version 26.0.2, build 3c863ff",
+          "version": "26.1.3",
+          "raw_output": "Docker version 26.1.3, build b72abbb",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "2.26.1",
-          "raw_output": "Docker Compose version v2.26.1",
+          "version": "2.27.0",
+          "raw_output": "Docker Compose version v2.27.0",
           "executed_command": "docker compose version"
         },
         {
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 32.7GB\nbitriseio/ubuntu-22-android:pinned - 32.7GB\nbitriseio/ubuntu-22-base:latest - 6.51GB\nbitriseio/ubuntu-22-base:pinned - 6.51GB\nbitriseio/android-ndk-20.04:latest - 48.7GB\nbitriseio/android-ndk-20.04:pinned - 48.7GB\nbitriseio/android-20.04:latest - 46.3GB\nbitriseio/android-20.04:pinned - 46.3GB\nbitriseio/bitrise-base-20.04:latest - 3.95GB\nbitriseio/bitrise-base-20.04:pinned - 3.95GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 33.2GB\nbitriseio/ubuntu-22-android:pinned - 33.2GB\nbitriseio/ubuntu-22-base:latest - 6.69GB\nbitriseio/ubuntu-22-base:pinned - 6.69GB\nbitriseio/android-ndk-20.04:latest - 48.3GB\nbitriseio/android-ndk-20.04:pinned - 48.3GB\nbitriseio/android-20.04:latest - 45.9GB\nbitriseio/android-20.04:pinned - 45.9GB\nbitriseio/bitrise-base-20.04:latest - 3.7GB\nbitriseio/bitrise-base-20.04:pinned - 3.7GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],

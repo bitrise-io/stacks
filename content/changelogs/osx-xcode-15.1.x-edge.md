@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-05-28` (released on 2024-05-30)
+
+- Homebrew package upgrades
+- As WWDC 2024 comes with the debut of Xcode 16 Beta, Bitrise Edge stacks will be updated with the new version as soon as it is available. *After this release, Xcode 15.x Edge stacks will be discontinued.* You are recommended to switch your workflows either to the Xcode 15.x Stable stacks or to the new Xcode 16.0 Edge stack. Remaining Xcode 15.x Edge stack users will be migrated to the corresponding Xcode 15.x Stable stacks.
+
 ### Stack update `v2024-05-21`
 
 - Homebrew package upgrades
