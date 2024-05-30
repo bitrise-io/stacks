@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.43.2",
-          "raw_output": "git version 2.43.2",
+          "version": "2.45.1",
+          "raw_output": "git version 2.45.1",
           "executed_command": "git --version"
         },
         {
@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.32.64",
-          "raw_output": "aws-cli/1.32.64 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.34.64",
+          "version": "1.32.110",
+          "raw_output": "aws-cli/1.32.110 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.34.110",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "468.0.0",
-          "raw_output": "Google Cloud SDK 468.0.0\nalpha 2024.03.08\nbeta 2024.03.08\nbq 2.0.101\nbundled-python3-unix 3.11.8\ncore 2024.03.08\ngcloud-crc32c 1.0.0\ngsutil 5.27",
+          "version": "477.0.0",
+          "raw_output": "Google Cloud SDK 477.0.0\nalpha 2024.05.17\nbeta 2024.05.17\nbq 2.1.4\nbundled-python3-unix 3.11.8\ncore 2024.05.17\ngcloud-crc32c 1.0.0\ngsutil 5.29",
           "executed_command": "gcloud version"
         },
         {
@@ -111,8 +111,8 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "25.0.4",
-          "raw_output": "Docker version 25.0.4, build 1a576c5",
+          "version": "26.1.3",
+          "raw_output": "Docker version 26.1.3, build b72abbb",
           "executed_command": "docker --version"
         },
         {
@@ -126,7 +126,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 32.7GB\nbitriseio/ubuntu-22-android:pinned - 32.7GB\nbitriseio/ubuntu-22-base:latest - 6.51GB\nbitriseio/ubuntu-22-base:pinned - 6.51GB\nbitriseio/android-ndk-20.04:latest - 48.7GB\nbitriseio/android-ndk-20.04:pinned - 48.7GB\nbitriseio/android-20.04:latest - 46.3GB\nbitriseio/android-20.04:pinned - 46.3GB\nbitriseio/bitrise-base-20.04:latest - 3.95GB\nbitriseio/bitrise-base-20.04:pinned - 3.95GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 33.2GB\nbitriseio/ubuntu-22-android:pinned - 33.2GB\nbitriseio/ubuntu-22-base:latest - 6.69GB\nbitriseio/ubuntu-22-base:pinned - 6.69GB\nbitriseio/android-ndk-20.04:latest - 48.3GB\nbitriseio/android-ndk-20.04:pinned - 48.3GB\nbitriseio/android-20.04:latest - 45.9GB\nbitriseio/android-20.04:pinned - 45.9GB\nbitriseio/bitrise-base-20.04:latest - 3.7GB\nbitriseio/bitrise-base-20.04:pinned - 3.7GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],
