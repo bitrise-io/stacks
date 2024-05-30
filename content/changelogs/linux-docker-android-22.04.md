@@ -12,7 +12,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-# Stack update `v2024-05-29`
+### Stack update `v2024-05-29`
 
 - Tool upgrades
     - Android emulator `34.1.20` -> `34.2.14`

@@ -18,6 +18,17 @@ There is a newer Ubuntu stack available: [Ubuntu 22](./linux-docker-android-22.0
 This stack (Ubuntu 20) is soon going to be marked as deprecated ([timeline](../announcements/Upcoming%20stack%20deprecations.md)), we encourage everyone to switch their workflows to the [Ubuntu 22 stack](./linux-docker-android-22.04.md). You can find a summary of changes and migration guide [here](../announcements/Ubuntu%2022.md).
 {{< /hint >}}
 
+### Stack update `v2024-05-29`
+
+- Tool upgrades
+    - Android emulator `34.1.19` -> `34.2.14`
+    - Ruby `3.3.0` → `3.3.1`
+    - Go `1.21.5` → `1.21.10`
+    - Node.js `18.19.1` -> `18.20.2`
+    - Node.js `20.11.1` → `20.13.1`
+    - Node.js `21.6.2` → `21.7.3`
+    - Python `3.11.8` → `3.11.9` 
+
 ### Stack update `v2024-03-18`
 
 - Android emulator upgrade: `33.1.24` -> `34.1.19`
