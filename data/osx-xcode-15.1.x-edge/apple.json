@@ -28,7 +28,7 @@
           "name": "Rosetta",
           "category": "apple",
           "version": "",
-          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1700337651\nvolume: /\nlocation: /\ninstall-time: 1716280229",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1700337651\nvolume: /\nlocation: /\ninstall-time: 1716890953",
           "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
         },
         {
@@ -49,7 +49,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.3.1\nORIGIN: https://github.com/Homebrew/brew\nHEAD: e0bc557e7b991cb23583679e1cf1c8a92b793aeb\nLast commit: 25 hours ago\nCore tap JSON: 21 May 08:34 UTC\nCore cask tap JSON: 21 May 08:34 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.1 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.1/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.45.1 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 14.1.2-arm64\nCLT: 15.0.0.0.1.1694021235\nXcode: 15.1 =\u003e /Applications/Xcode-15.1.0.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.3.2\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 9fdb0d53990d3e62e25325a6f89dbb769e84a530\nLast commit: 2 days ago\nCore tap JSON: 28 May 10:12 UTC\nCore cask tap JSON: 28 May 10:12 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.1 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.1/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.45.1 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 14.1.2-arm64\nCLT: 15.0.0.0.1.1694021235\nXcode: 15.1 =\u003e /Applications/Xcode-15.1.0.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {

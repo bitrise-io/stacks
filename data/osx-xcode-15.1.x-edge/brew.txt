@@ -7,7 +7,7 @@ argon2 20190702_1
 aria2 1.37.0
 aspell 0.60.8.1_1
 autoconf 2.72
-awscli 2.15.54
+awscli 2.15.58
 bazelisk 1.20.0
 boost 1.85.0
 brotli 1.1.0
@@ -34,11 +34,11 @@ gd 2.3.3_6
 gettext 0.22.5
 gflags 2.2.2
 gh 2.49.2
-ghostscript 10.03.0
+ghostscript 10.03.1
 giflib 5.2.2
 git 2.45.1
 git-lfs 3.5.1
-glib 2.80.0_2
+glib 2.80.2
 glog 0.6.0
 gmp 6.3.0
 gnupg 2.4.5
@@ -50,15 +50,15 @@ harfbuzz 8.4.0
 highway 1.1.0
 hub 2.14.2
 icu4c 74.2
-imagemagick 7.1.1-32
+imagemagick 7.1.1-33
 imath 3.1.11
 jasper 4.2.4
 jbig2dec 0.20
 jenv 0.5.6
-jpeg-turbo 3.0.2
+jpeg-turbo 3.0.3
 jpeg-xl 0.10.2
 jq 1.7.1
-kotlin 1.9.24
+kotlin 2.0.0
 krb5 1.21.2
 libassuan 2.5.7
 libavif 1.0.4
@@ -72,7 +72,7 @@ libidn2 2.3.7
 libksba 1.6.6
 liblqr 0.4.2_1
 libnghttp2 1.61.0
-libomp 18.1.5
+libomp 18.1.6
 libpng 1.6.43
 libpq 16.2_1
 libraw 0.21.2
@@ -97,7 +97,7 @@ lokalise2 2.6.10
 lz4 1.9.4
 lzo 2.10
 m4 1.4.19
-maven 3.9.6
+maven 3.9.7
 mercurial 6.7.3
 mint 0.17.5
 mpdecimal 4.0.0
@@ -112,7 +112,7 @@ openldap 2.6.7
 openssl@3 3.3.0
 openvpn 2.6.10
 p11-kit 0.25.3
-parallel 20240422
+parallel 20240522
 pcre2 10.43
 php 8.3.6
 pinentry 1.2.1
@@ -152,7 +152,6 @@ xcodes 1.3.0
 xorgproto 2024.1
 xz 5.6.1
 yamllint 1.35.1
-yarn 1.22.22
 zeromq 4.3.5_1
 zstd 1.5.6
 google-cloud-sdk 474.0.0
