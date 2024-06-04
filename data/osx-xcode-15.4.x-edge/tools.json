@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.49.2",
-          "raw_output": "gh version 2.49.2 (2024-05-13)\nhttps://github.com/cli/cli/releases/tag/v2.49.2",
+          "version": "2.50.0",
+          "raw_output": "gh version 2.50.0 (2024-05-29)\nhttps://github.com/cli/cli/releases/tag/v2.50.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.15.58",
-          "raw_output": "aws-cli/2.15.58 Python/3.11.9 Darwin/23.1.0 source/arm64",
+          "version": "2.15.62",
+          "raw_output": "aws-cli/2.15.62 Python/3.11.9 Darwin/23.5.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -55,15 +55,15 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "12.9.1",
-          "raw_output": "12.9.1",
+          "version": "13.10.2",
+          "raw_output": "13.10.2",
           "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
           "version": "9.12",
-          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.3. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.4. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
           "executed_command": "openconnect --version"
         },
         {

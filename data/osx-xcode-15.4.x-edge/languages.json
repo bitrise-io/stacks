@@ -49,14 +49,14 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "system\n  1.8\n  1.8.0.392\n  1.8.0.412\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.21\n  11.0.23\n  17.0\n  17.0.11\n  17.0.9\n  21.0\n  21.0.2\n  21.0.3\n  8.0\n  temurin64-1.8.0.392\n  temurin64-1.8.0.412\n  temurin64-11.0.21\n  temurin64-11.0.23\n  temurin64-17.0.11\n  temurin64-17.0.9\n  temurin64-21.0.2\n  temurin64-21.0.3",
+          "raw_output": "system\n  1.8\n  1.8.0.412\n  11\n* 11.0 (set by /Users/vagrant/.jenv/version)\n  11.0.23\n  17\n  17.0\n  17.0.11\n  21\n  21.0\n  21.0.3\n  8.0\n  temurin64-1.8.0.412\n  temurin64-11.0.23\n  temurin64-17.0.11\n  temurin64-21.0.3",
           "executed_command": "jenv versions"
         },
         {
           "name": "Flutter versions",
           "category": "languages",
-          "version": "3.7.12",
-          "raw_output": "Cache Directory:  /Users/vagrant/fvm/versions\n\n3.7.12 (global)",
+          "version": "2.51",
+          "raw_output": "Cache directory:  /Users/vagrant/fvm/versions\nDirectory Size: 2.51 GB\n\n\u001b[37m┌─────────┬─────────┬─────────────────┬──────────────┬──────────────┬────────┐\u001b[m\n\u001b[37m│ \u001b[m\u001b[1mVersion\u001b[m\u001b[37m │ \u001b[m\u001b[1mChannel\u001b[m\u001b[37m │ \u001b[m\u001b[1mFlutter Version\u001b[m\u001b[37m │ \u001b[m\u001b[1mDart Version\u001b[m\u001b[37m │ \u001b[m\u001b[1mRelease Date\u001b[m\u001b[37m │ \u001b[m\u001b[1mGlobal\u001b[m\u001b[37m │\u001b[m\n\u001b[37m├─────────┼─────────┼─────────────────┼──────────────┼──────────────┼────────┤\u001b[m\n\u001b[37m│ \u001b[m3.7.12 \u001b[37m │ \u001b[mstable \u001b[37m │ \u001b[m3.7.12         \u001b[37m │ \u001b[m2.19.6      \u001b[37m │ \u001b[mApr 20, 2023\u001b[37m │ \u001b[m●     \u001b[37m │\u001b[m\n\u001b[37m└─────────┴─────────┴─────────────────┴──────────────┴──────────────┴────────┘\u001b[m",
           "executed_command": "fvm list"
         },
         {
