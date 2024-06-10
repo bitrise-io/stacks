@@ -1,0 +1,38 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "34.2.15",
+          "raw_output": "Pkg.Revision=34.2.15",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "Gradle",
+          "category": "android",
+          "version": "8.8",
+          "raw_output": "Welcome to Gradle 8.8!\n\nHere are the highlights of this release:\n - Running Gradle on Java 22\n - Configurable Gradle daemon JVM\n - Improved IDE performance for large projects\n\nFor more details see https://docs.gradle.org/8.8/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.8\n------------------------------------------------------------\n\nBuild time:   2024-05-31 21:46:56 UTC\nRevision:     4bd1b3d3fc3f31db5a26eecb416a165b8cc36082\n\nKotlin:       1.9.22\nGroovy:       3.0.21\nAnt:          Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nJVM:          11.0.23 (Eclipse Adoptium 11.0.23+9)\nOS:           Mac OS X 14.5 aarch64",
+          "executed_command": "gradle --version"
+        },
+        {
+          "name": "Maven",
+          "category": "android",
+          "version": "3.9.7",
+          "raw_output": "Apache Maven 3.9.7 (8b094c9513efc1b9ce2d952b3b9c8eaedaf8cbf0)\nMaven home: /opt/homebrew/Cellar/maven/3.9.7/libexec\nJava version: 11.0.23, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.5\", arch: \"aarch64\", family: \"mac\"",
+          "executed_command": "mvn --version"
+        },
+        {
+          "name": "Ant",
+          "category": "android",
+          "version": "1.10.14",
+          "raw_output": "Apache Ant(TM) version 1.10.14 compiled on August 16 2023",
+          "executed_command": "ant -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
