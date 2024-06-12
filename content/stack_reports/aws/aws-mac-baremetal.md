@@ -3,6 +3,7 @@ title: macOS bare metal AMI
 summary: "Bitrise on AWS: bare-metal macOS stack for building with Xcode"
 type: stack_reports_aws
 aws_url: "https://aws.amazon.com/marketplace/pp/prodview-hxvc5dqabjhus?sr=0-3&applicationId=AWSMPContessa"
+platform: macOS
 ---
 
 This version of the AMI contains the following software:
