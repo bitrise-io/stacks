@@ -1,6 +1,6 @@
 {
-    "title": "{{ .Title }}",
-    "summary": "{{ .Summary }}",
-    "updated_at": "{{ .Date }}",
+    "title": {{ .Title | jsonify }},
+    "summary": {{ .Summary | jsonify }},
+    "updated_at": {{ .Date | jsonify }},
     "content_html": {{ .Content | jsonify }}
 }
