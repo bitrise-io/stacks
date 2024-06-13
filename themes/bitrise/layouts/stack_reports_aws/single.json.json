@@ -8,6 +8,7 @@
     "stack_revision": {{ $stack_rev_id | jsonify }},
     "platform": {{ .Params.platform | jsonify }},
     "summary": {{ .Summary | jsonify }},
+    "aws_url": {{ .Params.aws_url | jsonify }},
     "updated_at": {{ .Date | jsonify}},
     "content_html": {{ .Content | jsonify }}
 }
