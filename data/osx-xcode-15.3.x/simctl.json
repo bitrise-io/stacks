@@ -3276,10 +3276,10 @@
         "name" : "iPhone 15 Pro Max"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/7E210853-962A-4CED-9479-5283061B2063\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F9A287BE-F83C-4742-B766-E09B36131562\/data",
         "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/7E210853-962A-4CED-9479-5283061B2063",
-        "udid" : "7E210853-962A-4CED-9479-5283061B2063",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F9A287BE-F83C-4742-B766-E09B36131562",
+        "udid" : "F9A287BE-F83C-4742-B766-E09B36131562",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-5th-generation",
         "state" : "Shutdown",
