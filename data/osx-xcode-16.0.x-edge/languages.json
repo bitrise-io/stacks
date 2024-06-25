@@ -56,7 +56,7 @@
           "name": "Flutter versions",
           "category": "languages",
           "version": "2.51",
-          "raw_output": "Cache directory:  /Users/vagrant/fvm/versions\nDirectory Size: 2.51 GB\n\n\u001b[37m┌─────────┬─────────┬─────────────────┬──────────────┬──────────────┬────────┐\u001b[m\n\u001b[37m│ \u001b[m\u001b[1mVersion\u001b[m\u001b[37m │ \u001b[m\u001b[1mChannel\u001b[m\u001b[37m │ \u001b[m\u001b[1mFlutter Version\u001b[m\u001b[37m │ \u001b[m\u001b[1mDart Version\u001b[m\u001b[37m │ \u001b[m\u001b[1mRelease Date\u001b[m\u001b[37m │ \u001b[m\u001b[1mGlobal\u001b[m\u001b[37m │\u001b[m\n\u001b[37m├─────────┼─────────┼─────────────────┼──────────────┼──────────────┼────────┤\u001b[m\n\u001b[37m│ \u001b[m3.7.12 \u001b[37m │ \u001b[mstable \u001b[37m │ \u001b[m3.7.12         \u001b[37m │ \u001b[m2.19.6      \u001b[37m │ \u001b[mApr 20, 2023\u001b[37m │ \u001b[m●     \u001b[37m │\u001b[m\n\u001b[37m└─────────┴─────────┴─────────────────┴──────────────┴──────────────┴────────┘\u001b[m",
+          "raw_output": "3.7.12",
           "executed_command": "fvm list"
         },
         {
