@@ -13,6 +13,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-06-26`
+
+- Update of the stack with, replacing Xcode 16.0 Beta 1 with [Xcode 16.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes).
+
 ### Stack update `v2024-06-10`
 
 - Initial release of the stack with [Xcode 16.0 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes).
