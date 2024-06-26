@@ -20,8 +20,8 @@
         {
           "name": "Maven",
           "category": "android",
-          "version": "3.9.7",
-          "raw_output": "Apache Maven 3.9.7 (8b094c9513efc1b9ce2d952b3b9c8eaedaf8cbf0)\nMaven home: /opt/homebrew/Cellar/maven/3.9.7/libexec\nJava version: 11.0.23, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.5\", arch: \"aarch64\", family: \"mac\"",
+          "version": "3.9.8",
+          "raw_output": "Apache Maven 3.9.8 (36645f6c9b5079805ea5009217e36f2cffd34256)\nMaven home: /opt/homebrew/Cellar/maven/3.9.8/libexec\nJava version: 11.0.23, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.5\", arch: \"aarch64\", family: \"mac\"",
           "executed_command": "mvn --version"
         },
         {
