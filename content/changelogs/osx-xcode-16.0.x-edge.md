@@ -15,7 +15,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2024-06-26`
 
-- Update of the stack with, replacing Xcode 16.0 Beta 1 with [Xcode 16.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes).
+- [Xcode 16.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 1.
+- Homebrew package upgrades
+- Default Ruby version change: `3.2` -> `3.3` (`3.2` remains installed)
+- Node.js 21 has been removed as it reached its end of life
 
 ### Stack update `v2024-06-10`
 
