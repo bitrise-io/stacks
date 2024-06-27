@@ -24,7 +24,7 @@ flavor = "flavor"
 [outputs]
 home = ["html", "rss", "json"]
 page = ["html", "rss", "json"]
-# section = ["html", "rss", "json"]
+section = ["html", "rss", "json"]
 
 [menu]
 
