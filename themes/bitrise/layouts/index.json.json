@@ -11,7 +11,7 @@
         {{- end }}
         {{- if eq $section "changelogs" }}
             {{- $stackMeta := dict "stack_id" .File.BaseFileName  }}
-            {{- $pageOutput = merge $pageOutput (dict "stack_meta" $stackMeta)}}
+            {{- $pageOutput = merge $pageOutput (dict "changelog_meta" $stackMeta)}}
         {{- end }}
         {{- $pagesOutput = $pagesOutput | append $pageOutput }}
     {{- end }}
