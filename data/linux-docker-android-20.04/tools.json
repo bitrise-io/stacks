@@ -42,7 +42,7 @@
           "name": "AWS CLI",
           "category": "tools",
           "version": "1.32.110",
-          "raw_output": "aws-cli/1.32.110 Python/3.8.10 Linux/5.13.0-1015-gcp botocore/1.34.110",
+          "raw_output": "aws-cli/1.32.110 Python/3.8.10 Linux/6.5.0-1018-gcp botocore/1.34.110",
           "executed_command": "aws --version"
         },
         {
@@ -126,7 +126,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 33.2GB\nbitriseio/ubuntu-22-android:pinned - 33.2GB\nbitriseio/ubuntu-22-base:latest - 6.69GB\nbitriseio/ubuntu-22-base:pinned - 6.69GB\nbitriseio/android-ndk-20.04:latest - 48.3GB\nbitriseio/android-ndk-20.04:pinned - 48.3GB\nbitriseio/android-20.04:latest - 45.9GB\nbitriseio/android-20.04:pinned - 45.9GB\nbitriseio/bitrise-base-20.04:latest - 3.7GB\nbitriseio/bitrise-base-20.04:pinned - 3.7GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 33.2GB\nbitriseio/ubuntu-22-android:pinned - 33.2GB\nbitriseio/ubuntu-22-base:latest - 6.73GB\nbitriseio/ubuntu-22-base:pinned - 6.73GB\nbitriseio/android-ndk-20.04:latest - 48.3GB\nbitriseio/android-ndk-20.04:pinned - 48.3GB\nbitriseio/android-20.04:latest - 45.9GB\nbitriseio/android-20.04:pinned - 45.9GB\nbitriseio/bitrise-base-20.04:latest - 3.7GB\nbitriseio/bitrise-base-20.04:pinned - 3.7GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],
