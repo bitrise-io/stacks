@@ -4,13 +4,21 @@ summary: Changelog of stack updates
 type: basic_page
 ---
 
-Check out the [stack report page]({{% ref "/stack_reports/aws/aws-mac-virtualized.md" %}}) for a snapshot of what is currently installed.
+This AMI listing has multiple actively updated versions:
+
+- [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md)
+- [macOS Ventura with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-ventura15.md)
 
 {{< hint info >}}
 Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 {{< /hint >}}
 
 ## Updates
+
+### AMI version `2024W24-sonoma15` and `2024W24-ventura15`
+
+- This AMI has been split into multiple active versions (two at the moment). From now on, each version contains only a single VM image. See what's included in these two versions [here](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md) and [here](../../stack_reports/aws/aws-mac-virtualized-ventura15.md). This change results in smaller disk size per AMI version.
+- Xcode 15.4 has been added to the `2024W24-sonoma15` version
 
 ### Stack update `v2024W14-1`
 
