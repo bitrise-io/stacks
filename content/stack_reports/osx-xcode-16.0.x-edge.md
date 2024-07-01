@@ -2,7 +2,7 @@
 title: Xcode 16.0 with edge updates
 summary: macOS stack for building with Xcode 16.0, with more frequent tool updates
 platform: macOS
-xcode: 16.0
+xcode: "16.0"
 flavor: edge
 weight: 15
 ---
