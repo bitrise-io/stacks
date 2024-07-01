@@ -2,6 +2,9 @@
 {{ $json := getJSON $jsonPath }}
 
 {{ range $runtime := $json.runtimes }}
+    {{ if eq (len $runtime.supportedDeviceTypes) 0 }}
+        {{ continue }}
+    {{ end }}
     <details>
         {{ $devices := index $json.devices $runtime.identifier }}
         {{ $isBuiltIn := strings.HasPrefix $runtime.bundlePath "/Applications" }}
