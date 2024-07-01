@@ -2,6 +2,7 @@
 title: Ubuntu 20.04 for Android & Docker
 summary: Docker with pre-installed Android tooling, based on Ubuntu 20.04.
 platform: Linux
+flavor: stable
 architecture: x86_64
 weight: 999
 ---

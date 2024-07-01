@@ -2,7 +2,7 @@
 title: Xcode 15.2
 summary: macOS stack for building with Xcode 15.2
 platform: macOS
-xcode: 15.2
+xcode: "15.2"
 flavor: stable
 weight: 8
 ---
