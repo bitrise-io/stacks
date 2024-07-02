@@ -1,0 +1,24 @@
+{{- $sections := slice }}
+{{- $pagesBySection := .Site.RegularPages.GroupBy "Section" }}
+{{- range $pagesBySection }}
+    {{- $section := .Key }}
+    {{- $pagesOutput := slice }}
+    {{- range .Pages }}
+        {{- $pageOutput := dict "title" .Title "path" .Path "updated_at" .Date  }}
+        {{- if eq $section "stack_reports" }}
+            {{- $stackMeta := dict "stack_id" .File.BaseFileName "flavor" .Params.flavor "xcode" .Params.xcode "platform" .Params.platform "cloud" .Params.cloud }}
+            {{- $pageOutput = merge $pageOutput (dict "stack_meta" $stackMeta)}}
+        {{- end }}
+        {{- if eq $section "changelogs" }}
+            {{- $stackMeta := dict "stack_id" .File.BaseFileName  }}
+            {{- $pageOutput = merge $pageOutput (dict "changelog_meta" $stackMeta)}}
+        {{- end }}
+        {{- $pagesOutput = $pagesOutput | append $pageOutput }}
+    {{- end }}
+    {{- $sections = $sections | append (dict $section $pagesOutput) }}
+
+{{- end }}
+{
+    "updated_at": {{ .Date | jsonify }},
+    "sections": {{ $sections | jsonify (dict "indent" "    ") }}
+}
