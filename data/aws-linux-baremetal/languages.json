@@ -1,0 +1,52 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Ruby version",
+          "category": "languages",
+          "version": "3.2.1",
+          "raw_output": "ruby 3.2.1 (2023-02-08 revision 31819e82c8) [x86_64-linux]",
+          "executed_command": "ruby --version"
+        },
+        {
+          "name": "Go version",
+          "category": "languages",
+          "version": "1.21.5",
+          "raw_output": "go version go1.21.5 linux/amd64",
+          "executed_command": "go version"
+        },
+        {
+          "name": "Node.js version",
+          "category": "languages",
+          "version": "16.20.2",
+          "raw_output": "v16.20.2",
+          "executed_command": "node --version"
+        },
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "java-11-openjdk\n*java-17-openjdk\n java-8-openjdk",
+          "executed_command": "update-alternatives --query java | sed -n '/Alternative:/p' | grep -Eo 'java-[0-9]+-openjdk' | awk -v current=\"$(update-alternatives --query java | awk '/Value:/{print $2}' | grep -Eo 'java-[0-9]+-openjdk')\" 'BEGIN{OFS=\"  \"} {if ($0 == current) {print \"*\" $0} else {print \" \" $0}}'"
+        },
+        {
+          "name": "Python version",
+          "category": "languages",
+          "version": "3.12.3",
+          "raw_output": "Python 3.12.3",
+          "executed_command": "python --version"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "1.7.21",
+          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 17.0.11+9-Ubuntu-120.04.2)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
