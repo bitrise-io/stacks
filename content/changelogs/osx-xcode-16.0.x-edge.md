@@ -14,6 +14,19 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-07-09`
+
+- [Xcode 16.0 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 2.
+- To better align with modern Android Gradle Plugin versions, JDK 17 is now the default Java version. JDK 11 remains installed.
+- The preinstalled Flutter version has been upgraded to `3.22.0`
+- The current LTS Android NDK (`r26`) is now installed. The old preinstalled NDK (`r24`) will be removed in the next update. You can use the [Install missing Android tools step](https://github.com/bitrise-steplib/steps-install-missing-android-tools) to install arbitrary NDK versions.
+- [pipx](https://github.com/pypa/pipx), a tool to install Python executables is now installed and configured on stacks.
+- Homebrew package upgrades
+- Ionic CLI upgrade: 6.x → 7.x
+- Cordova CLI upgrade: 11.x → 12.x
+- Appcenter CLI upgrade: 2.x → 3.x
+- OpenUPM CLI upgrade: 1.x → 3.x
+
 ### Stack update `v2024-06-26`
 
 - [Xcode 16.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 1.
