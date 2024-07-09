@@ -98,11 +98,11 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
-iOS 18.0 (18.0 - 22A5297f) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
-tvOS 18.0 (18.0 - 22J5305e) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
+iOS 18.0 (18.0 - 22A5307f) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
+tvOS 18.0 (18.0 - 22J5315e) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
-watchOS 11.0 (11.0 - 22R5299d) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
-visionOS 2.0 (2.0 - 22N5267g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
+watchOS 11.0 (11.0 - 22R5309f) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
+visionOS 2.0 (2.0 - 22N5277f) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 == Devices ==
 -- iOS 16.4 --
     Bitrise iOS default (A9D421E0-427E-44FE-AE57-79500BAF0742) (Shutdown) 
