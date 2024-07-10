@@ -7,14 +7,14 @@
           "name": "Xcode version",
           "category": "apple",
           "version": "",
-          "raw_output": "Xcode 16.0\nBuild version 16A5171r",
+          "raw_output": "Xcode 16.0\nBuild version 16A5202i",
           "executed_command": "xcodebuild -version"
         },
         {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "swift-driver version: 1.110 Apple Swift version 6.0 (swiftlang-6.0.0.4.52 clang-1600.0.21.1.3)\nTarget: arm64-apple-macosx14.0",
+          "raw_output": "swift-driver version: 1.111.2 Apple Swift version 6.0 (swiftlang-6.0.0.5.15 clang-1600.0.22.6)\nTarget: arm64-apple-macosx14.0",
           "executed_command": "xcrun swift --version"
         },
         {
@@ -28,7 +28,7 @@
           "name": "Rosetta",
           "category": "apple",
           "version": "",
-          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1715076803\nvolume: /\nlocation: /\ninstall-time: 1719388183",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1715076803\nvolume: /\nlocation: /\ninstall-time: 1720523710",
           "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
         },
         {
@@ -49,7 +49,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.3.7\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 43eaeca50fe3b6c755f3fc9bc6f43669e0db1039\nLast commit: 2 days ago\nCore tap JSON: 26 Jun 08:03 UTC\nCore cask tap JSON: 26 Jun 08:03 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 16.0.0 build 1600\nGit: 2.45.2 =\u003e /opt/homebrew/bin/git\nCurl: 8.6.0 =\u003e /usr/bin/curl\nmacOS: 14.5-arm64\nCLT: 15.3.0.0.1.1708646388\nXcode: 16.0 =\u003e /Applications/Xcode-16.0.0.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.3.9\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac\nLast commit: 35 hours ago\nCore tap JSON: 09 Jul 11:26 UTC\nCore cask tap JSON: 09 Jul 11:26 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 16.0.0 build 1600\nGit: 2.45.2 =\u003e /opt/homebrew/bin/git\nCurl: 8.6.0 =\u003e /usr/bin/curl\nmacOS: 14.5-arm64\nCLT: 15.3.0.0.1.1708646388\nXcode: 16.0 =\u003e /Applications/Xcode-16.0.0.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -63,7 +63,7 @@
           "name": "Cocoapods config",
           "category": "apple",
           "version": "",
-          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.15.2\n        Ruby : ruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]\n    RubyGems : 3.5.9\n        Host : macOS 14.5 (23F79)\n       Xcode : 16.0 (16A5171r)\n         Git : git version 2.39.5 (Apple Git-151)\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.3.1/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 5dd369f7c243074917ffcf7078e20449d8d823f8\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.3/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.2\n```",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.15.2\n        Ruby : ruby 3.3.1 (2024-04-23 revision c56cd86388) [arm64-darwin23]\n    RubyGems : 3.5.9\n        Host : macOS 14.5 (23F79)\n       Xcode : 16.0 (16A5202i)\n         Git : git version 2.39.5 (Apple Git-153)\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.3.1/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 9a12279d526a23abd93cdb65fbd9bf1299477f3b\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.3/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.2\n```",
           "executed_command": "pod env"
         },
         {
