@@ -12,6 +12,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-06-06` (released 2024-07-11)
+
+- Libraries required to compile Ruby from source are now preinstalled. Previously, some Ruby versions failed to build when running `asdf install ruby x.y.z`.
+- Android emulator update: `34.2.14` -> `34.2.15`
+- Various Ubuntu package upgrades
+
+
 ### Stack update `v2024-05-29`
 
 - Tool upgrades
