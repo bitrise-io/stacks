@@ -49,7 +49,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.3.9\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac\nLast commit: 3 days ago\nCore tap JSON: 10 Jul 08:37 UTC\nCore cask tap JSON: 10 Jul 08:37 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.42.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 13.5-arm64\nCLT: 14.3.1.0.1.1683849156\nXcode: 15.0.1 =\u003e /Applications/Xcode-15.0.1.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.3.9\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac\nLast commit: 4 days ago\nCore tap JSON: 12 Jul 10:06 UTC\nCore cask tap JSON: 12 Jul 10:06 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.42.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 13.5-arm64\nCLT: 14.3.1.0.1.1683849156\nXcode: 15.0.1 =\u003e /Applications/Xcode-15.0.1.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -63,7 +63,7 @@
           "name": "Cocoapods config",
           "category": "apple",
           "version": "",
-          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.15.2\n        Ruby : ruby 3.2.4 (2024-04-23 revision af471c0e01) [arm64-darwin22]\n    RubyGems : 3.4.19\n        Host : macOS 13.5 (22G74)\n       Xcode : 15.0.1 (15A507)\n         Git : git version 2.39.3 (Apple Git-145)\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.2.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 8152961451f72a9aabb86a998a9ef1b1d7586c52\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.2/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.0\n```",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.15.2\n        Ruby : ruby 3.2.4 (2024-04-23 revision af471c0e01) [arm64-darwin22]\n    RubyGems : 3.4.19\n        Host : macOS 13.5 (22G74)\n       Xcode : 15.0.1 (15A507)\n         Git : git version 2.39.3 (Apple Git-145)\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.2.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 5577a8330a61336ba0a69558fb5c5d8df00bc75d\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.2/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.0\n```",
           "executed_command": "pod env"
         },
         {
