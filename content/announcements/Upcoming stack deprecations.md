@@ -4,7 +4,7 @@ type: basic_page
 
 # DO update this date when adding a new stack deprecation
 # DON'T update when archiving one or making other minor changes
-date: 2024-02-23
+date: 2024-07-16
 ---
 
 Stacks are not kept forever, older stacks are eventually marked for removal. You can read more about this in our [stack deprecation and removal policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-deprecation-and-removal-policy.html).
@@ -19,7 +19,7 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 
 | Stack ID                             | Deprecated from | Removed after | Automatic migration to           |
 | ------------------------------------ | --------------- | ------------- | -------------------------------- |
-| **linux-docker-android-20.04**       | August 2024*    | October 2024* | linux-docker-android-22.04       |
+| **linux-docker-android-20.04**       | 2024-08-01      | 2025-04-02    | linux-docker-android-22.04       |
 
 *Exact date to be announced
 
