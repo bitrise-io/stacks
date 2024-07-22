@@ -55,16 +55,16 @@
         {
           "name": "Flutter versions",
           "category": "languages",
-          "version": "3.22.0",
+          "version": "",
           "raw_output": "3.22.0\n3.7.12",
           "executed_command": "ls -1 ~/fvm/versions"
         },
         {
           "name": "Python",
           "category": "languages",
-          "version": "2.7.18",
-          "raw_output": "Python 2.7.18",
-          "executed_command": "python --version"
+          "version": "3.9.6",
+          "raw_output": "Python 3.9.6",
+          "executed_command": "python3 --version"
         },
         {
           "name": "Kotlin",
