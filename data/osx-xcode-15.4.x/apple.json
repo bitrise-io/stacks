@@ -49,7 +49,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.3.9\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac\nLast commit: 4 days ago\nCore tap JSON: 12 Jul 10:06 UTC\nCore cask tap JSON: 12 Jul 10:06 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.44.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 14.1.2-arm64\nCLT: 15.0.0.0.1.1694021235\nXcode: 15.4 =\u003e /Applications/Xcode-15.4.0.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.3.9\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 1c98a33a376e5b35ebc801d0f7d6ba7b9eb118ac\nLast commit: 2 weeks ago\nCore tap JSON: 12 Jul 10:06 UTC\nCore cask tap JSON: 12 Jul 10:06 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 5\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.3 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.3/bin/ruby\nCPU: 5-core 64-bit dunno\nClang: 15.0.0 build 1500\nGit: 2.44.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.1.2 =\u003e /usr/bin/curl\nmacOS: 14.1.2-arm64\nCLT: 15.0.0.0.1.1694021235\nXcode: 15.4 =\u003e /Applications/Xcode-15.4.0.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
