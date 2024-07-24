@@ -14,7 +14,7 @@
           "name": "Gradle",
           "category": "android",
           "version": "8.0.2",
-          "raw_output": "Welcome to Gradle 8.0.2!\n\nHere are the highlights of this release:\n - Improvements to the Kotlin DSL\n - Fine-grained parallelism from the first build with configuration cache\n - Configurable Gradle user home cache cleanup\n\nFor more details see https://docs.gradle.org/8.0.2/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.0.2\n------------------------------------------------------------\n\nBuild time:   2023-03-03 16:41:37 UTC\nRevision:     7d6581558e226a580d91d399f7dfb9e3095c2b1d\n\nKotlin:       1.8.10\nGroovy:       3.0.13\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          17.0.11 (Ubuntu 17.0.11+9-Ubuntu-120.04.2)\nOS:           Linux 5.15.0-1064-aws amd64",
+          "raw_output": "------------------------------------------------------------\nGradle 8.0.2\n------------------------------------------------------------\n\nBuild time:   2023-03-03 16:41:37 UTC\nRevision:     7d6581558e226a580d91d399f7dfb9e3095c2b1d\n\nKotlin:       1.8.10\nGroovy:       3.0.13\nAnt:          Apache Ant(TM) version 1.10.11 compiled on July 10 2021\nJVM:          17.0.11 (Ubuntu 17.0.11+9-Ubuntu-120.04.2)\nOS:           Linux 5.15.0-1064-aws amd64",
           "executed_command": "gradle --version"
         },
         {
