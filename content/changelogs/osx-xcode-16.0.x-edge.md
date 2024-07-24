@@ -14,6 +14,14 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-07-24`
+
+- [Xcode 16.0 Beta 4](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 3.
+- Gradle, Maven and Ant are no longer installed system-wide. We recommend pinning an exact version of the build tool and using the Gradle Wrapper and Maven Wrapper features.
+- Tuist has been updated to `4.20.0`
+- Homebrew package upgrades
+- Ruby upgrade: `3.3.1` -> `3.3.4`
+
 ### Stack update `v2024-07-09`
 
 - [Xcode 16.0 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 2.
