@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.32.29",
-          "raw_output": "aws-cli/1.32.29 Python/3.8.10 Linux/5.15.0-1052-aws botocore/1.34.29",
+          "version": "1.33.27",
+          "raw_output": "aws-cli/1.33.27 Python/3.12.3 Linux/5.15.0-1064-aws botocore/1.34.145",
           "executed_command": "aws --version"
         },
         {

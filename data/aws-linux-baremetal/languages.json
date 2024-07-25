@@ -28,21 +28,21 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "*java-11-openjdk\n java-17-openjdk\n java-8-openjdk",
+          "raw_output": "java-11-openjdk\n*java-17-openjdk\n java-8-openjdk",
           "executed_command": "update-alternatives --query java | sed -n '/Alternative:/p' | grep -Eo 'java-[0-9]+-openjdk' | awk -v current=\"$(update-alternatives --query java | awk '/Value:/{print $2}' | grep -Eo 'java-[0-9]+-openjdk')\" 'BEGIN{OFS=\"  \"} {if ($0 == current) {print \"*\" $0} else {print \" \" $0}}'"
         },
         {
           "name": "Python version",
           "category": "languages",
-          "version": "2.7.18",
-          "raw_output": "Python 2.7.18",
+          "version": "3.12.3",
+          "raw_output": "Python 3.12.3",
           "executed_command": "python --version"
         },
         {
           "name": "Kotlin",
           "category": "languages",
           "version": "1.7.21",
-          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 11.0.21+9-post-Ubuntu-0ubuntu120.04)",
+          "raw_output": "Kotlin version 1.7.21-release-272 (JRE 17.0.11+9-Ubuntu-120.04.2)",
           "executed_command": "kotlin -version"
         }
       ],
