@@ -14,5 +14,5 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `2024w30`
 
-- Bitrise Tooling Update
+- Bitrise Tooling Update (Bitrise CLI, DEN Agent)
 - JDK 17 is the new default version (JDK 11 remains installed)
