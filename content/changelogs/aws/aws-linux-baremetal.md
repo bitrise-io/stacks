@@ -16,3 +16,4 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - Bitrise Tooling Update (Bitrise CLI, DEN Agent)
 - JDK 17 is the new default version (JDK 11 remains installed)
+- Android Related Updates: emulator 34.2.16, NDK: 26.1.10909125, Platform Tools: 35.0.1 
