@@ -1,0 +1,38 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "34.2.16",
+          "raw_output": "Pkg.Revision=34.2.16",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "Gradle",
+          "category": "android",
+          "version": "8.9",
+          "raw_output": "Welcome to Gradle 8.9!\n\nHere are the highlights of this release:\n - Enhanced Error and Warning Messages\n - IDE Integration Improvements\n - Daemon JVM Information\n\nFor more details see https://docs.gradle.org/8.9/release-notes.html\n\n\n------------------------------------------------------------\nGradle 8.9\n------------------------------------------------------------\n\nBuild time:    2024-07-11 14:37:41 UTC\nRevision:      d536ef36a19186ccc596d8817123e5445f30fef8\n\nKotlin:        1.9.23\nGroovy:        3.0.21\nAnt:           Apache Ant(TM) version 1.10.13 compiled on January 4 2023\nLauncher JVM:  11.0.24 (Eclipse Adoptium 11.0.24+8)\nDaemon JVM:    /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home (no JDK specified, using current Java home)\nOS:            Mac OS X 14.5 aarch64",
+          "executed_command": "gradle --version"
+        },
+        {
+          "name": "Maven",
+          "category": "android",
+          "version": "3.9.8",
+          "raw_output": "Apache Maven 3.9.8 (36645f6c9b5079805ea5009217e36f2cffd34256)\nMaven home: /opt/homebrew/Cellar/maven/3.9.8/libexec\nJava version: 11.0.24, vendor: Eclipse Adoptium, runtime: /Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home\nDefault locale: en_US, platform encoding: UTF-8\nOS name: \"mac os x\", version: \"14.5\", arch: \"aarch64\", family: \"mac\"",
+          "executed_command": "mvn --version"
+        },
+        {
+          "name": "Ant",
+          "category": "android",
+          "version": "1.10.14",
+          "raw_output": "Apache Ant(TM) version 1.10.14 compiled on August 16 2023",
+          "executed_command": "ant -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
