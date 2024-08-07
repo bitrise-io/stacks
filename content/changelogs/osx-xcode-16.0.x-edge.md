@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-08-07`
+
+- [Xcode 16.0 Beta 5](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 4.
+- Homebrew package upgrades
+
 ### Stack update `v2024-07-24`
 
 - [Xcode 16.0 Beta 4](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 3.
