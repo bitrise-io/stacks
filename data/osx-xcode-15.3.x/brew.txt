@@ -14,7 +14,7 @@ brotli 1.1.0
 ca-certificates 2024-07-02
 cairo 1.18.0
 carthage 0.39.1
-cmake 3.30.0
+cmake 3.30.2
 coreutils 9.4
 curl 8.6.0
 danger-js 64
@@ -23,7 +23,7 @@ double-conversion 3.3.0
 edencommon 2024.01.22.00
 fb303 2024.01.22.00
 fizz 2024.01.22.00
-flow 0.239.1
+flow 0.243.0
 fmt 10.2.1_1
 folly 2024.01.22.00_1
 fontconfig 2.15.0
