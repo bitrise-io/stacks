@@ -28,8 +28,8 @@ autoscan Jun 3 10:43
 autoupdate Jun 3 10:43
 avifdec Aug 7 09:42
 avifenc Aug 7 09:42
-aws Aug 7 09:19
-aws_completer Aug 7 09:19
+aws Aug 13 08:32
+aws_completer Aug 13 08:32
 b2sum Jun 3 10:22
 base32 Jun 3 10:22
 basenc Jun 3 10:22
@@ -39,7 +39,7 @@ bdftogd Jun 3 10:56
 benchmark_xl Jul 17 15:18
 bjoentegaard Jun 3 10:24
 bq Jun 3 10:28
-brew Aug 7 09:19
+brew Aug 13 08:31
 brotli Jun 3 10:24
 bsqldb Aug 7 09:42
 bsqlodbc Aug 7 09:42
@@ -120,9 +120,9 @@ fc-query Jun 3 10:21
 fc-scan Jun 3 10:21
 fc-validate Jun 3 10:21
 fisql Aug 7 09:42
-fizz Aug 7 09:22
-fizz-bogoshim Aug 7 09:22
-flow Aug 7 09:23
+fizz Aug 13 08:34
+fizz-bogoshim Aug 13 08:34
+flow Aug 13 08:34
 freebcp Aug 7 09:42
 freetype-config Jun 3 10:21
 fvm Jul 17 15:11
@@ -170,7 +170,7 @@ gexpand Jun 3 10:22
 gexpr Jun 3 10:22
 gfactor Jun 3 10:22
 gfalse Jun 3 10:22
-gflags_completions.sh Aug 7 09:22
+gflags_completions.sh Aug 13 08:34
 gfmt Jun 3 10:22
 gfold Jun 3 10:22
 ggroups Jun 3 10:22
@@ -343,7 +343,7 @@ heif-thumbnailer Aug 7 09:21
 hg Aug 7 09:21
 hmac256 Jun 3 10:23
 hostid Jun 3 10:22
-hub Aug 7 09:20
+hub Aug 13 08:32
 identify Aug 7 09:21
 idle3 Jun 26 07:51
 idle3.11 Jul 19 07:48
@@ -557,7 +557,7 @@ tclsh Aug 7 09:36
 tclsh8.6 Aug 7 09:36
 tdspool Aug 7 09:42
 texture_to_cube Jul 17 15:18
-thrift1 Aug 7 09:22
+thrift1 Aug 13 08:34
 tidy Jun 3 10:56
 tiffcp Jun 3 10:22
 tiffdump Jun 3 10:22
@@ -583,12 +583,12 @@ update-mime-database Jun 3 10:24
 vmaf Jun 3 10:24
 vwebp Jun 3 10:24
 watchgnupg Aug 7 09:20
-watchman Aug 7 09:22
-watchman-diag Aug 7 09:22
-watchman-make Aug 7 09:22
-watchman-replicate-subscription Aug 7 09:22
-watchman-wait Aug 7 09:22
-watchmanctl Aug 7 09:22
+watchman Aug 13 08:34
+watchman-diag Aug 13 08:34
+watchman-make Aug 13 08:34
+watchman-replicate-subscription Aug 13 08:34
+watchman-wait Aug 13 08:34
+watchmanctl Aug 13 08:34
 webpinfo Jun 3 10:24
 webpmux Jun 3 10:24
 webpng Jun 3 10:56
@@ -601,7 +601,7 @@ wish8.6 Aug 7 09:36
 word-list-compress Jun 3 10:56
 wrjpgcom Jun 3 10:22
 x265 Jun 3 10:24
-xcbeautify Aug 7 09:22
+xcbeautify Aug 13 08:34
 xclogparser Jun 3 10:35
 xcodes Jul 17 14:57
 xgettext Jun 3 10:22

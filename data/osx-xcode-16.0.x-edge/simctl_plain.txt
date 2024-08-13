@@ -99,6 +99,7 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A5326g) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
+iOS 18.1 (18.1 - 22B5023e) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
 tvOS 18.0 (18.0 - 22J5335e) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R5328f) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
@@ -146,6 +147,20 @@ visionOS 2.0 (2.0 - 22N5297g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     iPad Air 13-inch (M2) (15D70675-A87D-403E-9681-D8AC0E3321C6) (Shutdown) 
     iPad Pro 11-inch (M4) (F3F96DFD-D070-4034-A174-A912043A5E7E) (Shutdown) 
     iPad Pro 13-inch (M4) (7E0860D2-254D-4332-A1BE-39642E9D7412) (Shutdown) 
+-- iOS 18.1 --
+    Bitrise iOS default (55988173-54FA-47C9-97AE-A4EBFC974217) (Shutdown) 
+    iPhone 11 (91099849-1C59-43A8-8D3A-26B54E4A7930) (Shutdown) 
+    iPhone SE (3rd generation) (E7F94274-9AD3-499A-811B-A9A337FE77B0) (Shutdown) 
+    iPhone 15 (EC9CAA78-B6F5-4827-98E5-DEFBEE65C330) (Shutdown) 
+    iPhone 15 Plus (D8B87005-DF31-4AEB-933E-44AA72BB4041) (Shutdown) 
+    iPhone 15 Pro (4815F0CE-1341-4F9D-8A9E-EE8CDE972F11) (Shutdown) 
+    iPhone 15 Pro Max (702DA63C-862B-4B11-BC68-0B3AA154C507) (Shutdown) 
+    iPad (10th generation) (3A027A10-A9DF-4332-BDBD-C749A127CA32) (Shutdown) 
+    iPad mini (6th generation) (A9190252-2110-4A56-AB7A-1A9E80B01D2B) (Shutdown) 
+    iPad Air 11-inch (M2) (D572CCEE-EC8C-4FD3-816C-B8DBCBCACAD4) (Shutdown) 
+    iPad Air 13-inch (M2) (79EEBA17-B83D-47FA-8512-A3BF44FB3177) (Shutdown) 
+    iPad Pro 11-inch (M4) (EA6D8D36-DDDB-4B25-82DB-1394DAAE0EA9) (Shutdown) 
+    iPad Pro 13-inch (M4) (1B3E1A1E-045D-4345-A858-218A7A1B39F2) (Shutdown) 
 -- tvOS 18.0 --
     Apple TV (EDAF3549-D650-4304-A99D-1D16468E9B56) (Shutdown) 
     Apple TV 4K (3rd generation) (32EBE97E-D862-4FE0-903B-A363AE8DE1A2) (Shutdown) 
