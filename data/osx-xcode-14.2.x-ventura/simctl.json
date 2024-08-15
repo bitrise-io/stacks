@@ -5207,7 +5207,7 @@
         "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-49mm",
-        "state" : "Creating",
+        "state" : "Shutdown",
         "name" : "Apple Watch Ultra (49mm)"
       }
     ],
@@ -6141,6 +6141,19 @@
     ]
   },
   "pairs" : {
+    "02A8C05B-35F2-4DBE-A74D-6B47BA9A62D3" : {
+      "watch" : {
+        "name" : "Apple Watch Series 7 (45mm)",
+        "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14",
+        "udid" : "CF08CD8A-A9F8-412C-9D23-2D26EE39F412",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "B7F51DFD-3534-4B09-86A8-71E26F498C6F" : {
       "watch" : {
         "name" : "Apple Watch Series 7 (45mm)",
@@ -6154,41 +6167,15 @@
       },
       "state" : "(active, disconnected)"
     },
-    "D1D4B6B2-335E-48BF-A3CE-A53B510979A5" : {
+    "BA0982A3-E914-4F18-A2C5-4C1157F39C9D" : {
       "watch" : {
-        "name" : "Apple Watch Series 8 (41mm)",
-        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
+        "name" : "Apple Watch Series 8 (45mm)",
+        "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone 14 Plus",
-        "udid" : "9D8A48FF-ACA5-4885-9D1A-005D406D97A6",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "81E43271-AFD4-46D9-908B-8ADE4A6D4552" : {
-      "watch" : {
-        "name" : "Apple Watch Series 7 (45mm)",
-        "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14",
-        "udid" : "CF08CD8A-A9F8-412C-9D23-2D26EE39F412",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "D7B2AC49-3A11-4319-8ABE-49809A3B4E0E" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra (49mm)",
-        "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
-        "state" : "Creating"
-      },
-      "phone" : {
-        "name" : "iPhone 14 Pro Max",
-        "udid" : "194CDF6A-A7D0-485A-BCF2-AFCC6017B2F5",
+        "name" : "iPhone 14 Pro",
+        "udid" : "EDD3B3B6-F2FE-4B53-A09A-27DF4FBB60AC",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6219,6 +6206,32 @@
       },
       "state" : "(active, disconnected)"
     },
+    "64657EFD-D4D8-46A7-BDEB-78F2F7C5DB70" : {
+      "watch" : {
+        "name" : "Apple Watch Series 8 (41mm)",
+        "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Plus",
+        "udid" : "9D8A48FF-ACA5-4885-9D1A-005D406D97A6",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "21F7C0F4-F394-4AE3-9CA3-B2E3886438F5" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra (49mm)",
+        "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14 Pro Max",
+        "udid" : "194CDF6A-A7D0-485A-BCF2-AFCC6017B2F5",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "426A3692-A466-4AB3-B9B2-AAED015555AF" : {
       "watch" : {
         "name" : "Apple Watch Ultra (49mm)",
@@ -6228,19 +6241,6 @@
       "phone" : {
         "name" : "iPhone 14 Pro Max",
         "udid" : "77A43D26-64C7-4A7B-81F6-35E1485A7E19",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "BDDFC2CD-15EA-463B-A4E4-3280CFBD0C91" : {
-      "watch" : {
-        "name" : "Apple Watch Series 8 (45mm)",
-        "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14 Pro",
-        "udid" : "EDD3B3B6-F2FE-4B53-A09A-27DF4FBB60AC",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
