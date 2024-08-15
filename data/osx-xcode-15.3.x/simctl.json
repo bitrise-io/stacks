@@ -3276,16 +3276,6 @@
         "name" : "iPhone 15 Pro Max"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/06AFC80A-68BD-4637-9D8A-CBF2698EB7F1\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/06AFC80A-68BD-4637-9D8A-CBF2698EB7F1",
-        "udid" : "06AFC80A-68BD-4637-9D8A-CBF2698EB7F1",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-5th-generation",
-        "state" : "Shutdown",
-        "name" : "iPad Air (5th generation)"
-      },
-      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CA2D7BF3-9D70-4F14-94E9-912591B86873\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CA2D7BF3-9D70-4F14-94E9-912591B86873",
@@ -3304,6 +3294,16 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
         "state" : "Shutdown",
         "name" : "iPad mini (6th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B3BD7587-62BF-4BFC-82F8-D7DE68C03CB7\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B3BD7587-62BF-4BFC-82F8-D7DE68C03CB7",
+        "udid" : "B3BD7587-62BF-4BFC-82F8-D7DE68C03CB7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-4th-generation-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro (11-inch) (4th generation)"
       },
       {
         "availabilityError" : "device type profile not found",
