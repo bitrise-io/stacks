@@ -15,7 +15,7 @@ ca-certificates 2024-07-02
 cairo 1.18.0
 carthage 0.39.0
 cffi 1.16.0
-cmake 3.30.2
+cmake 3.30.0
 coreutils 9.1
 curl 8.4.0
 danger-js 64
@@ -26,7 +26,7 @@ edencommon 2023.10.09.00
 fb303 2023.10.09.00
 fbthrift 2023.10.09.00
 fizz 2023.10.09.00
-flow 0.243.0
+flow 0.239.1
 fmt 10.1.1
 folly 2023.10.09.00
 fontconfig 2.14.2
