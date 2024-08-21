@@ -98,12 +98,15 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
-iOS 18.0 (18.0 - 22A5326g) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
+iOS 18.0 (18.0 - 22A5346a) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
 iOS 18.1 (18.1 - 22B5023e) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
 tvOS 18.0 (18.0 - 22J5335e) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
+tvOS 18.0 (18.0 - 22J5352a) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R5328f) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
+watchOS 11.0 (11.0 - 22R5346a) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
 visionOS 2.0 (2.0 - 22N5297g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
+visionOS 2.0 (2.0 - 22N5314a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 == Devices ==
 -- iOS 16.4 --
     Bitrise iOS default (A9D421E0-427E-44FE-AE57-79500BAF0742) (Shutdown) 
@@ -162,6 +165,7 @@ visionOS 2.0 (2.0 - 22N5297g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     iPad Pro 11-inch (M4) (EA6D8D36-DDDB-4B25-82DB-1394DAAE0EA9) (Shutdown) 
     iPad Pro 13-inch (M4) (1B3E1A1E-045D-4345-A858-218A7A1B39F2) (Shutdown) 
 -- tvOS 18.0 --
+-- tvOS 18.0 --
     Apple TV (EDAF3549-D650-4304-A99D-1D16468E9B56) (Shutdown) 
     Apple TV 4K (3rd generation) (32EBE97E-D862-4FE0-903B-A363AE8DE1A2) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (387DADC8-6D99-4C1C-8F17-0549860E6E06) (Shutdown) 
@@ -178,11 +182,13 @@ visionOS 2.0 (2.0 - 22N5297g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     Apple Watch Series 9 (45mm) (680C2639-2F04-4898-A66E-F8F8CD1F930A) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (82D68786-2030-42EC-863A-C41591880D86) (Shutdown) 
 -- watchOS 11.0 --
+-- watchOS 11.0 --
     Apple Watch SE (40mm) (2nd generation) (D02ECB67-3441-41B4-AEB6-B6995EABB9B6) (Shutdown) 
     Apple Watch SE (44mm) (2nd generation) (259AC841-901E-456F-9D57-4B343FC30657) (Shutdown) 
     Apple Watch Series 9 (41mm) (44D3005A-D693-4159-BAE3-5880582FDF18) (Shutdown) 
     Apple Watch Series 9 (45mm) (93CE78C0-4CBD-4F0E-9C66-2F9AA056B249) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (933FC6C0-A6C0-4627-8F28-572171B28ED6) (Shutdown) 
+-- visionOS 2.0 --
 -- visionOS 2.0 --
     Apple Vision Pro (0D2DC693-74BB-415F-9A30-73E8AE81793F) (Shutdown) 
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.tvOS-17-5 --
