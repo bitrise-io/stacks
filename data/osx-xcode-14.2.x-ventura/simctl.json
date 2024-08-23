@@ -6141,7 +6141,7 @@
     ]
   },
   "pairs" : {
-    "23122ACD-2735-4EFD-A753-E59D4FDA9D4D" : {
+    "95BE8F86-1780-4D8D-8383-9D7AB2F18771" : {
       "watch" : {
         "name" : "Apple Watch Series 8 (41mm)",
         "udid" : "18198252-24EA-4B0B-B009-82F82C334D67",
@@ -6167,7 +6167,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "DD2285DF-5E4B-4386-BF2E-CCDB35073BB5" : {
+    "D779843A-040D-4093-B607-D1DB0E33B351" : {
       "watch" : {
         "name" : "Apple Watch Ultra (49mm)",
         "udid" : "8D1892AD-0A13-4643-86CC-3ED06B2EE474",
@@ -6176,19 +6176,6 @@
       "phone" : {
         "name" : "iPhone 14 Pro Max",
         "udid" : "194CDF6A-A7D0-485A-BCF2-AFCC6017B2F5",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "17058E47-D228-4CEE-A57B-303A6A755678" : {
-      "watch" : {
-        "name" : "Apple Watch Series 7 (45mm)",
-        "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 14",
-        "udid" : "CF08CD8A-A9F8-412C-9D23-2D26EE39F412",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6219,7 +6206,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "478AEBA0-C403-4012-9037-5F93DC075007" : {
+    "BD0615D0-53A3-4108-8C7C-E947A4D9C6DD" : {
       "watch" : {
         "name" : "Apple Watch Series 8 (45mm)",
         "udid" : "4AC203CD-FA87-444E-90F0-38576013D270",
@@ -6228,6 +6215,19 @@
       "phone" : {
         "name" : "iPhone 14 Pro",
         "udid" : "EDD3B3B6-F2FE-4B53-A09A-27DF4FBB60AC",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "81D68B01-4773-48AE-AC49-5B4418502B18" : {
+      "watch" : {
+        "name" : "Apple Watch Series 7 (45mm)",
+        "udid" : "512452CD-683F-41AE-B87E-9B086EA48D0C",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 14",
+        "udid" : "CF08CD8A-A9F8-412C-9D23-2D26EE39F412",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
