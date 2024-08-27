@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-08-22` (released on 2024-08-26)
+
+- Tool upgrades
+    - Ruby `3.3.1` → `3.3.4`
+
 ### Stack update `v2024-07-12` (released on 2024-07-16)
 
 - Pre-installed [pipx](https://github.com/pypa/pipx) for running Python executables and CLI tools
