@@ -43,7 +43,7 @@ bdftogd Sep 20 2023
 benchmark_xl Sep 20 2023
 bjoentegaard Sep 20 2023
 bq Apr 23 10:39
-brew Jul 12 10:06
+brew Aug 22 15:12
 brotli Sep 20 2023
 bsqldb Sep 20 2023
 bsqlodbc Sep 20 2023
