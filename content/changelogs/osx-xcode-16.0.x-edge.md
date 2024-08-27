@@ -14,6 +14,17 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-08-26` (released on 2024-08-28)
+
+- Homebrew package upgrades
+- Kotlin updated from 2.0.10 --> 2.0.20
+- Java 1.8 not preinstalled anymore
+
+Android tooling updates:
+- Removed Android SDK Build-Tools 34, Android SDK Build-Tools 32
+- Removed NDK 24.0.8215888
+- Updated platform-tools to 35.0.2
+
 ### Stack update `v2024-08-21`
 
 - [Xcode 16.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 5.
