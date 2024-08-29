@@ -14,6 +14,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-08-26` (released on 2024-08-28)
+
+- Homebrew package upgrades
+- JDK 8 is not preinstalled anymore
+- The old preinstalled Flutter version (3.7.12) has been removed. Flutter 3.22.0 remains preinstalled and is still the default.
+- Android SDK cleanups:
+  - Only the latest build-tools package (35) is preinstalled. Android Gradle Plugin automatically downloads any missing build-tools packages during configuration if the project requires a different version.
+  - Removed NDK 24.0.8215888 as it's no longer the LTS release. The current LTS version (26.3.11579264) is still preinstalled.
+
 ### Stack update `v2024-08-21`
 
 - Homebrew package upgrades
