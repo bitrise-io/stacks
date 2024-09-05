@@ -21,7 +21,7 @@
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1\n *1.21\n  1.21.10\n  1.22\n  1.22.3\n  1.23.0",
+          "raw_output": "1\n *1.21\n  1.21.10\n  1.22\n  1.22.3",
           "executed_command": "asdf list golang"
         },
         {
