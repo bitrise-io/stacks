@@ -7,21 +7,21 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.1\n  3.1.5\n  3.2\n  3.2.4\n *3.3\n  3.3.1",
+          "raw_output": "3\n  3.1\n  3.1.5\n  3.2\n  3.2.4\n *3.3\n  3.3.4",
           "executed_command": "asdf list ruby"
         },
         {
           "name": "Ruby version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.3.1\n3.1 =\u003e 3.1.5\n3.2 =\u003e 3.2.4\n3.3 =\u003e 3.3.1",
+          "raw_output": "3 =\u003e 3.3.4\n3.1 =\u003e 3.1.5\n3.2 =\u003e 3.2.4\n3.3 =\u003e 3.3.4",
           "executed_command": "asdf alias ruby --list"
         },
         {
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1\n *1.21\n  1.21.10\n  1.22\n  1.22.3",
+          "raw_output": "1\n *1.21\n  1.21.10\n  1.22\n  1.22.3\n  1.23.0",
           "executed_command": "asdf list golang"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Kotlin",
           "category": "languages",
           "version": "2.0.0",
-          "raw_output": "Kotlin version 2.0.0-release-341 (JRE 17.0.11+9-Ubuntu-122.04.1)",
+          "raw_output": "Kotlin version 2.0.0-release-341 (JRE 17.0.12+7-Ubuntu-1ubuntu222.04)",
           "executed_command": "kotlin -version"
         }
       ],
