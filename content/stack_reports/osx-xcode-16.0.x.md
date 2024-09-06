@@ -3,7 +3,7 @@ title: Xcode 16.0
 summary: macOS stack for building with Xcode 16.0
 platform: macOS
 xcode: "16.0"
-flavor: stable
+flavor: stable16
 weight: 16
 ---
 
