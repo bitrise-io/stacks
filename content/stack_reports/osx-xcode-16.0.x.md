@@ -3,8 +3,8 @@ title: Xcode 16.0
 summary: macOS stack for building with Xcode 16.0
 platform: macOS
 xcode: "16.0"
-flavor: stable16
-weight: 16
+flavor: stable
+weight: 17
 ---
 
 ## Languages and runtimes
