@@ -12,6 +12,17 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-09-06`
+
+- Tool upgrades:
+    - Android emulator `34.2.15` -> `35.1.20`
+    - Ruby `3.3.1` → `3.3.4`
+- The Android 15 SDK components are now preinstalled (`platforms;android-35` and `system-images;android-35;google_apis;x86_64`).
+- The Android 12 (version code 32) SDK components are no longer preinstalled as we keep only the last 3 versions preinstalled.
+- The Google Cloud CLI `alpha` and `beta` components are now preinstalled, which lets you run [gcloud beta firebase](https://cloud.google.com/sdk/gcloud/reference/beta/firebase) subcommands.
+- [pipx](https://github.com/pypa/pipx) is now installed, which lets you install and run Python executables without manually creating virtualenvs.
+- Fix for running private steps in workflows via SSH git URLs. An SSH agent is now automatically started in the background (just like on macOS stacks) and the keys configured by the [Activate SSH key step](https://github.com/bitrise-steplib/steps-activate-ssh-key) are correctly used when downloading private steps.
+
 ### Stack update `v2024-06-06` (released 2024-07-11)
 
 - Libraries required to compile Ruby from source are now preinstalled. Previously, some Ruby versions failed to build when running `asdf install ruby x.y.z`.
