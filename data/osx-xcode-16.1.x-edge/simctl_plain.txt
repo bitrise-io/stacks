@@ -98,15 +98,15 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
-iOS 18.0 (18.0 - 22A5346a) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
+iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
 iOS 18.1 (18.1 - 22B5023e) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
 tvOS 18.0 (18.0 - 22J5335e) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
-tvOS 18.0 (18.0 - 22J5352a) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
+tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R5328f) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
-watchOS 11.0 (11.0 - 22R5346a) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
+watchOS 11.0 (11.0 - 22R349) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
 visionOS 2.0 (2.0 - 22N5297g) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
-visionOS 2.0 (2.0 - 22N5314a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
+visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 == Devices ==
 -- iOS 16.4 --
     Bitrise iOS default (30D741A4-6B0C-4E49-8AD7-925D15BC575A) (Shutdown) 
@@ -150,6 +150,10 @@ visionOS 2.0 (2.0 - 22N5314a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     iPad Air 13-inch (M2) (E114EBA2-82C6-4AA8-83F5-69F6DDBDE468) (Shutdown) 
     iPad Pro 11-inch (M4) (D6572B8E-FB9A-436C-8A51-44D3B7865D6D) (Shutdown) 
     iPad Pro 13-inch (M4) (72703439-E499-451C-92D0-140EF54F34CF) (Shutdown) 
+    iPhone 16 (8FF5E635-4B37-4D5E-AF02-AE380F2E8F9F) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Plus (79364625-26CD-4EE3-812E-E4D8A7012C43) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Pro (99B12325-44C8-43B7-AFAA-C1F322F608E4) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Pro Max (462CF545-1756-4462-BDB2-6FCC4F1E2DB5) (Shutdown) (unavailable, device type profile not found)
 -- iOS 18.1 --
     Bitrise iOS default (C2DE2567-3969-420C-835E-509CC85D5E94) (Shutdown) 
     iPhone 11 (5F3F9B89-4A48-4E2C-8CE0-0534095BBDAA) (Shutdown) 
@@ -164,6 +168,10 @@ visionOS 2.0 (2.0 - 22N5314a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     iPad Air 13-inch (M2) (C01B99F9-A3C4-4B1F-9863-EC6A3939B67E) (Shutdown) 
     iPad Pro 11-inch (M4) (450858EE-EA8F-478D-808D-4C237F5BC353) (Shutdown) 
     iPad Pro 13-inch (M4) (BBCAF214-03E3-4477-8861-AEF4EE917E4A) (Shutdown) 
+    iPhone 16 (BD1086FE-57A1-437B-8FF0-14C83BEC546E) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Plus (D8DB0C9C-4D66-4C0E-B1BE-BFA542203829) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Pro (5FF06ACA-50A8-4D29-BB73-43B3E13F8E5C) (Shutdown) (unavailable, device type profile not found)
+    iPhone 16 Pro Max (D0C3BFFC-60AA-4C72-A5A3-1221CA5361D8) (Shutdown) (unavailable, device type profile not found)
 -- tvOS 18.0 --
     Apple TV (414A9FA6-DA82-4E76-819B-5FF287F8130B) (Shutdown) 
     Apple TV 4K (3rd generation) (88AE5183-B012-4D37-B38E-4841F1CBCDE2) (Shutdown) 
@@ -181,6 +189,8 @@ visionOS 2.0 (2.0 - 22N5314a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     Apple Watch Series 9 (41mm) (F49E7641-F2BB-4A90-852E-AA4BB80C3D2B) (Shutdown) 
     Apple Watch Series 9 (45mm) (6E4421F1-3331-4666-B834-F443789BEE70) (Shutdown) 
     Apple Watch Ultra 2 (49mm) (E82A3823-0178-4D12-8DED-09DDC6862B5C) (Shutdown) 
+    Apple Watch Series 10 (42mm) (6CE1478F-BE91-4380-89B3-0FD5686504B9) (Shutdown) (unavailable, device type profile not found)
+    Apple Watch Series 10 (46mm) (5ABC921A-2F60-46BE-9C96-DDEC60BF7C21) (Shutdown) (unavailable, device type profile not found)
 -- watchOS 11.0 --
 -- visionOS 2.0 --
 -- visionOS 2.0 --
