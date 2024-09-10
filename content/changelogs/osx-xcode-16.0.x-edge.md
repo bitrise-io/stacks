@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-09-10`
+
+- [Xcode 16.0 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 6. 
+- Homebrew package upgrades
+
 ### Stack update `v2024-08-26` (released on 2024-08-28)
 
 - Homebrew package upgrades
