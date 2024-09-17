@@ -6,6 +6,7 @@ type: basic_page
 
 This AMI listing has multiple actively updated versions:
 
+- [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16edge.md)
 - [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md)
 - [macOS Ventura with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-ventura15.md)
 
@@ -14,6 +15,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 {{< /hint >}}
 
 ## Updates
+
+### AMI version `2024W37-sonoma16edge`
+
+Added the edge stack [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16edge.md) with the following Xcode versions:
+- Xcode 16.0 RC
+- Xcode 16.1 beta 1
 
 ### AMI version `2024W24-sonoma15` and `2024W24-ventura15`
 

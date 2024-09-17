@@ -1685,10 +1685,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22A5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.0.simruntime",
-      "buildversion" : "22A5346a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22A3351\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.0.simruntime",
+      "buildversion" : "22A3351",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22A5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22A3351\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-0",
       "version" : "18.0",
       "isInternal" : false,
@@ -2354,10 +2354,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5352a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.0.simruntime",
-      "buildversion" : "22J5352a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J356\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.0.simruntime",
+      "buildversion" : "22J356",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5352a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J356\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-0",
       "version" : "18.0",
       "isInternal" : false,
@@ -2615,10 +2615,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.0.simruntime",
-      "buildversion" : "22R5346a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R349\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.0.simruntime",
+      "buildversion" : "22R349",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R349\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-0",
       "version" : "11.0",
       "isInternal" : false,
@@ -2719,10 +2719,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5314a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.0.simruntime",
-      "buildversion" : "22N5314a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N318\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.0.simruntime",
+      "buildversion" : "22N318",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5314a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N318\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-0",
       "version" : "2.0",
       "isInternal" : false,
@@ -2884,6 +2884,46 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8FF5E635-4B37-4D5E-AF02-AE380F2E8F9F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/8FF5E635-4B37-4D5E-AF02-AE380F2E8F9F",
+        "udid" : "8FF5E635-4B37-4D5E-AF02-AE380F2E8F9F",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/79364625-26CD-4EE3-812E-E4D8A7012C43\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/79364625-26CD-4EE3-812E-E4D8A7012C43",
+        "udid" : "79364625-26CD-4EE3-812E-E4D8A7012C43",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Plus"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/99B12325-44C8-43B7-AFAA-C1F322F608E4\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/99B12325-44C8-43B7-AFAA-C1F322F608E4",
+        "udid" : "99B12325-44C8-43B7-AFAA-C1F322F608E4",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/462CF545-1756-4462-BDB2-6FCC4F1E2DB5\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/462CF545-1756-4462-BDB2-6FCC4F1E2DB5",
+        "udid" : "462CF545-1756-4462-BDB2-6FCC4F1E2DB5",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro Max"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.tvOS-18-0" : [
@@ -3335,6 +3375,46 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BD1086FE-57A1-437B-8FF0-14C83BEC546E\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/BD1086FE-57A1-437B-8FF0-14C83BEC546E",
+        "udid" : "BD1086FE-57A1-437B-8FF0-14C83BEC546E",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D8DB0C9C-4D66-4C0E-B1BE-BFA542203829\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D8DB0C9C-4D66-4C0E-B1BE-BFA542203829",
+        "udid" : "D8DB0C9C-4D66-4C0E-B1BE-BFA542203829",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Plus"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5FF06ACA-50A8-4D29-BB73-43B3E13F8E5C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5FF06ACA-50A8-4D29-BB73-43B3E13F8E5C",
+        "udid" : "5FF06ACA-50A8-4D29-BB73-43B3E13F8E5C",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D0C3BFFC-60AA-4C72-A5A3-1221CA5361D8\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D0C3BFFC-60AA-4C72-A5A3-1221CA5361D8",
+        "udid" : "D0C3BFFC-60AA-4C72-A5A3-1221CA5361D8",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro Max"
       }
     ]
   },
