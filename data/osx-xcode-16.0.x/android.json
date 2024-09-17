@@ -1,0 +1,26 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": null,
+      "errors": [
+        {
+          "name": "Emulator version",
+          "error": "exit status 2: grep: /usr/local/share/android-sdk/emulator/source.properties: No such file or directory\n"
+        },
+        {
+          "name": "Gradle",
+          "error": "exit status 127: zsh:1: command not found: gradle\n"
+        },
+        {
+          "name": "Maven",
+          "error": "exit status 127: zsh:1: command not found: mvn\n"
+        },
+        {
+          "name": "Ant",
+          "error": "exit status 127: zsh:1: command not found: ant\n"
+        }
+      ]
+    }
+  }
+]
