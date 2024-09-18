@@ -14,9 +14,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-09-18`
+
+- [Xcode 16.0](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces RC 1.
+- Homebrew package upgrades
+- Known issue: the AWS CLI (`aws`) fails to run with the error message `/opt/homebrew/Cellar/awscli/2.17.53/libexec/bin/python: No such file or directory`
+
 ### Stack update `v2024-09-10`
 
-- [Xcode 16.0 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 6. 
+- [Xcode 16.0 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 6.
 - Homebrew package upgrades
 
 ### Stack update `v2024-08-26` (released on 2024-08-28)
