@@ -1,0 +1,122 @@
+[
+  {
+    "category": "apple",
+    "output": {
+      "items": [
+        {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 16.0\nBuild version 16A242d",
+          "executed_command": "xcodebuild -version"
+        },
+        {
+          "name": "Swift (Xcode bundled)",
+          "category": "apple",
+          "version": "",
+          "raw_output": "swift-driver version: 1.115 Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)\nTarget: arm64-apple-macosx14.0",
+          "executed_command": "xcrun swift --version"
+        },
+        {
+          "name": "Active Xcode command line tools",
+          "category": "apple",
+          "version": "",
+          "raw_output": "/Applications/Xcode-16.0.0.app/Contents/Developer",
+          "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "Rosetta",
+          "category": "apple",
+          "version": "",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1715076803\nvolume: /\nlocation: /\ninstall-time: 1726558339",
+          "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
+        },
+        {
+          "name": "swift-format",
+          "category": "apple",
+          "version": "510.1.0",
+          "raw_output": "510.1.0",
+          "executed_command": "swift-format --version"
+        },
+        {
+          "name": "Tuist",
+          "category": "apple",
+          "version": "4.20.0",
+          "raw_output": "4.20.0",
+          "executed_command": "tuist version"
+        },
+        {
+          "name": "Homebrew config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "HOMEBREW_VERSION: 4.3.23\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 42c11a4dedf352229271593de831161071603c66\nLast commit: 32 hours ago\nCore tap JSON: 17 Sep 07:32 UTC\nCore cask tap JSON: 17 Sep 07:32 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 8\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.3.4 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.3.4_1/bin/ruby\nCPU: octa-core 64-bit dunno\nClang: 16.0.0 build 1600\nGit: 2.46.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.6.0 =\u003e /usr/bin/curl\nmacOS: 14.5-arm64\nCLT: 15.3.0.0.1.1708646388\nXcode: 16.0 =\u003e /Applications/Xcode-16.0.0.app/Contents/Developer\nRosetta 2: false",
+          "executed_command": "brew config"
+        },
+        {
+          "name": "Mint",
+          "category": "apple",
+          "version": "0.17.5",
+          "raw_output": "Version: 0.17.5",
+          "executed_command": "mint version"
+        },
+        {
+          "name": "Cocoapods config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.15.2\n        Ruby : ruby 3.3.4 (2024-07-09 revision be1089c8ec) [arm64-darwin23]\n    RubyGems : 3.5.11\n        Host : macOS 14.5 (23F79)\n       Xcode : 16.0 (16A242d)\n         Git : git version 2.46.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.3.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 20d11708c20ce8ff01ad5939b2c591aa1b02f8af\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.3/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.4\n```",
+          "executed_command": "pod env"
+        },
+        {
+          "name": "Carthage",
+          "category": "apple",
+          "version": "0.40.0",
+          "raw_output": "0.40.0",
+          "executed_command": "carthage version"
+        },
+        {
+          "name": "SwiftLint",
+          "category": "apple",
+          "version": "0.57.0",
+          "raw_output": "0.57.0",
+          "executed_command": "swiftlint version"
+        },
+        {
+          "name": "xcpretty",
+          "category": "apple",
+          "version": "0.3.0",
+          "raw_output": "0.3.0",
+          "executed_command": "xcpretty --version"
+        },
+        {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.10",
+          "raw_output": "applesimutils version 0.9.10",
+          "executed_command": "applesimutils -v"
+        },
+        {
+          "name": "danger-swift",
+          "category": "apple",
+          "version": "3.18.1",
+          "raw_output": "3.18.1\n\u001b[0;0m",
+          "executed_command": "danger-swift --version"
+        },
+        {
+          "name": "xcbeautify",
+          "category": "apple",
+          "version": "2.11.0",
+          "raw_output": "2.11.0",
+          "executed_command": "xcbeautify --version"
+        },
+        {
+          "name": "xclogparser",
+          "category": "apple",
+          "version": "0.2.39",
+          "raw_output": "XCLogParser 0.2.39",
+          "executed_command": "xclogparser version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
