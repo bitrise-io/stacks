@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-09-18`
+
+- [Xcode 16.1 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_1-release-notes) replaces Beta 1.
+- Homebrew package upgrades
+
 ### Stack update `v2024-09-10`
 
 - Homebrew package upgrades
