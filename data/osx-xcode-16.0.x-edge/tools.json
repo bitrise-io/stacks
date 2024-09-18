@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.46.0",
-          "raw_output": "git version 2.46.0",
+          "version": "2.46.1",
+          "raw_output": "git version 2.46.1",
           "executed_command": "git --version"
         },
         {
@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.56.0",
-          "raw_output": "gh version 2.56.0 (2024-09-09)\nhttps://github.com/cli/cli/releases/tag/v2.56.0",
+          "version": "2.57.0",
+          "raw_output": "gh version 2.57.0 (2024-09-16)\nhttps://github.com/cli/cli/releases/tag/v2.57.0",
           "executed_command": "gh --version"
         },
         {
@@ -30,13 +30,6 @@
           "version": "1.7.1",
           "raw_output": "jq-1.7.1",
           "executed_command": "jq --version"
-        },
-        {
-          "name": "AWS CLI",
-          "category": "tools",
-          "version": "2.17.46",
-          "raw_output": "aws-cli/2.17.46 Python/3.11.9 Darwin/23.5.0 source/arm64",
-          "executed_command": "aws --version"
         },
         {
           "name": "Dart global packages",
@@ -88,7 +81,12 @@
           "executed_command": "openvpn --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "AWS CLI",
+          "error": "exit status 127: zsh:1: /opt/homebrew/bin/aws: bad interpreter: /opt/homebrew/Cellar/awscli/2.17.53/libexec/bin/python: no such file or directory\n"
+        }
+      ]
     }
   }
 ]
