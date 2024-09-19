@@ -1,6 +1,7 @@
 ---
 title: Upcoming stack deprecations
 type: basic_page
+tags: []
 
 # DO update this date when adding a new stack deprecation
 # DON'T update when archiving one or making other minor changes
