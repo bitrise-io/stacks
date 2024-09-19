@@ -4,8 +4,9 @@ type: basic_page
 tags: []
 
 # DO update this date when adding a new stack deprecation
-# DON'T update when archiving one or making other minor changes
-date: 2024-10-19
+# DON'T update when archiving one or making other minor changes because we
+# want to avoid an RSS feed update for unimportant changes
+date: 2024-10-19T13:00:00
 ---
 
 Stacks are not kept forever, older stacks are eventually marked for removal. You can read more about this in our [stack deprecation and removal policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-deprecation-and-removal-policy.html).
