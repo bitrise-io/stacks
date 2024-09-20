@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.39.3",
-          "raw_output": "git version 2.39.3 (Apple Git-145)",
+          "version": "2.42.0",
+          "raw_output": "git version 2.42.0",
           "executed_command": "git --version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.30.0",
-          "raw_output": "cmake version 3.30.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.30.3",
+          "raw_output": "cmake version 3.30.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
