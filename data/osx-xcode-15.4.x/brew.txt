@@ -14,7 +14,7 @@ brotli 1.1.0
 ca-certificates 2024-07-02
 cairo 1.18.0
 carthage 0.39.1
-cmake 3.30.0
+cmake 3.30.3
 coreutils 9.4
 curl 8.6.0
 danger-js 64
@@ -135,6 +135,7 @@ sqlite 3.46.0
 stoken 0.93
 swift-format 509.0.0
 swiftlint 0.53.0
+telegraf 1.32.0
 tidy-html5 5.8.0
 transcrypt 2.2.3
 tree 2.1.1_1
