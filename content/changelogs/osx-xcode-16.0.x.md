@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-09-19` (released on 2024-09-23)
+
+- `cmake` has been upgraded to `3.30.3`, fixing [this regression](https://gitlab.kitware.com/cmake/cmake/-/issues/26128)
+
 ### Stack update `v2024-09-10` (released on 2024-09-10)
 
 - Homebrew package upgrades
