@@ -14,6 +14,23 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-10-08`
+
+- [Xcode 16.1 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 2.
+- Homebrew package upgrades
+- Tool version updates:
+NodeJS
+- "20.13.1"   --> 20.17.0
+- "22.1.0"  --> 22.9.0
+Python:
+- "3.12.4" --> 3.12.6
+GO:
+- "1.22.3" --> 1.22.7
+Ruby:
+- "3.1.5" --> 3.1.6
+- "3.2.4" --> 3.2.5
+- "3.3.4" -->  3.3.5
+
 ### Stack update `v2024-09-18`
 
 - [Xcode 16.0](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces RC 1.
