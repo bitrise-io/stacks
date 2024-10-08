@@ -6,22 +6,22 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.46.1",
-          "raw_output": "git version 2.46.1",
+          "version": "2.47.0",
+          "raw_output": "git version 2.47.0",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
           "version": "3.5.1",
-          "raw_output": "git-lfs/3.5.1 (GitHub; darwin arm64; go 1.22.1)",
+          "raw_output": "git-lfs/3.5.1 (GitHub; darwin arm64; go 1.23.1)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.57.0",
-          "raw_output": "gh version 2.57.0 (2024-09-16)\nhttps://github.com/cli/cli/releases/tag/v2.57.0",
+          "version": "2.58.0",
+          "raw_output": "gh version 2.58.0 (2024-10-01)\nhttps://github.com/cli/cli/releases/tag/v2.58.0",
           "executed_command": "gh --version"
         },
         {
@@ -30,6 +30,13 @@
           "version": "1.7.1",
           "raw_output": "jq-1.7.1",
           "executed_command": "jq --version"
+        },
+        {
+          "name": "AWS CLI",
+          "category": "tools",
+          "version": "2.18.1",
+          "raw_output": "aws-cli/2.18.1 Python/3.12.7 Darwin/23.5.0 source/arm64",
+          "executed_command": "aws --version"
         },
         {
           "name": "Dart global packages",
@@ -42,7 +49,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.12.5\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.12.6\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -55,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.15.4",
-          "raw_output": "13.15.4",
+          "version": "13.18.0",
+          "raw_output": "13.18.0",
           "executed_command": "firebase --version"
         },
         {
@@ -69,8 +76,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.30.3",
-          "raw_output": "cmake version 3.30.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.30.4",
+          "raw_output": "cmake version 3.30.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
@@ -81,12 +88,7 @@
           "executed_command": "openvpn --version"
         }
       ],
-      "errors": [
-        {
-          "name": "AWS CLI",
-          "error": "exit status 127: zsh:1: /opt/homebrew/bin/aws: bad interpreter: /opt/homebrew/Cellar/awscli/2.17.53/libexec/bin/python: no such file or directory\n"
-        }
-      ]
+      "errors": null
     }
   }
 ]
