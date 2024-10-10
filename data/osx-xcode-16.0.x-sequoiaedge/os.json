@@ -1,0 +1,31 @@
+[
+  {
+    "category": "os",
+    "output": {
+      "items": [
+        {
+          "name": "macOS system overview",
+          "category": "os",
+          "version": "",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.0 (24A335)\n      Kernel Version: Darwin 24.0.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sequoia-16-edge-g2-m1-max.5core-865f1a7f-28b7-4dcf-9b5e-a76d1d0f9ea9\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 50 seconds",
+          "executed_command": "system_profiler SPSoftwareDataType"
+        },
+        {
+          "name": "Disk space",
+          "category": "os",
+          "version": "",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1   249Gi   9.9Gi    98Gi    10%    407k  1.0G    0%   /",
+          "executed_command": "df -h /"
+        },
+        {
+          "name": "OpenSSH",
+          "category": "os",
+          "version": "",
+          "raw_output": "OpenSSH_9.8p1, LibreSSL 3.3.6",
+          "executed_command": "ssh -V"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
