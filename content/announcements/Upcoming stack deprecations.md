@@ -22,8 +22,6 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 | Stack ID                             | Deprecated from | Removed after | Automatic migration to           |
 | ------------------------------------ | --------------- | ------------- | -------------------------------- |
 | **linux-docker-android-20.04**       | 2024-08-01      | 2025-04-02    | linux-docker-android-22.04       |
-| **osx-xcode-13.3.x**                 | 2024-09-17      | 2024-10-01    | osx-xcode-14.3.x-ventura         |
-| **osx-xcode-13.4.x**                 | 2024-09-17      | 2024-10-01    | osx-xcode-14.3.x-ventura         |
 
 *Exact date to be announced
 
@@ -31,6 +29,8 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 
 | Stack ID                             | Deprecated from | Removed       | Automatic migration to           |
 | ------------------------------------ | --------------- | ------------- | -------------------------------- |
+| **osx-xcode-13.3.x**                 | 2024-09-17      | 2024-10-01    | osx-xcode-14.3.x-ventura         |
+| **osx-xcode-13.4.x**                 | 2024-09-17      | 2024-10-01    | osx-xcode-14.3.x-ventura         |
 | **osx-xcode-13.0.x**                 | 2024-02-21      | 2024-03-20    | osx-xcode-13.4.x                 |
 | **osx-xcode-13.0.x-rosetta**         | 2024-02-21      | 2024-03-20    | osx-xcode-14.2.x-ventura-rosetta |
 | **osx-xcode-13.1.x**                 | 2024-02-21      | 2024-03-20    | osx-xcode-13.4.x                 |
