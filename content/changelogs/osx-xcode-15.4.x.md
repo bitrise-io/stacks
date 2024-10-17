@@ -14,6 +14,16 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-10-15` (released on 2024-10-17)
+
+- Minor and patch version upgrades:
+  - Ruby `3.1.5` -> `3.1.6`
+  - Ruby `3.2.4` -> `3.2.5`
+  - Ruby `3.3.4` -> `3.3.5`
+  - Go `1.21.10` -> `1.21.13`
+  - Node.js `18.20.2` -> `18.20.4`
+  - Node.js `20.13.1` -> `20.17.0`
+
 ### Stack update `v2024-09-19` (released on 2024-09-23)
 
 - `cmake` has been upgraded to `3.30.3`, fixing [this regression](https://gitlab.kitware.com/cmake/cmake/-/issues/26128)
