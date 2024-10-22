@@ -728,6 +728,17 @@
     },
     {
       "productFamily" : "iPad",
+      "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad mini (A17 Pro).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+      "modelIdentifier" : "iPad16,2",
+      "minRuntimeVersionString" : "18.1.0",
+      "minRuntimeVersion" : 1179904,
+      "name" : "iPad mini (A17 Pro)"
+    },
+    {
+      "productFamily" : "iPad",
       "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M4).simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -2082,10 +2093,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B5069a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime",
-      "buildversion" : "22B5069a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B81\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime",
+      "buildversion" : "22B81",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B5069a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B81\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-1",
       "version" : "18.1",
       "isInternal" : false,
@@ -2387,6 +2398,12 @@
           "productFamily" : "iPad"
         },
         {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad mini (A17 Pro).simdevicetype",
+          "name" : "iPad mini (A17 Pro)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+          "productFamily" : "iPad"
+        },
+        {
           "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M4).simdevicetype",
           "name" : "iPad Pro 11-inch (M4)",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
@@ -2468,10 +2485,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime",
-      "buildversion" : "22J5567a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J578\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime",
+      "buildversion" : "22J578",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J578\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-1",
       "version" : "18.1",
       "isInternal" : false,
@@ -2741,10 +2758,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5569a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime",
-      "buildversion" : "22R5569a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R581\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime",
+      "buildversion" : "22R581",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5569a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R581\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-1",
       "version" : "11.1",
       "isInternal" : false,
@@ -2857,10 +2874,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime",
-      "buildversion" : "22N5567a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N580\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime",
+      "buildversion" : "22N580",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N580\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-1",
       "version" : "2.1",
       "isInternal" : false,
@@ -3627,6 +3644,16 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
         "state" : "Shutdown",
         "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1",
+        "udid" : "A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+        "state" : "Shutdown",
+        "name" : "iPad mini (A17 Pro)"
       },
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/490A8E7A-0715-416B-B07E-D8F959E81CB1\/data",
