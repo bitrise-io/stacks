@@ -105,14 +105,14 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
-iOS 18.1 (18.1 - 22B5069a) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
+iOS 18.1 (18.1 - 22B81) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
 tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
-tvOS 18.1 (18.1 - 22J5567a) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
+tvOS 18.1 (18.1 - 22J578) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R349) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
-watchOS 11.1 (11.1 - 22R5569a) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
+watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
-visionOS 2.1 (2.1 - 22N5567a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
+visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
 == Devices ==
 -- iOS 16.4 --
     Bitrise iOS default (2384F1E2-D384-4976-A073-FFAD3694691F) (Shutdown) 
@@ -170,6 +170,7 @@ visionOS 2.1 (2.1 - 22N5567a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
     iPad Air 13-inch (M2) (BE5D011E-257E-4386-AB87-6434F168F633) (Shutdown) 
     iPad Pro 11-inch (M4) (490A8E7A-0715-416B-B07E-D8F959E81CB1) (Shutdown) 
     iPad Pro 13-inch (M4) (1DA71DDF-60F8-4BE4-9DEF-1F8F1CAADF83) (Shutdown) 
+    iPad mini (A17 Pro) (A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1) (Shutdown) (unavailable, device type profile not found)
 -- tvOS 18.0 --
     Apple TV (87409AAC-F837-4A45-9A5F-B89FC4AE7374) (Shutdown) 
     Apple TV 4K (3rd generation) (97425E3D-551C-494A-908E-C98BA3F9AAD4) (Shutdown) 
