@@ -14,9 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-10-22`
+
+- Homebrew package upgrades
+
 ### Stack update `v2024-10-08`
 
-- [Xcode 16.1 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) replaces Beta 2.
 - Homebrew package upgrades
 - Tool version updates:
 NodeJS
