@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.58.0",
-          "raw_output": "gh version 2.58.0 (2024-10-01)\nhttps://github.com/cli/cli/releases/tag/v2.58.0",
+          "version": "2.59.0",
+          "raw_output": "gh version 2.59.0 (2024-10-15)\nhttps://github.com/cli/cli/releases/tag/v2.59.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.18.1",
-          "raw_output": "aws-cli/2.18.1 Python/3.12.7 Darwin/23.5.0 source/arm64",
+          "version": "2.18.11",
+          "raw_output": "aws-cli/2.18.11 Python/3.12.7 Darwin/23.5.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.30.4",
-          "raw_output": "cmake version 3.30.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.30.5",
+          "raw_output": "cmake version 3.30.5\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {

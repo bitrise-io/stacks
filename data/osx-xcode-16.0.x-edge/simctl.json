@@ -2082,10 +2082,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B5069a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime",
-      "buildversion" : "22B5069a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B81\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime",
+      "buildversion" : "22B81",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B5069a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22B81\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-1",
       "version" : "18.1",
       "isInternal" : false,
@@ -2468,10 +2468,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime",
-      "buildversion" : "22J5567a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J578\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime",
+      "buildversion" : "22J578",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22J578\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-1",
       "version" : "18.1",
       "isInternal" : false,
@@ -2741,10 +2741,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5569a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime",
-      "buildversion" : "22R5569a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R581\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime",
+      "buildversion" : "22R581",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R5569a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22R581\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-1",
       "version" : "11.1",
       "isInternal" : false,
@@ -2857,10 +2857,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime",
-      "buildversion" : "22N5567a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N580\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime",
+      "buildversion" : "22N580",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5567a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N580\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-1",
       "version" : "2.1",
       "isInternal" : false,
@@ -3647,6 +3647,16 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "availabilityError" : "device type profile not found",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1",
+        "udid" : "A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1",
+        "isAvailable" : false,
+        "state" : "Shutdown",
+        "name" : "iPad mini (A17 Pro)"
       }
     ]
   },
