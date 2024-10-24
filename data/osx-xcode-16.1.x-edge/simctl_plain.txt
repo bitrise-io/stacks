@@ -107,6 +107,7 @@ iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
 iOS 18.1 (18.1 - 22B81) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
+iOS 18.2 (18.2 - 22C5109p) - com.apple.CoreSimulator.SimRuntime.iOS-18-2
 tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 tvOS 18.1 (18.1 - 22J578) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
@@ -172,6 +173,20 @@ visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
     iPad mini (A17 Pro) (A82D3C35-FFE7-4AB2-A914-7A6BD0562EF1) (Shutdown) 
     iPad Pro 11-inch (M4) (490A8E7A-0715-416B-B07E-D8F959E81CB1) (Shutdown) 
     iPad Pro 13-inch (M4) (1DA71DDF-60F8-4BE4-9DEF-1F8F1CAADF83) (Shutdown) 
+-- iOS 18.2 --
+    Bitrise iOS default (7D546DDF-0DAC-483F-A5C7-592A09E2C651) (Shutdown) 
+    iPhone 11 (9C47D0C1-9890-43CB-99F3-9802FCF51D36) (Shutdown) 
+    iPhone SE (3rd generation) (CC2DF92E-4F8C-4ADB-A469-6C7C52E64560) (Shutdown) 
+    iPhone 16 Pro (F6BF4C0B-0DD8-4C60-BCA6-BE50BBCC9A63) (Shutdown) 
+    iPhone 16 Pro Max (93039994-2E17-4DCD-A814-FB7181BAD0D1) (Shutdown) 
+    iPhone 16 (416A7EA0-E4C1-449D-AB51-0C6F98B85655) (Shutdown) 
+    iPhone 16 Plus (AFB74368-3180-49FE-A842-483F03294679) (Shutdown) 
+    iPad (10th generation) (481C1A30-1AF8-4C13-BDD9-415A695EF115) (Shutdown) 
+    iPad Air 11-inch (M2) (46200D35-2445-4D4E-9212-C4167183D5E1) (Shutdown) 
+    iPad Air 13-inch (M2) (FE1356CA-D913-4648-8976-5A277B2971F2) (Shutdown) 
+    iPad mini (A17 Pro) (D4232AA2-5310-4951-B912-68C47A5D9FEE) (Shutdown) 
+    iPad Pro 11-inch (M4) (76A1E6C3-907E-4E0B-9C1A-AD55E6DB4B71) (Shutdown) 
+    iPad Pro 13-inch (M4) (D26C5679-14C6-459C-9FD5-E50D439BCD78) (Shutdown) 
 -- tvOS 18.0 --
     Apple TV (87409AAC-F837-4A45-9A5F-B89FC4AE7374) (Shutdown) 
     Apple TV 4K (3rd generation) (97425E3D-551C-494A-908E-C98BA3F9AAD4) (Shutdown) 
