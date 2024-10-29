@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-10-28` (released 2024-10-29)
+
+- This stack is now based on macOS Sequoia (15.0)
+- Homebrew package upgrades
+
 ### Stack update `v2024-10-24
 
 - Homebrew package upgrades
