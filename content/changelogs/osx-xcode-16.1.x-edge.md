@@ -16,6 +16,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2024-10-28` (released 2024-10-29)
 
+**Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
+
 - This stack is now based on macOS Sequoia (15.0)
 - Homebrew package upgrades
 
