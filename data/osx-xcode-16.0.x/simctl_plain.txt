@@ -105,10 +105,14 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
+iOS 18.1 (18.1 - 22B81) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
 tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
+tvOS 18.1 (18.1 - 22J578) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R349) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
+watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
+visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
 == Devices ==
 -- iOS 16.4 --
     Bitrise iOS default (0B1DB985-4338-4739-9E46-7011DA8609F0) (Shutdown) 
@@ -152,10 +156,29 @@ visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     iPad Air 13-inch (M2) (AFA925FD-8C19-4484-AD61-3FB61B4120F7) (Shutdown) 
     iPad Pro 11-inch (M4) (F869B081-A534-4920-97C7-BD9AE9D75345) (Shutdown) 
     iPad Pro 13-inch (M4) (5C6FA82D-DE30-4F6A-A069-6C8D47C49F96) (Shutdown) 
+-- iOS 18.1 --
+    Bitrise iOS default (DFB851B3-2E0B-44F5-88EF-D5AED6B64FD1) (Shutdown) 
+    iPhone 11 (3822C776-A80D-4934-8CBA-260C4167EBA8) (Shutdown) 
+    iPhone SE (3rd generation) (E9B79867-AB8C-4FE0-BC50-5206367C2D51) (Shutdown) 
+    iPhone 16 Pro (4BFA2282-04B8-4196-A479-6434F9804747) (Shutdown) 
+    iPhone 16 Pro Max (F30C0F6E-7075-48C8-91CF-1B7406529E1D) (Shutdown) 
+    iPhone 16 (99A9BC45-16AB-4E03-BF46-D6F0DBA81389) (Shutdown) 
+    iPhone 16 Plus (72AE2054-4A91-4041-8789-D1BC7B1F8B32) (Shutdown) 
+    iPad (10th generation) (47962A2F-38D8-4529-BA54-DF44897C4936) (Shutdown) 
+    iPad mini (6th generation) (3EE99324-95C0-40D7-9499-BB33ED27871C) (Shutdown) 
+    iPad Air 11-inch (M2) (215E0F43-12B4-41F5-B9F4-CF0994AD30F6) (Shutdown) 
+    iPad Air 13-inch (M2) (7291957F-8CCF-4039-92B0-5BEF6166407A) (Shutdown) 
+    iPad Pro 11-inch (M4) (789B70AD-BF7A-4B1C-8291-7254FF9A10B6) (Shutdown) 
+    iPad Pro 13-inch (M4) (E4E0A560-9610-4040-A2C7-BEAA24DEE715) (Shutdown) 
+    iPad mini (A17 Pro) (5A73D5E0-6BD3-4E63-B5DB-658B60417FF9) (Shutdown) (unavailable, device type profile not found)
 -- tvOS 18.0 --
     Apple TV (D48C80A4-0986-4DF5-B036-865593209C97) (Shutdown) 
     Apple TV 4K (3rd generation) (6DB80F1E-D1B9-4E3F-AB52-9EA860454375) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (C0432AD7-B2C5-4953-B89D-F6C4C232AE9D) (Shutdown) 
+-- tvOS 18.1 --
+    Apple TV (3488D234-6173-452C-A608-B99D8BF2160B) (Shutdown) 
+    Apple TV 4K (3rd generation) (A00FBCA9-B95B-4D1B-8061-D76B5605D875) (Shutdown) 
+    Apple TV 4K (3rd generation) (at 1080p) (2E762D6A-E9C2-4F15-8904-6E4D82C214A6) (Shutdown) 
 -- watchOS 10.5 --
     Apple Watch SE (40mm) (2nd generation) (CB6B52F2-1193-4CDC-959D-CDADF71FB02B) (Shutdown) 
     Apple Watch SE (44mm) (2nd generation) (F0EED218-3661-4A92-B0E2-F4534CA7244C) (Shutdown) 
@@ -168,6 +191,23 @@ visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
     Apple Watch Ultra 2 (49mm) (36F14174-B59C-4677-91FE-556152007DC3) (Shutdown) 
     Apple Watch Series 10 (42mm) (ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A) (Shutdown) 
     Apple Watch Series 10 (46mm) (0C40DDF7-E1F7-4401-9921-E81319D9785D) (Shutdown) 
+-- watchOS 11.1 --
+    Apple Watch SE (40mm) (2nd generation) (63812DE0-FC06-4873-988A-0751074F8DBF) (Shutdown) 
+    Apple Watch SE (44mm) (2nd generation) (86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF) (Shutdown) 
+    Apple Watch Ultra 2 (49mm) (091088F9-0AA3-411D-BF17-A5D13A5C7243) (Shutdown) 
+    Apple Watch Series 10 (42mm) (EE36C713-ABB0-4B66-A41C-924DD7145212) (Shutdown) 
+    Apple Watch Series 10 (46mm) (ADDECDFE-ADA9-480D-874A-DFFF7D12F639) (Shutdown) 
 -- visionOS 2.0 --
     Apple Vision Pro (6DB0A471-C696-4B65-91C5-885C499969D5) (Shutdown) 
+-- visionOS 2.1 --
+    Apple Vision Pro (2BECFA21-66E0-4B15-86A9-A5FB8AF64D68) (Shutdown) 
 == Device Pairs ==
+63658CF3-11D9-4948-9607-A7912EB7F37F (active, disconnected)
+    Watch: Apple Watch Ultra 2 (49mm) (091088F9-0AA3-411D-BF17-A5D13A5C7243) (Shutdown)
+    Phone: iPhone 16 Pro Max (F30C0F6E-7075-48C8-91CF-1B7406529E1D) (Shutdown)
+F15FAC9A-A786-4D98-A760-60ED4530A2DE (active, disconnected)
+    Watch: Apple Watch Series 10 (42mm) (EE36C713-ABB0-4B66-A41C-924DD7145212) (Shutdown)
+    Phone: iPhone 16 (99A9BC45-16AB-4E03-BF46-D6F0DBA81389) (Shutdown)
+57DC87FE-41DE-4845-A995-E96184C9080E (active, disconnected)
+    Watch: Apple Watch Series 10 (46mm) (ADDECDFE-ADA9-480D-874A-DFFF7D12F639) (Shutdown)
+    Phone: iPhone 16 Plus (72AE2054-4A91-4041-8789-D1BC7B1F8B32) (Shutdown)
