@@ -12,6 +12,11 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-11-04`
+
+- Android emulator upgrade: `35.1.20` -> `35.2.10`
+- Ubuntu package upgrades
+
 ### Stack update `v2024-09-06`
 
 - Tool upgrades:
