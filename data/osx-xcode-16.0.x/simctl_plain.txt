@@ -165,7 +165,7 @@ visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
     iPhone 16 (99A9BC45-16AB-4E03-BF46-D6F0DBA81389) (Shutdown) 
     iPhone 16 Plus (72AE2054-4A91-4041-8789-D1BC7B1F8B32) (Shutdown) 
     iPad (10th generation) (47962A2F-38D8-4529-BA54-DF44897C4936) (Shutdown) 
-    iPad mini (6th generation) (3EE99324-95C0-40D7-9499-BB33ED27871C) (Shutdown) 
+    iPad mini (6th generation) (EE42038B-5599-48A3-9FFE-6B615E21FC52) (Shutdown) 
     iPad Air 11-inch (M2) (215E0F43-12B4-41F5-B9F4-CF0994AD30F6) (Shutdown) 
     iPad Air 13-inch (M2) (7291957F-8CCF-4039-92B0-5BEF6166407A) (Shutdown) 
     iPad Pro 11-inch (M4) (789B70AD-BF7A-4B1C-8291-7254FF9A10B6) (Shutdown) 
