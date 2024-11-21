@@ -14,6 +14,17 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-11-21`
+
+**Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
+
+- [Xcode 16.2 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_2-release-notes) replaces Beta 2.
+- OS upgrade from `macOS 15.0 (24A335)` to `macOS 15.1 (24B83)`
+- Go `1.21` has been removed (reached end-of-life)
+- Default Go version has changed to `1.22`
+- Go `1.23` is now also installed
+- Homebrew package upgrades
+
 ### Stack update `v2024-11-05`
 
 **Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
