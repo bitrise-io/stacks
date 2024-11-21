@@ -6,8 +6,8 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.22.0",
-          "raw_output": "2.22.0",
+          "version": "2.24.1",
+          "raw_output": "2.24.1",
           "executed_command": "bitrise --version"
         },
         {
@@ -25,7 +25,12 @@
           "executed_command": "envman --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "Bitrise guest agent",
+          "error": "exit status 1: Error: unknown flag: --version\nUsage:\n  Bitrise version [flags]\n\nFlags:\n  -h, --help   help for version\n\nError: unknown flag: --version\n"
+        }
+      ]
     }
   }
 ]
