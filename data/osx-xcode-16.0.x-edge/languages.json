@@ -21,14 +21,14 @@
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1.21.13\n  1.21\n  1.22.7\n *1.22\n  1",
+          "raw_output": "1.22.7\n  1.22\n *1.23.3\n  1.23\n  1",
           "executed_command": "asdf list golang"
         },
         {
           "name": "Go version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "1 =\u003e 1.22.7\n1.21 =\u003e 1.21.13\n1.22 =\u003e 1.22.7",
+          "raw_output": "1 =\u003e 1.23.3\n1.22 =\u003e 1.22.7\n1.23 =\u003e 1.23.3",
           "executed_command": "asdf alias golang --list"
         },
         {
