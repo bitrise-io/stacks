@@ -6,8 +6,8 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.16.1",
-          "raw_output": "2.16.1",
+          "version": "2.22.0",
+          "raw_output": "2.22.0",
           "executed_command": "bitrise --version"
         },
         {
@@ -25,7 +25,12 @@
           "executed_command": "envman --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "Bitrise guest agent",
+          "error": "exit status 127: zsh:1: no such file or directory: /opt/bitrise/virtualization/bin/guest-agent\n"
+        }
+      ]
     }
   }
 ]
