@@ -3296,6 +3296,16 @@
         "name" : "iPad mini (6th generation)"
       },
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9E3623DF-BE28-4C1A-93F2-9C91A3D7B26C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9E3623DF-BE28-4C1A-93F2-9C91A3D7B26C",
+        "udid" : "9E3623DF-BE28-4C1A-93F2-9C91A3D7B26C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-6th-generation-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro (12.9-inch) (6th generation)"
+      },
+      {
         "availabilityError" : "device type profile not found",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8ED473AF-60B0-42AE-A0E5-548E313FD21F\/data",
         "dataPathSize" : 18337792,
