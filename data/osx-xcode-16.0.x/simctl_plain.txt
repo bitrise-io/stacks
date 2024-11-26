@@ -102,6 +102,7 @@ Apple Watch Series 10 (42mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-
 Apple Watch Series 10 (46mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm)
 Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 == Runtimes ==
+iOS 15.5 (15.5 - 19F70) - com.apple.CoreSimulator.SimRuntime.iOS-15-5
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
@@ -114,6 +115,22 @@ watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
 == Devices ==
+-- iOS 15.5 --
+    Bitrise iOS default (3179F15D-F06B-4C72-8915-6383978D7CC8) (Shutdown) 
+    iPhone 8 Plus (EEE7D0DE-39FB-4B78-890E-708F58A048E3) (Shutdown) 
+    iPhone 11 (BD974BE4-5A38-46D9-9218-FE3289DD24F6) (Shutdown) 
+    iPhone 13 Pro (B68D07E1-316D-4CF1-9203-4EDA7A7D8335) (Shutdown) 
+    iPhone 13 Pro Max (276A0028-C232-42A1-8CD1-A8D4A655F2BC) (Shutdown) 
+    iPhone 13 mini (9DACC87E-F5F0-47DA-8388-5AE43ECF1C06) (Shutdown) 
+    iPhone 13 (24FF161F-59E7-4EF4-B1E4-BEBFC4264A73) (Shutdown) 
+    iPhone SE (3rd generation) (1C378962-DEAD-4CF9-92C0-BB7730AC1EEE) (Shutdown) 
+    iPod touch (7th generation) (5607AACA-7834-4812-80D2-AD4C4B9DDE7E) (Shutdown) 
+    iPad Pro (9.7-inch) (9A154E5F-CECF-4C33-B157-8810807CF7FA) (Shutdown) 
+    iPad (9th generation) (749A9914-5D9E-4D14-BCBB-D30F5E5A6D47) (Shutdown) 
+    iPad Pro (11-inch) (3rd generation) (AD9A3575-B7A1-4164-839A-56F7B5ABA6FF) (Shutdown) 
+    iPad Pro (12.9-inch) (5th generation) (236AB325-2D37-45F1-9BFB-C84E64C1D680) (Shutdown) 
+    iPad Air (5th generation) (779EE7FD-8C88-4736-84DF-2C4F2D7DBB66) (Shutdown) 
+    iPad mini (6th generation) (9AB1807E-C5FA-4596-98CA-D2C81D74D3BD) (Shutdown) 
 -- iOS 16.4 --
     Bitrise iOS default (0B1DB985-4338-4739-9E46-7011DA8609F0) (Shutdown) 
     iPhone 8 Plus (1D068BEA-096F-4C0C-8342-E2959C35B347) (Shutdown) 
@@ -165,7 +182,7 @@ visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
     iPhone 16 (99A9BC45-16AB-4E03-BF46-D6F0DBA81389) (Shutdown) 
     iPhone 16 Plus (72AE2054-4A91-4041-8789-D1BC7B1F8B32) (Shutdown) 
     iPad (10th generation) (47962A2F-38D8-4529-BA54-DF44897C4936) (Shutdown) 
-    iPad mini (6th generation) (3EE99324-95C0-40D7-9499-BB33ED27871C) (Shutdown) 
+    iPad mini (6th generation) (8252B478-6C56-4610-BF8E-B98B5216BAC4) (Shutdown) 
     iPad Air 11-inch (M2) (215E0F43-12B4-41F5-B9F4-CF0994AD30F6) (Shutdown) 
     iPad Air 13-inch (M2) (7291957F-8CCF-4039-92B0-5BEF6166407A) (Shutdown) 
     iPad Pro 11-inch (M4) (789B70AD-BF7A-4B1C-8291-7254FF9A10B6) (Shutdown) 
