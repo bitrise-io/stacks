@@ -12,7 +12,7 @@ annotate Mar 6 2024
 ant Mar 6 2024
 antRun Mar 6 2024
 antRun.pl Mar 6 2024
-anthoscli Apr 22 15:10
+anthoscli Apr 22 2024
 aomdec Mar 6 2024
 aomenc Mar 6 2024
 applesimutils Mar 6 2024
@@ -42,7 +42,7 @@ bazelisk Mar 6 2024
 bdftogd Mar 6 2024
 benchmark_xl Mar 6 2024
 bjoentegaard Mar 6 2024
-bq Apr 22 15:10
+bq Apr 22 2024
 brew Sep 19 14:06
 brotli Mar 6 2024
 bsqldb Mar 6 2024
@@ -78,7 +78,7 @@ display Mar 6 2024
 djpeg Mar 6 2024
 djxl Mar 6 2024
 dltest Mar 6 2024
-docker-credential-gcloud Apr 22 15:10
+docker-credential-gcloud Apr 22 2024
 dumpsexp Mar 6 2024
 dvipdf Mar 6 2024
 dwebp Mar 6 2024
@@ -136,7 +136,7 @@ gchmod Mar 6 2024
 gchown Mar 6 2024
 gchroot Mar 6 2024
 gcksum Mar 6 2024
-gcloud Apr 22 15:10
+gcloud Apr 22 2024
 gcomm Mar 6 2024
 gcp Mar 6 2024
 gcsplit Mar 6 2024
@@ -186,7 +186,7 @@ ginstall Mar 6 2024
 gio Mar 6 2024
 gio-querymodules Mar 6 2024
 git Mar 6 2024
-git-credential-gcloud Apr 22 15:10
+git-credential-gcloud Apr 22 2024
 git-cvsserver Mar 6 2024
 git-lfs Mar 6 2024
 git-receive-pack Mar 6 2024
@@ -294,7 +294,7 @@ gstat Mar 6 2024
 gstdbuf Mar 6 2024
 gstty Mar 6 2024
 gsum Mar 6 2024
-gsutil Apr 22 15:10
+gsutil Apr 22 2024
 gsx Mar 6 2024
 gsync Mar 6 2024
 gtac Mar 6 2024
