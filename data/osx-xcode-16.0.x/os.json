@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.5 (23F79)\n      Kernel Version: Darwin 23.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sonoma-16-g2-m1-max.5core-f8dcadae-0897-45d6-9492-f388174b000d\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 33 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.5 (23F79)\n      Kernel Version: Darwin 23.5.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sonoma-16-g2-m1-max.5core-08b8740c-e97f-4235-ae27-a35f31c89750\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 1 minute, 33 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1   250Gi   9.6Gi    99Gi     9%    404k  1.0G    0%   /",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1   275Gi   9.6Gi   109Gi     9%    404k  1.1G    0%   /",
           "executed_command": "df -h /"
         },
         {
