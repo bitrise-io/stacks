@@ -1136,6 +1136,301 @@
   ],
   "runtimes" : [
     {
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 15.5.simruntime",
+      "buildversion" : "19F70",
+      "platform" : "iOS",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 15.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-15-5",
+      "version" : "15.5",
+      "isInternal" : false,
+      "isAvailable" : true,
+      "name" : "iOS 15.5",
+      "supportedDeviceTypes" : [
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 6s.simdevicetype",
+          "name" : "iPhone 6s",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-6s",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 6s Plus.simdevicetype",
+          "name" : "iPhone 6s Plus",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone SE (1st generation).simdevicetype",
+          "name" : "iPhone SE (1st generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 7.simdevicetype",
+          "name" : "iPhone 7",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-7",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 7 Plus.simdevicetype",
+          "name" : "iPhone 7 Plus",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 8.simdevicetype",
+          "name" : "iPhone 8",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 8 Plus.simdevicetype",
+          "name" : "iPhone 8 Plus",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8-Plus",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone X.simdevicetype",
+          "name" : "iPhone X",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-X",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone Xs.simdevicetype",
+          "name" : "iPhone Xs",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-XS",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone Xs Max.simdevicetype",
+          "name" : "iPhone Xs Max",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-XS-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone Xʀ.simdevicetype",
+          "name" : "iPhone Xʀ",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-XR",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 11.simdevicetype",
+          "name" : "iPhone 11",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 11 Pro.simdevicetype",
+          "name" : "iPhone 11 Pro",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11-Pro",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 11 Pro Max.simdevicetype",
+          "name" : "iPhone 11 Pro Max",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11-Pro-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone SE (2nd generation).simdevicetype",
+          "name" : "iPhone SE (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE--2nd-generation-",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 12 mini.simdevicetype",
+          "name" : "iPhone 12 mini",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-12-mini",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 12.simdevicetype",
+          "name" : "iPhone 12",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-12",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 12 Pro.simdevicetype",
+          "name" : "iPhone 12 Pro",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-12-Pro",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 12 Pro Max.simdevicetype",
+          "name" : "iPhone 12 Pro Max",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-12-Pro-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 13 Pro.simdevicetype",
+          "name" : "iPhone 13 Pro",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-Pro",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 13 Pro Max.simdevicetype",
+          "name" : "iPhone 13 Pro Max",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-Pro-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 13 mini.simdevicetype",
+          "name" : "iPhone 13 mini",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-mini",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 13.simdevicetype",
+          "name" : "iPhone 13",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone SE (3rd generation).simdevicetype",
+          "name" : "iPhone SE (3rd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPod touch (7th generation).simdevicetype",
+          "name" : "iPod touch (7th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPod-touch--7th-generation-",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad mini 4.simdevicetype",
+          "name" : "iPad mini 4",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-4",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 2.simdevicetype",
+          "name" : "iPad Air 2",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-2",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (9.7-inch).simdevicetype",
+          "name" : "iPad Pro (9.7-inch)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--9-7-inch-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (12.9-inch) (1st generation).simdevicetype",
+          "name" : "iPad Pro (12.9-inch) (1st generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (5th generation).simdevicetype",
+          "name" : "iPad (5th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad--5th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (12.9-inch) (2nd generation).simdevicetype",
+          "name" : "iPad Pro (12.9-inch) (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--12-9-inch---2nd-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (10.5-inch).simdevicetype",
+          "name" : "iPad Pro (10.5-inch)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--10-5-inch-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (6th generation).simdevicetype",
+          "name" : "iPad (6th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad--6th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (7th generation).simdevicetype",
+          "name" : "iPad (7th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad--7th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (11-inch) (1st generation).simdevicetype",
+          "name" : "iPad Pro (11-inch) (1st generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--11-inch-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (12.9-inch) (3rd generation).simdevicetype",
+          "name" : "iPad Pro (12.9-inch) (3rd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--12-9-inch---3rd-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (11-inch) (2nd generation).simdevicetype",
+          "name" : "iPad Pro (11-inch) (2nd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--11-inch---2nd-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (12.9-inch) (4th generation).simdevicetype",
+          "name" : "iPad Pro (12.9-inch) (4th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--12-9-inch---4th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad mini (5th generation).simdevicetype",
+          "name" : "iPad mini (5th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini--5th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air (3rd generation).simdevicetype",
+          "name" : "iPad Air (3rd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air--3rd-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (8th generation).simdevicetype",
+          "name" : "iPad (8th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad--8th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (9th generation).simdevicetype",
+          "name" : "iPad (9th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-9th-generation",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air (4th generation).simdevicetype",
+          "name" : "iPad Air (4th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air--4th-generation-",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (11-inch) (3rd generation).simdevicetype",
+          "name" : "iPad Pro (11-inch) (3rd generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-3rd-generation",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro (12.9-inch) (5th generation).simdevicetype",
+          "name" : "iPad Pro (12.9-inch) (5th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-5th-generation",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air (5th generation).simdevicetype",
+          "name" : "iPad Air (5th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-5th-generation",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad mini (6th generation).simdevicetype",
+          "name" : "iPad mini (6th generation)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
+          "productFamily" : "iPad"
+        }
+      ]
+    },
+    {
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_20E247\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 16.4.simruntime",
       "buildversion" : "20E247",
       "platform" : "iOS",
@@ -2894,58 +3189,6 @@
     }
   ],
   "devices" : {
-    "com.apple.CoreSimulator.SimRuntime.watchOS-11-1" : [
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/63812DE0-FC06-4873-988A-0751074F8DBF\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/63812DE0-FC06-4873-988A-0751074F8DBF",
-        "udid" : "63812DE0-FC06-4873-988A-0751074F8DBF",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (40mm) (2nd generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF",
-        "udid" : "86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (44mm) (2nd generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/091088F9-0AA3-411D-BF17-A5D13A5C7243\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/091088F9-0AA3-411D-BF17-A5D13A5C7243",
-        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Ultra 2 (49mm)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EE36C713-ABB0-4B66-A41C-924DD7145212\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EE36C713-ABB0-4B66-A41C-924DD7145212",
-        "udid" : "EE36C713-ABB0-4B66-A41C-924DD7145212",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-42mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 10 (42mm)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ADDECDFE-ADA9-480D-874A-DFFF7D12F639\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
-        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 10 (46mm)"
-      }
-    ],
     "com.apple.CoreSimulator.SimRuntime.xrOS-2-0" : [
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6DB0A471-C696-4B65-91C5-885C499969D5\/data",
@@ -2958,136 +3201,168 @@
         "name" : "Apple Vision Pro"
       }
     ],
-    "com.apple.CoreSimulator.SimRuntime.iOS-18-0" : [
+    "com.apple.CoreSimulator.SimRuntime.xrOS-2-1" : [
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/72028594-5C47-4B9C-BB67-7BD1C5A3AE82\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/72028594-5C47-4B9C-BB67-7BD1C5A3AE82",
-        "udid" : "72028594-5C47-4B9C-BB67-7BD1C5A3AE82",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2BECFA21-66E0-4B15-86A9-A5FB8AF64D68\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2BECFA21-66E0-4B15-86A9-A5FB8AF64D68",
+        "udid" : "2BECFA21-66E0-4B15-86A9-A5FB8AF64D68",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "state" : "Shutdown",
+        "name" : "Apple Vision Pro"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-15-5" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/3179F15D-F06B-4C72-8915-6383978D7CC8\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/3179F15D-F06B-4C72-8915-6383978D7CC8",
+        "udid" : "3179F15D-F06B-4C72-8915-6383978D7CC8",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/617CEDF5-1B0C-48E9-82F1-01C7792B38E4\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/617CEDF5-1B0C-48E9-82F1-01C7792B38E4",
-        "udid" : "617CEDF5-1B0C-48E9-82F1-01C7792B38E4",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EEE7D0DE-39FB-4B78-890E-708F58A048E3\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EEE7D0DE-39FB-4B78-890E-708F58A048E3",
+        "udid" : "EEE7D0DE-39FB-4B78-890E-708F58A048E3",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-8-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 8 Plus"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BD974BE4-5A38-46D9-9218-FE3289DD24F6\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/BD974BE4-5A38-46D9-9218-FE3289DD24F6",
+        "udid" : "BD974BE4-5A38-46D9-9218-FE3289DD24F6",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "iPhone 11"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B880E11F-8AC6-4F07-81B2-514A8FFCD1EE\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B880E11F-8AC6-4F07-81B2-514A8FFCD1EE",
-        "udid" : "B880E11F-8AC6-4F07-81B2-514A8FFCD1EE",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B68D07E1-316D-4CF1-9203-4EDA7A7D8335\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B68D07E1-316D-4CF1-9203-4EDA7A7D8335",
+        "udid" : "B68D07E1-316D-4CF1-9203-4EDA7A7D8335",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 13 Pro"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/276A0028-C232-42A1-8CD1-A8D4A655F2BC\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/276A0028-C232-42A1-8CD1-A8D4A655F2BC",
+        "udid" : "276A0028-C232-42A1-8CD1-A8D4A655F2BC",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 13 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9DACC87E-F5F0-47DA-8388-5AE43ECF1C06\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9DACC87E-F5F0-47DA-8388-5AE43ECF1C06",
+        "udid" : "9DACC87E-F5F0-47DA-8388-5AE43ECF1C06",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13-mini",
+        "state" : "Shutdown",
+        "name" : "iPhone 13 mini"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/24FF161F-59E7-4EF4-B1E4-BEBFC4264A73\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/24FF161F-59E7-4EF4-B1E4-BEBFC4264A73",
+        "udid" : "24FF161F-59E7-4EF4-B1E4-BEBFC4264A73",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13",
+        "state" : "Shutdown",
+        "name" : "iPhone 13"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1C378962-DEAD-4CF9-92C0-BB7730AC1EEE\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1C378962-DEAD-4CF9-92C0-BB7730AC1EEE",
+        "udid" : "1C378962-DEAD-4CF9-92C0-BB7730AC1EEE",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
         "state" : "Shutdown",
         "name" : "iPhone SE (3rd generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A",
-        "udid" : "4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5607AACA-7834-4812-80D2-AD4C4B9DDE7E\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5607AACA-7834-4812-80D2-AD4C4B9DDE7E",
+        "udid" : "5607AACA-7834-4812-80D2-AD4C4B9DDE7E",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPod-touch--7th-generation-",
         "state" : "Shutdown",
-        "name" : "iPhone 16 Pro"
+        "name" : "iPod touch (7th generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B9401E9E-0F88-488E-BF8D-B097B04888A9\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B9401E9E-0F88-488E-BF8D-B097B04888A9",
-        "udid" : "B9401E9E-0F88-488E-BF8D-B097B04888A9",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9A154E5F-CECF-4C33-B157-8810807CF7FA\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9A154E5F-CECF-4C33-B157-8810807CF7FA",
+        "udid" : "9A154E5F-CECF-4C33-B157-8810807CF7FA",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro--9-7-inch-",
         "state" : "Shutdown",
-        "name" : "iPhone 16 Pro Max"
+        "name" : "iPad Pro (9.7-inch)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F614C58F-C070-4961-8CB7-36B0F41F3B58\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F614C58F-C070-4961-8CB7-36B0F41F3B58",
-        "udid" : "F614C58F-C070-4961-8CB7-36B0F41F3B58",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/749A9914-5D9E-4D14-BCBB-D30F5E5A6D47\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/749A9914-5D9E-4D14-BCBB-D30F5E5A6D47",
+        "udid" : "749A9914-5D9E-4D14-BCBB-D30F5E5A6D47",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-9th-generation",
         "state" : "Shutdown",
-        "name" : "iPhone 16"
+        "name" : "iPad (9th generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C1E4F34C-82B0-4804-970D-7EC652ED683A\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C1E4F34C-82B0-4804-970D-7EC652ED683A",
-        "udid" : "C1E4F34C-82B0-4804-970D-7EC652ED683A",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/AD9A3575-B7A1-4164-839A-56F7B5ABA6FF\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/AD9A3575-B7A1-4164-839A-56F7B5ABA6FF",
+        "udid" : "AD9A3575-B7A1-4164-839A-56F7B5ABA6FF",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-3rd-generation",
         "state" : "Shutdown",
-        "name" : "iPhone 16 Plus"
+        "name" : "iPad Pro (11-inch) (3rd generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FC7206E2-9557-4CF1-B733-5EA30D611EF7\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FC7206E2-9557-4CF1-B733-5EA30D611EF7",
-        "udid" : "FC7206E2-9557-4CF1-B733-5EA30D611EF7",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/236AB325-2D37-45F1-9BFB-C84E64C1D680\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/236AB325-2D37-45F1-9BFB-C84E64C1D680",
+        "udid" : "236AB325-2D37-45F1-9BFB-C84E64C1D680",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-12-9-inch-5th-generation",
         "state" : "Shutdown",
-        "name" : "iPad (10th generation)"
+        "name" : "iPad Pro (12.9-inch) (5th generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FE57AA8B-B953-4842-A329-7B32FE6ED64B\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FE57AA8B-B953-4842-A329-7B32FE6ED64B",
-        "udid" : "FE57AA8B-B953-4842-A329-7B32FE6ED64B",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/779EE7FD-8C88-4736-84DF-2C4F2D7DBB66\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/779EE7FD-8C88-4736-84DF-2C4F2D7DBB66",
+        "udid" : "779EE7FD-8C88-4736-84DF-2C4F2D7DBB66",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-5th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad Air (5th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9AB1807E-C5FA-4596-98CA-D2C81D74D3BD\/data",
+        "dataPathSize" : 18341888,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9AB1807E-C5FA-4596-98CA-D2C81D74D3BD",
+        "udid" : "9AB1807E-C5FA-4596-98CA-D2C81D74D3BD",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
         "state" : "Shutdown",
         "name" : "iPad mini (6th generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CA049AEE-7F3F-48B0-A90F-61881DFC24D9\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CA049AEE-7F3F-48B0-A90F-61881DFC24D9",
-        "udid" : "CA049AEE-7F3F-48B0-A90F-61881DFC24D9",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
-        "state" : "Shutdown",
-        "name" : "iPad Air 11-inch (M2)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/AFA925FD-8C19-4484-AD61-3FB61B4120F7\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/AFA925FD-8C19-4484-AD61-3FB61B4120F7",
-        "udid" : "AFA925FD-8C19-4484-AD61-3FB61B4120F7",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
-        "state" : "Shutdown",
-        "name" : "iPad Air 13-inch (M2)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F869B081-A534-4920-97C7-BD9AE9D75345\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F869B081-A534-4920-97C7-BD9AE9D75345",
-        "udid" : "F869B081-A534-4920-97C7-BD9AE9D75345",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
-        "state" : "Shutdown",
-        "name" : "iPad Pro 11-inch (M4)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5C6FA82D-DE30-4F6A-A069-6C8D47C49F96\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5C6FA82D-DE30-4F6A-A069-6C8D47C49F96",
-        "udid" : "5C6FA82D-DE30-4F6A-A069-6C8D47C49F96",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
-        "state" : "Shutdown",
-        "name" : "iPad Pro 13-inch (M4)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.tvOS-18-0" : [
@@ -3154,104 +3429,52 @@
         "name" : "Apple TV 4K (3rd generation) (at 1080p)"
       }
     ],
-    "com.apple.CoreSimulator.SimRuntime.watchOS-10-5" : [
+    "com.apple.CoreSimulator.SimRuntime.watchOS-11-1" : [
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CB6B52F2-1193-4CDC-959D-CDADF71FB02B\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/63812DE0-FC06-4873-988A-0751074F8DBF\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CB6B52F2-1193-4CDC-959D-CDADF71FB02B",
-        "udid" : "CB6B52F2-1193-4CDC-959D-CDADF71FB02B",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/63812DE0-FC06-4873-988A-0751074F8DBF",
+        "udid" : "63812DE0-FC06-4873-988A-0751074F8DBF",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
         "state" : "Shutdown",
         "name" : "Apple Watch SE (40mm) (2nd generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F0EED218-3661-4A92-B0E2-F4534CA7244C\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F0EED218-3661-4A92-B0E2-F4534CA7244C",
-        "udid" : "F0EED218-3661-4A92-B0E2-F4534CA7244C",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF",
+        "udid" : "86072E1E-46DC-4D3F-B0FC-BB8F1240ACFF",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
         "state" : "Shutdown",
         "name" : "Apple Watch SE (44mm) (2nd generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1DD58191-F647-45F0-941D-A206991F3065\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/091088F9-0AA3-411D-BF17-A5D13A5C7243\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1DD58191-F647-45F0-941D-A206991F3065",
-        "udid" : "1DD58191-F647-45F0-941D-A206991F3065",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-41mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 9 (41mm)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ACCCD302-04C4-4291-A9F2-7E89C763601E\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ACCCD302-04C4-4291-A9F2-7E89C763601E",
-        "udid" : "ACCCD302-04C4-4291-A9F2-7E89C763601E",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 9 (45mm)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/801557F4-14BC-4A4D-A917-20CB551F0844\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/801557F4-14BC-4A4D-A917-20CB551F0844",
-        "udid" : "801557F4-14BC-4A4D-A917-20CB551F0844",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Ultra 2 (49mm)"
-      }
-    ],
-    "com.apple.CoreSimulator.SimRuntime.watchOS-11-0" : [
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/203457C8-A8B7-4BA1-9658-CACF361261CC\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/203457C8-A8B7-4BA1-9658-CACF361261CC",
-        "udid" : "203457C8-A8B7-4BA1-9658-CACF361261CC",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (40mm) (2nd generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/336870ED-F8B2-4B32-BB58-A7D124AAFE67\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/336870ED-F8B2-4B32-BB58-A7D124AAFE67",
-        "udid" : "336870ED-F8B2-4B32-BB58-A7D124AAFE67",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (44mm) (2nd generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/36F14174-B59C-4677-91FE-556152007DC3\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/36F14174-B59C-4677-91FE-556152007DC3",
-        "udid" : "36F14174-B59C-4677-91FE-556152007DC3",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/091088F9-0AA3-411D-BF17-A5D13A5C7243",
+        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Ultra 2 (49mm)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EE36C713-ABB0-4B66-A41C-924DD7145212\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A",
-        "udid" : "ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EE36C713-ABB0-4B66-A41C-924DD7145212",
+        "udid" : "EE36C713-ABB0-4B66-A41C-924DD7145212",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-42mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Series 10 (42mm)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/0C40DDF7-E1F7-4401-9921-E81319D9785D\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ADDECDFE-ADA9-480D-874A-DFFF7D12F639\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/0C40DDF7-E1F7-4401-9921-E81319D9785D",
-        "udid" : "0C40DDF7-E1F7-4401-9921-E81319D9785D",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
+        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm",
         "state" : "Shutdown",
@@ -3390,16 +3613,240 @@
         "name" : "iPad Pro (12.9-inch) (6th generation)"
       }
     ],
-    "com.apple.CoreSimulator.SimRuntime.xrOS-2-1" : [
+    "com.apple.CoreSimulator.SimRuntime.watchOS-10-5" : [
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2BECFA21-66E0-4B15-86A9-A5FB8AF64D68\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CB6B52F2-1193-4CDC-959D-CDADF71FB02B\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2BECFA21-66E0-4B15-86A9-A5FB8AF64D68",
-        "udid" : "2BECFA21-66E0-4B15-86A9-A5FB8AF64D68",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CB6B52F2-1193-4CDC-959D-CDADF71FB02B",
+        "udid" : "CB6B52F2-1193-4CDC-959D-CDADF71FB02B",
         "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
         "state" : "Shutdown",
-        "name" : "Apple Vision Pro"
+        "name" : "Apple Watch SE (40mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F0EED218-3661-4A92-B0E2-F4534CA7244C\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F0EED218-3661-4A92-B0E2-F4534CA7244C",
+        "udid" : "F0EED218-3661-4A92-B0E2-F4534CA7244C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (44mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1DD58191-F647-45F0-941D-A206991F3065\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1DD58191-F647-45F0-941D-A206991F3065",
+        "udid" : "1DD58191-F647-45F0-941D-A206991F3065",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-41mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 9 (41mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ACCCD302-04C4-4291-A9F2-7E89C763601E\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ACCCD302-04C4-4291-A9F2-7E89C763601E",
+        "udid" : "ACCCD302-04C4-4291-A9F2-7E89C763601E",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 9 (45mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/801557F4-14BC-4A4D-A917-20CB551F0844\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/801557F4-14BC-4A4D-A917-20CB551F0844",
+        "udid" : "801557F4-14BC-4A4D-A917-20CB551F0844",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra 2 (49mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-11-0" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/203457C8-A8B7-4BA1-9658-CACF361261CC\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/203457C8-A8B7-4BA1-9658-CACF361261CC",
+        "udid" : "203457C8-A8B7-4BA1-9658-CACF361261CC",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (40mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/336870ED-F8B2-4B32-BB58-A7D124AAFE67\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/336870ED-F8B2-4B32-BB58-A7D124AAFE67",
+        "udid" : "336870ED-F8B2-4B32-BB58-A7D124AAFE67",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (44mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/36F14174-B59C-4677-91FE-556152007DC3\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/36F14174-B59C-4677-91FE-556152007DC3",
+        "udid" : "36F14174-B59C-4677-91FE-556152007DC3",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra 2 (49mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A",
+        "udid" : "ACD13DF1-8D4E-4304-BA9C-C23AB8AD806A",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-42mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 10 (42mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/0C40DDF7-E1F7-4401-9921-E81319D9785D\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/0C40DDF7-E1F7-4401-9921-E81319D9785D",
+        "udid" : "0C40DDF7-E1F7-4401-9921-E81319D9785D",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 10 (46mm)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-18-0" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/72028594-5C47-4B9C-BB67-7BD1C5A3AE82\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/72028594-5C47-4B9C-BB67-7BD1C5A3AE82",
+        "udid" : "72028594-5C47-4B9C-BB67-7BD1C5A3AE82",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+        "state" : "Shutdown",
+        "name" : "Bitrise iOS default"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/617CEDF5-1B0C-48E9-82F1-01C7792B38E4\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/617CEDF5-1B0C-48E9-82F1-01C7792B38E4",
+        "udid" : "617CEDF5-1B0C-48E9-82F1-01C7792B38E4",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+        "state" : "Shutdown",
+        "name" : "iPhone 11"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B880E11F-8AC6-4F07-81B2-514A8FFCD1EE\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B880E11F-8AC6-4F07-81B2-514A8FFCD1EE",
+        "udid" : "B880E11F-8AC6-4F07-81B2-514A8FFCD1EE",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
+        "state" : "Shutdown",
+        "name" : "iPhone SE (3rd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A",
+        "udid" : "4B4AF5DA-55D2-48A7-B35E-C2330C89FF9A",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B9401E9E-0F88-488E-BF8D-B097B04888A9\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B9401E9E-0F88-488E-BF8D-B097B04888A9",
+        "udid" : "B9401E9E-0F88-488E-BF8D-B097B04888A9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F614C58F-C070-4961-8CB7-36B0F41F3B58\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F614C58F-C070-4961-8CB7-36B0F41F3B58",
+        "udid" : "F614C58F-C070-4961-8CB7-36B0F41F3B58",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16",
+        "state" : "Shutdown",
+        "name" : "iPhone 16"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C1E4F34C-82B0-4804-970D-7EC652ED683A\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C1E4F34C-82B0-4804-970D-7EC652ED683A",
+        "udid" : "C1E4F34C-82B0-4804-970D-7EC652ED683A",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Plus"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FC7206E2-9557-4CF1-B733-5EA30D611EF7\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FC7206E2-9557-4CF1-B733-5EA30D611EF7",
+        "udid" : "FC7206E2-9557-4CF1-B733-5EA30D611EF7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad (10th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FE57AA8B-B953-4842-A329-7B32FE6ED64B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FE57AA8B-B953-4842-A329-7B32FE6ED64B",
+        "udid" : "FE57AA8B-B953-4842-A329-7B32FE6ED64B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad mini (6th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CA049AEE-7F3F-48B0-A90F-61881DFC24D9\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CA049AEE-7F3F-48B0-A90F-61881DFC24D9",
+        "udid" : "CA049AEE-7F3F-48B0-A90F-61881DFC24D9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M2)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/AFA925FD-8C19-4484-AD61-3FB61B4120F7\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/AFA925FD-8C19-4484-AD61-3FB61B4120F7",
+        "udid" : "AFA925FD-8C19-4484-AD61-3FB61B4120F7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F869B081-A534-4920-97C7-BD9AE9D75345\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F869B081-A534-4920-97C7-BD9AE9D75345",
+        "udid" : "F869B081-A534-4920-97C7-BD9AE9D75345",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5C6FA82D-DE30-4F6A-A069-6C8D47C49F96\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5C6FA82D-DE30-4F6A-A069-6C8D47C49F96",
+        "udid" : "5C6FA82D-DE30-4F6A-A069-6C8D47C49F96",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-17-5" : [
