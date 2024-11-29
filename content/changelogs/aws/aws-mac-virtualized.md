@@ -30,7 +30,7 @@ Updated stable stack [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws
 
 ### AMI version `2024W47-ventura15`
 
-Updatedn stable stack [macOS Sonoma with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-sonoma15) with the following Xcode versions:
+Updated stable stack [macOS Sonoma with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-sonoma15) with the following Xcode versions:
 - Xcode 15.0
 - Xcode 15.1
 - Xcode 15.2
