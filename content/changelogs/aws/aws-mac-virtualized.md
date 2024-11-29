@@ -24,7 +24,7 @@ Added the initial version stable stack [macOS Sonoma with Xcode 16.0-16.1](../..
 
 ### AMI version `2024W47-sonoma15`
 
-Updatedn stable stack [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15) with the following Xcode versions:
+Updated stable stack [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15) with the following Xcode versions:
 - Xcode 15.3
 - Xcode 15.4
 
