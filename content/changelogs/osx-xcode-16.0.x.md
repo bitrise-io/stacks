@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-11-25` (released on 2024-11-26)
+
+- No user-facing changes
+
 ### Stack update `v2024-10-15` (released on 2024-10-17)
 
 - Minor and patch version upgrades:
