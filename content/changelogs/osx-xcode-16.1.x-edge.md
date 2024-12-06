@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-12-06`
+
+**Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
+
+- Homebrew package upgrades
+
 ### Stack update `v2024-11-21`
 
 **Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
