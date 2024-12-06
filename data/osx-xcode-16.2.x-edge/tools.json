@@ -6,22 +6,22 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.47.0",
-          "raw_output": "git version 2.47.0",
+          "version": "2.47.1",
+          "raw_output": "git version 2.47.1",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.5.1",
-          "raw_output": "git-lfs/3.5.1 (GitHub; darwin arm64; go 1.23.1)",
+          "version": "3.6.0",
+          "raw_output": "git-lfs/3.6.0 (GitHub; darwin arm64; go 1.23.3)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.62.0",
-          "raw_output": "gh version 2.62.0 (2024-11-14)\nhttps://github.com/cli/cli/releases/tag/v2.62.0",
+          "version": "2.63.2",
+          "raw_output": "gh version 2.63.2 (2024-12-05)\nhttps://github.com/cli/cli/releases/tag/v2.63.2",
           "executed_command": "gh --version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.22.2",
-          "raw_output": "aws-cli/2.22.2 Python/3.12.7 Darwin/24.1.0 source/arm64",
+          "version": "2.22.12",
+          "raw_output": "aws-cli/2.22.12 Python/3.12.7 Darwin/24.1.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "3.31.0",
-          "raw_output": "cmake version 3.31.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "3.31.2",
+          "raw_output": "cmake version 3.31.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {

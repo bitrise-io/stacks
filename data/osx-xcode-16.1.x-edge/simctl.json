@@ -2430,10 +2430,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C5142a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime",
-      "buildversion" : "22C5142a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C150\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime",
+      "buildversion" : "22C150",
       "platform" : "iOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C5142a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22C150\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-2",
       "version" : "18.2",
       "isInternal" : false,
@@ -2877,10 +2877,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K5148a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime",
-      "buildversion" : "22K5148a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K154\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime",
+      "buildversion" : "22K154",
       "platform" : "tvOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K5148a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22K154\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-2",
       "version" : "18.2",
       "isInternal" : false,
@@ -3247,10 +3247,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22S5094a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.2.simruntime",
-      "buildversion" : "22S5094a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22S99\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.2.simruntime",
+      "buildversion" : "22S99",
       "platform" : "watchOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22S5094a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22S99\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-2",
       "version" : "11.2",
       "isInternal" : false,
@@ -3382,10 +3382,10 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5794a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime",
-      "buildversion" : "22N5794a",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime",
+      "buildversion" : "22N840",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N5794a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-2",
       "version" : "2.2",
       "isInternal" : false,
@@ -4404,19 +4404,6 @@
     ]
   },
   "pairs" : {
-    "89E24277-FB22-49FC-AAAF-F70227CFD679" : {
-      "watch" : {
-        "name" : "Apple Watch Series 10 (46mm)",
-        "udid" : "F46EE0EA-877E-43B4-86E0-CC94CE9D079E",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Pro Max",
-        "udid" : "428AEFAE-7A27-4BC4-8839-35472FA3DFF0",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
     "F95B38B3-1CA3-4991-98D6-BD9F72304C32" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (42mm)",
@@ -4439,6 +4426,19 @@
       "phone" : {
         "name" : "iPhone 16 Plus",
         "udid" : "BA491036-9CC5-4323-B45D-C523586CCEC4",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "2DAC46D2-6BD8-40CD-96DA-8DFCCA9779F1" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (46mm)",
+        "udid" : "F46EE0EA-877E-43B4-86E0-CC94CE9D079E",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Pro Max",
+        "udid" : "428AEFAE-7A27-4BC4-8839-35472FA3DFF0",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -4469,7 +4469,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "A4F1F6D3-8A66-47F5-87B1-5772C2D253EA" : {
+    "57C16640-D243-48D7-B090-DD66B0F46F66" : {
       "watch" : {
         "name" : "Apple Watch Ultra 2 (49mm)",
         "udid" : "3E008137-3F49-401F-A4A5-CC2EB38628C6",
