@@ -107,17 +107,17 @@ iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
 iOS 18.1 (18.1 - 22B81) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
-iOS 18.2 (18.2 - 22C5142a) - com.apple.CoreSimulator.SimRuntime.iOS-18-2
+iOS 18.2 (18.2 - 22C150) - com.apple.CoreSimulator.SimRuntime.iOS-18-2
 tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 tvOS 18.1 (18.1 - 22J578) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
-tvOS 18.2 (18.2 - 22K5148a) - com.apple.CoreSimulator.SimRuntime.tvOS-18-2
+tvOS 18.2 (18.2 - 22K154) - com.apple.CoreSimulator.SimRuntime.tvOS-18-2
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R349) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
 watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
-watchOS 11.2 (11.2 - 22S5094a) - com.apple.CoreSimulator.SimRuntime.watchOS-11-2
+watchOS 11.2 (11.2 - 22S99) - com.apple.CoreSimulator.SimRuntime.watchOS-11-2
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
-visionOS 2.2 (2.2 - 22N5794a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
+visionOS 2.2 (2.2 - 22N840) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
 == Devices ==
 -- iOS 16.4 --
     iPhone 14 Pro (95D26409-C64D-47ED-AF8D-577C4237CCC0) (Shutdown) 
@@ -232,13 +232,13 @@ visionOS 2.2 (2.2 - 22N5794a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
 -- visionOS 2.2 --
     Apple Vision Pro (36B78E09-F965-431F-9AC1-44C8CC834854) (Shutdown) 
 == Device Pairs ==
-89E24277-FB22-49FC-AAAF-F70227CFD679 (active, disconnected)
+2DAC46D2-6BD8-40CD-96DA-8DFCCA9779F1 (active, disconnected)
     Watch: Apple Watch Series 10 (46mm) (F46EE0EA-877E-43B4-86E0-CC94CE9D079E) (Shutdown)
     Phone: iPhone 16 Pro Max (428AEFAE-7A27-4BC4-8839-35472FA3DFF0) (Shutdown)
 B21D27A2-563C-4384-9096-5C4D849767BE (active, disconnected)
     Watch: Apple Watch Series 10 (42mm) (937517FE-7877-4864-9DC9-77AEC979AAE2) (Shutdown)
     Phone: iPhone 16 (98DC533C-5444-4999-B0F6-B3FB1F29F736) (Shutdown)
-A4F1F6D3-8A66-47F5-87B1-5772C2D253EA (active, disconnected)
+57C16640-D243-48D7-B090-DD66B0F46F66 (active, disconnected)
     Watch: Apple Watch Ultra 2 (49mm) (3E008137-3F49-401F-A4A5-CC2EB38628C6) (Shutdown)
     Phone: iPhone 16 Plus (705937F7-32D1-4017-A7B1-CEF82B9ECE83) (Shutdown)
 AF372A3E-945E-423A-B6BC-A5915125CA62 (active, disconnected)
