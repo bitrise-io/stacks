@@ -107,17 +107,17 @@ iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.0 (18.0 - 22A3351) - com.apple.CoreSimulator.SimRuntime.iOS-18-0
 iOS 18.1 (18.1 - 22B81) - com.apple.CoreSimulator.SimRuntime.iOS-18-1
-iOS 18.2 (18.2 - 22C5142a) - com.apple.CoreSimulator.SimRuntime.iOS-18-2
+iOS 18.2 (18.2 - 22C150) - com.apple.CoreSimulator.SimRuntime.iOS-18-2
 tvOS 18.0 (18.0 - 22J356) - com.apple.CoreSimulator.SimRuntime.tvOS-18-0
 tvOS 18.1 (18.1 - 22J578) - com.apple.CoreSimulator.SimRuntime.tvOS-18-1
-tvOS 18.2 (18.2 - 22K5148a) - com.apple.CoreSimulator.SimRuntime.tvOS-18-2
+tvOS 18.2 (18.2 - 22K154) - com.apple.CoreSimulator.SimRuntime.tvOS-18-2
 watchOS 10.5 (10.5 - 21T575) - com.apple.CoreSimulator.SimRuntime.watchOS-10-5
 watchOS 11.0 (11.0 - 22R349) - com.apple.CoreSimulator.SimRuntime.watchOS-11-0
 watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
-watchOS 11.2 (11.2 - 22S5094a) - com.apple.CoreSimulator.SimRuntime.watchOS-11-2
+watchOS 11.2 (11.2 - 22S99) - com.apple.CoreSimulator.SimRuntime.watchOS-11-2
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
-visionOS 2.2 (2.2 - 22N5794a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
+visionOS 2.2 (2.2 - 22N840) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
 == Devices ==
 -- iOS 16.4 --
     iPhone 14 Pro (95D26409-C64D-47ED-AF8D-577C4237CCC0) (Shutdown) 
@@ -175,7 +175,7 @@ visionOS 2.2 (2.2 - 22N5794a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
     iPad Air 13-inch (M2) (C77EC2D2-FF5C-4E1B-9962-718EE1DE6271) (Shutdown) 
     iPad mini (A17 Pro) (9AA32320-113D-4646-A935-6A461F4E859C) (Shutdown) 
     iPad (10th generation) (D0FE2FBF-B8F7-45A1-B78C-0C1AE3CBE4F0) (Shutdown) 
-    iPad mini (6th generation) (1C21520B-8CEC-4016-BBC1-7311ADA4684C) (Shutdown) 
+    iPad mini (6th generation) (C4B8AB6C-D2FE-4BEE-95D6-BDF9F475C701) (Shutdown) 
 -- iOS 18.2 --
     iPhone 16 Pro (E2AEE9F0-467D-486D-92B6-C4B8E721E633) (Shutdown) 
     iPhone 16 Pro Max (CF7617AA-6BD1-424F-AD4D-46E45D3FCAEF) (Shutdown) 
@@ -190,7 +190,7 @@ visionOS 2.2 (2.2 - 22N5794a) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
     iPad Air 13-inch (M2) (641FC0EE-8CC8-4A27-BA07-22D385533377) (Shutdown) 
     iPad mini (A17 Pro) (4CD819A2-06D4-4C1F-AF16-6915BD54A2BD) (Shutdown) 
     iPad (10th generation) (FDA89608-3CD7-4EB6-851F-674B56B077ED) (Shutdown) 
-    iPad mini (6th generation) (90D22E72-5EFB-44BC-A05D-B6443481FFC4) (Shutdown) 
+    iPad mini (6th generation) (FA93D755-A4C7-459E-84CA-BFC0C5C2EA41) (Shutdown) 
 -- tvOS 18.0 --
     Apple TV 4K (3rd generation) (B49B1660-3008-4EED-8428-AA6E781B1D9E) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (CB8A2DEC-6CEE-402E-916C-E9410ACECEA8) (Shutdown) 
