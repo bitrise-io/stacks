@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2024-12-06`
+
+**Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
+
+- - [Xcode 16.2 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_2-release-notes) replaces Beta 3.
+- Homebrew package upgrades
+
 ### Stack update `v2024-11-21`
 
 **Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
