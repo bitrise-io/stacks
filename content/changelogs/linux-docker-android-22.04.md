@@ -16,7 +16,6 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 - Ubuntu package upgrades
 - [GitHub CLI](https://cli.github.com/) is now preinstalled (at version `2.63.2`)
-- Git-lfs to `3.6.0`
 - Tooling version updates:
     - Ruby `3.1.5` → `3.1.6`
     - Ruby `3.2.4` → `3.2.5`
