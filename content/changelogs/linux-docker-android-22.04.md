@@ -15,6 +15,8 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2024-12-06` (released 2024-12-10)
 
 - Ubuntu package upgrades
+- GitHub CLI to `2.63.2`
+- Git-lfs to `3.6.0`
 - Tooling version updates:
     - Ruby `3.1.5` → `3.1.6`
     - Ruby `3.2.4` → `3.2.5`
@@ -27,6 +29,10 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
     - NodeJS `20.13.1` → `20.17.0`
 
     - Python `3.12.2` → `3.12.6`
+
+- Enhanced retry mechanism for build processes with the following environment variables:
+RUBY_BUILD_CURL_OPTS, PYTHON_BUILD_CURL_OPTS, and NODE_BUILD_CURL_OPTS set to --retry 5 --retry-delay 2 --retry-all-errors
+to improve reliability in downloading dependencies during build processes.
 
 
 ### Stack update `v2024-11-04`
