@@ -30,9 +30,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
     - Python `3.12.2` → `3.12.6`
 
-- Enhanced retry mechanism for build processes with the following environment variables:
-RUBY_BUILD_CURL_OPTS, PYTHON_BUILD_CURL_OPTS, and NODE_BUILD_CURL_OPTS set to --retry 5 --retry-delay 2 --retry-all-errors
-to improve reliability in downloading dependencies during build processes.
+- Enhanced retry mechanism for asdf version installs with the following environment variables: `RUBY_BUILD_CURL_OPTS`, `PYTHON_BUILD_CURL_OPTS`, and `NODE_BUILD_CURL_OPTS` set to `--retry 5 --retry-delay 2 --retry-all-errors` to improve download reliability.
 
 
 ### Stack update `v2024-11-04`
