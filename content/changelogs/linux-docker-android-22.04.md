@@ -12,6 +12,23 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2024-12-06` (released 2024-12-10)
+
+- Ubuntu package upgrades
+- Tooling version updates:
+    - Ruby `3.1.5` → `3.1.6`
+    - Ruby `3.2.4` → `3.2.5`
+    - Ruby `3.3.4` → `3.3.5`
+
+    - Go `1.21.10` → `1.21.13`
+    - Go `1.22.3` → `1.22.7`
+
+    - NodeJS `18.20.2` → `18.20.4`
+    - NodeJS `20.13.1` → `20.17.0`
+
+    - Python `3.12.2` → `3.12.6`
+
+
 ### Stack update `v2024-11-04`
 
 - Android emulator upgrade: `35.1.20` -> `35.2.10`
