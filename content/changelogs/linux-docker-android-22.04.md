@@ -15,7 +15,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2024-12-06` (released 2024-12-10)
 
 - Ubuntu package upgrades
-- GitHub CLI to `2.63.2`
+- [GitHub CLI](https://cli.github.com/) is now preinstalled (at version `2.63.2`)
 - Git-lfs to `3.6.0`
 - Tooling version updates:
     - Ruby `3.1.5` → `3.1.6`
