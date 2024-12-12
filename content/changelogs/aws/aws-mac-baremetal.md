@@ -15,7 +15,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2.77.1-sonoma16`
 
 - Initial AWS AMI version with Xcode 16.0 and 16.1
-- MacOS version: 14.7.1
+- macOS version: 14.7.1
 
 ### Stack update `v2.54.0-sonoma15`
 
