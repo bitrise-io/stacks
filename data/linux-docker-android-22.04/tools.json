@@ -49,7 +49,7 @@
           "name": "AWS CLI",
           "category": "tools",
           "version": "2.22.12",
-          "raw_output": "aws-cli/2.22.12 Python/3.12.6 Linux/6.5.0-1018-gcp exe/x86_64.ubuntu.22",
+          "raw_output": "aws-cli/2.22.12 Python/3.12.6 Linux/6.8.0-49-generic exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
