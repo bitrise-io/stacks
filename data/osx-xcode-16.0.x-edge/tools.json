@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.22.12",
-          "raw_output": "aws-cli/2.22.12 Python/3.12.7 Darwin/24.1.0 source/arm64",
+          "version": "2.22.18",
+          "raw_output": "aws-cli/2.22.18 Python/3.12.8 Darwin/24.2.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -49,7 +49,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.13.0\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.13.1\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.26.0",
-          "raw_output": "13.26.0",
+          "version": "13.29.0",
+          "raw_output": "13.29.0",
           "executed_command": "firebase --version"
         },
         {
