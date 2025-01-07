@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-01-03`  (released 2025-01-07)
+
+- Fixed: Remote access screen sharing is not working. From now you can use the Remote Access on the Edge stack.
+
+- Homebrew package upgrades
+
 ### Stack update `v2024-12-06`
 
 **Known issue**: Remote access screen sharing is not working (SSH access does work). We are working on a fix.
