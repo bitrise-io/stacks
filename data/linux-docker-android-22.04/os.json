@@ -13,7 +13,7 @@
         {
           "name": "Linux kernel version",
           "category": "os",
-          "version": "",
+          "version": "6.8.0",
           "raw_output": "6.8.0-50-generic",
           "executed_command": "uname -r"
         },
