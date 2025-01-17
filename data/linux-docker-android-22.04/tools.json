@@ -13,8 +13,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.65.0",
-          "raw_output": "gh version 2.65.0 (2025-01-06)\nhttps://github.com/cli/cli/releases/tag/v2.65.0",
+          "version": "2.61.0",
+          "raw_output": "gh version 2.61.0 (2024-11-07)\nhttps://github.com/cli/cli/releases/tag/v2.61.0",
           "executed_command": "gh version"
         },
         {
