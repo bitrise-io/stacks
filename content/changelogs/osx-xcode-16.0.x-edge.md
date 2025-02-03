@@ -18,26 +18,29 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - Homebrew package upgrades
 
-### Tool version changes:
-#### Ruby
+#### Tool version changes:
+##### Ruby
 - **Updated:**
   - `3.2.5` → `3.2.6`
   - `3.3.5` → `3.3.7`
 
-#### Golang
+##### Golang
 - **Updated:**
   - `1.23.3` → `1.23.5`
   - `1.22.7` → `1.22.11`
 
-#### Node.js
+##### Node.js
 - **Deleted:**
   - `20.17.0`
 - **Updated:**
   - `22.9.0` → `22.13.0`
+  - `Default`: `22`
 
-#### Python
+
+##### Python
 - **Updated:**
   - `3.12.6` → `3.12.8`
+  - `Default`: `3.13.1`
 - **Added:**
   - `3.13.1`
 
