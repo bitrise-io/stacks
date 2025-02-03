@@ -14,6 +14,37 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-01-27`  (released 2025-02-03)
+
+- Homebrew package upgrades
+
+#### Tool version changes:
+##### Ruby
+- **Updated:**
+  - `3.2.5` → `3.2.6`
+  - `3.3.5` → `3.3.7`
+
+##### Golang
+- **Updated:**
+  - `1.23.3` → `1.23.5`
+  - `1.22.7` → `1.22.11`
+
+##### Node.js
+- **Deleted:**
+  - `20.17.0`
+- **Updated:**
+  - `22.9.0` → `22.13.0`
+  - `Default`: `22`
+
+
+##### Python
+- **Updated:**
+  - `3.12.6` → `3.12.8`
+  - `Default`: `3.13.1`
+- **Added:**
+  - `3.13.1`
+
+
 ### Stack update `v2025-01-03`  (released 2025-01-07)
 
 - Fixed: Remote access screen sharing is not working. From now you can use the Remote Access on the Edge stack.
