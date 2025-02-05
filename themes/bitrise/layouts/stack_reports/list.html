@@ -1,13 +1,11 @@
 {{ define "main" }}
-  {{ range sort .Paginator.Pages }}
+  {{ range .Pages.Reverse }}
   <article class="markdown book-post">
     <h2>
       <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
     </h2>
   </article>
   {{ end }}
-
-  {{ template "_internal/pagination.html" . }}
 {{ end }}
 
 {{ define "toc" }}

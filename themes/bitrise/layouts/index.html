@@ -15,11 +15,16 @@
         <section class="list-item">
             <h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
             <ul>
-            {{ range .Pages }}
+            {{ $pages := .Pages }}
+            {{ if eq .Path "/stack_reports" }}
+              {{ $pages = .Pages.Reverse }}
+            {{ end }}
+            
+            {{ range $pages }}
               {{ if .Params.archived }}
                 {{ continue }}
               {{ end }}
-              <li><a href="{{ .RelPermalink }}">{{ .Title }}</li>
+              <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ end }}
             </ul>
         </section>
