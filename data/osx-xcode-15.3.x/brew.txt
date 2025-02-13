@@ -131,6 +131,7 @@ screen 4.9.1
 shared-mime-info 2.4
 snappy 1.1.10
 sonar-scanner 5.0.1.3006
+sourcery 2.2.6
 sqlite 3.46.0
 stoken 0.93
 swift-format 509.0.0
@@ -148,6 +149,7 @@ wget 1.21.4
 x265 3.5
 xcbeautify 1.6.0
 xclogparser 0.2.38
+xcodegen 2.42.0
 xcodes 1.4.1
 xorgproto 2023.2
 xz 5.6.0
