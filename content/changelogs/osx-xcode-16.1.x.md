@@ -14,6 +14,18 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-02-13` (released on 2025-02-17)
+
+- [Sourcery](https://github.com/krzysztofzablocki/Sourcery)is now preinstalled.
+- Minor and patch tool version upgrades:
+  - Ruby `3.2.5` -> `3.2.6` (note: `3.2.5` is kept installed for one more release)
+  - Ruby `3.3.5` -> `3.3.7` (note: `3.3.5` is kept installed for one more release)
+  - Node.js `20.17.0` -> `20.18.1`
+  - Node.js `22.9.0` -> `22.13.0`
+  - Go `1.22.7` -> `1.22.11`
+  - Python `3.12.6` -> `3.12.8`
+- Node.js `corepack` has been upgraded to `0.31.0` in order to fix [this issue](https://github.com/nodejs/corepack/issues/612)
+
 ### Stack update `v2024-12-11`
 
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) CLI is now preinstalled
