@@ -4,25 +4,46 @@
     "output": {
       "items": [
         {
-          "name": "Ruby version",
+          "name": "Ruby versions",
           "category": "languages",
-          "version": "3.3.5",
-          "raw_output": "ruby 3.3.5 (2024-09-03 revision ef084cc8f4) [x86_64-linux]",
-          "executed_command": "ruby --version"
+          "version": "",
+          "raw_output": "3\n  3.1\n  3.1.6\n  3.2\n  3.2.5\n *3.3\n  3.3.5",
+          "executed_command": "asdf list ruby"
         },
         {
-          "name": "Go version",
+          "name": "Ruby version aliases",
           "category": "languages",
-          "version": "1.21.13",
-          "raw_output": "go version go1.21.13 linux/amd64",
-          "executed_command": "go version"
+          "version": "",
+          "raw_output": "3 =\u003e 3.3.5\n3.1 =\u003e 3.1.6\n3.2 =\u003e 3.2.5\n3.3 =\u003e 3.3.5",
+          "executed_command": "asdf alias ruby --list"
         },
         {
-          "name": "Node.js version",
+          "name": "Go versions",
           "category": "languages",
-          "version": "20.17.0",
-          "raw_output": "v20.17.0",
-          "executed_command": "node --version"
+          "version": "",
+          "raw_output": "1\n *1.21\n  1.21.13\n  1.22\n  1.22.7",
+          "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Go version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1 =\u003e 1.22.7\n1.21 =\u003e 1.21.13\n1.22 =\u003e 1.22.7",
+          "executed_command": "asdf alias golang --list"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "18.20",
+          "raw_output": "18\n  18.20\n  18.20.4\n *20\n  20.17\n  20.17.0\n  21\n  21.7\n  21.7.3\n  lts",
+          "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Node.js version aliases",
+          "category": "languages",
+          "version": "18.20.4",
+          "raw_output": "18 =\u003e 18.20.4\n18.20 =\u003e 18.20.4\n20 =\u003e 20.17.0\n20.17 =\u003e 20.17.0\n21 =\u003e 21.7.3\n21.7 =\u003e 21.7.3\nlts =\u003e 20",
+          "executed_command": "asdf alias nodejs --list"
         },
         {
           "name": "Java versions",
@@ -32,11 +53,18 @@
           "executed_command": "update-alternatives --query java | sed -n '/Alternative:/p' | grep -Eo 'java-[0-9]+-openjdk' | awk -v current=\"$(update-alternatives --query java | awk '/Value:/{print $2}' | grep -Eo 'java-[0-9]+-openjdk')\" 'BEGIN{OFS=\"  \"} {if ($0 == current) {print \"*\" $0} else {print \" \" $0}}'"
         },
         {
-          "name": "Python version",
+          "name": "Python versions",
           "category": "languages",
-          "version": "3.12.7",
-          "raw_output": "Python 3.12.7",
-          "executed_command": "python --version"
+          "version": "",
+          "raw_output": "3\n  3.12\n  3.12.6\n *3.12.7",
+          "executed_command": "asdf list python"
+        },
+        {
+          "name": "Python version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.12.6\n3.12 =\u003e 3.12.6",
+          "executed_command": "asdf alias python --list"
         },
         {
           "name": "Kotlin",
