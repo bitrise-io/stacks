@@ -3677,15 +3677,15 @@
       ]
     },
     {
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime",
-      "buildversion" : "22N840",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N895\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.3.simruntime",
+      "buildversion" : "22N895",
       "platform" : "xrOS",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N840\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.2.simruntime\/Contents\/Resources\/RuntimeRoot",
-      "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-2",
-      "version" : "2.2",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22N895\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.3.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-3",
+      "version" : "2.3",
       "isInternal" : false,
       "isAvailable" : true,
-      "name" : "visionOS 2.2",
+      "name" : "visionOS 2.3",
       "supportedDeviceTypes" : [
         {
           "bundlePath" : "\/Applications\/Xcode-16.1.0.app\/Contents\/Developer\/Platforms\/XROS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Vision Pro.simdevicetype",
@@ -4089,12 +4089,12 @@
         "name" : "Apple Vision Pro"
       }
     ],
-    "com.apple.CoreSimulator.SimRuntime.xrOS-2-2" : [
+    "com.apple.CoreSimulator.SimRuntime.xrOS-2-3" : [
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/516CBC7B-65DE-4F19-91F1-CD006645D323\/data",
         "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
-        "udid" : "B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/516CBC7B-65DE-4F19-91F1-CD006645D323",
+        "udid" : "516CBC7B-65DE-4F19-91F1-CD006645D323",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
         "state" : "Shutdown",
@@ -4183,6 +4183,19 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
         "state" : "Shutdown",
         "name" : "Apple Watch SE (40mm) (2nd generation)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.xrOS-2-2" : [
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "udid" : "B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "state" : "Shutdown",
+        "name" : "Apple Vision Pro"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.tvOS-18-2" : [
@@ -4877,6 +4890,19 @@
       },
       "state" : "(active, disconnected)"
     },
+    "49FAE813-A4E9-4D9A-80CC-61A0EA3AB38E" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 2 (49mm)",
+        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Plus",
+        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "59130377-E701-4045-89D1-B74EEE3CFFE1" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (42mm)",
@@ -4886,19 +4912,6 @@
       "phone" : {
         "name" : "iPhone 16",
         "udid" : "669D307F-4E07-41EA-ADEE-0786392AFCA5",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "E7E52A41-08F7-4781-8F9D-AF1F2F0F6C71" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 2 (49mm)",
-        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Plus",
-        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -4916,7 +4929,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "8EF283DC-AB9B-4229-8318-3D157707157F" : {
+    "27B08669-1595-4263-A988-0AC0C024B563" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (46mm)",
         "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",

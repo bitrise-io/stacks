@@ -132,6 +132,7 @@ screen 5.0.0
 shared-mime-info 2.4
 snappy 1.2.1
 sonar-scanner 6.1.0.4477
+sourcery 2.2.6
 sqlite 3.46.1
 stoken 0.93
 swift-format 510.1.0
