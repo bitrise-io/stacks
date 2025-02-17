@@ -118,7 +118,7 @@ watchOS 11.1 (11.1 - 22R581) - com.apple.CoreSimulator.SimRuntime.watchOS-11-1
 watchOS 11.2 (11.2 - 22S99) - com.apple.CoreSimulator.SimRuntime.watchOS-11-2
 visionOS 2.0 (2.0 - 22N318) - com.apple.CoreSimulator.SimRuntime.xrOS-2-0
 visionOS 2.1 (2.1 - 22N580) - com.apple.CoreSimulator.SimRuntime.xrOS-2-1
-visionOS 2.2 (2.2 - 22N840) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
+visionOS 2.3 (2.3 - 22N895) - com.apple.CoreSimulator.SimRuntime.xrOS-2-3
 == Devices ==
 -- iOS 15.5 --
     iPhone SE (3rd generation) (1C378962-DEAD-4CF9-92C0-BB7730AC1EEE) (Shutdown) 
@@ -246,8 +246,10 @@ visionOS 2.2 (2.2 - 22N840) - com.apple.CoreSimulator.SimRuntime.xrOS-2-2
     Apple Vision Pro (6DB0A471-C696-4B65-91C5-885C499969D5) (Shutdown) 
 -- visionOS 2.1 --
     Apple Vision Pro (2BECFA21-66E0-4B15-86A9-A5FB8AF64D68) (Shutdown) 
--- visionOS 2.2 --
-    Apple Vision Pro (B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5) (Shutdown) 
+-- visionOS 2.3 --
+    Apple Vision Pro (516CBC7B-65DE-4F19-91F1-CD006645D323) (Shutdown) 
+-- Unavailable: com.apple.CoreSimulator.SimRuntime.xrOS-2-2 --
+    Apple Vision Pro (B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
 57DC87FE-41DE-4845-A995-E96184C9080E (active, disconnected)
     Watch: Apple Watch Series 10 (46mm) (ADDECDFE-ADA9-480D-874A-DFFF7D12F639) (Shutdown)
