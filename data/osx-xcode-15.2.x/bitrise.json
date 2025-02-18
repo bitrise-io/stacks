@@ -27,8 +27,8 @@
         {
           "name": "Bitrise guest agent",
           "category": "bitrise",
-          "version": "1.49.0",
-          "raw_output": "Bitrise Virtualization Guest Agent v1.49.0\n2025/02/14 14:32:29 guest agent shut down",
+          "version": "1.40.7",
+          "raw_output": "Bitrise Virtualization Guest Agent v1.40.7\n2025/02/18 15:06:40 guest agent shut down",
           "executed_command": "/opt/bitrise/virtualization/bin/guest-agent version"
         }
       ],
