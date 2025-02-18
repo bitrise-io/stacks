@@ -3296,10 +3296,10 @@
         "name" : "iPad mini (6th generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CBA93253-BC8F-4531-A638-95C12F3C3A93\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CAB63988-98D6-467B-B59E-F1001E47B4AF\/data",
         "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CBA93253-BC8F-4531-A638-95C12F3C3A93",
-        "udid" : "CBA93253-BC8F-4531-A638-95C12F3C3A93",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CAB63988-98D6-467B-B59E-F1001E47B4AF",
+        "udid" : "CAB63988-98D6-467B-B59E-F1001E47B4AF",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-4th-generation-8GB",
         "state" : "Shutdown",
