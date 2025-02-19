@@ -4877,20 +4877,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "D7A77DF1-EC2B-4205-AFB4-7553D342FD2E" : {
-      "watch" : {
-        "name" : "Apple Watch Series 10 (46mm)",
-        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Pro Max",
-        "udid" : "F30C0F6E-7075-48C8-91CF-1B7406529E1D",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "0168AAA8-2E63-4B65-ACD0-31ACC8ABA3D2" : {
+    "1F1D82B2-57DF-477B-87A0-B894823CD872" : {
       "watch" : {
         "name" : "Apple Watch Ultra 2 (49mm)",
         "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
@@ -4912,6 +4899,19 @@
       "phone" : {
         "name" : "iPhone 16 Pro Max",
         "udid" : "FAB99901-58FC-471D-B5C4-936E62DED4CC",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "59F24A9C-7920-4C25-BDD0-3617A2B2745C" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (46mm)",
+        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Pro Max",
+        "udid" : "F30C0F6E-7075-48C8-91CF-1B7406529E1D",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
