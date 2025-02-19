@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.48.1",
-          "raw_output": "git version 2.48.1",
+          "version": "2.47.1",
+          "raw_output": "git version 2.47.1",
           "executed_command": "git --version"
         },
         {
@@ -20,8 +20,8 @@
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.6.1",
-          "raw_output": "git-lfs/3.6.1 (GitHub; linux amd64; go 1.23.3)",
+          "version": "3.6.0",
+          "raw_output": "git-lfs/3.6.0 (GitHub; linux amd64; go 1.23.1)",
           "executed_command": "git-lfs version"
         },
         {
@@ -35,7 +35,7 @@
           "name": "Yarn",
           "category": "tools",
           "version": "1.22.22",
-          "raw_output": "1.22.22",
+          "raw_output": "! Corepack is about to download https://registry.yarnpkg.com/yarn/-/yarn-1.22.22.tgz\n1.22.22",
           "executed_command": "yarn --version"
         },
         {
@@ -48,15 +48,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.24.5",
-          "raw_output": "aws-cli/2.24.5 Python/3.12.6 Linux/6.8.0-1021-aws exe/x86_64.ubuntu.22",
+          "version": "2.22.12",
+          "raw_output": "aws-cli/2.22.12 Python/3.12.6 Linux/6.8.0-50-generic exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /home/ubuntu/.local/share/pipx/venvs\napps are exposed on your $PATH at /home/ubuntu/.local/bin\nmanual pages are exposed at /home/ubuntu/.local/share/man\n   package poetry 2.0.1, installed using Python 3.12.6\n    - poetry\n   package yamllint 1.35.1, installed using Python 3.12.6\n    - yamllint",
+          "raw_output": "venvs are in /root/.local/share/pipx/venvs\napps are exposed on your $PATH at /root/.local/bin\nmanual pages are exposed at /root/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.12.6\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.31.1",
-          "raw_output": "13.31.1",
+          "version": "13.28.0",
+          "raw_output": "13.28.0",
           "executed_command": "firebase --version"
         },
         {
@@ -90,15 +90,15 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "27.5.1",
-          "raw_output": "Docker version 27.5.1, build 9f9e405",
+          "version": "27.3.1",
+          "raw_output": "Docker version 27.3.1, build ce12230",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "2.32.4",
-          "raw_output": "Docker Compose version v2.32.4",
+          "version": "2.29.7",
+          "raw_output": "Docker Compose version v2.29.7",
           "executed_command": "docker compose version"
         }
       ],
