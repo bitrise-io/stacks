@@ -6,29 +6,36 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.25.1",
-          "raw_output": "git version 2.25.1",
+          "version": "2.48.1",
+          "raw_output": "git version 2.48.1",
           "executed_command": "git --version"
+        },
+        {
+          "name": "GitHub CLI",
+          "category": "tools",
+          "version": "2.61.0",
+          "raw_output": "gh version 2.61.0 (2024-11-07)\nhttps://github.com/cli/cli/releases/tag/v2.61.0",
+          "executed_command": "gh version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "2.9.2",
-          "raw_output": "git-lfs/2.9.2 (GitHub; linux amd64; go 1.13.5)",
+          "version": "3.6.1",
+          "raw_output": "git-lfs/3.6.1 (GitHub; linux amd64; go 1.23.3)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "NPM",
           "category": "tools",
-          "version": "9.8.1",
-          "raw_output": "9.8.1",
+          "version": "10.8.2",
+          "raw_output": "10.8.2",
           "executed_command": "npm --version"
         },
         {
           "name": "Yarn",
           "category": "tools",
-          "version": "0.32",
-          "raw_output": "0.32+git",
+          "version": "1.22.22",
+          "raw_output": "! Corepack is about to download https://registry.yarnpkg.com/yarn/-/yarn-1.22.22.tgz\n1.22.22",
           "executed_command": "yarn --version"
         },
         {
@@ -41,58 +48,58 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "1.33.27",
-          "raw_output": "aws-cli/1.33.27 Python/3.12.3 Linux/5.15.0-1064-aws botocore/1.34.145",
+          "version": "2.24.7",
+          "raw_output": "aws-cli/2.24.7 Python/3.12.6 Linux/6.8.0-1021-aws exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
+        },
+        {
+          "name": "pipx packages",
+          "category": "tools",
+          "version": "",
+          "raw_output": "venvs are in /home/ubuntu/.local/share/pipx/venvs\napps are exposed on your $PATH at /home/ubuntu/.local/bin\nmanual pages are exposed at /home/ubuntu/.local/share/man\n   package yamllint 1.35.1, installed using Python 3.12.6\n    - yamllint",
+          "executed_command": "pipx list"
         },
         {
           "name": "Mercurial",
           "category": "tools",
-          "version": "5.3.1",
-          "raw_output": "Mercurial Distributed SCM (version 5.3.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2020 Matt Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "version": "6.1.1",
+          "raw_output": "Mercurial Distributed SCM (version 6.1.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2022 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
           "executed_command": "hg version"
+        },
+        {
+          "name": "Firebase",
+          "category": "tools",
+          "version": "13.31.1",
+          "raw_output": "13.31.1",
+          "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
-          "version": "8.05",
-          "raw_output": "OpenConnect version v8.05-1\nUsing GnuTLS. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse",
+          "version": "8.20",
+          "raw_output": "OpenConnect version v8.20-1\nUsing GnuTLS 3.7.3. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /usr/share/vpnc-scripts/vpnc-script",
           "executed_command": "openconnect --version"
-        },
-        {
-          "name": "CMake",
-          "category": "tools",
-          "version": "3.16.3",
-          "raw_output": "cmake version 3.16.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
-          "executed_command": "cmake --version"
-        },
-        {
-          "name": "GCC",
-          "category": "tools",
-          "version": "9.4.0",
-          "raw_output": "gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0\nCopyright (C) 2019 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
-          "executed_command": "gcc --version"
-        },
-        {
-          "name": "Clang",
-          "category": "tools",
-          "version": "10.0.0",
-          "raw_output": "clang version 10.0.0-4ubuntu1 \nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin",
-          "executed_command": "clang --version"
-        },
-        {
-          "name": "ImageMagick Convert",
-          "category": "tools",
-          "version": "6.9.10",
-          "raw_output": "Version: ImageMagick 6.9.10-23 Q16 x86_64 20190101 https://imagemagick.org\nCopyright: © 1999-2019 ImageMagick Studio LLC\nLicense: https://imagemagick.org/script/license.php\nFeatures: Cipher DPC Modules OpenMP \nDelegates (built-in): bzlib djvu fftw fontconfig freetype jbig jng jpeg lcms lqr ltdl lzma openexr pangocairo png tiff webp wmf x xml zlib",
-          "executed_command": "convert --version"
         },
         {
           "name": "ShellCheck",
           "category": "tools",
-          "version": "0.7.0",
-          "raw_output": "ShellCheck - shell script analysis tool\nversion: 0.7.0\nlicense: GNU General Public License, version 3\nwebsite: https://www.shellcheck.net",
+          "version": "0.8.0",
+          "raw_output": "ShellCheck - shell script analysis tool\nversion: 0.8.0\nlicense: GNU General Public License, version 3\nwebsite: https://www.shellcheck.net",
           "executed_command": "shellcheck --version"
+        },
+        {
+          "name": "Docker",
+          "category": "tools",
+          "version": "27.5.1",
+          "raw_output": "Docker version 27.5.1, build 9f9e405",
+          "executed_command": "docker --version"
+        },
+        {
+          "name": "Docker Compose",
+          "category": "tools",
+          "version": "2.32.4",
+          "raw_output": "Docker Compose version v2.32.4",
+          "executed_command": "docker compose version"
         }
       ],
       "errors": null
