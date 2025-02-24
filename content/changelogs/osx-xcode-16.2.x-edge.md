@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-02-24`
+
+- Homebrew package upgrades
+- Simulator upgrades after Apple has changed the matching simulators of Xcode 16.2:
+  - iOS `18.2` -> `18.3.1`
+  - visionOS `2.2` -> `2.3`
+
 ### Stack update `v2025-01-27`  (released 2025-02-03)
 
 - Homebrew package upgrades
