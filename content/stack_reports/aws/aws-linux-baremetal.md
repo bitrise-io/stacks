@@ -2,7 +2,7 @@
 title: Linux bare metal AMI
 summary: "Bitrise on AWS: bare-metal Linux stack"
 type: stack_reports_aws
-aws_url: "https://aws.amazon.com/marketplace/pp/prodview-m66b4krh3qe2c"
+aws_url: "https://aws.amazon.com/marketplace/pp/prodview-7h5yynaygkhls"
 platform: Linux
 ---
 
