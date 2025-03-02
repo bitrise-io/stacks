@@ -2,7 +2,7 @@ Installed packages:
   Path                                        | Version       | Description                                | Location                                   
   -------                                     | -------       | -------                                    | -------                                    
   build-tools;34.0.0                          | 34.0.0        | Android SDK Build-Tools 34                 | build-tools/34.0.0                         
-  emulator                                    | 35.3.11       | Android Emulator                           | emulator                                   
+  emulator                                    | 35.3.12       | Android Emulator                           | emulator                                   
   ndk;26.1.10909125                           | 26.1.10909125 | NDK (Side by side) 26.1.10909125           | ndk/26.1.10909125                          
   platform-tools                              | 35.0.2        | Android SDK Platform-Tools                 | platform-tools                             
   platforms;android-33                        | 3             | Android SDK Platform 33                    | platforms/android-33                       
