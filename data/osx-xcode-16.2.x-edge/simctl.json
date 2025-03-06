@@ -453,6 +453,39 @@
     },
     {
       "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (A16).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-A16",
+      "modelIdentifier" : "iPad15,7",
+      "minRuntimeVersionString" : "18.3.0",
+      "minRuntimeVersion" : 1180416,
+      "name" : "iPad (A16)"
+    },
+    {
+      "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 13-inch (M3).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M3",
+      "modelIdentifier" : "iPad15,5",
+      "minRuntimeVersionString" : "18.3.0",
+      "minRuntimeVersion" : 1180416,
+      "name" : "iPad Air 13-inch (M3)"
+    },
+    {
+      "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 11-inch (M3).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M3",
+      "modelIdentifier" : "iPad15,3",
+      "minRuntimeVersionString" : "18.3.0",
+      "minRuntimeVersion" : 1180416,
+      "name" : "iPad Air 11-inch (M3)"
+    },
+    {
+      "productFamily" : "iPad",
       "bundlePath" : "\/Applications\/Xcode-16.2.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 11-inch (M2).simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -2681,6 +2714,24 @@
           "productFamily" : "iPad"
         },
         {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad (A16).simdevicetype",
+          "name" : "iPad (A16)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-A16",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 13-inch (M3).simdevicetype",
+          "name" : "iPad Air 13-inch (M3)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M3",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 11-inch (M3).simdevicetype",
+          "name" : "iPad Air 11-inch (M3)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M3",
+          "productFamily" : "iPad"
+        },
+        {
           "bundlePath" : "\/Applications\/Xcode-16.2.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Air 11-inch (M2).simdevicetype",
           "name" : "iPad Air 11-inch (M2)",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
@@ -2827,7 +2878,7 @@
       "isAvailable" : true,
       "version" : "18.4",
       "isInternal" : false,
-      "buildversion" : "22E5200m",
+      "buildversion" : "22E5216h",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -2843,6 +2894,12 @@
           "bundlePath" : "\/Applications\/Xcode-16.2.0.app\/Contents\/Developer\/Platforms\/iPhoneOS.platform\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 16 Pro Max.simdevicetype",
           "name" : "iPhone 16 Pro Max",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 16e.simdevicetype",
+          "name" : "iPhone 16e",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16e",
           "productFamily" : "iPhone"
         },
         {
@@ -3160,8 +3217,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-4",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22E5200m\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22E5200m\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22E5216h\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22E5216h\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -3361,7 +3418,7 @@
       "isAvailable" : true,
       "version" : "18.4",
       "isInternal" : false,
-      "buildversion" : "22L5218l",
+      "buildversion" : "22L5234e",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -3412,8 +3469,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-4",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5218l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5218l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5234e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5234e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -3868,7 +3925,7 @@
       "isAvailable" : true,
       "version" : "11.4",
       "isInternal" : false,
-      "buildversion" : "22T5212l",
+      "buildversion" : "22T5228e",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -3961,8 +4018,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-4",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5212l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5212l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5228e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5228e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -4048,7 +4105,7 @@
       "isAvailable" : true,
       "version" : "2.4",
       "isInternal" : false,
-      "buildversion" : "22O5199n",
+      "buildversion" : "22O5215f",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -4062,8 +4119,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-4",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5199n\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5199n\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5215f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5215f\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -4597,6 +4654,16 @@
         "name" : "iPhone 16 Pro Max"
       },
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F45A45F9-6E52-48F7-8054-8B8DE2B7CA21\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F45A45F9-6E52-48F7-8054-8B8DE2B7CA21",
+        "udid" : "F45A45F9-6E52-48F7-8054-8B8DE2B7CA21",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16e",
+        "state" : "Shutdown",
+        "name" : "iPhone 16e"
+      },
+      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/24EE553D-60E5-4F0F-B4ED-30697DBE6A2B\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/24EE553D-60E5-4F0F-B4ED-30697DBE6A2B",
@@ -4789,6 +4856,46 @@
         "name" : "iPad Pro 13-inch (M4)"
       },
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4E8EA793-10D7-4323-B402-EC4DC4FAD29D\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4E8EA793-10D7-4323-B402-EC4DC4FAD29D",
+        "udid" : "4E8EA793-10D7-4323-B402-EC4DC4FAD29D",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+        "state" : "Shutdown",
+        "name" : "iPad mini (A17 Pro)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/ED08E6BB-A4CA-4752-90CA-2CC91E0C9361\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/ED08E6BB-A4CA-4752-90CA-2CC91E0C9361",
+        "udid" : "ED08E6BB-A4CA-4752-90CA-2CC91E0C9361",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-A16",
+        "state" : "Shutdown",
+        "name" : "iPad (A16)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2B19AA7C-BE9C-4BFE-82C2-662F130B41FF\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2B19AA7C-BE9C-4BFE-82C2-662F130B41FF",
+        "udid" : "2B19AA7C-BE9C-4BFE-82C2-662F130B41FF",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M3",
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M3)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5D9785C8-B72A-4C51-91FE-745D532DE9D7\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5D9785C8-B72A-4C51-91FE-745D532DE9D7",
+        "udid" : "5D9785C8-B72A-4C51-91FE-745D532DE9D7",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M3",
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M3)"
+      },
+      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2C9889E3-0D9F-4D42-BA41-B6F8E52AD75B\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2C9889E3-0D9F-4D42-BA41-B6F8E52AD75B",
@@ -4807,16 +4914,6 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
         "state" : "Shutdown",
         "name" : "iPad Air 13-inch (M2)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4E8EA793-10D7-4323-B402-EC4DC4FAD29D\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4E8EA793-10D7-4323-B402-EC4DC4FAD29D",
-        "udid" : "4E8EA793-10D7-4323-B402-EC4DC4FAD29D",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
-        "state" : "Shutdown",
-        "name" : "iPad mini (A17 Pro)"
       },
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BEA485C7-CAB0-432C-ADEC-3B13817F254A\/data",
