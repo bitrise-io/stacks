@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-03-06`
+
+- [Xcode 16.3 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes) replaces Beta 1
+- Android SDK Platform 35 (`platforms;35`) is now preinstalled
+- Homebrew package upgrades
+
 ### Stack update `v2025-02-24`
 
 Initial release of the stack with [Xcode 16.3 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes).

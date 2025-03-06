@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-03-06`
+
+- Android SDK Platform 35 (`platforms;35`) is now preinstalled
+- Homebrew package upgrades
+
 ### Stack update `v2025-02-24`
 
 - Homebrew package upgrades
