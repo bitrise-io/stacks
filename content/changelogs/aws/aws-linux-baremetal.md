@@ -29,8 +29,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - **Ruby**
   - **Available Versions:**
-    - 3.1.6 (previously 3.1)
-    - 3.2.5 (previously 3.2)
+    - 3.1.6
+    - 3.2.5
     - **3.3.5** (latest, marked as default)
   - **Version Aliases:**
     - `3` ➜ 3.3.5
@@ -42,7 +42,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
   - **Available Versions:**
     - **1.21** (marked as default)
     - 1.21.13
-    - 1.22.7 (previously 1.22)
+    - 1.22.7
   - **Version Aliases:**
     - `1` ➜ 1.22.7
     - `1.21` ➜ 1.21.13
@@ -51,8 +51,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 - **Node.js**
   - **Available Versions:**
     - **20.17.0** (marked as default)
-    - 18.20.4 (previously 18)
-    - 21.7.3 (latest for version 21)
+    - 18.20.4
+    - 21.7.3
   - **Version Aliases:**
     - `18` ➜ 18.20.4
     - `20` ➜ 20.17.0
@@ -75,7 +75,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - **Kotlin**
   - **Available Version:**
-    - Kotlin version **2.0.0-release-341** with JRE 17.0.14 (latest)
+    - Kotlin version **2.0.0-release-341**
 
 ### Stack update `2024w30`
 
