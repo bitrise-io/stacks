@@ -48,8 +48,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.24.7",
-          "raw_output": "aws-cli/2.24.7 Python/3.12.6 Linux/6.8.0-1021-aws exe/x86_64.ubuntu.22",
+          "version": "2.24.21",
+          "raw_output": "aws-cli/2.24.21 Python/3.12.9 Linux/6.8.0-1024-aws exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.31.1",
-          "raw_output": "13.31.1",
+          "version": "13.33.0",
+          "raw_output": "13.33.0",
           "executed_command": "firebase --version"
         },
         {
@@ -90,15 +90,15 @@
         {
           "name": "Docker",
           "category": "tools",
-          "version": "27.5.1",
-          "raw_output": "Docker version 27.5.1, build 9f9e405",
+          "version": "28.0.1",
+          "raw_output": "Docker version 28.0.1, build 068a01e",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "2.32.4",
-          "raw_output": "Docker Compose version v2.32.4",
+          "version": "2.33.1",
+          "raw_output": "Docker Compose version v2.33.1",
           "executed_command": "docker compose version"
         }
       ],
