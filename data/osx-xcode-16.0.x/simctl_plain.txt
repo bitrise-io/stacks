@@ -192,7 +192,7 @@ visionOS 2.3 (2.3 - 22N895) - com.apple.CoreSimulator.SimRuntime.xrOS-2-3
     iPad Air 13-inch (M2) (7291957F-8CCF-4039-92B0-5BEF6166407A) (Shutdown) 
     iPad mini (A17 Pro) (5A73D5E0-6BD3-4E63-B5DB-658B60417FF9) (Shutdown) 
     iPad (10th generation) (47962A2F-38D8-4529-BA54-DF44897C4936) (Shutdown) 
-    iPad mini (6th generation) (DA9E4D81-DDF4-4563-BC04-6753BDB8A4AE) (Shutdown) 
+    iPad mini (6th generation) (FAC22417-0999-400A-B1D1-429B81E3A370) (Shutdown) 
 -- iOS 18.2 --
     iPhone 16 Pro (C5489B16-E259-4C7B-8DC6-D1D643A7D96F) (Shutdown) 
     iPhone 16 Pro Max (FAB99901-58FC-471D-B5C4-936E62DED4CC) (Shutdown) 
@@ -207,7 +207,7 @@ visionOS 2.3 (2.3 - 22N895) - com.apple.CoreSimulator.SimRuntime.xrOS-2-3
     iPad Air 13-inch (M2) (81996136-0F67-4E1A-80EF-E220439F2BB9) (Shutdown) 
     iPad mini (A17 Pro) (2F5BE478-C3C5-4B22-B312-EB2A8D056741) (Shutdown) 
     iPad (10th generation) (DB134AA4-E95A-46C4-8A21-2024B08F22F8) (Shutdown) 
-    iPad mini (6th generation) (475AA511-DA16-4B71-99D0-ED4C533E74A7) (Shutdown) 
+    iPad mini (6th generation) (7DB1D5BE-5BEA-41D9-A419-511377C56925) (Shutdown) 
 -- tvOS 18.0 --
     Apple TV 4K (3rd generation) (6DB80F1E-D1B9-4E3F-AB52-9EA860454375) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (C0432AD7-B2C5-4953-B89D-F6C4C232AE9D) (Shutdown) 
