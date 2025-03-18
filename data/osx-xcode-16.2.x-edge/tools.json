@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.48.1",
-          "raw_output": "git version 2.48.1",
+          "version": "2.49.0",
+          "raw_output": "git version 2.49.0",
           "executed_command": "git --version"
         },
         {
@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.68.0",
-          "raw_output": "gh version 2.68.0 (2025-03-05)\nhttps://github.com/cli/cli/releases/tag/v2.68.0",
+          "version": "2.68.1",
+          "raw_output": "gh version 2.68.1 (2025-03-06)\nhttps://github.com/cli/cli/releases/tag/v2.68.1",
           "executed_command": "gh --version"
         },
         {
@@ -34,8 +34,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.24.18",
-          "raw_output": "aws-cli/2.24.18 Python/3.12.9 Darwin/24.2.0 source/arm64",
+          "version": "2.24.25",
+          "raw_output": "aws-cli/2.24.25 Python/3.12.9 Darwin/24.3.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "13.32.0",
-          "raw_output": "13.32.0",
+          "version": "13.34.0",
+          "raw_output": "13.34.0",
           "executed_command": "firebase --version"
         },
         {
