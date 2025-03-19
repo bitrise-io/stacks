@@ -131,7 +131,7 @@ pinentry 1.3.1_1
 pipx 1.7.1_1
 pixman 0.44.2
 pkcs11-helper 1.30.0
-pkgconf 2.3.0_1
+pkgconf 2.4.3
 pycparser 2.22_1
 python-packaging 24.2
 python-setuptools 76.0.0
@@ -141,7 +141,7 @@ python@3.13 3.13.2
 rbenv 1.3.2
 readline 8.2.13
 rtmpdump 2.4-20151223_3
-ruby-build 20250215
+ruby-build 20250318
 screen 5.0.0
 shared-mime-info 2.4
 snappy 1.2.1
