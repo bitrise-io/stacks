@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-03-18`
+
+- [Xcode 16.3 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes) replaces Beta 2
+- Note: the simulator runtime of `visionOS 2.4 beta 4` is not installed as download currently fails with Xcode Beta 3 (Radar: `FB16927952`)
+- The pre-configured git user details are now `Bitrise CI` (`git config user.name`) and `noreply@bitrise.io` (`git config user.email`)
+- Homebrew package upgrades
+
 ### Stack update `v2025-03-06`
 
 - [Xcode 16.3 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes) replaces Beta 1
