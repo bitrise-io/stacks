@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-03-25`
+
+- Homebrew package upgrades
+
 ### Stack update `v2025-03-18`
 
 - The pre-configured git user details are now `Bitrise CI` (`git config user.name`) and `noreply@bitrise.io` (`git config user.email`)

@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-03-25`
+
+- [Xcode 16.3 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes) replaces Beta 3
+- Homebrew package upgrades
+
 ### Stack update `v2025-03-18`
 
 - [Xcode 16.3 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes) replaces Beta 2
