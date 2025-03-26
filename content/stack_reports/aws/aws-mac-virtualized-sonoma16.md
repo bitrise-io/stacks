@@ -10,9 +10,16 @@ cloud: aws
 This AMI contains the following VM image: `Ssonoma16_V2-77-1`
 
 See the system report of the VM image [here](../osx-xcode-16.0.x.md).
-See the system report of the VM image [here](../osx-xcode-16.1.x.md).
 
 Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2024W47-sonoma16` to get the specific VM image listed here.
 
-AMI ID (us-east-1):    `ami-0fb449b195681b330`
-AMI ID (eu-central-1): `ami-0e265b155cf5a68bd`
+| Region         | AMI ID                  |
+| ---------------| ----------------------- |
+| ap-southeast-1 | `ami-02d960b3c99b92d38` |
+| ap-southeast-2 | `ami-06d9b4c6bb76210c3` |
+| eu-central-1   | `ami-0a6df45dd2734e886` |
+| eu-west-1      | `ami-07b9d241f5f674c0b` |
+| us-east-1      | `ami-0fb449b195681b330` |
+| us-east-2      | `ami-0391abd4564aab622` |
+| us-west-2      | `ami-00ce4badf7bdd35a9` |
+| ca-central-1   | `ami-043f55c074a7d67c4` |

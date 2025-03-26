@@ -6,7 +6,7 @@ type: basic_page
 
 This AMI listing has multiple actively updated versions:
 
-- [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16edge.md)
+- [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md)
 - [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md)
 - [macOS Ventura with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-ventura15.md)
 
