@@ -14,7 +14,7 @@
           "name": "Linux kernel version",
           "category": "os",
           "version": "6.8.0",
-          "raw_output": "6.8.0-50-generic",
+          "raw_output": "6.8.0-52-generic",
           "executed_command": "uname -r"
         },
         {
@@ -35,7 +35,7 @@
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.10, OpenSSL 3.0.2 15 Mar 2022",
+          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.11, OpenSSL 3.0.2 15 Mar 2022",
           "executed_command": "ssh -V"
         }
       ],
