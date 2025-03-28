@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2025-03-26` (release 2025-03-28)
+
+- Android SDK `build-tools` package upgrade: `34.0.0` -> `35.0.1`
+- Android emulator upgrade: `35.2.10` -> `35.4.9`
+- Ubuntu package upgrades
+
 ### Stack update `v2024-12-06` (released 2024-12-10)
 
 - Ubuntu package upgrades
