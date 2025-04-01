@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 16.1, with more frequent tool updat
 platform: macOS
 xcode: "16.1"
 flavor: edge
-weight: 20
+weight: 21
 ---
 
 ## Languages and runtimes
