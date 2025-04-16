@@ -35,10 +35,12 @@ Added the initial version stable stack [macOS Sequoia with Xcode 16.3](../../sta
 
 ### AMI version `2025W14-sonoma16`
 
-Added the initial version stable stack [macOS Sonoma with Xcode 16.0-16.2](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md) with the following Xcode versions:
+This is an update of the previous version (`2024W47-sonoma16`) with the following Xcode versions:
 - Xcode 16.0
 - Xcode 16.1
 - Xcode 16.2
+
+For more details, see [the changelog of the Xcode 16.x stack](../../osx-xcode-16.0.x.md).
 
 #### AMIs by Region
 
