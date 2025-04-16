@@ -19,7 +19,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### AMI version `2025W16-sequoia16`
 
-Added the initial version stable stack [macOS Sequoia with Xcode 16.3](../../stack_reports/aws/aws-mac-virtualized-sequoia16.md) with the following Xcode versions:
+Initial version of the [macOS Sequoia-based stack](../../stack_reports/aws/aws-mac-virtualized-sequoia16.md) with the following Xcode versions:
 - Xcode 16.3
 
 #### AMIs by Region
