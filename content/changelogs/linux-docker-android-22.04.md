@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2025-04-23` (release 2025-04-24)
+
+- Android SDK `build-tools` package additional preinstalled version: `35.0.0`
+- Node.js additional preinstalled version: `22.14.0`
+- Ubuntu package upgrades
+
 ### Stack update `v2025-03-26` (release 2025-03-28)
 
 - Android SDK `build-tools` package upgrade: `34.0.0` -> `35.0.1`
