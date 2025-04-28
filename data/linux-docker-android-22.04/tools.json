@@ -49,7 +49,7 @@
           "name": "AWS CLI",
           "category": "tools",
           "version": "2.26.7",
-          "raw_output": "aws-cli/2.26.7 Python/3.13.2 Linux/6.8.0-57-generic exe/x86_64.ubuntu.22",
+          "raw_output": "aws-cli/2.26.7 Python/3.13.2 Linux/6.8.0-58-generic exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
@@ -119,7 +119,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 37.3GB\nbitriseio/ubuntu-22-android:pinned - 37.3GB\nbitriseio/ubuntu-22-base:latest - 7.1GB\nbitriseio/ubuntu-22-base:pinned - 7.1GB\nbitriseio/android-ndk-20.04:latest - 48.3GB\nbitriseio/android-ndk-20.04:pinned - 48.3GB\nbitriseio/android-20.04:latest - 45.9GB\nbitriseio/android-20.04:pinned - 45.9GB\nbitriseio/bitrise-base-20.04:latest - 3.7GB\nbitriseio/bitrise-base-20.04:pinned - 3.7GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 37.3GB\nbitriseio/ubuntu-22-android:pinned - 37.3GB\nbitriseio/ubuntu-22-base:latest - 7.1GB\nbitriseio/ubuntu-22-base:pinned - 7.1GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         }
       ],

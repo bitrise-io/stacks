@@ -14,7 +14,7 @@
           "name": "Linux kernel version",
           "category": "os",
           "version": "6.8.0",
-          "raw_output": "6.8.0-57-generic",
+          "raw_output": "6.8.0-58-generic",
           "executed_command": "uname -r"
         },
         {
@@ -28,7 +28,7 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       267G   92G  175G  35% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       267G   46G  222G  17% /bitrise",
           "executed_command": "df -kh /bitrise/src"
         },
         {
