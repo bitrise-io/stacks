@@ -6,8 +6,8 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "35.3.11",
-          "raw_output": "Pkg.Revision=35.3.11",
+          "version": "35.4.9",
+          "raw_output": "Pkg.Revision=35.4.9",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         }
       ],
