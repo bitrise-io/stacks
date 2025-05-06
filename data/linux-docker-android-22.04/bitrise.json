@@ -6,8 +6,8 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.13.1",
-          "raw_output": "2.13.1",
+          "version": "2.31.0",
+          "raw_output": "2.31.0",
           "executed_command": "bitrise --version"
         },
         {
@@ -20,8 +20,8 @@
         {
           "name": "Bitrise envman",
           "category": "bitrise",
-          "version": "2.4.3",
-          "raw_output": "2.4.3",
+          "version": "2.5.3",
+          "raw_output": "2.5.3",
           "executed_command": "envman --version"
         }
       ],
