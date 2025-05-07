@@ -7,7 +7,7 @@
           "name": "Global NPM packages",
           "category": "npm",
           "version": "",
-          "raw_output": "/root/.asdf/installs/nodejs/20.17.0/lib\n├── @ionic/cli@7.2.1\n├── appcenter-cli@3.0.4\n├── cordova@12.0.0\n├── corepack@0.29.3\n├── firebase-tools@14.2.0\n├── npm@10.8.2\n└── openupm-cli@4.5.1",
+          "raw_output": "/root/.asdf/installs/nodejs/20.17.0/lib\n├── @ionic/cli@7.2.1\n├── appcenter-cli@3.0.4\n├── cordova@12.0.0\n├── corepack@0.29.3\n├── firebase-tools@14.2.2\n├── npm@10.8.2\n└── openupm-cli@4.5.1",
           "executed_command": "npm list -g --depth=0"
         }
       ],
