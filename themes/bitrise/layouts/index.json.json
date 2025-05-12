@@ -4,7 +4,7 @@
     {{- $section := .Key }}
     {{- $pagesOutput := slice }}
     {{- range .Pages }}
-        {{- $pageOutput := dict "title" .Title "path" .Path "updated_at" .Date  }}
+        {{- $pageOutput := dict "title" .Title "path" .Path "updated_at" .Date "archived" (default false .Params.archived) }}
         {{- if eq $section "stack_reports" }}
             {{- $stackMeta := dict "stack_id" .File.BaseFileName "flavor" .Params.flavor "xcode" .Params.xcode "platform" .Params.platform "cloud" .Params.cloud }}
             {{- $pageOutput = merge $pageOutput (dict "stack_meta" $stackMeta)}}
