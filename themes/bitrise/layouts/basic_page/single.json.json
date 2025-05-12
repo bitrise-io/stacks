@@ -2,5 +2,6 @@
     "title": {{ .Title | jsonify }},
     "summary": {{ .Summary | jsonify }},
     "updated_at": {{ .Date | jsonify }},
-    "content_html": {{ .Content | jsonify }}
+    "content_html": {{ .Content | jsonify }},
+    "archived": {{ default false .Params.archived }}
 }

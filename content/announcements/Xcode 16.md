@@ -1,6 +1,9 @@
 ---
 title: Xcode 16 is coming with major stack changes
 type: basic_page
+params:
+  archived: true
+bookHidden: true
 ---
 
 According to our [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html), the release of stable Xcode 16 means we'll be transitioning our current Edge stack (with Xcode 16 Beta) to a new Stable stack. There are some breaking changes compared to older Stable stacks, so we collected those below, grouped into categories per platform.
