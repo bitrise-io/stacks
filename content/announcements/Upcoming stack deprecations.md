@@ -6,7 +6,7 @@ tags: []
 # DO update this date when adding a new stack deprecation
 # DON'T update when archiving one or making other minor changes because we
 # want to avoid an RSS feed update for unimportant changes
-date: 2024-09-19
+date: 2025-05-12
 ---
 
 Stacks are not kept forever, older stacks are eventually marked for removal. You can read more about this in our [stack deprecation and removal policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-deprecation-and-removal-policy.html).
@@ -21,7 +21,9 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 
 | Stack ID                             | Deprecated from | Removed after | Automatic migration to           |
 | ------------------------------------ | --------------- | ------------- | -------------------------------- |
-| **linux-docker-android-20.04**       | 2024-08-01      | 2025-04-02    | linux-docker-android-22.04       |
+| **osx-xcode-14.1.x-ventura**         | June* 2025      | Sept* 2025    | osx-xcode-15.0.x                 |
+| **osx-xcode-14.2.x-ventura**         | June* 2025      | Sept* 2025    | osx-xcode-15.0.x                 |
+| **osx-xcode-14.3.x-ventura**         | June* 2025      | Sept* 2025    | osx-xcode-15.0.x                 |
 
 *Exact date to be announced
 
@@ -41,3 +43,4 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 | **osx-xcode-14.0.x-ventura**         | 2024-02-21      | 2024-03-20    | osx-xcode-14.3.x-ventura         |
 | **osx-xcode-14.0.x-ventura-rosetta** | 2024-02-21      | 2024-03-20    | osx-xcode-14.2.x-ventura-rosetta |
 | **osx-xcode-14.1.x-ventura-rosetta** | 2024-02-21      | 2024-03-20    | osx-xcode-14.2.x-ventura-rosetta |
+| **linux-docker-android-20.04**       | 2024-08-01      | 2025-04-02    | linux-docker-android-22.04       |
