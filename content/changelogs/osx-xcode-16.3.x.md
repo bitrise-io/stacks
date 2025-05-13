@@ -16,7 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2025-05-09` (released 2025-05-13)
 
-macOS upgrade from `15.2` to `15.4.1`, in anticipation for Xcode 16.4, which is going to require macOS 15.3+.
+macOS upgrade from `15.2` to `15.4.1`, in anticipation for Xcode 16.4, which requires macOS 15.3+.
 
 ### Stack update `v2025-04-01`
 
