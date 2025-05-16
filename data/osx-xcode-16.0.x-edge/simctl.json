@@ -3247,7 +3247,7 @@
       "isAvailable" : true,
       "version" : "18.5",
       "isInternal" : false,
-      "buildversion" : "22F5067a",
+      "buildversion" : "22F77",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -3604,8 +3604,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-5",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F5067a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F5067a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F77\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F77\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -3868,7 +3868,7 @@
       "isAvailable" : true,
       "version" : "18.5",
       "isInternal" : false,
-      "buildversion" : "22L5565a",
+      "buildversion" : "22L572",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -3919,8 +3919,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-18-5",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5565a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L5565a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L572\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.5.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_22L572\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 18.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -4480,7 +4480,7 @@
       "isAvailable" : true,
       "version" : "11.5",
       "isInternal" : false,
-      "buildversion" : "22T5566a",
+      "buildversion" : "22T572",
       "supportedArchitectures" : [
         "arm64",
         "x86_64"
@@ -4573,8 +4573,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-5",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5566a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T5566a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T572\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.5.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T572\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
@@ -4685,7 +4685,7 @@
       "isAvailable" : true,
       "version" : "2.5",
       "isInternal" : false,
-      "buildversion" : "22O5467a",
+      "buildversion" : "22O473",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -4699,8 +4699,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-2-5",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5467a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O5467a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O473\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.5.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_22O473\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 2.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
