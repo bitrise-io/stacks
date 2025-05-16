@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-05-16`
+
+- [Xcode 16.4 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_4-release-notes) replaces 16.4 Beta 1.
+- Homebrew package upgrades
+
+
 ### Stack update `v2025-04-29`
 
 Initial release of the stack with [Xcode 16.4 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-16_4-release-notes).
