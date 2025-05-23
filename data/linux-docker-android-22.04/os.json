@@ -13,8 +13,8 @@
         {
           "name": "Linux kernel version",
           "category": "os",
-          "version": "6.8.0",
-          "raw_output": "6.8.0-58-generic",
+          "version": "5.15.0",
+          "raw_output": "5.15.0-138-generic",
           "executed_command": "uname -r"
         },
         {
@@ -28,14 +28,14 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/root       267G   46G  222G  17% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       267G   44G  224G  17% /bitrise",
           "executed_command": "df -kh /bitrise/src"
         },
         {
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.11, OpenSSL 3.0.2 15 Mar 2022",
+          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.13, OpenSSL 3.0.2 15 Mar 2022",
           "executed_command": "ssh -V"
         }
       ],
