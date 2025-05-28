@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-05-27` (released on 2025-05-28)
+- Minor and patch tool version upgrades:
+  - Ruby `3.2.5` — removed in favor of `3.2.6`
+  - Ruby `3.3.5` — removed in favor of `3.3.7`
+
 ### Stack update `v2025-02-13` (released on 2025-02-17)
 
 - [Sourcery](https://github.com/krzysztofzablocki/Sourcery)is now preinstalled.
