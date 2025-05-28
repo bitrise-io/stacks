@@ -1,17 +1,13 @@
-    
-    
-2to3 Sep 13 10:35:01 2024
-2to3-3.11 Sep 13 10:33:35 2024
-2to3-3.12 Sep 13 10:35:01 2024
-4channels Sep 13 10:35:46 2024
 Magick++-config Sep 13 10:35:51 2024
 MagickCore-config Sep 13 10:35:51 2024
 MagickWand-config Sep 13 10:35:51 2024
+addgnupghome Sep 13 10:34:39 2024
 animate Sep 13 10:35:51 2024
 annotate Sep 13 11:13:02 2024
 aomdec Sep 13 10:35:41 2024
 aomenc Sep 13 10:35:41 2024
 applesimutils Sep 13 10:33:14 2024
+applygnupgdefaults Sep 13 10:34:39 2024
 argon2 Sep 13 11:12:59 2024
 aria2c Sep 13 10:38:33 2024
 asn1Coding Sep 13 10:34:32 2024
@@ -39,7 +35,7 @@ bdftogd Sep 13 11:13:02 2024
 benchmark_xl Sep 13 10:35:41 2024
 bjoentegaard Sep 13 10:35:41 2024
 bq Sep 13 10:38:22 2024
-brew Feb 13 10:43:07 2025
+brew Apr 4 12:43:06 2025
 brotli Sep 13 10:35:38 2024
 bsqldb Sep 13 11:13:02 2024
 bsqlodbc Sep 13 11:13:02 2024
@@ -437,6 +433,7 @@ odbcinst Sep 13 11:13:01 2024
 onig-config Sep 13 10:35:56 2024
 openconnect Sep 13 10:36:19 2024
 openssl Sep 13 10:33:30 2024
+openvpn Sep 13 10:36:24 2024
 opj_compress Sep 13 10:35:35 2024
 opj_decompress Sep 13 10:35:35 2024
 opj_dump Sep 13 10:35:35 2024
@@ -463,6 +460,7 @@ phar.phar Sep 13 11:13:08 2024
 php Sep 13 11:13:08 2024
 php-cgi Sep 13 11:13:08 2024
 php-config Sep 13 11:13:08 2024
+php-fpm Sep 13 11:13:08 2024
 phpdbg Sep 13 11:13:08 2024
 phpize Sep 13 11:13:08 2024
 pinentry Sep 13 10:34:38 2024
@@ -575,6 +573,12 @@ transicc Sep 13 10:35:14 2024
 tree Sep 13 10:36:57 2024
 trust Sep 13 10:34:33 2024
 tsql Sep 13 11:13:02 2024
+unbound Sep 13 10:34:34 2024
+unbound-anchor Sep 13 10:34:34 2024
+unbound-checkconf Sep 13 10:34:34 2024
+unbound-control Sep 13 10:34:34 2024
+unbound-control-setup Sep 13 10:34:34 2024
+unbound-host Sep 13 10:34:34 2024
 unix-lpr.sh Sep 13 10:35:37 2024
 unlz4 Sep 13 10:35:13 2024
 unlzma Sep 13 10:33:33 2024
@@ -620,6 +624,7 @@ xzgrep Sep 13 10:33:33 2024
 xzless Sep 13 10:33:33 2024
 xzmore Sep 13 10:33:33 2024
 yat2m Sep 13 10:34:37 2024
+yq May 27 12:40:29 2025
 yuv-distortion Sep 13 10:35:41 2024
 zipcmp Sep 13 11:13:05 2024
 zipmerge Sep 13 11:13:05 2024
@@ -629,16 +634,7 @@ zstdcat Sep 13 10:35:13 2024
 zstdgrep Sep 13 10:35:13 2024
 zstdless Sep 13 10:35:13 2024
 zstdmt Sep 13 10:35:13 2024
-    
-    
-    
-addgnupghome Sep 13 10:34:39 2024
-applygnupgdefaults Sep 13 10:34:39 2024
-openvpn Sep 13 10:36:24 2024
-php-fpm Sep 13 11:13:08 2024
-unbound Sep 13 10:34:34 2024
-unbound-anchor Sep 13 10:34:34 2024
-unbound-checkconf Sep 13 10:34:34 2024
-unbound-control Sep 13 10:34:34 2024
-unbound-control-setup Sep 13 10:34:34 2024
-unbound-host Sep 13 10:34:34 2024
+2to3 Sep 13 10:35:01 2024
+2to3-3.11 Sep 13 10:33:35 2024
+2to3-3.12 Sep 13 10:35:01 2024
+4channels Sep 13 10:35:46 2024
