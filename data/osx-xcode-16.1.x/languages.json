@@ -7,7 +7,7 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3.1.6\n  3.1\n  3.2.5\n  3.2.6\n  3.2\n  3.3.5\n  3.3.7\n *3.3\n  3",
+          "raw_output": "3.1.6\n  3.1\n  3.2.6\n  3.2\n  3.3.7\n *3.3\n  3",
           "executed_command": "asdf list ruby"
         },
         {

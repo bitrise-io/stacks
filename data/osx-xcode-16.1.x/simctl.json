@@ -4185,17 +4185,127 @@
         "name" : "Apple Watch SE (40mm) (2nd generation)"
       }
     ],
-    "com.apple.CoreSimulator.SimRuntime.xrOS-2-2" : [
+    "com.apple.CoreSimulator.SimRuntime.iOS-18-3" : [
       {
         "availabilityError" : "runtime profile not found using \"System\" match policy",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
-        "udid" : "B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/449B2EBF-2BD5-4691-8EFC-B7E13D2FFD42\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/449B2EBF-2BD5-4691-8EFC-B7E13D2FFD42",
+        "udid" : "449B2EBF-2BD5-4691-8EFC-B7E13D2FFD42",
         "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro",
         "state" : "Shutdown",
-        "name" : "Apple Vision Pro"
+        "name" : "iPhone 16 Pro"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FECC3439-AB6D-4E06-BA3D-18C0F42B81BC\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FECC3439-AB6D-4E06-BA3D-18C0F42B81BC",
+        "udid" : "FECC3439-AB6D-4E06-BA3D-18C0F42B81BC",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro Max"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2EF785B7-45CC-4C48-A9A7-008337A1D298\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2EF785B7-45CC-4C48-A9A7-008337A1D298",
+        "udid" : "2EF785B7-45CC-4C48-A9A7-008337A1D298",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16",
+        "state" : "Shutdown",
+        "name" : "iPhone 16"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4D13FE0B-0586-4FC4-900C-30E4B08ED276\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4D13FE0B-0586-4FC4-900C-30E4B08ED276",
+        "udid" : "4D13FE0B-0586-4FC4-900C-30E4B08ED276",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Plus"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E0F33132-0317-4437-AEE2-E3A33C08BB8C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E0F33132-0317-4437-AEE2-E3A33C08BB8C",
+        "udid" : "E0F33132-0317-4437-AEE2-E3A33C08BB8C",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
+        "state" : "Shutdown",
+        "name" : "iPhone SE (3rd generation)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F8B353C0-2170-4FE5-842C-BDDAF169B15E\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F8B353C0-2170-4FE5-842C-BDDAF169B15E",
+        "udid" : "F8B353C0-2170-4FE5-842C-BDDAF169B15E",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5040D2C1-A852-404B-AB4C-AF98F596F07F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5040D2C1-A852-404B-AB4C-AF98F596F07F",
+        "udid" : "5040D2C1-A852-404B-AB4C-AF98F596F07F",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FDE45B12-AD7A-486B-9BFF-47257DDC2C5A\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FDE45B12-AD7A-486B-9BFF-47257DDC2C5A",
+        "udid" : "FDE45B12-AD7A-486B-9BFF-47257DDC2C5A",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M2)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/DF387EC0-EAEF-4EF6-AC1B-865C1B43F190\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/DF387EC0-EAEF-4EF6-AC1B-865C1B43F190",
+        "udid" : "DF387EC0-EAEF-4EF6-AC1B-865C1B43F190",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C599221C-C804-4F7E-87A9-4602B1DDFFFD\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C599221C-C804-4F7E-87A9-4602B1DDFFFD",
+        "udid" : "C599221C-C804-4F7E-87A9-4602B1DDFFFD",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+        "state" : "Shutdown",
+        "name" : "iPad mini (A17 Pro)"
+      },
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8B036316-0495-45C1-AC55-DE1F440CB066\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/8B036316-0495-45C1-AC55-DE1F440CB066",
+        "udid" : "8B036316-0495-45C1-AC55-DE1F440CB066",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad (10th generation)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.tvOS-18-2" : [
@@ -4412,6 +4522,19 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
         "state" : "Shutdown",
         "name" : "iPad mini (6th generation)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.xrOS-2-2" : [
+      {
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "udid" : "B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5",
+        "isAvailable" : false,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro",
+        "state" : "Shutdown",
+        "name" : "Apple Vision Pro"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.watchOS-11-0" : [
@@ -4864,20 +4987,20 @@
     ]
   },
   "pairs" : {
-    "6E434F06-BA21-4A32-BA34-A1BAB8435F5F" : {
+    "BF861C7A-CCD4-4D3D-BCCE-5C5AA3DC90CF" : {
       "watch" : {
         "name" : "Apple Watch Ultra 2 (49mm)",
-        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
+        "udid" : "BA2CF840-0580-408C-8631-02A5E31C96DD",
         "state" : "Shutdown"
       },
       "phone" : {
         "name" : "iPhone 16 Plus",
-        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
+        "udid" : "7B8282E1-6A83-4BB6-BDE0-F173EAD48CAE",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
     },
-    "20B60439-AEA8-4118-A3E8-202F8435A0FA" : {
+    "4A91B132-C87F-4B00-9067-F0AF2C8EDBBD" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (46mm)",
         "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
@@ -4903,6 +5026,19 @@
       },
       "state" : "(active, disconnected)"
     },
+    "62EFDE5C-1CD5-4A97-AC0F-236B66720B5C" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 2 (49mm)",
+        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Plus",
+        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "59130377-E701-4045-89D1-B74EEE3CFFE1" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (42mm)",
@@ -4912,19 +5048,6 @@
       "phone" : {
         "name" : "iPhone 16",
         "udid" : "669D307F-4E07-41EA-ADEE-0786392AFCA5",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "BF861C7A-CCD4-4D3D-BCCE-5C5AA3DC90CF" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 2 (49mm)",
-        "udid" : "BA2CF840-0580-408C-8631-02A5E31C96DD",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Plus",
-        "udid" : "7B8282E1-6A83-4BB6-BDE0-F173EAD48CAE",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
