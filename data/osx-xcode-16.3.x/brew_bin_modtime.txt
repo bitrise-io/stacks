@@ -665,6 +665,7 @@ xzgrep Apr 1 07:35:58 2025
 xzless Apr 1 07:35:58 2025
 xzmore Apr 1 07:35:58 2025
 yat2m Apr 1 07:36:31 2025
+yq May 28 10:17:49 2025
 yuv-distortion Apr 1 07:36:59 2025
 zipcmp Apr 1 08:08:56 2025
 zipmerge Apr 1 08:08:56 2025
