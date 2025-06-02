@@ -248,6 +248,18 @@ visionOS 2.3 (2.3 - 22N895) - com.apple.CoreSimulator.SimRuntime.xrOS-2-3
     Apple Vision Pro (2BECFA21-66E0-4B15-86A9-A5FB8AF64D68) (Shutdown) 
 -- visionOS 2.3 --
     Apple Vision Pro (516CBC7B-65DE-4F19-91F1-CD006645D323) (Shutdown) 
+-- Unavailable: com.apple.CoreSimulator.SimRuntime.iOS-18-3 --
+    iPhone 16 Pro (449B2EBF-2BD5-4691-8EFC-B7E13D2FFD42) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 16 Pro Max (FECC3439-AB6D-4E06-BA3D-18C0F42B81BC) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 16 (2EF785B7-45CC-4C48-A9A7-008337A1D298) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 16 Plus (4D13FE0B-0586-4FC4-900C-30E4B08ED276) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone SE (3rd generation) (E0F33132-0317-4437-AEE2-E3A33C08BB8C) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Pro 11-inch (M4) (F8B353C0-2170-4FE5-842C-BDDAF169B15E) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Pro 13-inch (M4) (5040D2C1-A852-404B-AB4C-AF98F596F07F) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Air 11-inch (M2) (FDE45B12-AD7A-486B-9BFF-47257DDC2C5A) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Air 13-inch (M2) (DF387EC0-EAEF-4EF6-AC1B-865C1B43F190) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad mini (A17 Pro) (C599221C-C804-4F7E-87A9-4602B1DDFFFD) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad (10th generation) (8B036316-0495-45C1-AC55-DE1F440CB066) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.xrOS-2-2 --
     Apple Vision Pro (B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
