@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-05-28` (released 2025-06-02)
+
+- yq [added](https://formulae.brew.sh/formula/yq) 
+
 ### Stack update `v2025-02-13` (released on 2025-02-17)
 
 - visionOS runtime upgrade from 2.2 (`22N840`) to 2.3 (`22N895`) after Apple retroactively changing the runtime version included in this Xcode version.

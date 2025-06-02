@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-05-28` (released 2025-06-02)
+
+- The [yq](https://github.com/mikefarah/yq) CLI tool is now preinstalled
+
 ### Stack update `v2025-02-13` (released on 2025-02-17)
 
 - [Sourcery](https://github.com/krzysztofzablocki/Sourcery)is now preinstalled.
