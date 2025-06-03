@@ -161,6 +161,7 @@ xorgproto 2023.2
 xz 5.4.6
 yamllint 1.32.0
 yarn 1.22.19
+yq 4.45.4
 zeromq 4.3.4
 zstd 1.5.5
 google-cloud-sdk 472.0.0
