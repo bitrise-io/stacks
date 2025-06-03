@@ -1,12 +1,7 @@
-    
-    
-2to3 Jul 12 10:09:53 2024
-2to3-3.11 Sep 20 09:15:21 2023
-2to3-3.12 Jul 12 10:09:53 2024
-4channels Sep 20 09:17:20 2023
 Magick++-config Sep 20 09:17:23 2023
 MagickCore-config Sep 20 09:17:23 2023
 MagickWand-config Sep 20 09:17:23 2023
+addgnupghome Sep 20 09:16:37 2023
 animate Sep 20 09:17:23 2023
 annotate Sep 20 10:04:03 2023
 ant Sep 20 09:14:55 2023
@@ -16,6 +11,7 @@ anthoscli Apr 23 10:39:10 2024
 aomdec Sep 20 09:17:16 2023
 aomenc Sep 20 09:17:16 2023
 applesimutils Sep 20 09:14:59 2023
+applygnupgdefaults Sep 20 09:16:37 2023
 argon2 Sep 20 10:04:00 2023
 aria2c Sep 20 09:19:25 2023
 asn1Coding Sep 20 09:16:32 2023
@@ -43,7 +39,7 @@ bdftogd Sep 20 10:04:03 2023
 benchmark_xl Sep 20 09:17:16 2023
 bjoentegaard Sep 20 09:17:16 2023
 bq Apr 23 10:39:10 2024
-brew Feb 13 11:07:24 2025
+brew May 28 12:55:36 2025
 brotli Sep 20 09:17:15 2023
 bsqldb Sep 20 10:04:03 2023
 bsqlodbc Sep 20 10:04:03 2023
@@ -433,6 +429,7 @@ odbcinst Sep 20 10:04:02 2023
 onig-config Sep 20 09:17:28 2023
 openconnect Sep 20 09:17:58 2023
 openssl Jul 12 10:09:45 2024
+openvpn Sep 20 09:18:02 2023
 opj_compress Sep 20 09:16:08 2023
 opj_decompress Sep 20 09:16:08 2023
 opj_dump Sep 20 09:16:08 2023
@@ -459,6 +456,7 @@ phar.phar Sep 20 10:04:05 2023
 php Sep 20 10:04:05 2023
 php-cgi Sep 20 10:04:05 2023
 php-config Sep 20 10:04:05 2023
+php-fpm Sep 20 10:04:05 2023
 phpdbg Sep 20 10:04:05 2023
 phpize Sep 20 10:04:05 2023
 pinentry Sep 20 09:16:36 2023
@@ -601,6 +599,12 @@ transicc Sep 20 09:14:52 2023
 tree Sep 20 09:18:30 2023
 trust Sep 20 09:16:32 2023
 tsql Sep 20 10:04:03 2023
+unbound Sep 20 09:16:32 2023
+unbound-anchor Sep 20 09:16:32 2023
+unbound-checkconf Sep 20 09:16:32 2023
+unbound-control Sep 20 09:16:32 2023
+unbound-control-setup Sep 20 09:16:32 2023
+unbound-host Sep 20 09:16:32 2023
 unix-lpr.sh Sep 20 09:16:10 2023
 unlz4 Sep 20 09:14:51 2023
 unlzma Jul 12 10:09:47 2024
@@ -646,6 +650,7 @@ yamllint Sep 20 09:19:09 2023
 yarn Sep 20 09:19:13 2023
 yarnpkg Sep 20 09:19:13 2023
 yat2m Sep 20 09:16:36 2023
+yq May 28 12:55:45 2025
 yuv-distortion Sep 20 09:17:16 2023
 zipcmp Sep 20 10:04:05 2023
 zipmerge Sep 20 10:04:05 2023
@@ -655,16 +660,7 @@ zstdcat Sep 20 09:14:51 2023
 zstdgrep Sep 20 09:14:51 2023
 zstdless Sep 20 09:14:51 2023
 zstdmt Sep 20 09:14:51 2023
-    
-    
-    
-addgnupghome Sep 20 09:16:37 2023
-applygnupgdefaults Sep 20 09:16:37 2023
-openvpn Sep 20 09:18:02 2023
-php-fpm Sep 20 10:04:05 2023
-unbound Sep 20 09:16:32 2023
-unbound-anchor Sep 20 09:16:32 2023
-unbound-checkconf Sep 20 09:16:32 2023
-unbound-control Sep 20 09:16:32 2023
-unbound-control-setup Sep 20 09:16:32 2023
-unbound-host Sep 20 09:16:32 2023
+2to3 Jul 12 10:09:53 2024
+2to3-3.11 Sep 20 09:15:21 2023
+2to3-3.12 Jul 12 10:09:53 2024
+4channels Sep 20 09:17:20 2023
