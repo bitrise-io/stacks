@@ -32,6 +32,13 @@
           "executed_command": "jq --version"
         },
         {
+          "name": "yq",
+          "category": "tools",
+          "version": "4.45.4",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.45.4",
+          "executed_command": "yq --version"
+        },
+        {
           "name": "AWS CLI",
           "category": "tools",
           "version": "2.15.25",
