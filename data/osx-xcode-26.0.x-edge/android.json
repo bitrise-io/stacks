@@ -1,0 +1,17 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "35.5.10",
+          "raw_output": "Pkg.Revision=35.5.10",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
