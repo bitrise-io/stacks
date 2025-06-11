@@ -110,6 +110,7 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 == Runtimes ==
 iOS 16.4 (16.4 - 20E247) - com.apple.CoreSimulator.SimRuntime.iOS-16-4
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
+iOS 18.5 (18.5 - 22F77) - com.apple.CoreSimulator.SimRuntime.iOS-18-5
 iOS 26.0 (26.0 - 23A5260l) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
 tvOS 26.0 (26.0 - 23J5279m) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
@@ -144,6 +145,20 @@ visionOS 26.0 (26.0 - 23M5263m) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     iPad Air 13-inch (M2) (D6E4DF87-36F9-4E6E-9A38-69673652056E) (Shutdown) 
     iPad (10th generation) (F398ABAD-8344-4B97-95B0-0F1BEE38F155) (Shutdown) 
     iPad mini (6th generation) (31BC5737-A913-4E5E-AF44-3E54215679A7) (Shutdown) 
+-- iOS 18.5 --
+    iPhone 16 Pro (CDEC48D8-9673-4DFC-99A5-A39662975D32) (Shutdown) 
+    iPhone 16 Pro Max (0DB4B29C-9C02-4196-8637-C7E4A97E1FF1) (Shutdown) 
+    iPhone 16e (7AD08E7B-C02F-4086-B439-45C64870A0C6) (Shutdown) 
+    iPhone 16 (3071731A-9562-42DB-BA2A-695397E7B3A4) (Shutdown) 
+    iPhone 16 Plus (41ADA30E-8EB0-4DBC-BD3C-BB5959D79F3A) (Shutdown) 
+    Bitrise iOS default (DB487418-EC31-456A-A53B-9F684F0AAC7A) (Shutdown) 
+    iPhone 11 (1D141FAF-EED7-4672-A4C6-BAF524F0701D) (Shutdown) 
+    iPad Pro 11-inch (M4) (13C8446A-877B-493C-88F8-4BC0AD255122) (Shutdown) 
+    iPad Pro 13-inch (M4) (137D9A1E-B17F-48F8-872F-D0A44B801BB9) (Shutdown) 
+    iPad mini (A17 Pro) (1F09C805-18E0-4B57-85E7-A9240B588774) (Shutdown) 
+    iPad (A16) (1AFA1406-A792-4B25-A72E-AE5BC509C6F7) (Shutdown) 
+    iPad Air 13-inch (M3) (2B75FEA5-B76B-435E-A08F-A51751B4C3F6) (Shutdown) 
+    iPad Air 11-inch (M3) (3396D1F6-5FC1-4530-89FE-087FC43D9405) (Shutdown) 
 -- iOS 26.0 --
     iPhone 16 Pro (440D7ED2-EB21-4555-9CA0-04300AB4C957) (Shutdown) 
     iPhone 16 Pro Max (5E7EE63A-1424-461B-8E4A-A4C96C33C1A6) (Shutdown) 
@@ -176,20 +191,6 @@ visionOS 26.0 (26.0 - 23M5263m) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     Apple Watch SE (40mm) (2nd generation) (127F4D70-0F05-4C11-895D-72C892811BC3) (Shutdown) 
 -- visionOS 26.0 --
     Apple Vision Pro 4K (F0F452F0-1CC5-45F7-BAE7-1A14A2CA5FCE) (Shutdown) 
--- Unavailable: com.apple.CoreSimulator.SimRuntime.iOS-18-5 --
-    iPhone 16 Pro (CDEC48D8-9673-4DFC-99A5-A39662975D32) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPhone 16 Pro Max (0DB4B29C-9C02-4196-8637-C7E4A97E1FF1) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPhone 16e (7AD08E7B-C02F-4086-B439-45C64870A0C6) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPhone 16 (3071731A-9562-42DB-BA2A-695397E7B3A4) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPhone 16 Plus (41ADA30E-8EB0-4DBC-BD3C-BB5959D79F3A) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    Bitrise iOS default (DB487418-EC31-456A-A53B-9F684F0AAC7A) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPhone 11 (1D141FAF-EED7-4672-A4C6-BAF524F0701D) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad Pro 11-inch (M4) (13C8446A-877B-493C-88F8-4BC0AD255122) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad Pro 13-inch (M4) (137D9A1E-B17F-48F8-872F-D0A44B801BB9) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad mini (A17 Pro) (1F09C805-18E0-4B57-85E7-A9240B588774) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad (A16) (1AFA1406-A792-4B25-A72E-AE5BC509C6F7) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad Air 13-inch (M3) (2B75FEA5-B76B-435E-A08F-A51751B4C3F6) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    iPad Air 11-inch (M3) (3396D1F6-5FC1-4530-89FE-087FC43D9405) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.tvOS-18-5 --
     Apple TV 4K (3rd generation) (3478213A-B2C6-4584-A47A-426A81ACB42C) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
     Apple TV 4K (3rd generation) (at 1080p) (D71C060D-1032-4B84-BBAF-211FFEEAB0E2) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
