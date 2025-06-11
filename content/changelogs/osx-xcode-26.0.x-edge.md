@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-11`
+
+iOS 18.5 simulator runtime is now installed as expected.
+
 ### Stack update `v2026-06-10`
 
 Initial stack release with [Xcode 26.0 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5241e`)
