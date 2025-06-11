@@ -36,7 +36,7 @@ fvm 3.2.1
 gd 2.3.3_6
 gettext 0.25
 gflags 2.2.2
-gh 2.74.0
+gh 2.74.1
 giflib 5.2.2
 git 2.49.0
 git-lfs 3.6.1
