@@ -1,0 +1,26 @@
+[
+  {
+    "category": "bitrise",
+    "output": {
+      "items": [
+        {
+          "name": "Bitrise CLI",
+          "category": "bitrise",
+          "version": "2.31.3",
+          "raw_output": "2.31.3",
+          "executed_command": "bitrise --version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Bitrise stepman",
+          "error": "exit status 127: /bin/bash: line 1: stepman: command not found\n"
+        },
+        {
+          "name": "Bitrise envman",
+          "error": "exit status 127: /bin/bash: line 1: envman: command not found\n"
+        }
+      ]
+    }
+  }
+]

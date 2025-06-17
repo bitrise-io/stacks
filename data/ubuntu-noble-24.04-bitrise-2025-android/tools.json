@@ -1,0 +1,124 @@
+[
+  {
+    "category": "tools",
+    "output": {
+      "items": [
+        {
+          "name": "Git",
+          "category": "tools",
+          "version": "2.49.0",
+          "raw_output": "git version 2.49.0",
+          "executed_command": "git --version"
+        },
+        {
+          "name": "GitHub CLI",
+          "category": "tools",
+          "version": "2.72.0",
+          "raw_output": "gh version 2.72.0 (2025-04-30)\nhttps://github.com/cli/cli/releases/tag/v2.72.0",
+          "executed_command": "gh version"
+        },
+        {
+          "name": "Git LFS",
+          "category": "tools",
+          "version": "3.6.1",
+          "raw_output": "git-lfs/3.6.1 (GitHub; linux amd64; go 1.23.3)",
+          "executed_command": "git-lfs version"
+        },
+        {
+          "name": "NPM",
+          "category": "tools",
+          "version": "10.9.2",
+          "raw_output": "10.9.2",
+          "executed_command": "npm --version"
+        },
+        {
+          "name": "Yarn",
+          "category": "tools",
+          "version": "1.22.22",
+          "raw_output": "! Corepack is about to download https://registry.yarnpkg.com/yarn/-/yarn-1.22.22.tgz\n1.22.22",
+          "executed_command": "yarn --version"
+        },
+        {
+          "name": "jq",
+          "category": "tools",
+          "version": "1.7",
+          "raw_output": "jq-1.7",
+          "executed_command": "jq --version"
+        },
+        {
+          "name": "AWS CLI",
+          "category": "tools",
+          "version": "2.27.34",
+          "raw_output": "aws-cli/2.27.34 Python/3.13.3 Linux/5.15.0-138-generic exe/x86_64.ubuntu.24",
+          "executed_command": "aws --version"
+        },
+        {
+          "name": "pipx packages",
+          "category": "tools",
+          "version": "",
+          "raw_output": "venvs are in /root/.local/share/pipx/venvs\napps are exposed on your $PATH at /root/.local/bin\nmanual pages are exposed at /root/.local/share/man\n   package yamllint 1.37.1, installed using Python 3.13.3\n    - yamllint",
+          "executed_command": "pipx list"
+        },
+        {
+          "name": "Mercurial",
+          "category": "tools",
+          "version": "6.7.2",
+          "raw_output": "Mercurial Distributed SCM (version 6.7.2)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2023 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "executed_command": "hg version"
+        },
+        {
+          "name": "Firebase",
+          "category": "tools",
+          "version": "14.6.0",
+          "raw_output": "14.6.0",
+          "executed_command": "firebase --version"
+        },
+        {
+          "name": "OpenConnect",
+          "category": "tools",
+          "version": "9.12",
+          "raw_output": "OpenConnect version v9.12-1build5\nUsing GnuTLS 3.8.3. Features present: TPMv2, PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /usr/share/vpnc-scripts/vpnc-script",
+          "executed_command": "openconnect --version"
+        },
+        {
+          "name": "ShellCheck",
+          "category": "tools",
+          "version": "0.9.0",
+          "raw_output": "ShellCheck - shell script analysis tool\nversion: 0.9.0\nlicense: GNU General Public License, version 3\nwebsite: https://www.shellcheck.net",
+          "executed_command": "shellcheck --version"
+        },
+        {
+          "name": "Docker",
+          "category": "tools",
+          "version": "28.2.2",
+          "raw_output": "Docker version 28.2.2, build e6534b4",
+          "executed_command": "docker --version"
+        },
+        {
+          "name": "Docker Compose",
+          "category": "tools",
+          "version": "2.36.2",
+          "raw_output": "Docker Compose version v2.36.2",
+          "executed_command": "docker compose version"
+        },
+        {
+          "name": "Pre-cached Docker images",
+          "category": "tools",
+          "version": "",
+          "raw_output": "bitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 26.2GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 26.2GB\nbitriseio/ubuntu-22-android:latest - 37.4GB\nbitriseio/ubuntu-22-android:pinned - 37.4GB\nbitriseio/ubuntu-22-base:latest - 7.19GB\nbitriseio/ubuntu-22-base:pinned - 7.19GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 7.44GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 7.44GB",
+          "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Google Cloud CLI",
+          "error": "exit status 127: /bin/bash: line 1: gcloud: command not found\n"
+        },
+        {
+          "name": "Google Cloud CLI components",
+          "error": "exit status 127: /bin/bash: line 1: gcloud: command not found\n"
+        }
+      ]
+    }
+  }
+]
