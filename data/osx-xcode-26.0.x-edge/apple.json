@@ -28,7 +28,7 @@
           "name": "Rosetta",
           "category": "apple",
           "version": "",
-          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1746349326\nvolume: /\nlocation: /\ninstall-time: 1749569533",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1746349326\nvolume: /\nlocation: /\ninstall-time: 1750256305",
           "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
         },
         {
@@ -49,7 +49,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.5.6\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 7b4ef99fed96966269ee35994407fa4c06097a4d\nLast commit: 33 hours ago\nBranch: stable\nCore tap JSON: 10 Jun 15:45 UTC\nCore cask tap JSON: 10 Jun 15:45 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 4\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.4 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/bin/ruby\nCPU: quad-core 64-bit dunno\nClang: 17.0.0 build 1700\nGit: 2.49.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.5-arm64\nCLT: 16.3.0.0.1.1742442376\nXcode: 26.0 =\u003e /Applications/Xcode-26.0.0.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.5.7\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 6301c2d31f8dc07d2d16ddaa33711cf5a41d4e17\nLast commit: 5 days ago\nBranch: stable\nCore tap JSON: 18 Jun 14:28 UTC\nCore cask tap JSON: 18 Jun 14:28 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 4\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.4 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.4/bin/ruby\nCPU: quad-core 64-bit dunno\nClang: 17.0.0 build 1700\nGit: 2.50.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.5-arm64\nCLT: 16.3.0.0.1.1742442376\nXcode: 26.0 =\u003e /Applications/Xcode-26.0.0.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -63,7 +63,7 @@
           "name": "Cocoapods config",
           "category": "apple",
           "version": "",
-          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.16.2\n        Ruby : ruby 3.4.4 (2025-05-14 revision a38531fd3f) +PRISM [arm64-darwin24]\n    RubyGems : 3.6.7\n        Host : macOS 15.5 (24F74)\n       Xcode : 26.0 (17A5241e)\n         Git : git version 2.49.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.4.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ b4d099fde763ff37fc95d96f5066226bfefc005a\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.4/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.5\n```",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.16.2\n        Ruby : ruby 3.4.4 (2025-05-14 revision a38531fd3f) +PRISM [arm64-darwin24]\n    RubyGems : 3.6.7\n        Host : macOS 15.5 (24F74)\n       Xcode : 26.0 (17A5241e)\n         Git : git version 2.50.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.4.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 39d9463acb3acbb19361a623f436a7cbec329aec\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.4/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.5\n```",
           "executed_command": "pod env"
         },
         {
@@ -90,8 +90,8 @@
         {
           "name": "applesimutils",
           "category": "apple",
-          "version": "0.9.10",
-          "raw_output": "applesimutils version 0.9.10",
+          "version": "0.9.12",
+          "raw_output": "applesimutils version 0.9.12",
           "executed_command": "applesimutils -v"
         },
         {
@@ -111,8 +111,8 @@
         {
           "name": "xclogparser",
           "category": "apple",
-          "version": "0.2.41",
-          "raw_output": "XCLogParser 0.2.41",
+          "version": "0.2.42",
+          "raw_output": "XCLogParser 0.2.42",
           "executed_command": "xclogparser version"
         }
       ],
