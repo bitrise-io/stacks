@@ -5,6 +5,7 @@ platform: macOS
 xcode: "14.3"
 flavor: stable
 weight: 5
+removal_date: 2025-10-01
 ---
 
 ## Languages and runtimes

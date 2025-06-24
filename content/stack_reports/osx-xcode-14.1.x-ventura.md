@@ -5,6 +5,7 @@ platform: macOS
 xcode: "14.1"
 flavor: stable
 weight: 2
+removal_date: 2025-10-01
 ---
 
 ## Languages and runtimes
