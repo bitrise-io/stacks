@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-19`
+
+- Fixed: The list of installed iOS simulator runtimes now follows the usual Bitrise policy. This release ships with iOS 18.5 and 17.5 as the 2 older runtimes, resolving the previous issue where 17.5 and 16.4 were installed.
+- Homebrew package upgrades
+
 ### Stack update `v2026-06-11`
 
 iOS 18.5 simulator runtime is now installed as expected.

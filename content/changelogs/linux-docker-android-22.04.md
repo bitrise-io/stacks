@@ -12,6 +12,10 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2025-06-18` (released 2025-06-19)
+
+No user-facing changes.
+
 ### Stack update `v2025-05-23` (released 2025-05-26)
 
 - Android emulator upgrade: `35.4.9` -> `35.5.10`
