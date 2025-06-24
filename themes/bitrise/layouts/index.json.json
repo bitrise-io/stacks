@@ -6,7 +6,7 @@
     {{- range .Pages }}
         {{- $pageOutput := dict "title" .Title "path" .Path "updated_at" .Date "archived" (default false .Params.archived) }}
         {{- if eq $section "stack_reports" }}
-            {{- $stackMeta := dict "stack_id" .File.BaseFileName "flavor" .Params.flavor "xcode" .Params.xcode "platform" .Params.platform "cloud" .Params.cloud }}
+            {{- $stackMeta := dict "stack_id" .File.BaseFileName "flavor" .Params.flavor "xcode" .Params.xcode "platform" .Params.platform "cloud" .Params.cloud "removal_date" .Params.removal_date }}
             {{- $pageOutput = merge $pageOutput (dict "stack_meta" $stackMeta)}}
         {{- end }}
         {{- if eq $section "changelogs" }}
