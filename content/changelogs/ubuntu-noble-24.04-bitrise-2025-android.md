@@ -1,5 +1,5 @@
 ---
-title: Ubuntu 24.04 for Android & Docker
+title: Ubuntu Noble 24.04 - Bitrise 2025 Edition
 summary: Changelog of stack updates
 type: basic_page
 ---
@@ -12,8 +12,8 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2025-__-__`
+### Stack update `v2025-06-18`
 
-Initial release of this new stack based on Ubuntu 24.
+Initial release of this new Bitrise stack based on Ubuntu 24.04.
 
 A summary of changes compared to the Ubuntu 22.04 is [available here]({{% ref "/announcements/Ubuntu Noble.md" %}}).
