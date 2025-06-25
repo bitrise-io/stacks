@@ -14,7 +14,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Build Version: 17A5241l\nStatus: installed",
+          "raw_output": "Build Version: 17A5241l\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.1.5241.12.WpDc3t",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
