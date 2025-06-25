@@ -14,16 +14,24 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-06-19`
+### Stack update `v2025-06-25`
+
+- [Xcode 26.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5241o`)
+- Metal Toolchain, the new unbundled Xcode component is now installed
+- From now on, you can expect the simulator device `Bitrise iOS default` to be paired with an Apple Watch device
+- The Android NDK package has been upgraded to the current LTS release, `27.2.12479018`
+- Homebrew package upgrades
+
+### Stack update `v2025-06-19`
 
 - Fixed: The list of installed iOS simulator runtimes now follows the usual Bitrise policy. This release ships with iOS 18.5 and 17.5 as the 2 older runtimes, resolving the previous issue where 17.5 and 16.4 were installed.
 - Homebrew package upgrades
 
-### Stack update `v2026-06-11`
+### Stack update `v2025-06-11`
 
 iOS 18.5 simulator runtime is now installed as expected.
 
-### Stack update `v2026-06-10`
+### Stack update `v2025-06-10`
 
 Initial stack release with [Xcode 26.0 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5241e`)
 
