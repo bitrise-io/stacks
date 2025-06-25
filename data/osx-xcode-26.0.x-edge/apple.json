@@ -11,6 +11,13 @@
           "executed_command": "xcodebuild -version"
         },
         {
+          "name": "Metal Toolchain",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Build Version: 17A5241l\nStatus: installed",
+          "executed_command": "xcodebuild -showComponent MetalToolchain"
+        },
+        {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
