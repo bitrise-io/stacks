@@ -104,17 +104,16 @@ Apple Watch Series 3 (42mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-S
 Apple Watch Series 3 (38mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-3-38mm)
 Apple Watch Series 2 (42mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-2-42mm)
 Apple Watch Series 2 (38mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-2-38mm)
-Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
-Apple Vision Pro 4K (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro-4K)
+Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro-4K)
+Apple Vision Pro (at 2732x2048) (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7th-generation-)
 == Runtimes ==
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.5 (18.5 - 22F77) - com.apple.CoreSimulator.SimRuntime.iOS-18-5
-iOS 26.0 (26.0 - 23A5260l) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-tvOS 26.0 (26.0 - 23J5279m) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
-watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
-watchOS 26.0 (26.0 - 23R5280m) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
-visionOS 26.0 (26.0 - 23M5263m) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
+iOS 26.0 (26.0 - 23A5276e) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
+tvOS 26.0 (26.0 - 23J5295e) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
+watchOS 26.0 (26.0 - 23R5296e) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
+visionOS 26.0 (26.0 - 23M5279f) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
 == Devices ==
 -- iOS 17.5 --
     iPhone 15 Pro (51F26671-B878-418C-8B32-3058C022E91C) (Shutdown) 
@@ -162,12 +161,6 @@ visionOS 26.0 (26.0 - 23M5263m) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     Apple TV 4K (3rd generation) (808D7ACC-8161-4150-8F93-A27CF835EC9F) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (25F8B6B6-B771-4418-9F24-A5A28A8EC77F) (Shutdown) 
     Apple TV (E9C63D46-9493-4A0C-9E11-C67BB1175168) (Shutdown) 
--- watchOS 11.5 --
-    Apple Watch Series 10 (46mm) (9E9F12EA-E1AB-4E89-8CB5-A80A54144E4A) (Shutdown) 
-    Apple Watch Series 10 (42mm) (13A7EA67-EC08-48C1-A363-E28427066510) (Shutdown) 
-    Apple Watch Ultra 2 (49mm) (21AADAB7-7218-4D5A-AA69-CA82A0E7BC41) (Shutdown) 
-    Apple Watch SE (44mm) (2nd generation) (60750EC7-7895-4C87-A551-4CC80C6D2989) (Shutdown) 
-    Apple Watch SE (40mm) (2nd generation) (1C78F927-9BB0-48A2-92B0-C4858F85B982) (Shutdown) 
 -- watchOS 26.0 --
     Apple Watch Series 10 (46mm) (E9889D3E-A7D0-47ED-B3B6-C69E59CF92C3) (Shutdown) 
     Apple Watch Series 10 (42mm) (9F64CFCB-86E8-4A28-A9DC-74B098AD0C6C) (Shutdown) 
@@ -200,6 +193,15 @@ visionOS 26.0 (26.0 - 23M5263m) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     Apple Watch Ultra 2 (49mm) (1E62E2E0-7D64-436B-A8BE-6F549FE6AA5E) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
     Apple Watch SE (44mm) (2nd generation) (EBE64EF0-6249-465F-8208-7540BCEFE402) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
     Apple Watch SE (40mm) (2nd generation) (2F56F91C-19DD-4723-A0C0-8680221C74EC) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+-- Unavailable: com.apple.CoreSimulator.SimRuntime.watchOS-11-5 --
+    Apple Watch Series 10 (46mm) (9E9F12EA-E1AB-4E89-8CB5-A80A54144E4A) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    Apple Watch Series 10 (42mm) (13A7EA67-EC08-48C1-A363-E28427066510) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    Apple Watch Ultra 2 (49mm) (21AADAB7-7218-4D5A-AA69-CA82A0E7BC41) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    Apple Watch SE (44mm) (2nd generation) (60750EC7-7895-4C87-A551-4CC80C6D2989) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    Apple Watch SE (40mm) (2nd generation) (1C78F927-9BB0-48A2-92B0-C4858F85B982) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.xrOS-2-5 --
     Apple Vision Pro (618F7D9A-D6BF-4BF3-95E7-A6FED1E2B249) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
+157DA9EC-AA4D-429A-A1DA-E9A0EF9998B8 (active, disconnected)
+    Watch: Apple Watch Series 10 (46mm) (E9889D3E-A7D0-47ED-B3B6-C69E59CF92C3) (Shutdown)
+    Phone: Bitrise iOS default (9B6D3C4D-8A9A-4757-8ACD-270451D71BEF) (Shutdown)
