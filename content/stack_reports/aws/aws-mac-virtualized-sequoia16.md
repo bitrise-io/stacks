@@ -1,5 +1,5 @@
 ---
-title: "macOS Sequoia virtualized AMI: Xcode 16.3"
+title: "macOS Sequoia virtualized AMI: Xcode 16.4"
 summary: "Bitrise on AWS: virtualized macOS stack for building with Xcode"
 type: stack_reports_aws
 aws_url: "https://aws.amazon.com/marketplace/pp/prodview-aqc5tyfdeozky?sr=0-4&ref_=beagle&applicationId=AWSMPContessa"
@@ -7,11 +7,12 @@ platform: macOS
 cloud: aws
 ---
 
-This AMI contains the following VM image: `Ssequoia16_V2-88-1`
+This AMI contains the following VM image: `Ssequoia16_V2-102-4`
 
+See the system report of the VM image [here](../osx-xcode-16.4.x.md).
 See the system report of the VM image [here](../osx-xcode-16.3.x.md).
 
-Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2025W15-sequoia16` to get the specific VM image listed here.
+Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2025W23-sequoia16` to get the specific VM image listed here.
 
 | Region         | AMI ID                  |
 | ---------------| ----------------------- |
