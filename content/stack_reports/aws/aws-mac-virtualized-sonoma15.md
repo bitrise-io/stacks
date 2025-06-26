@@ -9,8 +9,8 @@ cloud: aws
 
 This AMI contains the following VM image: `Ssonoma15_V2-77-1`
 
-- See the system report of the Xcode 15.4 [here](../osx-xcode-15.4.x.md).
-- See the system report of the Xcode 15.3 [here](../osx-xcode-15.3.x.md).
+- See the system report of Xcode 15.4 [here](../osx-xcode-15.4.x.md).
+- See the system report of Xcode 15.3 [here](../osx-xcode-15.3.x.md).
 
 Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2024W47-sonoma15` to get the specific VM image listed here.
 
