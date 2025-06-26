@@ -9,8 +9,8 @@ cloud: aws
 
 This AMI contains the following VM image: `Ssequoia16_V2-102-4`
 
-- See the system report of the Xcode 16.4 [here](../osx-xcode-16.4.x.md).
-- See the system report of the Xcode 16.3 [here](../osx-xcode-16.3.x.md).
+- See the system report of Xcode 16.4 [here](../osx-xcode-16.4.x.md).
+- See the system report of Xcode 16.3 [here](../osx-xcode-16.3.x.md).
 
 Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2025W23-sequoia16` to get the specific VM image listed here.
 
