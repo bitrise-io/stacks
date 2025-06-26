@@ -9,9 +9,9 @@ cloud: aws
 
 This AMI contains the following VM image: `Ssonoma16_V2-82-2`
 
-- See the system report of the Xcode 16.2 [here](../osx-xcode-16.2.x.md).
-- See the system report of the Xcode 16.1 [here](../osx-xcode-16.1.x.md).
-- See the system report of the Xcode 16.0 [here](../osx-xcode-16.0.x.md).
+- See the system report of Xcode 16.2 [here](../osx-xcode-16.2.x.md).
+- See the system report of Xcode 16.1 [here](../osx-xcode-16.1.x.md).
+- See the system report of Xcode 16.0 [here](../osx-xcode-16.0.x.md).
 
 Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `2025W14-sonoma16` to get the specific VM image listed here.
 
