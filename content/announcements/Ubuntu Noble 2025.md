@@ -5,12 +5,11 @@ type: basic_page
 
 [Ubuntu Noble 24.04 - Bitrise 2025 Edition](https://stacks.bitrise.io/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/) is now available as a new edge stack. This is another Linux stack, recommended for Android workflows and is based on Ubuntu 24.04.
 
-Besides the new OS version, the stack comes with various tool upgrades and other, possibly breaking changes.
-
 {{< hint info >}}
-TODO
-Something missing? [Share your feedback here](https://github.com/bitrise-io/stacks/discussions/252)!
+A new stack starts its life as an edge stack. It becomes a stable stack a year later. Read more about our [stack update policy here](https://devcenter.bitrise.io/en/infrastructure/build-stacks/linux-stack-update-policy.html).
 {{< /hint >}}
+
+Besides the new OS version, the stack comes with various tool upgrades and other, possibly breaking changes.
 
 ## Android
 
