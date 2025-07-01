@@ -1,5 +1,5 @@
 ---
-title: "New edge stack: Ubuntu Noble 24.04 Bitrise 2025 Edition
+title: "New edge stack: Ubuntu Noble 24.04 Bitrise 2025 Edition"
 type: basic_page
 ---
 

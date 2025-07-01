@@ -16,4 +16,4 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 Initial release of this new Bitrise stack based on Ubuntu 24.04.
 
-A summary of changes compared to the Ubuntu 22.04 is [available here]({{% ref "/announcements/Ubuntu Noble.md" %}}).
+A summary of changes compared to the Ubuntu 22.04 is [available here]({{% ref "/announcements/Ubuntu Noble 2025.md" %}}).
