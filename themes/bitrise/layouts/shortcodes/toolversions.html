@@ -13,7 +13,8 @@
         {{ end }}
         <tr>
             {{ $jsonPath := printf "data/%s/%s" $dir.Name "languages.json" }}
-            {{ $json := getJSON $jsonPath }}
+            {{ $jsonContent := os.ReadFile $jsonPath }}
+            {{ $json := $jsonContent | transform.Unmarshal }}
             {{ $tool := index (where (index $json 0).output.items "name" $toolName) 0 }}
             {{ if $tool }}
                 <td><code>{{ $dir.Name }}</code></td>

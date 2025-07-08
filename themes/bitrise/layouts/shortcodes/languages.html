@@ -1,5 +1,6 @@
 {{ $jsonPath := .Get "filepath" }}
-{{ $json := getJSON $jsonPath }}
+{{ $jsonContent := os.ReadFile $jsonPath }}
+{{ $json := $jsonContent | transform.Unmarshal }}
 
 {{ $category := index $json 0 }}
 {{ range $item := $category.output.items }}
