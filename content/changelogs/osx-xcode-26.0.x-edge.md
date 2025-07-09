@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-07-09`
+
+- [Xcode 26.0 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5276g`)
+- `bundletool` is now installed
+- Homebrew package upgrades
+
 ### Stack update `v2025-06-25`
 
 - [Xcode 26.0 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5241o`)
