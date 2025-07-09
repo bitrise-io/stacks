@@ -5000,6 +5000,32 @@
       },
       "state" : "(active, disconnected)"
     },
+    "A5411818-6DEE-4448-9549-C7C0BF633EE6" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (46mm)",
+        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Pro Max",
+        "udid" : "F30C0F6E-7075-48C8-91CF-1B7406529E1D",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "BEDAC7E4-7C2C-4A5D-BD58-892E7C27FAFD" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 2 (49mm)",
+        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 16 Plus",
+        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "E0F9B99D-9437-40BB-9F67-E1ED667310B1" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (46mm)",
@@ -5026,19 +5052,6 @@
       },
       "state" : "(active, disconnected)"
     },
-    "63159713-0229-40E2-82E2-397257A14333" : {
-      "watch" : {
-        "name" : "Apple Watch Series 10 (46mm)",
-        "udid" : "ADDECDFE-ADA9-480D-874A-DFFF7D12F639",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Pro Max",
-        "udid" : "F30C0F6E-7075-48C8-91CF-1B7406529E1D",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
     "F15FAC9A-A786-4D98-A760-60ED4530A2DE" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (42mm)",
@@ -5048,19 +5061,6 @@
       "phone" : {
         "name" : "iPhone 16",
         "udid" : "99A9BC45-16AB-4E03-BF46-D6F0DBA81389",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "3280E86E-0F44-4928-9E93-C69AB0CBCBEE" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 2 (49mm)",
-        "udid" : "091088F9-0AA3-411D-BF17-A5D13A5C7243",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 16 Plus",
-        "udid" : "72AE2054-4A91-4041-8789-D1BC7B1F8B32",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
