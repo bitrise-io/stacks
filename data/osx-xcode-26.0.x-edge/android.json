@@ -9,6 +9,13 @@
           "version": "35.5.10",
           "raw_output": "Pkg.Revision=35.5.10",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "bundletool",
+          "category": "android",
+          "version": "1.18.1",
+          "raw_output": "1.18.1",
+          "executed_command": "bundletool version"
         }
       ],
       "errors": null

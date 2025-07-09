@@ -108,41 +108,42 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro-4K)
 Apple Vision Pro (at 2732x2048) (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7th-generation-)
 == Runtimes ==
-iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5 (unavailable, liblaunch_sim.dylib could not be opened)
-iOS 18.5 (18.5 - 22F77) - com.apple.CoreSimulator.SimRuntime.iOS-18-5 (unavailable, liblaunch_sim.dylib could not be opened)
-iOS 26.0 (26.0 - 23A5276e) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-tvOS 26.0 (26.0 - 23J5295e) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
-watchOS 26.0 (26.0 - 23R5296e) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
-visionOS 26.0 (26.0 - 23M5279f) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
+iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
+iOS 18.5 (18.5 - 22F77) - com.apple.CoreSimulator.SimRuntime.iOS-18-5
+iOS 26.0 (26.0 - 23A5287g) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
+tvOS 26.0 (26.0 - 23J5306f) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
+watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
+watchOS 26.0 (26.0 - 23R5307g) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
+visionOS 26.0 (26.0 - 23M5290f) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
 == Devices ==
 -- iOS 17.5 --
-    iPhone 15 Pro (51F26671-B878-418C-8B32-3058C022E91C) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 15 Pro Max (7846AAB4-AB35-46F6-AD79-D9D96DACA577) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 15 (106A8C6A-6536-453F-A85B-41E26DEA4DC2) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 15 Plus (7A7E0000-6747-48E9-A654-B05BE852F8EF) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone SE (3rd generation) (737A37CE-9206-4C69-8E4D-5B3BEF31068F) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    Bitrise iOS default (A5C7F585-E19B-4574-B2AA-5176A3D3B5F5) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 11 (0D9D0905-4A22-442C-9CBF-F342B27B0EEA) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Pro 11-inch (M4) (EE956FAE-6E15-4989-8406-023B75902D6E) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Pro 13-inch (M4) (B5058DC7-0CED-4151-B767-C921A6915DAE) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Air 11-inch (M2) (7C49B0DA-5D83-43CE-B71B-1B4580DBD0CC) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Air 13-inch (M2) (D6E4DF87-36F9-4E6E-9A38-69673652056E) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad (10th generation) (F398ABAD-8344-4B97-95B0-0F1BEE38F155) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad mini (6th generation) (31BC5737-A913-4E5E-AF44-3E54215679A7) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
+    iPhone 15 Pro (51F26671-B878-418C-8B32-3058C022E91C) (Shutdown) 
+    iPhone 15 Pro Max (7846AAB4-AB35-46F6-AD79-D9D96DACA577) (Shutdown) 
+    iPhone 15 (106A8C6A-6536-453F-A85B-41E26DEA4DC2) (Shutdown) 
+    iPhone 15 Plus (7A7E0000-6747-48E9-A654-B05BE852F8EF) (Shutdown) 
+    iPhone SE (3rd generation) (737A37CE-9206-4C69-8E4D-5B3BEF31068F) (Shutdown) 
+    Bitrise iOS default (A5C7F585-E19B-4574-B2AA-5176A3D3B5F5) (Shutdown) 
+    iPhone 11 (0D9D0905-4A22-442C-9CBF-F342B27B0EEA) (Shutdown) 
+    iPad Pro 11-inch (M4) (EE956FAE-6E15-4989-8406-023B75902D6E) (Shutdown) 
+    iPad Pro 13-inch (M4) (B5058DC7-0CED-4151-B767-C921A6915DAE) (Shutdown) 
+    iPad Air 11-inch (M2) (7C49B0DA-5D83-43CE-B71B-1B4580DBD0CC) (Shutdown) 
+    iPad Air 13-inch (M2) (D6E4DF87-36F9-4E6E-9A38-69673652056E) (Shutdown) 
+    iPad (10th generation) (F398ABAD-8344-4B97-95B0-0F1BEE38F155) (Shutdown) 
+    iPad mini (6th generation) (31BC5737-A913-4E5E-AF44-3E54215679A7) (Shutdown) 
 -- iOS 18.5 --
-    iPhone 16 Pro (CDEC48D8-9673-4DFC-99A5-A39662975D32) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 16 Pro Max (0DB4B29C-9C02-4196-8637-C7E4A97E1FF1) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 16e (7AD08E7B-C02F-4086-B439-45C64870A0C6) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 16 (3071731A-9562-42DB-BA2A-695397E7B3A4) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 16 Plus (41ADA30E-8EB0-4DBC-BD3C-BB5959D79F3A) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    Bitrise iOS default (DB487418-EC31-456A-A53B-9F684F0AAC7A) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPhone 11 (1D141FAF-EED7-4672-A4C6-BAF524F0701D) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Pro 11-inch (M4) (13C8446A-877B-493C-88F8-4BC0AD255122) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Pro 13-inch (M4) (137D9A1E-B17F-48F8-872F-D0A44B801BB9) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad mini (A17 Pro) (1F09C805-18E0-4B57-85E7-A9240B588774) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad (A16) (1AFA1406-A792-4B25-A72E-AE5BC509C6F7) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Air 13-inch (M3) (2B75FEA5-B76B-435E-A08F-A51751B4C3F6) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
-    iPad Air 11-inch (M3) (3396D1F6-5FC1-4530-89FE-087FC43D9405) (Shutdown) (unavailable, liblaunch_sim.dylib could not be opened)
+    iPhone 16 Pro (CDEC48D8-9673-4DFC-99A5-A39662975D32) (Shutdown) 
+    iPhone 16 Pro Max (0DB4B29C-9C02-4196-8637-C7E4A97E1FF1) (Shutdown) 
+    iPhone 16e (7AD08E7B-C02F-4086-B439-45C64870A0C6) (Shutdown) 
+    iPhone 16 (3071731A-9562-42DB-BA2A-695397E7B3A4) (Shutdown) 
+    iPhone 16 Plus (41ADA30E-8EB0-4DBC-BD3C-BB5959D79F3A) (Shutdown) 
+    Bitrise iOS default (DB487418-EC31-456A-A53B-9F684F0AAC7A) (Shutdown) 
+    iPhone 11 (1D141FAF-EED7-4672-A4C6-BAF524F0701D) (Shutdown) 
+    iPad Pro 11-inch (M4) (13C8446A-877B-493C-88F8-4BC0AD255122) (Shutdown) 
+    iPad Pro 13-inch (M4) (137D9A1E-B17F-48F8-872F-D0A44B801BB9) (Shutdown) 
+    iPad mini (A17 Pro) (1F09C805-18E0-4B57-85E7-A9240B588774) (Shutdown) 
+    iPad (A16) (1AFA1406-A792-4B25-A72E-AE5BC509C6F7) (Shutdown) 
+    iPad Air 13-inch (M3) (2B75FEA5-B76B-435E-A08F-A51751B4C3F6) (Shutdown) 
+    iPad Air 11-inch (M3) (3396D1F6-5FC1-4530-89FE-087FC43D9405) (Shutdown) 
 -- iOS 26.0 --
     iPhone 16 Pro (440D7ED2-EB21-4555-9CA0-04300AB4C957) (Shutdown) 
     iPhone 16 Pro Max (5E7EE63A-1424-461B-8E4A-A4C96C33C1A6) (Shutdown) 
@@ -161,6 +162,12 @@ visionOS 26.0 (26.0 - 23M5279f) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     Apple TV 4K (3rd generation) (808D7ACC-8161-4150-8F93-A27CF835EC9F) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (25F8B6B6-B771-4418-9F24-A5A28A8EC77F) (Shutdown) 
     Apple TV (E9C63D46-9493-4A0C-9E11-C67BB1175168) (Shutdown) 
+-- watchOS 11.5 --
+    Apple Watch Series 10 (46mm) (9E9F12EA-E1AB-4E89-8CB5-A80A54144E4A) (Shutdown) 
+    Apple Watch Series 10 (42mm) (13A7EA67-EC08-48C1-A363-E28427066510) (Shutdown) 
+    Apple Watch Ultra 2 (49mm) (21AADAB7-7218-4D5A-AA69-CA82A0E7BC41) (Shutdown) 
+    Apple Watch SE (44mm) (2nd generation) (60750EC7-7895-4C87-A551-4CC80C6D2989) (Shutdown) 
+    Apple Watch SE (40mm) (2nd generation) (1C78F927-9BB0-48A2-92B0-C4858F85B982) (Shutdown) 
 -- watchOS 26.0 --
     Apple Watch Series 10 (46mm) (E9889D3E-A7D0-47ED-B3B6-C69E59CF92C3) (Shutdown) 
     Apple Watch Series 10 (42mm) (9F64CFCB-86E8-4A28-A9DC-74B098AD0C6C) (Shutdown) 
@@ -193,15 +200,15 @@ visionOS 26.0 (26.0 - 23M5279f) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
     Apple Watch Ultra 2 (49mm) (1E62E2E0-7D64-436B-A8BE-6F549FE6AA5E) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
     Apple Watch SE (44mm) (2nd generation) (EBE64EF0-6249-465F-8208-7540BCEFE402) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
     Apple Watch SE (40mm) (2nd generation) (2F56F91C-19DD-4723-A0C0-8680221C74EC) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
--- Unavailable: com.apple.CoreSimulator.SimRuntime.watchOS-11-5 --
-    Apple Watch Series 10 (46mm) (9E9F12EA-E1AB-4E89-8CB5-A80A54144E4A) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    Apple Watch Series 10 (42mm) (13A7EA67-EC08-48C1-A363-E28427066510) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    Apple Watch Ultra 2 (49mm) (21AADAB7-7218-4D5A-AA69-CA82A0E7BC41) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    Apple Watch SE (44mm) (2nd generation) (60750EC7-7895-4C87-A551-4CC80C6D2989) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
-    Apple Watch SE (40mm) (2nd generation) (1C78F927-9BB0-48A2-92B0-C4858F85B982) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.xrOS-2-5 --
     Apple Vision Pro (618F7D9A-D6BF-4BF3-95E7-A6FED1E2B249) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
-157DA9EC-AA4D-429A-A1DA-E9A0EF9998B8 (active, disconnected)
+F642F84E-1C4F-4B65-8199-4D48FBDD7727 (active, disconnected)
+    Watch: Apple Watch Series 10 (46mm) (9E9F12EA-E1AB-4E89-8CB5-A80A54144E4A) (Shutdown)
+    Phone: Bitrise iOS default (DB487418-EC31-456A-A53B-9F684F0AAC7A) (Shutdown)
+E33E85E7-7BA8-4D4D-8537-41E407198D62 (active, disconnected)
+    Watch: Apple Watch Series 10 (42mm) (13A7EA67-EC08-48C1-A363-E28427066510) (Shutdown)
+    Phone: Bitrise iOS default (A5C7F585-E19B-4574-B2AA-5176A3D3B5F5) (Shutdown)
+5265989A-3CC4-4704-B87D-AB2139A04FB6 (active, disconnected)
     Watch: Apple Watch Series 10 (46mm) (E9889D3E-A7D0-47ED-B3B6-C69E59CF92C3) (Shutdown)
     Phone: Bitrise iOS default (9B6D3C4D-8A9A-4757-8ACD-270451D71BEF) (Shutdown)
