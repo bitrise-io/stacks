@@ -11,7 +11,12 @@
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "bundletool",
+          "error": "exit status 127: zsh:1: command not found: bundletool\n"
+        }
+      ]
     }
   }
 ]
