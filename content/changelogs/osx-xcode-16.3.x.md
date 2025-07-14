@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-07-07` (released 2025-07-14)
+
+- From now on, you can expect the simulator device `Bitrise iOS default` to be paired with an Apple Watch device
+
 ### Stack update `v2025-05-29` (released 2025-05-29)
 
 - yq [added](https://formulae.brew.sh/formula/yq) 
