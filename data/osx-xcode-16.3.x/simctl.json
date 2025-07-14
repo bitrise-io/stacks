@@ -3850,6 +3850,57 @@
     ]
   },
   "pairs" : {
-
+    "F7468FA9-8A95-456E-B68C-C83BC68A0EC7" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (46mm)",
+        "udid" : "C6EA53F2-15CA-4FE2-AE15-790A31B553A3",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "43381EDE-0F1A-44C1-97D8-2CC6C26B9283",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "BBD1C197-AC4B-4FC6-B77C-1393DA0FC8FD" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (42mm)",
+        "udid" : "E81BAF3A-426E-46DE-B194-1AFA72FE70C4",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "8BE40064-89DF-45AD-BD56-2F4412893B9F",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "C6C7C692-4EF2-4682-BBD1-BE83E942860E" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 2 (49mm)",
+        "udid" : "D8197509-48CE-40E1-952A-5361B866BA1A",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "434F3917-606A-4CA1-B587-31F092ACBABE",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "3E877AAC-9022-42C0-959A-DD55A5C54593" : {
+      "watch" : {
+        "name" : "Apple Watch Series 9 (45mm)",
+        "udid" : "E3380136-8365-401D-8ECF-EDA25B2F717F",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "E421638A-5DC0-44B7-8FB9-1AD0E98B78E3",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    }
   }
 }
