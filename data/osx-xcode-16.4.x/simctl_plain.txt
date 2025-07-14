@@ -206,3 +206,15 @@ visionOS 2.5 (2.5 - 22O473) - com.apple.CoreSimulator.SimRuntime.xrOS-2-5
 -- visionOS 2.5 --
     Apple Vision Pro (3A053028-034D-4BC9-AAC6-E4F8AD02E4BD) (Shutdown) 
 == Device Pairs ==
+3E877AAC-9022-42C0-959A-DD55A5C54593 (active, disconnected)
+    Watch: Apple Watch Series 9 (45mm) (E3380136-8365-401D-8ECF-EDA25B2F717F) (Shutdown)
+    Phone: Bitrise iOS default (E421638A-5DC0-44B7-8FB9-1AD0E98B78E3) (Shutdown)
+F7468FA9-8A95-456E-B68C-C83BC68A0EC7 (active, disconnected)
+    Watch: Apple Watch Series 10 (46mm) (C6EA53F2-15CA-4FE2-AE15-790A31B553A3) (Shutdown)
+    Phone: Bitrise iOS default (43381EDE-0F1A-44C1-97D8-2CC6C26B9283) (Shutdown)
+BBD1C197-AC4B-4FC6-B77C-1393DA0FC8FD (active, disconnected)
+    Watch: Apple Watch Series 10 (42mm) (E81BAF3A-426E-46DE-B194-1AFA72FE70C4) (Shutdown)
+    Phone: Bitrise iOS default (8BE40064-89DF-45AD-BD56-2F4412893B9F) (Shutdown)
+C6C7C692-4EF2-4682-BBD1-BE83E942860E (active, disconnected)
+    Watch: Apple Watch Ultra 2 (49mm) (D8197509-48CE-40E1-952A-5361B866BA1A) (Shutdown)
+    Phone: Bitrise iOS default (434F3917-606A-4CA1-B587-31F092ACBABE) (Shutdown)
