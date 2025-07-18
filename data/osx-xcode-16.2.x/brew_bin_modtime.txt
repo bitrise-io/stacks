@@ -35,7 +35,7 @@ bdftogd Sep 13 11:13:02 2024
 benchmark_xl Sep 13 10:35:41 2024
 bjoentegaard Sep 13 10:35:41 2024
 bq Sep 13 10:38:22 2024
-brew Apr 4 12:43:06 2025
+brew Jul 7 13:41:09 2025
 brotli Sep 13 10:35:38 2024
 bsqldb Sep 13 11:13:02 2024
 bsqlodbc Sep 13 11:13:02 2024
@@ -375,6 +375,7 @@ libassuan-config Sep 13 10:34:37 2024
 libgcrypt-config Sep 13 10:34:37 2024
 libpng-config Sep 13 10:34:53 2024
 libpng16-config Sep 13 10:34:53 2024
+license-plist Jul 18 12:29:30 2025
 linkicc Sep 13 10:35:14 2024
 local_tone_map Sep 13 10:35:41 2024
 lokalise2 Sep 13 10:36:06 2024
