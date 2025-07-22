@@ -56,7 +56,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "nothing has been installed with pipx 😴",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.2.0, installed using Python 3.12.4\n    - pre-commit",
           "executed_command": "pipx list"
         },
         {
