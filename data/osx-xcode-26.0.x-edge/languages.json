@@ -49,7 +49,7 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "system\n  11\n  11.0\n  11.0.27\n* 17 (set by /Users/vagrant/.jenv/version)\n  17.0\n  17.0.15\n  21\n  21.0\n  21.0.7\n  temurin64-11.0.27\n  temurin64-17.0.15\n  temurin64-21.0.7",
+          "raw_output": "system\n  11\n  11.0\n  11.0.27\n* 17 (set by /Users/vagrant/.jenv/version)\n  17.0\n  17.0.16\n  21\n  21.0\n  21.0.8\n  temurin64-11.0.27\n  temurin64-17.0.16\n  temurin64-21.0.8",
           "executed_command": "jenv versions"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Kotlin",
           "category": "languages",
           "version": "2.2.0",
-          "raw_output": "Kotlin version 2.2.0-release-294 (JRE 17.0.15+6)",
+          "raw_output": "Kotlin version 2.2.0-release-294 (JRE 17.0.16+8)",
           "executed_command": "kotlin -version"
         }
       ],
