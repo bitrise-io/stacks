@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.74.2",
-          "raw_output": "gh version 2.74.2 (2025-06-17)\nhttps://github.com/cli/cli/releases/tag/v2.74.2",
+          "version": "2.76.0",
+          "raw_output": "gh version 2.76.0 (2025-07-17)\nhttps://github.com/cli/cli/releases/tag/v2.76.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,15 +34,15 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.45.4",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.45.4",
+          "version": "4.46.1",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.46.1",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.27.49",
-          "raw_output": "aws-cli/2.27.49 Python/3.13.5 Darwin/24.5.0 source/arm64",
+          "version": "2.27.56",
+          "raw_output": "aws-cli/2.27.56 Python/3.13.5 Darwin/24.5.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -56,28 +56,28 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.2.0, installed using Python 3.13.5\n    - pre-commit\n   package yamllint 1.37.1, installed using Python 3.13.4\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.2.0, installed using Python 3.13.5\n    - pre-commit\n   package yamllint 1.37.1, installed using Python 3.13.5\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
           "name": "Mercurial",
           "category": "tools",
-          "version": "7.0.2",
-          "raw_output": "Mercurial Distributed SCM (version 7.0.2)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2025 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "version": "7.0.3",
+          "raw_output": "Mercurial Distributed SCM (version 7.0.3)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2025 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
           "executed_command": "hg version"
         },
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.9.0",
-          "raw_output": "14.9.0",
+          "version": "14.11.0",
+          "raw_output": "14.11.0",
           "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
           "version": "9.12",
-          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.9. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.10. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
           "executed_command": "openconnect --version"
         },
         {
