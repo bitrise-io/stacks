@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-07-22` (released 2025-07-23)
+
+- The [pre-commit](https://github.com/pre-commit/pre-commit) CLI tool is now preinstalled
+- The [licenseplist](https://formulae.brew.sh/formula/licenseplist) CLI tool is now preinstalled
+- The [crowdin](https://www.npmjs.com/package/@crowdin/cli) CLI tool is now preinstalled
+
 ### Stack update `v2025-05-30` (released 2025-06-04)
 
 - The [yq](https://github.com/mikefarah/yq) CLI tool is now preinstalled
