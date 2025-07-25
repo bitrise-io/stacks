@@ -39,7 +39,7 @@ bdftogd Sep 20 10:04:03 2023
 benchmark_xl Sep 20 09:17:16 2023
 bjoentegaard Sep 20 09:17:16 2023
 bq Apr 23 10:39:10 2024
-brew May 28 12:55:36 2025
+brew Jul 24 08:04:38 2025
 brotli Sep 20 09:17:15 2023
 bsqldb Sep 20 10:04:03 2023
 bsqlodbc Sep 20 10:04:03 2023
@@ -372,6 +372,7 @@ libassuan-config Sep 20 09:16:36 2023
 libgcrypt-config Sep 20 09:16:36 2023
 libpng-config Sep 20 09:14:38 2023
 libpng16-config Sep 20 09:14:38 2023
+license-plist Jul 24 08:04:46 2025
 linkicc Sep 20 09:14:52 2023
 lokalise2 Sep 20 09:17:39 2023
 lprsetup.sh Sep 20 09:16:10 2023
