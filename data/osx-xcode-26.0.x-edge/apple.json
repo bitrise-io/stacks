@@ -14,7 +14,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Build Version: 17A5285i\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.1.5285.9.QTjZlT",
+          "raw_output": "Build Version: 17A5285i\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /Users/vagrant/Library/Developer/DVTDownloads/MetalToolchain/mounts/18644a5ccedf19cfc65fce07c38ee062e3fbd3a8",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
