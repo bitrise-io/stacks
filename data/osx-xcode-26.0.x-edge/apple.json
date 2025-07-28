@@ -14,7 +14,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Build Version: 17A5285i\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.1.5285.9.SMnWRV",
+          "raw_output": "Build Version: 17A5285i\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /Users/vagrant/Library/Developer/DVTDownloads/MetalToolchain/mounts/18644a5ccedf19cfc65fce07c38ee062e3fbd3a8",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -46,6 +46,13 @@
           "executed_command": "swift-format --version"
         },
         {
+          "name": "LicensePlist",
+          "category": "apple",
+          "version": "3.27.1",
+          "raw_output": "3.27.1",
+          "executed_command": "license-plist --version"
+        },
+        {
           "name": "Tuist",
           "category": "apple",
           "version": "4.50.2",
@@ -56,7 +63,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.5.11\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 62615516365cc40fbcf0e5bbb0fec770bb610eff\nLast commit: 2 days ago\nBranch: stable\nCore tap JSON: 22 Jul 20:32 UTC\nCore cask tap JSON: 22 Jul 20:32 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 7\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.5 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/bin/ruby\nCPU: 7-core 64-bit dunno\nClang: 17.0.0 build 1700\nGit: 2.50.1 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.5-arm64\nCLT: 16.3.0.0.1.1742442376\nXcode: 26.0 =\u003e /Applications/Xcode-26.0.0.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.5.11\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 62615516365cc40fbcf0e5bbb0fec770bb610eff\nLast commit: 7 days ago\nBranch: stable\nCore tap JSON: 22 Jul 20:32 UTC\nCore cask tap JSON: 22 Jul 20:32 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 7\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.5 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/bin/ruby\nCPU: 7-core 64-bit dunno\nClang: 17.0.0 build 1700\nGit: 2.50.1 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.5-arm64\nCLT: 16.3.0.0.1.1742442376\nXcode: 26.0 =\u003e /Applications/Xcode-26.0.0.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -127,10 +134,6 @@
         {
           "name": "CoreSimulator.framework",
           "error": "No matches found"
-        },
-        {
-          "name": "LicensePlist",
-          "error": "exit status 64: Error: Unexpected argument 'version'\nUsage: license-plist \u003coptions\u003e \u003csubcommand\u003e\n  See 'license-plist --help' for more information.\n"
         }
       ]
     }
