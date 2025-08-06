@@ -1896,8 +1896,9 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23A5297i",
+      "buildversion" : "23A5308g",
       "supportedArchitectures" : [
+        "x86_64",
         "arm64"
       ],
       "supportedDeviceTypes" : [
@@ -2228,10 +2229,11 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-0",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5297i\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5297i\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5308g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5308g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
-        "arm64" : "0001-01-01T00:00:00Z"
+        "arm64" : "0001-01-01T00:00:00Z",
+        "x86_64" : "0001-01-01T00:00:00Z"
       },
       "name" : "iOS 26.0"
     },
@@ -2239,7 +2241,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23J5316g",
+      "buildversion" : "23J5327g",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2289,8 +2291,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-26-0",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5316g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5316g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5327g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5327g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2405,7 +2407,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23R5317g",
+      "buildversion" : "23R5328g",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2497,8 +2499,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-26-0",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5317g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5317g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5328g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5328g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2508,7 +2510,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23M5300g",
+      "buildversion" : "23M5311g",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2522,8 +2524,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-0",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5300g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5300g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5311g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5311g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },

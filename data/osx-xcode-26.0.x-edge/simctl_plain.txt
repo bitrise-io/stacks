@@ -110,11 +110,11 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 == Runtimes ==
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.5 (18.5 - 22F77) - com.apple.CoreSimulator.SimRuntime.iOS-18-5
-iOS 26.0 (26.0 - 23A5297i) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-tvOS 26.0 (26.0 - 23J5316g) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
+iOS 26.0 (26.0 - 23A5308g) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
+tvOS 26.0 (26.0 - 23J5327g) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
-watchOS 26.0 (26.0 - 23R5317g) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
-visionOS 26.0 (26.0 - 23M5300g) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
+watchOS 26.0 (26.0 - 23R5328g) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
+visionOS 26.0 (26.0 - 23M5311g) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
 == Devices ==
 -- iOS 17.5 --
     iPhone 15 Pro (21D2D5D5-FA4C-44E3-8362-7E6C8E6219D4) (Shutdown) 
