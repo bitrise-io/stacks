@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-08-07` (released 2025-08-08)
+
+- macOS version update: `15.5 (24F74)` --> `15.6 (24G84)`
+- Android Emulator updated `35.6.11` --> `36.1.9`
+- Homebrew package upgrades
+
 ### Stack update `v2025-08-06`
 
 - [Xcode 26.0 Beta 5](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5295f`)
