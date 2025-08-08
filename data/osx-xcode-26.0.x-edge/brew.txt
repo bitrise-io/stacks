@@ -52,7 +52,7 @@ hub 2.14.2
 icu4c@77 77.1
 imagemagick 7.1.2-0
 imath 3.1.12
-jasper 4.2.5
+jasper 4.2.8
 jenv 0.5.9
 jpeg-turbo 3.1.1
 jpeg-xl 0.11.1_1
@@ -64,9 +64,9 @@ libavif 1.3.0
 libde265 1.0.16
 libdeflate 1.24
 libevent 2.1.12_1
-libgcrypt 1.11.1
+libgcrypt 1.11.2
 libgpg-error 1.55
-libheif 1.20.1
+libheif 1.20.2
 libidn2 2.3.8
 libksba 1.6.7
 liblqr 0.4.3
@@ -106,12 +106,12 @@ mint 0.18.0
 mpdecimal 4.0.1
 net-snmp 5.9.4
 nettle 3.10.2
-node 24.4.1
+node 24.5.0
 npth 1.8
 oniguruma 6.9.10
 openconnect 9.12
 openexr 3.3.5
-openjdk 24.0.1
+openjdk 24.0.2
 openjpeg 2.5.3
 openldap 2.6.10
 openssl@3 3.5.1
@@ -120,7 +120,7 @@ p11-kit 0.25.5
 parallel 20250722
 pcre2 10.45
 php 8.4.11
-pinentry 1.3.1_1
+pinentry 1.3.2
 pipx 1.7.1_1
 pixman 0.46.4
 pkcs11-helper 1.30.0
@@ -146,7 +146,7 @@ telegraf 1.35.3
 tidy-html5 5.8.0
 transcrypt 2.3.1
 tree 2.2.1
-unbound 1.23.0
+unbound 1.23.1
 unixodbc 2.3.12
 wangle 2025.08.04.00
 watchman 2025.08.04.00
@@ -164,7 +164,7 @@ yq 4.47.1
 zeromq 4.3.5_2
 zlib 1.3.1
 zstd 1.5.7
-gcloud-cli 529.0.0
+gcloud-cli 533.0.0
 temurin@11 11.0.28,6
 temurin@17 17.0.16,8
 temurin@21 21.0.8,9
