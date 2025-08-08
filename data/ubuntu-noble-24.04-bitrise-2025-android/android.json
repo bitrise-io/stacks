@@ -16,16 +16,14 @@
           "version": "3.4.3",
           "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.3/lib/ruby/gems/3.4.0/gems/fastlane-2.228.0/bin/fastlane\n-----------------------------\nfastlane 2.228.0",
           "executed_command": "fastlane --version"
-        },
-        {
-          "name": "Bundletool",
-          "category": "android",
-          "version": "1.18.1",
-          "raw_output": "1.18.1",
-          "executed_command": "java -jar /opt/apktools/bundletool.jar version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "Bundletool",
+          "error": "exit status 127: /bin/bash: line 1: bundletool: command not found\n"
+        }
+      ]
     }
   }
 ]
