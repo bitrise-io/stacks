@@ -1,0 +1,141 @@
+[
+  {
+    "category": "apple",
+    "output": {
+      "items": [
+        {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 26.0\nBuild version 17A5295f",
+          "executed_command": "xcodebuild -version"
+        },
+        {
+          "name": "Metal Toolchain",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b1a9031bff04dfa52068ab6f5b994737e87c5980.asset/AssetData\nBuild Version: 17A5295f\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /Users/vagrant/Library/Developer/DVTDownloads/MetalToolchain/mounts/b1a9031bff04dfa52068ab6f5b994737e87c5980",
+          "executed_command": "xcodebuild -showComponent MetalToolchain"
+        },
+        {
+          "name": "Swift (Xcode bundled)",
+          "category": "apple",
+          "version": "",
+          "raw_output": "swift-driver version: 1.127.11.2 Apple Swift version 6.2 (swiftlang-6.2.0.16.14 clang-1700.3.16.4)\nTarget: arm64-apple-macosx15.0",
+          "executed_command": "xcrun swift --version"
+        },
+        {
+          "name": "Active Xcode command line tools",
+          "category": "apple",
+          "version": "",
+          "raw_output": "/Applications/Xcode-26.0.0.app/Contents/Developer",
+          "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "Rosetta",
+          "category": "apple",
+          "version": "",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1.1752914184\nvolume: /\nlocation: /\ninstall-time: 1754488713",
+          "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
+        },
+        {
+          "name": "swift-format",
+          "category": "apple",
+          "version": "601.0.0",
+          "raw_output": "601.0.0",
+          "executed_command": "swift-format --version"
+        },
+        {
+          "name": "LicensePlist",
+          "category": "apple",
+          "version": "3.27.1",
+          "raw_output": "3.27.1",
+          "executed_command": "license-plist --version"
+        },
+        {
+          "name": "Tuist",
+          "category": "apple",
+          "version": "4.50.2",
+          "raw_output": "4.50.2",
+          "executed_command": "tuist version"
+        },
+        {
+          "name": "Homebrew config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "HOMEBREW_VERSION: 4.6.0\nORIGIN: https://github.com/Homebrew/brew\nHEAD: a7ea27a9c81660931a9796edc63d8533dfb1da26\nLast commit: 7 days ago\nBranch: stable\nCore tap JSON: 06 Aug 14:37 UTC\nCore cask tap JSON: 06 Aug 14:37 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_MAKE_JOBS: 6\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.5 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/bin/ruby\nCPU: hexa-core 64-bit dunno\nClang: 17.0.0 build 1700\nGit: 2.50.1 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.6-arm64\nCLT: 16.4.0.0.1.1747106510\nXcode: 26.0 =\u003e /Applications/Xcode-26.0.0.app/Contents/Developer\nRosetta 2: false",
+          "executed_command": "brew config"
+        },
+        {
+          "name": "Mint",
+          "category": "apple",
+          "version": "0.18.0",
+          "raw_output": "Version: 0.18.0",
+          "executed_command": "mint version"
+        },
+        {
+          "name": "Cocoapods config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.16.2\n        Ruby : ruby 3.4.4 (2025-05-14 revision a38531fd3f) +PRISM [arm64-darwin24]\n    RubyGems : 3.6.7\n        Host : macOS 15.6 (24G84)\n       Xcode : 26.0 (17A5295f)\n         Git : git version 2.50.1\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/3.4.4/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 2906b2e8f174fead838fbf7334c0f4e1fb784efa\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/3.4/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.5\n```",
+          "executed_command": "pod env"
+        },
+        {
+          "name": "Carthage",
+          "category": "apple",
+          "version": "0.40.0",
+          "raw_output": "0.40.0",
+          "executed_command": "carthage version"
+        },
+        {
+          "name": "SwiftLint",
+          "category": "apple",
+          "version": "0.59.1",
+          "raw_output": "0.59.1",
+          "executed_command": "swiftlint version"
+        },
+        {
+          "name": "xcpretty",
+          "category": "apple",
+          "version": "0.4.1",
+          "raw_output": "0.4.1",
+          "executed_command": "xcpretty --version"
+        },
+        {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.12",
+          "raw_output": "applesimutils version 0.9.12",
+          "executed_command": "applesimutils -v"
+        },
+        {
+          "name": "danger-swift",
+          "category": "apple",
+          "version": "3.21.2",
+          "raw_output": "3.21.2\n\u001b[0;0m",
+          "executed_command": "danger-swift --version"
+        },
+        {
+          "name": "xcbeautify",
+          "category": "apple",
+          "version": "2.29.0",
+          "raw_output": "2.29.0",
+          "executed_command": "xcbeautify --version"
+        },
+        {
+          "name": "xclogparser",
+          "category": "apple",
+          "version": "0.2.42",
+          "raw_output": "XCLogParser 0.2.42",
+          "executed_command": "xclogparser version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "CoreSimulator.framework",
+          "error": "No matches found"
+        }
+      ]
+    }
+  }
+]
