@@ -56,7 +56,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package yamllint 1.37.0, installed using Python 3.13.2\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.2.0, installed using Python 3.13.2\n    - pre-commit\n   package yamllint 1.37.0, installed using Python 3.13.2\n    - yamllint",
           "executed_command": "pipx list"
         },
         {

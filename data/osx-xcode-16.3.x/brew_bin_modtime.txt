@@ -395,6 +395,7 @@ libdeflate-gzip Apr 1 07:36:57 2025
 libgcrypt-config Apr 1 07:36:31 2025
 libpng-config Apr 1 07:36:35 2025
 libpng16-config Apr 1 07:36:35 2025
+license-plist Aug 11 12:06:39 2025
 linkicc Apr 1 07:36:46 2025
 local_tone_map Apr 1 07:36:59 2025
 lokalise2 Apr 1 07:36:51 2025
