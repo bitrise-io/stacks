@@ -21,7 +21,7 @@
           "name": "Go versions",
           "category": "languages",
           "version": "",
-          "raw_output": "1.21.13\n  1.21\n  1.22.11\n *1.22\n  1",
+          "raw_output": "1.21.13\n  1.21\n  1.22.11\n  1.22\n *1.23.5\n  1",
           "executed_command": "asdf list golang"
         },
         {
@@ -62,8 +62,8 @@
         {
           "name": "Python",
           "category": "languages",
-          "version": "3.12.8",
-          "raw_output": "Python 3.12.8",
+          "version": "3.13.6",
+          "raw_output": "Python 3.13.6",
           "executed_command": "python3 --version"
         },
         {

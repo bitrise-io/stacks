@@ -98,6 +98,7 @@ libxext 1.3.6
 libxrender 0.9.12
 libyaml 0.2.5
 libzip 1.11.3
+licenseplist 3.27.1
 little-cms2 2.17
 lokalise2 3.1.2
 lz4 1.10.0
@@ -167,7 +168,7 @@ yq 4.45.4
 zeromq 4.3.5_1
 zlib 1.3.1
 zstd 1.5.7
-google-cloud-sdk 516.0.0
+gcloud-cli 516.0.0
 temurin@11 11.0.26,4
 temurin@17 17.0.14,7
 temurin@21 21.0.6,7
