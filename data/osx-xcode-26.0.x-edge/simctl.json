@@ -1191,7 +1191,7 @@
   ],
   "runtimes" : [
     {
-      "isAvailable" : false,
+      "isAvailable" : true,
       "version" : "17.5",
       "isInternal" : false,
       "buildversion" : "21F79",
@@ -1513,7 +1513,6 @@
           "productFamily" : "iPad"
         }
       ],
-      "availabilityError" : "liblaunch_sim.dylib could not be opened",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-17-5",
       "platform" : "iOS",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_21F79\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 17.5.simruntime",
@@ -1525,10 +1524,10 @@
       "name" : "iOS 17.5"
     },
     {
-      "isAvailable" : false,
-      "version" : "18.5",
+      "isAvailable" : true,
+      "version" : "18.6",
       "isInternal" : false,
-      "buildversion" : "22F77",
+      "buildversion" : "22G86",
       "supportedArchitectures" : [
         "x86_64",
         "arm64"
@@ -1883,24 +1882,22 @@
           "productFamily" : "iPad"
         }
       ],
-      "availabilityError" : "liblaunch_sim.dylib could not be opened",
-      "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-5",
+      "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-18-6",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F77\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22F77\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22G86\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.6.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_22G86\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 18.6.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z",
         "x86_64" : "0001-01-01T00:00:00Z"
       },
-      "name" : "iOS 18.5"
+      "name" : "iOS 18.6"
     },
     {
-      "isAvailable" : false,
+      "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23A5308g",
+      "buildversion" : "23A5326a",
       "supportedArchitectures" : [
-        "x86_64",
         "arm64"
       ],
       "supportedDeviceTypes" : [
@@ -2229,14 +2226,12 @@
           "productFamily" : "iPad"
         }
       ],
-      "availabilityError" : "liblaunch_sim.dylib could not be opened",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-0",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5308g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5308g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5326a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5326a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
-        "arm64" : "0001-01-01T00:00:00Z",
-        "x86_64" : "0001-01-01T00:00:00Z"
+        "arm64" : "0001-01-01T00:00:00Z"
       },
       "name" : "iOS 26.0"
     },
@@ -2244,7 +2239,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23J5327g",
+      "buildversion" : "23J5346a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2294,15 +2289,15 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-26-0",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5327g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5327g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
       "name" : "tvOS 26.0"
     },
     {
-      "isAvailable" : false,
+      "isAvailable" : true,
       "version" : "11.5",
       "isInternal" : false,
       "buildversion" : "22T572",
@@ -2396,7 +2391,6 @@
           "productFamily" : "Apple Watch"
         }
       ],
-      "availabilityError" : "liblaunch_sim.dylib could not be opened",
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-11-5",
       "platform" : "watchOS",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_22T572\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 11.5.simruntime",
@@ -2411,7 +2405,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23R5328g",
+      "buildversion" : "23R5346a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2503,8 +2497,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-26-0",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5328g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5328g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2514,7 +2508,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23M5311g",
+      "buildversion" : "23M5328a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2528,8 +2522,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-0",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5311g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5311g\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5328a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5328a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2537,6 +2531,128 @@
     }
   ],
   "devices" : {
+    "com.apple.CoreSimulator.SimRuntime.iOS-18-6" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/C0EDFD64-9B90-4501-8531-A0A295CA050B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/C0EDFD64-9B90-4501-8531-A0A295CA050B",
+        "udid" : "C0EDFD64-9B90-4501-8531-A0A295CA050B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E0A44637-3AB1-410C-8735-010420C7EFE2\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E0A44637-3AB1-410C-8735-010420C7EFE2",
+        "udid" : "E0A44637-3AB1-410C-8735-010420C7EFE2",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/47212C90-65BD-4608-9F43-1439728D007C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/47212C90-65BD-4608-9F43-1439728D007C",
+        "udid" : "47212C90-65BD-4608-9F43-1439728D007C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16e",
+        "state" : "Shutdown",
+        "name" : "iPhone 16e"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B82D28BF-8C04-47FC-976E-B763668DF8B4\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B82D28BF-8C04-47FC-976E-B763668DF8B4",
+        "udid" : "B82D28BF-8C04-47FC-976E-B763668DF8B4",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16",
+        "state" : "Shutdown",
+        "name" : "iPhone 16"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/3F0233F1-0150-4CDE-9B99-9F3CDE78EF53\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/3F0233F1-0150-4CDE-9B99-9F3CDE78EF53",
+        "udid" : "3F0233F1-0150-4CDE-9B99-9F3CDE78EF53",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 16 Plus"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2E921623-DFE7-43C0-BC8F-39D28F4013B0\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2E921623-DFE7-43C0-BC8F-39D28F4013B0",
+        "udid" : "2E921623-DFE7-43C0-BC8F-39D28F4013B0",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+        "state" : "Shutdown",
+        "name" : "Bitrise iOS default"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CE6185F5-EB79-407A-985D-F0AD67AAA52F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CE6185F5-EB79-407A-985D-F0AD67AAA52F",
+        "udid" : "CE6185F5-EB79-407A-985D-F0AD67AAA52F",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/59AE7B75-6066-4C09-A7E1-2C3194F9F220\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/59AE7B75-6066-4C09-A7E1-2C3194F9F220",
+        "udid" : "59AE7B75-6066-4C09-A7E1-2C3194F9F220",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1AFDC5B0-3F95-41A0-921B-269E49ABF23F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1AFDC5B0-3F95-41A0-921B-269E49ABF23F",
+        "udid" : "1AFDC5B0-3F95-41A0-921B-269E49ABF23F",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
+        "state" : "Shutdown",
+        "name" : "iPad mini (A17 Pro)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8252FC3A-0CE6-4BDB-8615-52E017111F71\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/8252FC3A-0CE6-4BDB-8615-52E017111F71",
+        "udid" : "8252FC3A-0CE6-4BDB-8615-52E017111F71",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-A16",
+        "state" : "Shutdown",
+        "name" : "iPad (A16)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/7974BDF0-5A7A-4BE5-B847-597524876F8C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/7974BDF0-5A7A-4BE5-B847-597524876F8C",
+        "udid" : "7974BDF0-5A7A-4BE5-B847-597524876F8C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M3",
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M3)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8406D747-AED2-4600-8E5C-B20C99FA963D\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/8406D747-AED2-4600-8E5C-B20C99FA963D",
+        "udid" : "8406D747-AED2-4600-8E5C-B20C99FA963D",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M3",
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M3)"
+      }
+    ],
     "com.apple.CoreSimulator.SimRuntime.xrOS-26-0" : [
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F8A35E65-1468-48A3-A8B3-F1BD327141F6\/data",
@@ -2583,7 +2699,7 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-18-5" : [
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/11671BF1-AF91-4C95-8136-42D3EDB34AB8\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/11671BF1-AF91-4C95-8136-42D3EDB34AB8",
@@ -2594,7 +2710,7 @@
         "name" : "iPhone 16 Pro"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/AE587208-9A11-4E75-9EF2-1ABE0C1994E2\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/AE587208-9A11-4E75-9EF2-1ABE0C1994E2",
@@ -2605,7 +2721,7 @@
         "name" : "iPhone 16 Pro Max"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4E741AE1-B2BB-43DD-B5DC-91910356E090\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4E741AE1-B2BB-43DD-B5DC-91910356E090",
@@ -2616,7 +2732,7 @@
         "name" : "iPhone 16e"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/59080336-5E39-4417-932A-6F9DBDC1CCF0\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/59080336-5E39-4417-932A-6F9DBDC1CCF0",
@@ -2627,7 +2743,7 @@
         "name" : "iPhone 16"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FFBE5B17-EB32-4B82-8815-7D9AD0DAD281\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FFBE5B17-EB32-4B82-8815-7D9AD0DAD281",
@@ -2638,7 +2754,7 @@
         "name" : "iPhone 16 Plus"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6EC82716-DF79-4AE8-840A-F190E7725CAD\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6EC82716-DF79-4AE8-840A-F190E7725CAD",
@@ -2649,7 +2765,7 @@
         "name" : "Bitrise iOS default"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/2827D892-42A7-41C5-98E9-A9060672C452\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/2827D892-42A7-41C5-98E9-A9060672C452",
@@ -2660,7 +2776,7 @@
         "name" : "iPad Pro 11-inch (M4)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/06F10DE4-ACBF-45A8-9A65-77A0173ACA87\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/06F10DE4-ACBF-45A8-9A65-77A0173ACA87",
@@ -2671,7 +2787,7 @@
         "name" : "iPad Pro 13-inch (M4)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F30BFB9B-248E-4244-A9AF-318C2B261F33\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F30BFB9B-248E-4244-A9AF-318C2B261F33",
@@ -2682,7 +2798,7 @@
         "name" : "iPad mini (A17 Pro)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/94122074-B6A1-4097-939F-1C6720F236A3\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/94122074-B6A1-4097-939F-1C6720F236A3",
@@ -2693,7 +2809,7 @@
         "name" : "iPad (A16)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/A894CC76-3D69-46D2-9B94-2C47952B1CE0\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/A894CC76-3D69-46D2-9B94-2C47952B1CE0",
@@ -2704,7 +2820,7 @@
         "name" : "iPad Air 13-inch (M3)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
+        "availabilityError" : "runtime profile not found using \"System\" match policy",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D69C0317-A69E-44B2-BFFB-2452B72B581A\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D69C0317-A69E-44B2-BFFB-2452B72B581A",
@@ -2717,136 +2833,298 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-26-0" : [
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D1DA939C-ECD2-46AF-AC10-95E01CDDF168\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D1DA939C-ECD2-46AF-AC10-95E01CDDF168",
         "udid" : "D1DA939C-ECD2-46AF-AC10-95E01CDDF168",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro",
         "state" : "Shutdown",
         "name" : "iPhone 16 Pro"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BC4C6EDF-CB2B-44DD-800C-DB069045632C\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/BC4C6EDF-CB2B-44DD-800C-DB069045632C",
         "udid" : "BC4C6EDF-CB2B-44DD-800C-DB069045632C",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Pro-Max",
         "state" : "Shutdown",
         "name" : "iPhone 16 Pro Max"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B09F7110-6E35-4B81-91E3-62098744E742\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B09F7110-6E35-4B81-91E3-62098744E742",
         "udid" : "B09F7110-6E35-4B81-91E3-62098744E742",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16e",
         "state" : "Shutdown",
         "name" : "iPhone 16e"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/78A4516D-0BA1-4E9B-B750-AC2F0022FD30\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/78A4516D-0BA1-4E9B-B750-AC2F0022FD30",
         "udid" : "78A4516D-0BA1-4E9B-B750-AC2F0022FD30",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16",
         "state" : "Shutdown",
         "name" : "iPhone 16"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/34C24E5F-11D7-422A-B11D-C55BEFAFA3D5\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/34C24E5F-11D7-422A-B11D-C55BEFAFA3D5",
         "udid" : "34C24E5F-11D7-422A-B11D-C55BEFAFA3D5",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
         "state" : "Shutdown",
         "name" : "iPhone 16 Plus"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EF458083-B372-4C51-A9D8-7DAFB9246DC2\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EF458083-B372-4C51-A9D8-7DAFB9246DC2",
         "udid" : "EF458083-B372-4C51-A9D8-7DAFB9246DC2",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/B6A304B2-DECA-441F-A415-E2281C7783CE\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/B6A304B2-DECA-441F-A415-E2281C7783CE",
         "udid" : "B6A304B2-DECA-441F-A415-E2281C7783CE",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro 11-inch (M4)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BFC93ED3-AFA1-47FE-A248-37C6A7CBA907\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/BFC93ED3-AFA1-47FE-A248-37C6A7CBA907",
         "udid" : "BFC93ED3-AFA1-47FE-A248-37C6A7CBA907",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
         "state" : "Shutdown",
         "name" : "iPad Pro 13-inch (M4)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/BFC28AF2-E0E4-4B04-8A87-B8F1A7586A83\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/BFC28AF2-E0E4-4B04-8A87-B8F1A7586A83",
         "udid" : "BFC28AF2-E0E4-4B04-8A87-B8F1A7586A83",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-A17-Pro",
         "state" : "Shutdown",
         "name" : "iPad mini (A17 Pro)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/FB74CC31-E16A-4D17-8A19-C48A0CF7FB99\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/FB74CC31-E16A-4D17-8A19-C48A0CF7FB99",
         "udid" : "FB74CC31-E16A-4D17-8A19-C48A0CF7FB99",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-A16",
         "state" : "Shutdown",
         "name" : "iPad (A16)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4ED3EB74-DB59-4AC4-9802-2919833D64AE\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4ED3EB74-DB59-4AC4-9802-2919833D64AE",
         "udid" : "4ED3EB74-DB59-4AC4-9802-2919833D64AE",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M3",
         "state" : "Shutdown",
         "name" : "iPad Air 13-inch (M3)"
       },
       {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CDBD70D3-CF69-4B6E-9BAA-1362E07DB2C4\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CDBD70D3-CF69-4B6E-9BAA-1362E07DB2C4",
         "udid" : "CDBD70D3-CF69-4B6E-9BAA-1362E07DB2C4",
-        "isAvailable" : false,
+        "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M3",
         "state" : "Shutdown",
         "name" : "iPad Air 11-inch (M3)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-11-5" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1F75B4F5-DFAB-43E0-BB07-B2074048175D\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1F75B4F5-DFAB-43E0-BB07-B2074048175D",
+        "udid" : "1F75B4F5-DFAB-43E0-BB07-B2074048175D",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 10 (46mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CC60ACD9-9EED-4837-8CC8-4F8615CCE39C\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
+        "udid" : "CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-42mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 10 (42mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE",
+        "udid" : "25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra 2 (49mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/041A0489-F045-4C19-A794-AD082AF75EC5\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/041A0489-F045-4C19-A794-AD082AF75EC5",
+        "udid" : "041A0489-F045-4C19-A794-AD082AF75EC5",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (44mm) (2nd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/523572C1-2FA8-4795-8F97-2924BA9ABA79\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/523572C1-2FA8-4795-8F97-2924BA9ABA79",
+        "udid" : "523572C1-2FA8-4795-8F97-2924BA9ABA79",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE (40mm) (2nd generation)"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.iOS-17-5" : [
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D566B84D-A6D2-4ED0-B51E-4731CFB60B27\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D566B84D-A6D2-4ED0-B51E-4731CFB60B27",
+        "udid" : "D566B84D-A6D2-4ED0-B51E-4731CFB60B27",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 15 Pro"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D94765A7-216B-4B17-A2C6-E5EC18FF043C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D94765A7-216B-4B17-A2C6-E5EC18FF043C",
+        "udid" : "D94765A7-216B-4B17-A2C6-E5EC18FF043C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 15 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40",
+        "udid" : "F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15",
+        "state" : "Shutdown",
+        "name" : "iPhone 15"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/3C08F602-DCE7-4D9F-B6AF-325AB28E79BE\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/3C08F602-DCE7-4D9F-B6AF-325AB28E79BE",
+        "udid" : "3C08F602-DCE7-4D9F-B6AF-325AB28E79BE",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Plus",
+        "state" : "Shutdown",
+        "name" : "iPhone 15 Plus"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/665A14AE-40D9-43D7-AA7A-A3C86DAB1F27\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/665A14AE-40D9-43D7-AA7A-A3C86DAB1F27",
+        "udid" : "665A14AE-40D9-43D7-AA7A-A3C86DAB1F27",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
+        "state" : "Shutdown",
+        "name" : "iPhone SE (3rd generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EF39E75F-1776-439F-B0CD-433225637F85\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EF39E75F-1776-439F-B0CD-433225637F85",
+        "udid" : "EF39E75F-1776-439F-B0CD-433225637F85",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
+        "state" : "Shutdown",
+        "name" : "Bitrise iOS default"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F3FCC68B-6284-4B7D-97DF-41AF502C6E7A\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F3FCC68B-6284-4B7D-97DF-41AF502C6E7A",
+        "udid" : "F3FCC68B-6284-4B7D-97DF-41AF502C6E7A",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M4)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E24B09D4-1740-47A3-87E4-61E700B5949B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E24B09D4-1740-47A3-87E4-61E700B5949B",
+        "udid" : "E24B09D4-1740-47A3-87E4-61E700B5949B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M4)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1E8AFB57-D99A-43DF-8715-0327D8F9CC9B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1E8AFB57-D99A-43DF-8715-0327D8F9CC9B",
+        "udid" : "1E8AFB57-D99A-43DF-8715-0327D8F9CC9B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 11-inch (M2)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EE032072-5829-4F8B-A2CE-15DE0E29174A\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EE032072-5829-4F8B-A2CE-15DE0E29174A",
+        "udid" : "EE032072-5829-4F8B-A2CE-15DE0E29174A",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
+        "state" : "Shutdown",
+        "name" : "iPad Air 13-inch (M2)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6A1FA0AF-B131-4130-9337-C76B9E78E079\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6A1FA0AF-B131-4130-9337-C76B9E78E079",
+        "udid" : "6A1FA0AF-B131-4130-9337-C76B9E78E079",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad (10th generation)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9C124A82-45A6-432D-A458-190F2D1A3189\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9C124A82-45A6-432D-A458-190F2D1A3189",
+        "udid" : "9C124A82-45A6-432D-A458-190F2D1A3189",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
+        "state" : "Shutdown",
+        "name" : "iPad mini (6th generation)"
       }
     ],
     "com.apple.CoreSimulator.SimRuntime.watchOS-26-0" : [
@@ -2900,212 +3178,21 @@
         "state" : "Shutdown",
         "name" : "Apple Watch SE (40mm) (2nd generation)"
       }
-    ],
-    "com.apple.CoreSimulator.SimRuntime.iOS-17-5" : [
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D566B84D-A6D2-4ED0-B51E-4731CFB60B27\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D566B84D-A6D2-4ED0-B51E-4731CFB60B27",
-        "udid" : "D566B84D-A6D2-4ED0-B51E-4731CFB60B27",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Pro",
-        "state" : "Shutdown",
-        "name" : "iPhone 15 Pro"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D94765A7-216B-4B17-A2C6-E5EC18FF043C\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D94765A7-216B-4B17-A2C6-E5EC18FF043C",
-        "udid" : "D94765A7-216B-4B17-A2C6-E5EC18FF043C",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Pro-Max",
-        "state" : "Shutdown",
-        "name" : "iPhone 15 Pro Max"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40",
-        "udid" : "F3B3B9AC-6EC3-4E57-BB73-685FA0C6DD40",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15",
-        "state" : "Shutdown",
-        "name" : "iPhone 15"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/3C08F602-DCE7-4D9F-B6AF-325AB28E79BE\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/3C08F602-DCE7-4D9F-B6AF-325AB28E79BE",
-        "udid" : "3C08F602-DCE7-4D9F-B6AF-325AB28E79BE",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-15-Plus",
-        "state" : "Shutdown",
-        "name" : "iPhone 15 Plus"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/665A14AE-40D9-43D7-AA7A-A3C86DAB1F27\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/665A14AE-40D9-43D7-AA7A-A3C86DAB1F27",
-        "udid" : "665A14AE-40D9-43D7-AA7A-A3C86DAB1F27",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-SE-3rd-generation",
-        "state" : "Shutdown",
-        "name" : "iPhone SE (3rd generation)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EF39E75F-1776-439F-B0CD-433225637F85\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EF39E75F-1776-439F-B0CD-433225637F85",
-        "udid" : "EF39E75F-1776-439F-B0CD-433225637F85",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
-        "state" : "Shutdown",
-        "name" : "Bitrise iOS default"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/F3FCC68B-6284-4B7D-97DF-41AF502C6E7A\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/F3FCC68B-6284-4B7D-97DF-41AF502C6E7A",
-        "udid" : "F3FCC68B-6284-4B7D-97DF-41AF502C6E7A",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB",
-        "state" : "Shutdown",
-        "name" : "iPad Pro 11-inch (M4)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E24B09D4-1740-47A3-87E4-61E700B5949B\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E24B09D4-1740-47A3-87E4-61E700B5949B",
-        "udid" : "E24B09D4-1740-47A3-87E4-61E700B5949B",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-8GB",
-        "state" : "Shutdown",
-        "name" : "iPad Pro 13-inch (M4)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1E8AFB57-D99A-43DF-8715-0327D8F9CC9B\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1E8AFB57-D99A-43DF-8715-0327D8F9CC9B",
-        "udid" : "1E8AFB57-D99A-43DF-8715-0327D8F9CC9B",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-11-inch-M2",
-        "state" : "Shutdown",
-        "name" : "iPad Air 11-inch (M2)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/EE032072-5829-4F8B-A2CE-15DE0E29174A\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/EE032072-5829-4F8B-A2CE-15DE0E29174A",
-        "udid" : "EE032072-5829-4F8B-A2CE-15DE0E29174A",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Air-13-inch-M2",
-        "state" : "Shutdown",
-        "name" : "iPad Air 13-inch (M2)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6A1FA0AF-B131-4130-9337-C76B9E78E079\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6A1FA0AF-B131-4130-9337-C76B9E78E079",
-        "udid" : "6A1FA0AF-B131-4130-9337-C76B9E78E079",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
-        "state" : "Shutdown",
-        "name" : "iPad (10th generation)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9C124A82-45A6-432D-A458-190F2D1A3189\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9C124A82-45A6-432D-A458-190F2D1A3189",
-        "udid" : "9C124A82-45A6-432D-A458-190F2D1A3189",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
-        "state" : "Shutdown",
-        "name" : "iPad mini (6th generation)"
-      }
-    ],
-    "com.apple.CoreSimulator.SimRuntime.watchOS-11-5" : [
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1F75B4F5-DFAB-43E0-BB07-B2074048175D\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1F75B4F5-DFAB-43E0-BB07-B2074048175D",
-        "udid" : "1F75B4F5-DFAB-43E0-BB07-B2074048175D",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 10 (46mm)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/CC60ACD9-9EED-4837-8CC8-4F8615CCE39C\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
-        "udid" : "CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-42mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Series 10 (42mm)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE",
-        "udid" : "25C40AA3-E8F7-4C3B-B967-A80A00FCE6DE",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
-        "state" : "Shutdown",
-        "name" : "Apple Watch Ultra 2 (49mm)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/041A0489-F045-4C19-A794-AD082AF75EC5\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/041A0489-F045-4C19-A794-AD082AF75EC5",
-        "udid" : "041A0489-F045-4C19-A794-AD082AF75EC5",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-44mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (44mm) (2nd generation)"
-      },
-      {
-        "availabilityError" : "liblaunch_sim.dylib could not be opened",
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/523572C1-2FA8-4795-8F97-2924BA9ABA79\/data",
-        "dataPathSize" : 4096,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/523572C1-2FA8-4795-8F97-2924BA9ABA79",
-        "udid" : "523572C1-2FA8-4795-8F97-2924BA9ABA79",
-        "isAvailable" : false,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-40mm-2nd-generation",
-        "state" : "Shutdown",
-        "name" : "Apple Watch SE (40mm) (2nd generation)"
-      }
     ]
   },
   "pairs" : {
-    "3B66706B-E834-4CA9-99D9-CCF1A800F81D" : {
+    "5DB99509-116C-45F0-9924-236E03FA64DF" : {
       "watch" : {
-        "name" : "Apple Watch Series 10 (46mm)",
-        "udid" : "E04E637B-27C8-450A-B57B-09D34C9A3CBB",
+        "name" : "Apple Watch Series 10 (42mm)",
+        "udid" : "CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
         "state" : "Shutdown"
       },
       "phone" : {
         "name" : "Bitrise iOS default",
-        "udid" : "EF458083-B372-4C51-A9D8-7DAFB9246DC2",
+        "udid" : "EF39E75F-1776-439F-B0CD-433225637F85",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
+      "state" : "(active, disconnected)"
     },
     "BD6ECB2F-C643-4242-AD69-7AC429C66212" : {
       "watch" : {
@@ -3120,18 +3207,31 @@
       },
       "state" : "(unavailable)"
     },
-    "5DB99509-116C-45F0-9924-236E03FA64DF" : {
+    "DF9E7714-FA03-43BF-93EC-917D7468B903" : {
       "watch" : {
-        "name" : "Apple Watch Series 10 (42mm)",
-        "udid" : "CC60ACD9-9EED-4837-8CC8-4F8615CCE39C",
+        "name" : "Apple Watch SE (44mm) (2nd generation)",
+        "udid" : "041A0489-F045-4C19-A794-AD082AF75EC5",
         "state" : "Shutdown"
       },
       "phone" : {
         "name" : "Bitrise iOS default",
-        "udid" : "EF39E75F-1776-439F-B0CD-433225637F85",
+        "udid" : "2E921623-DFE7-43C0-BC8F-39D28F4013B0",
         "state" : "Shutdown"
       },
-      "state" : "(unavailable)"
+      "state" : "(active, disconnected)"
+    },
+    "3B66706B-E834-4CA9-99D9-CCF1A800F81D" : {
+      "watch" : {
+        "name" : "Apple Watch Series 10 (46mm)",
+        "udid" : "E04E637B-27C8-450A-B57B-09D34C9A3CBB",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "EF458083-B372-4C51-A9D8-7DAFB9246DC2",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
     }
   }
 }
