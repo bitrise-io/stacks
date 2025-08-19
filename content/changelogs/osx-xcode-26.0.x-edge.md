@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-08-19`
+
+- [Xcode 26.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5295f`)
+- The iOS 18.5 simulator runtime has been replaced with iOS 18.6
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other tools
+- Homebrew package upgrades
+
 ### Stack update `v2025-08-07` (released 2025-08-08)
 
 - macOS version update: `15.5 (24F74)` --> `15.6 (24G84)`
