@@ -95,7 +95,12 @@
           "executed_command": "openvpn --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "ripgrep",
+          "error": "exit status 127: zsh:1: command not found: rg\n"
+        }
+      ]
     }
   }
 ]
