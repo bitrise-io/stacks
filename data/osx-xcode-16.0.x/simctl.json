@@ -4985,10 +4985,10 @@
         "name" : "iPad (10th generation)"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/801A4F86-5075-43C9-BFDF-7AA71E247BAC\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/51EFA691-DA24-4B38-BA4E-8FEB6C442D7B\/data",
         "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/801A4F86-5075-43C9-BFDF-7AA71E247BAC",
-        "udid" : "801A4F86-5075-43C9-BFDF-7AA71E247BAC",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/51EFA691-DA24-4B38-BA4E-8FEB6C442D7B",
+        "udid" : "51EFA691-DA24-4B38-BA4E-8FEB6C442D7B",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
         "state" : "Shutdown",
