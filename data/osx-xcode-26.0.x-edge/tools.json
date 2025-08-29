@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.50.1",
-          "raw_output": "git version 2.50.1",
+          "version": "2.51.0",
+          "raw_output": "git version 2.51.0",
           "executed_command": "git --version"
         },
         {
@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.76.2",
-          "raw_output": "gh version 2.76.2 (2025-07-30)\nhttps://github.com/cli/cli/releases/tag/v2.76.2",
+          "version": "2.78.0",
+          "raw_output": "gh version 2.78.0 (2025-08-21)\nhttps://github.com/cli/cli/releases/tag/v2.78.0",
           "executed_command": "gh --version"
         },
         {
@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.28.12",
-          "raw_output": "aws-cli/2.28.12 Python/3.13.7 Darwin/24.6.0 source/arm64",
+          "version": "2.28.20",
+          "raw_output": "aws-cli/2.28.20 Python/3.13.7 Darwin/24.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.12.1",
-          "raw_output": "14.12.1",
+          "version": "14.15.1",
+          "raw_output": "14.15.1",
           "executed_command": "firebase --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.1.0",
-          "raw_output": "cmake version 4.1.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.1.1",
+          "raw_output": "cmake version 4.1.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
