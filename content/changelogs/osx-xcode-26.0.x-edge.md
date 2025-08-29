@@ -14,9 +14,19 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-08-29`
+
+- [Xcode 26.0 Beta 7](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5305k`)
+- Ruby upgrages: `3.2.8` -> `3.2.9`, `3.3.8` -> `3.3.9`, `3.4.4` -> `3.4.5`
+- Go `1.23` is no longer installed (end-of-life)
+- Go `1.25` is now installed and is the default Go version
+- Node.js upgrades: `22.16.0` -> `22.18.0`, `24.1.0` -> `24.6.0`
+- Python `3.12` is now also installed besides `3.13`
+- Homebrew package upgrades
+
 ### Stack update `v2025-08-19`
 
-- [Xcode 26.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5295f`)
+- [Xcode 26.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26-release-notes) (build `17A5305f`)
 - The iOS 18.5 simulator runtime has been replaced with iOS 18.6
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other tools
 - Homebrew package upgrades
