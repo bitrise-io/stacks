@@ -2,6 +2,50 @@
   "devicetypes" : [
     {
       "productFamily" : "iPhone",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17 Pro.simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+      "modelIdentifier" : "iPhone18,1",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPhone 17 Pro"
+    },
+    {
+      "productFamily" : "iPhone",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17 Pro Max.simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro-Max",
+      "modelIdentifier" : "iPhone18,2",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPhone 17 Pro Max"
+    },
+    {
+      "productFamily" : "iPhone",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone Air.simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-Air",
+      "modelIdentifier" : "iPhone18,4",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPhone Air"
+    },
+    {
+      "productFamily" : "iPhone",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17.simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+      "modelIdentifier" : "iPhone18,3",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPhone 17"
+    },
+    {
+      "productFamily" : "iPhone",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 16 Pro.simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -893,6 +937,28 @@
     },
     {
       "productFamily" : "Apple Watch",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 11 (46mm).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-46mm",
+      "modelIdentifier" : "Watch7,18",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "Apple Watch Series 11 (46mm)"
+    },
+    {
+      "productFamily" : "Apple Watch",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 11 (42mm).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-42mm",
+      "modelIdentifier" : "Watch7,17",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "Apple Watch Series 11 (42mm)"
+    },
+    {
+      "productFamily" : "Apple Watch",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 10 (46mm).simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -937,6 +1003,17 @@
     },
     {
       "productFamily" : "Apple Watch",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Ultra 3 (49mm).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-3-49mm",
+      "modelIdentifier" : "Watch7,12",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "Apple Watch Ultra 3 (49mm)"
+    },
+    {
+      "productFamily" : "Apple Watch",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Ultra 2 (49mm).simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -945,6 +1022,28 @@
       "minRuntimeVersionString" : "10.0.0",
       "minRuntimeVersion" : 655360,
       "name" : "Apple Watch Ultra 2 (49mm)"
+    },
+    {
+      "productFamily" : "Apple Watch",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE 3 (44mm).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-44mm",
+      "modelIdentifier" : "Watch7,16",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "Apple Watch SE 3 (44mm)"
+    },
+    {
+      "productFamily" : "Apple Watch",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE 3 (40mm).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-40mm",
+      "modelIdentifier" : "Watch7,13",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "Apple Watch SE 3 (40mm)"
     },
     {
       "productFamily" : "Apple Watch",
@@ -1896,11 +1995,35 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23A5326a",
+      "buildversion" : "23A339",
       "supportedArchitectures" : [
         "arm64"
       ],
       "supportedDeviceTypes" : [
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17 Pro.simdevicetype",
+          "name" : "iPhone 17 Pro",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17 Pro Max.simdevicetype",
+          "name" : "iPhone 17 Pro Max",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro-Max",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone Air.simdevicetype",
+          "name" : "iPhone Air",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-Air",
+          "productFamily" : "iPhone"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 17.simdevicetype",
+          "name" : "iPhone 17",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+          "productFamily" : "iPhone"
+        },
         {
           "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPhone 16 Pro.simdevicetype",
           "name" : "iPhone 16 Pro",
@@ -2228,8 +2351,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-0",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5326a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A5326a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A339\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23A339\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2239,7 +2362,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23J5346a",
+      "buildversion" : "23J352",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2289,8 +2412,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-26-0",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J352\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J352\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2405,11 +2528,23 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23R5346a",
+      "buildversion" : "23R351",
       "supportedArchitectures" : [
         "arm64"
       ],
       "supportedDeviceTypes" : [
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 11 (46mm).simdevicetype",
+          "name" : "Apple Watch Series 11 (46mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-46mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 11 (42mm).simdevicetype",
+          "name" : "Apple Watch Series 11 (42mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-42mm",
+          "productFamily" : "Apple Watch"
+        },
         {
           "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Series 10 (46mm).simdevicetype",
           "name" : "Apple Watch Series 10 (46mm)",
@@ -2435,9 +2570,27 @@
           "productFamily" : "Apple Watch"
         },
         {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Ultra 3 (49mm).simdevicetype",
+          "name" : "Apple Watch Ultra 3 (49mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-3-49mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
           "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch Ultra 2 (49mm).simdevicetype",
           "name" : "Apple Watch Ultra 2 (49mm)",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE 3 (44mm).simdevicetype",
+          "name" : "Apple Watch SE 3 (44mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-44mm",
+          "productFamily" : "Apple Watch"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/Apple Watch SE 3 (40mm).simdevicetype",
+          "name" : "Apple Watch SE 3 (40mm)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-40mm",
           "productFamily" : "Apple Watch"
         },
         {
@@ -2497,8 +2650,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-26-0",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R5346a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R351\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23R351\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2508,7 +2661,7 @@
       "isAvailable" : true,
       "version" : "26.0",
       "isInternal" : false,
-      "buildversion" : "23M5328a",
+      "buildversion" : "23M336",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2522,8 +2675,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-0",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5328a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M5328a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M336\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23M336\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2833,6 +2986,46 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-26-0" : [
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D3A0042D-DB7B-46BB-B5EA-C8973A7D163F\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D3A0042D-DB7B-46BB-B5EA-C8973A7D163F",
+        "udid" : "D3A0042D-DB7B-46BB-B5EA-C8973A7D163F",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro",
+        "state" : "Shutdown",
+        "name" : "iPhone 17 Pro"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1F328885-138F-43F2-8E4A-259DC7192E84\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1F328885-138F-43F2-8E4A-259DC7192E84",
+        "udid" : "1F328885-138F-43F2-8E4A-259DC7192E84",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro-Max",
+        "state" : "Shutdown",
+        "name" : "iPhone 17 Pro Max"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6BF8D9AF-3956-4A74-9145-F864ED2F5A7C\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6BF8D9AF-3956-4A74-9145-F864ED2F5A7C",
+        "udid" : "6BF8D9AF-3956-4A74-9145-F864ED2F5A7C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-Air",
+        "state" : "Shutdown",
+        "name" : "iPhone Air"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/04ECF984-1795-4975-AC69-A7A4C18CA332\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/04ECF984-1795-4975-AC69-A7A4C18CA332",
+        "udid" : "04ECF984-1795-4975-AC69-A7A4C18CA332",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+        "state" : "Shutdown",
+        "name" : "iPhone 17"
+      },
+      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/D1DA939C-ECD2-46AF-AC10-95E01CDDF168\/data",
         "dataPathSize" : 18337792,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/D1DA939C-ECD2-46AF-AC10-95E01CDDF168",
@@ -3129,6 +3322,26 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.watchOS-26-0" : [
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5F3DEA78-61E7-49C8-9356-586E14433F2E\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5F3DEA78-61E7-49C8-9356-586E14433F2E",
+        "udid" : "5F3DEA78-61E7-49C8-9356-586E14433F2E",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-46mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 11 (46mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/58783694-9505-41DE-B744-42BE545DE1DB\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/58783694-9505-41DE-B744-42BE545DE1DB",
+        "udid" : "58783694-9505-41DE-B744-42BE545DE1DB",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-42mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Series 11 (42mm)"
+      },
+      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/E04E637B-27C8-450A-B57B-09D34C9A3CBB\/data",
         "dataPathSize" : 4096,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/E04E637B-27C8-450A-B57B-09D34C9A3CBB",
@@ -3149,6 +3362,16 @@
         "name" : "Apple Watch Series 10 (42mm)"
       },
       {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/5BD6306A-7A53-4148-8279-0F3563EBAE7E\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/5BD6306A-7A53-4148-8279-0F3563EBAE7E",
+        "udid" : "5BD6306A-7A53-4148-8279-0F3563EBAE7E",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-3-49mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch Ultra 3 (49mm)"
+      },
+      {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/1DA07964-AB58-4448-BCA8-9F69DDA6A61F\/data",
         "dataPathSize" : 4096,
         "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/1DA07964-AB58-4448-BCA8-9F69DDA6A61F",
@@ -3157,6 +3380,26 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-2-49mm",
         "state" : "Shutdown",
         "name" : "Apple Watch Ultra 2 (49mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/6A583B74-39BF-4FC9-9938-5CF7A500387C\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/6A583B74-39BF-4FC9-9938-5CF7A500387C",
+        "udid" : "6A583B74-39BF-4FC9-9938-5CF7A500387C",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-44mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE 3 (44mm)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/262A8339-B7B8-4372-B197-91BC373DD86B\/data",
+        "dataPathSize" : 4096,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/262A8339-B7B8-4372-B197-91BC373DD86B",
+        "udid" : "262A8339-B7B8-4372-B197-91BC373DD86B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-SE-3-40mm",
+        "state" : "Shutdown",
+        "name" : "Apple Watch SE 3 (40mm)"
       },
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/74583BC4-6699-4045-91AA-D07D24707D46\/data",
