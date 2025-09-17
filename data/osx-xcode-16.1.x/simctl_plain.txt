@@ -263,13 +263,13 @@ visionOS 2.3 (2.3 - 22N895) - com.apple.CoreSimulator.SimRuntime.xrOS-2-3
 -- Unavailable: com.apple.CoreSimulator.SimRuntime.xrOS-2-2 --
     Apple Vision Pro (B6DE03E4-3E78-4C5B-B4EE-7E60DD1760C5) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
-0902C7B2-6004-4966-B8D3-FB47B5BFEDB9 (active, disconnected)
+A275F301-51A0-428A-8132-AAB12B734D47 (active, disconnected)
     Watch: Apple Watch Series 10 (46mm) (ADDECDFE-ADA9-480D-874A-DFFF7D12F639) (Shutdown)
     Phone: iPhone 16 Pro Max (F30C0F6E-7075-48C8-91CF-1B7406529E1D) (Shutdown)
 F15FAC9A-A786-4D98-A760-60ED4530A2DE (active, disconnected)
     Watch: Apple Watch Series 10 (42mm) (EE36C713-ABB0-4B66-A41C-924DD7145212) (Shutdown)
     Phone: iPhone 16 (99A9BC45-16AB-4E03-BF46-D6F0DBA81389) (Shutdown)
-8FB70342-7A6F-40A3-8EE8-4CA56897616F (active, disconnected)
+37C870A0-063B-4496-9CDD-6DFD178D51F9 (active, disconnected)
     Watch: Apple Watch Ultra 2 (49mm) (091088F9-0AA3-411D-BF17-A5D13A5C7243) (Shutdown)
     Phone: iPhone 16 Plus (72AE2054-4A91-4041-8789-D1BC7B1F8B32) (Shutdown)
 E0F9B99D-9437-40BB-9F67-E1ED667310B1 (active, disconnected)
