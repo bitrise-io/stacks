@@ -35,7 +35,7 @@ bdftogd Sep 13 11:13:02 2024
 benchmark_xl Sep 13 10:35:41 2024
 bjoentegaard Sep 13 10:35:41 2024
 bq Sep 13 10:38:22 2024
-brew Jul 7 13:41:09 2025
+brew Sep 15 10:03:29 2025
 brotli Sep 13 10:35:38 2024
 bsqldb Sep 13 11:13:02 2024
 bsqlodbc Sep 13 11:13:02 2024
@@ -519,6 +519,7 @@ rd-curves Sep 13 10:35:41 2024
 rdjpgcom Sep 13 10:35:13 2024
 recode-sr-latin Sep 13 10:34:16 2024
 render_hlg Sep 13 10:35:41 2024
+rg Sep 15 10:03:37 2025
 rtmpdump Sep 13 11:00:39 2024
 rtmpgw Sep 13 11:00:39 2024
 rtmpsrv Sep 13 11:00:39 2024
