@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.28.26",
-          "raw_output": "aws-cli/2.28.26 Python/3.13.7 Darwin/24.6.0 source/arm64",
+          "version": "2.30.3",
+          "raw_output": "aws-cli/2.30.3 Python/3.13.7 Darwin/24.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -62,15 +62,15 @@
         {
           "name": "Mercurial",
           "category": "tools",
-          "version": "7.1",
-          "raw_output": "Mercurial Distributed SCM (version 7.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2025 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+          "version": "7.1.1",
+          "raw_output": "Mercurial Distributed SCM (version 7.1.1)\n(see https://mercurial-scm.org for more information)\n\nCopyright (C) 2005-2025 Olivia Mackall and others\nThis is free software; see the source for copying conditions. There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
           "executed_command": "hg version"
         },
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.15.2",
-          "raw_output": "14.15.2",
+          "version": "14.16.0",
+          "raw_output": "14.16.0",
           "executed_command": "firebase --version"
         },
         {
