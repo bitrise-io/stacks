@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-09-15` (released 2025-09-18)
+
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other tools
+
 ### Stack update `v2025-07-18` (released 2025-07-21)
 
 - The [pre-commit](https://github.com/pre-commit/pre-commit) CLI tool is now preinstalled
