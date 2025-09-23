@@ -133,6 +133,7 @@ python@3.12 3.12.9
 python@3.13 3.13.2
 rbenv 1.3.2
 readline 8.2.13
+ripgrep 14.1.1
 rtmpdump 2.4-20151223_3
 ruby-build 20250326
 screen 5.0.0
