@@ -14,7 +14,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2025-09-15` (released on 2025-09-22)
+### Stack update `v2025-09-15` (released on 2025-09-23)
 
 - No user-facing changes
 
