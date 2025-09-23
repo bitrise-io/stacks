@@ -7,7 +7,7 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.6 (24G84)\n      Kernel Version: Darwin 24.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sequoia-26-g2.mac.4large-243a1159-71ec-43a9-a102-4cdbfeac167e\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 49 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.6 (24G84)\n      Kernel Version: Darwin 24.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sequoia-26-g2.mac.4large-0eecd91b-2a7b-4d38-a91e-e81c14d1f398\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 43 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
