@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-09-15` (released on 2025-09-23)
+
+- No user-facing changes
+
 ### Stack update `v2025-07-21` (released 2025-07-22)
 
 - The [pre-commit](https://github.com/pre-commit/pre-commit) CLI tool is now preinstalled
