@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-09-15` (released 2025-09-22)
+
+- [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other tools
+
 ### Stack update `v2025-08-11` (released v2025-08-12)
 
 - Added: iOS 18.6 simulator runtime (iOS 18.5 remains installed, but you should try 18.6 if you experience stability issues)
