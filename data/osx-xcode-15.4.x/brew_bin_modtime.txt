@@ -39,7 +39,7 @@ bdftogd Mar 6 08:59:29 2024
 benchmark_xl Mar 6 08:24:17 2024
 bjoentegaard Mar 6 08:24:17 2024
 bq Apr 22 15:10:47 2024
-brew Jul 7 15:49:03 2025
+brew Sep 15 10:02:27 2025
 brotli Mar 6 08:24:15 2024
 bsqldb Mar 6 08:59:28 2024
 bsqlodbc Mar 6 08:59:28 2024
