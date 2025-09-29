@@ -13,8 +13,8 @@
         {
           "name": "bundletool",
           "category": "android",
-          "version": "1.18.1",
-          "raw_output": "1.18.1",
+          "version": "1.18.2",
+          "raw_output": "1.18.2",
           "executed_command": "bundletool version"
         }
       ],
