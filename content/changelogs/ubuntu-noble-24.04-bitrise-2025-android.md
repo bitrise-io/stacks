@@ -15,6 +15,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2025-09-30` (released 2025-10-01)
 
 - Android emulator upgrade: `35.5.10` -> `36.1.9`
+- [bundletool](https://github.com/google/bundletool) is now in `$PATH`, no need to use `java /path/to/bundletool.jar` anymore
 - [crowdin CLI](https://crowdin.github.io/crowdin-cli/) is now preinstalled
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other CLI tools and scripts
 - [pre-commit](https://github.com/pre-commit/pre-commit) is now preinstalled
