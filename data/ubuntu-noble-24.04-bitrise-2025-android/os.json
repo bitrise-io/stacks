@@ -7,7 +7,7 @@
           "name": "Linux release",
           "category": "os",
           "version": "",
-          "raw_output": "Distributor ID:\tUbuntu\nDescription:\tUbuntu 24.04.2 LTS\nRelease:\t24.04\nCodename:\tnoble",
+          "raw_output": "Distributor ID:\tUbuntu\nDescription:\tUbuntu 24.04.3 LTS\nRelease:\t24.04\nCodename:\tnoble",
           "executed_command": "lsb_release --all"
         },
         {
@@ -28,14 +28,14 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       267G   69G  198G  26% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       267G   70G  198G  27% /bitrise",
           "executed_command": "df -kh /bitrise/src"
         },
         {
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_9.6p1 Ubuntu-3ubuntu13.12, OpenSSL 3.0.13 30 Jan 2024",
+          "raw_output": "OpenSSH_9.6p1 Ubuntu-3ubuntu13.14, OpenSSL 3.0.13 30 Jan 2024",
           "executed_command": "ssh -V"
         }
       ],
