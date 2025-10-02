@@ -6,7 +6,7 @@ type: basic_page
 Multiple versions are installed of tools like Ruby, Node.js and Go on the stacks side-by-side. Since most projects depend on a specific version (implicitly or explicitly), it's a good idea to declare the required version in workflows instead of relying on the default version available in `$PATH`.
 
 {{< hint info >}}
-Installed tool versions are listed in the stack reports ([example]({{< ref "/stack_reports/osx-xcode-14.3.x-ventura.md" >}}))
+Installed tool versions are listed in the stack reports ([example]({{< ref "/stack_reports/osx-xcode-26.0.x.md" >}}))
 {{< /hint >}}
 
 Bitrise helps selecting the right tool version in three ways:
