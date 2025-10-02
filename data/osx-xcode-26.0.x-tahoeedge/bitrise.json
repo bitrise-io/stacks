@@ -1,0 +1,38 @@
+[
+  {
+    "category": "bitrise",
+    "output": {
+      "items": [
+        {
+          "name": "Bitrise CLI",
+          "category": "bitrise",
+          "version": "2.34.2",
+          "raw_output": "2.34.2",
+          "executed_command": "bitrise --version"
+        },
+        {
+          "name": "Bitrise stepman",
+          "category": "bitrise",
+          "version": "0.18.2",
+          "raw_output": "0.18.2",
+          "executed_command": "stepman --version"
+        },
+        {
+          "name": "Bitrise envman",
+          "category": "bitrise",
+          "version": "2.5.4",
+          "raw_output": "2.5.4",
+          "executed_command": "envman --version"
+        },
+        {
+          "name": "Bitrise guest agent",
+          "category": "bitrise",
+          "version": "2.1.2",
+          "raw_output": "Bitrise Virtualization Guest Agent v2.1.2\n2025/10/02 11:45:46 guest agent shut down",
+          "executed_command": "/opt/bitrise/virtualization/bin/guest-agent version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
