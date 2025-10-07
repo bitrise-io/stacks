@@ -9,8 +9,8 @@ Subscribe to RSS feeds to get notifications of important changes and stack updat
 ### RSS feeds
 
 - [Announcements feed]({{% ref path="announcements" outputformat="rss" %}}): new entries in the [announcements]({{% ref "announcements" %}}) category
-- [Changelogs feed]({{% ref path="changelogs" outputformat="rss" %}}): manually updated summary of changes in stack updates - [example]({{% ref "changelogs/osx-xcode-14.3.x-ventura.md" %}})
-- [Stack reports feed]({{% ref path="stack_reports" outputformat="rss" %}}): automatically generated report of a given stack - [example]({{% ref "stack_reports/osx-xcode-14.3.x-ventura.md" %}})
+- [Changelogs feed]({{% ref path="changelogs" outputformat="rss" %}}): manually updated summary of changes in stack updates - [example]({{% ref "changelogs/osx-xcode-26.0.x.md" %}})
+- [Stack reports feed]({{% ref path="stack_reports" outputformat="rss" %}}): automatically generated report of a given stack - [example]({{% ref "stack_reports/osx-xcode-26.0.x.md" %}})
 - [Main feed]({{% ref path="/" outputformat="rss" %}}): everything on this page
 
 ### Guides

@@ -70,7 +70,7 @@
           "name": "Kotlin",
           "category": "languages",
           "version": "2.1.21",
-          "raw_output": "Kotlin version 2.1.21-release-317 (JRE 17.0.15+6-Ubuntu-0ubuntu124.04)",
+          "raw_output": "Kotlin version 2.1.21-release-317 (JRE 17.0.16+8-Ubuntu-0ubuntu124.04.1)",
           "executed_command": "kotlin -version"
         }
       ],

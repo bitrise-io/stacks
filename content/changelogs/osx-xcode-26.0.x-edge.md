@@ -14,8 +14,9 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2025-10-07`
+### Stack update `v2025-10-02` (released v2025-10-03)
 
+- This stack is now based on macOS Tahoe (`25A354`) instead of macOS Sequoia
 - Homebrew package upgrades
 
 ### Stack update `v2025-09-29`

@@ -6,6 +6,7 @@ type: basic_page
 
 This AMI listing has multiple actively updated versions:
 
+- [macOS Sequoia with Xcode 26.0](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md)
 - [macOS Sequoia with Xcode 16.3-16.4](../../stack_reports/aws/aws-mac-virtualized-sequoia16.md)
 - [macOS Sonoma with Xcode 16.0-16.2](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md)
 - [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md)
@@ -16,6 +17,21 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 {{< /hint >}}
 
 ## Updates
+
+### AMI version `2025W40-sequoia26`
+
+Initial version of the [macOS Sequoia-based stack](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md) with the following Xcode versions:
+- Xcode 26.0
+
+#### AMIs by Region
+- **us-east-1**: ami-03b98465cb57d65f1
+- **us-east-2**: ami-06c9a9b6c3e505bb1
+- **us-west-2**: ami-08aa805f6b2e377d3
+- **ca-central-1**: ami-0d063a5454e15de42
+- **eu-central-1**: ami-092540fb97b6a803a
+- **eu-west-1**: ami-0bd67c7561a2eea2c
+- **ap-southeast-1**: ami-0da43e15135092da0
+- **ap-southeast-2**: ami-092e5f3ed8ad452f0
 
 ### AMI version `2025W23-sequoia16`
 
