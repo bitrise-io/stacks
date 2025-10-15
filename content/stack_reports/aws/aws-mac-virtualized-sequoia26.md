@@ -15,11 +15,11 @@ Note: there is a single **virtualized** AMI listing with multiple actively maint
 
 | Region         | AMI ID                  |
 | ---------------| ----------------------- |
-| ap-southeast-1 | `ami-0da43e15135092da0` |
-| ap-southeast-2 | `ami-092e5f3ed8ad452f0` |
-| eu-central-1   | `ami-092540fb97b6a803a` |
-| eu-west-1      | `ami-0bd67c7561a2eea2c` |
-| us-east-1      | `ami-03b98465cb57d65f1` |
-| us-east-2      | `ami-06c9a9b6c3e505bb1` |
-| us-west-2      | `ami-08aa805f6b2e377d3` |
-| ca-central-1   | `ami-0d063a5454e15de42` |
+| ap-southeast-1 | `ami-06e9fb8c225a03ea5` |
+| ap-southeast-2 | `ami-04e12635e4dd6b091` |
+| eu-central-1   | `ami-0ffb8a7c0ed7ca7f8` |
+| eu-west-1      | `ami-0ca526de272c7489f` |
+| us-east-1      | `ami-0bb136cdeae5d89e1` |
+| us-east-2      | `ami-057d0c2453229b01a` |
+| us-west-2      | `ami-0a8217cf7cd4843e8` |
+| ca-central-1   | `ami-00fcbd818c0b9b710` |
