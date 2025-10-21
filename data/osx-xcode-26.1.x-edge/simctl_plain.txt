@@ -40,6 +40,10 @@ iPhone 7 Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus)
 iPhone SE (1st generation) (com.apple.CoreSimulator.SimDeviceType.iPhone-SE)
 iPhone 6s (com.apple.CoreSimulator.SimDeviceType.iPhone-6s)
 iPhone 6s Plus (com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus)
+iPad Pro 13-inch (M5) (16GB) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-16GB)
+iPad Pro 13-inch (M5) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB)
+iPad Pro 11-inch (M5) (16GB) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-16GB)
+iPad Pro 11-inch (M5) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB)
 iPad Pro 11-inch (M4) (16GB) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-16GB)
 iPad Pro 11-inch (M4) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-8GB)
 iPad Pro 13-inch (M4) (16GB) (com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M4-16GB)
@@ -120,14 +124,14 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.0 (26.0 - 23A343) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-iOS 26.1 (26.1 - 23B5059e) - com.apple.CoreSimulator.SimRuntime.iOS-26-1
+iOS 26.1 (26.1 - 23B5073a) - com.apple.CoreSimulator.SimRuntime.iOS-26-1
 tvOS 26.0 (26.0 - 23J352) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
-tvOS 26.1 (26.1 - 23J5558d) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
+tvOS 26.1 (26.1 - 23J5571a) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
 watchOS 26.0 (26.0 - 23R353) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
-watchOS 26.1 (26.1 - 23S5017d) - com.apple.CoreSimulator.SimRuntime.watchOS-26-1
+watchOS 26.1 (26.1 - 23S5031a) - com.apple.CoreSimulator.SimRuntime.watchOS-26-1
 visionOS 26.0 (26.0 - 23M336) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
-visionOS 26.1 (26.1 - 23N5028d) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
+visionOS 26.1 (26.1 - 23N5041b) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
 == Devices ==
 -- iOS 17.5 --
     iPhone 15 Pro (30E9892E-FE64-44F0-B483-3219A0C31B5A) (Shutdown) 
@@ -162,6 +166,8 @@ visionOS 26.1 (26.1 - 23N5028d) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
     iPhone 17 (43233F10-0E6E-4E56-A71E-FE7E0C5DF121) (Shutdown) 
     iPhone 16e (6BCB49A7-7ED1-4F22-89C9-507616039914) (Shutdown) 
     Bitrise iOS default (A659EF10-B377-4436-8B39-37D7DBD773BB) (Shutdown) 
+    iPad Pro 13-inch (M5) (16556786-F741-4CB6-99AD-73EF1B65D39B) (Shutdown) 
+    iPad Pro 11-inch (M5) (660D605B-A350-44F5-B7E5-BE002B0B92C9) (Shutdown) 
     iPad Pro 11-inch (M4) (63F7091A-745D-4AD8-B99D-3F6CFCCEE586) (Shutdown) 
     iPad Pro 13-inch (M4) (4BA9F711-DC53-48B5-8843-F486745CBB9D) (Shutdown) 
     iPad mini (A17 Pro) (67CD7782-11BF-428F-8DD9-DD254BA71CCF) (Shutdown) 
@@ -175,6 +181,8 @@ visionOS 26.1 (26.1 - 23N5028d) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
     iPhone 17 (DE4E7A1E-A0C6-4130-9EB0-8C98137F4814) (Shutdown) 
     iPhone 16e (C346493D-BC43-452D-BFF9-50750362ED6E) (Shutdown) 
     Bitrise iOS default (9891A35E-AAD3-4ACB-8AFD-F7CA39C1730C) (Shutdown) 
+    iPad Pro 13-inch (M5) (295C2B45-D0CA-46EC-92C0-E2FA7C3DC105) (Shutdown) 
+    iPad Pro 11-inch (M5) (8924CF5D-7995-4A31-921D-400FABDFA6D2) (Shutdown) 
     iPad Pro 11-inch (M4) (326327C6-BDA4-4B1D-A75C-5CCFC2862A5D) (Shutdown) 
     iPad Pro 13-inch (M4) (3A46473A-47C7-4ADD-BDD6-E03DEC52B369) (Shutdown) 
     iPad mini (A17 Pro) (ECD88242-9CE0-4E57-ADF9-1760C1B23CDF) (Shutdown) 
