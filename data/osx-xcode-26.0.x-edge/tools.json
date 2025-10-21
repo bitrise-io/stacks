@@ -6,22 +6,22 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.51.0",
-          "raw_output": "git version 2.51.0",
+          "version": "2.51.1",
+          "raw_output": "git version 2.51.1",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.7.0",
-          "raw_output": "git-lfs/3.7.0 (GitHub; darwin arm64; go 1.25.1)",
+          "version": "3.7.1",
+          "raw_output": "git-lfs/3.7.1 (GitHub; darwin arm64; go 1.25.3)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.81.0",
-          "raw_output": "gh version 2.81.0 (2025-09-30)\nhttps://github.com/cli/cli/releases/tag/v2.81.0",
+          "version": "2.82.0",
+          "raw_output": "gh version 2.82.0 (2025-10-15)\nhttps://github.com/cli/cli/releases/tag/v2.82.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,15 +34,15 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.47.2",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.47.2",
+          "version": "4.48.1",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.48.1",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.31.9",
-          "raw_output": "aws-cli/2.31.9 Python/3.13.7 Darwin/25.0.0 source/arm64",
+          "version": "2.31.18",
+          "raw_output": "aws-cli/2.31.18 Python/3.13.7 Darwin/25.0.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.18.0",
-          "raw_output": "14.18.0",
+          "version": "14.20.0",
+          "raw_output": "14.20.0",
           "executed_command": "firebase --version"
         },
         {
@@ -97,8 +97,8 @@
         {
           "name": "ripgrep",
           "category": "tools",
-          "version": "14.1.1",
-          "raw_output": "ripgrep 14.1.1\n\nfeatures:+pcre2\nsimd(compile):+NEON\nsimd(runtime):+NEON\n\nPCRE2 10.43 is available (JIT is available)",
+          "version": "15.0.0",
+          "raw_output": "ripgrep 15.0.0\n\nfeatures:+pcre2\nsimd(compile):+NEON\nsimd(runtime):+NEON\n\nPCRE2 10.45 is available (JIT is available)",
           "executed_command": "rg --version"
         }
       ],

@@ -453,6 +453,50 @@
     },
     {
       "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5) (16GB).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-16GB",
+      "modelIdentifier" : "iPad17,4",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPad Pro 13-inch (M5) (16GB)"
+    },
+    {
+      "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+      "modelIdentifier" : "iPad17,4",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPad Pro 13-inch (M5)"
+    },
+    {
+      "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5) (16GB).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-16GB",
+      "modelIdentifier" : "iPad17,2",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPad Pro 11-inch (M5) (16GB)"
+    },
+    {
+      "productFamily" : "iPad",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5).simdevicetype",
+      "maxRuntimeVersion" : 4294967295,
+      "maxRuntimeVersionString" : "65535.255.255",
+      "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB",
+      "modelIdentifier" : "iPad17,2",
+      "minRuntimeVersionString" : "26.0.0",
+      "minRuntimeVersion" : 1703936,
+      "name" : "iPad Pro 11-inch (M5)"
+    },
+    {
+      "productFamily" : "iPad",
       "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M4) (16GB).simdevicetype",
       "maxRuntimeVersion" : 4294967295,
       "maxRuntimeVersionString" : "65535.255.255",
@@ -2181,6 +2225,30 @@
           "productFamily" : "iPhone"
         },
         {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5) (16GB).simdevicetype",
+          "name" : "iPad Pro 13-inch (M5) (16GB)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-16GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5).simdevicetype",
+          "name" : "iPad Pro 13-inch (M5)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5) (16GB).simdevicetype",
+          "name" : "iPad Pro 11-inch (M5) (16GB)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-16GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5).simdevicetype",
+          "name" : "iPad Pro 11-inch (M5)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB",
+          "productFamily" : "iPad"
+        },
+        {
           "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M4) (16GB).simdevicetype",
           "name" : "iPad Pro 11-inch (M4) (16GB)",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-16GB",
@@ -2362,7 +2430,7 @@
       "isAvailable" : true,
       "version" : "26.1",
       "isInternal" : false,
-      "buildversion" : "23B5059e",
+      "buildversion" : "23B5073a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2548,6 +2616,30 @@
           "productFamily" : "iPhone"
         },
         {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5) (16GB).simdevicetype",
+          "name" : "iPad Pro 13-inch (M5) (16GB)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-16GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 13-inch (M5).simdevicetype",
+          "name" : "iPad Pro 13-inch (M5)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5) (16GB).simdevicetype",
+          "name" : "iPad Pro 11-inch (M5) (16GB)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-16GB",
+          "productFamily" : "iPad"
+        },
+        {
+          "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M5).simdevicetype",
+          "name" : "iPad Pro 11-inch (M5)",
+          "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB",
+          "productFamily" : "iPad"
+        },
+        {
           "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Profiles\/DeviceTypes\/iPad Pro 11-inch (M4) (16GB).simdevicetype",
           "name" : "iPad Pro 11-inch (M4) (16GB)",
           "identifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M4-16GB",
@@ -2718,8 +2810,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-1",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23B5059e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.1.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23B5059e\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23B5073a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.1.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23B5073a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2790,7 +2882,7 @@
       "isAvailable" : true,
       "version" : "26.1",
       "isInternal" : false,
-      "buildversion" : "23J5558d",
+      "buildversion" : "23J5571a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -2840,8 +2932,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-26-1",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5558d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.1.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5558d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5571a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.1.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23J5571a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3089,7 +3181,7 @@
       "isAvailable" : true,
       "version" : "26.1",
       "isInternal" : false,
-      "buildversion" : "23S5017d",
+      "buildversion" : "23S5031a",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3211,8 +3303,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-26-1",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23S5017d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.1.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23S5017d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23S5031a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.1.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23S5031a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3247,7 +3339,7 @@
       "isAvailable" : true,
       "version" : "26.1",
       "isInternal" : false,
-      "buildversion" : "23N5028d",
+      "buildversion" : "23N5041b",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3261,8 +3353,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-1",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23N5028d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.1.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23N5028d\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23N5041b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.1.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23N5041b\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.1.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3464,6 +3556,26 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-13",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/295C2B45-D0CA-46EC-92C0-E2FA7C3DC105\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/295C2B45-D0CA-46EC-92C0-E2FA7C3DC105",
+        "udid" : "295C2B45-D0CA-46EC-92C0-E2FA7C3DC105",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M5)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/8924CF5D-7995-4A31-921D-400FABDFA6D2\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/8924CF5D-7995-4A31-921D-400FABDFA6D2",
+        "udid" : "8924CF5D-7995-4A31-921D-400FABDFA6D2",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M5)"
       },
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/326327C6-BDA4-4B1D-A75C-5CCFC2862A5D\/data",
@@ -3714,6 +3826,26 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-11",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/16556786-F741-4CB6-99AD-73EF1B65D39B\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/16556786-F741-4CB6-99AD-73EF1B65D39B",
+        "udid" : "16556786-F741-4CB6-99AD-73EF1B65D39B",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-13-inch-M5-12GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 13-inch (M5)"
+      },
+      {
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/660D605B-A350-44F5-B7E5-BE002B0B92C9\/data",
+        "dataPathSize" : 18337792,
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/660D605B-A350-44F5-B7E5-BE002B0B92C9",
+        "udid" : "660D605B-A350-44F5-B7E5-BE002B0B92C9",
+        "isAvailable" : true,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-Pro-11-inch-M5-12GB",
+        "state" : "Shutdown",
+        "name" : "iPad Pro 11-inch (M5)"
       },
       {
         "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/63F7091A-745D-4AD8-B99D-3F6CFCCEE586\/data",
