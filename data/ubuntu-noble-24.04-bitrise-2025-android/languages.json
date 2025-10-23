@@ -7,14 +7,14 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.2\n  3.2.8\n  3.3\n  3.3.8\n *3.4\n  3.4.3",
+          "raw_output": "3\n  3.2\n  3.2.8\n  3.3\n  3.3.8\n *3.4\n  3.4.3\n  latest",
           "executed_command": "asdf list ruby"
         },
         {
           "name": "Ruby version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.4.3\n3.2 =\u003e 3.2.8\n3.3 =\u003e 3.3.8\n3.4 =\u003e 3.4.3",
+          "raw_output": "3 =\u003e 3.4.3\n3.2 =\u003e 3.2.8\n3.3 =\u003e 3.3.8\n3.4 =\u003e 3.4.3\nlatest =\u003e ./3.4.3",
           "executed_command": "asdf alias ruby --list"
         },
         {
@@ -35,14 +35,14 @@
           "name": "Node.js versions",
           "category": "languages",
           "version": "20.19",
-          "raw_output": "20\n  20.19\n  20.19.1\n *22\n  22.15\n  22.15.0\n  24\n  24.0\n  24.0.1\n  lts",
+          "raw_output": "20\n  20.19\n  20.19.1\n *22\n  22.15\n  22.15.0\n  24\n  24.0\n  24.0.1\n  latest\n  lts\n  lts-iron\n  lts-jod",
           "executed_command": "asdf list nodejs"
         },
         {
           "name": "Node.js version aliases",
           "category": "languages",
           "version": "20.19.1",
-          "raw_output": "20 =\u003e 20.19.1\n20.19 =\u003e 20.19.1\n22 =\u003e 22.15.0\n22.15 =\u003e 22.15.0\n24 =\u003e 24.0.1\n24.0 =\u003e 24.0.1\nlts =\u003e 22",
+          "raw_output": "20 =\u003e 20.19.1\n20.19 =\u003e 20.19.1\n22 =\u003e 22.15.0\n22.15 =\u003e 22.15.0\n24 =\u003e 24.0.1\n24.0 =\u003e 24.0.1\nlatest =\u003e ./24.0.1\nlts =\u003e 22\nlts-iron =\u003e ./20.19.1\nlts-jod =\u003e ./22.15.0",
           "executed_command": "asdf alias nodejs --list"
         },
         {
@@ -56,14 +56,14 @@
           "name": "Python versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.13\n  3.13.3",
+          "raw_output": "3\n  3.12\n  3.12.12\n  3.13\n  3.13.3\n  latest",
           "executed_command": "asdf list python"
         },
         {
           "name": "Python version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.13.3\n3.13 =\u003e 3.13.3",
+          "raw_output": "3 =\u003e 3.13.3\n3.12 =\u003e ./3.12.12\n3.13 =\u003e 3.13.3\nlatest =\u003e ./3.13.3",
           "executed_command": "asdf alias python --list"
         },
         {
