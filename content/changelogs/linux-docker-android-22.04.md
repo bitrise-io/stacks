@@ -15,8 +15,6 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2025-10-23` (released 2025-10-27)
 
 - Android emulator upgrade: `36.1.9` -> `36.2.12`
-- By popular demand, `build-tools;35.0.0` is also preinstalled for Android Gradle Plugin 8.x versions
-
 
 ### Stack update `v2025-09-30` (released 2025-10-01)
 
