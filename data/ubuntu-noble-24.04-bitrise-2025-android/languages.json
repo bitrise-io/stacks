@@ -56,14 +56,14 @@
           "name": "Python versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.12\n  3.12.12\n  3.13\n  3.13.3\n  latest",
+          "raw_output": "3\n  3.13\n  3.13.3",
           "executed_command": "asdf list python"
         },
         {
           "name": "Python version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.13.3\n3.12 =\u003e ./3.12.12\n3.13 =\u003e 3.13.3\nlatest =\u003e ./3.13.3",
+          "raw_output": "3 =\u003e 3.13.3\n3.13 =\u003e 3.13.3",
           "executed_command": "asdf alias python --list"
         },
         {
