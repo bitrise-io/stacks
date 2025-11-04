@@ -34,7 +34,7 @@ benchmark_xl Sep 2 09:06:48 2025
 bjoentegaard Sep 2 09:06:49 2025
 bomtool Sep 2 09:23:39 2025
 bq Sep 2 09:09:08 2025
-brew Sep 2 09:04:33 2025
+brew Nov 4 08:00:39 2025
 brotli Sep 2 09:06:44 2025
 bsqldb Sep 2 09:38:21 2025
 bsqlodbc Sep 2 09:38:21 2025
@@ -331,7 +331,6 @@ hub Sep 2 09:08:11 2025
 icc_simplify Sep 2 09:06:48 2025
 identify Sep 2 09:07:03 2025
 idle3 Sep 2 09:07:18 2025
-idle3.12 Sep 2 09:08:49 2025
 idle3.13 Sep 2 09:07:18 2025
 idn2 Sep 2 09:07:21 2025
 ifnames Sep 2 09:23:39 2025
@@ -458,7 +457,6 @@ pinentry-curses Sep 2 09:08:08 2025
 pinentry-tty Sep 2 09:08:08 2025
 pinky Sep 2 09:07:31 2025
 pip3 Sep 2 09:07:18 2025
-pip3.12 Sep 2 09:08:49 2025
 pip3.13 Sep 2 09:07:18 2025
 pipx Sep 2 09:23:03 2025
 pkcs1-conv Sep 2 09:07:22 2025
@@ -478,12 +476,9 @@ psktool Sep 2 09:07:25 2025
 pt Sep 2 09:23:34 2025
 ptx Sep 2 09:07:31 2025
 pydoc3 Sep 2 09:07:18 2025
-pydoc3.12 Sep 2 09:08:49 2025
 pydoc3.13 Sep 2 09:07:18 2025
 python3 Sep 2 09:07:18 2025
 python3-config Sep 2 09:07:18 2025
-python3.12 Sep 2 09:08:49 2025
-python3.12-config Sep 2 09:08:49 2025
 python3.13 Sep 2 09:07:18 2025
 python3.13-config Sep 2 09:07:18 2025
 pzstd Sep 2 09:06:44 2025
@@ -581,7 +576,6 @@ webpmux Sep 2 09:06:47 2025
 webpng Sep 2 09:38:23 2025
 wget Sep 2 09:07:21 2025
 wheel3 Sep 2 09:07:18 2025
-wheel3.12 Sep 2 09:08:49 2025
 wheel3.13 Sep 2 09:07:18 2025
 wish Sep 2 09:23:34 2025
 wish9.0 Sep 2 09:23:34 2025
@@ -619,5 +613,4 @@ zstdcat Sep 2 09:06:44 2025
 zstdgrep Sep 2 09:06:44 2025
 zstdless Sep 2 09:06:44 2025
 zstdmt Sep 2 09:06:44 2025
-2to3-3.12 Sep 2 09:08:49 2025
 4channels Sep 2 09:06:56 2025
