@@ -49,7 +49,7 @@
           "name": "Java versions",
           "category": "languages",
           "version": "",
-          "raw_output": "system\n  11\n  11.0\n  11.0.28\n* 17 (set by /Users/vagrant/.jenv/version)\n  17.0\n  17.0.17\n  21\n  21.0\n  21.0.9\n  temurin64-11.0.28\n  temurin64-17.0.17\n  temurin64-21.0.9",
+          "raw_output": "system\n  11\n  11.0\n  11.0.29\n* 17 (set by /Users/vagrant/.jenv/version)\n  17.0\n  17.0.17\n  21\n  21.0\n  21.0.9\n  temurin64-11.0.29\n  temurin64-17.0.17\n  temurin64-21.0.9",
           "executed_command": "jenv versions"
         },
         {
