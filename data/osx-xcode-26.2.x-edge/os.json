@@ -1,0 +1,31 @@
+[
+  {
+    "category": "os",
+    "output": {
+      "items": [
+        {
+          "name": "macOS system overview",
+          "category": "os",
+          "version": "",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 26.0 (25A354)\n      Kernel Version: Darwin 25.0.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-tahoe-26-edge-g2.mac.4large-3a6c907e-970f-4231-86a9-6bd41c1e3861\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 47 seconds",
+          "executed_command": "system_profiler SPSoftwareDataType"
+        },
+        {
+          "name": "Disk space",
+          "category": "os",
+          "version": "",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s1s1   318Gi    11Gi   104Gi    10%    447k  1.1G    0%   /",
+          "executed_command": "df -h /"
+        },
+        {
+          "name": "OpenSSH",
+          "category": "os",
+          "version": "",
+          "raw_output": "OpenSSH_10.0p2, LibreSSL 3.3.6",
+          "executed_command": "ssh -V"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
