@@ -7,14 +7,14 @@
           "name": "Ruby versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.1\n  3.1.6\n  3.2\n  3.2.5\n *3.3\n  3.3.5\n  3.3.7\n  latest",
+          "raw_output": "3\n  3.1\n  3.1.6\n  3.2\n  3.2.5\n *3.3\n  3.3.5\n  3.3.7",
           "executed_command": "asdf list ruby"
         },
         {
           "name": "Ruby version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.3.7\n3.1 =\u003e 3.1.6\n3.2 =\u003e 3.2.5\n3.3 =\u003e 3.3.5\nlatest =\u003e ./3.3.7",
+          "raw_output": "3 =\u003e 3.3.7\n3.1 =\u003e 3.1.6\n3.2 =\u003e 3.2.5\n3.3 =\u003e 3.3.5",
           "executed_command": "asdf alias ruby --list"
         },
         {
@@ -35,14 +35,14 @@
           "name": "Node.js versions",
           "category": "languages",
           "version": "18.20",
-          "raw_output": "18\n  18.20\n  18.20.4\n *20\n  20.17\n  20.17.0\n  21\n  21.7\n  21.7.3\n  22\n  22.14\n  22.14.0\n  latest\n  lts\n  lts-hydrogen\n  lts-iron\n  lts-jod",
+          "raw_output": "18\n  18.20\n  18.20.4\n *20\n  20.17\n  20.17.0\n  21\n  21.7\n  21.7.3\n  22\n  22.14\n  22.14.0\n  lts",
           "executed_command": "asdf list nodejs"
         },
         {
           "name": "Node.js version aliases",
           "category": "languages",
           "version": "18.20.4",
-          "raw_output": "18 =\u003e 18.20.4\n18.20 =\u003e 18.20.4\n20 =\u003e 20.17.0\n20.17 =\u003e 20.17.0\n21 =\u003e 21.7.3\n21.7 =\u003e 21.7.3\n22 =\u003e 22.14.0\n22.14 =\u003e 22.14.0\nlatest =\u003e ./22.14.0\nlts =\u003e 22\nlts-hydrogen =\u003e ./18.20.4\nlts-iron =\u003e ./20.17.0\nlts-jod =\u003e ./22.14.0",
+          "raw_output": "18 =\u003e 18.20.4\n18.20 =\u003e 18.20.4\n20 =\u003e 20.17.0\n20.17 =\u003e 20.17.0\n21 =\u003e 21.7.3\n21.7 =\u003e 21.7.3\n22 =\u003e 22.14.0\n22.14 =\u003e 22.14.0\nlts =\u003e 22",
           "executed_command": "asdf alias nodejs --list"
         },
         {
