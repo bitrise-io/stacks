@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-11-19`
+
+- [Xcode 26.2 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_2-release-notes) (build `17C5038g`)
+- Homebrew package upgrades
+
 ### Stack update `v2025-11-05`
 
 Initial stack release with [Xcode 26.2 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_2-release-notes) (build `17C5013i`)
