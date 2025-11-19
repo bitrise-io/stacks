@@ -7,7 +7,7 @@
           "name": "Global NPM packages",
           "category": "npm",
           "version": "",
-          "raw_output": "/Users/vagrant/.asdf/installs/nodejs/22.18.0/lib\n├── @crowdin/cli@4.11.0\n├── @ionic/cli@7.2.1\n├── appcenter-cli@3.0.4\n├── cordova@12.0.0\n├── corepack@0.34.2\n├── npm@10.9.3\n├── openupm-cli@4.5.2\n└── react-native@0.82.1",
+          "raw_output": "/Users/vagrant/.asdf/installs/nodejs/22.18.0/lib\n├── @crowdin/cli@4.11.0\n├── @ionic/cli@7.2.1\n├── appcenter-cli@3.0.4\n├── cordova@12.0.0\n├── corepack@0.34.4\n├── npm@10.9.3\n├── openupm-cli@4.5.2\n└── react-native@0.82.1",
           "executed_command": "npm list -g --depth=0"
         }
       ],
