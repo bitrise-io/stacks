@@ -12,6 +12,21 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### AMI version `2.109.1-sequoia26`
+
+Updated version of the [macOS Sequoia-based stack](../../stack_reports/aws/aws-mac-baremetal.md) with the following Xcode versions:
+- Xcode 26.0.1
+
+#### AMIs by Region
+- **us-east-1**: ami-0a9a3a3822b74750f
+- **us-east-2**: ami-0bb898c6b2c23f0e2
+- **us-west-2**: ami-09e55d600b3aa6b16
+- **ca-central-1**: ami-0e838b513636e50a4
+- **eu-central-1**: ami-052ff7da43a646f64
+- **eu-west-1**: ami-02bdbf184a35a1486
+- **ap-southeast-1**: ami-086dd31a1beb2b525
+- **ap-southeast-2**: ami-090247970bf37633f
+
 ### Stack update `v2.77.1-sonoma16`
 
 - Initial AWS AMI version with Xcode 16.0 and 16.1
