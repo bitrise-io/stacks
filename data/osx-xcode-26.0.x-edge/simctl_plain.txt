@@ -124,19 +124,18 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 iOS 17.5 (17.5 - 21F79) - com.apple.CoreSimulator.SimRuntime.iOS-17-5
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.0 (26.0 - 23A343) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-iOS 26.0 (26.0 - 23A343) - com.apple.CoreSimulator.SimRuntime.iOS-26-0
-iOS 26.1 (26.1 - 23B80) - com.apple.CoreSimulator.SimRuntime.iOS-26-1
-iOS 26.2 (26.2 - 23C5044b) - com.apple.CoreSimulator.SimRuntime.iOS-26-2
+iOS 26.1 (26.1 - 23B86) - com.apple.CoreSimulator.SimRuntime.iOS-26-1
+iOS 26.2 (26.2 - 23C52) - com.apple.CoreSimulator.SimRuntime.iOS-26-2
 tvOS 26.0 (26.0 - 23J352) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 tvOS 26.1 (26.1 - 23J579) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
-tvOS 26.2 (26.2 - 23K5046a) - com.apple.CoreSimulator.SimRuntime.tvOS-26-2
+tvOS 26.2 (26.2 - 23K51) - com.apple.CoreSimulator.SimRuntime.tvOS-26-2
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
 watchOS 26.0 (26.0 - 23R353) - com.apple.CoreSimulator.SimRuntime.watchOS-26-0
 watchOS 26.1 (26.1 - 23S36) - com.apple.CoreSimulator.SimRuntime.watchOS-26-1
-watchOS 26.2 (26.2 - 23S5297b) - com.apple.CoreSimulator.SimRuntime.watchOS-26-2
+watchOS 26.2 (26.2 - 23S303) - com.apple.CoreSimulator.SimRuntime.watchOS-26-2
 visionOS 26.0 (26.0 - 23M336) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
 visionOS 26.1 (26.1 - 23N47) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
-visionOS 26.2 (26.2 - 23N5296a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-2
+visionOS 26.2 (26.2 - 23N301) - com.apple.CoreSimulator.SimRuntime.xrOS-26-2
 == Devices ==
 -- iOS 17.5 --
     iPhone 15 Pro (30E9892E-FE64-44F0-B483-3219A0C31B5A) (Shutdown) 
@@ -164,7 +163,6 @@ visionOS 26.2 (26.2 - 23N5296a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-2
     iPad (A16) (AD520D9B-382C-4194-B2FF-B1AFC47531B1) (Shutdown) 
     iPad Air 13-inch (M3) (350B5572-ABC1-4D1D-9976-455BF393909E) (Shutdown) 
     iPad Air 11-inch (M3) (E8D6D92B-07A9-4B74-9C59-F131E1F4D4BE) (Shutdown) 
--- iOS 26.0 --
 -- iOS 26.0 --
     iPhone 17 Pro (370CDB87-5BF0-4023-8A5E-AAEB9C707571) (Shutdown) 
     iPhone 17 Pro Max (1B400F18-1C13-4743-919A-069134A210D3) (Shutdown) 
