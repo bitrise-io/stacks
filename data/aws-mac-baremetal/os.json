@@ -7,21 +7,21 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 14.7 (23H124)\n      Kernel Version: Darwin 23.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      User Name: ec2-user (ec2-user)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Enabled\n      Time since boot: 17 hours, 59 minutes",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.6.1 (24G90)\n      Kernel Version: Darwin 24.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      User Name: ec2-user (ec2-user)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Enabled\n      Time since boot: 40 minutes, 21 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk5s2s1   500Gi   9.6Gi   342Gi     3%    404k  3.6G    0%   /",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk6s2s1   400Gi    10Gi   281Gi     4%    426k  3.0G    0%   /",
           "executed_command": "df -h /"
         },
         {
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_9.7p1, LibreSSL 3.3.6",
+          "raw_output": "OpenSSH_9.9p2, LibreSSL 3.3.6",
           "executed_command": "ssh -V"
         }
       ],
