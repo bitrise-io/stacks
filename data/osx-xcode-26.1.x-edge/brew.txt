@@ -5,16 +5,16 @@ apr-util 1.6.3_1
 argon2 20190702_1
 aria2 1.37.0_1
 autoconf 2.72
-awscli 2.31.39
+awscli 2.32.9
 bazelisk 1.27.0
 boost 1.89.0
 brotli 1.1.0 1.2.0
 bundletool 1.18.2
 c-ares 1.34.5
-ca-certificates 2025-09-09 2025-11-04
+ca-certificates 2025-12-02
 cairo 1.18.4
 carthage 0.40.0
-cmake 4.1.2
+cmake 4.2.0
 coreutils 9.9
 curl 8.17.0
 danger-js 64
@@ -24,13 +24,13 @@ double-conversion 3.3.1
 edencommon 2025.11.10.00
 fb303 2025.11.10.00
 fbthrift 2025.11.10.00
-firebase-cli 14.25.1
+firebase-cli 14.26.0
 fizz 2025.11.10.00
-flow 0.291.0
+flow 0.292.0
 fmt 12.1.0 11.2.0
 folly 2025.11.10.00
 fontconfig 2.17.1
-freetds 1.5.8
+freetds 1.5.10
 freetype 2.14.1_1
 fvm 4.0.1
 gd 2.3.3_6
@@ -40,19 +40,19 @@ gh 2.83.1
 giflib 5.2.2
 git 2.52.0
 git-lfs 3.7.1
-glib 2.86.1 2.86.0
+glib 2.86.2
 glog 0.6.0
 gmp 6.3.0
 gnupg 2.4.8
 gnutls 3.8.10
 graphite2 1.3.14
-groovy 5.0.2
-harfbuzz 11.5.1 12.1.0
+groovy 5.0.3
+harfbuzz 12.2.0_1
 highway 1.3.0
 hub 2.14.2
 icu4c@77 77.1
 icu4c@78 78.1
-imagemagick 7.1.2-8_1
+imagemagick 7.1.2-9
 imath 3.2.2 3.2.1
 jasper 4.2.8
 jenv 0.5.9
@@ -74,9 +74,9 @@ libksba 1.6.7
 liblqr 0.4.3
 libnghttp2 1.67.1 1.68.0
 libnghttp3 1.12.0
-libngtcp2 1.16.0 1.17.0
-libomp 21.1.5
-libpng 1.6.50
+libngtcp2 1.18.0
+libomp 21.1.7
+libpng 1.6.51
 libpq 18.1
 libraw 0.21.4
 libsodium 1.0.20
@@ -98,7 +98,7 @@ libxext 1.3.6
 libxrender 0.9.12
 libyaml 0.2.5
 libzip 1.11.4
-licenseplist 3.27.1
+licenseplist 3.27.2
 little-cms2 2.17
 lokalise2 3.1.4
 lz4 1.10.0
@@ -113,36 +113,36 @@ node 25.2.1
 npth 1.8
 oniguruma 6.9.10
 openconnect 9.12_1
-openexr 3.4.3
-openjdk 25
+openexr 3.4.4
+openjdk 25.0.1
 openjpeg 2.5.4
 openjph 0.25.3
 openldap 2.6.10_1
 openssl@3 3.6.0
-openvpn 2.6.16
+openvpn 2.6.17
 p11-kit 0.25.10
-parallel 20251022
+parallel 20251122
 pcre2 10.47 10.46
-php 8.4.14_1
+php 8.5.0
 pinentry 1.3.2
 pipx 1.8.0
 pixman 0.46.4
 pkcs11-helper 1.31.0
 pkgconf 2.5.1
-python@3.13 3.13.7 3.13.9_1
+python@3.13 3.13.10
 python@3.14 3.14.0 3.14.0_1
 rbenv 1.3.2
 readline 8.3.1
 ripgrep 15.1.0
 rtmpdump 2.4-20151223_3
-ruby-build 20251117
+ruby-build 20251203
 screen 5.0.1
 shared-mime-info 2.4_1
 simdjson 4.2.2
 snappy 1.2.2
-sonar-scanner 7.3.0.5189
+sonar-scanner 8.0.0.6341
 sourcery 2.3.0_1
-sqlite 3.51.0
+sqlite 3.51.1
 stoken 0.93_1
 swift-format 602.0.0
 swiftlint 0.62.2_1
@@ -159,14 +159,14 @@ watchman 2025.11.10.00
 webp 1.6.0
 wget 1.25.0
 x265 4.1
-xcbeautify 3.1.0_1
-xclogparser 0.2.42
+xcbeautify 3.1.1
+xclogparser 0.2.44
 xcodegen 2.44.1
 xcodes 1.6.2
 xorgproto 2024.1
 xxhash 0.8.3
 xz 5.8.1
-yq 4.48.2
+yq 4.49.2
 zeromq 4.3.5_2
 zlib 1.3.1
 zstd 1.5.7

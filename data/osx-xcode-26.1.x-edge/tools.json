@@ -34,15 +34,15 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.48.2",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.48.2",
+          "version": "4.49.2",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.49.2",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.31.39",
-          "raw_output": "aws-cli/2.31.39 Python/3.13.7 Darwin/25.0.0 source/arm64",
+          "version": "2.32.9",
+          "raw_output": "aws-cli/2.32.9 Python/3.13.10 Darwin/25.0.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.25.1",
-          "raw_output": "14.25.1",
+          "version": "14.26.0",
+          "raw_output": "14.26.0",
           "executed_command": "firebase --version"
         },
         {
@@ -83,15 +83,15 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.1.2",
-          "raw_output": "cmake version 4.1.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.2.0",
+          "raw_output": "cmake version 4.2.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
           "name": "OpenVPN",
           "category": "tools",
-          "version": "2.6.16",
-          "raw_output": "OpenVPN 2.6.16 aarch64-apple-darwin25.1.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.6.0 1 Oct 2025, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2024 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
+          "version": "2.6.17",
+          "raw_output": "OpenVPN 2.6.17 aarch64-apple-darwin25.1.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.6.0 1 Oct 2025, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2024 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
           "executed_command": "openvpn --version"
         },
         {
