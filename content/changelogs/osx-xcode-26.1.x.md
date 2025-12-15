@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-12-15`
+
+- Lix (Nix-like) is preinstalled and configured
+
 ### Stack update `v2025-11-12`
 
 [Xcode 26.1.1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_1-release-notes) (build `17B100`)
