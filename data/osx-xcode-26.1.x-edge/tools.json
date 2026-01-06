@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.83.1",
-          "raw_output": "gh version 2.83.1 (2025-11-13)\nhttps://github.com/cli/cli/releases/tag/v2.83.1",
+          "version": "2.83.2",
+          "raw_output": "gh version 2.83.2 (2025-12-10)\nhttps://github.com/cli/cli/releases/tag/v2.83.2",
           "executed_command": "gh --version"
         },
         {
@@ -34,15 +34,15 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.49.2",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.49.2",
+          "version": "4.50.1",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.50.1",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.32.9",
-          "raw_output": "aws-cli/2.32.9 Python/3.13.10 Darwin/25.0.0 source/arm64",
+          "version": "2.32.25",
+          "raw_output": "aws-cli/2.32.25 Python/3.13.11 Darwin/25.2.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -56,7 +56,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.3.0, installed using Python 3.13.7\n    - pre-commit\n   package yamllint 1.37.1, installed using Python 3.13.7\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.5.1, installed using Python 3.14.2\n    - pre-commit\n   package yamllint 1.37.1, installed using Python 3.14.2\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -69,22 +69,22 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "14.26.0",
-          "raw_output": "14.26.0",
+          "version": "15.1.0",
+          "raw_output": "15.1.0",
           "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
           "version": "9.12",
-          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.10. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.11. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
           "executed_command": "openconnect --version"
         },
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.2.0",
-          "raw_output": "cmake version 4.2.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.2.1",
+          "raw_output": "cmake version 4.2.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
@@ -104,8 +104,8 @@
         {
           "name": "Nix",
           "category": "tools",
-          "version": "2.93.0",
-          "raw_output": "nix (Lix, like Nix) 2.93.0\nSystem type: aarch64-darwin\nAdditional system types: x86_64-darwin\nFeatures: gc, signed-caches\nSystem configuration file: /etc/nix/nix.conf\nUser configuration files: /Users/vagrant/.config/nix/nix.conf:/etc/xdg/nix/nix.conf\nStore directory: /nix/store\nState directory: /nix/var/nix\nData directory: /nix/store/0vn9444lszwlxrg98krrpyfdl4hgdzy6-lix-2.93.0/share",
+          "version": "2.94.0",
+          "raw_output": "nix (Lix, like Nix) 2.94.0\nSystem type: aarch64-darwin\nAdditional system types: x86_64-darwin\nFeatures: gc, signed-caches\nSystem configuration file: /etc/nix/nix.conf\nUser configuration files: /Users/vagrant/.config/nix/nix.conf:/etc/xdg/nix/nix.conf\nStore directory: /nix/store\nState directory: /nix/var/nix\nData directory: /nix/store/gxpdrn2sw1xpymxmsrxc7c706b7higws-lix-2.94.0/share",
           "executed_command": "nix --version"
         },
         {
