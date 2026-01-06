@@ -14,6 +14,12 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-12-30` (released on January 6, 2026)
+
+- [Xcode 26.2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_2-release-notes) (build `17C52`)
+- macOS upgrade: `26.0 (25A354)` -> `26.2 (25C56)`
+- Homebrew package upgrades
+
 ### Stack update `v2025-12-04`
 
 - [Xcode 26.2 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_2-release-notes) (build `17C48`)
