@@ -14,11 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-01-12`
+### Stack update `v2026-01-12` (released 2026-01-13)
 
 - Homebrew package upgrades
 
-### Stack update `v2025-12-30` (released on January 6, 2026)
+### Stack update `v2025-12-30` (released 2026-01-06)
 
 - macOS upgrade: `26.0 (25A354)` -> `26.2 (25C56)`
 - Homebrew package upgrades
@@ -51,7 +51,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 - [Xcode 26.1 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_1-release-notes) (build `17B5035f`)
 - Homebrew package upgrades
 
-### Stack update `v2025-10-02` (released v2025-10-03)
+### Stack update `v2025-10-02` (released 2025-10-03)
 
 - This stack is now based on macOS Tahoe (`25A354`) instead of macOS Sequoia
 - Homebrew package upgrades
