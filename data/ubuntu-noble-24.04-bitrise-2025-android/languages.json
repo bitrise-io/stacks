@@ -56,21 +56,21 @@
           "name": "Python versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.13\n  3.13.3",
+          "raw_output": "3\n  3.13\n  3.13.11\n  3.14\n  3.14.2",
           "executed_command": "asdf list python"
         },
         {
           "name": "Python version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.13.3\n3.13 =\u003e 3.13.3",
+          "raw_output": "3 =\u003e 3.14.2\n3.13 =\u003e 3.13.11\n3.14 =\u003e 3.14.2",
           "executed_command": "asdf alias python --list"
         },
         {
           "name": "Kotlin",
           "category": "languages",
           "version": "2.1.21",
-          "raw_output": "Kotlin version 2.1.21-release-317 (JRE 17.0.16+8-Ubuntu-0ubuntu124.04.1)",
+          "raw_output": "Kotlin version 2.1.21-release-317 (JRE 17.0.17+10-Ubuntu-124.04)",
           "executed_command": "kotlin -version"
         }
       ],
