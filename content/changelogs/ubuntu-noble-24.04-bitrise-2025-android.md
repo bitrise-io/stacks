@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-01-14` (released 2026-01-15)
+
+- [Lix](https://lix.systems/) (Nix-like) is preinstalled and configured
+- `Python` additional preinstalled version: `3.14.2`
+- Android emulator upgrade: `36.2.12` -> `36.3.10`
+
 ### Stack update `v2025-11-18` (released 2025-11-19)
 
 No user-facing changes in this stack update.
@@ -24,7 +30,6 @@ No user-facing changes in this stack update.
 
 - Android emulator upgrade: `36.1.9` -> `36.2.12`
 - By popular demand, `build-tools;35.0.0` is also preinstalled for Android Gradle Plugin 8.x versions
-
 
 ### Stack update `v2025-09-30` (released 2025-10-01)
 
