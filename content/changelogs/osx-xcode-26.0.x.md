@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-01-14` (released 2026-01-15)
+
+- No customer facing change. Internal tooling update
+
 ### Stack update `v2025-12-15`
 
 - Lix (Nix-like) is preinstalled and configured
