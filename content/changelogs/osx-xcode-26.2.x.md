@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-01-14` (released 2026-01-15)
+
+- No customer facing change. Internal tooling update
+
 ### Stack update `v2025-12-15`
 
 Initial stack release with [Xcode 26.2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_2-release-notes) (build `17B100`)
