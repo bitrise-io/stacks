@@ -102,7 +102,16 @@
           "executed_command": "rg --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "Nix",
+          "error": "exit status 127: zsh:1: command not found: nix\n"
+        },
+        {
+          "name": "Nix daemon config",
+          "error": "exit status 1: cat: /etc/nix/nix.conf: No such file or directory\n"
+        }
+      ]
     }
   }
 ]
