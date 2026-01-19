@@ -4983,16 +4983,6 @@
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-10th-generation",
         "state" : "Shutdown",
         "name" : "iPad (10th generation)"
-      },
-      {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/53751A8C-22F2-452B-AFD4-39040ACF3DE3\/data",
-        "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/53751A8C-22F2-452B-AFD4-39040ACF3DE3",
-        "udid" : "53751A8C-22F2-452B-AFD4-39040ACF3DE3",
-        "isAvailable" : true,
-        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPad-mini-6th-generation",
-        "state" : "Shutdown",
-        "name" : "iPad mini (6th generation)"
       }
     ]
   },
