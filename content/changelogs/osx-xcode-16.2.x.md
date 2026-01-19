@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-01-15` (released 2026-01-19)
+
+- [Lix](https://lix.systems/) (Nix-like) is preinstalled and configured
+
 ### Stack update `v2025-09-15` (released 2025-09-18)
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep) (`rg`) is preinstalled and available to other tools
