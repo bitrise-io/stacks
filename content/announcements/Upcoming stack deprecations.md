@@ -20,9 +20,10 @@ The following table shows the currently deprecated stacks that are marked for re
 While the stack is marked as deprecated, you can still run builds on it, but it's recommended to migrate your workflows to a more modern stack. On the day of removal, remaining users will be migrated to the stack shown in the _Automatic migration to_ column. If you encounter any difficulties during migration or require support, our dedicated [customer support team](https://support.bitrise.io) would be happy to assist.
 
 | Stack ID                             | Deprecated from | Removal date  | Automatic* migration to                 |
-| ------------------------------------ | --------------- | ------------- | --------------------------------        |
+| ------------------------------------ | --------------- | ------------- | --------------------------------------- |
 | **linux-docker-android-22.04**       | 2026-04-08      | 2027-04-08    | ubuntu-noble-2404-bitrise-2025-android  |
 | **osx-xcode-15.0.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
+| **osx-xcode-15.1.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
 | **osx-xcode-15.2.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
 | **osx-xcode-15.3.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
 | **osx-xcode-15.4.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
