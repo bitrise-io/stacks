@@ -12,6 +12,21 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-01-22` (released 2026-01-23)
+
+- Android NDK 27.1.12297006 added
+- Fastlane upgrade: `2.230.0` -> `2.231.1`
+- Ruby upgrades: `3.4.3` -> `3.4.8`, `3.3.8` -> `3.3.10`
+- Ruby 4.0.1 added
+- Go upgrades: `1.24.3` -> `1.24.12`, added `1.25.6` (default)
+- Node.js upgrades: `22.15.0` -> `22.22.0`, `24.0.1` -> `24.13.0` (default)
+- NPM upgrade: `10.9.2` -> `11.6.2`
+- Java: OpenJDK 25 added
+- Kotlin upgrade: `2.1.21` -> `2.3.0`
+- Firebase upgrade: `15.2.1` -> `15.3.1`
+- Docker upgrade: `29.1.4` -> `29.1.5`
+- Docker Compose upgrade: `5.0.1` -> `5.0.2`
+
 ### Stack update `v2026-01-14` (released 2026-01-15)
 
 - [Lix](https://lix.systems/) (Nix-like) is preinstalled and configured
