@@ -133,7 +133,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 49.8GB\nbitriseio/ubuntu-22-android:pinned - 49.8GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 39GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 39GB\nbitriseio/ubuntu-22-base:latest - 11.6GB\nbitriseio/ubuntu-22-base:pinned - 11.6GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 11.8GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 11.8GB",
+          "raw_output": "bitriseio/ubuntu-22-android:latest - 49.8GB\nbitriseio/ubuntu-22-android:pinned - 49.8GB\nbitriseio/ubuntu-22-base:latest - 11.6GB\nbitriseio/ubuntu-22-base:pinned - 11.6GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 42.1GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 42.1GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 12.1GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 12.1GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         },
         {
