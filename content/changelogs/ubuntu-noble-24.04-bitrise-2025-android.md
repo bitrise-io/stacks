@@ -20,7 +20,9 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 - Ruby 4.0.1 added
 - Ruby 3.2.8 removed
 - Go upgrades: `1.24.3` -> `1.24.12`, added `1.25.6` (default)
+- Go 1.23.9 removed
 - Node.js upgrades: `22.15.0` -> `22.22.0`, `24.0.1` -> `24.13.0` (default)
+- Node.js 20.19.1 removed
 - NPM upgrade: `10.9.2` -> `11.6.2`
 - Java: OpenJDK 25 added
 - Kotlin upgrade: `2.1.21` -> `2.3.0`
