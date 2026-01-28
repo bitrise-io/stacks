@@ -1,0 +1,17 @@
+Installed packages:
+  Path                                        | Version       | Description                                | Location                                   
+  -------                                     | -------       | -------                                    | -------                                    
+  build-tools;35.0.0                          | 35.0.0        | Android SDK Build-Tools 35                 | build-tools/35.0.0                         
+  build-tools;36.0.0                          | 36.0.0        | Android SDK Build-Tools 36                 | build-tools/36.0.0                         
+  emulator                                    | 36.3.10       | Android Emulator                           | emulator                                   
+  ndk;27.1.12297006                           | 27.1.12297006 | NDK (Side by side) 27.1.12297006           | ndk/27.1.12297006                          
+  ndk;27.2.12479018                           | 27.2.12479018 | NDK (Side by side) 27.2.12479018           | ndk/27.2.12479018                          
+  platform-tools                              | 36.0.2        | Android SDK Platform-Tools                 | platform-tools                             
+  platforms;android-34                        | 3             | Android SDK Platform 34                    | platforms/android-34                       
+  platforms;android-35                        | 2             | Android SDK Platform 35                    | platforms/android-35                       
+  platforms;android-36                        | 2             | Android SDK Platform 36                    | platforms/android-36                       
+  system-images;android-34;google_apis;x86_64 | 14            | Google APIs Intel x86_64 Atom System Image | system-images/android-34/google_apis/x86_64
+  system-images;android-35;aosp_atd;x86_64    | 1             | AOSP ATD Intel x86_64 Atom System Image    | system-images/android-35/aosp_atd/x86_64   
+  system-images;android-35;google_apis;x86_64 | 9             | Google APIs Intel x86_64 Atom System Image | system-images/android-35/google_apis/x86_64
+  system-images;android-36;google_apis;x86_64 | 7             | Google APIs Intel x86_64 Atom System Image | system-images/android-36/google_apis/x86_64
+

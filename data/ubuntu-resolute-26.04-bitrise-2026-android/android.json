@@ -1,0 +1,31 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "36.3.10",
+          "raw_output": "Pkg.Revision=36.3.10",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "Fastlane",
+          "category": "android",
+          "version": "3.4.8",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.231.1/bin/fastlane\n-----------------------------\nfastlane 2.231.1",
+          "executed_command": "fastlane --version"
+        },
+        {
+          "name": "Bundletool",
+          "category": "android",
+          "version": "1.18.1",
+          "raw_output": "1.18.1",
+          "executed_command": "bundletool version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
