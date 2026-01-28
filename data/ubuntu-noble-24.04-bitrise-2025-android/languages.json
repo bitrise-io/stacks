@@ -67,10 +67,24 @@
           "executed_command": "asdf alias python --list"
         },
         {
+          "name": "Flutter versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3\n *3.29\n  3.29.3\n  3.29.3-stable",
+          "executed_command": "asdf list flutter"
+        },
+        {
+          "name": "Flutter version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.29.3-stable\n3.29 =\u003e 3.29.3-stable\n3.29.3 =\u003e 3.29.3-stable",
+          "executed_command": "asdf alias flutter --list"
+        },
+        {
           "name": "Kotlin",
           "category": "languages",
           "version": "2.3.0",
-          "raw_output": "Kotlin version 2.3.0-release-356 (JRE 17.0.17+10-Ubuntu-124.04)",
+          "raw_output": "Kotlin version 2.3.0-release-356 (JRE 17.0.18-ea+7-Ubuntu-1)",
           "executed_command": "kotlin -version"
         }
       ],
