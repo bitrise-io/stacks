@@ -13,8 +13,8 @@
         {
           "name": "Fastlane",
           "category": "android",
-          "version": "3.4.3",
-          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.3/lib/ruby/gems/3.4.0/gems/fastlane-2.230.0/bin/fastlane\n-----------------------------\nfastlane 2.230.0",
+          "version": "3.4.8",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.231.1/bin/fastlane\n-----------------------------\nfastlane 2.231.1",
           "executed_command": "fastlane --version"
         },
         {
