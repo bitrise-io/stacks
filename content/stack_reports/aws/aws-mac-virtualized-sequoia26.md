@@ -7,19 +7,21 @@ platform: macOS
 cloud: aws
 ---
 
-This AMI contains the following VM image: `Ssequoia26_V2-115-4`
+This AMI contains the following VM image: `Ssequoia26_V2-125-1`
 
 - See the system report of Xcode 26.0 [here](../osx-xcode-26.0.x.md).
+- See the system report of Xcode 26.1 [here](../osx-xcode-26.1.x.md).
+- See the system report of Xcode 26.2 [here](../osx-xcode-26.2.x.md).
 
-Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `Ssequoia26_V2-115-4` to get the specific VM image listed here.
+Note: there is a single **virtualized** AMI listing with multiple actively maintained versions. You should select the AMI version `Ssequoia26_V2-125-1` to get the specific VM image listed here.
 
 | Region         | AMI ID                  |
 | ---------------| ----------------------- |
-| ap-southeast-1 | `ami-06e9fb8c225a03ea5` |
-| ap-southeast-2 | `ami-04e12635e4dd6b091` |
-| eu-central-1   | `ami-0ffb8a7c0ed7ca7f8` |
-| eu-west-1      | `ami-0ca526de272c7489f` |
-| us-east-1      | `ami-0bb136cdeae5d89e1` |
-| us-east-2      | `ami-057d0c2453229b01a` |
-| us-west-2      | `ami-0a8217cf7cd4843e8` |
-| ca-central-1   | `ami-00fcbd818c0b9b710` |
+| eu-west-1      | ami-0c8108d3afd677c60   |
+| ca-central-1   | ami-01ea15c40fb8a8767   |
+| ap-southeast-1 | ami-017ba46f4bf9eaa6b   |
+| ap-southeast-2 | ami-0618839c268ee521c   |
+| eu-central-1   | ami-0f43f50ec10fe45b1   |
+| us-east-1      | ami-0a7a62db14e28c91b   |
+| us-east-2      | ami-0920baa535554fbbf   |
+| us-west-2      | ami-0f3616f0276bb7b68   |
