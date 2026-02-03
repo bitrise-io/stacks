@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-05` (released 2026-02-06)
+
+- Ruby versions that are pre-built on the stack are now built with `--enable-shared`. They were previously built with `--disable-shared`. The `--disable-shared` option was required for compatibility with a past version of Xcode, but it is no longer necessary. Using `--enable-shared` allows Ruby gems with native extensions that depend on the shared Ruby library to work properly.
+
 ### Stack update `v2026-01-12` (released 2026-01-13)
 
 - Homebrew package upgrades
