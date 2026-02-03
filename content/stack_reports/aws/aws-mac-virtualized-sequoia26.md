@@ -1,5 +1,5 @@
 ---
-title: "macOS Sequoia virtualized AMI: Xcode 26.0 - 26.2"
+title: "macOS Sequoia virtualized AMI: Xcode 26.0"
 summary: "Bitrise on AWS: virtualized macOS stack for building with Xcode"
 type: stack_reports_aws
 aws_url: "https://aws.amazon.com/marketplace/pp/prodview-aqc5tyfdeozky?sr=0-4&ref_=beagle&applicationId=AWSMPContessa"
