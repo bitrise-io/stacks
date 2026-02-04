@@ -14,6 +14,24 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-04`
+
+- An additional Android NDK package is installed, `27.1.12297006`
+- Tuist upgrade: `4.50.2` -> `4.130.1`
+- Ruby upgrades: `3.4.5` -> `3.4.8`, `3.3.9` -> `3.3.10`
+- Ruby `4.0.1` added
+- Ruby `3.2.9` removed
+- Go upgrades: `1.25.0` -> `1.25.6`, `1.24.6` -> `1.24.12`
+- Node.js upgrades: `24.6.0` -> `24.13.0`, `22.18.0` -> `22.22.0`
+- Java upgrade: `21.0.9` -> `21.0.10`
+- Java `25.0.2` added
+- Flutter upgrade: `3.32.0` -> `3.38.7`
+- NPM upgrade: `10.9.3` -> `11.6.2`
+- GitHub CLI upgrade: `2.83.2` -> `2.86.0`
+- AWS CLI upgrade: `2.32.32` -> `2.33.14`
+- Firebase upgrade: `15.2.1` -> `15.5.1`
+- Homebrew package upgrades
+
 ### Stack update `v2026-01-12` (released 2026-01-13)
 
 - Homebrew package upgrades
