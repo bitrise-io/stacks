@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 26.2 (25C56)\n      Kernel Version: Darwin 25.2.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-tahoe-26-edge-g2.mac.m4pro.7c-27g-604d4bf1-e95f-41b5-8353-3d3d33d50848\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 53 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 26.2 (25C56)\n      Kernel Version: Darwin 25.2.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-tahoe-26-edge-g2.mac.m4pro.7c-27g-75cd9179-ce59-46cc-a3a2-b9daf6a869f6\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 42 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s1s1   308Gi    11Gi   104Gi    10%    453k  1.1G    0%   /",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s1s1   316Gi    11Gi   105Gi    10%    453k  1.1G    0%   /",
           "executed_command": "df -h /"
         },
         {
