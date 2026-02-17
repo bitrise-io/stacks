@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-17`
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-02-04`
 
 - An additional Android NDK package is installed, `27.1.12297006`
