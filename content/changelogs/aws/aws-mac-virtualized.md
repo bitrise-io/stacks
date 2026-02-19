@@ -18,6 +18,23 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### AMI version `2026W08-sequoia26`
+
+Updated version of the [macOS Sequoia-based stack](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md) with the following Xcode versions:
+- Xcode 26.0
+- Xcode 26.1
+- Xcode 26.2
+
+#### AMIs by Region
+- **eu-west-1**:      ami-0f04156dd57966ae6
+- **ca-central-1**:	  ami-06d1442cda192bd93
+- **ap-southeast-1**: ami-0204ace48ecfdcb65
+- **ap-southeast-2**: ami-04c30c86c9b6fcd37
+- **eu-central-1**:	  ami-0e08691c5ae1823ab
+- **us-east-1**:      ami-0014f5a8efcc433cc
+- **us-east-2**:      ami-06cfe29e3c9ef6c1c
+- **us-west-2**:      ami-016071d064ac08fca
+
 ### AMI version `2026W04-stable26`
 
 Updated version of the [macOS Sequoia-based stack](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md) with the following Xcode versions:
