@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-21` (released 2026-02-23)
+
+- [Xcode 26.3 RC 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_3-release-notes) (build `17C528`)
+- Homebrew package upgrades
+
 ### Stack update `v2026-02-17`
 
 - Homebrew package upgrades
