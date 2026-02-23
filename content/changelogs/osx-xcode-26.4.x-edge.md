@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-21` (released 2026-02-23)
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-02-17`
 
 Initial stack release with [Xcode 26.4 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes) (build `17E5159k`)
