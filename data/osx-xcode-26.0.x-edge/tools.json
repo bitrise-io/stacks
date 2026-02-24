@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.87.2",
-          "raw_output": "gh version 2.87.2 (2026-02-20)\nhttps://github.com/cli/cli/releases/tag/v2.87.2",
+          "version": "2.87.3",
+          "raw_output": "gh version 2.87.3 (2026-02-23)\nhttps://github.com/cli/cli/releases/tag/v2.87.3",
           "executed_command": "gh --version"
         },
         {
@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.33.27",
-          "raw_output": "aws-cli/2.33.27 Python/3.13.12 Darwin/25.2.0 source/arm64",
+          "version": "2.33.28",
+          "raw_output": "aws-cli/2.33.28 Python/3.13.12 Darwin/25.2.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
