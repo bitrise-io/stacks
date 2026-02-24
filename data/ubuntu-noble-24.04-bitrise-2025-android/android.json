@@ -6,15 +6,15 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "36.3.10",
-          "raw_output": "Pkg.Revision=36.3.10",
+          "version": "36.2.12",
+          "raw_output": "Pkg.Revision=36.2.12",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Fastlane",
           "category": "android",
-          "version": "3.4.8",
-          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.231.1/bin/fastlane\n-----------------------------\nfastlane 2.231.1",
+          "version": "3.4.3",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.3/lib/ruby/gems/3.4.0/gems/fastlane-2.228.0/bin/fastlane\n-----------------------------\nfastlane 2.228.0\n\n#######################################################################\n# fastlane 2.232.1 is available. You are on 2.228.0.\n# You should use the latest version.\n# Please update using `gem install fastlane`.\n#######################################################################\n\n\u001b[32m2.232.1 Improvements\u001b[0m\n* [action] Revert to \"-uploadedDate\" sort order for app_store_build_num… (#29899) via Kai Leonhardt (@Mik4sa)\n\n\u001b[32m2.232.0 Improvements\u001b[0m\n* Revert \"[pilot] Add Support of the BuildAudienceType Field (#29859)\" (#29881) via Connor Tumbleson (@iBotPeaches)\n* [match] Download Apple's new Developer ID intermediate certificates (#29890) via Ian G. Maia (@iangmaia)\n* [match] Bump minimum version of `aws-sdk-s3` dependency to `~\u003e 1.197` (#29750) via Olivier Halligon (@AliSoftware)\n* [action] Switch to \"build uploads\" api for app_store_build_number and latest_testflight_build_number action (#29879) via Kai Leonhardt (@Mik4sa)\n* [appium] Fix appium driver usage (#29882) via Naveed Ahmad (@naveed-ahmad)\n* [gym, scan, snapshot] Allow disabling swift packages fetches when using xcodebuild (#29862) via Alexandre Podlewski (@alexandre-pod)\n* [ci] build: move to m4 runners (#29802) via Connor Tumbleson (@iBotPeaches)\n* [Ruby] Ruby 2.7 is now the minimum (dropping Ruby 2.6) (#29779) via Connor Tumbleson (@iBotPeaches)\n* [ci] Fix CI pipeline to actually lint shell/bash scripts. (#29757) via Connor Tumbleson (@iBotPeaches)\n* [action] Add format switch to the import_certificate action (#29868) via Kai Leonhardt (@Mik4sa)\n* [pilot] Add Support of the BuildAudienceType Field (#29859) via YuantongLu (@YuantongL)\n\n\u001b[32m2.231.1 Improvements\u001b[0m\n\u003e [!IMPORTANT]  \r\n\u003e _fastlane_ will begin warning if you are using a Ruby version we will no longer support in future.\r\n\r\n* [core] build: move to modern plist for Ruby 3.4 frozen strings (#29851) via Connor Tumbleson (@iBotPeaches)\r\n* [ci] always record latest_fl_version during part 2 release (#29866) via Connor Tumbleson (@iBotPeaches)\r\n* [core] add support for stdgem changes in Ruby 4 (#29869) via Connor Tumbleson (@iBotPeaches)\n\n\u001b[32mTo see all new releases, open https://github.com/fastlane/fastlane/releases\u001b[0m\n\n\u001b[32mPlease update using `gem install fastlane`\u001b[0m",
           "executed_command": "fastlane --version"
         },
         {
