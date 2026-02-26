@@ -5752,15 +5752,15 @@
     ]
   },
   "pairs" : {
-    "1A2E6EC4-AAB8-402E-983C-2210EB3A85DF" : {
+    "3396996F-5A22-4666-9CA4-2A787DD88FB4" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (42mm)",
-        "udid" : "134D5864-6D07-48C1-B22B-4DB16AF2515E",
+        "udid" : "43DAB379-49D0-4F8B-A5B3-845059683378",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "Bitrise iOS default",
-        "udid" : "311AE50B-10B5-4AC9-9C6C-0C2EF4E080AB",
+        "name" : "iPhone Air",
+        "udid" : "B01A2C85-7F76-4538-AF69-B36D59B7ECC8",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -5778,6 +5778,32 @@
       },
       "state" : "(active, disconnected)"
     },
+    "1A2E6EC4-AAB8-402E-983C-2210EB3A85DF" : {
+      "watch" : {
+        "name" : "Apple Watch Series 11 (42mm)",
+        "udid" : "134D5864-6D07-48C1-B22B-4DB16AF2515E",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Bitrise iOS default",
+        "udid" : "311AE50B-10B5-4AC9-9C6C-0C2EF4E080AB",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "773C1110-8603-471B-8520-041F812868D1" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 3 (49mm)",
+        "udid" : "7700B8B7-4D29-4024-B5DE-FA91C50A0060",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17",
+        "udid" : "31DDF603-79E8-4382-A487-FD2C1AC5A0FD",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "1DF4EE8A-FE9F-4587-916F-9CF1C2B3CAE2" : {
       "watch" : {
         "name" : "Apple Watch Series 10 (42mm)",
@@ -5787,19 +5813,6 @@
       "phone" : {
         "name" : "Bitrise iOS default",
         "udid" : "D2C8A7D8-6207-44E7-BA6E-6E1FDA94C81D",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "494817AC-BC01-44B0-BDD6-5A61466C78D9" : {
-      "watch" : {
-        "name" : "Apple Watch Series 11 (42mm)",
-        "udid" : "43DAB379-49D0-4F8B-A5B3-845059683378",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone Air",
-        "udid" : "B01A2C85-7F76-4538-AF69-B36D59B7ECC8",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -5843,20 +5856,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "A4063940-D5E0-4DAB-B2A3-9FF5898E87C7" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 3 (49mm)",
-        "udid" : "7700B8B7-4D29-4024-B5DE-FA91C50A0060",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 17",
-        "udid" : "31DDF603-79E8-4382-A487-FD2C1AC5A0FD",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "D248A34A-CA62-483E-A675-1C5673002305" : {
+    "A7F6AF9D-0FC4-49DA-A10F-272ACD1C51FF" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (46mm)",
         "udid" : "0B05E1B4-D7EF-4D20-9925-7152E99B9B1E",
