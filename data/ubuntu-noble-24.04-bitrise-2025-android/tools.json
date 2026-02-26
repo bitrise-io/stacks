@@ -135,14 +135,16 @@
           "version": "",
           "raw_output": "bitriseio/ubuntu-resolute-26.04-bitrise-2026-android:latest - 43.7GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-android:pinned - 43.7GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:latest - 13.8GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:pinned - 13.8GB\nbitriseio/ubuntu-22-android:latest - 49.8GB\nbitriseio/ubuntu-22-android:pinned - 49.8GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 43.5GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 43.5GB\nbitriseio/ubuntu-22-base:latest - 11.6GB\nbitriseio/ubuntu-22-base:pinned - 11.6GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 13.7GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 13.7GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
-        }
-      ],
-      "errors": [
+        },
         {
           "name": "Nix",
-          "error": "exit status 127: /bin/bash: line 1: nix: command not found\n"
+          "category": "tools",
+          "version": "",
+          "raw_output": "nix (Lix, like Nix) 2.94.0\nSystem type: x86_64-linux\nAdditional system types: i686-linux, x86_64-v1-linux, x86_64-v2-linux, x86_64-v3-linux, x86_64-v4-linux\nFeatures: gc, signed-caches\nSystem configuration file: /etc/nix/nix.conf\nUser configuration files: /root/.config/nix/nix.conf:/etc/xdg/nix/nix.conf\nStore directory: /nix/store\nState directory: /nix/var/nix\nData directory: /nix/store/vr4a39d4bw01793jl4qap839rlvmc143-lix-2.94.0/share",
+          "executed_command": "nix --version"
         }
-      ]
+      ],
+      "errors": null
     }
   }
 ]
