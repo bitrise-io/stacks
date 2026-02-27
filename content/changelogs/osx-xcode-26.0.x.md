@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-02-26` (released 2026-02-27)
+
+- Added ndk version: `27.1.12297006`
+
 ### Stack update `v2026-02-03` (released 2026-02-04)
 
 - The Ruby 3.3.9 version that is pre-built on the stack is now built with `--enable-shared`. It was previously built with `--disable-shared`. The `--disable-shared` option was required for compatibility with a past version of Xcode, but it is no longer necessary. Using `--enable-shared` allows Ruby gems with native extensions that depend on the shared Ruby library to work properly. We plan to use `--enable-shared` for all Ruby versions on this stack in a future update.
