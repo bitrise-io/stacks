@@ -18,7 +18,11 @@
         <p>Devices:</p>
         <ul>
         {{ range $devices }}
+            {{ if eq .name "Bitrise iOS default"}}
+            <li><strong>{{ .name }}</strong> (<code>{{ .deviceTypeIdentifier }}</code>)</li>
+            {{ else }}
             <li>{{ .name }}</li>
+            {{ end }}
         {{ end }}
         </ul>
     </details>
