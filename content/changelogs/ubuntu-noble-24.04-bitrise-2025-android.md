@@ -12,6 +12,26 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-03-05` (released 2026-03-07)
+
+- Android emulator upgrade: `36.3.10` -> `36.4.9`
+- Android platform-tools upgrade: `36.0.2` -> `37.0.0`
+- Android NDK `27.2.12479018` replaced by `27.3.13750724`
+- Android build-tools `35.0.0` removed (`36.0.0` remains)
+- Flutter `3.38.7` added
+- Fastlane upgrade: `2.231.1` -> `2.232.2`
+- Bundletool upgrade: `1.18.1` -> `1.18.3`
+- GitHub CLI upgrade: `2.72.0` -> `2.86.0`
+- Google Cloud CLI upgrade: `519.0.0` -> `555.0.0`
+- AWS CLI upgrade: `2.33.4` -> `2.33.14`
+- Firebase CLI upgrade: `15.3.1` -> `15.5.1`
+- Git upgrade: `2.52.0` -> `2.53.0`
+- yq upgrade: `4.45.4` -> `4.52.2`
+- Java upgrades: OpenJDK 8, 11, 17, 21, 25 patch updates
+- Ubuntu release: `24.04.3 LTS` -> `24.04.4 LTS`
+- Security updates for curl, openssl, libc6, libxml2, and other system packages
+- `file` command is now preinstalled
+
 ### Stack update `v2026-01-22` (released 2026-01-23)
 
 - Android NDK 27.1.12297006 added
