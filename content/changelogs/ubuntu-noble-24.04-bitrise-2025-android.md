@@ -18,7 +18,6 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 - Android platform-tools upgrade: `36.0.2` -> `37.0.0`
 - Android NDK `27.2.12479018` replaced by `27.3.13750724`
 - Android build-tools `35.0.0` removed (`36.0.0` remains)
-- Flutter `3.38.7` added
 - Fastlane upgrade: `2.231.1` -> `2.232.2`
 - Bundletool upgrade: `1.18.1` -> `1.18.3`
 - GitHub CLI upgrade: `2.72.0` -> `2.86.0`
