@@ -16,7 +16,6 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 - Android emulator upgrade: `36.3.10` -> `36.4.9`
 - Android platform-tools upgrade: `36.0.2` -> `37.0.0`
-- Git upgrade: `2.52.0` -> `2.53.0`
 - Java upgrades: OpenJDK 8, 11, 17, 21 patch updates
 - Security updates for curl, openssl, libc6, libxml2, jq, and other system packages
 - `file` command is now preinstalled
