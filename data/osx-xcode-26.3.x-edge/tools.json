@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.33.28",
-          "raw_output": "aws-cli/2.33.28 Python/3.13.12 Darwin/25.2.0 source/arm64",
+          "version": "2.34.5",
+          "raw_output": "aws-cli/2.34.5 Python/3.13.12 Darwin/25.2.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.7.0",
-          "raw_output": "15.7.0",
+          "version": "15.9.1",
+          "raw_output": "15.9.1",
           "executed_command": "firebase --version"
         },
         {
@@ -119,7 +119,7 @@
           "name": "Fastlane",
           "category": "tools",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.232.1/bin/fastlane\n-----------------------------\nfastlane 2.232.1",
+          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.232.2/bin/fastlane\n-----------------------------\nfastlane 2.232.2",
           "executed_command": "fastlane --version"
         }
       ],
