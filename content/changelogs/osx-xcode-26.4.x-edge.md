@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-03-10`
+
+- [Xcode 26.4 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes) (build `17E5179g`)
+- Homebrew package upgrades
+
 ### Stack update `v2026-02-24`
 
 - [Xcode 26.4 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes) (build `17E5170d`)
