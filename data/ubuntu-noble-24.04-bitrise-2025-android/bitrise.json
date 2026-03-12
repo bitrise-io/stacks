@@ -6,15 +6,15 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.36.3",
-          "raw_output": "2.36.3",
+          "version": "2.39.1",
+          "raw_output": "2.39.1",
           "executed_command": "bitrise --version"
         },
         {
           "name": "Bitrise stepman",
           "category": "bitrise",
-          "version": "0.18.4",
-          "raw_output": "0.18.4",
+          "version": "0.18.7",
+          "raw_output": "0.18.7",
           "executed_command": "stepman --version"
         },
         {
