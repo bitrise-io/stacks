@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-03-12`
+
+- Adds iOS 26.3.1 simulator runtime
+- Homebrew package upgrades
+
 ### Stack update `v2026-03-10`
 
 - Homebrew package upgrades
