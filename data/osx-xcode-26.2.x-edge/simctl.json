@@ -3654,7 +3654,7 @@
       "isAvailable" : true,
       "version" : "26.4",
       "isInternal" : false,
-      "buildversion" : "23E5234a",
+      "buildversion" : "23E244",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -4052,8 +4052,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-26-4",
       "platform" : "iOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23E5234a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23E5234a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23E244\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/iOS_23E244\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -4246,7 +4246,7 @@
       "isAvailable" : true,
       "version" : "26.4",
       "isInternal" : false,
-      "buildversion" : "23L5234a",
+      "buildversion" : "23L240",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -4296,8 +4296,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-26-4",
       "platform" : "tvOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23L5234a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23L5234a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23L240\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/tvOS_23L240\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -4811,7 +4811,7 @@
       "isAvailable" : true,
       "version" : "26.4",
       "isInternal" : false,
-      "buildversion" : "23T5236a",
+      "buildversion" : "23T239",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -4933,8 +4933,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-26-4",
       "platform" : "watchOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23T5236a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23T5236a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23T239\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/watchOS_23T239\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -5019,7 +5019,7 @@
       "isAvailable" : true,
       "version" : "26.4",
       "isInternal" : false,
-      "buildversion" : "23O5235a",
+      "buildversion" : "23O243",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -5033,8 +5033,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-4",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O5235a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.4.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O5235a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O243\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.4.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O243\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.4.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -6364,6 +6364,19 @@
     ]
   },
   "pairs" : {
+    "720BE422-0608-4D71-9DEF-99A8CD499554" : {
+      "watch" : {
+        "name" : "Apple Watch Series 11 (42mm)",
+        "udid" : "134D5864-6D07-48C1-B22B-4DB16AF2515E",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone Air",
+        "udid" : "EF3EDE46-02DE-446A-A2EB-DE22E4B1383A",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "7CAA2307-EA49-4D37-BA6D-FDBC0039E4DD" : {
       "watch" : {
         "name" : "Apple Watch SE 3 (44mm)",
@@ -6373,19 +6386,6 @@
       "phone" : {
         "name" : "Bitrise iOS default",
         "udid" : "216D8022-CF69-476F-9D7B-48FAB935F85D",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "EE9EE062-F3D4-4021-BF92-0BAF6024ED95" : {
-      "watch" : {
-        "name" : "Apple Watch Series 11 (46mm)",
-        "udid" : "0B05E1B4-D7EF-4D20-9925-7152E99B9B1E",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "Bitrise iOS default",
-        "udid" : "01A77D23-CDB5-4CD2-9BC3-FF0539CD5AB7",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6403,15 +6403,15 @@
       },
       "state" : "(active, disconnected)"
     },
-    "57567BA9-7D49-48D6-ACD7-195A2F64EFE1" : {
+    "EE9EE062-F3D4-4021-BF92-0BAF6024ED95" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (46mm)",
-        "udid" : "A501D2AF-4D58-4ED1-BB7C-D7A277A3B9AE",
+        "udid" : "0B05E1B4-D7EF-4D20-9925-7152E99B9B1E",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone 17 Pro Max",
-        "udid" : "5ED078E7-0F28-4437-A0D4-01A906141FE5",
+        "name" : "Bitrise iOS default",
+        "udid" : "01A77D23-CDB5-4CD2-9BC3-FF0539CD5AB7",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6429,6 +6429,19 @@
       },
       "state" : "(active, disconnected)"
     },
+    "D61D4BA4-46D0-4D0A-8B76-1C98BDE1CAD6" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 3 (49mm)",
+        "udid" : "7167DBFF-C906-4764-B0B5-23B9F55B0E5C",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17",
+        "udid" : "862D0E1C-E776-4863-97C3-0F0D5812D45F",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
     "52775858-C3FA-43E0-A813-09AFA42AF9C3" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (46mm)",
@@ -6438,6 +6451,19 @@
       "phone" : {
         "name" : "iPhone 17 Pro Max",
         "udid" : "8A89B781-02CA-4BA5-919A-6C95C5069B46",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "981DC84E-B9E5-4FB6-860F-6FB543239686" : {
+      "watch" : {
+        "name" : "Apple Watch Series 11 (46mm)",
+        "udid" : "A501D2AF-4D58-4ED1-BB7C-D7A277A3B9AE",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17 Pro Max",
+        "udid" : "5ED078E7-0F28-4437-A0D4-01A906141FE5",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -6464,32 +6490,6 @@
       "phone" : {
         "name" : "Bitrise iOS default",
         "udid" : "669FD444-C31C-4CA4-882E-856EFAAED99A",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "CCC4CCE6-DC29-4423-AF05-4448FC08303D" : {
-      "watch" : {
-        "name" : "Apple Watch Series 11 (42mm)",
-        "udid" : "134D5864-6D07-48C1-B22B-4DB16AF2515E",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone Air",
-        "udid" : "EF3EDE46-02DE-446A-A2EB-DE22E4B1383A",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "DDD7D3A9-E55D-4782-93B2-5F41E5AFDF55" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 3 (49mm)",
-        "udid" : "7167DBFF-C906-4764-B0B5-23B9F55B0E5C",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 17",
-        "udid" : "862D0E1C-E776-4863-97C3-0F0D5812D45F",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
