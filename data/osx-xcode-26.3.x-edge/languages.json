@@ -69,8 +69,8 @@
         {
           "name": "Kotlin",
           "category": "languages",
-          "version": "2.3.10",
-          "raw_output": "Kotlin version 2.3.10-release-465 (JRE 17.0.18+8)",
+          "version": "2.3.20",
+          "raw_output": "Kotlin version 2.3.20-release-208 (JRE 17.0.18+8)",
           "executed_command": "kotlin -version"
         }
       ],
