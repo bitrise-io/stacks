@@ -13,12 +13,12 @@
       ],
       "errors": [
         {
-          "name": "Bitrise stepman",
-          "error": "exit status 127: /bin/bash: line 1: stepman: command not found\n"
-        },
-        {
           "name": "Bitrise envman",
           "error": "exit status 127: /bin/bash: line 1: envman: command not found\n"
+        },
+        {
+          "name": "Bitrise stepman",
+          "error": "exit status 127: /bin/bash: line 1: stepman: command not found\n"
         }
       ]
     }
