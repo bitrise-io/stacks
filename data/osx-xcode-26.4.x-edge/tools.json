@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.34.7",
-          "raw_output": "aws-cli/2.34.7 Python/3.13.12 Darwin/25.2.0 source/arm64",
+          "version": "2.34.11",
+          "raw_output": "aws-cli/2.34.11 Python/3.13.12 Darwin/25.2.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,15 +69,15 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.9.1",
-          "raw_output": "15.9.1",
+          "version": "15.10.1",
+          "raw_output": "15.10.1",
           "executed_command": "firebase --version"
         },
         {
           "name": "OpenConnect",
           "category": "tools",
           "version": "9.12",
-          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.11. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
+          "raw_output": "OpenConnect version v9.12-unknown\nUsing GnuTLS 3.8.12. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP\nSupported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array\nDefault vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script",
           "executed_command": "openconnect --version"
         },
         {
