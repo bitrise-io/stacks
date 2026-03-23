@@ -6,8 +6,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.34.14",
-          "raw_output": "aws-cli/2.34.14 Python/3.14.3 Linux/5.15.0-164-generic exe/x86_64.ubuntu.22",
+          "version": "2.34.15",
+          "raw_output": "aws-cli/2.34.15 Python/3.14.3 Linux/5.15.0-164-generic exe/x86_64.ubuntu.22",
           "executed_command": "aws --version"
         },
         {
