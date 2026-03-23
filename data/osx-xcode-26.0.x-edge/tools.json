@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.34.11",
-          "raw_output": "aws-cli/2.34.11 Python/3.13.12 Darwin/25.2.0 source/arm64",
+          "version": "2.34.12",
+          "raw_output": "aws-cli/2.34.12 Python/3.13.12 Darwin/25.3.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.10.1",
-          "raw_output": "15.10.1",
+          "version": "15.11.0",
+          "raw_output": "15.11.0",
           "executed_command": "firebase --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.2.3",
-          "raw_output": "cmake version 4.2.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.3.0",
+          "raw_output": "cmake version 4.3.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
