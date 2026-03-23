@@ -6,26 +6,21 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.36.3",
-          "raw_output": "2.36.3",
+          "version": "2.37.0",
+          "raw_output": "2.37.0",
           "executed_command": "bitrise --version"
+        }
+      ],
+      "errors": [
+        {
+          "name": "Bitrise envman",
+          "error": "exit status 127: /bin/bash: line 1: envman: command not found\n"
         },
         {
           "name": "Bitrise stepman",
-          "category": "bitrise",
-          "version": "0.18.4",
-          "raw_output": "0.18.4",
-          "executed_command": "stepman --version"
-        },
-        {
-          "name": "Bitrise envman",
-          "category": "bitrise",
-          "version": "2.5.5",
-          "raw_output": "2.5.5",
-          "executed_command": "envman --version"
+          "error": "exit status 127: /bin/bash: line 1: stepman: command not found\n"
         }
-      ],
-      "errors": null
+      ]
     }
   }
 ]
