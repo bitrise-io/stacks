@@ -14,7 +14,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/4ab058bc1c53034b8c0a9baca6fba2d2b78bb965.asset/AssetData\nBuild Version: 17A324\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.1.324.0.ZEYAOw",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/4ab058bc1c53034b8c0a9baca6fba2d2b78bb965.asset/AssetData\nBuild Version: 17A324\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.1.324.0.U2Z58X",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -63,7 +63,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 4.6.19\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 8f6719274133c5bcc24c058c5a6bcbb3b0cd48b3\nLast commit: 6 weeks ago\nBranch: stable\nCore tap JSON: 28 Oct 15:13 UTC\nCore cask tap JSON: 28 Oct 15:13 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_FORBID_PACKAGES_FROM_PATHS: set\nHOMEBREW_MAKE_JOBS: 10\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.5 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/bin/ruby\nCPU: deca-core 64-bit arm_donan\nClang: 17.0.0 build 1700\nGit: 2.51.2 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.6.1-arm64\nCLT: 16.4.0.0.1.1747106510\nXcode: 26.0.1 =\u003e /Applications/Xcode-26.0.1.app/Contents/Developer\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 4.6.19\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 8f6719274133c5bcc24c058c5a6bcbb3b0cd48b3\nLast commit: 7 weeks ago\nBranch: stable\nCore tap JSON: 28 Oct 15:13 UTC\nCore cask tap JSON: 28 Oct 15:13 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_FORBID_PACKAGES_FROM_PATHS: set\nHOMEBREW_MAKE_JOBS: 10\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 3.4.5 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.5/bin/ruby\nCPU: deca-core 64-bit arm_donan\nClang: 17.0.0 build 1700\nGit: 2.51.2 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 15.6.1-arm64\nCLT: 16.4.0.0.1.1747106510\nXcode: 26.0.1 =\u003e /Applications/Xcode-26.0.1.app/Contents/Developer\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
