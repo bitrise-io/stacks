@@ -16,4 +16,4 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-03-31`
 
-Initial stack release with [Xcode 26.5 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes) (build `17F5012f`)
+Initial stack release with [Xcode 26.5 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes) (build `17F5012f`) on macOS 26.4 (25E246)

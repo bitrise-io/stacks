@@ -16,6 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-03-31`
 
+- macOS upgrade: `26.2 (25C56)` -> `26.4 (25E246)`
 - Homebrew package upgrades
 
 ### Stack update `v2026-03-18`
