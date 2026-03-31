@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.88.1",
-          "raw_output": "gh version 2.88.1 (2026-03-12)\nhttps://github.com/cli/cli/releases/tag/v2.88.1",
+          "version": "2.89.0",
+          "raw_output": "gh version 2.89.0 (2026-03-26)\nhttps://github.com/cli/cli/releases/tag/v2.89.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,15 +34,15 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.52.4",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.52.4",
+          "version": "4.52.5",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.52.5",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.34.11",
-          "raw_output": "aws-cli/2.34.11 Python/3.13.12 Darwin/25.2.0 source/arm64",
+          "version": "2.34.20",
+          "raw_output": "aws-cli/2.34.20 Python/3.14.3 Darwin/25.4.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.10.1",
-          "raw_output": "15.10.1",
+          "version": "15.12.0",
+          "raw_output": "15.12.0",
           "executed_command": "firebase --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.2.3",
-          "raw_output": "cmake version 4.2.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.3.1",
+          "raw_output": "cmake version 4.3.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
