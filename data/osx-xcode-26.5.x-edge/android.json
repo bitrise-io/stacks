@@ -1,0 +1,24 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "36.3.10",
+          "raw_output": "Pkg.Revision=36.3.10",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "bundletool",
+          "category": "android",
+          "version": "1.18.3",
+          "raw_output": "1.18.3",
+          "executed_command": "bundletool version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
