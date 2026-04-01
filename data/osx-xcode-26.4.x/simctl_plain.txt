@@ -124,12 +124,27 @@ Apple Vision Pro (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro-4K)
 Apple Vision Pro (at 2732x2048) (com.apple.CoreSimulator.SimDeviceType.Apple-Vision-Pro)
 iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7th-generation-)
 == Runtimes ==
+iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.3 (26.3.1 - 23D8133) - com.apple.CoreSimulator.SimRuntime.iOS-26-3
 iOS 26.4 (26.4 - 23E244) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
 tvOS 26.4 (26.4 - 23L243) - com.apple.CoreSimulator.SimRuntime.tvOS-26-4
+watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
 watchOS 26.4 (26.4 - 23T239) - com.apple.CoreSimulator.SimRuntime.watchOS-26-4
 visionOS 26.4 (26.4 - 23O243) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
 == Devices ==
+-- iOS 18.6 --
+    iPhone 16 Pro (B33965B6-B440-405E-93B4-712627F0FC18) (Shutdown) 
+    iPhone 16 Pro Max (F840DD89-FFD8-4F9F-9796-6516F938861E) (Shutdown) 
+    iPhone 16e (A4CB0ABE-29AC-46FA-A081-B2950FB43B7C) (Shutdown) 
+    iPhone 16 (73A333B9-0381-443E-9E1A-38D5AEBE8E71) (Shutdown) 
+    iPhone 16 Plus (2B1547C1-B3DB-491D-B970-799FADD5AA48) (Shutdown) 
+    Bitrise iOS default (E3A01FEB-7458-4DD6-A12D-16C73B74476F) (Shutdown) 
+    iPad Pro 11-inch (M4) (59A6B24F-AEFF-4425-A257-8AEB91F56093) (Shutdown) 
+    iPad Pro 13-inch (M4) (BC631DD4-9A4B-46B4-BA6C-23769E286625) (Shutdown) 
+    iPad mini (A17 Pro) (BF3AC620-B5CF-4A0F-88D5-0C89223A00B5) (Shutdown) 
+    iPad (A16) (974CC746-A149-424F-8A5F-F72E42BCD78B) (Shutdown) 
+    iPad Air 13-inch (M3) (0BCEF5CC-B5C4-4C52-8B29-38654B30C986) (Shutdown) 
+    iPad Air 11-inch (M3) (6449FB0D-76AE-405F-B1B8-D8E85B92F9DF) (Shutdown) 
 -- iOS 26.3 --
     iPhone 17 Pro (AE31099D-DF2B-4C57-9773-B59E027894F3) (Shutdown) 
     iPhone 17 Pro Max (97883069-F8D3-4924-987D-E8265F0C7F90) (Shutdown) 
@@ -160,6 +175,12 @@ visionOS 26.4 (26.4 - 23O243) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
     Apple TV 4K (3rd generation) (731D8F71-3FAA-4230-BA5F-5D10070F475D) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (F30B0261-4071-4601-931D-9E539555D2D8) (Shutdown) 
     Apple TV (27DF6B67-2B6D-4890-AA6F-6527C27CAAD0) (Shutdown) 
+-- watchOS 11.5 --
+    Apple Watch Series 10 (46mm) (C4BC16EF-78EE-4B34-9D29-344F906F575E) (Shutdown) 
+    Apple Watch Series 10 (42mm) (CCD9BB69-0CA0-4EAA-BAE1-32668FD26BDE) (Shutdown) 
+    Apple Watch Ultra 2 (49mm) (57E03CF6-1C7A-4DB8-90D3-71E3431B7EE3) (Shutdown) 
+    Apple Watch SE (44mm) (2nd generation) (83B00122-F2B7-4466-BCFD-75ABC1833C8E) (Shutdown) 
+    Apple Watch SE (40mm) (2nd generation) (A7F494C1-4F97-4D08-9191-8FD2F6D6EA28) (Shutdown) 
 -- watchOS 26.4 --
     Apple Watch Series 11 (46mm) (E8632FDB-AC1D-4C47-B3A7-E88C0296D961) (Shutdown) 
     Apple Watch Series 11 (42mm) (1ED33587-3C04-4E1A-BD1A-BCFB4804EFDC) (Shutdown) 
