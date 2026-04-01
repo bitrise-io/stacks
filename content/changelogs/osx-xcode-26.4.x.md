@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2025-04-01`
+
+- Added iOS 18.6 and watchOS 11.5 simulator runtimes
+- Homebrew `5.1.1` -> `5.1.3`
+
 ### Stack update `v2025-03-25`
 
 Initial stack release with [Xcode 26.4](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes) (build `17E192`) on macOS 26.2
