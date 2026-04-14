@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Notice `v2026-04-13`
+
+We've released the [Create Simulator Device Pair Step](https://bitrise.io/integrations/steps/xcode-create-device-pair) to give teams fine-grained control over simulator configuration. It solves the inconsistent default pair behavior that started with Xcode 26.4.
+
 ### Stack update `v2026-03-31`
 
 Initial stack release with [Xcode 26.5 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes) (build `17F5012f`) on macOS 26.4 (25E246)
