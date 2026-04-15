@@ -15,7 +15,7 @@ Installed tool versions are listed in the stack reports ([example]({{< ref "/sta
 
 Declare required tools and versions in the `tools` property at the top level of your `bitrise.yml`. Bitrise resolves and activates them automatically before the first workflow step runs.
 
-Supported tools include Ruby, Go, Python, Node.js, Java, Flutter, and Tuist. Versions can be specified exactly (`3.2.0`), partially (`3.2:installed`, `3.2:latest`), or with the `latest` and `installed` aliases. Tools can also be overridden or unset per workflow.
+Supported tools include Ruby, Go, Python, Node.js, Java, Flutter, Tuist, and many more. Versions can be specified exactly (`3.2.0`), partially (`3.2:installed`, `3.2:latest`), or with the `latest` and `installed` aliases. Tools can also be overridden or unset per workflow.
 
 ```yaml
 tools:
