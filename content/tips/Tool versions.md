@@ -3,67 +3,67 @@ title: Defining tool versions for reliable builds
 type: basic_page
 ---
 
-Multiple versions are installed of tools like Ruby, Node.js and Go on the stacks side-by-side. Since most projects depend on a specific version (implicitly or explicitly), it's a good idea to declare the required version in workflows instead of relying on the default version available in `$PATH`.
+Bitrise stacks are shared environments: they come with a curated set of common tools and versions preinstalled, but every project has its own requirements. Just like pinning dependency versions in a lockfile, explicitly declaring which tool versions your build needs makes it reproducible and protects it from unexpected breakage when the stack is updated or when you switch to a newer stack.
 
-{{< hint info >}}
-Installed tool versions are listed in the stack reports ([example]({{< ref "/stack_reports/osx-xcode-26.0.x.md" >}}))
-{{< /hint >}}
+Multiple versions of tools like Ruby, Node.js, Go, and Python are installed side-by-side on Bitrise stacks, so declaring the required version activates the right one rather than relying on whatever happens to be the default.
 
-Bitrise helps selecting the right tool version in three ways:
+Bitrise has [a native tool version setup feature](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html) that provides the smoothest experience: you can configure tools either in YML, CLI or a step form, and Bitrise makes sure that tool installs are fast and reliable. If you prefer, you can also bring your own version manager of choice (mise, rvm, nvm, etc.) and manage versions yourself.
 
-1. Common configuration options like the `.ruby-version` file or the `$NODE_VERSION` environment variable are automatically recognized during the build. The version declared with these options is automatically activated (if available installed). This is implemented with the [asdf](https://asdf-vm.com/) project.
-2. Additional versions can be installed at runtime with a single command like `asdf install ruby 3.2.0`
-3. Some Bitrise steps that depend on a tool - such as the Cocoapods or Fastlane steps - install the declared version automatically (if not available)
+Installed tool versions are listed in the stack reports ([example]({{< ref "/stack_reports/osx-xcode-26.0.x.md" >}})).
 
-### How to declare tool versions
-The best way to declare the specific tool version is via version files like `.ruby-version`, `.node-version`, `.tool-versions`, etc. By storing this information in the project repository, every developer's local environment can match the CI environment by using a version manager (we recommend [asdf](https://asdf-vm.com/), which handles the most common tools in one version manager).
+### Native declarative setup (recommended)
 
-The following version files are automatically recognized in the latest Ubuntu stack, as well as all macOS stacks:
+Declare required tools and versions in the `tools` property at the top level of your `bitrise.yml`. Bitrise resolves and activates them automatically before the first workflow step runs.
 
-- `.tool-versions` ([learn more](https://asdf-vm.com/manage/configuration.html#tool-versions))
-- `.ruby-version`
-- `.node-version`
-- `.nvmrc`
-- `.go-version`
+Supported tools include Ruby, Go, Python, Node.js, Java, Flutter, Tuist, and many more. Versions can be specified exactly (`3.2.0`), partially (`3.2:installed`, `3.2:latest`), or with the `latest` and `installed` aliases. Tools can also be overridden or unset per workflow.
 
-On both Linux and macOS, the global `.tool-versions` file exists in the home directory. This defines the global tool defaults that can be overridden by placing a local version of the file in the root of the repository. Commands executed in the repository's directory or its subfolders will see the declared tool version in `$PATH`.
+```yaml
+tools:
+  nodejs: 22:latest
+  ruby: 3.3:installed
+  golang: 1.24.5
 
-{{< hint warning >}}
-Please note that the Ubuntu 20 stack doesn't enable asdf's `legacy_version_file` configuration option which means that it doesn't read `.ruby-version`, `.node-version`, `.nvmrc`, and `.go-version` files. We strongly recommend using the [Ubuntu 22 stack](https://stacks.bitrise.io/announcements/ubuntu-22/) instead.
-{{< /hint >}}
-
-Changing a version at runtime is also possible via the asdf CLI tool, for example:
-
-```sh
-asdf local ruby 3.2
-asdf local nodejs 18.16
+workflows:
+  test-latest-node:
+    tools:
+      nodejs: "24.7.0"   # override for this workflow only
 ```
 
-### asdf plugins
+[Full documentation on declarative tool setup →](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html#declarative-tool-setup)
 
-If an installed runtime is managed via asdf on our stacks, its corresponding plugin is also installed. The following runtime plugins are available on the different stacks:
+### Installing tools at runtime
 
-* Ubuntu 20: Python, Ruby, Node.js
-* Ubuntu 22: Python, Ruby, Node.js, Go, Flutter
-* macOS: Ruby, Node.js, Go
+As an alternative to the declarative setup, tools can also be activated during workflow execution using the `bitrise tools setup` CLI subcommand or the **Dependency Installer** Step. This is particularly useful when tool versions are defined in committed version files, since the declarative setup runs before the Git Clone step.
 
-In addition, the [asdf alias plugin](https://github.com/andrewthauer/asdf-alias) is installed on all stacks. 
+Via the CLI in a Script step:
 
-### Version aliases
-Not every possible tool version is preinstalled on the stacks, but there are special alias versions defined for every `major` and `major.minor` version. These aliases always point to the latest installed patch version and can be used like full version numbers.
-For example, declaring Ruby `3.2` selects one preinstalled Ruby version, the latest available patch version of `3.2.x`.
-
-{{< hint warning >}}
-Because patch versions are sometimes upgraded (replaced in-place) on Bitrise stacks for critical bugfixes, we recommend declaring one of the alias versions (`major` or `major.minor`) in your project.
-The implementation of version aliases is based on the [asdf alias plugin](https://github.com/andrewthauer/asdf-alias), which you can set up in the local environment too.
-{{< /hint >}}
-
-### Debugging version selection issues
-To see what are the currently selected tool versions and why, run `asdf current` in a script step:
-
+```bash
+eval "$(bitrise tools install nodejs 22:latest --format bash)"
 ```
-golang          1.20            /Users/vagrant/.tool-versions
-nodejs          18              /Users/vagrant/workspace/.node-version
-ruby            3.2             /Users/vagrant/.tool-versions
+
+Or via the Dependency Installer Step:
+
+```yaml
+steps:
+  - git-clone@8: {}
+  - dependency-installer@1:
+      inputs:
+        - tool_version_file: ".tool-versions"
 ```
-This shows that Go and Ruby versions are coming from the global `.tool-versions` file in the user home, while the Node.js version is coming from the current folder's `.node-version` file.
+
+[Full documentation on runtime tool setup →](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html#tool-setup-during-workflow-execution)
+
+### Version files
+
+The `bitrise tools setup` CLI command can be called in a Script step to activate tools and their versions for the current workflow session. When called from the repository root, version files like `.ruby-version`, `.node-version`, `.nvmrc`, `.tool-versions`, and `.go-version` are automatically detected and respected. This is useful for keeping local dev environments in sync with CI without duplicating version declarations.
+
+```bash
+# .tool-versions
+nodejs 22.1.0
+ruby 3.3.0
+golang 1.24.5
+```
+
+```bash
+eval "$(bitrise tools setup --config .tool-versions --format bash)"
+```
