@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-04-17`
+
+- [Xcode 26.4.1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4_1-release-notes) (build `17E202`)
+- `expat` Homebrew package was installed to fix `pipx install` failures caused by a missing symbol in the system `libexpat`
+
 ### Notice `v2026-04-13`
 
 We've released the [Create Simulator Device Pair Step](https://bitrise.io/integrations/steps/xcode-create-device-pair) to give teams fine-grained control over simulator configuration. It solves the inconsistent default pair behavior that started with Xcode 26.4.
