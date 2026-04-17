@@ -23,6 +23,7 @@ danger-swift 3.22.1
 dav1d 1.5.3
 double-conversion 3.4.0
 edencommon 2026.03.16.00
+expat 2.7.5
 fb303 2026.03.16.00
 fbthrift 2026.03.16.00
 firebase-cli 15.11.0
