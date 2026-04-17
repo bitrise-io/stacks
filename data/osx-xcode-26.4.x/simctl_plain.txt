@@ -126,11 +126,11 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 == Runtimes ==
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.3 (26.3.1 - 23D8133) - com.apple.CoreSimulator.SimRuntime.iOS-26-3
-iOS 26.4 (26.4 - 23E244) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
-tvOS 26.4 (26.4 - 23L243) - com.apple.CoreSimulator.SimRuntime.tvOS-26-4
+iOS 26.4 (26.4.1 - 23E254a) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
+tvOS 26.4 (26.4 - 23L243a) - com.apple.CoreSimulator.SimRuntime.tvOS-26-4
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
-watchOS 26.4 (26.4 - 23T239) - com.apple.CoreSimulator.SimRuntime.watchOS-26-4
-visionOS 26.4 (26.4 - 23O243) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
+watchOS 26.4 (26.4 - 23T240b) - com.apple.CoreSimulator.SimRuntime.watchOS-26-4
+visionOS 26.4 (26.4.1 - 23O249a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
 == Devices ==
 -- iOS 18.6 --
     iPhone 16 Pro (B33965B6-B440-405E-93B4-712627F0FC18) (Shutdown) 
@@ -190,6 +190,9 @@ visionOS 26.4 (26.4 - 23O243) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
 -- visionOS 26.4 --
     Apple Vision Pro (7D410475-07C1-4A5C-8311-BD91E7F6F10C) (Shutdown) 
 == Device Pairs ==
+4DB7EACB-CFC0-412A-A0B2-4D3FC43A0BBE (active, disconnected)
+    Watch: Apple Watch SE (44mm) (2nd generation) (83B00122-F2B7-4466-BCFD-75ABC1833C8E) (Shutdown)
+    Phone: Bitrise iOS default (E3A01FEB-7458-4DD6-A12D-16C73B74476F) (Shutdown)
 F33AA79A-57D6-410F-B25A-2200FE93CEE1 (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (E8632FDB-AC1D-4C47-B3A7-E88C0296D961) (Shutdown)
     Phone: iPhone 17 Pro Max (762C7EE4-AA15-441B-9160-AEE8462E36AB) (Shutdown)
