@@ -4,25 +4,18 @@
     "output": {
       "items": [
         {
-          "name": "Ruby versions",
+          "name": "Flutter version aliases",
           "category": "languages",
           "version": "",
-          "raw_output": "3\n  3.3\n  3.3.10\n *3.4\n  3.4.8\n  4\n  4.0\n  4.0.1",
-          "executed_command": "asdf list ruby"
+          "raw_output": "3 =\u003e 3.38.7-stable\n3.38 =\u003e 3.38.7-stable\n3.38.7 =\u003e 3.38.7-stable",
+          "executed_command": "asdf alias flutter --list"
         },
         {
-          "name": "Ruby version aliases",
+          "name": "Flutter versions",
           "category": "languages",
           "version": "",
-          "raw_output": "3 =\u003e 3.4.8\n3.3 =\u003e 3.3.10\n3.4 =\u003e 3.4.8\n4 =\u003e 4.0.1\n4.0 =\u003e 4.0.1",
-          "executed_command": "asdf alias ruby --list"
-        },
-        {
-          "name": "Go versions",
-          "category": "languages",
-          "version": "",
-          "raw_output": "1\n  1.24\n  1.24.12\n *1.25\n  1.25.6",
-          "executed_command": "asdf list golang"
+          "raw_output": "3\n *3.38\n  3.38.7\n  3.38.7-stable",
+          "executed_command": "asdf list flutter"
         },
         {
           "name": "Go version aliases",
@@ -32,18 +25,11 @@
           "executed_command": "asdf alias golang --list"
         },
         {
-          "name": "Node.js versions",
+          "name": "Go versions",
           "category": "languages",
-          "version": "22.22",
-          "raw_output": "22\n  22.22\n  22.22.0\n *24\n  24.13\n  24.13.0\n  lts",
-          "executed_command": "asdf list nodejs"
-        },
-        {
-          "name": "Node.js version aliases",
-          "category": "languages",
-          "version": "22.22.0",
-          "raw_output": "22 =\u003e 22.22.0\n22.22 =\u003e 22.22.0\n24 =\u003e 24.13.0\n24.13 =\u003e 24.13.0\nlts =\u003e 22",
-          "executed_command": "asdf alias nodejs --list"
+          "version": "",
+          "raw_output": "1\n  1.24\n  1.24.12\n *1.25\n  1.25.6",
+          "executed_command": "asdf list golang"
         },
         {
           "name": "Java versions",
@@ -53,11 +39,25 @@
           "executed_command": "update-alternatives --query java | sed -n '/Alternative:/p' | grep -Eo 'java-[0-9]+-openjdk' | awk -v current=\"$(update-alternatives --query java | awk '/Value:/{print $2}' | grep -Eo 'java-[0-9]+-openjdk')\" 'BEGIN{OFS=\"  \"} {if ($0 == current) {print \"*\" $0} else {print \" \" $0}}'"
         },
         {
-          "name": "Python versions",
+          "name": "Kotlin",
           "category": "languages",
-          "version": "",
-          "raw_output": "3\n  3.13\n  3.13.11\n  3.14\n  3.14.2",
-          "executed_command": "asdf list python"
+          "version": "2.3.0",
+          "raw_output": "Kotlin version 2.3.0-release-356 (JRE 17.0.18+8-Ubuntu-124.04.1)",
+          "executed_command": "kotlin -version"
+        },
+        {
+          "name": "Node.js version aliases",
+          "category": "languages",
+          "version": "22.22.0",
+          "raw_output": "22 =\u003e 22.22.0\n22.22 =\u003e 22.22.0\n24 =\u003e 24.13.0\n24.13 =\u003e 24.13.0\nlts =\u003e 22",
+          "executed_command": "asdf alias nodejs --list"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "22.22",
+          "raw_output": "22\n  22.22\n  22.22.0\n *24\n  24.13\n  24.13.0\n  lts",
+          "executed_command": "asdf list nodejs"
         },
         {
           "name": "Python version aliases",
@@ -67,11 +67,25 @@
           "executed_command": "asdf alias python --list"
         },
         {
-          "name": "Kotlin",
+          "name": "Python versions",
           "category": "languages",
-          "version": "2.3.0",
-          "raw_output": "Kotlin version 2.3.0-release-356 (JRE 17.0.17+10-Ubuntu-124.04)",
-          "executed_command": "kotlin -version"
+          "version": "",
+          "raw_output": "3\n  3.13\n  3.13.11\n  3.14\n  3.14.2",
+          "executed_command": "asdf list python"
+        },
+        {
+          "name": "Ruby version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.4.8\n3.3 =\u003e 3.3.10\n3.4 =\u003e 3.4.8\n4 =\u003e 4.0.1\n4.0 =\u003e 4.0.1",
+          "executed_command": "asdf alias ruby --list"
+        },
+        {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3\n  3.3\n  3.3.10\n *3.4\n  3.4.8\n  4\n  4.0\n  4.0.1",
+          "executed_command": "asdf list ruby"
         }
       ],
       "errors": null
