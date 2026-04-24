@@ -4,25 +4,25 @@
     "output": {
       "items": [
         {
+          "name": "Bundletool",
+          "category": "android",
+          "version": "1.18.3",
+          "raw_output": "1.18.3",
+          "executed_command": "bundletool version"
+        },
+        {
           "name": "Emulator version",
           "category": "android",
-          "version": "36.3.10",
-          "raw_output": "Pkg.Revision=36.3.10",
+          "version": "36.5.10",
+          "raw_output": "Pkg.Revision=36.5.10",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Fastlane",
           "category": "android",
           "version": "3.4.8",
-          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.231.1/bin/fastlane\n-----------------------------\nfastlane 2.231.1",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.232.2/bin/fastlane\n-----------------------------\nfastlane 2.232.2\n\n#######################################################################\n# fastlane 2.233.0 is available. You are on 2.232.2.\n# You should use the latest version.\n# Please update using `gem install fastlane`.\n#######################################################################\n\n\u001b[32m2.233.0 Improvements\u001b[0m\n* [scan] Fix default_os_version when xcodebuild sdkVersion differs from simctl sdkVersion (#29977) via Felix Lisczyk (@FelixLisczyk)\n* [core] build: move to fastlane-sirp 1.1.0 (#29973) via Connor Tumbleson (@iBotPeaches)\n* fix: use certificate id param on match (#29966) via James Collins (@java-james)\n* [action][swiftlint] Adds '--progress' flag (#21922) via Erik Lippmann (@ObjectiveCesar)\n* [sigh, match] Pass keychain_path through Sigh::Manager to ProvisioningProfile (#29963) via Dmitry Pchelintsev (@Pchol)\n* Support individual api tokens in altool (#29961) via Oliver Fox (@foxware00)\n* [spaceship] Fix getting App Preview Sets with new endpoint (#29960) via Cristian Caruceru (@ccaruceru)\n* [frameit] Change the default iPhone 14 Pro/Pro Max frame colors from `PURPLE` to `BLACK`. (#21927) via Michael Lenaghan (@michaellenaghan)\n* [gym] Add app_name parameter to skip xcodebuild -showBuildSettings (#29953) via 정고은 (@Goeun1001)\n* [deliver, pilot] Add provider_public_id option for altool uploads (#29898) via Hasancan Akgündüz (@hasancanakgunduz)\n* [sigh] add: introduce ability to control codesign page_size (#29952) via Aliaksei Siauko (@asevko)\n* build: assert bin/* contents in built gem to prevent global pollution. (#29915) via Connor Tumbleson (@iBotPeaches)\n* [match] feat(s3_storage): add support for AWS STS credentials (#22139) via monholm (@monholm)\n* [deliver] Initial App Preview (video) upload support for iPhone and iPad (#29831) via Cristian Caruceru (@ccaruceru)\n* [scan] output_remove_retry_attempts should also remove retries when the test is skipped (#29887) via Oliver Fox (@foxware00)\n* [precheck] add 'nsfw' as blocklisted term (#29937) via Jamie (@jtlthe2)\n* [scan] Fix simulator selection when runtime build is missing from installed runtimes (#29894) via Felix Lisczyk (@FelixLisczyk)\n* [gem] move to faraday-retry 1.0.4 (#29944) via Connor Tumbleson (@iBotPeaches)\n* [precheck] document `rules/rules_data/curse_word_hashes` (#29941) via Jamie (@jtlthe2)\n* Add RSpec tests for resign.sh bash functions (#29934) via Sergei Selivanov (@cergfix)\n* build(deps): bump actions/download-artifact from 7 to 8 (#29930) via dependabot[bot] (@dependabot[bot])\n* build(deps): bump actions/upload-artifact from 6 to 7 (#29931) via dependabot[bot] (@dependabot[bot])\n* [ci] remove AppVeyor for Windows tests on GitHub Actions (#29876) via Connor Tumbleson (@iBotPeaches)\n\n\u001b[32mPlease update using `gem install fastlane`\u001b[0m",
           "executed_command": "fastlane --version"
-        },
-        {
-          "name": "Bundletool",
-          "category": "android",
-          "version": "1.18.1",
-          "raw_output": "1.18.1",
-          "executed_command": "bundletool version"
         }
       ],
       "errors": null
