@@ -4,20 +4,6 @@
     "output": {
       "items": [
         {
-          "name": "Linux release",
-          "category": "os",
-          "version": "",
-          "raw_output": "No LSB modules are available.\nDistributor ID:\tUbuntu\nDescription:\tUbuntu 22.04.5 LTS\nRelease:\t22.04\nCodename:\tjammy",
-          "executed_command": "lsb_release --all"
-        },
-        {
-          "name": "Linux kernel version",
-          "category": "os",
-          "version": "5.15.0",
-          "raw_output": "5.15.0-138-generic",
-          "executed_command": "uname -r"
-        },
-        {
           "name": "APT repositories",
           "category": "os",
           "version": "",
@@ -28,14 +14,28 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       267G  135G  132G  51% /bitrise",
-          "executed_command": "df -kh /bitrise/src"
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       285G  146G  140G  51% /bitrise",
+          "executed_command": "df -kH /bitrise/src"
+        },
+        {
+          "name": "Linux kernel version",
+          "category": "os",
+          "version": "6.8.0",
+          "raw_output": "6.8.0-106-generic",
+          "executed_command": "uname -r"
+        },
+        {
+          "name": "Linux release",
+          "category": "os",
+          "version": "",
+          "raw_output": "No LSB modules are available.\nDistributor ID:\tUbuntu\nDescription:\tUbuntu 22.04.5 LTS\nRelease:\t22.04\nCodename:\tjammy",
+          "executed_command": "lsb_release --all"
         },
         {
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.13, OpenSSL 3.0.2 15 Mar 2022",
+          "raw_output": "OpenSSH_8.9p1 Ubuntu-3ubuntu0.14, OpenSSL 3.0.2 15 Mar 2022",
           "executed_command": "ssh -V"
         }
       ],
