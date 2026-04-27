@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-04-27`
+
+- Added iOS 17.5 simulator runtime, resolving the known limitation from the initial release
+- Fixed process spawning slowdown introduced by the `expat` workaround in the previous stack update
+
 ### Stack update `v2026-04-17`
 
 - [Xcode 26.4.1](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4_1-release-notes) (build `17E202`)
