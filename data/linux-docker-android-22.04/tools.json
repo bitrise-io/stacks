@@ -98,7 +98,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-22-android:latest - 50GB\nbitriseio/ubuntu-22-android:pinned - 50GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-android:latest - 43.9GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-android:pinned - 43.9GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 43.7GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 43.7GB\nbitriseio/ubuntu-22-base:latest - 11.7GB\nbitriseio/ubuntu-22-base:pinned - 11.7GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:latest - 14GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:pinned - 14GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 13.8GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 13.8GB",
+          "raw_output": "bitriseio/ubuntu-resolute-26.04-bitrise-2026-android:latest - 43.9GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-android:pinned - 43.9GB\nbitriseio/ubuntu-22-android:latest - 50GB\nbitriseio/ubuntu-22-android:pinned - 50GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 43.7GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 43.7GB\nbitriseio/ubuntu-22-base:latest - 11.7GB\nbitriseio/ubuntu-22-base:pinned - 11.7GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:latest - 14GB\nbitriseio/ubuntu-resolute-26.04-bitrise-2026-base:pinned - 14GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 13.8GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 13.8GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         },
         {
