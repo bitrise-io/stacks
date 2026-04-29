@@ -2,7 +2,7 @@
 title: Ubuntu Noble 24.04 - Bitrise 2025 Edition
 summary: Docker with pre-installed Android tooling, based on Ubuntu 24.04.
 platform: Linux
-flavor: edge
+flavor: stable
 architecture: x86_64
 weight: 1000
 ---
