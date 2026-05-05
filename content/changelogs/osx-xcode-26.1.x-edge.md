@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-05-05`
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-04-28`
 
 - Homebrew package upgrades
