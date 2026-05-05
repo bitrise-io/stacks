@@ -16,6 +16,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-05-05`
 
+- This release contains the latest visionOS simulator. Others coming in the next release.  
+
 - [Xcode 26.5 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes) (build `17F42`)
 - Homebrew package upgrades
 
