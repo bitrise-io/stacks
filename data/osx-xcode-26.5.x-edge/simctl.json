@@ -5647,7 +5647,7 @@
       "isAvailable" : true,
       "version" : "26.5",
       "isInternal" : false,
-      "buildversion" : "23O5467a",
+      "buildversion" : "23O470",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -5661,8 +5661,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-26-5",
       "platform" : "xrOS",
-      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O5467a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.5.simruntime",
-      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O5467a\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.5.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O470\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.5.simruntime",
+      "runtimeRoot" : "\/Library\/Developer\/CoreSimulator\/Volumes\/xrOS_23O470\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 26.5.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
