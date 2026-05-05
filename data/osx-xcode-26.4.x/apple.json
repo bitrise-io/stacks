@@ -21,7 +21,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/ae6c58470d7c9cd49b7857ebad1f170cf0fa102e.asset/AssetData\nBuild Version: 17E188\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.883\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.TkzWZS",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/ae6c58470d7c9cd49b7857ebad1f170cf0fa102e.asset/AssetData\nBuild Version: 17E188\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.883\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.5.188.0.lXTb3I",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 5.1.7\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 3aae056b8d072624255bc8fd27febb7f327b2265\nLast commit: 9 days ago\nBranch: stable\nCore tap JSON: 27 Apr 07:31 UTC\nCore cask tap JSON: 27 Apr 07:31 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_DOWNLOAD_CONCURRENCY: 28\nHOMEBREW_FORBID_PACKAGES_FROM_PATHS: set\nHOMEBREW_MAKE_JOBS: 14\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.2 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.2_1/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.53.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.2-arm64\nCLT: 26.4.0.0.1774242506\nXcode: 26.4.1 =\u003e /Applications/Xcode-26.4.1.app/Contents/Developer\nMetal Toolchain: 17.0 (17E188)\nRosetta 2: false",
+          "raw_output": "✔︎ JSON API formula_tap_migrations.jws.json\n✔︎ JSON API cask_tap_migrations.jws.json\n✔︎ JSON API cask.jws.json\n✔︎ JSON API cask.jws.json\n✔︎ JSON API formula.jws.json\nHOMEBREW_VERSION: 5.1.7\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 3aae056b8d072624255bc8fd27febb7f327b2265\nLast commit: 2 weeks ago\nBranch: stable\nCore tap JSON: 05 May 08:16 UTC\nCore cask tap JSON: 05 May 08:16 UTC\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_DOWNLOAD_CONCURRENCY: 28\nHOMEBREW_FORBID_PACKAGES_FROM_PATHS: set\nHOMEBREW_MAKE_JOBS: 14\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.2 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.2_1/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.53.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.2-arm64\nCLT: 26.4.0.0.1774242506\nXcode: 26.4.1 =\u003e /Applications/Xcode-26.4.1.app/Contents/Developer\nMetal Toolchain: 17.0 (17E188)\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
