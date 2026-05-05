@@ -147,7 +147,7 @@ visionOS 26.0 (26.0 - 23M336) - com.apple.CoreSimulator.SimRuntime.xrOS-26-0
 visionOS 26.1 (26.1 - 23N47) - com.apple.CoreSimulator.SimRuntime.xrOS-26-1
 visionOS 26.2 (26.2 - 23N301) - com.apple.CoreSimulator.SimRuntime.xrOS-26-2
 visionOS 26.4 (26.4.1 - 23O249a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-4
-visionOS 26.5 (26.5 - 23O5467a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
+visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
 == Devices ==
 -- iOS 17.5 --
     iPhone 15 Pro (8D8F4473-BDDB-421E-8FC1-784B1912C7E3) (Shutdown) 
@@ -329,13 +329,13 @@ visionOS 26.5 (26.5 - 23O5467a) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
 73E2214F-5BB4-4CDA-BE6D-3D7A0F1CA9EE (active, disconnected)
     Watch: Apple Watch SE (44mm) (2nd generation) (AC20BF34-CA00-4E3B-BF59-7C120B8CE1E9) (Shutdown)
     Phone: Bitrise iOS default (669FD444-C31C-4CA4-882E-856EFAAED99A) (Shutdown)
-E55C0AF7-96D7-4AF0-8F54-04AED51E6854 (active, disconnected)
+1F43D81B-0041-4CBA-8B09-72E5E32C4E62 (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (0B05E1B4-D7EF-4D20-9925-7152E99B9B1E) (Shutdown)
     Phone: iPhone 17 Pro Max (129F95B2-5763-4A3C-B737-496D4EA5E8B6) (Shutdown)
-5BDF84B5-CF29-4751-9D87-45C1F912343C (active, disconnected)
+61B6DB24-4F49-42D1-96F4-96107527E1F8 (active, disconnected)
     Watch: Apple Watch Series 11 (42mm) (43DAB379-49D0-4F8B-A5B3-845059683378) (Shutdown)
     Phone: iPhone Air (B01A2C85-7F76-4538-AF69-B36D59B7ECC8) (Shutdown)
-2027C36F-429F-42D8-9661-8A18C94371A7 (active, disconnected)
+37E8A215-1D02-49D7-82E9-E973BBF593AD (active, disconnected)
     Watch: Apple Watch Ultra 3 (49mm) (7700B8B7-4D29-4024-B5DE-FA91C50A0060) (Shutdown)
     Phone: iPhone 17 (31DDF603-79E8-4382-A487-FD2C1AC5A0FD) (Shutdown)
 7CAA2307-EA49-4D37-BA6D-FDBC0039E4DD (active, disconnected)
