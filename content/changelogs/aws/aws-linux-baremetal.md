@@ -12,6 +12,103 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `2026w19`
+
+- **Major Language Version Updates** (Ruby, Go, Node.js, Python, Flutter)
+- **Android SDK & Tools Updates** (Build-Tools, Emulator, NDK, Platform-Tools)
+- **Bitrise Tooling Update** (Bitrise CLI, stepman, envman)
+- **Development Tools Updates** (Docker, Git, AWS CLI, Firebase, GitHub CLI)
+
+#### AMIs by Region
+
+- **us-east-1:** ami-05da568d9fd23422a
+- **us-east-2:** ami-0ebf11b61729a627a
+- **us-west-2:** ami-00bc71586d7a1f2b7
+- **eu-west-1:** ami-09c4e8e64e87e617f
+- **eu-west-2:** ami-01aff8b361cf9beca
+- **eu-central-1:** ami-0feb7beae9efd5530
+- **ca-central-1:** ami-0d9d3f9372efb0abb
+- **ap-southeast-1:** ami-095df2e0540e68138
+- **ap-southeast-2:** ami-02a6183221e069eb6
+
+#### Tooling Versions
+
+- **Ruby**
+  - **Available Versions:**
+    - 3.3.10
+    - **3.4.8** (marked as default)
+    - 4.0.1
+  - **Version Aliases:**
+    - `3` ➜ 3.4.8
+    - `3.3` ➜ 3.3.10
+    - `3.4` ➜ 3.4.8
+    - `4` ➜ 4.0.1
+    - `4.0` ➜ 4.0.1
+
+- **Go**
+  - **Available Versions:**
+    - **1.25** (marked as default)
+    - 1.24.12
+    - 1.25.6
+  - **Version Aliases:**
+    - `1` ➜ 1.25.6
+    - `1.24` ➜ 1.24.12
+    - `1.25` ➜ 1.25.6
+
+- **Node.js**
+  - **Available Versions:**
+    - **24.13.0** (marked as default)
+    - 22.22.0
+  - **Version Aliases:**
+    - `22` ➜ 22.22.0
+    - `22.22` ➜ 22.22.0
+    - `24` ➜ 24.13.0
+    - `24.13` ➜ 24.13.0
+    - `lts` ➜ 24
+
+- **Java**
+  - **Available Versions:**
+    - **java-17-openjdk** (marked as default)
+    - java-21-openjdk
+    - java-25-openjdk
+    - java-11-openjdk
+
+- **Python**
+  - **Available Versions:**
+    - **3.14.2** (marked as default)
+  - **Version Aliases:**
+    - `3` ➜ 3.14.2
+    - `3.14` ➜ 3.14.2
+
+- **Flutter**
+  - **Available Versions:**
+    - **3.16.8-stable** (marked as default)
+  - **Version Aliases:**
+    - `3` ➜ 3.16.8-stable
+    - `3.16` ➜ 3.16.8-stable
+    - `3.16.8` ➜ 3.16.8-stable
+
+- **Kotlin**
+  - **Available Version:**
+    - Kotlin version **2.0.0-release-341**
+
+- **Android SDK**
+  - **Build-Tools:** 35.0.1
+  - **Emulator:** 36.5.11
+  - **NDK:**
+    - 26.1.10909125
+    - 27.1.12297006
+  - **Platform-Tools:** 37.0.0
+
+- **Android Development Tools**
+  - **Fastlane:** 2.233.1
+  - **Bundletool:** 1.15.6
+
+- **Python Tools (pipx)**
+  - **pre-commit:** 4.2.0
+  - **yamllint:** 1.35.1
+
+
 ### Stack update `2025w10`
 
 - **Bitrise Tooling Update** (Bitrise CLI, DEN Agent)
