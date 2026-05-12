@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-05-11`
+
+No user-facing changes.
+
 ### Stack update `v2026-04-27`
 
 - Added iOS 17.5 simulator runtime, resolving the known limitation from the initial release
