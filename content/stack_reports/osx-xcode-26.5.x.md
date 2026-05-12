@@ -1,6 +1,6 @@
 ---
 title: Xcode 26.5
-summary: macOS stack for building with Xcode 26.5, with more frequent tool updates
+summary: macOS stack for building with Xcode 26.5
 platform: macOS
 xcode: "26.5"
 flavor: stable
