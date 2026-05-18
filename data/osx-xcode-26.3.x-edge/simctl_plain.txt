@@ -132,6 +132,7 @@ iOS 26.2 (26.2 - 23C54) - com.apple.CoreSimulator.SimRuntime.iOS-26-2
 iOS 26.3 (26.3.1 - 23D8133) - com.apple.CoreSimulator.SimRuntime.iOS-26-3
 iOS 26.4 (26.4.1 - 23E254a) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
 iOS 26.5 (26.5 - 23F73) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
+iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 tvOS 26.0 (26.0 - 23J352) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 tvOS 26.1 (26.1 - 23J579) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
 tvOS 26.2 (26.2 - 23K51) - com.apple.CoreSimulator.SimRuntime.tvOS-26-2
@@ -243,6 +244,7 @@ visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
     iPad (A16) (71E5B5C2-C27C-423B-B04C-C4465B019130) (Shutdown) 
     iPad Air 13-inch (M3) (CFB12154-C5E6-453E-A7C5-0AFAAE14B0F1) (Shutdown) 
     iPad Air 11-inch (M3) (B83159AA-A0CD-4BF6-8373-107BF3675CC8) (Shutdown) 
+-- iOS 26.5 --
 -- iOS 26.5 --
     iPhone 17 Pro (A700180C-272B-4DE5-AB72-AA787F694DB9) (Shutdown) 
     iPhone 17 Pro Max (4B6F2D53-9125-44D2-BFA6-EC8A384DFFB7) (Shutdown) 
