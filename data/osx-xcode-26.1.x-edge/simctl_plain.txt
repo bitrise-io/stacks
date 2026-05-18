@@ -132,6 +132,7 @@ iOS 26.2 (26.2 - 23C54) - com.apple.CoreSimulator.SimRuntime.iOS-26-2
 iOS 26.3 (26.3.1 - 23D8133) - com.apple.CoreSimulator.SimRuntime.iOS-26-3
 iOS 26.4 (26.4.1 - 23E254a) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
 iOS 26.5 (26.5 - 23F73) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
+iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 tvOS 26.0 (26.0 - 23J352) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 tvOS 26.1 (26.1 - 23J579) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
 tvOS 26.2 (26.2 - 23K51) - com.apple.CoreSimulator.SimRuntime.tvOS-26-2
@@ -244,6 +245,7 @@ visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
     iPad Air 13-inch (M3) (CFB12154-C5E6-453E-A7C5-0AFAAE14B0F1) (Shutdown) 
     iPad Air 11-inch (M3) (B83159AA-A0CD-4BF6-8373-107BF3675CC8) (Shutdown) 
 -- iOS 26.5 --
+-- iOS 26.5 --
     iPhone 17 Pro (A700180C-272B-4DE5-AB72-AA787F694DB9) (Shutdown) 
     iPhone 17 Pro Max (4B6F2D53-9125-44D2-BFA6-EC8A384DFFB7) (Shutdown) 
     iPhone 17e (0E6AF5A5-8FC0-4C25-B58D-685EC609724C) (Shutdown) 
@@ -332,13 +334,13 @@ visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
 EE9EE062-F3D4-4021-BF92-0BAF6024ED95 (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (0B05E1B4-D7EF-4D20-9925-7152E99B9B1E) (Shutdown)
     Phone: Bitrise iOS default (01A77D23-CDB5-4CD2-9BC3-FF0539CD5AB7) (Shutdown)
-23EC243E-C0E9-4656-974B-A9D84114F494 (active, disconnected)
+95C133B9-6D1D-4E4A-B4DF-5C0FE969D88D (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (ABE4A137-0F28-4378-B91B-EC6C568BEAFD) (Shutdown)
     Phone: iPhone 17 Pro Max (0FBB19BA-CE67-49D3-8364-FD05F9D1F0A6) (Shutdown)
-8F5BD31F-1462-466D-9F1B-BE48BFE66EF3 (active, disconnected)
+EF66850B-2815-43AE-8680-81EA06B1FA60 (active, disconnected)
     Watch: Apple Watch Series 11 (42mm) (1055F359-3223-4B12-94DE-8D68DF30A1CE) (Shutdown)
     Phone: iPhone Air (507839F1-23E1-4A30-BD15-7F4A1CBAEE70) (Shutdown)
-1DD0A902-152A-44D0-B7B9-1C745A3B979E (active, disconnected)
+08C4BC59-F51C-497C-9C99-CE0AA016C69D (active, disconnected)
     Watch: Apple Watch Ultra 3 (49mm) (7AC39ED2-9998-456F-A025-21BB00EF5B0B) (Shutdown)
     Phone: iPhone 17 (11B23C3A-BF82-44C5-96C5-C8E4FB43F77D) (Shutdown)
 7CAA2307-EA49-4D37-BA6D-FDBC0039E4DD (active, disconnected)
