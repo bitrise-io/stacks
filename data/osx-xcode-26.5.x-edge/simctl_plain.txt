@@ -132,6 +132,7 @@ iOS 26.2 (26.2 - 23C54) - com.apple.CoreSimulator.SimRuntime.iOS-26-2
 iOS 26.3 (26.3.1 - 23D8133) - com.apple.CoreSimulator.SimRuntime.iOS-26-3
 iOS 26.4 (26.4.1 - 23E254a) - com.apple.CoreSimulator.SimRuntime.iOS-26-4
 iOS 26.5 (26.5 - 23F73) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
+iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 tvOS 26.0 (26.0 - 23J352) - com.apple.CoreSimulator.SimRuntime.tvOS-26-0
 tvOS 26.1 (26.1 - 23J579) - com.apple.CoreSimulator.SimRuntime.tvOS-26-1
 tvOS 26.2 (26.2 - 23K51) - com.apple.CoreSimulator.SimRuntime.tvOS-26-2
@@ -256,6 +257,7 @@ visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
     iPad Air 13-inch (M4) (05B02CE9-8241-4483-B5B6-64CEDFF5164A) (Shutdown) 
     iPad Air 11-inch (M4) (1216C668-BF6A-4B2E-AE20-B0E644404EA8) (Shutdown) 
     iPad (A16) (48C462BC-E03E-4A4B-9558-AE009B5A5838) (Shutdown) 
+-- iOS 26.5 --
 -- tvOS 26.0 --
     Apple TV 4K (3rd generation) (6E7DE0AF-530B-45E5-80F7-6BDB85B50E11) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (27067281-3447-4FB1-A487-4B0069D72D98) (Shutdown) 
