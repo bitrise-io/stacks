@@ -7193,19 +7193,6 @@
       },
       "state" : "(active, disconnected)"
     },
-    "2ECC441B-2FFF-453C-A4A4-57E16D038F7D" : {
-      "watch" : {
-        "name" : "Apple Watch Series 11 (46mm)",
-        "udid" : "2649A062-ED69-4607-85A2-D3B833E6C561",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 17 Pro Max",
-        "udid" : "AA0B2CB9-C6F3-488E-94B8-90319249AAEC",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
     "CDE3503B-A422-4E0A-ABCB-83ED12DAC1A2" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (42mm)",
@@ -7232,7 +7219,20 @@
       },
       "state" : "(active, disconnected)"
     },
-    "B1C77DD4-9096-4F5C-86E8-63B731D6C130" : {
+    "A7772989-7AB2-40A1-A2B3-83242BDDA34E" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 3 (49mm)",
+        "udid" : "2EB57A80-C486-4033-B50B-DCE8041F6699",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17",
+        "udid" : "C4E91AE9-E287-4908-B89D-30CC8D53C843",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "65592E1E-8A6F-47F8-AE14-D08D189AEA2C" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (42mm)",
         "udid" : "7B99472E-1E0A-4D94-BC78-AECCB2AFE86C",
@@ -7254,19 +7254,6 @@
       "phone" : {
         "name" : "iPhone 17 Pro Max",
         "udid" : "9EC2C087-CE89-4603-9505-D5C52A573D87",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
-    "2EE25ADC-6C99-44A9-B4BD-4EF5D2854A8E" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 3 (49mm)",
-        "udid" : "2EB57A80-C486-4033-B50B-DCE8041F6699",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 17",
-        "udid" : "C4E91AE9-E287-4908-B89D-30CC8D53C843",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -7293,6 +7280,19 @@
       "phone" : {
         "name" : "iPhone 17 Pro Max",
         "udid" : "3468870E-3308-4574-AC4C-AD28E753E862",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "8AA3A4BA-D200-426A-81F8-431D7FFE31A6" : {
+      "watch" : {
+        "name" : "Apple Watch Series 11 (46mm)",
+        "udid" : "2649A062-ED69-4607-85A2-D3B833E6C561",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17 Pro Max",
+        "udid" : "AA0B2CB9-C6F3-488E-94B8-90319249AAEC",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
