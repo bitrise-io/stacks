@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-05-18`
+
+- macOS update to 26.5 (25F71)
+- Homebrew package upgrades
+
 ### Stack update `v2026-05-05`
 
 - Most recent 26.5 simulators for iOS, watchOS, and tvOS added
