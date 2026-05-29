@@ -22,11 +22,14 @@ Compared to the previous Linux stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition
 
 Previously, builds were running with the `root` user by default. The root user and passwordless sudo is still available, but the default user is now `ubuntu`.
 
-If your custom scripts relied on the elevated user (such as running `apt-get install` without `sudo`), you need to update your scripts to use `sudo`.
+This change could case issues in two scenarios:
+
+1. If your custom scripts rely on the elevated user (such as running `apt-get install` without `sudo`), you need to update your scripts to use `sudo`.
+2. Hardcoded paths in scripts that include the username (such as `/home/root/.gradle`). Replace hardcoded parts with env vars like `$HOME` or `$USER`.
 
 #### Ubuntu core packages
 
-Updated system libraries and tools might cause unexpected issues when compiling C/C++ projects. Notable package updates include:
+Updated system libraries and tools might cause unexpected issues when compiling C/C++ projects. Notable package updates in Ubuntu 26.04:
 
 | Package           | Noble (24.04 LTS)       | Resolute (26.04 LTS)        |
 | ----------------- | ----------- | --------------- |
