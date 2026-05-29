@@ -12,15 +12,15 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `TODO`
+### Stack update `v2026-05-29`
 
 Initial release of this new Linux stack. The stack is based on [Ubuntu 26.04 LTS](https://documentation.ubuntu.com/release-notes/26.04/), with further customizations and changes by Bitrise.
 
-Compared to the previous Linux stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-edition), the following notable changes are worth a mention:
+Compared to the previous Linux stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-edition), the following breaking changes could affect your builds:
 
 #### `ubuntu` as the default user
 
-Previously, builds were running with the `root` user by default. The root user and passwordless sudo is still available, but the default user is now `ubuntu`.
+Previously, builds were running as `root` by default. The root user and passwordless sudo is still available, but the default user is now `ubuntu`.
 
 This change could case issues in two scenarios:
 
