@@ -1,0 +1,31 @@
+[
+  {
+    "category": "android",
+    "output": {
+      "items": [
+        {
+          "name": "Bundletool",
+          "category": "android",
+          "version": "1.18.3",
+          "raw_output": "1.18.3",
+          "executed_command": "bundletool version"
+        },
+        {
+          "name": "Emulator version",
+          "category": "android",
+          "version": "36.5.11",
+          "raw_output": "Pkg.Revision=36.5.11",
+          "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
+        },
+        {
+          "name": "Fastlane",
+          "category": "android",
+          "version": "",
+          "raw_output": "fastlane installation at path:\n/home/ubuntu/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.233.0/bin/fastlane\n-----------------------------\nfastlane 2.233.0\n\n#######################################################################\n# fastlane 2.235.0 is available. You are on 2.233.0.\n# You should use the latest version.\n# Please update using `gem install fastlane`.\n#######################################################################\n\n\u001b[32m2.235.0 Improvements\u001b[0m\n* [docs] allow deletion of no longer existing docs (#30020) via Connor Tumbleson (@iBotPeaches)\n* [increment_version_number] update MARKETING_VERSION build setting (#30031) via André Destro (@andredestro)\n* [match] nuke respects \"skip_confirmation\" (#30023) via Connor Tumbleson (@iBotPeaches)\n* [screengrab] Fix screenshot copy count and path probe output (#30038) via Nakshatra Singh (@nakshatrasinghh)\n* [chore] remove top level dirs of \"rakelib\" and \"rubocop\" (#30045) via Connor Tumbleson (@iBotPeaches)\n* [ci] fix flaky test due to time shift (#30030) via Connor Tumbleson (@iBotPeaches)\n* [supply] fix crash if no release on track (#30029) via Connor Tumbleson (@iBotPeaches)\n* [frameit] add sanitized device name to error message (#30028) via Connor Tumbleson (@iBotPeaches)\n* [match] strip nbsp; from return of phone 2fa (#30004) via Connor Tumbleson (@iBotPeaches)\n* [snapshot] fix: keep 'stderr' during simulator configuration/launch (#29839) via Connor Tumbleson (@iBotPeaches)\n* [ci] test on Xcode 26.5 (#30044) via Connor Tumbleson (@iBotPeaches)\n* [notarize] Remove legacy altool flow (#29896) via Hasancan Akgündüz (@hasancanakgunduz)\n* [supply] add google play endpoint for track meta (#29999) via Tim Shedor (@tshedor)\n* [core] Upgraded jwt gem dependency range to include v3 series (#30042) via Siddharth Bhatt (@sidbhatt11)\n* [pilot] Fix FrozenError when whats_new is a frozen string (#30039) via Eyüp Can Akman (@eyupcanakman)\n* [match] Expand range of valid characters in app name (#30036) via Michal Mazur (@michalm-st)\n* [spaceship][deliver][pilot] Add support for App Clips default experience metadata and review information (#30010) via Krystian Łabanowski (@Krych)\n* [test] skip VisionOS test if sdk not installed (#30032) via Connor Tumbleson (@iBotPeaches)\n* [Ruby] Ruby 3.0 is now the minimum (dropping Ruby 2.7) (#29942) via Connor Tumbleson (@iBotPeaches)\n* [slack] support thread_ts for slack messages (#29904) via Tim Shedor (@tshedor)\n\n\u001b[32m2.234.0 Improvements\u001b[0m\n\u003e [!TIP]\r\n\u003e Appreciate fastlane? Want to support further development? Donate via OpenCollective - https://opencollective.com/fastlane\r\n\r\n* [docs] adjust CoC contact email away from Google (#30024) via Connor Tumbleson (@iBotPeaches)\r\n* [spaceship] fix provisioning profile repair when certificates include nil (#29935) via via-guy (@via-guy)\r\n* build(deps): bump rubygems/configure-rubygems-credentials from 1.0.0 to 2.0.0 (#30013) via dependabot[bot] (@dependabot[bot])\r\n* [supply] Fix issue when playstore production track doesn't have any release (#21506) via Fadel Trivandi Dipantara (@fadeltd)\r\n* [deliver] improve documentation \u0026 clarify on territory_ids behavior for upload_price_tier (#30019) via orbisai0security (@orbisai0security)\r\n* [match] Fix match_nuke certificate_id filtering (#30022) via Nakshatra Singh (@nakshatrasinghh)\r\n* [sigh] fix: prevent empty string as input to codesign on KEYCHAIN_FLAG (#30018) via zengchunshan (@zengchunshan)\r\n* [scan] default_derived_data supports build for running off (#22231) via Jozsef Mihalicza (@jmihaliczas3d)\r\n* Add support for 11 new App Store Connect locales (#29959) via Ryu (@Ryu0118)\r\n* [match] Fix match nuke deletion for provisioning profiles with wildcard filenames (#30014) via Nakshatra Singh (@nakshatrasinghh)\r\n* [increment_version_number] support MARKETING_VERSION resolving. (#30011) via Connor Tumbleson (@iBotPeaches)\r\n* [robocop] suppress suggestions for new extensions (#30005) via Connor Tumbleson (@iBotPeaches)\r\n* [core] relax constraint on abbrev, base64, mutex_m and nfk (#30009) via Connor Tumbleson (@iBotPeaches)\r\n* fix: migrate to standard which() helper to prevent ci spam (#29933) via Connor Tumbleson (@iBotPeaches)\r\n* [app_store_connect_api_key] Trim `key_id` / `issuer_id` to prevent malformed JWT claims (#29986) via Copilot (@Copilot)\r\n* [gem] allow CFPropertyList \u003e 4 (#29993) via Connor Tumbleson (@iBotPeaches)\r\n* chore: ruby 3.2 is eol, 3.3 is suggested (#29979) via Connor Tumbleson (@iBotPeaches)\r\n* feat: add funding (opencollective) (#29972) via Connor Tumbleson (@iBotPeaches)\r\n* [frameit] Add iPhone 16 and iPhone 17 device frame support (#29921) via Events-Mate-Apps (@Events-Mate-Apps)\r\n* [Fastlane Swift] Update Runner Project to 14.6 (#29990) via Ethan Pippin (@LePips)\r\n* [supply] Support authorized_user and Application Default Credentials for Google authentication (#29982) via Tyler Renslow (@trenslow)\n\n\u001b[32m2.233.1 Improvements\u001b[0m\n* [deliver] fix app previews always running during usage. (#29989) via Connor Tumbleson (@iBotPeaches)\n\n\u001b[32mTo see all new releases, open https://github.com/fastlane/fastlane/releases\u001b[0m\n\n\u001b[32mPlease update using `gem install fastlane`\u001b[0m",
+          "executed_command": "fastlane --version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
