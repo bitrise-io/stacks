@@ -1,6 +1,6 @@
 ---
-title: Ubuntu Noble 24.04 - Bitrise 2025 Edition
-summary: Docker with pre-installed Android tooling, based on Ubuntu 24.04.
+title: Ubuntu Resolute 26.04 - Bitrise 2026 Edition
+summary: Linux with pre-installed Android tooling, based on Ubuntu 26.04.
 platform: Linux
 flavor: edge
 architecture: x86_64

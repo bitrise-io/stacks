@@ -1,5 +1,5 @@
 ---
-title: Ubuntu Noble 26.04 - Bitrise 2026 Edition
+title: Ubuntu Resolute 26.04 - Bitrise 2026 Edition
 summary: Changelog of stack updates
 type: basic_page
 ---
