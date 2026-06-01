@@ -12,6 +12,11 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-06-01`
+
+- Fastlane upgrade: `2.233.0` -> `2.235.0`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-04-25` (released 2026-04-27)
 
 - Android emulator upgrade: `36.5.10` -> `36.5.11`
