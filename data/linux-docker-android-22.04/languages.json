@@ -42,7 +42,7 @@
           "name": "Kotlin",
           "category": "languages",
           "version": "2.0.0",
-          "raw_output": "Kotlin version 2.0.0-release-341 (JRE 17.0.18+8-Ubuntu-122.04.1)",
+          "raw_output": "Kotlin version 2.0.0-release-341 (JRE 17.0.19+10-1-22.04.2-Ubuntu)",
           "executed_command": "kotlin -version"
         },
         {
