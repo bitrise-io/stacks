@@ -126,7 +126,7 @@ No user-facing changes, this release is only caused by the new [Xcode 15.4 stack
 - NodeJS `20.9.0` is replaced by `20.11.1`
 - NodeJS `18.18.2` is replaced by `18.19.1`
 
-To ensure your workflows remain efficient and utilize the most recent tool updates, we recommend using version aliases in your configurations. Version aliases help you automatically adopt new patch versions without the need for manual updates. For detailed information on how to use version aliases with your Bitrise stacks, please refer to our [Version Aliases Documentation](https://stacks.bitrise.io/tips/tool-versions/#version-aliases)
+To ensure your workflows remain efficient and utilize the most recent tool updates, we recommend using version aliases in your configurations. Version aliases help you automatically adopt new patch versions without the need for manual updates. For detailed information on how to use version aliases with your Bitrise stacks, please refer to our [Version Aliases Documentation](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html#using-other-aliases)
 
 ### Stack update `v2024-03-06`
 
