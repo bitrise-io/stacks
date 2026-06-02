@@ -41,7 +41,7 @@ The preinstalled Kotlin CLI is now at version 2.1.
 
 The previous default Node version, Node 20 remains installed, but the new Bitrise stack makes Node 22 the default and additionally has Node 24 (the upcoming LTS version). Node 18 and 21 are no longer preinstalled.
 
-You can learn more about selecting tool versions and installing additional ones [here](https://stacks.bitrise.io/tips/tool-versions/).
+You can learn more about selecting tool versions and installing additional ones [here](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html).
 
 ## Flutter
 
