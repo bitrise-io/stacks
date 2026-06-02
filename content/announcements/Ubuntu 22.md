@@ -56,13 +56,13 @@ The preinstalled Kotlin CLI is now version 2.0 Beta 3 and we’ll update it to t
 
 The previous default Node version, Node 16 [has reached its end-of-life](https://endoflife.date/nodejs). This new Bitrise stack version makes Node 20 (current LTS version) the default, and Node 16 is no longer preinstalled.
 
-You can learn more about selecting tool versions and installing additional ones [here](https://stacks.bitrise.io/tips/tool-versions/).
+You can learn more about selecting tool versions and installing additional ones [here](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html).
 
 ### Active Node version is automatically selected based on `.node-version` or `.nvmrc` files
 
 If the current working directory (your repo root typically) contains one of these files, the build environment automatically tries to activate the version declared in such a file.
 
-Make sure that if your repo declares a Node version this way, the declared version is preinstalled (or install it at runtime). You can learn more about selecting tool versions and installing additional ones [here](https://stacks.bitrise.io/tips/tool-versions/).
+Make sure that if your repo declares a Node version this way, the declared version is preinstalled (or install it at runtime). You can learn more about selecting tool versions and installing additional ones [here](https://docs.bitrise.io/en/bitrise-ci/configure-builds/configuring-build-settings/configuring-tool-versions.html).
 
 ### Corepack
 
