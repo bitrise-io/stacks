@@ -14,7 +14,7 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       285G  146G  140G  51% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       285G  109G  176G  39% /bitrise",
           "executed_command": "df -kH /bitrise/src"
         },
         {
@@ -35,7 +35,7 @@
           "name": "OpenSSH",
           "category": "os",
           "version": "",
-          "raw_output": "OpenSSH_9.6p1 Ubuntu-3ubuntu13.15, OpenSSL 3.0.13 30 Jan 2024",
+          "raw_output": "OpenSSH_9.6p1 Ubuntu-3ubuntu13.16, OpenSSL 3.0.13 30 Jan 2024",
           "executed_command": "ssh -V"
         }
       ],

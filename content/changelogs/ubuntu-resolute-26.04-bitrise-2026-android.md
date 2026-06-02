@@ -12,6 +12,23 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-06-01`
+
+Adds Android SDK 37 and removes Android SDK 34.
+Standardizes all pre-installed Android emulator system images to [16kb page size](https://developer.android.com/guide/practices/page-sizes) emulators.
+
+- Adds [uv](https://docs.astral.sh/uv/) `0.11.17`
+- Fastlane upgrade: `2.233.0` -> `2.235.0`
+- Google Cloud CLI upgrade: `565.0.0` -> `570.0.0`
+- AWS CLI upgrade: `2.34.37` -> `2.34.56`
+- Docker upgrade: `29.4.1` -> `29.5.2`
+- Docker Compose upgrade: `5.1.3` -> `5.1.4`
+- Firebase CLI upgrade: `15.15.0` -> `15.19.0`
+- GitHub CLI upgrade: `2.91.0` -> `2.93.0`
+- Node.js upgrade: `22.22.0` -> `22.22.3`
+- NPM upgrade: `11.6.2` -> `11.13.0`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-05-29`
 
 Initial release of this new Linux stack. The stack is based on [Ubuntu 26.04 LTS](https://documentation.ubuntu.com/release-notes/26.04/), with further customizations and changes by Bitrise.

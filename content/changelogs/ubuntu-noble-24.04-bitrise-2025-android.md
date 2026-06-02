@@ -12,6 +12,14 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-06-01`
+
+- Adds Android SDK 37 and associated emulator system image. Android 37 emulator is a [16kb page size](https://developer.android.com/guide/practices/page-sizes) emulator.
+- Adds [uv](https://docs.astral.sh/uv/) `0.11.8`
+- Fastlane upgrade: `2.233.0` -> `2.235.0`
+- Git upgrade: `2.40.3` -> `2.40.4`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-04-25` (released 2026-04-27)
 
 - Android emulator upgrade: `36.5.10` -> `36.5.11`
