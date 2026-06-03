@@ -16,6 +16,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 - Adds Android SDK 37 and associated emulator system image. Android 37 emulator is a [16kb page size](https://developer.android.com/guide/practices/page-sizes) emulator.
 - Adds [uv](https://docs.astral.sh/uv/) `0.11.8`
+- Adds [ffmpeg](https://ffmpeg.org/)
 - Fastlane upgrade: `2.233.0` -> `2.235.0`
 - Git upgrade: `2.40.3` -> `2.40.4`
 - Ubuntu package upgrades
