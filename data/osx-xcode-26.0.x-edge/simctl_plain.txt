@@ -320,13 +320,13 @@ visionOS 26.5 (26.5 - 23O470) - com.apple.CoreSimulator.SimRuntime.xrOS-26-5
 -- visionOS 26.5 --
     Apple Vision Pro (28AE2E40-5930-4DFB-AB4E-FEB1C4C06900) (Shutdown) 
 == Device Pairs ==
-21643E7F-6F81-4A9D-A4ED-35F118051219 (active, disconnected)
+743A0854-1109-4EE7-9E76-33EC8D16EA08 (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (2649A062-ED69-4607-85A2-D3B833E6C561) (Shutdown)
     Phone: iPhone 17 Pro Max (AA0B2CB9-C6F3-488E-94B8-90319249AAEC) (Shutdown)
-7D303788-8EFF-4DB4-8C76-2A8B8B570994 (active, disconnected)
+F6A9ECA5-6A07-431A-AE82-6F3B9F24E20E (active, disconnected)
     Watch: Apple Watch Series 11 (42mm) (7B99472E-1E0A-4D94-BC78-AECCB2AFE86C) (Shutdown)
     Phone: iPhone Air (6335C964-AD0A-4672-A4D6-512C13C7C9D3) (Shutdown)
-54C0C2CE-D236-48C8-A1AD-BC98FA84DEAE (active, disconnected)
+DA8B9163-906C-418B-BCEF-23D473FD83C8 (active, disconnected)
     Watch: Apple Watch Ultra 3 (49mm) (2EB57A80-C486-4033-B50B-DCE8041F6699) (Shutdown)
     Phone: iPhone 17 (C4E91AE9-E287-4908-B89D-30CC8D53C843) (Shutdown)
 E73ABE78-B0FC-494F-93AE-A559D279C92F (active, disconnected)
