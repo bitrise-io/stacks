@@ -14,6 +14,17 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-03`
+
+- Android SDK Platform 37.0 added (android-34 removed)
+- Bitrise CLI upgrade: `2.40.0` → `2.40.4`
+- OpenJDK upgrade: `25.0.2` → `26.0.1`
+- Kotlin upgrade: `2.3.21` → `2.4.0`
+- ffmpeg `8.1.1` added
+- SwiftLint upgrade: `0.63.2` → `0.63.3`
+- LicensePlist upgrade: `3.27.8` → `3.27.9`
+- Homebrew package upgrades
+
 ### Stack update `v2026-05-18`
 
 - macOS update to 26.5 (25F71)
