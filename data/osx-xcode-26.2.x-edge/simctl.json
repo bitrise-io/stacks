@@ -7193,7 +7193,7 @@
       },
       "state" : "(active, disconnected)"
     },
-    "30BFB01E-C379-4DC1-8F1D-CF7CC3DF4FAF" : {
+    "9B7291AC-0EFB-4223-89D5-FD7EDB70B172" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (46mm)",
         "udid" : "22E77154-3FF3-4A3C-A59C-8A7083C9C0C2",
@@ -7206,15 +7206,15 @@
       },
       "state" : "(active, disconnected)"
     },
-    "322CDD92-0EDB-46DD-917E-26C7573285CE" : {
+    "AA585FB2-8CCD-49B1-BF9A-3606383B27E2" : {
       "watch" : {
-        "name" : "Apple Watch Series 11 (42mm)",
-        "udid" : "64A38898-1BF1-421D-B4C5-42D2E4151B94",
+        "name" : "Apple Watch Ultra 3 (49mm)",
+        "udid" : "6168ADBB-9406-4656-A2A3-952D7DF6EBE3",
         "state" : "Shutdown"
       },
       "phone" : {
-        "name" : "iPhone Air",
-        "udid" : "5A3E61E3-0ED4-46D4-9E97-FA2C78692495",
+        "name" : "iPhone 17",
+        "udid" : "FDFD4731-261A-4077-842A-F522B58AA0E4",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
@@ -7271,19 +7271,6 @@
       },
       "state" : "(active, disconnected)"
     },
-    "9FE93C0B-DB19-40D0-BCF4-832B42374185" : {
-      "watch" : {
-        "name" : "Apple Watch Ultra 3 (49mm)",
-        "udid" : "6168ADBB-9406-4656-A2A3-952D7DF6EBE3",
-        "state" : "Shutdown"
-      },
-      "phone" : {
-        "name" : "iPhone 17",
-        "udid" : "FDFD4731-261A-4077-842A-F522B58AA0E4",
-        "state" : "Shutdown"
-      },
-      "state" : "(active, disconnected)"
-    },
     "E73ABE78-B0FC-494F-93AE-A559D279C92F" : {
       "watch" : {
         "name" : "Apple Watch Series 11 (46mm)",
@@ -7293,6 +7280,19 @@
       "phone" : {
         "name" : "iPhone 17 Pro Max",
         "udid" : "3468870E-3308-4574-AC4C-AD28E753E862",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "4D5D3DF4-85E1-4FBC-BB49-EAA048BB184E" : {
+      "watch" : {
+        "name" : "Apple Watch Series 11 (42mm)",
+        "udid" : "64A38898-1BF1-421D-B4C5-42D2E4151B94",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone Air",
+        "udid" : "5A3E61E3-0ED4-46D4-9E97-FA2C78692495",
         "state" : "Shutdown"
       },
       "state" : "(active, disconnected)"
