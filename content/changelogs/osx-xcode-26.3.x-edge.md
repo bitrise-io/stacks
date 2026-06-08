@@ -14,7 +14,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-06-03`
+### Stack update `v2026-06-03` (released `2026-06-08`)
 
 - Android SDK Platform 37.0 added (android-34 removed)
 - Bitrise CLI upgrade: `2.40.0` → `2.40.4`
