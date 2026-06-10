@@ -33,7 +33,7 @@ Standardizes all pre-installed Android emulator system images to [16kb page size
 
 Initial release of this new Linux stack. The stack is based on [Ubuntu 26.04 LTS](https://documentation.ubuntu.com/release-notes/26.04/), with further customizations and changes by Bitrise.
 
-Compared to the previous Linux stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-edition), the following breaking changes could affect your builds:
+Compared to the previous Linux stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition]({{% ref "../stack_reports/ubuntu-noble-24.04-bitrise-2025-android.md" %}}), the following breaking changes could affect your builds:
 
 #### `ubuntu` as the default user
 

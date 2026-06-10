@@ -122,7 +122,7 @@ This is an update of the previous version (`2024W47-sonoma16`) with the followin
 - Xcode 16.1
 - Xcode 16.2
 
-For more details, see [the changelog of the Xcode 16.x stack](../../osx-xcode-16.0.x.md).
+For more details, see [the changelog of the Xcode 16.x stack](../osx-xcode-16.0.x.md).
 
 #### AMIs by Region
 
@@ -156,7 +156,7 @@ Updated stable stack [macOS Sonoma with Xcode 15.0-15.2](../../stack_reports/aws
 
 ### AMI version `2024W37-sonoma16edge`
 
-Added the edge stack [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16edge.md) with the following Xcode versions:
+Added the edge stack [macOS Sonoma with Xcode 16.0-16.1](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md) with the following Xcode versions:
 - Xcode 16.0 RC
 - Xcode 16.1 beta 1
 

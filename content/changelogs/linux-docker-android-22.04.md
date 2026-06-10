@@ -27,7 +27,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 ### Stack update `v2026-04-14` (released 2026-04-24)
 
 {{< hint warning >}}
-This stack is approaching its end-of-life and will be frozen soon according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). Consider migrating to the [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-edition) stack to continue receiving updates.
+This stack is approaching its end-of-life and will be frozen soon according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). Consider migrating to the [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-android) stack to continue receiving updates.
 {{< /hint >}}
 
 - Android emulator upgrade: `36.4.9` -> `36.5.10`
