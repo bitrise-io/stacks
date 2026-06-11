@@ -6,6 +6,7 @@ type: basic_page
 
 This AMI listing has multiple actively updated versions:
 
+- [macOS Tahoe with Xcode 26.4.1](../../stack_reports/aws/aws-mac-virtualized-tahoe26.md)
 - [macOS Sequoia with Xcode 26.0-26.2](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md)
 - [macOS Sequoia with Xcode 16.3-16.4](../../stack_reports/aws/aws-mac-virtualized-sequoia16.md)
 - [macOS Sonoma with Xcode 16.0-16.2](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md)
@@ -17,6 +18,21 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 {{< /hint >}}
 
 ## Updates
+
+### AMI version `2026W22-tahoe26`
+
+Updated version of the [macOS Tahoe-based stack](../../stack_reports/aws/aws-mac-virtualized-tahoe26.md) with the following Xcode versions:
+- Xcode 26.4.1
+
+#### AMIs by Region
+- **eu-west-1**:      ami-0b4c497ffc1f9c3a3
+- **eu-central-1**:   ami-08d90fdbdd0dc3469
+- **ca-central-1**:   ami-06312a31c9d5de123
+- **ap-southeast-1**: ami-07c5312b741e5ba85
+- **ap-southeast-2**: ami-0557c037341e2c3b6
+- **us-east-1**:      ami-0c66dc5a255177a92
+- **us-east-2**:      ami-0ee813d1d4d8f0a8e
+- **us-west-2**:      ami-0473046c0220ace11
 
 ### AMI version `2026W08-sequoia26`
 
