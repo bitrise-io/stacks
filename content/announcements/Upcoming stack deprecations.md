@@ -6,7 +6,7 @@ tags: []
 # DO update this date when adding a new stack deprecation
 # DON'T update when archiving one or making other minor changes because we
 # want to avoid an RSS feed update for unimportant changes
-date: 2026-06-10
+date: 2026-06-25
 ---
 
 Stacks are not kept forever, older stacks are eventually marked for removal. You can read more about this in our [stack deprecation and removal policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-deprecation-and-removal-policy.html).
@@ -21,6 +21,12 @@ While the stack is marked as deprecated, you can still run builds on it, but it'
 
 | Stack ID                             | Deprecated from | Removal date  | Automatic* migration to                 |
 | ------------------------------------ | --------------- | ------------- | --------------------------------------- |
+| **osx-xcode-26.0.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.0.x                        |
+| **osx-xcode-26.1.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.1.x                        |
+| **osx-xcode-26.2.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.2.x                        |
+| **osx-xcode-26.3.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.3.x                        |
+| **osx-xcode-26.4.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.4.x                        |
+| **osx-xcode-26.5.x-edge**            | 2026-07-01      | 2026-08-01    | osx-xcode-26.5.x                        |
 | **linux-docker-android-22.04**       | 2026-06-10      | 2027-04-08    | ubuntu-noble-2404-bitrise-2025-android  |
 | **osx-xcode-15.0.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
 | **osx-xcode-15.1.x**                 | 2025-10-01      | 2026-09-16    | osx-xcode-16.0.x                        |
