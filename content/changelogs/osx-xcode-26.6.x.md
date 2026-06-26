@@ -16,4 +16,4 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-06-26`
 
-Initial stack release with [Xcode 26.6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_6-release-notes) (build `17F113`) on macOS 26.4 (25E246)
+Initial stack release with [Xcode 26.6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_6-release-notes) (build `17F113`) on macOS 26.2 (25C56)
