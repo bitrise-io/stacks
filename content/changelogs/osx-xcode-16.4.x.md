@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-30` (released 2026-06-30)
+
+- New preinstalled CLI tools: `ffmpeg`, `tmux`, `uv`
+- Android SDK component `platforms;android-37.0` is now preinstalled
+
 ### Stack update `v2026-02-20` (released 2026-03-03)
 
 - The preinstalled Ruby versions are now built with `--enable-shared`. The `--disable-shared` option was required for compatibility with a past version of Xcode, but it is no longer necessary. Using `--enable-shared` allows Ruby gems with native extensions that depend on the shared Ruby library to work properly.
