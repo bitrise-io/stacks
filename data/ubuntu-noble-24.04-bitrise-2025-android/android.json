@@ -21,7 +21,7 @@
           "name": "Fastlane",
           "category": "android",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.235.0/bin/fastlane\n-----------------------------\nfastlane 2.235.0",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.235.0/bin/fastlane\n-----------------------------\nfastlane 2.235.0\n\n#######################################################################\n# fastlane 2.236.1 is available. You are on 2.235.0.\n# You should use the latest version.\n# Please update using `gem install fastlane`.\n#######################################################################",
           "executed_command": "fastlane --version"
         }
       ],
