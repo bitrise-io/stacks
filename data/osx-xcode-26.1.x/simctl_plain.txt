@@ -255,6 +255,18 @@ visionOS 26.2 (26.2 - 23N301) - com.apple.CoreSimulator.SimRuntime.xrOS-26-2
     Apple Vision Pro (87483B4F-3787-42B2-BF89-0E4D299D6580) (Shutdown) 
 -- visionOS 26.2 --
     Apple Vision Pro (5CF3B51F-31F5-48A8-B0D7-0BA0CE87AB82) (Shutdown) 
+-- Unavailable: com.apple.CoreSimulator.SimRuntime.iOS-26-3 --
+    iPhone 17 Pro (3BCA6AA9-F1C2-4729-8166-9DBBA7612AF5) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 17 Pro Max (C3E37FA2-9EE5-4FF5-B589-EB4638F691DA) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone Air (95A38B7E-79F6-4ED2-9264-C50738F34100) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 17 (658C6D60-F99F-44D0-A1CC-0FA6D9F8ED36) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPhone 16e (37A025DD-F4ED-4D2B-B844-85BAD0C138F9) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Pro 13-inch (M5) (7264AECF-7BE9-4F34-B443-57D41B46C0C4) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Pro 11-inch (M5) (8609954F-066E-4843-BD95-DCAB1875929E) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad mini (A17 Pro) (105C3A9C-1275-458C-98D6-E09A523804F2) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad (A16) (541E1FE1-C2FE-43F2-88E0-09D740E46733) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Air 13-inch (M3) (6BC984D2-1286-429B-94F6-EBDA50009A39) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
+    iPad Air 11-inch (M3) (8FEAADAD-2BAE-4052-98C5-AB1296854EE4) (Shutdown) (unavailable, runtime profile not found using "System" match policy)
 == Device Pairs ==
 C64B3A9E-D649-4BB2-BF38-8EBE47661B7C (active, disconnected)
     Watch: Apple Watch Series 10 (42mm) (295F97BA-0446-47DC-9846-FACE5FD6D2AF) (Shutdown)
