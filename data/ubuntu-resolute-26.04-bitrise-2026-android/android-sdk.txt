@@ -1,15 +1,15 @@
   Path                                                | Version       | Description                                                | Location                                           
   -------                                             | -------       | -------                                                    | -------                                            
-  build-tools;36.0.0                                  | 36.0.0        | Android SDK Build-Tools 36                                 | build-tools/36.0.0                                 
-  emulator                                            | 36.5.11       | Android Emulator                                           | emulator                                           
+  build-tools;37.0.0                                  | 37.0.0        | Android SDK Build-Tools 37                                 | build-tools/37.0.0                                 
+  emulator                                            | 36.6.11       | Android Emulator                                           | emulator                                           
   ndk;27.1.12297006                                   | 27.1.12297006 | NDK (Side by side) 27.1.12297006                           | ndk/27.1.12297006                                  
   ndk;27.3.13750724                                   | 27.3.13750724 | NDK (Side by side) 27.3.13750724                           | ndk/27.3.13750724                                  
   platform-tools                                      | 37.0.0        | Android SDK Platform-Tools                                 | platform-tools                                     
   platforms;android-35                                | 2             | Android SDK Platform 35                                    | platforms/android-35                               
   platforms;android-36                                | 2             | Android SDK Platform 36                                    | platforms/android-36                               
-  platforms;android-37.0                              | 1             | Android SDK Platform 37.0                                  | platforms/android-37.0                             
+  platforms;android-37.0                              | 2             | Android SDK Platform 37.0                                  | platforms/android-37.0                             
   system-images;android-35;aosp_atd;x86_64            | 1             | AOSP ATD Intel x86_64 Atom System Image                    | system-images/android-35/aosp_atd/x86_64           
   system-images;android-35;google_apis_ps16k;x86_64   | 5             | 16 KB Page Size Google APIs Intel x86_64 Atom System Image | system-images/android-35/google_apis_ps16k/x86_64  
   system-images;android-36;google_apis_ps16k;x86_64   | 7             | 16 KB Page Size Google APIs Intel x86_64 Atom System Image | system-images/android-36/google_apis_ps16k/x86_64  
-  system-images;android-37.0;google_apis_ps16k;x86_64 | 4             | 16 KB Page Size Google APIs Intel x86_64 Atom System Image | system-images/android-37.0/google_apis_ps16k/x86_64
+  system-images;android-37.0;google_apis_ps16k;x86_64 | 6             | 16 KB Page Size Google APIs Intel x86_64 Atom System Image | system-images/android-37.0/google_apis_ps16k/x86_64
 
