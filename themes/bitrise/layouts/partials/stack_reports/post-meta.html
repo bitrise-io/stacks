@@ -1,4 +1,35 @@
-<p>Stack ID: <code>{{ .Page.File.BaseFileName }}</code></p>
+<p>Stack ID:
+  <code class="stack-id-copy" role="button" tabindex="0" title="Click to copy"
+        data-stack-id="{{ .Page.File.BaseFileName }}">{{ .Page.File.BaseFileName }}</code>
+  <span class="stack-id-copied" hidden>Copied</span>
+</p>
+
+<style>
+.stack-id-copy { cursor: pointer; }
+.stack-id-copy:hover { text-decoration: underline; }
+</style>
+
+<script>
+(function () {
+  function copyStackId(el) {
+    var text = el.getAttribute("data-stack-id");
+    var feedback = el.parentNode.querySelector(".stack-id-copied");
+    var done = function () {
+      if (!feedback) return;
+      feedback.hidden = false;
+      setTimeout(function () { feedback.hidden = true; }, 1500);
+    };
+    if (!navigator.clipboard) return;
+    navigator.clipboard.writeText(text).then(done).catch(function () {});
+  }
+  document.querySelectorAll(".stack-id-copy").forEach(function (el) {
+    el.addEventListener("click", function () { copyStackId(el); });
+    el.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); copyStackId(el); }
+    });
+  });
+})();
+</script>
 {{ $stack_rev_file := printf "data/%s/stack_rev_id.txt" .Page.File.BaseFileName }}
 {{ $stack_rev_id := readFile $stack_rev_file }}
 <p>Current stack revision: <code>{{ $stack_rev_id }}</code></p>
