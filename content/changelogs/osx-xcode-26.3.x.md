@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-30` (released 2026-07-02)
+
+- New preinstalled CLI tools: `ffmpeg`, `tmux`, `uv`
+- Android SDK component `platforms;android-37.0` is now preinstalled
+
 ### Stack update `v2025-02-26` (released 2026-02-27)
 
 Initial stack release with [Xcode 26.3](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_3-release-notes) (build `17C529`)

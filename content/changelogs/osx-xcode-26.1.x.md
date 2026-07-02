@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-06-30` (released 2026-07-02)
+
+- New preinstalled CLI tools: `ffmpeg`, `tmux`, `uv`
+- Android SDK component `platforms;android-37.0` is now preinstalled
+
 ### Stack update `v2026-02-26` (released 2026-02-27)
 
 - Added ndk version: `27.1.12297006`
