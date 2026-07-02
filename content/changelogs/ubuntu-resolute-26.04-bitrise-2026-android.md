@@ -12,6 +12,23 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-06-30`
+
+Adds Android SDK Build-Tools 37 and removes Build-Tools 36.
+
+- Android Emulator upgrade: `36.5.11` -> `36.6.11`
+- Fastlane upgrade: `2.235.0` -> `2.236.1`
+- AWS CLI upgrade: `2.34.56` -> `2.35.12`
+- Docker upgrade: `29.5.2` -> `29.6.1`
+- Docker Compose upgrade: `5.1.4` -> `5.2.0`
+- Firebase CLI upgrade: `15.19.0` -> `15.22.3`
+- GitHub CLI upgrade: `2.93.0` -> `2.95.0`
+- Google Cloud CLI upgrade: `570.0.0` -> `575.0.0`
+- Bitrise CLI upgrade: `2.40.4` -> `2.40.8`
+- uv upgrade: `0.11.17` -> `0.11.26`
+- yq upgrade: `4.53.2` -> `4.53.3`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-06-01`
 
 Adds Android SDK 37 and removes Android SDK 34.
