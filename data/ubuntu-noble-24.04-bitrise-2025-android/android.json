@@ -13,15 +13,15 @@
         {
           "name": "Emulator version",
           "category": "android",
-          "version": "36.5.11",
-          "raw_output": "Pkg.Revision=36.5.11",
+          "version": "36.6.11",
+          "raw_output": "Pkg.Revision=36.6.11",
           "executed_command": "grep ^Pkg.Revision \"${ANDROID_HOME}\"/emulator/source.properties"
         },
         {
           "name": "Fastlane",
           "category": "android",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.235.0/bin/fastlane\n-----------------------------\nfastlane 2.235.0",
+          "raw_output": "fastlane installation at path:\n/root/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.236.1/bin/fastlane\n-----------------------------\nfastlane 2.236.1",
           "executed_command": "fastlane --version"
         }
       ],

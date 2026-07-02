@@ -14,7 +14,7 @@
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       285G  109G  176G  39% /bitrise",
+          "raw_output": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/vda1       285G  109G  177G  39% /bitrise",
           "executed_command": "df -kH /bitrise/src"
         },
         {
