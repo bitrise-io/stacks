@@ -12,6 +12,13 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-06-30`
+
+- Android SDK build-tools upgrade: `36.0.0` -> `37.0.0`
+- Android emulator upgrade: `36.5.11` -> `36.6.11`
+- Fastlane upgrade: `2.235.0` -> `2.236.1`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-06-01`
 
 - Adds Android SDK 37 and associated emulator system image. Android 37 emulator is a [16kb page size](https://developer.android.com/guide/practices/page-sizes) emulator.
