@@ -18,7 +18,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - New preinstalled CLI tools: `ffmpeg`, `tmux`, `uv`
 - Android SDK component `ndk;27.1.12297006` is now preinstalled, matching the current React Native default
-- Android SDK component `platforms;android-37.0` is now preinstalled
+- Android SDK component `platforms;android-35` is now preinstalled
 
 ### Stack update `v2026-02-20` (released 2026-02-23)
 
