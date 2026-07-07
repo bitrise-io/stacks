@@ -126,12 +126,12 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 == Runtimes ==
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
-iOS 27.0 (27.0 - 24A5370g) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
-tvOS 27.0 (27.0 - 24J5305f) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
+iOS 27.0 (27.0 - 24A5380g) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
+tvOS 27.0 (27.0 - 24J5315h) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 watchOS 11.5 (11.5 - 22T572) - com.apple.CoreSimulator.SimRuntime.watchOS-11-5
 watchOS 26.5 (26.5 - 23T570) - com.apple.CoreSimulator.SimRuntime.watchOS-26-5
-watchOS 27.0 (27.0 - 24R5289n) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
-visionOS 27.0 (27.0 - 24M5306g) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
+watchOS 27.0 (27.0 - 24R5315h) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
+visionOS 27.0 (27.0 - 24M5316i) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
 == Devices ==
 -- iOS 18.6 --
     iPhone 16 Pro (502DB863-09AC-481A-A1CB-2A232A59AACB) (Shutdown) 
