@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-07-21`
+
+- [Xcode 27.0 Beta 4](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A5228h`) on macOS 26.5.1 (25F80)
+- Kotlin upgrade: `2.4.0` → `2.4.10`
+- Bitrise CLI upgrade: `2.40.8` → `2.42.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-07-07`
 
 - [Xcode 27.0 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A5218g`) on macOS 26.5.1 (25F80)
