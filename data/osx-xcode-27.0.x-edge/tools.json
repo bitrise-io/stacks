@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.35.16",
-          "raw_output": "aws-cli/2.35.16 Python/3.14.6 Darwin/25.5.0 source/arm64",
+          "version": "2.36.4",
+          "raw_output": "aws-cli/2.36.4 Python/3.14.6 Darwin/25.5.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -56,7 +56,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\n   package pre-commit 4.6.0, installed using Python 3.14.5\n    - pre-commit\n   package uv 0.11.19, installed using Python 3.14.5\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.5\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/.local/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\nshell completions are exposed at /Users/vagrant/.local/share\n   package pre-commit 4.6.0, installed using Python 3.14.5\n    - pre-commit\n   package uv 0.11.19, installed using Python 3.14.5\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.5\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -69,8 +69,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.22.4",
-          "raw_output": "15.22.4",
+          "version": "15.24.0",
+          "raw_output": "15.24.0",
           "executed_command": "firebase --version"
         },
         {
@@ -83,8 +83,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.3.4",
-          "raw_output": "cmake version 4.3.4\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.4.0",
+          "raw_output": "cmake version 4.4.0\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
@@ -97,8 +97,8 @@
         {
           "name": "ripgrep",
           "category": "tools",
-          "version": "15.1.0",
-          "raw_output": "ripgrep 15.1.0\n\nfeatures:+pcre2\nsimd(compile):+NEON\nsimd(runtime):+NEON\n\nPCRE2 10.45 is available (JIT is available)",
+          "version": "15.2.0",
+          "raw_output": "ripgrep 15.2.0\n\nfeatures:+pcre2\nsimd(compile):+NEON\nsimd(runtime):+NEON\n\nPCRE2 10.45 is available (JIT is available)",
           "executed_command": "rg --version"
         },
         {
