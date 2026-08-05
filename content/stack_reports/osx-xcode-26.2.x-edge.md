@@ -5,6 +5,7 @@ platform: macOS
 xcode: "26.2"
 flavor: edge
 weight: 30
+removal_date: 2026-08-06
 ---
 
 ## Languages and runtimes
