@@ -3,7 +3,7 @@ title: Xcode 15.4
 summary: macOS stack for building with Xcode 15.4
 platform: macOS
 xcode: "15.4"
-flavor: stable
+flavor: frozen
 weight: 10
 removal_date: 2026-09-16
 ---
