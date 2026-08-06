@@ -23,4 +23,4 @@ We recommend migrating each workflow to a currently supported stack. The replace
 
 Ahead of the removal, any remaining projects with their `bitrise.yml` stored on bitrise.io will be migrated automatically to `osx-xcode-16.0.x`. If your `bitrise.yml` is committed to your git repository, please update the stack before September 16, 2026.
 
-Since the automatic migration target is a newer major Xcode version, an auto-migrated build may compile and behave differently — it prevents a hard failure, but it isn't a guarantee your build still passes. Migrate and test deliberately rather than relying on it.
+Since the automatic migration target is a newer major Xcode version, an auto-migrated build may fail. For example, it may tests target an older simulator not present on the newer stack. It is best to test by hard well in advance of the removal date. 
