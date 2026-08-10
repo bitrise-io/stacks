@@ -3,7 +3,7 @@ title: Xcode 15.3
 summary: macOS stack for building with Xcode 15.3
 platform: macOS
 xcode: "15.3"
-flavor: stable
+flavor: frozen
 weight: 9
 removal_date: 2026-09-16
 ---

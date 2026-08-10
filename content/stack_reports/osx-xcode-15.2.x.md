@@ -3,7 +3,7 @@ title: Xcode 15.2
 summary: macOS stack for building with Xcode 15.2
 platform: macOS
 xcode: "15.2"
-flavor: stable
+flavor: frozen
 weight: 8
 removal_date: 2026-09-16
 ---

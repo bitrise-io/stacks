@@ -3,7 +3,7 @@ title: Xcode 15.1
 summary: macOS stack for building with Xcode 15.1
 platform: macOS
 xcode: "15.1"
-flavor: stable
+flavor: frozen
 weight: 7
 removal_date: 2026-09-16
 ---
