@@ -14,7 +14,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-07-21`
+### Stack update `v2026-08-11`
 
 - [Xcode 27.0 Beta 5](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A5237l`) on macOS 26.6.1 (25G76)
 - OS update 26.6.1 to address [Screen Sharing](https://support.apple.com/en-us/148170) vulnerability
