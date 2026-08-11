@@ -6,8 +6,8 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.42.0",
-          "raw_output": "2.42.0",
+          "version": "2.42.2",
+          "raw_output": "2.42.2",
           "executed_command": "bitrise --version"
         },
         {
@@ -27,8 +27,8 @@
         {
           "name": "Bitrise guest agent",
           "category": "bitrise",
-          "version": "2.2.0",
-          "raw_output": "Bitrise Virtualization Guest Agent v2.2.0\n2026/07/21 14:25:05 guest agent shut down",
+          "version": "2.10.1",
+          "raw_output": "Bitrise Virtualization Guest Agent v2.10.1\n2026/08/11 12:12:01 guest agent shut down",
           "executed_command": "/opt/bitrise/virtualization/bin/guest-agent version"
         }
       ],
