@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-08-11`
+
+- OS update 26.6.1 to address [Screen Sharing](https://support.apple.com/en-us/148170) vulnerability
+- Bitrise CLI upgrade: `2.40.7` → `2.42.2`
+- Bitrise guest agent upgrade: `2.2.0` → `2.10.1`
+- Homebrew package upgrades
+
 ### Stack update `v2026-06-26`
 
 Initial stack release with [Xcode 26.6](https://developer.apple.com/documentation/xcode-release-notes/xcode-26_6-release-notes) (build `17F113`) on macOS 26.2 (25C56)
