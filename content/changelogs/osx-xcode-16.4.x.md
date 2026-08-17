@@ -20,7 +20,6 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 - Bitrise CLI upgrade: `2.40.7` → `2.42.2`
 - Bitrise guest agent upgrade: `2.2.0` → `2.10.1`
 - OpenSSH upgrade: `9.9p1` → `9.9p2`
-- Homebrew package upgrades
 
 ### Stack update `v2026-06-30` (released 2026-06-30)
 
