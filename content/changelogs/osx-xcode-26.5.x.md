@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-08-13` released on `2026-08-17`
+
+- Fix: Register the simulator app with launch services.
+
 ### Stack update `v2026-08-11`
 
 - OS update 26.6.1 to address [Screen Sharing](https://support.apple.com/en-us/148170) vulnerability
