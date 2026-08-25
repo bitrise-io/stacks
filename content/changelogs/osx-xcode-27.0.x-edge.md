@@ -18,6 +18,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 - [Xcode 27.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A5252f`) on macOS 26.6.1 (25G76)
 - Homebrew package upgrades
+- Tuist updated to `4.202.0`
 
 
 ### Stack update `v2026-08-11`
