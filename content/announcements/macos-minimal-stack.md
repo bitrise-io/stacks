@@ -3,7 +3,7 @@ title: "New stack: macOS minimal"
 type: basic_page
 ---
 
-[macOS minimal](https://stacks.bitrise.io/stack_reports/osx-minimal/) (`osx-minimal`) is now available. It's a trimmed-down macOS stack created for teams that building and testing macOS apps.
+[macOS minimal](https://bitrise.io/stacks/stack_reports/osx-minimal/) (`osx-minimal`) is now available. It's a trimmed-down macOS stack created for teams that building and testing macOS apps.
 
 This stack carries less than our Xcode stacks do. Most notably, it ships without simulator runtimes and android tooling.
 
