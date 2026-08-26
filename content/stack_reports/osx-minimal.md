@@ -2,7 +2,7 @@
 title: macOS minimal
 summary: macOS stack without Xcode, for builds that don't need Apple developer tooling
 platform: macOS
-flavor: stable
+flavor: edge
 weight: 31
 ---
 
