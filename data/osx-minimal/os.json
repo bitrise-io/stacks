@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 27.0 (26A5406e)\n      Kernel Version: Darwin 27.0.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-goldengate-g2.mac.m4pro.14c-54g-f78d3304-5200-491b-9492-b79cc76c7ea3\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 25 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 27.0 (26A5421a)\n      Kernel Version: Darwin 27.0.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-goldengate-g2.mac.m4pro.14c-54g-294082f8-3e18-4b59-8bbb-f034582bcc55\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 29 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1    128G     13G     52G    20%    481k  510M    0%   /",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1    128G     13G     52G    20%    483k  511M    0%   /",
           "executed_command": "df -H /"
         },
         {
