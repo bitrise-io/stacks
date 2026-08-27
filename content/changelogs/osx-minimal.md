@@ -20,6 +20,11 @@ Please note:
 
 ## Updates
 
+### Stack update `v2026-08-26`
+
+- Update macOS 27.0 to beta 7 (`26A5421a`)
+- Homebrew package upgrades
+
 ### Stack update `v2026-08-25`
 
 Update macOS 27.0 to beta 5 (`26A5406e`).
