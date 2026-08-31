@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.97.0",
-          "raw_output": "gh version 2.97.0 (2026-07-31)\nhttps://github.com/cli/cli/releases/tag/v2.97.0",
+          "version": "2.98.0",
+          "raw_output": "gh version 2.98.0 (2026-08-20)\nhttps://github.com/cli/cli/releases/tag/v2.98.0",
           "executed_command": "gh --version"
         },
         {
@@ -34,29 +34,29 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.53.3",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.53.3",
+          "version": "4.53.6",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.53.6",
           "executed_command": "yq --version"
         },
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.36.24",
-          "raw_output": "aws-cli/2.36.24 Python/3.14.7 Darwin/27.0.0 source/arm64",
+          "version": "2.36.31",
+          "raw_output": "aws-cli/2.36.31 Python/3.14.7 Darwin/27.0.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "580.0.0",
-          "raw_output": "Google Cloud SDK 580.0.0\nbq 2.1.36\nbundled-python3-unix 3.14.6\ncore 2026.08.07\ngcloud-crc32c 1.0.0\ngsutil 5.37",
+          "version": "581.0.0",
+          "raw_output": "Google Cloud SDK 581.0.0\nbq 2.1.37\nbundled-python3-unix 3.14.6\ncore 2026.08.14\ngcloud-crc32c 1.0.0\ngsutil 5.37",
           "executed_command": "gcloud version"
         },
         {
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/Library/Application Support/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\nshell completions are exposed at /Users/vagrant/.local/share\n   package pre-commit 4.6.2, installed using Python 3.14.7\n    - pre-commit\n   package uv 0.12.5, installed using Python 3.14.7\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.7\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/Library/Application Support/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\nshell completions are exposed at /Users/vagrant/.local/share\n   package pre-commit 4.6.2, installed using Python 3.14.7\n    - pre-commit\n   package uv 0.12.6, installed using Python 3.14.7\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.7\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.4.2",
-          "raw_output": "cmake version 4.4.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.4.3",
+          "raw_output": "cmake version 4.4.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
