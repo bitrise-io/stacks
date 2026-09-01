@@ -14,6 +14,16 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-01`
+
+- iOS 18.6 simulator runtime installed on the stack
+- New preinstalled CLI tools: `1Password CLI`, `Sentry CLI`
+- Flutter upgraded: `3.38.7` → `3.47.0`
+- Node.js, Go, and Ruby asdf runtimes upgraded; Node.js `26.7.0` added
+- Android SDK: `build-tools` upgraded to `37.0.0`, NDK upgraded to `27.3.13750724`, `platforms;android-37.1` added, `platforms;android-35` removed
+- Tuist updated to `4.205.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-08-25`
 
 - [Xcode 27.0 Beta 6](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A5252f`) on macOS 26.6.1 (25G76)
