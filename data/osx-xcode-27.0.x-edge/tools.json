@@ -13,8 +13,8 @@
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.7.1",
-          "raw_output": "git-lfs/3.7.1 (GitHub; darwin arm64; go 1.25.3)",
+          "version": "3.8.0",
+          "raw_output": "git-lfs/3.8.0 (GitHub; darwin arm64; go 1.27.0)",
           "executed_command": "git-lfs version"
         },
         {
@@ -41,15 +41,15 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.36.30",
-          "raw_output": "aws-cli/2.36.30 Python/3.14.7 Darwin/25.6.0 source/arm64",
+          "version": "2.36.36",
+          "raw_output": "aws-cli/2.36.36 Python/3.14.7 Darwin/25.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "579.0.0",
-          "raw_output": "Google Cloud SDK 579.0.0\nbq 2.1.36\nbundled-python3-unix 3.14.6\ncore 2026.07.31\ngcloud-crc32c 1.0.0\ngsutil 5.37",
+          "version": "582.0.0",
+          "raw_output": "Google Cloud SDK 582.0.0\nbq 2.1.37\nbundled-python3-unix 3.14.7\ncore 2026.08.21\ngcloud-crc32c 1.0.0\ngsutil 5.37",
           "executed_command": "gcloud version"
         },
         {
@@ -63,7 +63,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /Users/vagrant/Library/Application Support/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\nshell completions are exposed at /Users/vagrant/.local/share\n   package pre-commit 4.6.2, installed using Python 3.14.6\n    - pre-commit\n   package uv 0.12.3, installed using Python 3.14.6\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.6\n    - yamllint",
+          "raw_output": "venvs are in /Users/vagrant/Library/Application Support/pipx/venvs\napps are exposed on your $PATH at /Users/vagrant/.local/bin\nmanual pages are exposed at /Users/vagrant/.local/share/man\nshell completions are exposed at /Users/vagrant/.local/share\n   package pre-commit 4.6.2, installed using Python 3.14.7\n    - pre-commit\n   package uv 0.12.7, installed using Python 3.14.7\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.7\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -76,9 +76,16 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.28.1",
-          "raw_output": "15.28.1",
+          "version": "15.28.2",
+          "raw_output": "15.28.2",
           "executed_command": "firebase --version"
+        },
+        {
+          "name": "1Password CLI",
+          "category": "tools",
+          "version": "2.39.0",
+          "raw_output": "2.39.0",
+          "executed_command": "op --version"
         },
         {
           "name": "OpenConnect",
@@ -90,15 +97,15 @@
         {
           "name": "CMake",
           "category": "tools",
-          "version": "4.4.2",
-          "raw_output": "cmake version 4.4.2\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
+          "version": "4.4.3",
+          "raw_output": "cmake version 4.4.3\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).",
           "executed_command": "cmake --version"
         },
         {
           "name": "OpenVPN",
           "category": "tools",
           "version": "2.7.6",
-          "raw_output": "OpenVPN 2.7.6 aarch64-apple-darwin25.6.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.6.3 9 Jun 2026, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2026 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_dns_updown_by_default=yes enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_ntlm=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
+          "raw_output": "OpenVPN 2.7.6 aarch64-apple-darwin25.6.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.6.4 25 Aug 2026, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2026 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_dns_updown_by_default=yes enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_ntlm=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
           "executed_command": "openvpn --version"
         },
         {
@@ -126,8 +133,15 @@
           "name": "Fastlane",
           "category": "tools",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/3.4.8/lib/ruby/gems/3.4.0/gems/fastlane-2.238.0/bin/fastlane\n-----------------------------\nfastlane 2.238.0",
+          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.238.0/bin/fastlane\n-----------------------------\nfastlane 2.238.0",
           "executed_command": "fastlane --version"
+        },
+        {
+          "name": "Sentry CLI",
+          "category": "tools",
+          "version": "3.7.0",
+          "raw_output": "sentry-cli 3.7.0",
+          "executed_command": "sentry-cli --version"
         }
       ],
       "errors": null
