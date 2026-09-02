@@ -13,8 +13,8 @@
         {
           "name": "Bitrise stepman",
           "category": "bitrise",
-          "version": "0.18.4",
-          "raw_output": "0.18.4",
+          "version": "0.18.7",
+          "raw_output": "0.18.7",
           "executed_command": "stepman --version"
         },
         {
@@ -28,7 +28,7 @@
           "name": "Bitrise guest agent",
           "category": "bitrise",
           "version": "2.10.1",
-          "raw_output": "Bitrise Virtualization Guest Agent v2.10.1\n2026/08/25 12:20:02 guest agent shut down",
+          "raw_output": "Bitrise Virtualization Guest Agent v2.10.1\n2026/09/01 21:33:23 guest agent shut down",
           "executed_command": "/opt/bitrise/virtualization/bin/guest-agent version"
         }
       ],
