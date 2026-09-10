@@ -1,4 +1,6 @@
 == Device Types ==
+iPhone 18 Pro (com.apple.CoreSimulator.SimDeviceType.iPhone-18-Pro)
+iPhone 18 Pro Max (com.apple.CoreSimulator.SimDeviceType.iPhone-18-Pro-Max)
 iPhone 17 Pro (com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro)
 iPhone 17 Pro Max (com.apple.CoreSimulator.SimDeviceType.iPhone-17-Pro-Max)
 iPhone 17e (com.apple.CoreSimulator.SimDeviceType.iPhone-17e)
@@ -91,6 +93,9 @@ Apple TV 4K (2nd generation) (at 1080p) (com.apple.CoreSimulator.SimDeviceType.A
 Apple TV 4K (com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-4K)
 Apple TV 4K (at 1080p) (com.apple.CoreSimulator.SimDeviceType.Apple-TV-4K-1080p)
 Apple TV (com.apple.CoreSimulator.SimDeviceType.Apple-TV-1080p)
+Apple Watch Series 12 (46mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-12-46mm)
+Apple Watch Series 12 (42mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-12-42mm)
+Apple Watch Ultra 4 (49mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Ultra-4-49mm)
 Apple Watch Series 11 (46mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-46mm)
 Apple Watch Series 11 (42mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-11-42mm)
 Apple Watch Series 10 (46mm) (com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-10-46mm)
@@ -126,11 +131,11 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 == Runtimes ==
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
-iOS 27.0 (27.0 - 24A5423a) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
-tvOS 27.0 (27.0 - 24J5356a) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
+iOS 27.0 (27.0 - 24A434) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
+tvOS 27.0 (27.0 - 24J360) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 watchOS 26.5 (26.5 - 23T570) - com.apple.CoreSimulator.SimRuntime.watchOS-26-5
-watchOS 27.0 (27.0 - 24R5355a) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
-visionOS 27.0 (27.0 - 24M5357a) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
+watchOS 27.0 (27.0 - 24R362) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
+visionOS 27.0 (27.0 - 24M362) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
 == Devices ==
 -- iOS 18.6 --
     iPhone 16 Pro (776FF7A9-662F-4E24-BE0B-565409BB2375) (Shutdown) 
@@ -159,6 +164,8 @@ visionOS 27.0 (27.0 - 24M5357a) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
     iPad Air 11-inch (M4) (07A340F4-F071-4FDC-894B-E834AF3011D0) (Shutdown) 
     iPad (A16) (6DD2DA6F-4BE1-4471-8DA8-36D364ECADB7) (Shutdown) 
 -- iOS 27.0 --
+    iPhone 18 Pro (8B432089-A08D-413D-8D78-90AA9AACFBFB) (Shutdown) 
+    iPhone 18 Pro Max (35BC6402-8E83-4EE2-8875-24F0810D7667) (Shutdown) 
     iPhone 17 Pro (03F23FC3-24E9-4F64-B851-DF3F4F90AF78) (Shutdown) 
     iPhone 17 Pro Max (4DDB86F3-1B55-49D8-A4BE-180C8D332536) (Shutdown) 
     iPhone 17e (259F95D3-C6D8-4673-BCEB-EE529AC8B225) (Shutdown) 
@@ -181,6 +188,9 @@ visionOS 27.0 (27.0 - 24M5357a) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
     Apple Watch SE 3 (44mm) (19535A4C-BF30-426E-9B6F-E97C28B456BF) (Shutdown) 
     Apple Watch SE 3 (40mm) (A36C310D-21A8-41D2-B699-499E2B2A6C3B) (Shutdown) 
 -- watchOS 27.0 --
+    Apple Watch Series 12 (46mm) (EC16AED5-88DE-4362-A54C-0BD69A8308EA) (Shutdown) 
+    Apple Watch Series 12 (42mm) (6388A5B8-E81D-4D4B-B5FB-A5659F351E08) (Shutdown) 
+    Apple Watch Ultra 4 (49mm) (B4881908-0DAA-435C-AF36-D114F45586AF) (Shutdown) 
     Apple Watch Series 11 (46mm) (77976659-5C1C-44FA-A974-25198222F167) (Shutdown) 
     Apple Watch Series 11 (42mm) (7B7ACFCF-88CF-424D-B757-DE39B73C07E2) (Shutdown) 
     Apple Watch Ultra 3 (49mm) (42F5240E-5E19-490F-9F36-7B517E95F26F) (Shutdown) 
@@ -189,12 +199,15 @@ visionOS 27.0 (27.0 - 24M5357a) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
 -- visionOS 27.0 --
     Apple Vision Pro (44A20366-5212-421F-859A-4AFBC354B60F) (Shutdown) 
 == Device Pairs ==
+031729AF-F098-42EB-B9C1-ECA4086FC8EC (active, disconnected)
+    Watch: Apple Watch Series 12 (46mm) (EC16AED5-88DE-4362-A54C-0BD69A8308EA) (Shutdown)
+    Phone: iPhone 18 Pro Max (35BC6402-8E83-4EE2-8875-24F0810D7667) (Shutdown)
+DE77A0F7-3979-4F2B-9EB3-64F27173ECDB (active, disconnected)
+    Watch: Apple Watch Series 12 (42mm) (6388A5B8-E81D-4D4B-B5FB-A5659F351E08) (Shutdown)
+    Phone: iPhone Air (F8119AB1-7CCA-4FA0-B52F-9A1A14ABB9EC) (Shutdown)
+6AC36ED3-7196-4143-8C7D-B53B3462B922 (active, disconnected)
+    Watch: Apple Watch Ultra 4 (49mm) (B4881908-0DAA-435C-AF36-D114F45586AF) (Shutdown)
+    Phone: iPhone 17 (0D8B5119-2C11-44E5-BB99-520B354CDFC8) (Shutdown)
 547DF8DF-1844-4A2E-84CF-AC521BD604A8 (active, disconnected)
     Watch: Apple Watch Series 11 (46mm) (77976659-5C1C-44FA-A974-25198222F167) (Shutdown)
     Phone: iPhone 17 Pro Max (4DDB86F3-1B55-49D8-A4BE-180C8D332536) (Shutdown)
-08691CFA-3FA2-498B-901C-91C4D6FE1B3E (active, disconnected)
-    Watch: Apple Watch Series 11 (42mm) (7B7ACFCF-88CF-424D-B757-DE39B73C07E2) (Shutdown)
-    Phone: iPhone Air (F8119AB1-7CCA-4FA0-B52F-9A1A14ABB9EC) (Shutdown)
-991FDA0D-9270-4DA3-A3A0-816CB9016596 (active, disconnected)
-    Watch: Apple Watch Ultra 3 (49mm) (42F5240E-5E19-490F-9F36-7B517E95F26F) (Shutdown)
-    Phone: iPhone 17 (0D8B5119-2C11-44E5-BB99-520B354CDFC8) (Shutdown)
