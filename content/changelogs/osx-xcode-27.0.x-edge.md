@@ -14,6 +14,14 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-10`
+
+- [Xcode 27.0 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A266a`) on macOS 26.6.1 (25G76)
+- New iOS 27.0 simulator device types: iPhone 18 Pro, iPhone 18 Pro Max, Apple Watch Series 12 (46mm/42mm), Apple Watch Ultra 4 (49mm)
+- Kotlin upgraded: `2.4.10` → `2.4.20`
+- danger-swift updated to `3.23.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-01`
 
 - iOS 18.6 simulator runtime installed on the stack
