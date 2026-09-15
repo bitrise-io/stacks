@@ -1,5 +1,5 @@
 ---
-title: Xcode 26.1 with changelog
+title: Xcode 26.1 changelog
 summary: Changelog of stack updates
 type: basic_page
 ---
