@@ -6,6 +6,7 @@ animate Sep 10 00:03:16 2026
 annotate Aug 31 20:45:50 2026
 aomdec Sep 10 00:03:16 2026
 aomenc Sep 10 00:03:16 2026
+applesimutils Aug 31 20:20:11 2026
 applygnupgdefaults Sep 1 13:54:06 2026
 argon2 Aug 31 20:45:49 2026
 aria2c Aug 31 20:20:42 2026

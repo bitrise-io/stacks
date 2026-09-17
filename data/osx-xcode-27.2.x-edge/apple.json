@@ -21,7 +21,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b487c055c718ede8b37e1fb478ee25de9881239d.asset/AssetData\nBuild Version: 27B5019j\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.2\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.5019.10.fo8gZq",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b487c055c718ede8b37e1fb478ee25de9881239d.asset/AssetData\nBuild Version: 27B5019j\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.2\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.5019.10.v4ryfY",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -109,6 +109,13 @@
           "executed_command": "xcpretty --version"
         },
         {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.12",
+          "raw_output": "applesimutils version 0.9.12",
+          "executed_command": "applesimutils -v"
+        },
+        {
           "name": "danger-swift",
           "category": "apple",
           "version": "3.23.0",
@@ -130,12 +137,7 @@
           "executed_command": "xclogparser version"
         }
       ],
-      "errors": [
-        {
-          "name": "applesimutils",
-          "error": "exit status 127: zsh:1: command not found: applesimutils\n"
-        }
-      ]
+      "errors": null
     }
   }
 ]
