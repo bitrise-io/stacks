@@ -20,8 +20,8 @@
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.100.0",
-          "raw_output": "gh version 2.100.0 (2026-09-03)\nhttps://github.com/cli/cli/releases/tag/v2.100.0",
+          "version": "2.101.0",
+          "raw_output": "gh version 2.101.0 (2026-09-15)\nhttps://github.com/cli/cli/releases/tag/v2.101.0",
           "executed_command": "gh --version"
         },
         {
@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.36.42",
-          "raw_output": "aws-cli/2.36.42 Python/3.14.7 Darwin/25.6.0 source/arm64",
+          "version": "2.36.47",
+          "raw_output": "aws-cli/2.36.47 Python/3.14.7 Darwin/25.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.29.0",
-          "raw_output": "15.29.0",
+          "version": "15.30.1",
+          "raw_output": "15.30.1",
           "executed_command": "firebase --version"
         },
         {
@@ -133,14 +133,14 @@
           "name": "Fastlane",
           "category": "tools",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.239.0/bin/fastlane\n-----------------------------\nfastlane 2.239.0",
+          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.240.1/bin/fastlane\n-----------------------------\nfastlane 2.240.1",
           "executed_command": "fastlane --version"
         },
         {
           "name": "Sentry CLI",
           "category": "tools",
-          "version": "3.7.0",
-          "raw_output": "sentry-cli 3.7.0",
+          "version": "3.8.0",
+          "raw_output": "sentry-cli 3.8.0",
           "executed_command": "sentry-cli --version"
         }
       ],
