@@ -7,7 +7,7 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 26.6.1 (25G76)\n      Kernel Version: Darwin 25.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-27-edge-g2.mac.m4pro.14c-54g-eb76dea9-f758-411b-88d3-d40f03e62982\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 29 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 26.6.1 (25G76)\n      Kernel Version: Darwin 25.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-27-edge-g2.mac.m4pro.14c-54g-f6c6459a-1bf4-4088-80ff-f56fe4cb1b8d\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 27 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {

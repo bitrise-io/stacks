@@ -21,7 +21,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset/AssetData\nBuild Version: 27A266a\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.921.5\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.nJgsMY",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset/AssetData\nBuild Version: 27A266a\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.921.5\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.faVbmX",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 7.0.3\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 99fd9a8eed4ff942c448da0c1f11156302441e4a\nLast commit: 18 hours ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.55.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.6.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.0 =\u003e /Applications/Xcode-27.0.0.app/Contents/Developer\nMetal Toolchain: 27.1 (27A266)\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 7.0.3\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 99fd9a8eed4ff942c448da0c1f11156302441e4a\nLast commit: 20 hours ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.55.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.6.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.0 =\u003e /Applications/Xcode-27.0.0.app/Contents/Developer\nMetal Toolchain: 27.1 (27A266)\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -109,6 +109,13 @@
           "executed_command": "xcpretty --version"
         },
         {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.12",
+          "raw_output": "applesimutils version 0.9.12",
+          "executed_command": "applesimutils -v"
+        },
+        {
           "name": "danger-swift",
           "category": "apple",
           "version": "3.23.0",
@@ -130,12 +137,7 @@
           "executed_command": "xclogparser version"
         }
       ],
-      "errors": [
-        {
-          "name": "applesimutils",
-          "error": "exit status 127: zsh:1: command not found: applesimutils\n"
-        }
-      ]
+      "errors": null
     }
   }
 ]

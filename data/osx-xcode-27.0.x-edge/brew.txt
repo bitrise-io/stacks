@@ -1,5 +1,6 @@
 ada-url 4.0.0
 aom 3.15.0
+applesimutils 0.9.12
 apr 1.7.6
 apr-util 1.6.5
 argon2 20190702_1
