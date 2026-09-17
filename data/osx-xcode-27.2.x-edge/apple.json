@@ -1,0 +1,143 @@
+[
+  {
+    "category": "apple",
+    "output": {
+      "items": [
+        {
+          "name": "Xcode version",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Xcode 27.2\nBuild version 27B5019j",
+          "executed_command": "xcodebuild -version"
+        },
+        {
+          "name": "CoreSimulator.framework",
+          "category": "apple",
+          "version": "1174.9.2",
+          "raw_output": "1174.9.2",
+          "executed_command": "/usr/libexec/PlistBuddy -c \"print 'CFBundleVersion'\" /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Info.plist"
+        },
+        {
+          "name": "Metal Toolchain",
+          "category": "apple",
+          "version": "",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b487c055c718ede8b37e1fb478ee25de9881239d.asset/AssetData\nBuild Version: 27B5019j\nStatus: installed",
+          "executed_command": "xcodebuild -showComponent MetalToolchain"
+        },
+        {
+          "name": "Swift (Xcode bundled)",
+          "category": "apple",
+          "version": "",
+          "raw_output": "swift-driver version: 1.168.6 Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)\nTarget: arm64-apple-macosx26.0",
+          "executed_command": "xcrun swift --version"
+        },
+        {
+          "name": "Active Xcode command line tools",
+          "category": "apple",
+          "version": "",
+          "raw_output": "/Applications/Xcode-27.2.0.app/Contents/Developer",
+          "executed_command": "xcode-select --print-path"
+        },
+        {
+          "name": "Rosetta",
+          "category": "apple",
+          "version": "",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1785623098\nvolume: /\nlocation: /\ninstall-time: 1789638530",
+          "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
+        },
+        {
+          "name": "swift-format",
+          "category": "apple",
+          "version": "604.0.0",
+          "raw_output": "604.0.0",
+          "executed_command": "swift-format --version"
+        },
+        {
+          "name": "LicensePlist",
+          "category": "apple",
+          "version": "3.28.2",
+          "raw_output": "3.28.2",
+          "executed_command": "license-plist --version"
+        },
+        {
+          "name": "Tuist",
+          "category": "apple",
+          "version": "4.205.0",
+          "raw_output": "4.205.0",
+          "executed_command": "tuist version"
+        },
+        {
+          "name": "Homebrew config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "HOMEBREW_VERSION: 7.0.3\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 99fd9a8eed4ff942c448da0c1f11156302441e4a\nLast commit: 20 hours ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.55.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.6.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.2 =\u003e /Applications/Xcode-27.2.0.app/Contents/Developer\nMetal Toolchain: 27.10 (27B5019)\nRosetta 2: false",
+          "executed_command": "brew config"
+        },
+        {
+          "name": "Mint",
+          "category": "apple",
+          "version": "0.18.0",
+          "raw_output": "Version: 0.18.0",
+          "executed_command": "mint version"
+        },
+        {
+          "name": "Cocoapods config",
+          "category": "apple",
+          "version": "",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.17.0\n        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin25]\n    RubyGems : 4.0.16\n        Host : macOS 26.6.1 (25G76)\n       Xcode : 27.2 (27B5019j)\n         Git : git version 2.55.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ d13e8e748eaf853f41bcd3923f0dda390ea8bb00\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.5\n```",
+          "executed_command": "pod env"
+        },
+        {
+          "name": "Carthage",
+          "category": "apple",
+          "version": "0.40.0",
+          "raw_output": "0.40.0",
+          "executed_command": "carthage version"
+        },
+        {
+          "name": "SwiftLint",
+          "category": "apple",
+          "version": "0.65.1",
+          "raw_output": "0.65.1",
+          "executed_command": "swiftlint version"
+        },
+        {
+          "name": "xcpretty",
+          "category": "apple",
+          "version": "0.4.1",
+          "raw_output": "0.4.1",
+          "executed_command": "xcpretty --version"
+        },
+        {
+          "name": "applesimutils",
+          "category": "apple",
+          "version": "0.9.12",
+          "raw_output": "applesimutils version 0.9.12",
+          "executed_command": "applesimutils -v"
+        },
+        {
+          "name": "danger-swift",
+          "category": "apple",
+          "version": "3.23.0",
+          "raw_output": "3.23.0\n\u001b[0;0m",
+          "executed_command": "danger-swift --version"
+        },
+        {
+          "name": "xcbeautify",
+          "category": "apple",
+          "version": "3.2.1",
+          "raw_output": "3.2.1",
+          "executed_command": "xcbeautify --version"
+        },
+        {
+          "name": "xclogparser",
+          "category": "apple",
+          "version": "0.2.49",
+          "raw_output": "XCLogParser 0.2.49",
+          "executed_command": "xclogparser version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
