@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 26.3
 platform: macOS
 xcode: "26.3"
 flavor: stable
-weight: 30
+weight: 31
 ---
 
 ## Languages and runtimes

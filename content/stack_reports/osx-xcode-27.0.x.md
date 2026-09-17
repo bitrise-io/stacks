@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 27.0
 platform: macOS
 xcode: "27.0"
 flavor: stable
-weight: 31
+weight: 35
 ---
 
 ## Languages and runtimes

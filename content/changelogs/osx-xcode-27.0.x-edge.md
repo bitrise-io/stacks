@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-17`
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-10`
 
 - [Xcode 27.0 RC 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes) (build `27A266a`) on macOS 26.6.1 (25G76)

@@ -4,7 +4,7 @@ summary: macOS stack for building with Xcode 27.0, with more frequent tool updat
 platform: macOS
 xcode: "27.0"
 flavor: edge
-weight: 30
+weight: 50
 ---
 
 ## Languages and runtimes
