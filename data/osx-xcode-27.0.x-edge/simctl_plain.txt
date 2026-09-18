@@ -133,6 +133,7 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 iOS 27.0 (27.0 - 24A434) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
+iOS 27.1 (27.1 - 24A94401) - com.apple.CoreSimulator.SimRuntime.iOS-27-1
 iOS 27.2 (27.2 - 24B5084k) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
 tvOS 27.0 (27.0 - 24J360) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 tvOS 27.2 (27.2 - 24K5088l) - com.apple.CoreSimulator.SimRuntime.tvOS-27-2
@@ -183,6 +184,9 @@ visionOS 27.2 (27.2 - 24N5088l) - com.apple.CoreSimulator.SimRuntime.xrOS-27-2
     iPad Air 13-inch (M4) (FB45AD1F-7C6F-49C0-8924-1E3DA02A4515) (Shutdown) 
     iPad Air 11-inch (M4) (CC0F850D-E6F2-4FE6-8ADA-8A02727388C6) (Shutdown) 
     iPad (A16) (E8F27C5F-339D-44EF-A8DE-7B24991A4DA7) (Shutdown) 
+-- iOS 27.1 --
+    Bitrise iOS default (4F9098B5-D3EA-4E0D-A3B6-2DF137BBE545) (Shutdown) 
+    iPhone Duo (4331FF91-8B74-4F1E-B5E8-B9B46AC02A90) (Shutdown) 
 -- iOS 27.2 --
     iPhone 18 Pro (AA71A59F-C154-4A13-B017-A263560D7DFB) (Shutdown) 
     iPhone 18 Pro Max (F2FF9921-8533-4461-8087-F375E6DC9F29) (Shutdown) 
