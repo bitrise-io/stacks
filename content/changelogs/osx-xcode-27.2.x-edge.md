@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-18`
+
+- AWS CLI upgraded: `2.36.47` → `2.36.48`
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-17`
 
 Initial stack release with [Xcode 27.2 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B5019j`) on macOS 26.6.1 (25G76)

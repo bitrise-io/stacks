@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-18`
+
+- AWS CLI upgraded: `2.36.47` → `2.36.48`
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-17`
 
 - Homebrew package upgrades
