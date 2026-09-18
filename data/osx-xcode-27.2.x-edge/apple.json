@@ -21,7 +21,7 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b487c055c718ede8b37e1fb478ee25de9881239d.asset/AssetData\nBuild Version: 27B5019j\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.2\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.5019.10.TmuNbq",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/b487c055c718ede8b37e1fb478ee25de9881239d.asset/AssetData\nBuild Version: 27B5019j\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.2\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.5019.10.Fc6yZ0",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
