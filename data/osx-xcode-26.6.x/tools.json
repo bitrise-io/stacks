@@ -46,6 +46,13 @@
           "executed_command": "aws --version"
         },
         {
+          "name": "Google Cloud CLI",
+          "category": "tools",
+          "version": "562.0.0",
+          "raw_output": "Google Cloud SDK 562.0.0\nbq 2.1.30\ncore 2026.03.23\ngcloud-crc32c 1.0.0\ngsutil 5.36",
+          "executed_command": "gcloud version"
+        },
+        {
           "name": "Dart global packages",
           "category": "tools",
           "version": "",
@@ -123,7 +130,16 @@
           "executed_command": "fastlane --version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "1Password CLI",
+          "error": "exit status 127: zsh:1: command not found: op\n"
+        },
+        {
+          "name": "Sentry CLI",
+          "error": "exit status 127: zsh:1: command not found: sentry-cli\n"
+        }
+      ]
     }
   }
 ]

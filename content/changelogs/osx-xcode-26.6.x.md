@@ -14,9 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-08-13` released on `2026-08-17`
+### Stack update `v2026-08-13` (released 2026-09-23)
 
 - Fix: Register the simulator app with launch services.
+- Bitrise CLI upgrade: `2.42.2` → `2.45.0`
+- New preinstalled CLI tool: `Google Cloud CLI`
 
 ### Stack update `v2026-08-11`
 
