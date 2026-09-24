@@ -12,6 +12,18 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-09-23`
+
+- Adds [1Password CLI](https://developer.1password.com/docs/cli/) `2.38.1`
+- Adds [Sentry CLI](https://docs.sentry.io/cli/) `3.6.2`
+- Android emulator upgrade: `36.6.11` -> `37.1.11`
+- Android platform-tools upgrade: `37.0.0` -> `37.0.1`
+- Fastlane upgrade: `2.236.1` -> `2.240.1`
+- Git upgrade: `2.54.0` -> `2.55.0`
+- Java upgrades: OpenJDK 8, 11, 17, 21, 25 patch updates
+- Ubuntu release: `24.04.4 LTS` -> `24.04.5 LTS`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-06-30`
 
 - Android SDK build-tools upgrade: `36.0.0` -> `37.0.0`

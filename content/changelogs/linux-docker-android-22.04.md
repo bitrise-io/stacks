@@ -12,6 +12,10 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-09-23`
+
+No user-facing changes in this stack update.
+
 ### Stack update `v2026-06-01`
 
 - Fastlane upgrade: `2.233.0` -> `2.235.0`

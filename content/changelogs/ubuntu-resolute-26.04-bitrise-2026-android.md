@@ -12,6 +12,23 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-09-23`
+
+- Adds [1Password CLI](https://developer.1password.com/docs/cli/) `2.39.0`
+- Adds [Sentry CLI](https://docs.sentry.io/cli/) `3.8.0`
+- Android Emulator upgrade: `36.6.11` -> `37.1.11`
+- Fastlane upgrade: `2.236.1` -> `2.240.1`
+- AWS CLI upgrade: `2.35.12` -> `2.37.0`
+- Docker upgrade: `29.6.1` -> `29.8.1`
+- Docker Compose upgrade: `5.2.0` -> `5.5.1`
+- Firebase CLI upgrade: `15.22.3` -> `15.30.2`
+- GitHub CLI upgrade: `2.95.0` -> `2.101.0`
+- Google Cloud CLI upgrade: `575.0.0` -> `586.0.0`
+- Bitrise CLI upgrade: `2.40.8` -> `2.45.0`
+- uv upgrade: `0.11.26` -> `0.12.18`
+- yq upgrade: `4.53.3` -> `4.53.6`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-06-30`
 
 Adds Android SDK Build-Tools 37 and removes Build-Tools 36.
