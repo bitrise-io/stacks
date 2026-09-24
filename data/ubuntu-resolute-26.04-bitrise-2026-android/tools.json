@@ -4,66 +4,73 @@
     "output": {
       "items": [
         {
+          "name": "1Password CLI",
+          "category": "tools",
+          "version": "2.39.0",
+          "raw_output": "2.39.0",
+          "executed_command": "op --version"
+        },
+        {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.35.12",
-          "raw_output": "aws-cli/2.35.12 Python/3.14.5 Linux/7.0.0-14-generic exe/x86_64.ubuntu.26",
+          "version": "2.37.0",
+          "raw_output": "aws-cli/2.37.0 Python/3.14.6 Linux/7.0.0-27-generic exe/x86_64.ubuntu.26",
           "executed_command": "aws --version"
         },
         {
           "name": "Docker",
           "category": "tools",
-          "version": "29.6.1",
-          "raw_output": "Docker version 29.6.1, build 8900f1d",
+          "version": "29.8.1",
+          "raw_output": "Docker version 29.8.1, build 4a63305",
           "executed_command": "docker --version"
         },
         {
           "name": "Docker Compose",
           "category": "tools",
-          "version": "5.2.0",
-          "raw_output": "Docker Compose version v5.2.0",
+          "version": "5.5.1",
+          "raw_output": "Docker Compose version v5.5.1",
           "executed_command": "docker compose version"
         },
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.22.3",
-          "raw_output": "15.22.3",
+          "version": "15.30.2",
+          "raw_output": "15.30.2",
           "executed_command": "firebase --version"
         },
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.54.0",
-          "raw_output": "git version 2.54.0",
+          "version": "2.55.0",
+          "raw_output": "git version 2.55.0",
           "executed_command": "git --version"
         },
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.7.1",
-          "raw_output": "git-lfs/3.7.1 (GitHub; linux amd64; go 1.25.0)",
+          "version": "3.8.0",
+          "raw_output": "git-lfs/3.8.0 (GitHub; linux amd64; go 1.27.0)",
           "executed_command": "git-lfs version"
         },
         {
           "name": "GitHub CLI",
           "category": "tools",
-          "version": "2.95.0",
-          "raw_output": "gh version 2.95.0 (2026-06-17)\nhttps://github.com/cli/cli/releases/tag/v2.95.0",
+          "version": "2.101.0",
+          "raw_output": "gh version 2.101.0 (2026-09-15)\nhttps://github.com/cli/cli/releases/tag/v2.101.0",
           "executed_command": "gh version"
         },
         {
           "name": "Google Cloud CLI",
           "category": "tools",
-          "version": "575.0.0",
-          "raw_output": "Google Cloud SDK 575.0.0\nalpha 2026.06.26\nbeta 2026.06.26\nbq 2.1.33\nbundled-python3-unix 3.14.5\ncore 2026.06.26\ngcloud-crc32c 1.0.0\ngsutil 5.37",
+          "version": "586.0.0",
+          "raw_output": "Google Cloud SDK 586.0.0\nalpha 2026.09.20\nbeta 2026.09.20\nbq 2.1.38\nbundled-python3-unix 3.14.7\ncore 2026.09.20\ngcloud-crc32c 1.0.0\ngsutil 5.37",
           "executed_command": "gcloud version"
         },
         {
           "name": "Google Cloud CLI components",
           "category": "tools",
-          "version": "575.0.0",
-          "raw_output": "Your current Google Cloud CLI version is: 575.0.0\nThe latest available version is: 575.0.0\n\n┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n│                                                    Components                                                   │\n├───────────────┬──────────────────────────────────────────────────────┬──────────────────────────────┬───────────┤\n│     Status    │                         Name                         │              ID              │    Size   │\n├───────────────┼──────────────────────────────────────────────────────┼──────────────────────────────┼───────────┤\n│ Not Installed │ App Engine Go Extensions                             │ app-engine-go                │   5.4 MiB │\n│ Not Installed │ Artifact Registry Go Module Package Helper           │ package-go-module            │   1.1 MiB │\n│ Not Installed │ Cloud Bigtable Command Line Tool                     │ cbt                          │  20.4 MiB │\n│ Not Installed │ Cloud Bigtable Emulator                              │ bigtable                     │   8.5 MiB │\n│ Not Installed │ Cloud Datastore Emulator                             │ cloud-datastore-emulator     │  36.2 MiB │\n│ Not Installed │ Cloud Firestore Emulator                             │ cloud-firestore-emulator     │  65.1 MiB │\n│ Not Installed │ Cloud Pub/Sub Emulator                               │ pubsub-emulator              │  50.5 MiB │\n│ Not Installed │ Cloud Run Proxy                                      │ cloud-run-proxy              │  12.8 MiB │\n│ Not Installed │ Cloud SQL Proxy v2                                   │ cloud-sql-proxy              │  15.2 MiB │\n│ Not Installed │ Cloud Spanner Emulator                               │ cloud-spanner-emulator       │  48.8 MiB │\n│ Not Installed │ Google Container Registry's Docker credential helper │ docker-credential-gcr        │   1.8 MiB │\n│ Not Installed │ Kustomize                                            │ kustomize                    │   5.5 MiB │\n│ Not Installed │ Log Streaming                                        │ log-streaming                │  18.7 MiB │\n│ Not Installed │ Managed Flink Client                                 │ managed-flink-client         │ 383.4 MiB │\n│ Not Installed │ Minikube                                             │ minikube                     │  46.1 MiB │\n│ Not Installed │ Nomos CLI                                            │ nomos                        │  36.3 MiB │\n│ Not Installed │ On-Demand Scanning API extraction helper             │ local-extract                │  43.9 MiB │\n│ Not Installed │ SBOM Extractor                                       │ sbom-extractor               │  82.1 MiB │\n│ Not Installed │ Skaffold                                             │ skaffold                     │  35.0 MiB │\n│ Not Installed │ Spanner Cli                                          │ spanner-cli                  │  12.9 MiB │\n│ Not Installed │ Spanner migration tool                               │ spanner-migration-tool       │  29.3 MiB │\n│ Not Installed │ Terraform Tools                                      │ terraform-tools              │  66.6 MiB │\n│ Not Installed │ anthos-auth                                          │ anthos-auth                  │  27.0 MiB │\n│ Not Installed │ config-connector                                     │ config-connector             │ 142.8 MiB │\n│ Not Installed │ enterprise-certificate-proxy                         │ enterprise-certificate-proxy │  17.3 MiB │\n│ Not Installed │ gcloud Preview Commands                              │ preview                      │   \u003c 1 MiB │\n│ Not Installed │ gcloud app Java Extensions                           │ app-engine-java              │ 135.1 MiB │\n│ Not Installed │ gcloud app Python Extensions                         │ app-engine-python            │   3.8 MiB │\n│ Not Installed │ gcloud app Python Extensions (Extra Libraries)       │ app-engine-python-extras     │   \u003c 1 MiB │\n│ Not Installed │ gke-gcloud-auth-plugin                               │ gke-gcloud-auth-plugin       │   3.7 MiB │\n│ Not Installed │ istioctl                                             │ istioctl                     │  27.4 MiB │\n│ Not Installed │ kpt                                                  │ kpt                          │  17.4 MiB │\n│ Not Installed │ kubectl                                              │ kubectl                      │   \u003c 1 MiB │\n│ Not Installed │ kubectl-oidc                                         │ kubectl-oidc                 │  27.0 MiB │\n│ Not Installed │ pkg                                                  │ pkg                          │           │\n│ Not Installed │ universal-maker                                      │ universal-maker              │   8.7 MiB │\n│ Installed     │ BigQuery Command Line Tool                           │ bq                           │   1.9 MiB │\n│ Installed     │ Bundled Python 3.14                                  │ bundled-python3-unix         │  25.9 MiB │\n│ Installed     │ Cloud Storage Command Line Tool                      │ gsutil                       │  12.4 MiB │\n│ Installed     │ Google Cloud CLI Core Libraries                      │ core                         │  26.2 MiB │\n│ Installed     │ Google Cloud CRC32C Hash Tool                        │ gcloud-crc32c                │   1.5 MiB │\n│ Installed     │ gcloud Alpha Commands                                │ alpha                        │   \u003c 1 MiB │\n│ Installed     │ gcloud Beta Commands                                 │ beta                         │   \u003c 1 MiB │\n└───────────────┴──────────────────────────────────────────────────────┴──────────────────────────────┴───────────┘\nTo install or remove components at your current Google Cloud CLI version [575.0.0], run:\n  $ gcloud components install COMPONENT_ID\n  $ gcloud components remove COMPONENT_ID\n\nTo update your Google Cloud CLI installation to the latest version [575.0.0], run:\n  $ gcloud components update",
+          "version": "586.0.0",
+          "raw_output": "Your current Google Cloud CLI version is: 586.0.0\nThe latest available version is: 586.0.0\n\n┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐\n│                                                    Components                                                   │\n├───────────────┬──────────────────────────────────────────────────────┬──────────────────────────────┬───────────┤\n│     Status    │                         Name                         │              ID              │    Size   │\n├───────────────┼──────────────────────────────────────────────────────┼──────────────────────────────┼───────────┤\n│ Not Installed │ App Engine Go Extensions                             │ app-engine-go                │   5.4 MiB │\n│ Not Installed │ Artifact Registry Go Module Package Helper           │ package-go-module            │   1.1 MiB │\n│ Not Installed │ Cloud Bigtable Command Line Tool                     │ cbt                          │  21.1 MiB │\n│ Not Installed │ Cloud Bigtable Emulator                              │ bigtable                     │   8.5 MiB │\n│ Not Installed │ Cloud Datastore Emulator                             │ cloud-datastore-emulator     │  36.2 MiB │\n│ Not Installed │ Cloud Firestore Emulator                             │ cloud-firestore-emulator     │  66.9 MiB │\n│ Not Installed │ Cloud Pub/Sub Emulator                               │ pubsub-emulator              │  50.6 MiB │\n│ Not Installed │ Cloud Run Proxy                                      │ cloud-run-proxy              │  12.8 MiB │\n│ Not Installed │ Cloud SQL Proxy v2                                   │ cloud-sql-proxy              │  16.0 MiB │\n│ Not Installed │ Cloud Spanner Emulator                               │ cloud-spanner-emulator       │  50.0 MiB │\n│ Not Installed │ Google Container Registry's Docker credential helper │ docker-credential-gcr        │   1.8 MiB │\n│ Not Installed │ Log Streaming                                        │ log-streaming                │  18.7 MiB │\n│ Not Installed │ Managed Flink Client                                 │ managed-flink-client         │ 383.4 MiB │\n│ Not Installed │ Minikube (DEPRECATED)                                │ minikube                     │  46.1 MiB │\n│ Not Installed │ Nomos CLI                                            │ nomos                        │  37.3 MiB │\n│ Not Installed │ On-Demand Scanning API extraction helper             │ local-extract                │  43.9 MiB │\n│ Not Installed │ SBOM Extractor                                       │ sbom-extractor               │  82.1 MiB │\n│ Not Installed │ Skaffold                                             │ skaffold                     │  35.0 MiB │\n│ Not Installed │ Spanner Cli                                          │ spanner-cli                  │  12.9 MiB │\n│ Not Installed │ Spanner migration tool                               │ spanner-migration-tool       │  29.5 MiB │\n│ Not Installed │ anthos-auth                                          │ anthos-auth                  │  27.0 MiB │\n│ Not Installed │ config-connector                                     │ config-connector             │ 142.8 MiB │\n│ Not Installed │ enterprise-certificate-proxy                         │ enterprise-certificate-proxy │  14.3 MiB │\n│ Not Installed │ gcloud Preview Commands                              │ preview                      │   \u003c 1 MiB │\n│ Not Installed │ gcloud app Java Extensions                           │ app-engine-java              │ 149.6 MiB │\n│ Not Installed │ gcloud app Python Extensions                         │ app-engine-python            │   3.8 MiB │\n│ Not Installed │ gcloud app Python Extensions (Extra Libraries)       │ app-engine-python-extras     │   \u003c 1 MiB │\n│ Not Installed │ gke-gcloud-auth-plugin                               │ gke-gcloud-auth-plugin       │   3.7 MiB │\n│ Not Installed │ istioctl                                             │ istioctl                     │  27.5 MiB │\n│ Not Installed │ kubectl                                              │ kubectl                      │   \u003c 1 MiB │\n│ Not Installed │ kubectl-oidc                                         │ kubectl-oidc                 │  27.0 MiB │\n│ Not Installed │ pkg                                                  │ pkg                          │           │\n│ Not Installed │ universal-maker                                      │ universal-maker              │   9.6 MiB │\n│ Installed     │ BigQuery Command Line Tool                           │ bq                           │   2.2 MiB │\n│ Installed     │ Bundled Python 3.14                                  │ bundled-python3-unix         │  33.2 MiB │\n│ Installed     │ Cloud Storage Command Line Tool                      │ gsutil                       │  12.4 MiB │\n│ Installed     │ Google Cloud CLI Core Libraries                      │ core                         │  27.9 MiB │\n│ Installed     │ Google Cloud CRC32C Hash Tool                        │ gcloud-crc32c                │   1.5 MiB │\n│ Installed     │ gcloud Alpha Commands                                │ alpha                        │   \u003c 1 MiB │\n│ Installed     │ gcloud Beta Commands                                 │ beta                         │   \u003c 1 MiB │\n└───────────────┴──────────────────────────────────────────────────────┴──────────────────────────────┴───────────┘\nTo install or remove components at your current Google Cloud CLI version [586.0.0], run:\n  $ gcloud components install COMPONENT_ID\n  $ gcloud components remove COMPONENT_ID\n\nTo update your Google Cloud CLI installation to the latest version [586.0.0], run:\n  $ gcloud components update",
           "executed_command": "gcloud components list"
         },
         {
@@ -95,6 +102,13 @@
           "executed_command": "openconnect --version"
         },
         {
+          "name": "Sentry CLI",
+          "category": "tools",
+          "version": "3.8.0",
+          "raw_output": "sentry-cli 3.8.0",
+          "executed_command": "sentry-cli --version"
+        },
+        {
           "name": "ShellCheck",
           "category": "tools",
           "version": "0.11.0",
@@ -119,7 +133,7 @@
           "name": "pipx packages",
           "category": "tools",
           "version": "",
-          "raw_output": "venvs are in /home/ubuntu/.local/share/pipx/venvs\napps are exposed on your $PATH at /home/ubuntu/.local/bin\nmanual pages are exposed at /home/ubuntu/.local/share/man\n   package pre-commit 4.6.0, installed using Python 3.14.5\n    - pre-commit\n   package uv 0.11.26, installed using Python 3.14.5\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.5\n    - yamllint",
+          "raw_output": "venvs are in /home/ubuntu/.local/share/pipx/venvs\napps are exposed on your $PATH at /home/ubuntu/.local/bin\nmanual pages are exposed at /home/ubuntu/.local/share/man\nshell completions are exposed at /home/ubuntu/.local/share\n   package pre-commit 4.6.2, installed using Python 3.14.5\n    - pre-commit\n   package uv 0.12.18, installed using Python 3.14.5\n    - uv\n    - uvx\n   package yamllint 1.38.0, installed using Python 3.14.5\n    - yamllint",
           "executed_command": "pipx list"
         },
         {
@@ -132,8 +146,8 @@
         {
           "name": "yq",
           "category": "tools",
-          "version": "4.53.3",
-          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.53.3",
+          "version": "4.53.6",
+          "raw_output": "yq (https://github.com/mikefarah/yq/) version v4.53.6",
           "executed_command": "yq --version"
         }
       ],
