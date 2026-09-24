@@ -6,8 +6,8 @@
         {
           "name": "Bitrise CLI",
           "category": "bitrise",
-          "version": "2.40.8",
-          "raw_output": "2.40.8",
+          "version": "2.45.0",
+          "raw_output": "2.45.0",
           "executed_command": "bitrise --version"
         },
         {
