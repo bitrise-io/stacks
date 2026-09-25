@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-24` (released 2026-09-25)
+
+- New preinstalled CLI tools: `1Password CLI`, `Sentry CLI`
+
 ### Stack update `v2026-06-30` (released 2026-07-03)
 
 - New preinstalled CLI tools: `ffmpeg`, `tmux`, `uv`
