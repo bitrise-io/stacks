@@ -35,7 +35,7 @@ bisect-create Jun 30 08:28:36 2026
 bjoentegaard Apr 1 07:36:59 2025
 bomtool Apr 1 07:56:11 2025
 bq Apr 1 07:38:04 2025
-brew Aug 12 18:24:55 2026
+brew Sep 25 12:19:47 2026
 brotli Apr 1 07:36:57 2025
 bsqldb Apr 1 08:08:52 2025
 bsqlodbc Apr 1 08:08:52 2025
@@ -488,6 +488,7 @@ ocsptool Apr 1 07:36:30 2025
 odbc_config Apr 1 08:08:51 2025
 odbcinst Apr 1 08:08:51 2025
 onig-config Apr 1 07:36:35 2025
+op Sep 25 12:20:00 2026
 openconnect Apr 1 07:37:11 2025
 openssl Jun 30 08:28:31 2026
 openvpn Apr 1 07:36:49 2025
