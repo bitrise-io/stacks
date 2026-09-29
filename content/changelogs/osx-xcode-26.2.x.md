@@ -14,12 +14,18 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-08-13` (released 2026-09-29)
+### Stack update `v2026-09-25` (released 2026-09-29)
+
+- Bitrise CLI upgrade: `2.42.2` → `3.0.0`
+- Bitrise stepman upgrade: `0.18.4` → `0.18.7`
+- New preinstalled CLI tools: `1Password CLI`, `Sentry CLI`
+- Homebrew upgrade: `6.0.17` → `7.0.6`
+
+### Stack update `v2026-08-13` (released 2026-08-19)
 
 - macOS update `15.4.1` → `15.7.9` to address [Screen Sharing](https://support.apple.com/en-us/148170) vulnerability
-- Bitrise CLI upgrade: `2.40.7` → `3.0.0`
+- Bitrise CLI upgrade: `2.40.7` → `2.42.2`
 - Bitrise guest agent upgrade: `2.2.0` → `2.10.1`
-- New preinstalled CLI tool: `gcloud`
 
 ### Stack update `v2026-06-30` (released 2026-07-02)
 
