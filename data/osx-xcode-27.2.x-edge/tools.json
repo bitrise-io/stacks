@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.36.48",
-          "raw_output": "aws-cli/2.36.48 Python/3.14.7 Darwin/25.6.0 source/arm64",
+          "version": "2.37.5",
+          "raw_output": "aws-cli/2.37.5 Python/3.14.7 Darwin/25.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -76,8 +76,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.30.1",
-          "raw_output": "15.30.1",
+          "version": "15.31.0",
+          "raw_output": "15.31.0",
           "executed_command": "firebase --version"
         },
         {
