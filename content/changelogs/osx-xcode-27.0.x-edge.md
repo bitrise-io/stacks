@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-29` (released 2026-09-29)
+
+- `applesimutils` removed: its Homebrew tap is no longer maintained and doesn't work with recent Homebrew versions. Use `xcrun simctl` instead.
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-18`
 
 - AWS CLI upgraded: `2.36.47` → `2.36.48`
