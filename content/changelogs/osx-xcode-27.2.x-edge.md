@@ -14,6 +14,16 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-29` (released 2026-09-29)
+
+- [Xcode 27.2 Beta 2](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B5028f`) on macOS 26.6.1 (25G76)
+- Bitrise CLI upgrade: `2.43.4` -> `3.0.0`
+- AWS CLI upgrade: `2.36.48` -> `2.37.5`
+- Firebase upgrade: `15.30.1` -> `15.31.0`
+- crowdin CLI upgrade: `5.1.0` -> `5.3.0`
+- `applesimutils` removed
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-18`
 
 - AWS CLI upgraded: `2.36.47` → `2.36.48`
