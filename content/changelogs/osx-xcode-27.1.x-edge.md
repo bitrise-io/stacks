@@ -16,7 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-09-29` (released 2026-09-29)
 
-- `applesimutils` removed from the stack
+- `applesimutils` removed: its Homebrew tap is no longer maintained and doesn't work with recent Homebrew versions. Use `xcrun simctl` instead.
 - Homebrew package upgrades
 
 ### Stack update `v2026-09-18`
