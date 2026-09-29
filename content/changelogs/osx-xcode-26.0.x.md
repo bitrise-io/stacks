@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-08-13` (released 2026-09-29)
+
+- New preinstalled CLI tool: `Google Cloud CLI`
+- Bitrise CLI upgrade: `2.42.2` → `3.0.0`
+
 ### Stack update `v2026-08-13` (released 2026-08-19)
 
 - macOS update `15.4.1` → `15.7.9` to address [Screen Sharing](https://support.apple.com/en-us/148170) vulnerability
