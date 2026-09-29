@@ -2594,8 +2594,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
       "platform" : "iOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.klBtqm\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.0.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.klBtqm\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.Fpf37J\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.0.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.1.434.0.Fpf37J\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -2630,7 +2630,7 @@
       "isAvailable" : true,
       "version" : "27.2",
       "isInternal" : false,
-      "buildversion" : "24B5084k",
+      "buildversion" : "24B5089g",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3010,8 +3010,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.iOS-27-2",
       "platform" : "iOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.2.5084.11.M3HJil\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.2.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.2.5084.11.M3HJil\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.2.5089.7.a7SNro\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.2.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.iPhoneOS.SimulatorRuntime-v24.2.5089.7.a7SNro\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/iOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3053,8 +3053,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-27-0",
       "platform" : "tvOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.10.360.0.gba30l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.0.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.10.360.0.gba30l\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.10.360.0.QITlmw\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.0.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.10.360.0.QITlmw\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3064,7 +3064,7 @@
       "isAvailable" : true,
       "version" : "27.2",
       "isInternal" : false,
-      "buildversion" : "24K5088l",
+      "buildversion" : "24K5093g",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3096,8 +3096,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.tvOS-27-2",
       "platform" : "tvOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.11.5088.12.KJAncV\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.2.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.11.5088.12.KJAncV\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.11.5093.7.qvjtRI\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.2.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.AppleTVOS.SimulatorRuntime-v24.11.5093.7.qvjtRI\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/tvOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3326,8 +3326,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-27-0",
       "platform" : "watchOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.18.362.0.U0lHtt\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.0.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.18.362.0.U0lHtt\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.18.362.0.Fihwo8\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.0.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.18.362.0.Fihwo8\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3337,7 +3337,7 @@
       "isAvailable" : true,
       "version" : "27.2",
       "isInternal" : false,
-      "buildversion" : "24S5086l",
+      "buildversion" : "24S5091f",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3423,8 +3423,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.watchOS-27-2",
       "platform" : "watchOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.19.5086.12.xSfBea\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.2.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.19.5086.12.xSfBea\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.19.5091.6.6IAYq5\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.2.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.WatchOS.SimulatorRuntime-v24.19.5091.6.6IAYq5\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/watchOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3448,8 +3448,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-27-0",
       "platform" : "xrOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.13.362.0.pGiGnY\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.0.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.13.362.0.pGiGnY\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.13.362.0.RE7XkA\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.0.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.13.362.0.RE7XkA\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.0.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3459,7 +3459,7 @@
       "isAvailable" : true,
       "version" : "27.2",
       "isInternal" : false,
-      "buildversion" : "24N5088l",
+      "buildversion" : "24N5093f",
       "supportedArchitectures" : [
         "arm64"
       ],
@@ -3473,8 +3473,8 @@
       ],
       "identifier" : "com.apple.CoreSimulator.SimRuntime.xrOS-27-2",
       "platform" : "xrOS",
-      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.14.5088.12.QYxO7X\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.2.simruntime",
-      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.14.5088.12.QYxO7X\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
+      "bundlePath" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.14.5093.6.NyYsaa\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.2.simruntime",
+      "runtimeRoot" : "\/private\/var\/run\/com.apple.security.cryptexd\/mnt\/com.apple.XROS.SimulatorRuntime-v24.14.5093.6.NyYsaa\/Library\/Developer\/CoreSimulator\/Profiles\/Runtimes\/xrOS 27.2.simruntime\/Contents\/Resources\/RuntimeRoot",
       "lastUsage" : {
         "arm64" : "0001-01-01T00:00:00Z"
       },
@@ -3748,20 +3748,20 @@
     ],
     "com.apple.CoreSimulator.SimRuntime.iOS-27-1" : [
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4F9098B5-D3EA-4E0D-A3B6-2DF137BBE545\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4E8FF959-D143-4BDC-A06C-DDA9B583D410\/data",
         "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4F9098B5-D3EA-4E0D-A3B6-2DF137BBE545",
-        "udid" : "4F9098B5-D3EA-4E0D-A3B6-2DF137BBE545",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4E8FF959-D143-4BDC-A06C-DDA9B583D410",
+        "udid" : "4E8FF959-D143-4BDC-A06C-DDA9B583D410",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-Duo",
         "state" : "Shutdown",
         "name" : "Bitrise iOS default"
       },
       {
-        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/4331FF91-8B74-4F1E-B5E8-B9B46AC02A90\/data",
+        "dataPath" : "\/Users\/vagrant\/Library\/Developer\/CoreSimulator\/Devices\/9EE2E0CE-A4F8-4E23-B112-52AFE61876BE\/data",
         "dataPathSize" : 18337792,
-        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/4331FF91-8B74-4F1E-B5E8-B9B46AC02A90",
-        "udid" : "4331FF91-8B74-4F1E-B5E8-B9B46AC02A90",
+        "logPath" : "\/Users\/vagrant\/Library\/Logs\/CoreSimulator\/9EE2E0CE-A4F8-4E23-B112-52AFE61876BE",
+        "udid" : "9EE2E0CE-A4F8-4E23-B112-52AFE61876BE",
         "isAvailable" : true,
         "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-Duo",
         "state" : "Shutdown",

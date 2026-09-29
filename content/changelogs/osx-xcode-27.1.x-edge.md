@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-09-29` (released 2026-09-29)
+
+- `applesimutils` removed: its Homebrew tap is no longer maintained and doesn't work with recent Homebrew versions. Use `xcrun simctl` instead.
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-18`
 
 Initial stack release with [Xcode 27.1 Beta 1](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes) (build `27A9269`) on macOS 26.6.1 (25G76)
