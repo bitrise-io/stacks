@@ -16,9 +16,6 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-09-29` (released 2026-09-29)
 
-- Bitrise CLI upgrade: `2.43.4` -> `3.0.0`
-- AWS CLI upgrade: `2.36.48` -> `2.37.5`
-- Firebase CLI upgrade: `15.30.1` -> `15.31.0`
 - `applesimutils` removed from the stack
 - Homebrew package upgrades
 
