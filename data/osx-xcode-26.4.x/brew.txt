@@ -177,6 +177,7 @@ yq 4.52.4
 zeromq 4.3.5_2
 zlib 1.3.2
 zstd 1.5.7_1
+1password-cli 2.39.0
 gcloud-cli 562.0.0
 temurin@11 11.0.30,7
 temurin@17 17.0.18,8
