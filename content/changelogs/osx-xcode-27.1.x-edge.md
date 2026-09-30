@@ -16,6 +16,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-09-29` (released 2026-09-29)
 
+- **Note**: We have observed the iOS 27.1 and watchOS 26.5 simulators getting unmounted during test runs, causing test failures. We are working on a fix.
+
 - `applesimutils` removed: its Homebrew tap is no longer maintained and doesn't work with recent Homebrew versions. Use `xcrun simctl` instead.
 - Homebrew package upgrades
 
