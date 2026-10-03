@@ -14,6 +14,20 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-02` (released 2026-10-03)
+
+- iOS 27.0 simulator default device list no longer includes `iPhone 17 Pro` or `iPhone 17 Pro Max` (already excluded on iOS 27.2)
+- Android SDK: Emulator upgraded to `37.2.12`
+- Bitrise CLI upgrade: `3.0.0` → `3.1.0`
+- Git upgrade: `2.55.0` → `2.56.0`
+- GitHub CLI upgrade: `2.101.0` → `2.102.0`
+- AWS CLI upgrade: `2.37.5` → `2.37.7`
+- Google Cloud CLI upgrade: `582.0.0` → `587.0.0`
+- Firebase CLI upgrade: `15.31.0` → `15.32.1`
+- yq upgrade: `4.53.6` → `4.54.1`
+- LicensePlist upgrade: `3.28.2` → `3.28.3`
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-29` (released 2026-09-29)
 
 - `applesimutils` removed: its Homebrew tap is no longer maintained and doesn't work with recent Homebrew versions. Use `xcrun simctl` instead.
