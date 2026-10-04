@@ -16,7 +16,6 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-10-02` (released 2026-10-03)
 
-- Bitrise CLI upgrade: `3.0.0` -> `3.1.0`
 - AWS CLI upgrade: `2.37.5` -> `2.37.7`
 - Android emulator version: `37.1.11` -> `37.2.12`
 - Homebrew package upgrades
