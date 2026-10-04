@@ -16,7 +16,6 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-10-02` (released 2026-10-02)
 
-- Bitrise CLI upgrade: `3.0.0` → `3.1.0`
 - Git upgrade: `2.55.0` → `2.56.0`
 - GitHub CLI upgrade: `2.101.0` → `2.102.0`
 - AWS CLI upgrade: `2.37.5` → `2.37.7`
