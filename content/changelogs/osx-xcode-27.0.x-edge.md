@@ -14,7 +14,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-10-02` (released 2026-10-03)
+### Stack update `v2026-10-02` (released 2026-10-05)
 
 - iOS 27.0 simulator default device list no longer includes `iPhone 17 Pro` or `iPhone 17 Pro Max` (already excluded on iOS 27.2)
 - Android SDK: Emulator upgraded to `37.2.12`
