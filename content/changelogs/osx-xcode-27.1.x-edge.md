@@ -14,7 +14,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-10-02` (released 2026-10-02)
+### Stack update `v2026-10-02` (released 2026-10-05)
 
 This stack update addresses the iOS 27.1 and watchOS 26.5 simulator problems mentioned below, in which simulator runtimes were getting unmounted during test runs.
 
