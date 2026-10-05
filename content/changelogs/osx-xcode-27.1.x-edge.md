@@ -14,6 +14,21 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-02` (released 2026-10-05)
+
+This stack update addresses the iOS 27.1 and watchOS 26.5 simulator problems mentioned below, in which simulator runtimes were getting unmounted during test runs.
+
+- Git upgrade: `2.55.0` → `2.56.0`
+- GitHub CLI upgrade: `2.101.0` → `2.102.0`
+- AWS CLI upgrade: `2.37.5` → `2.37.7`
+- Google Cloud CLI upgrade: `582.0.0` → `587.0.0`
+- Firebase CLI upgrade: `15.31.0` → `15.32.1`
+- yq upgrade: `4.53.6` → `4.54.1`
+- Android Emulator upgrade: `37.1.11` → `37.2.12`
+- LicensePlist upgrade: `3.28.2` → `3.28.3`
+- uv upgrade: `0.12.7` → `0.12.21`
+- Homebrew package upgrades
+
 ### Stack update `v2026-09-29` (released 2026-09-29)
 
 - **Note**: We have observed the iOS 27.1 and watchOS 26.5 simulators getting unmounted during test runs, causing test failures. We are working on a fix.
