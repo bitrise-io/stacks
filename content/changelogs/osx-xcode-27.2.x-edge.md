@@ -16,6 +16,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-10-06`
 
+- Fixed: `xcodebuild` no longer hangs on a keychain prompt or fails with `-25308` when it resolves private Swift package repos over HTTPS. Homebrew's git now stores credentials through Apple's `git-credential-osxkeychain`, so Xcode's `git` can read them.
 - Homebrew package upgrades
 
 ### Stack update `v2026-10-02` (released 2026-10-05)
