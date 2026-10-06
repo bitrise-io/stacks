@@ -14,12 +14,8 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
-### Stack update `v2026-10-06` (released 2026-10-06)
+### Stack update `v2026-10-06`
 
-- AWS CLI upgrade: `2.37.7` → `2.37.9`
-- 1Password CLI upgrade: `2.39.0` → `2.40.0`
-- CMake upgrade: `4.4.3` → `4.4.4`
-- iOS 27.1 simulator runtime upgrade: build `24A94401` → `24A94232`
 - Homebrew package upgrades
 
 ### Stack update `v2026-10-02` (released 2026-10-05)
