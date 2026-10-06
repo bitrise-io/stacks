@@ -133,7 +133,7 @@ iPod touch (7th generation) (com.apple.CoreSimulator.SimDeviceType.iPod-touch--7
 iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 iOS 27.0 (27.0 - 24A434) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
-iOS 27.1 (27.1 - 24A94401) - com.apple.CoreSimulator.SimRuntime.iOS-27-1
+iOS 27.1 (27.1 - 24A94232) - com.apple.CoreSimulator.SimRuntime.iOS-27-1
 iOS 27.2 (27.2 - 24B5089g) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
 tvOS 27.0 (27.0 - 24J360) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 tvOS 27.2 (27.2 - 24K5093g) - com.apple.CoreSimulator.SimRuntime.tvOS-27-2
