@@ -1,6 +1,6 @@
 ---
 title: macOS minimal
-summary: macOS stack without Xcode, for builds that don't need Apple developer tooling
+summary: stack that tracks the latest macOS version, minus simulator runtimes
 platform: macOS
 flavor: edge
 weight: 31
@@ -18,6 +18,10 @@ Please note:
 {{< languages filepath="data/osx-minimal/languages.json" >}}
 
 ## CLI tools
+
+### Apple development
+
+{{< generic filepath="data/osx-minimal/apple.json">}}
 
 ### Generic tools
 
