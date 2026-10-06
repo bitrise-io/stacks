@@ -20,9 +20,10 @@ Please note:
 
 ## Updates
 
-### Stack update `v2026-09-22`
+### Stack update `v2026-09-22` (released 2026-10-06)
 
 - Update macOS 27.0 to [27.2 beta 2](https://developer.apple.com/documentation/macos-release-notes/macos-27_2-release-notes) (`26B5091g`)
+- Bitrise CLI upgrade: `2.45.0` → `3.1.0`
 - Homebrew package upgrades
 
 ### Stack update `v2026-08-26`
