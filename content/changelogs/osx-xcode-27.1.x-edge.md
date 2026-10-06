@@ -14,6 +14,14 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-06` (released 2026-10-06)
+
+- [Xcode 27.1 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes) (build `27A9275`) on macOS 26.6.1 (25G76)
+- AWS CLI upgrade: `2.37.7` → `2.37.9`
+- 1Password CLI upgrade: `2.39.0` → `2.40.0`
+- CMake upgrade: `4.4.3` → `4.4.4`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-02` (released 2026-10-05)
 
 This stack update addresses the iOS 27.1 and watchOS 26.5 simulator problems mentioned below, in which simulator runtimes were getting unmounted during test runs.
