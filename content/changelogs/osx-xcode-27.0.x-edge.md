@@ -14,6 +14,13 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-06` (released 2026-10-06)
+
+- AWS CLI upgrade: `2.37.7` → `2.37.9`
+- CMake upgrade: `4.4.3` → `4.4.4`
+- 1Password CLI upgrade: `2.39.0` → `2.40.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-02` (released 2026-10-05)
 
 - iOS 27.0 simulator default device list no longer includes `iPhone 17 Pro` or `iPhone 17 Pro Max` (already excluded on iOS 27.2)
