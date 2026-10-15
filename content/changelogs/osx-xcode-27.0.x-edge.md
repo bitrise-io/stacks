@@ -14,6 +14,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-15` (released 2026-10-15)
+
+- New iOS 27.2 simulator device: iPhone Duo
+- Bitrise CLI upgrade: `3.1.0` → `3.2.1`
+- AWS CLI upgrade: `2.37.9` → `2.38.1`
+- Firebase CLI upgrade: `15.32.1` → `15.33.0`
+- Kotlin upgrade: `2.4.20` → `2.4.21`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-06`
 
 - Fixed: `xcodebuild` no longer hangs on a keychain prompt or fails with `-25308` when it resolves private Swift package repos over HTTPS. Homebrew's git now stores credentials through Apple's `git-credential-osxkeychain`, so Xcode's `git` can read them.

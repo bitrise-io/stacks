@@ -134,14 +134,15 @@ iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 iOS 27.0 (27.0 - 24A434) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
 iOS 27.1 (27.1 - 24A94232) - com.apple.CoreSimulator.SimRuntime.iOS-27-1
-iOS 27.2 (27.2 - 24B5089g) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
+iOS 27.2 (27.2 - 24B91011) - com.apple.CoreSimulator.SimRuntime.iOS-27-2-iPhone19-4
+iOS 27.2 (27.2 - 24B5110a) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
 tvOS 27.0 (27.0 - 24J360) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 tvOS 27.2 (27.2 - 24K5093g) - com.apple.CoreSimulator.SimRuntime.tvOS-27-2
 watchOS 26.5 (26.5 - 23T570) - com.apple.CoreSimulator.SimRuntime.watchOS-26-5
 watchOS 27.0 (27.0 - 24R362) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
-watchOS 27.2 (27.2 - 24S5091f) - com.apple.CoreSimulator.SimRuntime.watchOS-27-2
+watchOS 27.2 (27.2 - 24S5112a) - com.apple.CoreSimulator.SimRuntime.watchOS-27-2
 visionOS 27.0 (27.0 - 24M362) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
-visionOS 27.2 (27.2 - 24N5093f) - com.apple.CoreSimulator.SimRuntime.xrOS-27-2
+visionOS 27.2 (27.2 - 24N5114a) - com.apple.CoreSimulator.SimRuntime.xrOS-27-2
 == Devices ==
 -- iOS 18.6 --
     iPhone 16 Pro (987C8F95-93D0-4017-8402-078E881203CD) (Shutdown) 
@@ -186,18 +187,20 @@ visionOS 27.2 (27.2 - 24N5093f) - com.apple.CoreSimulator.SimRuntime.xrOS-27-2
     Bitrise iOS default (03F49682-6BB2-4AD7-A71D-28FA34A0FB31) (Shutdown) 
     iPhone Duo (5BC7AC73-1349-4535-BDCF-28679722AA8B) (Shutdown) 
 -- iOS 27.2 --
+    iPhone Duo (524E5A02-EC53-4129-BB01-E6832E4FE238) (Shutdown) 
+-- iOS 27.2 --
     iPhone 18 Pro (96CF0E04-7A22-4A25-A43E-1C455DA678FF) (Shutdown) 
     iPhone 18 Pro Max (5EBE70E7-2587-4389-AA85-92AED5700209) (Shutdown) 
     iPhone 17e (9A1E48B0-4009-4E33-BE3D-03D8118F03A8) (Shutdown) 
     iPhone Air (0222C8B8-DE2E-4C9A-83F5-6B9B7E36629E) (Shutdown) 
-    iPhone 17 (FB72DF49-C0D1-4F75-ADC3-D42850028AD6) (Shutdown) 
     Bitrise iOS default (A54C9770-D487-455C-8BA2-9BDEFE5DD4E2) (Shutdown) 
     iPad Pro 13-inch (M5) (3C55B1E1-6DD4-4E2C-A8F4-7CB8ED7F9451) (Shutdown) 
-    iPad Pro 11-inch (M5) (4A16C012-C25C-44E1-B099-2469C1C0EE4C) (Shutdown) 
     iPad mini (A17 Pro) (21DB451C-BB3D-40CF-ACB8-817668959B6E) (Shutdown) 
     iPad Air 13-inch (M4) (827CC294-E48D-4488-92D1-61AB64D7F89A) (Shutdown) 
-    iPad Air 11-inch (M4) (9A36BB08-0C59-42E4-832E-9E737ADBAA1D) (Shutdown) 
     iPad (A16) (3B6E7B27-AEE8-470F-A56A-D3F557D3D561) (Shutdown) 
+    iPhone 17 (FB72DF49-C0D1-4F75-ADC3-D42850028AD6) (Shutdown) 
+    iPad Pro 11-inch (M5) (4A16C012-C25C-44E1-B099-2469C1C0EE4C) (Shutdown) 
+    iPad Air 11-inch (M4) (9A36BB08-0C59-42E4-832E-9E737ADBAA1D) (Shutdown) 
 -- tvOS 27.0 --
     Apple TV 4K (3rd generation) (34401642-67D0-4AA6-862D-B21E58006C96) (Shutdown) 
     Apple TV 4K (3rd generation) (at 1080p) (BB46406C-D73F-49E3-BA09-82B8B51091A8) (Shutdown) 
