@@ -14,6 +14,19 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-15` (released 2026-10-15)
+
+- Bitrise CLI upgrade: `3.1.0` → `3.2.1`
+- AWS CLI upgrade: `2.37.9` → `2.38.1`
+- Firebase CLI upgrade: `15.32.1` → `15.33.0`
+- 1Password CLI upgrade: `2.40.0` → `2.41.0`
+- OpenVPN upgrade: `2.7.7` → `2.7.8`
+- Fastlane upgrade: `2.240.1` → `2.241.0`
+- Kotlin upgrade: `2.4.20` → `2.4.21`
+- Node.js upgrade: `26.10.0` → `26.11.1`
+- `Python` additional preinstalled version: `3.15.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-06`
 
 - [Xcode 27.1 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes) (build `27A9275`)
