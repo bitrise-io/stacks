@@ -41,8 +41,8 @@
         {
           "name": "AWS CLI",
           "category": "tools",
-          "version": "2.37.9",
-          "raw_output": "aws-cli/2.37.9 Python/3.14.8 Darwin/25.6.0 source/arm64",
+          "version": "2.38.1",
+          "raw_output": "aws-cli/2.38.1 Python/3.15.0 Darwin/25.6.0 source/arm64",
           "executed_command": "aws --version"
         },
         {
@@ -76,15 +76,15 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.32.1",
-          "raw_output": "15.32.1",
+          "version": "15.33.0",
+          "raw_output": "15.33.0",
           "executed_command": "firebase --version"
         },
         {
           "name": "1Password CLI",
           "category": "tools",
-          "version": "2.40.0",
-          "raw_output": "2.40.0",
+          "version": "2.41.0",
+          "raw_output": "2.41.0",
           "executed_command": "op --version"
         },
         {
@@ -104,8 +104,8 @@
         {
           "name": "OpenVPN",
           "category": "tools",
-          "version": "2.7.7",
-          "raw_output": "OpenVPN 2.7.7 aarch64-apple-darwin25.6.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 3.6.5 29 Sep 2026, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2026 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_dns_updown_by_default=yes enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_ntlm=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
+          "version": "2.7.8",
+          "raw_output": "OpenVPN 2.7.8 aarch64-apple-darwin25.6.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]\nlibrary versions: OpenSSL 4.0.3 29 Sep 2026, LZO 2.10\nOriginally developed by James Yonan\nCopyright (C) 2002-2026 OpenVPN Inc \u003csales@openvpn.net\u003e\nCompile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_dns_updown_by_default=yes enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_ntlm=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no",
           "executed_command": "openvpn --version"
         },
         {
@@ -133,7 +133,7 @@
           "name": "Fastlane",
           "category": "tools",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.240.1/bin/fastlane\n-----------------------------\nfastlane 2.240.1",
+          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.241.0/bin/fastlane\n-----------------------------\nfastlane 2.241.0",
           "executed_command": "fastlane --version"
         },
         {
