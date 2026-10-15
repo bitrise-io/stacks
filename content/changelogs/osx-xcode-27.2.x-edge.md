@@ -17,7 +17,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2026-10-15` (released 2026-10-15)
 
 - [Xcode 27.2 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B5038j`) on macOS 26.6.1 (25G76)
-- New iOS 27.2 simulator runtime for iPhone Duo (build `24B91011`)
+- There is a new iOS 27.2 simulator runtime for iPhone Duo (build `24B91011`) alongside the general-purpose iPhone simulator runtime for iOS 27.2 (build `24B5110a`). The `Bitrise iOS default` for iOS 27.2 remains the general-purpose simulator.
 - Bitrise CLI upgrade: `3.1.0` → `3.2.1`
 - AWS CLI upgrade: `2.37.9` → `2.38.1`
 - Firebase CLI upgrade: `15.32.1` → `15.33.0`
