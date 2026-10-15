@@ -14,6 +14,19 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-15` (released 2026-10-15)
+
+- [Xcode 27.2 Beta 3](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B5038j`) on macOS 26.6.1 (25G76)
+- New iOS 27.2 simulator runtime for iPhone Duo (build `24B91011`)
+- Bitrise CLI upgrade: `3.1.0` → `3.2.1`
+- AWS CLI upgrade: `2.37.9` → `2.38.1`
+- Firebase CLI upgrade: `15.32.1` → `15.33.0`
+- 1Password CLI upgrade: `2.40.0` → `2.41.0`
+- OpenVPN upgrade: `2.7.7` → `2.7.8`
+- Fastlane upgrade: `2.240.1` → `2.241.0`
+- Kotlin upgrade: `2.4.20` → `2.4.21`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-06`
 
 - Fixed: `xcodebuild` no longer hangs on a keychain prompt or fails with `-25308` when it resolves private Swift package repos over HTTPS. Homebrew's git now stores credentials through Apple's `git-credential-osxkeychain`, so Xcode's `git` can read them.
