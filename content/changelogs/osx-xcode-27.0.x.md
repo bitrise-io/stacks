@@ -16,10 +16,9 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-10-16` (released 2026-10-16)
 
-- iOS 27.1 simulator runtime installed on the stack
+- iOS 27.1 simulator runtime installed
 - New iOS 27.1 simulator device: iPhone Duo
-- Bitrise CLI upgrade: `2.43.4` → `3.2.1`
-- Homebrew package upgrades
+- Bitrise CLI upgrade: `2.43.4` -> `3.2.1`
 
 ### Stack update `v2026-09-15`
 
