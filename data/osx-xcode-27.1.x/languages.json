@@ -1,0 +1,80 @@
+[
+  {
+    "category": "languages",
+    "output": {
+      "items": [
+        {
+          "name": "Ruby versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3.3.12\n  3.3\n  3.4.10\n  3.4\n  3\n  4.0.6\n *4.0\n  4",
+          "executed_command": "asdf list ruby"
+        },
+        {
+          "name": "Ruby version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3 =\u003e 3.4.10\n3.3 =\u003e 3.3.12\n3.4 =\u003e 3.4.10\n4 =\u003e 4.0.6\n4.0 =\u003e 4.0.6",
+          "executed_command": "asdf alias ruby --list"
+        },
+        {
+          "name": "Go versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1.26.7\n  1.26\n  1.27.0\n *1.27\n  1",
+          "executed_command": "asdf list golang"
+        },
+        {
+          "name": "Go version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "1 =\u003e 1.27.0\n1.26 =\u003e 1.26.7\n1.27 =\u003e 1.27.0",
+          "executed_command": "asdf alias golang --list"
+        },
+        {
+          "name": "Node.js versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "22.23.2\n  22.23\n  22\n  24.19.0\n  24.19\n *24\n  26.7.0\n  26.7\n  26\n  lts",
+          "executed_command": "asdf list nodejs"
+        },
+        {
+          "name": "Node.js version aliases",
+          "category": "languages",
+          "version": "",
+          "raw_output": "22 =\u003e 22.23.2\n22.23 =\u003e 22.23.2\n24 =\u003e 24.19.0\n24.19 =\u003e 24.19.0\n26 =\u003e 26.7.0\n26.7 =\u003e 26.7.0\nlts =\u003e 22.23.2",
+          "executed_command": "asdf alias nodejs --list"
+        },
+        {
+          "name": "Java versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "system\n  11\n  11.0\n  11.0.32.1\n* 17 (set by /Users/vagrant/.jenv/version)\n  17.0\n  17.0.20.1\n  21\n  21.0\n  21.0.12.1\n  25\n  25.0\n  25.0.4.1\n  temurin64-11.0.32.1\n  temurin64-17.0.20.1\n  temurin64-21.0.12.1\n  temurin64-25.0.4.1",
+          "executed_command": "jenv versions"
+        },
+        {
+          "name": "Flutter versions",
+          "category": "languages",
+          "version": "",
+          "raw_output": "3.47.0",
+          "executed_command": "ls -1 ~/fvm/versions"
+        },
+        {
+          "name": "Python",
+          "category": "languages",
+          "version": "3.13.15",
+          "raw_output": "Python 3.13.15",
+          "executed_command": "python3 --version"
+        },
+        {
+          "name": "Kotlin",
+          "category": "languages",
+          "version": "2.4.20",
+          "raw_output": "Kotlin version 2.4.20 (JRE 17.0.20.1+1)",
+          "executed_command": "kotlin -version"
+        }
+      ],
+      "errors": null
+    }
+  }
+]
