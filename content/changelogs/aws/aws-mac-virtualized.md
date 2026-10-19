@@ -10,8 +10,6 @@ This AMI listing has multiple actively updated versions:
 - [macOS Sequoia with Xcode 26.0-26.2](../../stack_reports/aws/aws-mac-virtualized-sequoia26.md)
 - [macOS Sequoia with Xcode 16.3-16.4](../../stack_reports/aws/aws-mac-virtualized-sequoia16.md)
 - [macOS Sonoma with Xcode 16.0-16.2](../../stack_reports/aws/aws-mac-virtualized-sonoma16.md)
-- [macOS Sonoma with Xcode 15.3-15.4](../../stack_reports/aws/aws-mac-virtualized-sonoma15.md)
-- [macOS Ventura with Xcode 15.0-15.2](../../stack_reports/aws/aws-mac-virtualized-ventura15.md)
 
 {{< hint info >}}
 Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
