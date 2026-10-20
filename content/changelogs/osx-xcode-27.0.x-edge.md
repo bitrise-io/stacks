@@ -14,6 +14,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-20`
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-15` (released 2026-10-15)
 
 - New iOS 27.2 simulator device: iPhone Duo
