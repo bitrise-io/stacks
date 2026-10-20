@@ -14,6 +14,15 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-20` (released 2026-10-20)
+
+- iOS 27.2, tvOS 27.2, watchOS 27.2, and visionOS 27.2 simulator runtimes upgraded to RC builds (`24B114`, `24K118`, `24S116`, `24N118`)
+- Firebase CLI upgrade: `15.33.0` → `15.34.0`
+- Fastlane upgrade: `2.241.0` → `2.241.1`
+- Node.js upgrade: `26.11.1` → `26.12.0`
+- danger-swift upgrade: `3.23.0` → `3.23.1`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-15` (released 2026-10-15)
 
 - Bitrise CLI upgrade: `3.1.0` → `3.2.1`
