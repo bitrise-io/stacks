@@ -76,8 +76,8 @@
         {
           "name": "Firebase",
           "category": "tools",
-          "version": "15.33.0",
-          "raw_output": "15.33.0",
+          "version": "15.34.0",
+          "raw_output": "15.34.0",
           "executed_command": "firebase --version"
         },
         {
@@ -133,7 +133,7 @@
           "name": "Fastlane",
           "category": "tools",
           "version": "",
-          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.241.0/bin/fastlane\n-----------------------------\nfastlane 2.241.0",
+          "raw_output": "fastlane installation at path:\n/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.241.1/bin/fastlane\n-----------------------------\nfastlane 2.241.1",
           "executed_command": "fastlane --version"
         },
         {
