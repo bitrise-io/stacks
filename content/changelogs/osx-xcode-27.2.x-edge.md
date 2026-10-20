@@ -17,10 +17,6 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2026-10-20` (released 2026-10-20)
 
 - [Xcode 27.2 RC](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B48`) on macOS 26.6.1 (25G76)
-- Firebase CLI upgrade: `15.33.0` → `15.34.0`
-- Fastlane upgrade: `2.241.0` → `2.241.1`
-- React Native upgrade: `0.87.1` → `0.88.0`
-- Crowdin CLI upgrade: `5.3.0` → `5.4.0`
 - Homebrew package upgrades
 
 ### Stack update `v2026-10-15` (released 2026-10-15)
