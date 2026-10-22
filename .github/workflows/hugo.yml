@@ -39,6 +39,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # Build the branch tip instead of the triggering commit (github.sha).
+          # Otherwise a delayed run for an older commit can deploy over a newer one.
+          ref: ${{ github.ref }}
           submodules: recursive # Checkout theme submodule
           fetch-depth: 0 # Fetch full history for correct modification dates
       - name: Setup Pages
