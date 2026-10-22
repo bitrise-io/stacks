@@ -21,14 +21,14 @@
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/e5b5544bf11850c8bd817f7702339b202c00661b.asset/AssetData\nBuild Version: 27B47\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.4\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.47.0.2DpUD4",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/e5b5544bf11850c8bd817f7702339b202c00661b.asset/AssetData\nBuild Version: 27B47\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.922.4\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.2.47.0.LBvQOE",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
           "name": "Swift (Xcode bundled)",
           "category": "apple",
           "version": "",
-          "raw_output": "swift-driver version: 1.168.6 Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)\nTarget: arm64-apple-macosx26.0",
+          "raw_output": "swift-driver version: 1.168.6 Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)\nTarget: arm64-apple-macosx27.0.0",
           "executed_command": "xcrun swift --version"
         },
         {
@@ -42,7 +42,7 @@
           "name": "Rosetta",
           "category": "apple",
           "version": "",
-          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1785623098\nvolume: /\nlocation: /\ninstall-time: 1792482276",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1790234402\nvolume: /\nlocation: /\ninstall-time: 1792574757",
           "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
         },
         {
@@ -70,7 +70,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 7.0.10\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 8f10429b56be28a25032b87463fffc95e556b5bc\nLast commit: 27 hours ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.56.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 26.6.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.2 =\u003e /Applications/Xcode-27.2.0.app/Contents/Developer\nMetal Toolchain: 27.0 (27B47)\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 7.0.10\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 8f10429b56be28a25032b87463fffc95e556b5bc\nLast commit: 2 days ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.56.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 27.0.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.2 =\u003e /Applications/Xcode-27.2.0.app/Contents/Developer\nMetal Toolchain: 27.0 (27B47)\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -84,7 +84,7 @@
           "name": "Cocoapods config",
           "category": "apple",
           "version": "",
-          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.17.0\n        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin25]\n    RubyGems : 4.0.16\n        Host : macOS 26.6.1 (25G76)\n       Xcode : 27.2 (27B48)\n         Git : git version 2.56.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ e3f0d11d4bd4a93f8242f62776ba0dd123cc8114\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.7\n```",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.17.0\n        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin27]\n    RubyGems : 4.0.16\n        Host : macOS 27.0.1 (26A434)\n       Xcode : 27.2 (27B48)\n         Git : git version 2.56.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 347f8e49b4ddbb58067adabb9625fffc05bc2270\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.7\n```",
           "executed_command": "pod env"
         },
         {
