@@ -12,6 +12,12 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Notice `v2026-10-26`
+
+{{< hint warning >}}
+This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so the system trust store still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/). Run `apt-get update && apt-get install -y ca-certificates` in the beginning of your builds to install the [fixed package](https://ubuntu.com/security/notices/USN-8944-1) and untrust them. Java, pip and Node.js bundle their own root certificates and stay affected. Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-android), to receive tool updates and security patches.
+{{< /hint >}}
+
 ### Stack update `v2026-09-23`
 
 No user-facing changes in this stack update.
