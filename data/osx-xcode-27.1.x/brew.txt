@@ -22,7 +22,7 @@ boost 1.92.0
 brotli 1.2.0
 bundletool 1.18.3
 c-ares 1.34.8
-ca-certificates 2026-08-13
+ca-certificates 2026-10-20
 cairo 1.18.4
 carthage 0.40.0
 cmake 4.4.3
