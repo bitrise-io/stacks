@@ -48,15 +48,15 @@
         {
           "name": "Node.js version aliases",
           "category": "languages",
-          "version": "22.22.3",
-          "raw_output": "22 =\u003e 22.22.3\n22.22 =\u003e 22.22.3\n24 =\u003e 24.16.0\n24.16 =\u003e 24.16.0\nlts =\u003e 24",
+          "version": "22.23.4",
+          "raw_output": "22 =\u003e 22.23.4\n22.23 =\u003e 22.23.4\n24 =\u003e 24.22.1\n24.22 =\u003e 24.22.1\nlts =\u003e 24",
           "executed_command": "asdf alias nodejs --list"
         },
         {
           "name": "Node.js versions",
           "category": "languages",
-          "version": "22.22.3",
-          "raw_output": "22.22.3\n  22.22\n  22\n  24.16.0\n  24.16\n *24\n  lts",
+          "version": "22.23.4",
+          "raw_output": "22.23.4\n  22.23\n  22\n  24.22.1\n  24.22\n *24\n  lts",
           "executed_command": "asdf list nodejs"
         },
         {

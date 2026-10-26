@@ -12,6 +12,17 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-10-23`
+
+- Update system `ca-certificates` to untrust [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/), covering tools like curl, Python, Java and others using the system trust store
+- Update tools that bundle their own root certificates to versions that untrust the compromised CAs: pip, uv and Node.js
+- Android Emulator upgrade: `37.1.11` -> `37.2.12`
+- Node.js upgrade: `22.22.3` -> `22.23.4`, `24.16.0` -> `24.22.1`
+- NPM upgrade: `11.13.0` -> `11.19.1`
+- uv upgrade: `0.12.18` -> `0.13.5`
+- Fastlane upgrade: `2.240.1` -> `2.241.1`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-09-23`
 
 - Adds [1Password CLI](https://developer.1password.com/docs/cli/) `2.39.0`
