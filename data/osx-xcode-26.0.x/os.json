@@ -7,14 +7,14 @@
           "name": "macOS system overview",
           "category": "os",
           "version": "",
-          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.7.9 (24G830)\n      Kernel Version: Darwin 24.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sequoia-26-g2.mac.m4pro.14c-54g-56e6a30b-9d35-4567-9d32-64d3a9a16b48\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 31 seconds",
+          "raw_output": "Software:\n\n    System Software Overview:\n\n      System Version: macOS 15.7.9 (24G830)\n      Kernel Version: Darwin 24.6.0\n      Boot Volume: Macintosh HD\n      Boot Mode: Normal\n      Computer Name: vm-osx-sequoia-26-g2.mac.m4pro.14c-54g-e80e4952-58fb-4cff-9030-be9dc7c32d61\n      User Name: vagrant (vagrant)\n      Secure Virtual Memory: Enabled\n      System Integrity Protection: Disabled\n      Time since boot: 42 seconds",
           "executed_command": "system_profiler SPSoftwareDataType"
         },
         {
           "name": "Disk space",
           "category": "os",
           "version": "",
-          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1    334G     11G    109G    10%    427k  1.1G    0%   /",
+          "raw_output": "Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk2s1s1    334G     11G    108G    10%    427k  1.1G    0%   /",
           "executed_command": "df -H /"
         },
         {
