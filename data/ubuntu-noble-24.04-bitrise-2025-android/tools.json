@@ -48,8 +48,8 @@
         {
           "name": "Git LFS",
           "category": "tools",
-          "version": "3.8.0",
-          "raw_output": "git-lfs/3.8.0 (GitHub; linux amd64; go 1.27.0)",
+          "version": "3.8.1",
+          "raw_output": "git-lfs/3.8.1 (GitHub; linux amd64; go 1.27.3)",
           "executed_command": "git-lfs version"
         },
         {
@@ -105,7 +105,7 @@
           "name": "Pre-cached Docker images",
           "category": "tools",
           "version": "",
-          "raw_output": "bitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 52.3GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 52.3GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 14.3GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 14.3GB\nbitriseio/ubuntu-22-android:latest - 50GB\nbitriseio/ubuntu-22-android:pinned - 50GB\nbitriseio/ubuntu-22-base:latest - 11.8GB\nbitriseio/ubuntu-22-base:pinned - 11.8GB",
+          "raw_output": "bitriseio/ubuntu-noble-24.04-bitrise-2025-android:latest - 52.4GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-android:pinned - 52.4GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:latest - 14.3GB\nbitriseio/ubuntu-noble-24.04-bitrise-2025-base:pinned - 14.3GB\nbitriseio/ubuntu-22-android:latest - 50GB\nbitriseio/ubuntu-22-android:pinned - 50GB\nbitriseio/ubuntu-22-base:latest - 11.8GB\nbitriseio/ubuntu-22-base:pinned - 11.8GB",
           "executed_command": "docker images --format '{{ .Repository }}:{{ .Tag }} - {{ .Size }}'"
         },
         {
