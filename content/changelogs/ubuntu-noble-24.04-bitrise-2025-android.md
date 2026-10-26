@@ -12,6 +12,17 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
+### Stack update `v2026-10-23` (released 2026-10-26)
+
+- Update system `ca-certificates` to untrust [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/), covering tools like curl, Python, Java and others using the system trust store
+- Configure uv to use the system trust store instead of its bundled root certificates (`UV_SYSTEM_CERTS=true`), so it untrusts the compromised CAs
+- pip and Node.js bundle their own root certificates and are not updated to untrust the compromised CAs, because [stable stacks don't get minor or major tool version upgrades](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html), to untrust them in your build:
+  - set `NODE_OPTIONS=--use-openssl-ca` for Node.js
+  - run `python -m pip install --upgrade pip` for pip
+- Android emulator upgrade: `37.1.11` -> `37.2.12`
+- Fastlane upgrade: `2.240.1` -> `2.241.1`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-09-23`
 
 - Adds [1Password CLI](https://developer.1password.com/docs/cli/) `2.38.1`

@@ -12,7 +12,7 @@ Learn more [how to get notified of updates](../tips/Get%20notified.md).
 
 ## Updates
 
-### Stack update `v2026-10-23`
+### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Update system `ca-certificates` to untrust [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/), covering tools like curl, Python, Java and others using the system trust store
 - Update tools that bundle their own root certificates to versions that untrust the compromised CAs: pip, uv and Node.js
