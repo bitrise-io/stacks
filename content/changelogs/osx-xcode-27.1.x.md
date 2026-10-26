@@ -16,8 +16,10 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
-- Homebrew upgrade: `7.0.9` -> `7.0.10`
-- Homebrew package upgrade: `ca-certificates`
+- Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
+  - Homebrew `ca-certificates` upgrade: `2026-08-13` -> `2026-10-20`
+  - `curl` itself didn't need an update: it uses the certificates from Homebrew's `ca-certificates`, so it rejects the compromised CAs now
+  - The same applies to OpenSSL and other tools that use Homebrew's OpenSSL trust store
 
 ### Stack update `v2026-10-16` (released 2026-10-16)
 
