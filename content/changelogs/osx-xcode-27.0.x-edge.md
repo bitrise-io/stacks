@@ -14,6 +14,23 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-21` (released 2026-10-21)
+
+- macOS update `26.6.1 (25G76)` → `27.0.1 (26A434)`
+- Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
+  - Homebrew `ca-certificates` upgrade: `2026-09-25` -> `2026-10-20`
+  - `curl` itself didn't need an update: it uses the certificates from Homebrew's `ca-certificates`, so it rejects the compromised CAs now
+  - The same applies to OpenSSL and other tools that use Homebrew's OpenSSL trust store
+- Bitrise guest agent upgrade: `2.10.1` → `2.10.7`
+- GitHub CLI upgrade: `2.102.0` → `2.102.1`
+- AWS CLI upgrade: `2.38.1` → `2.38.3`
+- Google Cloud CLI upgrade: `587.0.0` → `590.0.0`
+- pre-commit upgrade: `4.6.2` → `4.7.0`
+- uv upgrade: `0.12.21` → `0.13.4`
+- Crowdin CLI upgrade: `5.4.0` → `5.5.0`
+- Preinstalled `Python 3.14` removed, replaced by `Python 3.13`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-20`
 
 - Homebrew package upgrades
