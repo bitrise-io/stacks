@@ -14,6 +14,11 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Stack update `v2026-10-23` (released 2026-10-26)
+
+- Bitrise CLI upgrade: `3.0.0` → `3.2.1`
+- Homebrew `ca-certificates` upgrade: `2026-05-14` → `2026-10-20`
+
 ### Stack update `v2026-09-25` (released 2026-09-29)
 
 - New preinstalled CLI tools: `1password-cli`, `sentry-cli`
