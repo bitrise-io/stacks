@@ -17,7 +17,7 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Homebrew `7.0.9` -> `7.0.10`
-- Homebrew package upgrades
+- Homebrew package upgrade: `ca-certificates` 
 
 ### Stack update `v2026-10-16` (released 2026-10-16)
 
