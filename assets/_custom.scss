@@ -29,25 +29,39 @@ h2.book-brand span {
     top: 2px;
 }
 
+// Bitkit Badge, subtle variant, xs size
 .bitrise-stack-chip {
+    display: inline-block;
     text-transform: uppercase;
-    font-size: 11px;
-    border-radius: 5px;
-    padding: 3px 7px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.009375rem;
     font-weight: bold;
+    border-radius: 0.25rem;
+    padding: 4px 8px;
+    vertical-align: middle;
 }
 
-.bitrise-stack-chip.green {
-    color: #167231;
-    background: #EEF9F1;
+h1 .bitrise-stack-chip {
+    margin-left: 8px;
 }
 
-.bitrise-stack-chip.blue {
+.bitrise-stack-chip.info {
     color: #1066AC;
-    background: #ECF8FD;
+    background: #DEF2FC;
+}
+
+.bitrise-stack-chip.positive {
+    color: #167231;
+    background: #E1F4E7;
+}
+
+.bitrise-stack-chip.warning {
+    color: #875B00;
+    background: #FFEFAD;
 }
 
 .bitrise-stack-chip.neutral {
     color: #6B6071;
-    background: #F6F4F6;
+    background: #EFEBEF;
 }

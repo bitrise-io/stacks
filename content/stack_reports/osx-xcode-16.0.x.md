@@ -3,7 +3,8 @@ title: Xcode 16.0
 summary: macOS stack for building with Xcode 16.0
 platform: macOS
 xcode: "16.0"
-flavor: stable
+flavor: frozen
+successor: osx-xcode-26.0.x
 weight: 16
 removal_date: 2027-09-15
 ---

@@ -1,0 +1,13 @@
+{{- /* Intro of a stack changelog. Accepts the stack report page as context. */ -}}
+{{ $frozen := eq .Params.flavor "frozen" }}
+{{ if $frozen }}
+  {{ partial "frozen_notice" . }}
+{{ else }}
+  <p>Bitrise stacks are updated continuously according to the <a href="https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html">stack update policy</a>.</p>
+{{ end }}
+<p>Check out the <a href="{{ .RelPermalink }}">stack report page</a> for a snapshot of what is currently installed.</p>
+{{ if not $frozen }}
+  <blockquote class="book-hint info">
+    <div>Learn more <a href="{{ (site.GetPage "/tips/Get notified").RelPermalink }}">how to get notified of updates</a>.</div>
+  </blockquote>
+{{ end }}

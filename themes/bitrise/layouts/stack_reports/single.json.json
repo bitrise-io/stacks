@@ -9,5 +9,6 @@
     "platform": {{ .Params.platform | jsonify }},
     "summary": {{ .Summary | jsonify }},
     "updated_at": {{ .Date | jsonify}},
+    "notice_html": {{ if eq .Params.flavor "frozen" }}{{ partial "frozen_notice" . | jsonify }}{{ else }}null{{ end }},
     "content_html": {{ .Content | jsonify }}
 }

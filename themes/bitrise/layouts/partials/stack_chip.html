@@ -1,0 +1,14 @@
+{{- /* Renders a flavor as a Bitkit Badge (subtle variant). Accepts the flavor string as context. */ -}}
+{{- $colorScheme := "neutral" -}}
+{{- $description := "" -}}
+{{- if eq . "edge" -}}
+  {{- $colorScheme = "info" -}}
+  {{- $description = "Receives more frequent tool updates" -}}
+{{- else if eq . "stable" -}}
+  {{- $colorScheme = "positive" -}}
+  {{- $description = "Receives regular updates" -}}
+{{- else if eq . "frozen" -}}
+  {{- $colorScheme = "warning" -}}
+  {{- $description = "No longer receives updates" -}}
+{{- end -}}
+<span class="bitrise-stack-chip {{ $colorScheme }}"{{ with $description }} title="{{ . }}"{{ end }}>{{ . }}</span>

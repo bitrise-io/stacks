@@ -1,0 +1,13 @@
+{{- /* Warning for frozen stacks. Accepts the stack report page as context; its optional `removal_date` and `successor` (a stack ID) params are mentioned. bitrise.io/stacks shows this instead of its own deprecation notice: in the content of changelogs, and from `notice_html` on stack reports. */ -}}
+<blockquote class="book-hint warning">
+  {{- /* Webflow lays out the hint as a flex row and styles direct link children as buttons, so the text needs a wrapper */ -}}
+  <div>This stack is frozen and no longer receives updates, as described in the <a href="https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html">stack update policy</a>.
+  {{- with .Params.removal_date }} It's deprecated and will be removed on {{ time.AsTime . | time.Format "Jan 2, 2006" }}.{{ end }}
+  {{- with .Params.successor }}
+    {{- $successor := site.GetPage (printf "/stack_reports/%s" .) }}
+    {{- if not $successor }}{{ errorf "successor stack %q not found" . }}{{ end }}
+    Migrate to the <a href="{{ $successor.RelPermalink }}">{{ $successor.Title }}</a> stack to receive tool updates and security patches.
+  {{- else }}
+    Migrate to a <a href="{{ (site.GetPage "/stack_reports").RelPermalink }}">stable or edge stack</a> to receive tool updates and security patches.
+  {{- end }}</div>
+</blockquote>

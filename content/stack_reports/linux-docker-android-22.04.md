@@ -3,6 +3,8 @@ title: Ubuntu 22.04 for Android & Docker
 summary: Docker with pre-installed Android tooling, based on Ubuntu 22.04.
 platform: Linux
 flavor: frozen
+removal_date: 2027-04-08
+successor: ubuntu-noble-24.04-bitrise-2025-android
 architecture: x86_64
 weight: 999
 ---

@@ -2,6 +2,7 @@
     "title": {{ .Title | jsonify }},
     "summary": {{ .Summary | jsonify }},
     "updated_at": {{ .Date | jsonify }},
-    "content_html": {{ .Content | jsonify }},
+    "stack_flavor": {{ with partial "stack_report" . }}{{ .Params.flavor | jsonify }}{{ else }}null{{ end }},
+    "content_html": {{ partial "changelog_content" . | jsonify }},
     "archived": {{ default false .Params.archived }}
 }

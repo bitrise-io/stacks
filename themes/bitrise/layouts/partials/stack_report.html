@@ -1,0 +1,10 @@
+{{- /* Returns the stack report page of a stack report or changelog page. Changelogs belong to the stack report with the same file name. */ -}}
+{{- $report := false -}}
+{{- if eq .Section "stack_reports" -}}
+  {{- $report = . -}}
+{{- else if and (eq .Section "changelogs") .File -}}
+  {{- with site.GetPage (printf "/stack_reports/%s" .File.BaseFileName) -}}
+    {{- $report = . -}}
+  {{- end -}}
+{{- end -}}
+{{- return $report -}}

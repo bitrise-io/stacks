@@ -4,14 +4,6 @@ summary: Changelog of stack updates
 type: basic_page
 ---
 
-Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html).
-
-Check out the [stack report page]({{% ref "/stack_reports/osx-minimal.md" %}}) for a snapshot of what is currently installed.
-
-{{< hint info >}}
-Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
-{{< /hint >}}
-
 Please note:
 
 - **Disk space**: the minimal stack is exempt from the 100 GB free space guarantee.
