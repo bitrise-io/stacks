@@ -14,6 +14,18 @@ Learn more [how to get notified of updates]({{% ref "/tips/Get notified" %}}).
 
 ## Updates
 
+### Notice `v2026-10-26`
+
+{{< hint warning >}}
+This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so it still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/). Tools on macOS check certificates against one of three trust stores, and each one is affected differently:
+
+- **Homebrew trust store** (Homebrew's `ca-certificates` package): used by tools built against Homebrew's OpenSSL, such as `wget`. Run `brew upgrade ca-certificates` in the beginning of your builds to install the fixed package and untrust the compromised CAs.
+- **macOS system trust store** (`/etc/ssl/cert.pem`): used by the curl that ships with macOS and the tools built on it, such as `git`. `brew upgrade ca-certificates` doesn't change this file. Apple will fix it in a macOS update, which this stack won't receive. Until then, follow [Apple's instructions](https://support.apple.com/en-us/149555) in the beginning of your builds to remove the compromised root CAs from the file.
+- **Apple's Security framework** (the keychain): used by Xcode and other tools that rely on Apple's networking APIs. Apple's Security framework does perform updates to certificate configuration data, but the timing of these updates is not guaranteed to happen early in the build (for example, before the first steps download their dependencies).
+
+The preinstalled versions of Java, Node.js, pip, fastlane and other tools that bundle their own root certificates stay affected regardless of the trust stores above. Migrate to a supported stack, such as [Xcode 26.0]({{% ref "/stack_reports/osx-xcode-26.0.x.md" %}}), to receive tool updates and security patches. See the [migration guide]({{% ref "/announcements/Deprecating Xcode 16.x stacks.md" %}}).
+{{< /hint >}}
+
 ### Stack update `v2026-09-25` (released 2026-09-28)
 
 - New preinstalled CLI tools: `1Password CLI`, `Sentry CLI`
