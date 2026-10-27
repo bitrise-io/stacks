@@ -4,18 +4,14 @@ summary: Changelog of stack updates
 type: basic_page
 ---
 
-Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new update is released to one of the [Linux-based stacks](/platform/linux).
-
-{{< hint info >}}
-Learn more [how to get notified of updates](../tips/Get%20notified.md).
-{{< /hint >}}
+Read the [deprecation announcement]({{% ref "/announcements/Deprecating Ubuntu 22.04" %}}) for a migration guide.
 
 ## Updates
 
 ### Notice `v2026-10-26`
 
 {{< hint warning >}}
-This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so the system trust store still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/). Run `apt-get update && apt-get install -y ca-certificates` in the beginning of your builds to install the [fixed package](https://ubuntu.com/security/notices/USN-8944-1) and untrust them. Java, pip and Node.js bundle their own root certificates and stay affected. Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-android), to receive tool updates and security patches.
+This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so the system trust store still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/). Run `apt-get update && apt-get install -y ca-certificates` in the beginning of your builds to install the [fixed package](https://ubuntu.com/security/notices/USN-8944-1) and untrust them. Java, pip and Node.js bundle their own root certificates and stay affected. Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/), to receive tool updates and security patches.
 {{< /hint >}}
 
 ### Stack update `v2026-09-23`
@@ -37,7 +33,7 @@ No user-facing changes in this stack update.
 ### Stack update `v2026-04-14` (released 2026-04-24)
 
 {{< hint warning >}}
-This stack is approaching its end-of-life and will be frozen soon according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). Consider migrating to the [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24-04-bitrise-2025-android) stack to continue receiving updates.
+This stack is approaching its end-of-life and will be frozen soon according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). Consider migrating to the [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/) stack to continue receiving updates.
 {{< /hint >}}
 
 - Android emulator upgrade: `36.4.9` -> `36.5.10`

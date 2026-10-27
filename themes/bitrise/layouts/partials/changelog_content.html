@@ -1,0 +1,8 @@
+{{- /* Page content, with the stack's flavor-dependent intro in front of it on changelogs. Used by both the HTML and the JSON (content_html) outputs, the latter is what bitrise.io/stacks renders. */ -}}
+{{- $intro := "" -}}
+{{- if eq .Section "changelogs" -}}
+  {{- with partial "stack_report" . -}}
+    {{- $intro = partial "changelog_intro" . -}}
+  {{- end -}}
+{{- end -}}
+{{- return safeHTML (print $intro .Content) -}}

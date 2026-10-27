@@ -2,7 +2,9 @@
 <article class="markdown">
   <h1>
     <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+    {{ with partial "stack_report" . }}{{ with .Params.flavor }}{{ partial "stack_chip" . }}{{ end }}{{ end }}
   </h1>
+  {{ if eq .Params.flavor "frozen" }}{{ partial "frozen_notice" . }}{{ end }}
   {{ partial "stack_reports/post-meta" . }}
   {{- .Content -}}
 </article>

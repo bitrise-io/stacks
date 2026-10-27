@@ -1,0 +1,14 @@
+{{- /* Renders a flavor as a chip. Accepts the flavor string as context. */ -}}
+{{- $colorTag := "neutral" -}}
+{{- $description := "" -}}
+{{- if eq . "edge" -}}
+  {{- $colorTag = "blue" -}}
+  {{- $description = "Receives more frequent tool updates" -}}
+{{- else if eq . "stable" -}}
+  {{- $colorTag = "green" -}}
+  {{- $description = "Receives regular updates" -}}
+{{- else if eq . "frozen" -}}
+  {{- $colorTag = "yellow" -}}
+  {{- $description = "No longer receives updates" -}}
+{{- end -}}
+<span class="bitrise-stack-chip {{ $colorTag }}"{{ with $description }} title="{{ . }}"{{ end }}>{{ . }}</span>

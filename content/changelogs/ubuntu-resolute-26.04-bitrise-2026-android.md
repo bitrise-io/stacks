@@ -4,12 +4,6 @@ summary: Changelog of stack updates
 type: basic_page
 ---
 
-Bitrise stacks are updated continuously according to the [stack update policy](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html). This page is updated every time a new stack version is released.
-
-{{< hint info >}}
-Learn more [how to get notified of updates](../tips/Get%20notified.md).
-{{< /hint >}}
-
 ## Updates
 
 ### Stack update `v2026-10-23` (released 2026-10-26)
