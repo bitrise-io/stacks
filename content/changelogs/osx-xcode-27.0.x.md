@@ -8,7 +8,7 @@ type: basic_page
 
 ### Stack update `v2026-10-30`
 
-- The default `curl` has been changed to Homebrew `curl`, which uses the trust store updated for the eMudhra compromise. We recommend this version of `curl`. If your workflow requires the system `curl`, call it by its full path: `/usr/bin/curl`
+No user-facing changes in this stack update.
 
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
