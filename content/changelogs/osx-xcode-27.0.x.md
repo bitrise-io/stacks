@@ -6,6 +6,17 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-10-30` (released 2026-10-30)
+
+- There is a new iOS 27.2 simulator runtime for iPhone Duo (build `24B91016s`) alongside the general-purpose iOS 27.2 simulator runtime (build `24B8117`). The `Bitrise iOS default` for iOS 27.2 remains the general-purpose simulator.
+- New iOS 27.2 simulator device: iPad mini (A20 Pro)
+- tvOS 27.2 simulator runtime installed
+- New tvOS 27.2 simulator device: Apple TV 4K (4th generation)
+- watchOS 27.2 simulator runtime installed
+- visionOS 27.2 simulator runtime installed
+- curl upgrade: `8.7.1` -> `8.22.0`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
