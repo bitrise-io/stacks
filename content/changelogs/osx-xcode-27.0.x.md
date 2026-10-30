@@ -6,16 +6,9 @@ type: basic_page
 
 ## Updates
 
-### Stack update `v2026-10-30` (released 2026-10-30)
+### Stack update `v2026-10-30`
 
-- There is a new iOS 27.2 simulator runtime for iPhone Duo (build `24B91016s`) alongside the general-purpose iOS 27.2 simulator runtime (build `24B8117`). The `Bitrise iOS default` for iOS 27.2 remains the general-purpose simulator.
-- New iOS 27.2 simulator device: iPad mini (A20 Pro)
-- tvOS 27.2 simulator runtime installed
-- New tvOS 27.2 simulator device: Apple TV 4K (4th generation)
-- watchOS 27.2 simulator runtime installed
-- visionOS 27.2 simulator runtime installed
-- curl upgrade: `8.7.1` -> `8.22.0`
-- Homebrew package upgrades
+- The default `curl` has been changed to Homebrew `curl`, which uses the trust store updated for the eMudhra compromise. We recommend this version of `curl`. If your workflow requires the system `curl`, call it by its full path: `/usr/bin/curl`
 
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
@@ -24,7 +17,7 @@ type: basic_page
   - `curl` itself didn't need an update: it uses the certificates from Homebrew's `ca-certificates`, so it rejects the compromised CAs now
   - The same applies to OpenSSL and other tools that use Homebrew's OpenSSL trust store
 
-### Stack update `v2026-10-16` (released 2026-10-16)
+### Stack update `v2026-10-16`
 
 - iOS 27.1 simulator runtime installed
 - New iOS 27.1 simulator device: iPhone Duo
