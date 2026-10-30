@@ -6,6 +6,10 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-10-30`
+
+No user-facing changes in this stack update.
+
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
@@ -13,7 +17,7 @@ type: basic_page
   - `curl` itself didn't need an update: it uses the certificates from Homebrew's `ca-certificates`, so it rejects the compromised CAs now
   - The same applies to OpenSSL and other tools that use Homebrew's OpenSSL trust store
 
-### Stack update `v2026-10-16` (released 2026-10-16)
+### Stack update `v2026-10-16`
 
 - iOS 27.1 simulator runtime installed
 - New iOS 27.1 simulator device: iPhone Duo
