@@ -6,6 +6,10 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-10-30` (released 2026-11-02)
+
+- Android emulator upgrade: `37.2.12` -> `37.2.13`. Fixes [host memory leak in OpenGL ES emulation](https://developer.android.com/studio/releases/emulator#37-2-13), where graphics contexts, surfaces and frame buffers were not released when apps exited in the emulator.
+
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Update system `ca-certificates` to untrust [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/), covering tools like curl, Python, Java and others using the system trust store
