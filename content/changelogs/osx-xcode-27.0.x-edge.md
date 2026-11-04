@@ -8,11 +8,10 @@ type: basic_page
 
 ### Stack update `v2026-11-04`
 
-- `Python` additional preinstalled version `3.13.16` removed
-- Homebrew `harfbuzz` upgrade: `14.6.0` → `15.0.0_1`
+- Following [Apple's workaround](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://bitrise.io/blog/post/emudhra-certificate-compromise-bitrise) in the macOS system trust store (`/etc/ssl/cert.pem`), used by the system `curl` (`/usr/bin/curl`), `git` and other built-in tools
 - Homebrew package upgrades
 
-### Stack update `v2026-10-21` (released 2026-10-21)
+### Stack update `v2026-10-21`
 
 - macOS update `26.6.1 (25G76)` → `27.0.1 (26A434)`
 - Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
@@ -33,7 +32,7 @@ type: basic_page
 
 - Homebrew package upgrades
 
-### Stack update `v2026-10-15` (released 2026-10-15)
+### Stack update `v2026-10-15`
 
 - New iOS 27.2 simulator device: iPhone Duo
 - Bitrise CLI upgrade: `3.1.0` → `3.2.1`
