@@ -6,6 +6,12 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-11-04`
+
+- `Python` additional preinstalled version `3.13.16` removed
+- Homebrew `harfbuzz` upgrade: `14.6.0` → `15.0.0_1`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-21` (released 2026-10-21)
 
 - macOS update `26.6.1 (25G76)` → `27.0.1 (26A434)`
