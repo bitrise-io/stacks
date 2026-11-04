@@ -11,17 +11,10 @@
           "executed_command": "xcodebuild -version"
         },
         {
-          "name": "CoreSimulator.framework",
-          "category": "apple",
-          "version": "1174.20",
-          "raw_output": "1174.20",
-          "executed_command": "/usr/libexec/PlistBuddy -c \"print 'CFBundleVersion'\" /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Info.plist"
-        },
-        {
           "name": "Metal Toolchain",
           "category": "apple",
           "version": "",
-          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset/AssetData\nBuild Version: 27A266a\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.921.5\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.UZeHV4",
+          "raw_output": "Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset/AssetData\nBuild Version: 27A266a\nStatus: installed\nToolchain Identifier: com.apple.dt.toolchain.Metal.32023.921.5\nToolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.A2pQfU",
           "executed_command": "xcodebuild -showComponent MetalToolchain"
         },
         {
@@ -42,7 +35,7 @@
           "name": "Rosetta",
           "category": "apple",
           "version": "",
-          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1790234402\nvolume: /\nlocation: /\ninstall-time: 1792574757",
+          "raw_output": "package-id: com.apple.pkg.RosettaUpdateAuto\nversion: 1.0.0.0.1790234402\nvolume: /\nlocation: /\ninstall-time: 1793778869",
           "executed_command": "pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto"
         },
         {
@@ -70,7 +63,7 @@
           "name": "Homebrew config",
           "category": "apple",
           "version": "",
-          "raw_output": "HOMEBREW_VERSION: 7.0.10\nORIGIN: https://github.com/Homebrew/brew\nHEAD: 8f10429b56be28a25032b87463fffc95e556b5bc\nLast commit: 2 days ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.7 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.7_1/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.56.0 =\u003e /opt/homebrew/bin/git\nCurl: 8.7.1 =\u003e /usr/bin/curl\nmacOS: 27.0.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.0 =\u003e /Applications/Xcode-27.0.0.app/Contents/Developer\nMetal Toolchain: 27.1 (27A266)\nRosetta 2: false",
+          "raw_output": "HOMEBREW_VERSION: 7.0.12\nORIGIN: https://github.com/Homebrew/brew\nHEAD: bf464f57275cae0be106b43d190c98564ac59b0e\nLast commit: 2 days ago\nBranch: stable\nCore tap: N/A\nCore cask tap: N/A\nHOMEBREW_PREFIX: /opt/homebrew\nHOMEBREW_CASK_OPTS: [\"--no-quarantine\"]\nHOMEBREW_NO_ANALYTICS: set\nHOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set\nHOMEBREW_NO_INSTALL_CLEANUP: set\nHomebrew Ruby: 4.0.9 =\u003e /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.9/bin/ruby\nCPU: 14-core 64-bit dunno\nClang: 21.0.0 build 2100\nGit: 2.56.0 =\u003e /opt/homebrew/opt/git/bin/git\nCurl: 8.23.0 =\u003e /opt/homebrew/opt/curl/bin/curl\nmacOS: 27.0.1-arm64\nCLT: 27.0.0.0.1788430756\nXcode: 27.0 =\u003e /Applications/Xcode-27.0.0.app/Contents/Developer\nMetal Toolchain: 27.1 (27A266)\nRosetta 2: false",
           "executed_command": "brew config"
         },
         {
@@ -84,7 +77,7 @@
           "name": "Cocoapods config",
           "category": "apple",
           "version": "",
-          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.17.0\n        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin27]\n    RubyGems : 4.0.16\n        Host : macOS 27.0.1 (26A434)\n       Xcode : 27.0 (27A266a)\n         Git : git version 2.56.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 347f8e49b4ddbb58067adabb9625fffc05bc2270\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.7\n```",
+          "raw_output": "### Stack\n\n```\n   CocoaPods : 1.17.0\n        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) +PRISM [arm64-darwin27]\n    RubyGems : 4.0.16\n        Host : macOS 27.0.1 (26A434)\n       Xcode : 27.0 (27A266a)\n         Git : git version 2.56.0\nRuby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib\nRepositories : master - git - https://github.com/CocoaPods/Specs.git @ 271569f798fbc69f4d6bc9b68ff5196f237dcea1\n\n               trunk - CDN - https://cdn.cocoapods.org/\n```\n\n### Installation Source\n\n```\nExecutable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod\n```\n\n### Plugins\n\n```\ncocoapods-deintegrate : 1.0.5\ncocoapods-plugins     : 1.0.0\ncocoapods-search      : 1.0.1\ncocoapods-trunk       : 1.6.0\ncocoapods-try         : 1.2.0\nslather               : 2.8.7\n```",
           "executed_command": "pod env"
         },
         {
@@ -125,12 +118,17 @@
         {
           "name": "xclogparser",
           "category": "apple",
-          "version": "0.2.49",
-          "raw_output": "XCLogParser 0.2.49",
+          "version": "0.2.50",
+          "raw_output": "XCLogParser 0.2.50",
           "executed_command": "xclogparser version"
         }
       ],
-      "errors": null
+      "errors": [
+        {
+          "name": "CoreSimulator.framework",
+          "error": "No matches found"
+        }
+      ]
     }
   }
 ]
