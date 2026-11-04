@@ -8,7 +8,7 @@ type: basic_page
 
 ### Stack update `v2026-11-04`
 
-- `harfbuzz` upgrade: `14.6.0` → `15.0.0_1`
+- Following [Apple's workaround](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://bitrise.io/blog/post/emudhra-certificate-compromise-bitrise) in the macOS system trust store (`/etc/ssl/cert.pem`), used by the system `curl` (`/usr/bin/curl`), `git` and other built-in tools
 - Homebrew package upgrades
 
 ### Stack update `v2026-10-21` (released 2026-10-21)
