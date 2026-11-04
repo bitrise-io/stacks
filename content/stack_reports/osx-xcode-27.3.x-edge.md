@@ -5,7 +5,6 @@ platform: macOS
 xcode: "27.3"
 flavor: edge
 weight: 53
-draft: true
 ---
 
 ## Languages and runtimes
