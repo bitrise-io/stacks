@@ -6,6 +6,15 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-11-04`
+
+- [Xcode 27.2](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B52`)
+- New iOS 27.2 simulator device: iPad mini (A20 Pro)
+- New tvOS 27.2 simulator device: Apple TV 4K (4th generation)
+- Preinstalled `Python 3.13` removed
+- Homebrew `harfbuzz` upgrade: `14.6.0` -> `15.0.0_1`
+- Homebrew package upgrades
+
 ### Stack update `v2026-10-21` (released 2026-10-21)
 
 - macOS update `26.6.1 (25G76)` → `27.0.1 (26A434)`
