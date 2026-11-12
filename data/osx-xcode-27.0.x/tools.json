@@ -6,8 +6,8 @@
         {
           "name": "Git",
           "category": "tools",
-          "version": "2.55.0",
-          "raw_output": "git version 2.55.0",
+          "version": "2.56.1",
+          "raw_output": "git version 2.56.1",
           "executed_command": "git --version"
         },
         {

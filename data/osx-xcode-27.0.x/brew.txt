@@ -51,7 +51,7 @@ gettext 1.0
 gflags 2.3.1
 gh 2.100.0
 giflib 6.1.3
-git 2.55.0
+git 2.56.1
 git-lfs 3.8.0
 glib 2.88.3
 glog 0.7.1
@@ -96,7 +96,7 @@ libtiff 4.7.2
 libtomcrypt 1.18.2_1
 libtommath 1.3.0
 libtool 2.6.2
-libunistring 1.4.2
+libunistring 1.5
 libusb 1.0.30
 libuv 1.52.1
 libvmaf 3.2.1
@@ -136,7 +136,7 @@ openvpn 2.7.7
 opus 1.6.1
 p11-kit 0.26.5
 parallel 20260822
-pcre2 10.48
+pcre2 10.49
 php 8.5.10
 pinentry 1.3.3
 pipx 1.17.2
