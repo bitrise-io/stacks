@@ -6,6 +6,15 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-11-12` (released 2026-11-13)
+
+- Homebrew `ca-certificates` upgrade: `2026-10-20` -> `2026-11-05`
+- Homebrew `gettext` upgrade: `0.26` -> `1.0`
+- Git upgrade: `2.51.0` -> `2.56.1`
+- Homebrew `json-c` is now preinstalled (at version `0.19`)
+- Homebrew `libunistring` upgrade: `1.3` -> `1.5`
+- Homebrew `pcre2` upgrade: `10.46` -> `10.49`
+
 ### Stack update `v2026-10-23` (released 2026-10-26)
 
 - Next to [Apple's immediate certificate revocations](https://support.apple.com/en-us/149555), we untrust the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/) in Homebrew's trust store:
