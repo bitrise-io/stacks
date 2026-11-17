@@ -6,6 +6,10 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-11-16` (released 2026-11-17)
+
+- Homebrew package upgrades
+
 ### Stack update `v2026-11-04`
 
 - [Xcode 27.2](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes) (build `27B52`)

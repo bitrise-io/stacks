@@ -137,19 +137,19 @@ iOS 18.6 (18.6 - 22G86) - com.apple.CoreSimulator.SimRuntime.iOS-18-6
 iOS 26.5 (26.5 - 23F77) - com.apple.CoreSimulator.SimRuntime.iOS-26-5
 iOS 27.0 (27.0 - 24A434) - com.apple.CoreSimulator.SimRuntime.iOS-27-0
 iOS 27.1 (27.1 - 24A94425) - com.apple.CoreSimulator.SimRuntime.iOS-27-1
-iOS 27.2 (27.2 - 24B8117) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
 iOS 27.2 (27.2 - 24B91016s) - com.apple.CoreSimulator.SimRuntime.iOS-27-2-iPhone19-4
-iOS 27.3 (27.3 - 24C5037i) - com.apple.CoreSimulator.SimRuntime.iOS-27-3
+iOS 27.2 (27.2 - 24B8117) - com.apple.CoreSimulator.SimRuntime.iOS-27-2
+iOS 27.3 (27.3 - 24C5049d) - com.apple.CoreSimulator.SimRuntime.iOS-27-3
 tvOS 27.0 (27.0 - 24J360) - com.apple.CoreSimulator.SimRuntime.tvOS-27-0
 tvOS 27.2 (27.2 - 24K150) - com.apple.CoreSimulator.SimRuntime.tvOS-27-2
-tvOS 27.3 (27.3 - 24K5286g) - com.apple.CoreSimulator.SimRuntime.tvOS-27-3
+tvOS 27.3 (27.3 - 24K5298d) - com.apple.CoreSimulator.SimRuntime.tvOS-27-3
 watchOS 26.5 (26.5 - 23T570) - com.apple.CoreSimulator.SimRuntime.watchOS-26-5
 watchOS 27.0 (27.0 - 24R362) - com.apple.CoreSimulator.SimRuntime.watchOS-27-0
 watchOS 27.2 (27.2 - 24S118) - com.apple.CoreSimulator.SimRuntime.watchOS-27-2
-watchOS 27.3 (27.3 - 24S5284h) - com.apple.CoreSimulator.SimRuntime.watchOS-27-3
+watchOS 27.3 (27.3 - 24S5296d) - com.apple.CoreSimulator.SimRuntime.watchOS-27-3
 visionOS 27.0 (27.0 - 24M362) - com.apple.CoreSimulator.SimRuntime.xrOS-27-0
 visionOS 27.2 (27.2 - 24N120) - com.apple.CoreSimulator.SimRuntime.xrOS-27-2
-visionOS 27.3 (27.3 - 24N5286r) - com.apple.CoreSimulator.SimRuntime.xrOS-27-3
+visionOS 27.3 (27.3 - 24N5298d) - com.apple.CoreSimulator.SimRuntime.xrOS-27-3
 == Devices ==
 -- iOS 18.6 --
     iPhone 16 Pro (504F0A2D-15EC-42AD-AAA7-2550A870A1CE) (Shutdown) 
@@ -194,6 +194,8 @@ visionOS 27.3 (27.3 - 24N5286r) - com.apple.CoreSimulator.SimRuntime.xrOS-27-3
     Bitrise iOS default (87B7C240-8340-4D70-BB33-F2A75968F8E6) (Shutdown) 
     iPhone Duo (FCBC59CA-CE41-4FA0-93E9-1B00835A92F1) (Shutdown) 
 -- iOS 27.2 --
+    iPhone Duo (343953E9-E877-480D-8407-3BC10DF37D0A) (Shutdown) 
+-- iOS 27.2 --
     iPhone 18 Pro (205C0924-5DC9-419A-8204-73BC361CF506) (Shutdown) 
     iPhone 18 Pro Max (2F1797BB-C575-496F-888F-61F5694BA048) (Shutdown) 
     iPhone 17e (FDC3FAF8-1B31-4A36-BAD5-DFB6E5C7AA5F) (Shutdown) 
@@ -207,8 +209,6 @@ visionOS 27.3 (27.3 - 24N5286r) - com.apple.CoreSimulator.SimRuntime.xrOS-27-3
     iPad Air 13-inch (M4) (84AC905A-8C10-40B0-B1D3-94E3EEED9A56) (Shutdown) 
     iPad Air 11-inch (M4) (8EC03DF3-8FEC-4F6E-93E0-0286F9EE4601) (Shutdown) 
     iPad (A16) (47169260-BAFD-4C4D-B2CD-22D27509AD2F) (Shutdown) 
--- iOS 27.2 --
-    iPhone Duo (343953E9-E877-480D-8407-3BC10DF37D0A) (Shutdown) 
 -- iOS 27.3 --
     iPhone 18 Pro (ABFF37F4-9BF7-486D-AB94-2009EA5674BA) (Shutdown) 
     iPhone 18 Pro Max (EBBBE603-CCFC-4BC9-B9B7-0D0CBCA280E2) (Shutdown) 
