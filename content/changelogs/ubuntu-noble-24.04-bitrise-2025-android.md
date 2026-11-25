@@ -6,6 +6,15 @@ type: basic_page
 
 ## Updates
 
+### Stack update `v2026-11-24` (released 2026-11-25)
+
+- Java upgrades: OpenJDK 8, 11, 17, 21, 25 patch updates to address the [Java4Shell](https://nvd.nist.gov/vuln/detail/CVE-2026-114938) vulnerability
+- Git upgrade: `2.56.0` -> `2.56.1` to address the [Git recursive clone](https://nvd.nist.gov/vuln/detail/CVE-2026-111760) vulnerability
+- Android emulator upgrade: `37.2.13` -> `37.3.10`
+- Android platform-tools upgrade: `37.0.1` -> `37.0.3`
+- Fastlane upgrade: `2.241.2` -> `2.242.0`
+- Ubuntu package upgrades
+
 ### Stack update `v2026-10-30` (released 2026-11-02)
 
 - Android emulator upgrade: `37.2.12` -> `37.2.13`. Fixes [host memory leak in OpenGL ES emulation](https://developer.android.com/studio/releases/emulator#37-2-13), where graphics contexts, surfaces and frame buffers were not released when apps exited in the emulator.
