@@ -8,10 +8,34 @@ Read the [deprecation announcement]({{% ref "/announcements/Deprecating Ubuntu 2
 
 ## Updates
 
+### Notice `v2026-11-25`
+
+{{< hint warning >}}
+This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so it stays affected by the [Java4Shell](https://nvd.nist.gov/vuln/detail/CVE-2026-114938) vulnerability in OpenJDK 17 and 21 and the [Git recursive clone](https://nvd.nist.gov/vuln/detail/CVE-2026-111760) vulnerability.
+
+To install the fixed packages, run this in the beginning of your builds:
+
+```bash
+apt-get update && apt-get install -y git openjdk-17-jdk openjdk-21-jdk
+```
+
+Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/), to receive tool updates and security patches.
+{{< /hint >}}
+
 ### Notice `v2026-10-26`
 
 {{< hint warning >}}
-This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so the system trust store still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/). Run `apt-get update && apt-get install -y ca-certificates` in the beginning of your builds to install the [fixed package](https://ubuntu.com/security/notices/USN-8944-1) and untrust them. Java, pip and Node.js bundle their own root certificates and stay affected. Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/), to receive tool updates and security patches.
+This stack is [frozen](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html) and doesn't receive updates, so the system trust store still trusts the [compromised eMudhra intermediate CAs](https://emudhra.we-have-a-problem.com/).
+
+To install the [fixed package](https://ubuntu.com/security/notices/USN-8944-1) and untrust them, run this in the beginning of your builds:
+
+```bash
+apt-get update && apt-get install -y ca-certificates
+```
+
+Java, pip and Node.js bundle their own root certificates and stay affected.
+
+Migrate to the current stable stack, [Ubuntu Noble 24.04 - Bitrise 2025 Edition](/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/), to receive tool updates and security patches.
 {{< /hint >}}
 
 ### Stack update `v2026-09-23`
