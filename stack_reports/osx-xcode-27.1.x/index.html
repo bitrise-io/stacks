@@ -1,0 +1,369 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="macOS stack for building with Xcode 27.1"><meta name=theme-color media="(prefers-color-scheme: light)" content="#ffffff"><meta name=theme-color media="(prefers-color-scheme: dark)" content="#343a40"><meta name=color-scheme content="light dark"><meta property="og:url" content="https://stacks.bitrise.io/stack_reports/osx-xcode-27.1.x/"><meta property="og:site_name" content="Bitrise Stacks"><meta property="og:title" content="Xcode 27.1"><meta property="og:description" content="macOS stack for building with Xcode 27.1"><meta property="og:locale" content="en_us"><meta property="og:type" content="article"><meta property="article:section" content="stack_reports"><meta property="article:published_time" content="2026-11-25T16:47:21+01:00"><meta property="article:modified_time" content="2026-11-25T16:47:21+01:00"><title>Xcode 27.1 | Bitrise Stacks</title><link rel=icon href=/favicon.png><link rel=manifest href=/manifest.json><link rel=canonical href=https://stacks.bitrise.io/stack_reports/osx-xcode-27.1.x/><link rel=stylesheet href=/book.min.e1ff3882163440a566dbec22062092e01d3d5058966c5775f69e3618ff5d0cf2.css integrity="sha256-4f84ghY0QKVm2+wiBiCS4B09UFiWbFd19p42GP9dDPI=" crossorigin=anonymous><script defer src=/fuse.min.js></script><script defer src=/en.search.min.c5f8004f653d0d5d655d9afb4f1a9bdfb33d753fc6322e638dee2f875471095b.js integrity="sha256-xfgAT2U9DV1lXZr7Txqb37M9dT/GMi5jje4vh1RxCVs=" crossorigin=anonymous></script><link rel=alternate type=application/rss+xml href=https://stacks.bitrise.io/stack_reports/osx-xcode-27.1.x/index.xml title="Bitrise Stacks"></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><img src=/bitrise-logo.svg alt=Logo class=book-icon><span>Bitrise Stacks</span></a></h2><div class="book-search hidden"><input type=text id=book-search-input placeholder=Search aria-label=Search maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><script>document.querySelector(".book-search").classList.remove("hidden")</script><ul><li><input type=checkbox id=section-8937e54f1290f215a62e255bcd0f235b class=toggle>
+<label for=section-8937e54f1290f215a62e255bcd0f235b class=flex><a href=/announcements/ class=flex-auto>Announcements</a></label><ul><li><a href=/announcements/about-announcements/>About announcements</a></li><li><a href=/announcements/deprecating-ubuntu-22.04/>Deprecating Ubuntu 22.04</a></li><li><a href=/announcements/deprecating-xcode-16.x-stacks/>Deprecating Xcode 16.x stacks</a></li><li><a href=/announcements/ubuntu-noble-2025/>New edge stack: Ubuntu Noble 24.04 Bitrise 2025 Edition</a></li><li><a href=/announcements/macos-minimal-stack/>New stack: macOS minimal</a></li><li><a href=/announcements/removing-xcode-15.x-stacks/>Removing Xcode 15.x stacks</a></li><li><a href=/announcements/removing-xcode-26-edge-stacks/>Removing Xcode 26 edge stacks</a></li><li><a href=/announcements/ubuntu-22/>Ubuntu 22 public preview</a></li><li><a href=/announcements/2026-linux-stacks/>Upcoming Linux updates in April 2026</a></li><li><a href=/announcements/upcoming-stack-deprecations/>Upcoming stack deprecations</a></li></ul></li><li><a href=/changelogs/>Stack Changelogs</a><ul><li><input type=checkbox id=section-2cd236da16a1030c9c4fceabc0fdca99 class=toggle>
+<label for=section-2cd236da16a1030c9c4fceabc0fdca99 class=flex><a href=/changelogs/aws/ class=flex-auto>Bitrise on AWS</a></label><ul><li><a href=/changelogs/aws/aws-linux-baremetal/>Linux bare metal AMI changelog</a></li><li><a href=/changelogs/aws/aws-mac-baremetal/>macOS bare metal AMI changelog</a></li><li><a href=/changelogs/aws/aws-mac-virtualized/>macOS virtualized AMI changelog</a></li></ul></li><li><a href=/changelogs/osx-minimal/>macOS minimal changelog</a></li><li><a href=/changelogs/linux-docker-android-22.04/>Ubuntu 22.04 for Android & Docker</a></li><li><a href=/changelogs/ubuntu-noble-24.04-bitrise-2025-android/>Ubuntu Noble 24.04 - Bitrise 2025 Edition</a></li><li><a href=/changelogs/ubuntu-resolute-26.04-bitrise-2026-android/>Ubuntu Resolute 26.04 - Bitrise 2026 Edition</a></li><li><a href=/changelogs/osx-xcode-16.0.x/>Xcode 16.0 changelog</a></li><li><a href=/changelogs/osx-xcode-16.1.x/>Xcode 16.1 changelog</a></li><li><a href=/changelogs/osx-xcode-16.2.x/>Xcode 16.2 changelog</a></li><li><a href=/changelogs/osx-xcode-16.3.x/>Xcode 16.3 changelog</a></li><li><a href=/changelogs/osx-xcode-16.4.x/>Xcode 16.4 changelog</a></li><li><a href=/changelogs/osx-xcode-26.0.x/>Xcode 26.0 changelog</a></li><li><a href=/changelogs/osx-xcode-26.1.x/>Xcode 26.1 changelog</a></li><li><a href=/changelogs/osx-xcode-26.2.x/>Xcode 26.2 changelog</a></li><li><a href=/changelogs/osx-xcode-26.3.x/>Xcode 26.3 changelog</a></li><li><a href=/changelogs/osx-xcode-26.4.x/>Xcode 26.4 changelog</a></li><li><a href=/changelogs/osx-xcode-26.5.x/>Xcode 26.5 changelog</a></li><li><a href=/changelogs/osx-xcode-26.6.x/>Xcode 26.6 changelog</a></li><li><a href=/changelogs/osx-xcode-27.0.x/>Xcode 27.0 changelog</a></li><li><a href=/changelogs/osx-xcode-27.0.x-edge/>Xcode 27.0 with edge updates changelog</a></li><li><a href=/changelogs/osx-xcode-27.1.x/>Xcode 27.1 changelog</a></li><li><a href=/changelogs/osx-xcode-27.1.x-edge/>Xcode 27.1 with edge updates changelog</a></li><li><a href=/changelogs/osx-xcode-27.2.x/>Xcode 27.2 changelog</a></li><li><a href=/changelogs/osx-xcode-27.2.x-edge/>Xcode 27.2 with edge updates changelog</a></li><li><a href=/changelogs/osx-xcode-27.3.x-edge/>Xcode 27.3 with edge updates changelog</a></li></ul></li><li><a href=/stack_reports/>Stack Reports</a><ul><li><input type=checkbox id=section-309173412091680070b35e49d24da107 class=toggle>
+<label for=section-309173412091680070b35e49d24da107 class=flex><a href=/stack_reports/aws/ class=flex-auto>Bitrise on AWS</a></label><ul><li><a href=/stack_reports/aws/aws-linux-baremetal/>Linux bare metal AMI</a></li><li><a href=/stack_reports/aws/aws-mac-baremetal/>macOS bare metal AMI</a></li><li><a href=/stack_reports/aws/aws-mac-virtualized-sequoia16/>macOS Sequoia virtualized AMI: Xcode 16.3-16.4</a></li><li><a href=/stack_reports/aws/aws-mac-virtualized-sequoia26/>macOS Sequoia virtualized AMI: Xcode 26.0-26.2</a></li><li><a href=/stack_reports/aws/aws-mac-virtualized-sonoma16/>macOS Sonoma virtualized AMI: Xcode 16.0-16.2</a></li><li><a href=/stack_reports/aws/aws-mac-virtualized-tahoe26/>macOS Tahoe virtualized AMI: Xcode 26.4-26.6</a></li></ul></li><li><a href=/stack_reports/osx-xcode-16.0.x/>Xcode 16.0</a></li><li><a href=/stack_reports/osx-xcode-16.1.x/>Xcode 16.1</a></li><li><a href=/stack_reports/osx-xcode-16.2.x/>Xcode 16.2</a></li><li><a href=/stack_reports/osx-xcode-16.3.x/>Xcode 16.3</a></li><li><a href=/stack_reports/osx-xcode-16.4.x/>Xcode 16.4</a></li><li><a href=/stack_reports/osx-xcode-26.0.x/>Xcode 26.0</a></li><li><a href=/stack_reports/osx-xcode-26.1.x/>Xcode 26.1</a></li><li><a href=/stack_reports/osx-xcode-26.2.x/>Xcode 26.2</a></li><li><a href=/stack_reports/osx-minimal/>macOS minimal</a></li><li><a href=/stack_reports/osx-xcode-26.3.x/>Xcode 26.3</a></li><li><a href=/stack_reports/osx-xcode-26.4.x/>Xcode 26.4</a></li><li><a href=/stack_reports/osx-xcode-26.5.x/>Xcode 26.5</a></li><li><a href=/stack_reports/osx-xcode-26.6.x/>Xcode 26.6</a></li><li><a href=/stack_reports/osx-xcode-27.0.x/>Xcode 27.0</a></li><li><a href=/stack_reports/osx-xcode-27.1.x/ class=active>Xcode 27.1</a></li><li><a href=/stack_reports/osx-xcode-27.2.x/>Xcode 27.2</a></li><li><a href=/stack_reports/osx-xcode-27.0.x-edge/>Xcode 27.0 with edge updates</a></li><li><a href=/stack_reports/osx-xcode-27.2.x-edge/>Xcode 27.2 with edge updates</a></li><li><a href=/stack_reports/osx-xcode-27.1.x-edge/>Xcode 27.1 with edge updates</a></li><li><a href=/stack_reports/osx-xcode-27.3.x-edge/>Xcode 27.3 with edge updates</a></li><li><a href=/stack_reports/linux-docker-android-22.04/>Ubuntu 22.04 for Android & Docker</a></li><li><a href=/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/>Ubuntu Noble 24.04 - Bitrise 2025 Edition</a></li><li><a href=/stack_reports/ubuntu-resolute-26.04-bitrise-2026-android/>Ubuntu Resolute 26.04 - Bitrise 2026 Edition</a></li></ul></li><li><input type=checkbox id=section-4c42a1ecdeee0868ef92fcdaf14ceec7 class=toggle>
+<label for=section-4c42a1ecdeee0868ef92fcdaf14ceec7 class=flex><a href=/tools/ class=flex-auto>Tools</a></label><ul><li><a href=/tools/go/>Overview of Go versions</a></li><li><a href=/tools/java/>Overview of Java versions</a></li><li><a href=/tools/node.js/>Overview of Node.js versions</a></li><li><a href=/tools/ruby/>Overview of Ruby versions</a></li></ul></li><li><span>Tips and tricks</span><ul><li><a href=/tips/tool-versions/>Defining tool versions for reliable builds</a></li><li><a href=/tips/get-notified/>Get notified of updates</a></li></ul></li></ul><ul><li><a href=https://bitrise.io/blog/ target=_blank rel=noopener>Blog</a></li><li><a href=https://devcenter.bitrise.io/ target=_blank rel=noopener>Docs</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/svg/menu.svg class=book-icon alt=Menu></label><h3>Xcode 27.1</h3><label for=toc-control><img src=/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav id=TableOfContents><ul><li><a href=#languages-and-runtimes>Languages and runtimes</a></li><li><a href=#simulators>Simulators</a></li><li><a href=#cli-tools>CLI tools</a><ul><li><a href=#apple-development>Apple development</a></li><li><a href=#android-development>Android development</a></li><li><a href=#generic-tools>Generic tools</a></li><li><a href=#global-npm-packages>Global NPM packages</a></li><li><a href=#bitrise-specific>Bitrise-specific</a></li><li><a href=#homebrew>Homebrew</a></li></ul></li><li><a href=#os>OS</a></li></ul></nav></aside></header><article class=markdown><h1><a href=/stack_reports/osx-xcode-27.1.x/>Xcode 27.1</a>
+<span class="bitrise-stack-chip green" title="Receives regular updates">stable</span></h1><p>Stack ID: <code>osx-xcode-27.1.x</code></p><p>Current stack revision: <code>v2026-11-12</code></p><a href=https://stacks.bitrise.io/changelogs/osx-xcode-27.1.x/ class=book-btn>Changelog</a>
+<a href=https://github.com/bitrise-io/stacks/commits/main/data/osx-xcode-27.1.x class=book-btn target=_blank>Update history</a>
+<a href=https://stacks.bitrise.io/tips/get-notified/ class=book-btn>Get notified</a><p>This Bitrise stack contains the following software:</p><h2 id=languages-and-runtimes>Languages and runtimes
+<a class=anchor href=#languages-and-runtimes>#</a></h2><details><summary>Ruby versions</summary><ul><li>3.3.12</li><li>3.3</li><li>3.4.10</li><li>3.4</li><li>3</li><li>4.0.6</li><li><strong>4.0 (default)</strong></li><li>4</li></ul></details><details><summary>Ruby version aliases</summary><ul><li>3 => 3.4.10</li><li>3.3 => 3.3.12</li><li>3.4 => 3.4.10</li><li>4 => 4.0.6</li><li>4.0 => 4.0.6</li></ul></details><details><summary>Go versions</summary><ul><li>1.26.7</li><li>1.26</li><li>1.27.0</li><li><strong>1.27 (default)</strong></li><li>1</li></ul></details><details><summary>Go version aliases</summary><ul><li>1 => 1.27.0</li><li>1.26 => 1.26.7</li><li>1.27 => 1.27.0</li></ul></details><details><summary>Node.js versions</summary><ul><li>22.23.2</li><li>22.23</li><li>22</li><li>24.19.0</li><li>24.19</li><li><strong>24 (default)</strong></li><li>26.7.0</li><li>26.7</li><li>26</li><li>lts</li></ul></details><details><summary>Node.js version aliases</summary><ul><li>22 => 22.23.2</li><li>22.23 => 22.23.2</li><li>24 => 24.19.0</li><li>24.19 => 24.19.0</li><li>26 => 26.7.0</li><li>26.7 => 26.7.0</li><li>lts => 22.23.2</li></ul></details><details><summary>Java versions</summary><ul><li>system</li><li>11</li><li>11.0</li><li>11.0.32.1</li><li><strong>17 (set by /Users/vagrant/.jenv/version) (default)</strong></li><li>17.0</li><li>17.0.20.1</li><li>21</li><li>21.0</li><li>21.0.12.1</li><li>25</li><li>25.0</li><li>25.0.4.1</li><li>temurin64-11.0.32.1</li><li>temurin64-17.0.20.1</li><li>temurin64-21.0.12.1</li><li>temurin64-25.0.4.1</li></ul></details><details><summary>Flutter versions</summary><ul><li>3.47.0</li></ul></details><details><summary>Python</summary><ul><li>Python 3.13.15</li></ul></details><details><summary>Kotlin</summary><ul><li>Kotlin version 2.4.20 (JRE 17.0.20.1+1)</li></ul></details><h2 id=simulators>Simulators
+<a class=anchor href=#simulators>#</a></h2><p>Available runtimes and devices:</p><details><summary>iOS 18.6</summary><p>Build version: <code>22G86</code></p><p>Devices:</p><ul><li><strong>Bitrise iOS default</strong> (<code>com.apple.CoreSimulator.SimDeviceType.iPhone-11</code>)</li><li>iPhone 16 Pro</li><li>iPhone 16 Pro Max</li><li>iPhone 16e</li><li>iPhone 16</li><li>iPhone 16 Plus</li><li>iPad Pro 11-inch (M4)</li><li>iPad Pro 13-inch (M4)</li><li>iPad mini (A17 Pro)</li><li>iPad (A16)</li><li>iPad Air 13-inch (M3)</li><li>iPad Air 11-inch (M3)</li></ul></details><details><summary>iOS 26.5</summary><p>Build version: <code>23F77</code></p><p>Devices:</p><ul><li><strong>Bitrise iOS default</strong> (<code>com.apple.CoreSimulator.SimDeviceType.iPhone-13</code>)</li><li>iPhone 17 Pro</li><li>iPhone 17 Pro Max</li><li>iPhone 17e</li><li>iPhone Air</li><li>iPhone 17</li><li>iPad Pro 13-inch (M5)</li><li>iPad Pro 11-inch (M5)</li><li>iPad mini (A17 Pro)</li><li>iPad Air 13-inch (M4)</li><li>iPad Air 11-inch (M4)</li><li>iPad (A16)</li></ul></details><details><summary>iOS 27.0</summary><p>Build version: <code>24A434</code></p><p>Devices:</p><ul><li><strong>Bitrise iOS default</strong> (<code>com.apple.CoreSimulator.SimDeviceType.iPhone-13</code>)</li><li>iPhone 18 Pro</li><li>iPhone 18 Pro Max</li><li>iPhone 17e</li><li>iPhone Air</li><li>iPhone 17</li><li>iPad Pro 13-inch (M5)</li><li>iPad Pro 11-inch (M5)</li><li>iPad mini (A17 Pro)</li><li>iPad Air 13-inch (M4)</li><li>iPad Air 11-inch (M4)</li><li>iPad (A16)</li></ul></details><details><summary>iOS 27.1</summary><p>Build version: <code>24A94425</code></p><p>Devices:</p><ul><li><strong>Bitrise iOS default</strong> (<code>com.apple.CoreSimulator.SimDeviceType.iPhone-Duo</code>)</li><li>iPhone Duo</li></ul></details><details><summary>iOS 27.2</summary><p>Build version: <code>24B8117</code></p><p>Devices:</p><ul><li><strong>Bitrise iOS default</strong> (<code>com.apple.CoreSimulator.SimDeviceType.iPhone-13</code>)</li><li>iPhone 18 Pro</li><li>iPhone 18 Pro Max</li><li>iPhone 17e</li><li>iPhone Air</li><li>iPhone 17</li><li>iPad Pro 13-inch (M5)</li><li>iPad Air 13-inch (M4)</li><li>iPad Air 11-inch (M4)</li><li>iPad (A16)</li><li>iPad mini (A20 Pro)</li><li>iPad Pro 11-inch (M5)</li></ul></details><details><summary>iOS 27.2</summary><p>Build version: <code>24B91016s</code></p><p>Devices:</p><ul><li>iPhone Duo</li></ul></details><details><summary>tvOS 27.0</summary><p>Build version: <code>24J360</code></p><p>Devices:</p><ul><li>Apple TV 4K (3rd generation)</li><li>Apple TV 4K (3rd generation) (at 1080p)</li></ul></details><details><summary>tvOS 27.2</summary><p>Build version: <code>24K150</code></p><p>Devices:</p><ul><li>Apple TV 4K (4th generation)</li><li>Apple TV 4K (4th generation) (at 1080p)</li></ul></details><details><summary>watchOS 26.5</summary><p>Build version: <code>23T570</code></p><p>Devices:</p><ul><li>Apple Watch Series 11 (46mm)</li><li>Apple Watch Series 11 (42mm)</li><li>Apple Watch Ultra 3 (49mm)</li><li>Apple Watch SE 3 (44mm)</li><li>Apple Watch SE 3 (40mm)</li></ul></details><details><summary>watchOS 27.0</summary><p>Build version: <code>24R362</code></p><p>Devices:</p><ul><li>Apple Watch Series 12 (46mm)</li><li>Apple Watch Series 12 (42mm)</li><li>Apple Watch Ultra 4 (49mm)</li><li>Apple Watch SE 3 (44mm)</li><li>Apple Watch SE 3 (40mm)</li></ul></details><details><summary>watchOS 27.2</summary><p>Build version: <code>24S118</code></p><p>Devices:</p><ul><li>Apple Watch Series 12 (46mm)</li><li>Apple Watch Series 12 (42mm)</li><li>Apple Watch Ultra 4 (49mm)</li><li>Apple Watch SE 3 (44mm)</li><li>Apple Watch SE 3 (40mm)</li></ul></details><details><summary>visionOS 27.0</summary><p>Build version: <code>24M362</code></p><p>Devices:</p><ul><li>Apple Vision Pro</li></ul></details><details><summary>visionOS 27.2</summary><p>Build version: <code>24N120</code></p><p>Devices:</p><ul><li>Apple Vision Pro</li></ul></details><h2 id=cli-tools>CLI tools
+<a class=anchor href=#cli-tools>#</a></h2><h3 id=apple-development>Apple development
+<a class=anchor href=#apple-development>#</a></h3><details><summary>Xcode version</summary><pre>
+$ xcodebuild -version
+<br>
+Xcode 27.1
+Build version 27A9275
+</pre></details><details><summary>CoreSimulator.framework - 1174.21</summary><pre>
+$ /usr/libexec/PlistBuddy -c &#34;print &#39;CFBundleVersion&#39;&#34; /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Info.plist
+<br>
+1174.21
+</pre></details><details><summary>Metal Toolchain</summary><pre>
+$ xcodebuild -showComponent MetalToolchain
+<br>
+Asset Path: /System/Library/AssetsV2/com_apple_MobileAsset_MetalToolchain/389a215aea89fda945178f9fb8bcdc6aa0e20570.asset/AssetData
+Build Version: 27A266a
+Status: installed
+Toolchain Identifier: com.apple.dt.toolchain.Metal.32023.921.5
+Toolchain Search Path: /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.gq2Fk1
+</pre></details><details><summary>Swift (Xcode bundled)</summary><pre>
+$ xcrun swift --version
+<br>
+swift-driver version: 1.168.6 Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+Target: arm64-apple-macosx26.0
+</pre></details><details><summary>Active Xcode command line tools</summary><pre>
+$ xcode-select --print-path
+<br>
+/Applications/Xcode-27.1.0.app/Contents/Developer
+</pre></details><details><summary>Rosetta</summary><pre>
+$ pkgutil --pkg-info com.apple.pkg.RosettaUpdateAuto
+<br>
+package-id: com.apple.pkg.RosettaUpdateAuto
+version: 1.0.0.0.1786586848
+volume: /
+location: /
+install-time: 1794488122
+</pre></details><details><summary>swift-format - 603.0.0</summary><pre>
+$ swift-format --version
+<br>
+603.0.0
+</pre></details><details><summary>LicensePlist - 3.28.2</summary><pre>
+$ license-plist --version
+<br>
+3.28.2
+</pre></details><details><summary>Tuist - 4.205.0</summary><pre>
+$ tuist version
+<br>
+4.205.0
+</pre></details><details><summary>Homebrew config</summary><pre>
+$ brew config
+<br>
+HOMEBREW_VERSION: 7.0.13
+ORIGIN: https://github.com/Homebrew/brew
+HEAD: bc63375ac3a4d6debb1ceb441ae6e22854f0909a
+Last commit: 4 days ago
+Branch: stable
+Core tap: N/A
+Core cask tap: N/A
+HOMEBREW_PREFIX: /opt/homebrew
+HOMEBREW_CASK_OPTS: [&#34;--no-quarantine&#34;]
+HOMEBREW_NO_ANALYTICS: set
+HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set
+HOMEBREW_NO_INSTALL_CLEANUP: set
+Homebrew Ruby: 4.0.9 =&gt; /opt/homebrew/Library/Homebrew/vendor/portable-ruby/4.0.9/bin/ruby
+CPU: 14-core 64-bit dunno
+Clang: 21.0.0 build 2100
+Git: 2.56.1 =&gt; /opt/homebrew/opt/git/bin/git
+Curl: 8.22.0 =&gt; /opt/homebrew/opt/curl/bin/curl
+macOS: 26.6.2-arm64
+CLT: 27.0.0.0.1788430756
+Xcode: 27.1 =&gt; /Applications/Xcode-27.1.0.app/Contents/Developer
+Metal Toolchain: 27.1 (27A266)
+Rosetta 2: false
+</pre></details><details><summary>Mint - 0.18.0</summary><pre>
+$ mint version
+<br>
+Version: 0.18.0
+</pre></details><details><summary>Cocoapods config</summary><pre>
+$ pod env
+<br>
+### Stack
+
+```
+   CocoaPods : 1.17.0
+        Ruby : ruby 4.0.6 (2026-07-14 revision 03b6d3f889) &#43;PRISM [arm64-darwin25]
+    RubyGems : 4.0.16
+        Host : macOS 26.6.2 (25G83)
+       Xcode : 27.1 (27A9275)
+         Git : git version 2.56.1
+Ruby lib dir : /Users/vagrant/.asdf/installs/ruby/4.0.6/lib
+Repositories : master - git - https://github.com/CocoaPods/Specs.git @ ef56b77fd73e90e0954cf040083b67accac74bae
+
+               trunk - CDN - https://cdn.cocoapods.org/
+```
+
+### Installation Source
+
+```
+Executable Path: /Users/vagrant/.asdf/installs/ruby/4.0/bin/pod
+```
+
+### Plugins
+
+```
+cocoapods-deintegrate : 1.0.5
+cocoapods-plugins     : 1.0.0
+cocoapods-search      : 1.0.1
+cocoapods-trunk       : 1.6.0
+cocoapods-try         : 1.2.0
+slather               : 2.8.5
+```
+</pre></details><details><summary>Carthage - 0.40.0</summary><pre>
+$ carthage version
+<br>
+0.40.0
+</pre></details><details><summary>SwiftLint - 0.65.1</summary><pre>
+$ swiftlint version
+<br>
+0.65.1
+</pre></details><details><summary>xcpretty - 0.4.1</summary><pre>
+$ xcpretty --version
+<br>
+0.4.1
+</pre></details><details><summary>danger-swift - 3.23.0</summary><pre>
+$ danger-swift --version
+<br>
+3.23.0
+[0;0m
+</pre></details><details><summary>xcbeautify - 3.2.1</summary><pre>
+$ xcbeautify --version
+<br>
+3.2.1
+</pre></details><details><summary>xclogparser - 0.2.49</summary><pre>
+$ xclogparser version
+<br>
+XCLogParser 0.2.49
+</pre></details><h3 id=android-development>Android development
+<a class=anchor href=#android-development>#</a></h3><p><details><summary>Emulator version - 37.1.11</summary><pre>
+$ grep ^Pkg.Revision &#34;${ANDROID_HOME}&#34;/emulator/source.properties
+<br>
+Pkg.Revision=37.1.11
+</pre></details><details><summary>bundletool - 1.18.3</summary><pre>
+$ bundletool version
+<br>
+1.18.3
+</pre></details><details><summary>Android SDK packages</summary><pre>Installed packages:
+  Path                   | Version       | Description                      | Location              
+  -------                | -------       | -------                          | -------               
+  build-tools;37.0.0     | 37.0.0        | Android SDK Build-Tools 37       | build-tools/37.0.0    
+  cmake;3.10.2.4988404   | 3.10.2        | CMake 3.10.2.4988404             | cmake/3.10.2.4988404  
+  cmake;3.22.1           | 3.22.1        | CMake 3.22.1                     | cmake/3.22.1          
+  emulator               | 37.1.11       | Android Emulator                 | emulator              
+  ndk;27.1.12297006      | 27.1.12297006 | NDK (Side by side) 27.1.12297006 | ndk/27.1.12297006     
+  ndk;27.3.13750724      | 27.3.13750724 | NDK (Side by side) 27.3.13750724 | ndk/27.3.13750724     
+  platform-tools         | 37.0.1        | Android SDK Platform-Tools       | platform-tools        
+  platforms;android-36   | 2             | Android SDK Platform 36          | platforms/android-36  
+  platforms;android-37.0 | 2             | Android SDK Platform 37.0        | platforms/android-37.0
+  platforms;android-37.1 | 1             | Android SDK Platform 37.1        | platforms/android-37.1
+
+</pre></details></p><h3 id=generic-tools>Generic tools
+<a class=anchor href=#generic-tools>#</a></h3><details><summary>Git - 2.56.1</summary><pre>
+$ git --version
+<br>
+git version 2.56.1
+</pre></details><details><summary>Git LFS - 3.8.0</summary><pre>
+$ git-lfs version
+<br>
+git-lfs/3.8.0 (GitHub; darwin arm64; go 1.27.0)
+</pre></details><details><summary>GitHub CLI - 2.100.0</summary><pre>
+$ gh --version
+<br>
+gh version 2.100.0 (2026-09-03)
+https://github.com/cli/cli/releases/tag/v2.100.0
+</pre></details><details><summary>jq - 1.8.2</summary><pre>
+$ jq --version
+<br>
+jq-1.8.2
+</pre></details><details><summary>yq - 4.53.6</summary><pre>
+$ yq --version
+<br>
+yq (https://github.com/mikefarah/yq/) version v4.53.6
+</pre></details><details><summary>AWS CLI - 2.36.45</summary><pre>
+$ aws --version
+<br>
+aws-cli/2.36.45 Python/3.14.7 Darwin/25.6.0 source/arm64
+</pre></details><details><summary>Google Cloud CLI - 584.0.0</summary><pre>
+$ gcloud version
+<br>
+Google Cloud SDK 584.0.0
+bq 2.1.38
+bundled-python3-unix 3.14.7
+core 2026.09.04
+gcloud-crc32c 1.0.0
+gsutil 5.37
+</pre></details><details><summary>Dart global packages</summary><pre>
+$ dart pub global list
+<br>
+junitreport 2.0.2
+</pre></details><details><summary>pipx packages</summary><pre>
+$ pipx list
+<br>
+venvs are in /Users/vagrant/Library/Application Support/pipx/venvs
+apps are exposed on your $PATH at /Users/vagrant/.local/bin
+manual pages are exposed at /Users/vagrant/.local/share/man
+shell completions are exposed at /Users/vagrant/.local/share
+   package pre-commit 4.6.2, installed using Python 3.14.7
+    - pre-commit
+   package uv 0.12.10, installed using Python 3.14.7
+    - uv
+    - uvx
+   package yamllint 1.38.0, installed using Python 3.14.7
+    - yamllint
+</pre></details><details><summary>Mercurial - 7.2.4</summary><pre>
+$ hg version
+<br>
+Mercurial Distributed SCM (version 7.2.4)
+(see https://mercurial-scm.org for more information)
+
+Copyright (C) 2005-2026 Olivia Mackall and others
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+</pre></details><details><summary>Firebase - 15.30.0</summary><pre>
+$ firebase --version
+<br>
+15.30.0
+</pre></details><details><summary>1Password CLI - 2.39.0</summary><pre>
+$ op --version
+<br>
+2.39.0
+</pre></details><details><summary>OpenConnect - 9.21</summary><pre>
+$ openconnect --version
+<br>
+OpenConnect version v9.21
+Using GnuTLS 3.8.13. Features present: PKCS#11, RSA software token, HOTP software token, TOTP software token, Yubikey OATH, System keys, DTLS, ESP
+Supported protocols: anyconnect (default), nc, gp, pulse, f5, fortinet, array
+Default vpnc-script (override with --script): /opt/homebrew/etc/vpnc/vpnc-script
+</pre></details><details><summary>CMake - 4.4.3</summary><pre>
+$ cmake --version
+<br>
+cmake version 4.4.3
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+</pre></details><details><summary>OpenVPN - 2.7.7</summary><pre>
+$ openvpn --version
+<br>
+OpenVPN 2.7.7 aarch64-apple-darwin25.6.0 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [MH/RECVDA] [AEAD]
+library versions: OpenSSL 3.6.4 25 Aug 2026, LZO 2.10
+Originally developed by James Yonan
+Copyright (C) 2002-2026 OpenVPN Inc &lt;sales@openvpn.net&gt;
+Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=no enable_debug=no enable_dependency_tracking=no enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_dns_updown_by_default=yes enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=yes enable_lzo=yes enable_management=yes enable_ntlm=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=yes enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_silent_rules=no enable_small=no enable_static=yes enable_systemd=no enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=no with_mem_check=no with_openssl_engine=auto with_sysroot=no
+</pre></details><details><summary>ripgrep - 15.2.0</summary><pre>
+$ rg --version
+<br>
+ripgrep 15.2.0
+
+features:&#43;pcre2
+simd(compile):&#43;NEON
+simd(runtime):&#43;NEON
+
+PCRE2 10.45 is available (JIT is available)
+</pre></details><details><summary>Nix - 2.95.2</summary><pre>
+$ nix --version
+<br>
+nix (Lix, like Nix) 2.95.2
+System type: aarch64-darwin
+Additional system types: x86_64-darwin
+Features: gc, signed-caches
+System configuration file: /etc/nix/nix.conf
+User configuration files: /Users/vagrant/.config/nix/nix.conf:/etc/xdg/nix/nix.conf
+Store directory: /nix/store
+State directory: /nix/var/nix
+Data directory: /nix/store/4dw2mganmnsxy31wyjll1vrn3gp5x345-lix-2.95.2/share
+</pre></details><details><summary>Nix daemon config</summary><pre>
+$ cat /etc/nix/nix.conf
+<br>
+# Generated by https://install.lix.systems/.
+# See `/nix/lix-installer --version` for the version details.
+
+extra-experimental-features = nix-command flakes
+always-allow-substitutes = true
+extra-trusted-substituters = https://cache.lix.systems
+extra-trusted-public-keys = cache.lix.systems:aBnZUw8zA7H35Cz2RyKFVs3H4PlGTLawyY5KRbvJR8o=
+bash-prompt-prefix = (nix:$name)\040
+max-jobs = auto
+extra-nix-path = nixpkgs=flake:nixpkgs
+trusted-users = root vagrant
+
+!include nix.custom.conf
+</pre></details><details><summary>Fastlane</summary><pre>
+$ fastlane --version
+<br>
+fastlane installation at path:
+/Users/vagrant/.asdf/installs/ruby/4.0.6/lib/ruby/gems/4.0.0/gems/fastlane-2.239.0/bin/fastlane
+-----------------------------
+fastlane 2.239.0
+</pre></details><details><summary>Sentry CLI - 3.7.0</summary><pre>
+$ sentry-cli --version
+<br>
+sentry-cli 3.7.0
+</pre></details><h3 id=global-npm-packages>Global NPM packages
+<a class=anchor href=#global-npm-packages>#</a></h3><details><summary>Global NPM packages</summary><pre>
+$ npm list -g --depth=0
+<br>
+/Users/vagrant/.asdf/installs/nodejs/24.19.0/lib
+├── @crowdin/cli@5.0.2
+├── @ionic/cli@7.2.1
+├── appcenter-cli@3.0.4
+├── cordova@13.0.0
+├── corepack@0.36.0
+├── npm@11.17.0
+├── openupm-cli@4.5.2
+└── react-native@0.87.1
+</pre></details><h3 id=bitrise-specific>Bitrise-specific
+<a class=anchor href=#bitrise-specific>#</a></h3><details><summary>Bitrise CLI - 3.4.1</summary><pre>
+$ bitrise --version
+<br>
+3.4.1
+</pre></details><details><summary>Bitrise stepman - 0.18.7</summary><pre>
+$ stepman --version
+<br>
+0.18.7
+</pre></details><details><summary>Bitrise envman - 2.5.5</summary><pre>
+$ envman --version
+<br>
+2.5.5
+</pre></details><details><summary>Bitrise guest agent - 2.10.7</summary><pre>
+$ /opt/bitrise/virtualization/bin/guest-agent version
+<br>
+Bitrise Virtualization Guest Agent v2.10.7
+2026/11/12 15:39:38 guest agent shut down
+</pre></details><h3 id=homebrew>Homebrew
+<a class=anchor href=#homebrew>#</a></h3><details><summary>All packages</summary><ul><li>ada-url 4.0.0</li><li>aom 3.15.0</li><li>apr 1.7.6</li><li>apr-util 1.6.5</li><li>argon2 20190702_1</li><li>aria2 1.37.0_2</li><li>autoconf 2.73</li><li>aws-c-auth 1.0.0</li><li>aws-c-cal 1.0.0</li><li>aws-c-common 1.0.0</li><li>aws-c-compression 1.0.0</li><li>aws-c-event-stream 1.0.0</li><li>aws-c-http 1.0.0</li><li>aws-c-io 1.0.0</li><li>aws-c-mqtt 1.0.0</li><li>aws-c-s3 1.1.1</li><li>aws-c-sdkutils 1.0.0</li><li>aws-checksums 1.0.0</li><li>awscli 2.36.45</li><li>bazelisk 1.29.0</li><li>boost 1.92.0</li><li>brotli 1.2.0</li><li>bundletool 1.18.3</li><li>c-ares 1.34.8</li><li>ca-certificates 2026-10-20</li><li>cairo 1.18.4</li><li>carthage 0.40.0</li><li>cmake 4.4.3</li><li>coreutils 9.11</li><li>curl 8.22.0</li><li>danger-js 14.0.6</li><li>danger-swift 3.23.0</li><li>dartaotruntime 3.13.3</li><li>dav1d 1.5.4</li><li>double-conversion 3.4.0</li><li>edencommon 2026.07.27.00_1</li><li>fb303 2026.07.27.00</li><li>fbthrift 2026.07.27.00_1</li><li>ffmpeg 9.0.1_1</li><li>firebase-cli 15.30.0</li><li>fizz 2026.07.27.00</li><li>flow 0.331.0</li><li>fmt 12.2.0</li><li>folly 2026.07.27.00_1</li><li>fontconfig 2.18.3</li><li>freetds 1.5.19</li><li>freetype 2.14.3</li><li>fvm 4.3.1</li><li>gd 2.3.3_6</li><li>gettext 1.0</li><li>gflags 2.3.1</li><li>gh 2.100.0</li><li>giflib 6.1.3</li><li>git 2.56.1</li><li>git-lfs 3.8.0</li><li>glib 2.88.3</li><li>glog 0.7.1</li><li>gmp 6.3.0</li><li>gnupg 2.5.22</li><li>gnutls 3.8.13_2</li><li>graphite2 1.3.15</li><li>groovy 5.1.2</li><li>harfbuzz 14.4.0</li><li>hdrhistogram_c 0.11.10</li><li>hub 2.14.2</li><li>icu4c@78 78.3</li><li>imagemagick 7.1.2-31</li><li>jemalloc 5.3.1</li><li>jenv 0.6.0</li><li>jpeg-turbo 3.2.0</li><li>jq 1.8.2</li><li>json-c 0.19</li><li>kotlin 2.4.20</li><li>krb5 1.22.2</li><li>lame 4.0</li><li>libassuan 3.0.2</li><li>libavif 1.4.2</li><li>libde265 1.1.3</li><li>libevent 2.1.13</li><li>libffi 3.8.0</li><li>libgcrypt 1.12.4</li><li>libgpg-error 1.61</li><li>libheif 1.23.4</li><li>libidn2 2.3.8</li><li>libksba 1.8.1</li><li>libnghttp2 1.70.0</li><li>libnghttp3 1.18.0</li><li>libngtcp2 1.25.0</li><li>libpng 1.6.58</li><li>libpq 18.6</li><li>libpsl 0.23.3</li><li>libsodium 1.0.22</li><li>libssh2 1.11.1_5</li><li>libtasn1 4.21.0</li><li>libtiff 4.7.2</li><li>libtomcrypt 1.18.2_1</li><li>libtommath 1.3.0</li><li>libtool 2.6.2</li><li>libunistring 1.5</li><li>libusb 1.0.30</li><li>libuv 1.52.1</li><li>libvmaf 3.2.1</li><li>libvpx 1.17.0</li><li>libx11 1.8.13</li><li>libxau 1.0.12</li><li>libxcb 1.17.0</li><li>libxdmcp 1.1.5</li><li>libxext 1.3.7</li><li>libxrender 0.9.12</li><li>libyaml 0.2.5</li><li>libzip 1.11.4_1</li><li>licenseplist 3.28.2</li><li>little-cms2 2.19.1</li><li>llhttp 9.4.3</li><li>lokalise2 3.1.7</li><li>lz4 1.10.0</li><li>lzo 2.10</li><li>m4 1.4.21</li><li>mercurial 7.2.4</li><li>merve 1.2.2_2</li><li>mint 0.18.0</li><li>mpdecimal 4.0.1</li><li>mpg123 1.33.7</li><li>nbytes 0.1.4</li><li>ncurses 6.6</li><li>net-snmp 5.9.5.2</li><li>nettle 4.0</li><li>node 26.8.2</li><li>npth 1.8</li><li>oniguruma 6.9.10</li><li>openconnect 9.21</li><li>openjdk 26.0.2.1</li><li>openldap 2.7.1</li><li>openssl@3 3.6.4</li><li>openvpn 2.7.7</li><li>opus 1.6.1</li><li>p11-kit 0.26.5</li><li>parallel 20260822</li><li>pcre2 10.49</li><li>php 8.5.10</li><li>pinentry 1.3.3</li><li>pipx 1.17.2</li><li>pixman 0.46.4</li><li>pkcs11-helper 1.31.0</li><li>pkgconf 3.0.7</li><li>python@3.14 3.14.7</li><li>rbenv 1.3.2</li><li>readline 8.3.3</li><li>ripgrep 15.2.0</li><li>ruby-build 20260902</li><li>s2n 1.7.10</li><li>screen 5.0.2</li><li>sdl2-compat 2.32.72</li><li>sdl3 3.4.16</li><li>simdjson 4.6.11</li><li>simdutf 9.1.2</li><li>snappy 1.2.2</li><li>sonar-scanner 8.1.0.6389</li><li>sourcery 2.3.0_1</li><li>sqlite 3.53.4</li><li>stoken 0.93_2</li><li>svt-av1 4.2.0</li><li>swift-format 603.0.0</li><li>swiftlint 0.65.1</li><li>tcl-tk 9.0.4</li><li>telegraf 1.40.0</li><li>tidy-html5 5.8.0</li><li>tmux 3.7c</li><li>transcrypt 2.3.2</li><li>tree 2.3.2</li><li>unixodbc 2.3.14</li><li>utf8proc 2.11.3</li><li>uvwasi 0.0.23</li><li>wangle 2026.07.27.00</li><li>watchman 2026.07.27.00_1</li><li>webp 1.6.0</li><li>wget 1.25.0</li><li>x264 r3222</li><li>x265 4.3</li><li>xcbeautify 3.2.1</li><li>xclogparser 0.2.49</li><li>xcodegen 2.46.0</li><li>xcodes 2.1.0</li><li>xorgproto 2025.1</li><li>xxhash 0.8.3</li><li>xz 5.8.4</li><li>yq 4.53.6</li><li>zeromq 4.3.5_2</li><li>zlib 1.3.2</li><li>zstd 1.5.7_1</li><li>1password-cli 2.39.0</li><li>gcloud-cli 584.0.0</li><li>temurin@11 11.0.32.1,1</li><li>temurin@17 17.0.20.1,1</li><li>temurin@21 21.0.12.1,1</li><li>temurin@25 25.0.4.1,1</li></ul></details><h2 id=os>OS
+<a class=anchor href=#os>#</a></h2><details><summary>macOS system overview</summary><pre>
+$ system_profiler SPSoftwareDataType
+<br>
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 26.6.2 (25G83)
+      Kernel Version: Darwin 25.6.0
+      Boot Volume: Macintosh HD
+      Boot Mode: Normal
+      Computer Name: vm-osx-tahoe-27-g2.mac.m4pro.14c-54g-1e4e604c-e65d-44d8-ab81-9db9d4d6f36f
+      User Name: vagrant (vagrant)
+      Secure Virtual Memory: Enabled
+      System Integrity Protection: Disabled
+      Time since boot: 33 seconds
+</pre></details><details><summary>Disk space</summary><pre>
+$ df -H /
+<br>
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk2s1s1    292G     13G    106G    11%    459k  1.0G    0%   /
+</pre></details><details><summary>OpenSSH</summary><pre>
+$ ssh -V
+<br>
+OpenSSH_10.3p1, LibreSSL 3.3.6
+</pre></details></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/bitrise-io/stacks/commit/2713ef6c02b196b6587f150207ec0763dca5c62b title='Last modified by Marcell Vida | Nov 25, 2026' target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt>
+<span>Nov 25, 2026</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#languages-and-runtimes>Languages and runtimes</a></li><li><a href=#simulators>Simulators</a></li><li><a href=#cli-tools>CLI tools</a><ul><li><a href=#apple-development>Apple development</a></li><li><a href=#android-development>Android development</a></li><li><a href=#generic-tools>Generic tools</a></li><li><a href=#global-npm-packages>Global NPM packages</a></li><li><a href=#bitrise-specific>Bitrise-specific</a></li><li><a href=#homebrew>Homebrew</a></li></ul></li><li><a href=#os>OS</a></li></ul></nav></div></aside></main></body></html>

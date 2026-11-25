@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcements on Bitrise Stacks</title><link>https://stacks.bitrise.io/announcements/</link><description>Recent content in Announcements on Bitrise Stacks</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2026 16:47:21 +0100</lastBuildDate><atom:link href="https://stacks.bitrise.io/announcements/index.xml" rel="self" type="application/rss+xml"/><item><title>About announcements</title><link>https://stacks.bitrise.io/announcements/about-announcements/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/about-announcements/</guid><description>&lt;p>This category is for important upcoming changes that you should be aware of. Examples:&lt;/p>
+&lt;ul>
+&lt;li>stack deprecations&lt;/li>
+&lt;li>stack removals&lt;/li>
+&lt;li>upcoming breaking changes&lt;/li>
+&lt;li>security updates&lt;/li>
+&lt;/ul></description></item><item><title>Deprecating Ubuntu 22.04</title><link>https://stacks.bitrise.io/announcements/deprecating-ubuntu-22.04/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/deprecating-ubuntu-22.04/</guid><description>&lt;p>The 
+ &lt;a href="https://stacks.bitrise.io/stack_reports/linux-docker-android-22.04/">Ubuntu 22.04 stack&lt;/a> was deprecated on June 10, 2026, and will be removed on April 8, 2027.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+This stack is marked as a frozen stack and will no longer receive updates. Your builds continue to run on this stack until the removal date. Read more about our [stack update policy here](https://devcenter.bitrise.io/en/infrastructure/build-stacks/linux-stack-update-policy.html).
+
+&lt;/blockquote>
+
+&lt;h2 id="migration-guide">
+ Migration guide
+ &lt;a class="anchor" href="#migration-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>We recommend migrating your workflows to the 
+ &lt;a href="https://stacks.bitrise.io/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/">Ubuntu Noble 24.04 - Bitrise 2025 Edition stack&lt;/a>, which is the successor of this stack, and is the new stable stack. You can also migrate to our edge stack, 
+ &lt;a href="https://stacks.bitrise.io/stack_reports/ubuntu-resolute-26.04-bitrise-2026-android/">Ubuntu Resolute 26.04 - Bitrise 2026 Edition&lt;/a>, which is the next generation of our Linux stacks, but it may have more breaking changes and less stability than the 24.04 stack.&lt;/p></description></item><item><title>Deprecating Xcode 16.x stacks</title><link>https://stacks.bitrise.io/announcements/deprecating-xcode-16.x-stacks/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/deprecating-xcode-16.x-stacks/</guid><description>&lt;p>The Xcode 16.x stacks (&lt;code>osx-xcode-16.0.x&lt;/code> through &lt;code>osx-xcode-16.4.x&lt;/code>) will be deprecated on October 1, 2026, and will be removed on September 15, 2027.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+Your builds continue to run on these stacks until the removal date. Read more about our [stack update policy here](https://docs.bitrise.io/en/bitrise-platform/infrastructure/build-stacks/stack-update-policy.html).
+
+&lt;/blockquote>
+
+&lt;h2 id="migration-guide">
+ Migration guide
+ &lt;a class="anchor" href="#migration-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>We recommend migrating each workflow to a currently supported stack. The replacement is a newer major Xcode version in which tool versions are different, so expect this to involve more than changing the stack ID:&lt;/p></description></item><item><title>New edge stack: Ubuntu Noble 24.04 Bitrise 2025 Edition</title><link>https://stacks.bitrise.io/announcements/ubuntu-noble-2025/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/ubuntu-noble-2025/</guid><description>&lt;p>
+ &lt;a href="https://stacks.bitrise.io/stack_reports/ubuntu-noble-24.04-bitrise-2025-android/">Ubuntu Noble 24.04 - Bitrise 2025 Edition&lt;/a> is now available as a new edge stack. This is another Linux stack, recommended for Android workflows and is based on Ubuntu 24.04.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+A new stack starts its life as an edge stack. It becomes a stable stack a year later. Read more about our [stack update policy here](https://devcenter.bitrise.io/en/infrastructure/build-stacks/linux-stack-update-policy.html).
+
+&lt;/blockquote>
+
+&lt;p>Besides the new OS version, the stack comes with various tool upgrades and other, possibly breaking changes.&lt;/p></description></item><item><title>New stack: macOS minimal</title><link>https://stacks.bitrise.io/announcements/macos-minimal-stack/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/macos-minimal-stack/</guid><description>&lt;p>
+ &lt;a href="https://bitrise.io/stacks/stack_reports/osx-minimal/">macOS minimal&lt;/a> (&lt;code>osx-minimal&lt;/code>) is now available. It&amp;rsquo;s a trimmed-down macOS stack created for teams that building and testing macOS apps.&lt;/p>
+&lt;p>This stack carries less than our Xcode stacks do. Most notably, it ships without simulator runtimes and android tooling.&lt;/p>
+&lt;p>Why is a minimal stack useful? It is particularly useful for testing macOS apps on the latest OS. There is no such thing as a macOS simulator runtime. Instead, tests execute directly against the OS of the VM where they are running.&lt;/p></description></item><item><title>Removing Xcode 15.x stacks</title><link>https://stacks.bitrise.io/announcements/removing-xcode-15.x-stacks/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/removing-xcode-15.x-stacks/</guid><description>&lt;p>The Xcode 15.x stacks (&lt;code>osx-xcode-15.0.x&lt;/code> through &lt;code>osx-xcode-15.4.x&lt;/code>) have been deprecated since October 1, 2025, and will be removed on September 16, 2026.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+These stacks are marked as frozen and no longer receive updates. Your builds continue to run on them until the removal date. Read more about our [stack update policy here](https://docs.bitrise.io/en/bitrise-platform/infrastructure/build-stacks/stack-update-policy.html).
+
+&lt;/blockquote>
+
+&lt;h2 id="migration-guide">
+ Migration guide
+ &lt;a class="anchor" href="#migration-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>We recommend migrating each workflow to a currently supported stack. The replacement is a newer major version in which tool versions are different, so expect this to involve more than changing the stack ID:&lt;/p></description></item><item><title>Removing Xcode 26 edge stacks</title><link>https://stacks.bitrise.io/announcements/removing-xcode-26-edge-stacks/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/removing-xcode-26-edge-stacks/</guid><description>&lt;p>The Xcode 26 edge stacks (&lt;code>osx-xcode-26.0.x-edge&lt;/code> through &lt;code>osx-xcode-26.5.x-edge&lt;/code>) will be deprecated on July 1, 2026, and will be removed on August 1, 2026.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+Each Xcode 26 version has a matching stable stack. Read more about our [stack update policy here](https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html).
+
+&lt;/blockquote>
+
+&lt;h2 id="migration-guide">
+ Migration guide
+ &lt;a class="anchor" href="#migration-guide">#&lt;/a>
+&lt;/h2>
+&lt;p>We recommend migrating each workflow to the matching stable stack:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Edge stack&lt;/th>
+ &lt;th>Migrate to&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.0.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.0.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.1.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.1.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.2.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.2.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.3.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.3.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.4.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.4.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;code>osx-xcode-26.5.x-edge&lt;/code>&lt;/td>
+ &lt;td>&lt;code>osx-xcode-26.5.x&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>Alternatively, to stay on the edge channel, target your builds at the new &lt;code>osx-xcode-27.0.x-edge&lt;/code> stack.&lt;/p></description></item><item><title>Ubuntu 22 public preview</title><link>https://stacks.bitrise.io/announcements/ubuntu-22/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/ubuntu-22/</guid><description>&lt;p>The 
+ &lt;a href="https://stacks.bitrise.io/stack_reports/linux-docker-android-22.04/">Ubuntu 22 stack&lt;/a> is now available in public preview. This is another Linux stack recommended for Android workflows, but based on Ubuntu 22.04 instead of Ubuntu 20.04.&lt;/p>
+&lt;p>Besides the new OS version, the new stack has a few major changes that we long wanted to make, but we didn&amp;rsquo;t want to break workflows running on the Ubuntu 20 stack.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+Something missing? [Share your feedback here](https://github.com/bitrise-io/stacks/discussions/252)!
+
+&lt;/blockquote>
+
+&lt;p>The changes are grouped into categories according to the related platforms:&lt;/p></description></item><item><title>Upcoming Linux updates in April 2026</title><link>https://stacks.bitrise.io/announcements/2026-linux-stacks/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/2026-linux-stacks/</guid><description>&lt;p>According to the 
+ &lt;a href="https://docs.bitrise.io/en/bitrise-platform/infrastructure/build-stacks/linux-stack-update-policy.html">Linux stack update policy&lt;/a>, we are making changes to the Linux stacks in April 2026:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Ubuntu Noble 24.04 - Bitrise 2025 Edition&lt;/code> will become the default stable stack.&lt;/li>
+&lt;li>&lt;code>Ubuntu 22.04 for Android &amp;amp; Docker&lt;/code> will become a frozen stack.&lt;/li>
+&lt;li>&lt;code>Ubuntu Resolute 26.04 - Bitrise 2026 Edition&lt;/code> will be available as a new edge stack.&lt;/li>
+&lt;/ul>
+&lt;p>Read more about the changes 
+ &lt;a href="https://bitrise.io/blog/post/upcoming-linux-updates-in-april-2026">here&lt;/a>.&lt;/p></description></item><item><title>Upcoming stack changes for Xcode 14 and 15</title><link>https://stacks.bitrise.io/announcements/2023-september/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/2023-september/</guid><description>&lt;p>According to our 
+ &lt;a href="https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html">stack update policy&lt;/a> release of Xcode 15 GA means we&amp;rsquo;ll be transitioning our current Edge stacks to the matching Stable stacks. This could present breaking changes for some workflows.&lt;/p>
+&lt;h3 id="ruby">
+ Ruby
+ &lt;a class="anchor" href="#ruby">#&lt;/a>
+&lt;/h3>
+&lt;p>The default version doesn&amp;rsquo;t change effectively (still &lt;code>3.2.2&lt;/code>), but it&amp;rsquo;s set as &lt;code>3.2&lt;/code>. It&amp;rsquo;s a special alias version that always points to the latest available patch version of Ruby 3.2.x. We recommend declaring one of the major.minor version aliases in workflows to ensure it remains functional even if the patch version is updated with the latest fixes.&lt;/p></description></item><item><title>Xcode 16 is coming with major stack changes</title><link>https://stacks.bitrise.io/announcements/xcode-16/</link><pubDate>Wed, 25 Nov 2026 16:47:21 +0100</pubDate><guid>https://stacks.bitrise.io/announcements/xcode-16/</guid><description>&lt;p>According to our 
+ &lt;a href="https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-update-policy.html">stack update policy&lt;/a>, the release of stable Xcode 16 means we&amp;rsquo;ll be transitioning our current Edge stack (with Xcode 16 Beta) to a new Stable stack. There are some breaking changes compared to older Stable stacks, so we collected those below, grouped into categories per platform.&lt;/p>
+&lt;blockquote class="book-hint info">
+ 
+Existing Stable stacks (Xcode 14.x and 15.x) won't receive these changes, only the upcoming Xcode 16.0 stack.
+
+&lt;/blockquote>
+
+&lt;h3 id="general-changes">
+ General changes
+ &lt;a class="anchor" href="#general-changes">#&lt;/a>
+&lt;/h3>
+&lt;h4 id="macos-upgrade">
+ macOS upgrade
+ &lt;a class="anchor" href="#macos-upgrade">#&lt;/a>
+&lt;/h4>
+&lt;p>This stack is based on the latest version of macOS Sonoma (macOS 14). If migrating from the Xcode 15.2 stack or earlier, this means a major OS version upgrade for you (the Xcode 15.3 and 15.4 stacks are already based on Sonoma).&lt;/p></description></item><item><title>Upcoming stack deprecations</title><link>https://stacks.bitrise.io/announcements/upcoming-stack-deprecations/</link><pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate><guid>https://stacks.bitrise.io/announcements/upcoming-stack-deprecations/</guid><description>&lt;p>Stacks are not kept forever, older stacks are eventually marked for removal. You can read more about this in our 
+ &lt;a href="https://devcenter.bitrise.io/en/infrastructure/build-stacks/stack-deprecation-and-removal-policy.html">stack deprecation and removal policy&lt;/a>.&lt;/p>
+&lt;p>This page is an up-to-date overview of upcoming stack deprecations.&lt;/p>
+&lt;h2 id="upcoming-stack-deprecations">
+ Upcoming stack deprecations
+ &lt;a class="anchor" href="#upcoming-stack-deprecations">#&lt;/a>
+&lt;/h2>
+&lt;p>The following table shows the currently deprecated stacks that are marked for removal.&lt;/p>
+&lt;p>While the stack is marked as deprecated, you can still run builds on it, but it&amp;rsquo;s recommended to migrate your workflows to a more modern stack. On the day of removal, remaining users will be migrated to the stack shown in the &lt;em>Automatic migration to&lt;/em> column. If you encounter any difficulties during migration or require support, our dedicated 
+ &lt;a href="https://support.bitrise.io">customer support team&lt;/a> would be happy to assist.&lt;/p></description></item><item><title>cURL CVE-2023-38545</title><link>https://stacks.bitrise.io/announcements/curl-cve-2023-38545/</link><pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate><guid>https://stacks.bitrise.io/announcements/curl-cve-2023-38545/</guid><description>&lt;p>The cURL project has recently published a security advisory for 
+ &lt;a href="https://curl.se/docs/CVE-2023-38545.html">CVE-2023-38545&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>This vulnerability affects the SOCKS5 proxy feature of cURL.&lt;/strong>&lt;/p>
+&lt;p>The advisory&amp;rsquo;s recommendations are:&lt;/p>
+&lt;blockquote>
+&lt;p>A - Upgrade curl to version 8.4.0&lt;/p>
+&lt;p>B - Apply the patch to your local version&lt;/p>
+&lt;p>C - Do not use CURLPROXY_SOCKS5_HOSTNAME proxies with curl&lt;/p>
+&lt;p>D - Do not set a proxy environment variable to socks5h://&lt;/p>&lt;/blockquote>
+&lt;h2 id="bitrise-stacks">
+ Bitrise stacks
+ &lt;a class="anchor" href="#bitrise-stacks">#&lt;/a>
+&lt;/h2>
+&lt;p>Bitrise stacks ship with the &lt;code>curl&lt;/code> CLI tool, as well as the &lt;code>libcurl&lt;/code> package on Linux.&lt;/p></description></item></channel></rss>
